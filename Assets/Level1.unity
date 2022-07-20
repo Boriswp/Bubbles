@@ -233,7 +233,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 270291093}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.15, y: 4.35, z: 0}
+  m_LocalPosition: {x: -2.38, y: 4.513, z: 0}
   m_LocalScale: {x: 0.001, y: 0.001, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -634,7 +634,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 584895272}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.37, y: -0.06, z: 0}
+  m_LocalPosition: {x: 3.31, y: 0.05, z: 0}
   m_LocalScale: {x: 0.39469656, y: 4.3928847, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -756,9 +756,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bubble: {fileID: 172582, guid: 4e1d777636360304caf3934d725f7c53, type: 3}
   initialPos: {fileID: 270291093}
-  columns: 4
-  rows: 3
-  gap: 1.4
+  columns: 9
+  rows: 4
+  gap: 0.6
   youWin: {fileID: 2081897726}
   youLose: {fileID: 102723397}
 --- !u!82 &747305830
@@ -1045,7 +1045,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100358638}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.37, y: -0.02, z: 0}
+  m_LocalPosition: {x: -3.35, y: 0.04, z: 0}
   m_LocalScale: {x: 0.39469656, y: 4.3928847, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

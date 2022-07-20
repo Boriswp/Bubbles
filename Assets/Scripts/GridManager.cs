@@ -16,7 +16,7 @@ public class GridManager : MonoBehaviour
 	public GameObject youLose;
 
 	const int COL_MAX = 12;
-	const int ROW_MAX = 8;
+	const int ROW_MAX = 7;
 
 	string LoadLevel()
 	{
@@ -27,7 +27,7 @@ public class GridManager : MonoBehaviour
 		}
 	}
 
-	void Start()
+	void Awake()
 	{
 		grid = new GameObject[COL_MAX, ROW_MAX];
 
@@ -129,10 +129,12 @@ public class GridManager : MonoBehaviour
 		GameObject bubbleClone = (GameObject)Instantiate(bubble, snappedPosition, Quaternion.identity);
 		try
 		{
+			Debug.Log($"{column}, {row}");
 			grid[column, -row] = bubbleClone;
 		}
 		catch (System.IndexOutOfRangeException)
 		{
+			Debug.Log($"smtWrong: {column}, {row}");
 			Destroy(bubbleClone);
 			return null;
 		}
@@ -318,6 +320,7 @@ public class GridManager : MonoBehaviour
 				}
 				catch (System.IndexOutOfRangeException)
 				{
+					Debug.Log("smtWrong");
 				}
 			}
 		}
