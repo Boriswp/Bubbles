@@ -16,8 +16,8 @@ public class GridManager : MonoBehaviour
 	public GameObject youLose;
 
 	const int COL_MAX = 12;
-	const int ROW_MAX = 7;
-
+	const int ROW_MAX = 8;
+	const int LOSE_COUNT_ROW = 7
 	string LoadLevel()
 	{
 		using (StreamReader r = new StreamReader("Assets/Data/level1.data"))
@@ -114,7 +114,6 @@ public class GridManager : MonoBehaviour
 	{
 		Vector3 snappedPosition = Snap(position);
 		int row = (int)Mathf.Round((snappedPosition.y - initialPos.transform.position.y) / gap);
-		Debug.Log("Row" + row);
 		int column = 0;
 		if (row % 2 != 0)
 		{
@@ -170,7 +169,7 @@ public class GridManager : MonoBehaviour
 		}
 		bubbleClone.SetActive(true);
 
-		if (row == -6 && youLose != null)
+		if (row == -LOSE_COUNT_ROW && youLose != null)
 			youLose.SetActive(true);
 
 		try
