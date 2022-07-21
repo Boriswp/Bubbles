@@ -8,54 +8,44 @@ public class Launcher : MonoBehaviour
 
 	public const float LAUNCH_SPEED = 15f;
 
-	void Start()
+	private void Awake()
 	{
 		Load();
 	}
 
-	void Update()
+	void FixedUpdate()
 	{
 		Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-		Vector2 delta = mousePos - new Vector2(transform.position.x, transform.position.y);
+		var delta = mousePos - (Vector2)transform.position;
 		transform.rotation = Quaternion.Euler(0f, 0f, 90 - Mathf.Rad2Deg * Mathf.Atan2(delta.x, delta.y));
-
-		if (Input.GetMouseButtonDown(0))
-		{
-			Fire();
-		}
 	}
 
 	public void Load()
 	{
-		if (load == null)
-		{
-			load = (GameObject)Instantiate(ball, transform.position, transform.rotation);
-			load.SetActive(true);
+		if (load != null) return;
+		load = Instantiate(ball, transform.position, transform.rotation);
+		load.SetActive(true);
 
-			CircleCollider2D collider = load.GetComponent<CircleCollider2D>();
-			if (collider != null)
-				collider.enabled = false;
+		var circleCollider2D = load.GetComponent<CircleCollider2D>();
+		if (circleCollider2D != null)
+			circleCollider2D.enabled = false;
 
-			Hitter hitter = load.GetComponent<Hitter>();
-			if (hitter != null)
-				hitter.parent = gameObject;
-		}
+		var hitter = load.GetComponent<Hitter>();
+		if (hitter != null)
+			hitter.parent = gameObject;
 	}
 
-	void Fire()
+	public void Fire()
 	{
-		if (load != null)
+		if (load == null) return;
+		var circleCollider2D = load.GetComponent<CircleCollider2D>();
+		if (circleCollider2D != null)
+			circleCollider2D.enabled = true;
+
+		var rb = load.GetComponent<Rigidbody2D>();
+		if (rb != null)
 		{
-
-			CircleCollider2D collider = load.GetComponent<CircleCollider2D>();
-			if (collider != null)
-				collider.enabled = true;
-
-			Rigidbody2D rb = load.GetComponent<Rigidbody2D>();
-			if (rb != null)
-			{
-				rb.velocity = transform.right * LAUNCH_SPEED;
-			}
+			rb.velocity = transform.right * LAUNCH_SPEED;
 		}
 	}
 }

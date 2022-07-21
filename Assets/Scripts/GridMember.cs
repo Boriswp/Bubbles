@@ -1,5 +1,6 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System;
+using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class GridMember : MonoBehaviour
 {
@@ -7,50 +8,61 @@ public class GridMember : MonoBehaviour
 	public int row;
 	public int column;
 	public int kind;
-	public string state;
+	public BubbleState state = BubbleState.Initial;
 
-	public const float POP_SPEED = 0.9f;
-	public const float EXPLODE_SPEED = 5f;
-	public const float KILL_Y = -30f;
+	private const float POP_SPEED = 0.9f;
+	private const float EXPLODE_SPEED = 5f;
+	private const float KILL_Y = -30f;
 
-	public void Update()
+	public void FixedUpdate()
 	{
-		if (state == "Pop")
+		switch (state)
 		{
-			CircleCollider2D cc = GetComponent<CircleCollider2D>();
-			if (cc != null)
-				cc.enabled = false;
+			case BubbleState.Pop:
+			{
+				var cc = GetComponent<CircleCollider2D>();
+				if (cc != null)
+					cc.enabled = false;
 
-			transform.localScale = transform.localScale * POP_SPEED;
-			if (transform.localScale.sqrMagnitude < 0.05f)
-			{
-				Destroy(gameObject);
-			}
-		}
-		else if (state == "Explode")
-		{
-			CircleCollider2D cc = GetComponent<CircleCollider2D>();
-			if (cc != null)
-				cc.enabled = false;
+				transform.localScale *= POP_SPEED;
+				if (transform.localScale.sqrMagnitude < 0.05f)
+				{
+					Destroy(gameObject);
+				}
 
-			Rigidbody2D rb = GetComponent<Rigidbody2D>();
-			if (rb != null)
-			{
-				rb.gravityScale = 1f;
-				rb.velocity = new Vector3(
-					Random.Range(-EXPLODE_SPEED, EXPLODE_SPEED),
-					Random.Range(-EXPLODE_SPEED, EXPLODE_SPEED),
-					0f
-				);
+				break;
 			}
-			state = "Fall";
-		}
-		else if (state == "Fall")
-		{
-			if (transform.position.y < KILL_Y)
+			case BubbleState.Explode:
 			{
-				Destroy(gameObject);
+				var cc = GetComponent<CircleCollider2D>();
+				if (cc != null)
+					cc.enabled = false;
+
+				var rb = GetComponent<Rigidbody2D>();
+				if (rb != null)
+				{
+					rb.gravityScale = 1f;
+					rb.velocity = new Vector3(
+						Random.Range(-EXPLODE_SPEED, EXPLODE_SPEED),
+						Random.Range(-EXPLODE_SPEED, EXPLODE_SPEED),
+						0f
+					);
+				}
+				state = BubbleState.Fall;
+				break;
 			}
+			case BubbleState.Fall:
+			{
+				if (transform.position.y < KILL_Y)
+				{
+					Destroy(gameObject);
+				}
+				break;
+			}
+			case BubbleState.Initial:
+				break;
+			default:
+				throw new ArgumentOutOfRangeException();
 		}
 	}
 
