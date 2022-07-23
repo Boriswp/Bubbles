@@ -30,13 +30,16 @@ public class Hitter : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D collider)
 	{
-		if(collided) return;
+		if(collided||collider==null) return;
 		collided = true;
 		enabled = false;
 		var gridManager = parent.GetComponent<GridManager>();
 		var newBubble = gridManager.Create(transform.position, kind);
-		var gridMember = newBubble.GetComponent<GridMember>(); 
-		gridManager.Seek(gridMember.column, -gridMember.row, gridMember.kind);
+		if (newBubble != null)
+		{
+			var gridMember = newBubble.GetComponent<GridMember>();
+			gridManager.Seek(gridMember.column, -gridMember.row, gridMember.kind);
+		}
 		var launcher = parent.GetComponent<Launcher>();
 		launcher.load = null;
 		launcher.Load();
