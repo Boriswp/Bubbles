@@ -29,7 +29,6 @@ public class GridMember : MonoBehaviour
 				{
 					Destroy(gameObject);
 				}
-
 				break;
 			}
 			case BubbleState.Explode:

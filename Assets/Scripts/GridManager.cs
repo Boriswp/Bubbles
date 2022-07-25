@@ -16,7 +16,7 @@ public class GridManager : MonoBehaviour
 	public GameObject youLose; 
 	public int loseCountRow = 13;
 
-	const int COL_MAX = 9;
+	const int COL_MAX = 6;
 	const int ROW_MAX = 14;
 
 
@@ -69,19 +69,37 @@ public class GridManager : MonoBehaviour
 
 	public GameObject Create(Vector2 position, int kind)
 	{
-		Debug.Log(position);
-		var snappedPosition = Snap(position);
-		var row = (int)Mathf.Round((snappedPosition.y - initialPos.transform.position.y) / gap);
-		int column = (int)Mathf.Round((snappedPosition.x - initialPos.transform.position.x) / gap);
-		try {
-				var bubbleClone = Instantiate(bubble, snappedPosition, Quaternion.identity);
+		while (true)
+		{
+			var snappedPosition = Snap(position);
+			var position1 = initialPos.transform.position;
+			var row = (int)Mathf.Round((snappedPosition.y - position1.y) / gap);
+			int column;
+			if (row % 2 != 0)
+			{
+				column = (int)Mathf.Round((snappedPosition.x - position1.x) / gap + gap);
+			}
+			else
+			{
+				column = (int)Mathf.Round((snappedPosition.x - position1.x) / gap);
+			}
 
+			if (grid[column, -row] != null)
+			{
+				var pos = new Vector2(position.x, position.y - gap);
+				position = pos;
+				continue;
+			}
+
+			try
+			{
+				var bubbleClone = Instantiate(bubble, snappedPosition, Quaternion.identity);
 				var circleCollider2D = bubbleClone.GetComponent<CircleCollider2D>();
 				circleCollider2D.isTrigger = true;
 
 				var gridMember = bubbleClone.GetComponent<GridMember>();
 				gridMember.parent = gameObject;
-				
+
 				gridMember.row = row;
 				gridMember.column = column;
 				if (kind == 6)
@@ -96,59 +114,54 @@ public class GridManager : MonoBehaviour
 				var spriteRenderer = bubbleClone.GetComponent<SpriteRenderer>();
 				Color[] colorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta };
 				spriteRenderer.color = colorArray[gridMember.kind - 1];
-				
+
 				bubbleClone.SetActive(true);
 
-				if (row == -loseCountRow && youLose != null)
-					youLose.SetActive(true);
+				if (row == -loseCountRow && youLose != null) youLose.SetActive(true);
 
 				grid[column, -row] = bubbleClone;
 				return bubbleClone;
-		}
-		catch (System.IndexOutOfRangeException)
-		{
-			Debug.Log($"wrong coord {position}");
-			return null;
+			}
+			catch (System.IndexOutOfRangeException)
+			{
+				Debug.Log($"wrong coord {position}");
+				return null;
+			}
 		}
 	}
 
 
 	private Queue<GameObject> NeighborCounter(Queue<int[]> queue,bool[,] visited, int kind)
 	{
-		int[] deltax = {  0, 0,-1, 1 };
-		int[] deltay = {  1,-1, 0, 0 };
+		int[] deltax = { -1, 0, -1, 0, -1, 1 };
+		int[] deltaxprime = { 1, 0, 1, 0, -1, 1 };
+		int[] deltay = { -1, -1, 1, 1, 0, 0 };
 		var objectQueue = new Queue<GameObject>();
 		while (queue.Count != 0)
 		{
 			var top = queue.Dequeue();
-			var gtop = grid[top[0], top[1]];
-			if (gtop != null)
+			var gTop = grid[top[0], top[1]];
+			if (gTop != null)
 			{
-				objectQueue.Enqueue(gtop);
+				objectQueue.Enqueue(gTop);
 			}
-			for (var i = 0; i < 4; i++)
+			for (var i = 0; i < 6; i++)
 			{
 				var neighbor = new int[2];
-				neighbor[0] = top[0] + deltax[i];
+				neighbor[0] = top[1] % 2 != 0 ? top[0] + deltax[i] : top[0] + deltaxprime[i];
 				neighbor[1] = top[1] + deltay[i];
-				if (neighbor[0] >= ROW_MAX || neighbor[1] >= COL_MAX|| neighbor[0]<0||neighbor[1]<0)
+				if (neighbor[0] >= COL_MAX || neighbor[1] >= ROW_MAX || neighbor[0] < 0 || neighbor[1] < 0)
 				{
 					continue;
 				}
-				Debug.Log($"neighbor: {neighbor[0]} - {neighbor[1]}");
+				Debug.Log($"neighbor:{neighbor[0]}, {neighbor[1]}");
 				var g = grid[neighbor[0], neighbor[1]];
-				if (g != null)
-				{ 
-					var gridMember = g.GetComponent<GridMember>();
-					if (gridMember.kind == kind||kind==0)
-					{
-						if (!visited[neighbor[0], neighbor[1]])
-						{
-							visited[neighbor[0], neighbor[1]] = true;
-							queue.Enqueue(neighbor);
-						}
-					}
-				}
+				if (g == null) continue;
+				var gridMember = g.GetComponent<GridMember>();
+				if (gridMember.kind != kind && kind != 0) continue;
+				if (visited[neighbor[0], neighbor[1]]) continue;
+				visited[neighbor[0], neighbor[1]] = true;
+				queue.Enqueue(neighbor);
 			}
 		}
 		return objectQueue;
@@ -159,9 +172,7 @@ public class GridManager : MonoBehaviour
 		int[] pair = { column, row };
 
 		var visited = new bool[COL_MAX, ROW_MAX];
-
 		visited[column, row] = true;
-
 		var queue = new Queue<int[]>();
 		queue.Enqueue(pair);
 		var objectQueue = NeighborCounter(queue, visited,kind);
@@ -174,6 +185,7 @@ public class GridManager : MonoBehaviour
 				var gm = g.GetComponent<GridMember>();
 				if (gm == null) continue;
 				grid[gm.column, -gm.row] = null;
+				Debug.Log($"POP {objectQueue.Count}");
 				gm.state = BubbleState.Pop;
 			}
 
@@ -187,7 +199,7 @@ public class GridManager : MonoBehaviour
 	private void CheckCeiling(int ceiling)
 	{
 		var visited = new bool[COL_MAX, ROW_MAX];
-
+	
 		var queue = new Queue<int[]>();
 
 		for (var i = 0; i < COL_MAX; i++)
@@ -200,12 +212,10 @@ public class GridManager : MonoBehaviour
 
 		var objectQueue = NeighborCounter(queue,visited,0);
 
-		if (objectQueue.Count== 0)
-		{
-			if (youWin != null)
-				youWin.SetActive(true);
-		}
-
+		if (objectQueue.Count != 0) return;
+		if (youWin != null)
+			youWin.SetActive(true);
+		
 		for (var r = 0; r < ROW_MAX; r++)
 		{
 			for (var c = 0; c < COL_MAX; c++)
