@@ -24,7 +24,7 @@ public class Hitter : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D collider)
 	{
-		if(collided||collider==null) return;
+		if(collided||collider==null||this==null) return;
 		collided = true;
 		enabled = false;
 		var gridMember = gridManager.CreateSimple(gameObject, kind);
@@ -32,6 +32,5 @@ public class Hitter : MonoBehaviour
 		var launcher = parent.GetComponent<Launcher>();
 		launcher.load = null;
 		launcher.Load();
-		this.enabled = false;
 	}
 }

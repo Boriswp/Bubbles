@@ -10,7 +10,7 @@ public class TrajectoryRay : MonoBehaviour
 
     LineRenderer lineRenderer;
 
-    List<Vector3> reflectionPositions = new List<Vector3>();
+    List<Vector3> reflectionPositions = new();
 
     private void Awake()
     {
@@ -19,30 +19,28 @@ public class TrajectoryRay : MonoBehaviour
         lineRenderer.endWidth = 0.1f;
     }
 
-    void Update()
+    private void Update()
     {
         DrawCurrentTrajectory();
     }
 
-    void DrawCurrentTrajectory()
+    private void DrawCurrentTrajectory()
     {
         reflectionPositions.Clear();
 
         Vector2 position = transform.position;
-        Vector2 direction = firePosition.position - transform.position;
+        Vector2 direction = Vector2.up;
 
         reflectionPositions.Add(position);
 
-        for (int i = 0; i <= maximumReflectionCount; ++i)
+        for (var i = 0; i <= maximumReflectionCount; ++i)
         {
-            RaycastHit2D hit = Physics2D.Raycast(position, direction, maximumRayCastDistance);
-            if (hit)
-            {
-                position = hit.point + hit.normal * 0.00001f;
-                direction = Vector2.Reflect(direction, hit.normal);
+            var hit = Physics2D.Raycast(position, direction, maximumRayCastDistance);
+            if (!hit) continue;
+            position = hit.point + hit.normal * 0.00001f;
+            direction = Vector2.Reflect(direction, hit.normal);
 
-                reflectionPositions.Add(position);
-            }
+            reflectionPositions.Add(position);
         }
 
         lineRenderer.positionCount = reflectionPositions.Count;
