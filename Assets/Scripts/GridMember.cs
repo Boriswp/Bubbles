@@ -11,8 +11,17 @@ public class GridMember : MonoBehaviour
 	public BubbleState state = BubbleState.Initial;
 
 	private const float POP_SPEED = 0.9f;
-	private const float EXPLODE_SPEED = 5f;
+	private const float EXPLODE_SPEED = 8f;
 	private const float KILL_Y = -30f;
+
+	private CircleCollider2D circleCollider2D;
+	private Rigidbody2D rigidBody2D;
+
+	private void Awake()
+    {
+		circleCollider2D = GetComponent<CircleCollider2D>();
+		rigidBody2D = GetComponent<Rigidbody2D>();
+	}
 
 	public void FixedUpdate()
 	{
@@ -20,9 +29,7 @@ public class GridMember : MonoBehaviour
 		{
 			case BubbleState.Pop:
 			{
-				var cc = GetComponent<CircleCollider2D>();
-				if (cc != null)
-					cc.enabled = false;
+				circleCollider2D.enabled = false;
 
 				transform.localScale *= POP_SPEED;
 				if (transform.localScale.sqrMagnitude < 0.05f)
@@ -33,20 +40,15 @@ public class GridMember : MonoBehaviour
 			}
 			case BubbleState.Explode:
 			{
-				var cc = GetComponent<CircleCollider2D>();
-				if (cc != null)
-					cc.enabled = false;
 
-				var rb = GetComponent<Rigidbody2D>();
-				if (rb != null)
-				{
-					rb.gravityScale = 1f;
-					rb.velocity = new Vector3(
-						Random.Range(-EXPLODE_SPEED, EXPLODE_SPEED),
-						Random.Range(-EXPLODE_SPEED, EXPLODE_SPEED),
-						0f
-					);
-				}
+				circleCollider2D.enabled = false;
+
+				rigidBody2D.gravityScale = 1f;
+				rigidBody2D.velocity = new Vector3(
+					Random.Range(-EXPLODE_SPEED, EXPLODE_SPEED),
+					Random.Range(-EXPLODE_SPEED, EXPLODE_SPEED),
+					0f
+				);
 				state = BubbleState.Fall;
 				break;
 			}

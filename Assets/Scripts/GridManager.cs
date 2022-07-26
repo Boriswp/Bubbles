@@ -12,9 +12,12 @@ public class GridManager : MonoBehaviour
 	public int rows;
 	private GameObject[,] grid;
 	public float gap;
-	public GameObject youWin;
-	public GameObject youLose; 
+	public ScreenController screenController;
 	public int loseCountRow = 13;
+	private Color[] colorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta };
+	private int[] deltax = { -1, 0, -1, 0, -1, 1 };
+	private int[] deltaxprime = { 1, 0, 1, 0, -1, 1 };
+	private int[] deltay = { -1, -1, 1, 1, 0, 0 };
 
 	const int COL_MAX = 6;
 	const int ROW_MAX = 14;
@@ -42,7 +45,7 @@ public class GridManager : MonoBehaviour
 	private void Creator(int column, int row)
     {
 		var position = new Vector3(column * gap, -row * gap, 0f) + initialPos.transform.position;
-		var newKind = Random.Range(1, 6);
+		var newKind = Random.Range(0, 5);
 
 		Create(position, newKind);
 	}
@@ -67,7 +70,7 @@ public class GridManager : MonoBehaviour
 		return initialPos.transform.position + objectSnap * gap;
 	}
 
-	public GameObject Create(Vector2 position, int kind)
+	public void Create(Vector2 position, int kind)
 	{
 		while (true)
 		{
@@ -98,29 +101,79 @@ public class GridManager : MonoBehaviour
 				circleCollider2D.isTrigger = true;
 
 				var gridMember = bubbleClone.GetComponent<GridMember>();
+				gridMember.enabled = true;
 				gridMember.parent = gameObject;
 
 				gridMember.row = row;
 				gridMember.column = column;
-				if (kind == 6)
-				{
-					gridMember.kind = (int)Random.Range(1f, 6f);
-				}
-				else
-				{
-					gridMember.kind = kind;
-				}
+				gridMember.kind = kind;
 
 				var spriteRenderer = bubbleClone.GetComponent<SpriteRenderer>();
-				Color[] colorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta };
-				spriteRenderer.color = colorArray[gridMember.kind - 1];
+			
+				spriteRenderer.color = colorArray[gridMember.kind];
 
-				bubbleClone.SetActive(true);
 
-				if (row == -loseCountRow && youLose != null) youLose.SetActive(true);
+				if (row == -loseCountRow)
+					screenController.ShowLoseScreen();
 
 				grid[column, -row] = bubbleClone;
-				return bubbleClone;
+				return;
+			}
+			catch (System.IndexOutOfRangeException)
+			{
+				Debug.Log($"wrong coord {position}");
+				return;
+			}
+	    }
+    }
+
+	public GridMember CreateSimple(GameObject gameObject, int kind)
+	{
+		var position = gameObject.transform.position;
+		while (true)
+		{
+			var snappedPosition = Snap(position);
+			var position1 = initialPos.transform.position;
+			var row = (int)Mathf.Round((snappedPosition.y - position1.y) / gap);
+			int column;
+			if (row % 2 != 0)
+			{
+				column = (int)Mathf.Round((snappedPosition.x - position1.x) / gap + gap);
+			}
+			else
+			{
+				column = (int)Mathf.Round((snappedPosition.x - position1.x) / gap);
+			}
+
+			if (grid[column, -row] != null)
+			{
+				var pos = new Vector2(position.x, position.y - gap);
+				position = pos;
+				continue;
+			}
+
+			try
+			{
+				gameObject.transform.position = snappedPosition;
+				var circleCollider2D = gameObject.GetComponent<CircleCollider2D>();
+                circleCollider2D.isTrigger = true;
+
+				var rb = gameObject.GetComponent<Rigidbody2D>();
+				rb.velocity = Vector2.zero;
+
+				var gridMember = gameObject.GetComponent<GridMember>();
+				gridMember.enabled = true;
+				gridMember.parent = this.gameObject;
+
+				gridMember.row = row;
+				gridMember.column = column;
+				gridMember.kind = kind;
+
+				if (row == -loseCountRow)
+					screenController.ShowLoseScreen();
+
+				grid[column, -row] = gameObject;
+				return gridMember;
 			}
 			catch (System.IndexOutOfRangeException)
 			{
@@ -130,12 +183,8 @@ public class GridManager : MonoBehaviour
 		}
 	}
 
-
 	private Queue<GameObject> NeighborCounter(Queue<int[]> queue,bool[,] visited, int kind)
 	{
-		int[] deltax = { -1, 0, -1, 0, -1, 1 };
-		int[] deltaxprime = { 1, 0, 1, 0, -1, 1 };
-		int[] deltay = { -1, -1, 1, 1, 0, 0 };
 		var objectQueue = new Queue<GameObject>();
 		while (queue.Count != 0)
 		{
@@ -154,11 +203,10 @@ public class GridManager : MonoBehaviour
 				{
 					continue;
 				}
-				Debug.Log($"neighbor:{neighbor[0]}, {neighbor[1]}");
 				var g = grid[neighbor[0], neighbor[1]];
 				if (g == null) continue;
 				var gridMember = g.GetComponent<GridMember>();
-				if (gridMember.kind != kind && kind != 0) continue;
+				if (gridMember.kind != kind && kind != -1) continue;
 				if (visited[neighbor[0], neighbor[1]]) continue;
 				visited[neighbor[0], neighbor[1]] = true;
 				queue.Enqueue(neighbor);
@@ -186,6 +234,7 @@ public class GridManager : MonoBehaviour
 				if (gm == null) continue;
 				grid[gm.column, -gm.row] = null;
 				Debug.Log($"POP {objectQueue.Count}");
+				gm.enabled = true;
 				gm.state = BubbleState.Pop;
 			}
 
@@ -210,11 +259,12 @@ public class GridManager : MonoBehaviour
 			queue.Enqueue(pair);
 		}
 
-		var objectQueue = NeighborCounter(queue,visited,0);
+		var objectQueue = NeighborCounter(queue,visited,-1);
 
-		if (objectQueue.Count != 0) return;
-		if (youWin != null)
-			youWin.SetActive(true);
+		if (objectQueue.Count == 0)
+		{
+		   
+		}
 		
 		for (var r = 0; r < ROW_MAX; r++)
 		{
@@ -225,6 +275,7 @@ public class GridManager : MonoBehaviour
 				var gm = g.GetComponent<GridMember>();
 				if (gm == null) continue;
 				grid[gm.column, -gm.row] = null;
+				gm.enabled = true;
 				gm.state = BubbleState.Explode;
 			}
 		}

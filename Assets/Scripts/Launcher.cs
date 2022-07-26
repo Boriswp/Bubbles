@@ -23,7 +23,7 @@ public class Launcher : MonoBehaviour
 	public void Load()
 	{
 		if (load != null) return;
-		load = Instantiate(ball, transform.position, transform.rotation);
+		load = Instantiate(ball, transform.position,Quaternion.identity);
 		load.SetActive(true);
 
 		var circleCollider2D = load.GetComponent<CircleCollider2D>();
@@ -32,6 +32,7 @@ public class Launcher : MonoBehaviour
 
 		var hitter = load.GetComponent<Hitter>();
 		if (hitter != null)
+			hitter.enabled = true;
 			hitter.parent = gameObject;
 	}
 
