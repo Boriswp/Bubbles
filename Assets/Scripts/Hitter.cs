@@ -28,8 +28,13 @@ public class Hitter : MonoBehaviour
 		enabled = false;
 		var gridMember = gridManager.CreateSimple(gameObject, kind);
 		gridManager.Seek(gridMember.column, -gridMember.row, gridMember.kind);
+		if (gridManager.ready)
+		{
+			gridManager.SnapRows();
+		}
 		var launcher = parent.GetComponent<Launcher>();
 		launcher.load = null;
 		launcher.Load();
+		gridManager.ready = false;
 	}
 }

@@ -21,6 +21,7 @@ public class GridManager : MonoBehaviour
 	private readonly int[] deltax = { -1, 0, -1, 0, -1, 1 };
 	private readonly int[] deltaxprime = { 1, 0, 1, 0, -1, 1 };
 	private readonly int[] deltay = { -1, -1, 1, 1, 0, 0 };
+	public bool ready = false;
 
 	const int COL_MAX = 8;
 	const int ROW_MAX = 16;
@@ -38,16 +39,28 @@ public class GridManager : MonoBehaviour
 				Creator(c, r);
 			}
 		}
-		InvokeRepeating(nameof(SnapRows), 5, 5);
+
+		StartCoroutine(nameof(ReadyToSnap));
 	}
 
-	private void SnapRows()
+	private IEnumerator ReadyToSnap()
+	{
+		yield return new WaitForSeconds(5f);
+		ready = true;
+		yield return new WaitUntil(() => ready == false);
+	}
+
+	public void SnapRows()
 	{
 		for (var r = ROW_MAX-2; r >= 0; r--)
 		{
 			for (var c = 0; c < columns; c++)
 			{
-				if (grid[c, r] == null) continue;
+				if (grid[c, r] == null)
+				{
+					grid[c, r + 1] = null;
+					continue;
+				}
 				grid[c, r + 1] = grid[c, r];
 				var snappedPosition = Snap(new Vector3(c * gap, -(r+1) * gap, 0f) + initialPos.transform.position);
 				grid[c, r + 1].transform.position = snappedPosition;
@@ -88,7 +101,7 @@ public class GridManager : MonoBehaviour
 		return initialPos.transform.position + objectSnap * gap;
 	}
 
-	public void Create(Vector2 position, int kind)
+	private void Create(Vector2 position, int kind)
 	{
 		while (true)
 		{
@@ -150,7 +163,6 @@ public class GridManager : MonoBehaviour
 			var floatRow = (snappedPosition.y - position1.y) / gap;
 			var row = (int)Mathf.Round(floatRow);
 			float floatColumn;
-			int column;
 			if (row % 2 != 0)
 			{
 				floatColumn = (snappedPosition.x - position1.x) / gap + gap;
@@ -159,54 +171,50 @@ public class GridManager : MonoBehaviour
 			{
 				floatColumn = (snappedPosition.x - position1.x) / gap;
 			}
-			column = (int)Mathf.Round(floatColumn);
-			try
+			var column = (int)Mathf.Round(floatColumn);
+			
+			switch (column)
 			{
-				if (grid[column, -row] != null)
-				{
+				case >= COL_MAX:
+					position = new Vector2(position.x - gap, position.y);
+					continue;
+				case < 0:
+					position = new Vector2(position.x + gap, position.y);
+					continue;
+			}
+
+			if (grid[column, -row] != null)
+			{
 					if (grid[column,-(row-1)]!=null)
 					{
-						if (grid[column, -row].transform.position.x > position.x)
-						{
-							position = new Vector2(position.x - gap, position.y);
-						}
-						else
-						{
-							position = new Vector2(position.x + gap, position.y);
-						}
+						position = grid[column, -row].transform.position.x > position.x ? new Vector2(position.x - gap, position.y) : new Vector2(position.x + gap, position.y);
 					}
 					else
 					{
 						position = new Vector2(position.x, position.y - gap);
 					}
 					continue;
-				}
-				gameObject.transform.position = snappedPosition;
-				var circleCollider2D = gameObject.GetComponent<CircleCollider2D>();
-                circleCollider2D.isTrigger = true;
-
-				var rb = gameObject.GetComponent<Rigidbody2D>();
-				rb.velocity = Vector2.zero;
-
-				var gridMember = gameObject.GetComponent<GridMember>();
-				gridMember.enabled = true;
-				gridMember.parent = this.gameObject;
-
-				gridMember.row = row;
-				gridMember.column = column;
-				gridMember.kind = kind;
-
-				if (row == -loseCountRow)
-					screenController.ShowLoseScreen();
-
-				grid[column, -row] = gameObject;
-				return gridMember;
 			}
-			catch (System.IndexOutOfRangeException)
-			{
-				Debug.Log($"wrong coord {position}");
-				return null;
-			}
+			gameObject.transform.position = snappedPosition;
+			var circleCollider2D = gameObject.GetComponent<CircleCollider2D>();
+			circleCollider2D.isTrigger = true;
+
+			var rb = gameObject.GetComponent<Rigidbody2D>();
+			rb.velocity = Vector2.zero;
+
+			var gridMember = gameObject.GetComponent<GridMember>();
+			gridMember.enabled = true;
+			gridMember.parent = this.gameObject;
+
+			gridMember.row = row;
+			gridMember.column = column;
+			gridMember.kind = kind;
+
+			if (row == -loseCountRow)
+				screenController.ShowLoseScreen();
+
+			grid[column, -row] = gameObject;
+			return gridMember;
 		}
 	}
 
