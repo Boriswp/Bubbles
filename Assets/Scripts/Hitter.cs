@@ -7,7 +7,6 @@ public class Hitter : MonoBehaviour
 {
 	public int kind;
 	public GameObject parent;
-	public Sprite specialBubble;
 	private bool collided;
 	private GridManager gridManager;
 
@@ -24,7 +23,7 @@ public class Hitter : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D collider)
 	{
-		if(collided||collider==null||this==null) return;
+		if(collided||collider==null|| gridManager == null) return;
 		collided = true;
 		enabled = false;
 		var gridMember = gridManager.CreateSimple(gameObject, kind);

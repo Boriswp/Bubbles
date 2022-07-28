@@ -2,29 +2,33 @@
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine.Serialization;
-
+using TMPro;
+using System.Collections;
 
 public class GridManager : MonoBehaviour
 {
 	public GameObject bubble;
 	public GameObject initialPos;
+	public TextMeshProUGUI textCounter;
+	private int counter;
 	public int columns;
 	public int rows;
 	private GameObject[,] grid;
 	public float gap;
 	public ScreenController screenController;
 	public int loseCountRow = 13;
-	private Color[] colorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta };
-	private int[] deltax = { -1, 0, -1, 0, -1, 1 };
-	private int[] deltaxprime = { 1, 0, 1, 0, -1, 1 };
-	private int[] deltay = { -1, -1, 1, 1, 0, 0 };
+	private readonly Color[] colorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta };
+	private readonly int[] deltax = { -1, 0, -1, 0, -1, 1 };
+	private readonly int[] deltaxprime = { 1, 0, 1, 0, -1, 1 };
+	private readonly int[] deltay = { -1, -1, 1, 1, 0, 0 };
 
-	const int COL_MAX = 6;
-	const int ROW_MAX = 14;
+	const int COL_MAX = 8;
+	const int ROW_MAX = 16;
 
 
 	private void Awake()
 	{
+		textCounter.text = "0";
 		grid = new GameObject[COL_MAX, ROW_MAX];
 
 		for (var r = 0; r < rows; r++)
@@ -34,13 +38,27 @@ public class GridManager : MonoBehaviour
 				Creator(c, r);
 			}
 		}
+		InvokeRepeating(nameof(SnapRows), 5, 5);
 	}
-    
 
 	private void SnapRows()
-    {
-
-    }
+	{
+		for (var r = ROW_MAX-2; r >= 0; r--)
+		{
+			for (var c = 0; c < columns; c++)
+			{
+				if (grid[c, r] == null) continue;
+				grid[c, r + 1] = grid[c, r];
+				var snappedPosition = Snap(new Vector3(c * gap, -(r+1) * gap, 0f) + initialPos.transform.position);
+				grid[c, r + 1].transform.position = snappedPosition;
+			}
+		}
+		for (var c = 0; c < columns; c++)
+		{
+			Creator(c, 0);
+		}
+		CheckCeiling(0);
+	}
 
 	private void Creator(int column, int row)
     {
@@ -61,11 +79,11 @@ public class GridManager : MonoBehaviour
 		if ((int)objectSnap.y % 2 == 0) return initialPos.transform.position + objectSnap * gap;
 		if (objectOffset.x > objectSnap.x * gap)
 		{
-			objectSnap.x += 0.5f;
+			objectSnap.x += gap;
 		}
 		else
 		{
-			objectSnap.x -= 0.5f;
+			objectSnap.x -= gap;
 		}
 		return initialPos.transform.position + objectSnap * gap;
 	}
@@ -85,13 +103,6 @@ public class GridManager : MonoBehaviour
 			else
 			{
 				column = (int)Mathf.Round((snappedPosition.x - position1.x) / gap);
-			}
-
-			if (grid[column, -row] != null)
-			{
-				var pos = new Vector2(position.x, position.y - gap);
-				position = pos;
-				continue;
 			}
 
 			try
@@ -114,7 +125,9 @@ public class GridManager : MonoBehaviour
 
 
 				if (row == -loseCountRow)
+				{
 					screenController.ShowLoseScreen();
+				}
 
 				grid[column, -row] = bubbleClone;
 				return;
@@ -134,26 +147,40 @@ public class GridManager : MonoBehaviour
 		{
 			var snappedPosition = Snap(position);
 			var position1 = initialPos.transform.position;
-			var row = (int)Mathf.Round((snappedPosition.y - position1.y) / gap);
+			var floatRow = (snappedPosition.y - position1.y) / gap;
+			var row = (int)Mathf.Round(floatRow);
+			float floatColumn;
 			int column;
 			if (row % 2 != 0)
 			{
-				column = (int)Mathf.Round((snappedPosition.x - position1.x) / gap + gap);
+				floatColumn = (snappedPosition.x - position1.x) / gap + gap;
 			}
 			else
 			{
-				column = (int)Mathf.Round((snappedPosition.x - position1.x) / gap);
+				floatColumn = (snappedPosition.x - position1.x) / gap;
 			}
-
-			if (grid[column, -row] != null)
-			{
-				var pos = new Vector2(position.x, position.y - gap);
-				position = pos;
-				continue;
-			}
-
+			column = (int)Mathf.Round(floatColumn);
 			try
 			{
+				if (grid[column, -row] != null)
+				{
+					if (grid[column,-(row-1)]!=null)
+					{
+						if (grid[column, -row].transform.position.x > position.x)
+						{
+							position = new Vector2(position.x - gap, position.y);
+						}
+						else
+						{
+							position = new Vector2(position.x + gap, position.y);
+						}
+					}
+					else
+					{
+						position = new Vector2(position.x, position.y - gap);
+					}
+					continue;
+				}
 				gameObject.transform.position = snappedPosition;
 				var circleCollider2D = gameObject.GetComponent<CircleCollider2D>();
                 circleCollider2D.isTrigger = true;
@@ -182,6 +209,8 @@ public class GridManager : MonoBehaviour
 			}
 		}
 	}
+
+
 
 	private Queue<GameObject> NeighborCounter(Queue<int[]> queue,bool[,] visited, int kind)
 	{
@@ -233,11 +262,11 @@ public class GridManager : MonoBehaviour
 				var gm = g.GetComponent<GridMember>();
 				if (gm == null) continue;
 				grid[gm.column, -gm.row] = null;
-				Debug.Log($"POP {objectQueue.Count}");
+				counter += 10;
 				gm.enabled = true;
 				gm.state = BubbleState.Pop;
 			}
-
+			textCounter.text = $"{counter}";
 			var audioSource = GetComponent<AudioSource>();
 			audioSource.Play();
 		}
@@ -275,10 +304,11 @@ public class GridManager : MonoBehaviour
 				var gm = g.GetComponent<GridMember>();
 				if (gm == null) continue;
 				grid[gm.column, -gm.row] = null;
+				counter += 10;
 				gm.enabled = true;
 				gm.state = BubbleState.Explode;
 			}
 		}
-
+		textCounter.text = $"{counter}";
 	}
 }

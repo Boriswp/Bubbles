@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1212866478360460530}
   m_Layer: 0
   m_Name: ball
-  m_TagString: Untagged
+  m_TagString: Bubble
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,7 +123,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   kind: 0
   parent: {fileID: 0}
-  specialBubble: {fileID: 21300000, guid: 680815df2a084d646a303d7185f2f8bb, type: 3}
 --- !u!58 &8234603980826827419
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -139,7 +138,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.25
+  m_Radius: 0.2
 --- !u!114 &1212866478360460530
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -21,6 +21,13 @@ public class ScreenController : MonoBehaviour
         fireButton.SetActive(false);
    }
 
+    public void ReloadScene()
+    {
+        Time.timeScale = 1f;
+        Scene scene = SceneManager.GetActiveScene(); 
+        SceneManager.LoadScene(scene.name);
+    }
+
     public void ShowLoseScreen()
     {
         fireButton.SetActive(false);
@@ -29,6 +36,7 @@ public class ScreenController : MonoBehaviour
 
     public void GoToMainMenu()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Menu");
     }
 
