@@ -21,7 +21,7 @@ public class GridManager : MonoBehaviour
 	private readonly int[] deltax = { -1, 0, -1, 0, -1, 1 };
 	private readonly int[] deltaxprime = { 1, 0, 1, 0, -1, 1 };
 	private readonly int[] deltay = { -1, -1, 1, 1, 0, 0 };
-	public bool ready = false;
+	public bool ready;
 
 	const int COL_MAX = 8;
 	const int ROW_MAX = 16;
@@ -63,7 +63,7 @@ public class GridManager : MonoBehaviour
 						return;
 					}
 					var snappedPosition = Snap(new Vector3(c * gap, -(r + 1) * gap, 0f) + initialPos.transform.position);
-					grid[c, r + 1].transform.position = snappedPosition;
+					StartCoroutine(SmoothLerp(0.25F, grid[c, r + 1].transform, snappedPosition));
 				}
 			}
 		}
@@ -72,6 +72,19 @@ public class GridManager : MonoBehaviour
 			Creator(c, 0);
 		}
 		CheckCeiling(0);
+	}
+	
+	private IEnumerator SmoothLerp (float time,Transform objectToTransform,Vector3 finalPos)
+	{
+		var startingPos  =  objectToTransform.position;
+		float elapsedTime = 0;
+         
+		while (elapsedTime < time)
+		{
+			objectToTransform.position = Vector3.Lerp(startingPos, finalPos, (elapsedTime / time));
+			elapsedTime += Time.deltaTime;
+			yield return null;
+		}
 	}
 
 	private void Creator(int column, int row)
