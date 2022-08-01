@@ -7,7 +7,6 @@ public class Launcher : MonoBehaviour
 	public GameObject ball;
 	public GameObject load;
 	public GameObject nextColorBall;
-	public Transform firePosition;
 	public int maximumReflectionCount = 5;
 	private int maxReflect;
 	public float maximumRayCastDistance = 50f;
@@ -34,7 +33,7 @@ public class Launcher : MonoBehaviour
 		Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		var delta = mousePos - (Vector2)transform.parent.position;
 		var zRotation = 90 - Mathf.Rad2Deg * Mathf.Atan2(delta.x, delta.y);
-        if (zRotation < 10 || zRotation > 170)
+        if (zRotation is < 10 or > 170)
         {
 			return;
         }

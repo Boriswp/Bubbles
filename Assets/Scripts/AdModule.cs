@@ -40,33 +40,33 @@ public class AdModule : MonoBehaviour
 #endif
 
         // Initialize an InterstitialAd.
-        this.interstitial = new InterstitialAd(adUnitId);
-        this.interstitial.OnAdLoaded += HandleOnAdLoaded;
-        this.interstitial.OnAdFailedToLoad += HandleOnAdFailedToLoad;
-        this.interstitial.OnAdOpening += HandleOnAdOpening;
-        this.interstitial.OnAdClosed += HandleOnAdClosed;
+        interstitial = new InterstitialAd(adUnitId);
+        interstitial.OnAdLoaded += HandleOnAdLoaded;
+        interstitial.OnAdFailedToLoad += HandleOnAdFailedToLoad;
+        interstitial.OnAdOpening += HandleOnAdOpening;
+        interstitial.OnAdClosed += HandleOnAdClosed;
         AdRequest request = new AdRequest.Builder().Build();
-        this.interstitial.LoadAd(request);
+        interstitial.LoadAd(request);
     }
 
     public void HandleOnAdLoaded(object sender, EventArgs args)
     {
-        MonoBehaviour.print("HandleAdLoaded event received");
+        print("HandleAdLoaded event received");
     }
 
     public void HandleOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
     {
-        MonoBehaviour.print("HandleFailedToReceiveAd event received with message: "
-                            + args.Message);
+       print("HandleFailedToReceiveAd event received with message: "
+                            + args);
     }
 
     public void HandleOnAdOpening(object sender, EventArgs args)
     {
-        MonoBehaviour.print("HandleAdOpening event received");
+        print("HandleAdOpening event received");
     }
 
     public void HandleOnAdClosed(object sender, EventArgs args)
     {
-        MonoBehaviour.print("HandleAdClosed event received");
+        print("HandleAdClosed event received");
     }
 }
