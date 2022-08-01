@@ -6,12 +6,13 @@ public class Launcher : MonoBehaviour
 {
 	public GameObject ball;
 	public GameObject load;
-
+	public GameObject nextColorBall;
 	public Transform firePosition;
 	public int maximumReflectionCount = 5;
 	private int maxReflect;
 	public float maximumRayCastDistance = 50f;
-
+	private int currentKindColor;
+	private int nextKindColor;
 	LineRenderer lineRenderer;
 
 	List<Vector3> reflectionPositions = new();
@@ -20,6 +21,7 @@ public class Launcher : MonoBehaviour
 
 	private void Awake()
 	{
+		nextKindColor = Random.Range(0, 5);
 		Load();
 		maxReflect = maximumReflectionCount;
 		lineRenderer = GetComponent<LineRenderer>();
@@ -31,20 +33,27 @@ public class Launcher : MonoBehaviour
 	{
 		Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		var delta = mousePos - (Vector2)transform.parent.position;
-		transform.parent.rotation = Quaternion.Euler(0f, 0f, 90 - Mathf.Rad2Deg * Mathf.Atan2(delta.x, delta.y));
+		var zRotation = 90 - Mathf.Rad2Deg * Mathf.Atan2(delta.x, delta.y);
+        if (zRotation < 10 || zRotation > 170)
+        {
+			return;
+        }
+		transform.parent.rotation = Quaternion.Euler(0f, 0f,zRotation);
 		DrawCurrentTrajectory(delta);
 	}
 
 	public void Load()
 	{
 		if (load != null) return;
+		currentKindColor = nextKindColor;
+		nextKindColor = Random.Range(0, 5);
+		nextColorBall.GetComponent<SpriteRenderer>().color = GridManager.colorArray[nextKindColor];
 		load = Instantiate(ball, transform.parent.position,Quaternion.identity);
 		load.SetActive(true);
-
 		var circleCollider2D = load.GetComponent<CircleCollider2D>();
 		circleCollider2D.enabled = false;
-
 		var hitter = load.GetComponent<Hitter>();
+		hitter.kind = currentKindColor;
 		hitter.enabled = true;
 		hitter.parent = gameObject;
 	}
@@ -57,6 +66,7 @@ public class Launcher : MonoBehaviour
 
 		var rb = load.GetComponent<Rigidbody2D>();
 		rb.velocity = transform.right * LAUNCH_SPEED;
+		load = null;
 	}
 
 	private void DrawCurrentTrajectory(Vector2 inputDirection)
@@ -65,15 +75,16 @@ public class Launcher : MonoBehaviour
 
 		Vector2 position = new(transform.position.x,transform.position.y);
 		Vector2 direction = inputDirection;
-
+		lineRenderer.startColor = GridManager.colorArray[currentKindColor];
+		lineRenderer.endColor = GridManager.colorArray[currentKindColor];
 		reflectionPositions.Add(position);
 
 		for (var i = 0; i <= maxReflect; ++i)
 		{
-			var circleHit = Physics2D.CircleCast(position,0.225F, direction, maximumRayCastDistance);
+			var circleHit = Physics2D.CircleCast(position,0.235F, direction, maximumRayCastDistance);
 			//var hit = Physics2D.Raycast(position, direction, maximumRayCastDistance);
 			if (!circleHit) continue;
-			position = circleHit.point + circleHit.normal*0.225f;
+			position = circleHit.point + circleHit.normal*0.235f;
 			reflectionPositions.Add(position);
 			if (circleHit.collider.CompareTag("Bubble"))
 			{
@@ -85,7 +96,6 @@ public class Launcher : MonoBehaviour
             }
 			direction = Vector2.Reflect(direction, circleHit.normal);
 		}
-
 		lineRenderer.positionCount = reflectionPositions.Count;
 		lineRenderer.SetPositions(reflectionPositions.ToArray());
 	}

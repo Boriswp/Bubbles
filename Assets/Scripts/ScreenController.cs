@@ -2,19 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using TMPro;
 
-public class ScreenController : MonoBehaviour
+public class ScreenController : AdModule
 {
     public GameObject fireButton;
     public GameObject PauseMenu;
     public GameObject LoseScreen;
+    public TextMeshProUGUI textCounter;
+    public TextMeshProUGUI EndCounter;
 
-    private void Awake()
-    {
-        fireButton.SetActive(true);
-    }
-
-   public void ShowMenu()
+    public void ShowMenu()
    {
         Time.timeScale = 0f;
         PauseMenu.SetActive(true);
@@ -30,8 +28,10 @@ public class ScreenController : MonoBehaviour
 
     public void ShowLoseScreen()
     {
+        Time.timeScale = 0f;
         fireButton.SetActive(false);
         LoseScreen.SetActive(true);
+        EndCounter.text = EndCounter.text + " " + textCounter.text;
     }
 
     public void GoToMainMenu()

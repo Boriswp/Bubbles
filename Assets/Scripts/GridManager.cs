@@ -17,7 +17,7 @@ public class GridManager : MonoBehaviour
 	public float gap;
 	public ScreenController screenController;
 	public int loseCountRow = 13;
-	private readonly Color[] colorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta };
+	public static readonly Color[] colorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta };
 	private readonly int[] deltax = { -1, 0, -1, 0, -1, 1 };
 	private readonly int[] deltaxprime = { 1, 0, 1, 0, -1, 1 };
 	private readonly int[] deltay = { -1, -1, 1, 1, 0, 0 };
@@ -39,31 +39,32 @@ public class GridManager : MonoBehaviour
 				Creator(c, r);
 			}
 		}
-
-		StartCoroutine(nameof(ReadyToSnap));
-	}
-
-	private IEnumerator ReadyToSnap()
-	{
-		yield return new WaitForSeconds(5f);
-		ready = true;
-		yield return new WaitUntil(() => ready == false);
+		InvokeRepeating(nameof(SnapRows), 5f, 7f);
 	}
 
 	public void SnapRows()
 	{
+		if (!ready) return;
 		for (var r = ROW_MAX-2; r >= 0; r--)
 		{
 			for (var c = 0; c < columns; c++)
 			{
-				if (grid[c, r] == null)
-				{
-					grid[c, r + 1] = null;
-					continue;
-				}
 				grid[c, r + 1] = grid[c, r];
-				var snappedPosition = Snap(new Vector3(c * gap, -(r+1) * gap, 0f) + initialPos.transform.position);
-				grid[c, r + 1].transform.position = snappedPosition;
+				if (grid[c, r + 1] != null)
+				{
+					var g = grid[c, r + 1];
+					var gm = g.GetComponent<GridMember>();
+					if (gm == null) continue;
+					gm.column = c;
+					gm.row = -(r + 1);
+					if (gm.row == -loseCountRow)
+					{
+						screenController.ShowLoseScreen();
+						return;
+					}
+					var snappedPosition = Snap(new Vector3(c * gap, -(r + 1) * gap, 0f) + initialPos.transform.position);
+					grid[c, r + 1].transform.position = snappedPosition;
+				}
 			}
 		}
 		for (var c = 0; c < columns; c++)

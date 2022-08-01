@@ -13,10 +13,7 @@ public class Hitter : MonoBehaviour
 	private void Start()
 	{
 		var spriteRenderer = GetComponent<SpriteRenderer>();
-		if (spriteRenderer == null) return;
-		Color[] colorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta };
-		kind = Random.Range(0, 5);
-        spriteRenderer.color = colorArray[kind];
+        spriteRenderer.color = GridManager.colorArray[kind];
 		gridManager = parent.GetComponent<GridManager>();
 	}
 	
@@ -24,17 +21,13 @@ public class Hitter : MonoBehaviour
 	private void OnTriggerEnter2D(Collider2D collider)
 	{
 		if(collided||collider==null|| gridManager == null) return;
+		gridManager.ready = false;
 		collided = true;
 		enabled = false;
 		var gridMember = gridManager.CreateSimple(gameObject, kind);
 		gridManager.Seek(gridMember.column, -gridMember.row, gridMember.kind);
-		if (gridManager.ready)
-		{
-			gridManager.SnapRows();
-		}
+		gridManager.ready = true;
 		var launcher = parent.GetComponent<Launcher>();
-		launcher.load = null;
 		launcher.Load();
-		gridManager.ready = false;
 	}
 }

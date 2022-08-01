@@ -802,6 +802,7 @@ GameObject:
   - component: {fileID: 1162385374}
   - component: {fileID: 1162385373}
   - component: {fileID: 1162385372}
+  - component: {fileID: 1162385376}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -891,6 +892,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1162385376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162385371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f2dd26874ab1746afb1d57ab89e8ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exit: {fileID: 1552633667}
+  settings: {fileID: 77672382}
+  Scene: Level
 --- !u!1 &1282339296
 GameObject:
   m_ObjectHideFlags: 0
@@ -1160,7 +1176,6 @@ GameObject:
   - component: {fileID: 1552633671}
   - component: {fileID: 1552633670}
   - component: {fileID: 1552633669}
-  - component: {fileID: 1552633672}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -1233,8 +1248,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1552633672}
-        m_TargetAssemblyTypeName: Exit, Assembly-CSharp
+      - m_Target: {fileID: 1162385376}
+        m_TargetAssemblyTypeName: menuScreenController, Assembly-CSharp
         m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
@@ -1283,18 +1298,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552633667}
   m_CullTransparentMesh: 1
---- !u!114 &1552633672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552633667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffe90c4d595d25c46bb75ac6526d49cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1892739483
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,7 +1310,6 @@ GameObject:
   - component: {fileID: 1892739487}
   - component: {fileID: 1892739486}
   - component: {fileID: 1892739485}
-  - component: {fileID: 1892739488}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -1380,8 +1382,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1892739488}
-        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+      - m_Target: {fileID: 1162385376}
+        m_TargetAssemblyTypeName: menuScreenController, Assembly-CSharp
         m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
@@ -1430,19 +1432,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892739483}
   m_CullTransparentMesh: 1
---- !u!114 &1892739488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1892739483}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57c88677cb4d1dc4dbf27fda11a6ccbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scene: Level
 --- !u!1 &1896286092
 GameObject:
   m_ObjectHideFlags: 0
