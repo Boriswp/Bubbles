@@ -15,7 +15,7 @@ public class GridManager : MonoBehaviour
 	public int rows;
 	private GameObject[,] grid;
 	public float gap;
-	public ScreenController screenController;
+	[FormerlySerializedAs("screenController")] public gameScreenController gameScreenController;
 	public int loseCountRow = 13;
 	public static readonly Color[] colorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta };
 	private readonly int[] deltax = { -1, 0, -1, 0, -1, 1 };
@@ -58,7 +58,7 @@ public class GridManager : MonoBehaviour
 				gm.row = -(r + 1);
 				if (gm.row == -loseCountRow)
 				{
-					screenController.ShowLoseScreen();
+					gameScreenController.ShowLoseScreen();
 					return;
 				}
 				var snappedPosition = Snap(new Vector3(c * gap, -(r + 1) * gap, 0f) + initialPos.transform.position);
@@ -152,7 +152,7 @@ public class GridManager : MonoBehaviour
 
 				if (row == -loseCountRow)
 				{
-					screenController.ShowLoseScreen();
+					gameScreenController.ShowLoseScreen();
 				}
 
 				grid[column, -row] = bubbleClone;
@@ -224,7 +224,7 @@ public class GridManager : MonoBehaviour
 			gridMember.kind = kind;
 
 			if (row == -loseCountRow)
-				screenController.ShowLoseScreen();
+				gameScreenController.ShowLoseScreen();
 
 			grid[column, -row] = gameObject;
 			return gridMember;

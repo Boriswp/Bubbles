@@ -87,7 +87,6 @@ public class Launcher : MonoBehaviour
 			{
 				break;
             }
-			
 			direction = Vector2.Reflect(direction, circleHit.normal);
 		}
 		lineRenderer.positionCount = reflectionPositions.Count;

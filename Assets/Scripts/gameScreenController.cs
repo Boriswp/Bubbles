@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
 
-public class ScreenController : AdModule
+public class gameScreenController : AdModule
 {
     public GameObject fireButton;
     public GameObject PauseMenu;
