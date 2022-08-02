@@ -84,6 +84,7 @@ public class GridManager : MonoBehaviour
 			objectToTransform.position = Vector3.Lerp(startingPos, finalPos, (elapsedTime / time));
 			elapsedTime += Time.deltaTime;
 			yield return null;
+			objectToTransform.position = finalPos;
 		}
 	}
 
@@ -201,11 +202,11 @@ public class GridManager : MonoBehaviour
 			{
 					if (grid[column,-(row-1)]!=null)
 					{
-						position = grid[column, -row].transform.position.x > position.x ? new Vector2(position.x - gap, position.y) : new Vector2(position.x + gap, position.y);
+						position = grid[column, -row].transform.position.x > position.x ? new Vector2(position.x - gap/2, position.y) : new Vector2(position.x + gap/2, position.y);
 					}
 					else
 					{
-						position = new Vector2(position.x, position.y - gap);
+						position = new Vector2(position.x, position.y - gap/2);
 					}
 					continue;
 			}

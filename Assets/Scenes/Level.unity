@@ -1739,7 +1739,6 @@ MonoBehaviour:
   ball: {fileID: 158212, guid: 8a1eed5b64b42624787d4ce0dcd1842b, type: 3}
   load: {fileID: 0}
   nextColorBall: {fileID: 169020436}
-  firePosition: {fileID: 0}
   maximumReflectionCount: 5
   maximumRayCastDistance: 50
 --- !u!212 &747305827
@@ -2017,9 +2016,9 @@ LineRenderer:
       m_Mode: 0
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-    numCornerVertices: 0
+    numCornerVertices: 60
     numCapVertices: 0
-    alignment: 0
+    alignment: 1
     textureMode: 1
     shadowBias: 0.5
     generateLightingData: 0

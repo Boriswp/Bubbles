@@ -24,8 +24,8 @@ public class Launcher : MonoBehaviour
 		Load();
 		maxReflect = maximumReflectionCount;
 		lineRenderer = GetComponent<LineRenderer>();
-		lineRenderer.startWidth = 0.1f;
-		lineRenderer.endWidth = 0.1f;
+		lineRenderer.startWidth = 0.12f;
+		lineRenderer.endWidth = 0.12f;
 	}
 
 	void FixedUpdate()
@@ -80,10 +80,10 @@ public class Launcher : MonoBehaviour
 
 		for (var i = 0; i <= maxReflect; ++i)
 		{
-			var circleHit = Physics2D.CircleCast(position,0.235F, direction, maximumRayCastDistance);
+			var circleHit = Physics2D.CircleCast(position,0.24F, direction, maximumRayCastDistance);
 			//var hit = Physics2D.Raycast(position, direction, maximumRayCastDistance);
 			if (!circleHit) continue;
-			position = circleHit.point + circleHit.normal*0.235f;
+			position = circleHit.point + circleHit.normal*0.24f;
 			reflectionPositions.Add(position);
 			if (circleHit.collider.CompareTag("Bubble"))
 			{
