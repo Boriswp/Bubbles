@@ -50,21 +50,19 @@ public class GridManager : MonoBehaviour
 			for (var c = 0; c < columns; c++)
 			{
 				grid[c, r + 1] = grid[c, r];
-				if (grid[c, r + 1] != null)
+				if (grid[c, r + 1] == null) continue;
+				var g = grid[c, r + 1];
+				var gm = g.GetComponent<GridMember>();
+				if (gm == null) continue;
+				gm.column = c;
+				gm.row = -(r + 1);
+				if (gm.row == -loseCountRow)
 				{
-					var g = grid[c, r + 1];
-					var gm = g.GetComponent<GridMember>();
-					if (gm == null) continue;
-					gm.column = c;
-					gm.row = -(r + 1);
-					if (gm.row == -loseCountRow)
-					{
-						screenController.ShowLoseScreen();
-						return;
-					}
-					var snappedPosition = Snap(new Vector3(c * gap, -(r + 1) * gap, 0f) + initialPos.transform.position);
-					StartCoroutine(SmoothLerp(0.25F, grid[c, r + 1].transform, snappedPosition));
+					screenController.ShowLoseScreen();
+					return;
 				}
+				var snappedPosition = Snap(new Vector3(c * gap, -(r + 1) * gap, 0f) + initialPos.transform.position);
+				StartCoroutine(SmoothLerp(0.25F, grid[c, r + 1].transform, snappedPosition));
 			}
 		}
 		for (var c = 0; c < columns; c++)

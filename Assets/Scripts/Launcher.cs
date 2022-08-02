@@ -8,7 +8,6 @@ public class Launcher : MonoBehaviour
 	public GameObject load;
 	public GameObject nextColorBall;
 	public int maximumReflectionCount = 5;
-	private int maxReflect;
 	public float maximumRayCastDistance = 50f;
 	private int currentKindColor;
 	private int nextKindColor;
@@ -22,10 +21,9 @@ public class Launcher : MonoBehaviour
 	{
 		nextKindColor = Random.Range(0, 5);
 		Load();
-		maxReflect = maximumReflectionCount;
 		lineRenderer = GetComponent<LineRenderer>();
-		lineRenderer.startWidth = 0.12f;
-		lineRenderer.endWidth = 0.12f;
+		lineRenderer.startWidth = 0.75f;
+		lineRenderer.endWidth = 0.75f;
 	}
 
 	void FixedUpdate()
@@ -78,7 +76,7 @@ public class Launcher : MonoBehaviour
 		lineRenderer.endColor = GridManager.colorArray[currentKindColor];
 		reflectionPositions.Add(position);
 
-		for (var i = 0; i <= maxReflect; ++i)
+		for (var i = 0; i <= maximumReflectionCount; ++i)
 		{
 			var circleHit = Physics2D.CircleCast(position,0.24F, direction, maximumRayCastDistance);
 			//var hit = Physics2D.Raycast(position, direction, maximumRayCastDistance);
@@ -89,10 +87,7 @@ public class Launcher : MonoBehaviour
 			{
 				break;
             }
-            else
-            {
-				maxReflect = maximumReflectionCount;
-            }
+			
 			direction = Vector2.Reflect(direction, circleHit.normal);
 		}
 		lineRenderer.positionCount = reflectionPositions.Count;
