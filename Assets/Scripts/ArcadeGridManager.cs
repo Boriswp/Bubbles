@@ -5,24 +5,19 @@ using UnityEngine.Serialization;
 using TMPro;
 using System.Collections;
 
-public class GridManager : MonoBehaviour
+public class ArcadeGridManager : BaseGridManager
 {
-	public GameObject bubble;
-	public GameObject initialPos;
+	
 	public TextMeshProUGUI textCounter;
-	private int counter;
+	private int _counter;
 	public int columns;
 	public int rows;
-	private GameObject[,] grid;
-	public float gap;
-	[FormerlySerializedAs("screenController")] public gameScreenController gameScreenController;
+	public gameScreenController gameScreenController;
 	public int loseCountRow = 13;
-	public static readonly Color[] colorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta };
-	private readonly int[] deltax = { -1, 0, -1, 0, -1, 1 };
-	private readonly int[] deltaxprime = { 1, 0, 1, 0, -1, 1 };
-	private readonly int[] deltay = { -1, -1, 1, 1, 0, 0 };
+
 	public bool ready;
 
+	
 	const int COL_MAX = 8;
 	const int ROW_MAX = 16;
 
@@ -93,78 +88,9 @@ public class GridManager : MonoBehaviour
 
 		Create(position, newKind);
 	}
+	
 
-	private Vector3 Snap(Vector3 position)
-	{
-		var objectOffset = position - initialPos.transform.position;
-		var objectSnap = new Vector3(
-			Mathf.Round(objectOffset.x / gap),
-			Mathf.Round(objectOffset.y / gap),
-			0f
-		);
-		if ((int)objectSnap.y % 2 == 0) return initialPos.transform.position + objectSnap * gap;
-		if (objectOffset.x > objectSnap.x * gap)
-		{
-			objectSnap.x += gap;
-		}
-		else
-		{
-			objectSnap.x -= gap;
-		}
-		return initialPos.transform.position + objectSnap * gap;
-	}
-
-	private void Create(Vector2 position, int kind)
-	{
-		while (true)
-		{
-			var snappedPosition = Snap(position);
-			var position1 = initialPos.transform.position;
-			var row = (int)Mathf.Round((snappedPosition.y - position1.y) / gap);
-			int column;
-			if (row % 2 != 0)
-			{
-				column = (int)Mathf.Round((snappedPosition.x - position1.x) / gap + gap);
-			}
-			else
-			{
-				column = (int)Mathf.Round((snappedPosition.x - position1.x) / gap);
-			}
-
-			try
-			{
-				var bubbleClone = Instantiate(bubble, snappedPosition, Quaternion.identity);
-				var circleCollider2D = bubbleClone.GetComponent<CircleCollider2D>();
-				circleCollider2D.isTrigger = true;
-
-				var gridMember = bubbleClone.GetComponent<GridMember>();
-				gridMember.enabled = true;
-				gridMember.parent = gameObject;
-
-				gridMember.row = row;
-				gridMember.column = column;
-				gridMember.kind = kind;
-
-				var spriteRenderer = bubbleClone.GetComponent<SpriteRenderer>();
-			
-				spriteRenderer.color = colorArray[gridMember.kind];
-
-
-				if (row == -loseCountRow)
-				{
-					gameScreenController.ShowLoseScreen();
-				}
-
-				grid[column, -row] = bubbleClone;
-				return;
-			}
-			catch (System.IndexOutOfRangeException)
-			{
-				Debug.Log($"wrong coord {position}");
-				return;
-			}
-	    }
-    }
+	
 
 	public GridMember CreateSimple(GameObject gameObject, int kind)
 	{
@@ -283,11 +209,11 @@ public class GridManager : MonoBehaviour
 				var gm = g.GetComponent<GridMember>();
 				if (gm == null) continue;
 				grid[gm.column, -gm.row] = null;
-				counter += 10;
+				_counter += 10;
 				gm.enabled = true;
 				gm.state = BubbleState.Pop;
 			}
-			textCounter.text = $"{counter}";
+			textCounter.text = $"{_counter}";
 			var audioSource = GetComponent<AudioSource>();
 			audioSource.Play();
 		}
@@ -325,11 +251,11 @@ public class GridManager : MonoBehaviour
 				var gm = g.GetComponent<GridMember>();
 				if (gm == null) continue;
 				grid[gm.column, -gm.row] = null;
-				counter += 10;
+				_counter += 10;
 				gm.enabled = true;
 				gm.state = BubbleState.Explode;
 			}
 		}
-		textCounter.text = $"{counter}";
+		textCounter.text = $"{_counter}";
 	}
 }

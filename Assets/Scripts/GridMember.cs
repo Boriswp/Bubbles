@@ -19,7 +19,7 @@ public class GridMember : MonoBehaviour
 
 	private void Awake()
     {
-		circleCollider2D = GetComponent<CircleCollider2D>();
+	    circleCollider2D = GetComponent<CircleCollider2D>();
 		rigidBody2D = GetComponent<Rigidbody2D>();
 	}
 

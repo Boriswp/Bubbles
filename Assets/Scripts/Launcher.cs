@@ -44,7 +44,7 @@ public class Launcher : MonoBehaviour
 		if (load != null) return;
 		currentKindColor = nextKindColor;
 		nextKindColor = Random.Range(0, 5);
-		nextColorBall.GetComponent<SpriteRenderer>().color = GridManager.colorArray[nextKindColor];
+		nextColorBall.GetComponent<SpriteRenderer>().color = ArcadeGridManager.ColorArray[nextKindColor];
 		load = Instantiate(ball, transform.parent.position,Quaternion.identity);
 		load.SetActive(true);
 		var circleCollider2D = load.GetComponent<CircleCollider2D>();
@@ -72,8 +72,8 @@ public class Launcher : MonoBehaviour
 
 		Vector2 position = new(transform.position.x,transform.position.y);
 		Vector2 direction = inputDirection;
-		lineRenderer.startColor = GridManager.colorArray[currentKindColor];
-		lineRenderer.endColor = GridManager.colorArray[currentKindColor];
+		lineRenderer.startColor = ArcadeGridManager.ColorArray[currentKindColor];
+		lineRenderer.endColor = ArcadeGridManager.ColorArray[currentKindColor];
 		reflectionPositions.Add(position);
 
 		for (var i = 0; i <= maximumReflectionCount; ++i)

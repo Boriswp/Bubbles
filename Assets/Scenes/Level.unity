@@ -1888,7 +1888,7 @@ MonoBehaviour:
   columns: 8
   rows: 5
   gap: 0.5
-  screenController: {fileID: 316772872}
+  gameScreenController: {fileID: 316772872}
   loseCountRow: 13
   ready: 0
 --- !u!82 &747305830
