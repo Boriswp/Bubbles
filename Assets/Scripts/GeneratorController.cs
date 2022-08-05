@@ -1,0 +1,73 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class GeneratorController : MonoBehaviour
+{
+    public ConstructorGridManager gridManager;
+    private bool isRed = true;
+    private bool isGreen = true;
+    private bool isMagenta = true;
+    private bool isCyan = true;
+    private bool isYellow = true;
+    private int rowFrom = 0;
+    private int rowTo = 10;
+    private int columnFrom = 0;
+    private int columnTo = 8;
+    private List<int> kindList = new();
+
+
+    public void SetRowTo(string num)=>int.TryParse(num, out rowTo);
+
+    public void SetRowFrom(string num) => int.TryParse(num, out rowFrom);
+
+    public void SetColumnFrom(string num) => int.TryParse(num, out columnFrom);
+
+    public void SetColumnTo(string num) => int.TryParse(num, out columnTo);
+
+    public void ToggleRedColor(bool isEnabled) => isRed = isEnabled;
+
+    public void ToggleGreenColor(bool isEnabled) => isGreen = isEnabled;
+
+    public void ToggleCyanColor(bool isEnabled) => isCyan = isEnabled;
+
+    public void ToggleYellowColor(bool isEnabled) => isYellow = isEnabled;
+
+    public void ToggleMagentaColor(bool isEnabled) => isMagenta = isEnabled;
+
+
+    public void GenerateLVL()
+    {
+        Debug.Log(rowTo);
+        kindList.Clear();
+        if (isRed)
+        {
+            kindList.Add(0);
+        }
+        if (isCyan)
+        {
+            kindList.Add(1);
+        }
+        if (isYellow)
+        {
+            kindList.Add(2);
+        }
+        if (isGreen)
+        {
+           kindList.Add(3);
+        }
+        if (isMagenta)
+        {
+            kindList.Add(4);
+        }
+        if (kindList.Count == 0) return;
+        gridManager.Generate(kindList,rowFrom,rowTo,columnFrom,columnTo);
+
+        OnCancell();
+    }
+
+    public void OnCancell()
+    {
+        gameObject.SetActive(false);
+    }
+}

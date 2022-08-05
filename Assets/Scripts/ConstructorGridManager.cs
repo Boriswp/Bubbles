@@ -1,3 +1,4 @@
+using SFB;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -53,9 +54,24 @@ public class ConstructorGridManager : BaseGridManager
         }
     }
 
-    public void Generate()
+    public void Generate(List<int> kinds,int rowFrom, int rowTo,int columnFrom,int columnTo)
     {
-        
+        for (var r = rowFrom; r < rowTo; r++)
+        {
+            for (var c = columnFrom; c < columnTo; c++)
+            {
+                Creator(c, r,kinds);
+            }
+        }
+    }
+
+    public void Creator(int column,int row,List<int> kinds)
+    {
+        var position = new Vector3(column * gap, -row * gap, 0f) + initialPos.transform.position;
+        var index = Random.Range(0, kinds.Count);
+        var newKind = kinds[index];
+
+        Create(position, newKind);
     }
 
     public void SaveToJson()
@@ -85,7 +101,7 @@ public class ConstructorGridManager : BaseGridManager
         };
         
         var jsonString = JsonUtility.ToJson(saveData);
-        var path = EditorUtility.SaveFilePanel( "Save Json", Application.persistentDataPath, "level" + ".json", "json" );
+        var path = StandaloneFileBrowser.SaveFilePanel( "Save Json", Application.persistentDataPath, "level" + ".json", "json" );
         if (path.Length != 0)
         {
             File.WriteAllText(path, jsonString);

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BaseGridManager : MonoBehaviour
@@ -31,7 +29,10 @@ public class BaseGridManager : MonoBehaviour
 
             try
             {
-                if (grid[column, -row] != null) return;
+                if (grid[column, -row] != null)
+                {
+                    Destroy(grid[column, -row]);
+                }
                 var bubbleClone = Instantiate(bubble, snappedPosition, Quaternion.identity);
                 var circleCollider2D = bubbleClone.GetComponent<CircleCollider2D>();
                 circleCollider2D.isTrigger = true;

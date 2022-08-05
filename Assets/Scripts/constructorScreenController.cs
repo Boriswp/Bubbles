@@ -4,24 +4,16 @@ using UnityEngine;
 
 public class constructorScreenController : MonoBehaviour
 {
+    public GameObject GeneratorUI;
+
     public void OnQuitAction()
     {
         Application.Quit();
     }
 
-    public void Save()
+    public void OnOpenGenerator()
     {
-        
-    }
-
-    public void ClearAll()
-    {
-        
-    }
-
-    public void Generate()
-    {
-        
+        GeneratorUI.SetActive(true);
     }
 
 }
