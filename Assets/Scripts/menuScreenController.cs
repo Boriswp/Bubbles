@@ -19,11 +19,17 @@ public class menuScreenController : AdModule
     }
 
 
-    public string Scene = "Level";
+    public string ArcadeScene = "Level";
+    public string MissionsScene = "Levels";
 
-    public void LoadScene()
+    public void LoadArcadeScene()
     {
-        SceneManager.LoadScene(Scene);
+        SceneManager.LoadScene(ArcadeScene);
+    }
+
+    public void LoadMissionsScene()
+    {
+        SceneManager.LoadScene(MissionsScene);
     }
 
     public void ExitGame()

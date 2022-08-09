@@ -12,6 +12,17 @@ public class gameScreenController : AdModule
     public TextMeshProUGUI textCounter;
     public TextMeshProUGUI EndCounter;
 
+
+    public void OnEnable()
+    {
+        BaseGameGridManager.onGameOver += ShowLoseScreen;
+    }
+
+    public void OnDisable()
+    {
+        BaseGameGridManager.onGameOver -= ShowLoseScreen;
+    }
+
     public void ShowMenu()
    {
         Time.timeScale = 0f;

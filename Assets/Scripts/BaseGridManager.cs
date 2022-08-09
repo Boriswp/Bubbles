@@ -12,7 +12,7 @@ public class BaseGridManager : MonoBehaviour
     protected readonly int[] deltay = { -1, -1, 1, 1, 0, 0 };
     
     
-    public void Create(Vector2 position, int kind)
+    public void Create(Vector2 position, int kind,bool isGame)
     {
         var snappedPosition = Snap(position);
         var position1 = initialPos.transform.position;
@@ -29,7 +29,7 @@ public class BaseGridManager : MonoBehaviour
 
             try
             {
-                if (grid[column, -row] != null)
+                if (grid[column, -row] != null&&!isGame)
                 {
                     Destroy(grid[column, -row]);
                 }

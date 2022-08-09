@@ -1,0 +1,39 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public static class Helpers 
+{
+	public static IEnumerator SmoothLerp(float time, Transform objectToTransform, Vector3 finalPos)
+	{
+		var startingPos = objectToTransform.position;
+		float elapsedTime = 0;
+
+		while (elapsedTime < time)
+		{
+			objectToTransform.position = Vector3.Lerp(startingPos, finalPos, (elapsedTime / time));
+			elapsedTime += Time.deltaTime;
+			yield return null;
+			objectToTransform.position = finalPos;
+		}
+	}
+
+	public static int GetLastRow(GameObject[,] objects,int rows,int columns)
+    {
+		var lastRow = 0;
+		for (var r = 0; r < rows; r++)
+		{
+			for (var c = 0; c < columns; c++)
+			{
+                if (objects[c, r] == null) {
+					continue;
+				}
+                else
+                {
+					lastRow = r;
+                }
+			}
+		}
+		return lastRow;
+    }
+}

@@ -12,8 +12,7 @@ public class Launcher : MonoBehaviour
 	private int currentKindColor;
 	private int nextKindColor;
 	LineRenderer lineRenderer;
-
-	List<Vector3> reflectionPositions = new();
+    readonly List<Vector3> reflectionPositions = new();
 
 	public const float LAUNCH_SPEED = 15f;
 
@@ -26,7 +25,18 @@ public class Launcher : MonoBehaviour
 		lineRenderer.endWidth = 0.75f;
 	}
 
-	void FixedUpdate()
+    public void OnEnable()
+    {
+		BaseGameGridManager.onReadyToLoad += Load;
+    }
+
+    public void OnDisable()
+    {
+        BaseGameGridManager.onReadyToLoad -= Load;
+    }
+
+
+    void FixedUpdate()
 	{
 		Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		var delta = mousePos - (Vector2)transform.parent.position;
@@ -44,15 +54,15 @@ public class Launcher : MonoBehaviour
 		if (load != null) return;
 		currentKindColor = nextKindColor;
 		nextKindColor = Random.Range(0, 5);
-		nextColorBall.GetComponent<SpriteRenderer>().color = ArcadeGridManager.ColorArray[nextKindColor];
-		load = Instantiate(ball, transform.parent.position,Quaternion.identity);
+		nextColorBall.GetComponent<SpriteRenderer>().color = BaseGridManager.ColorArray[nextKindColor];
+		load = Instantiate(ball, transform.parent.position,Quaternion.identity,transform.parent.parent);
 		load.SetActive(true);
 		var circleCollider2D = load.GetComponent<CircleCollider2D>();
 		circleCollider2D.enabled = false;
 		var hitter = load.GetComponent<Hitter>();
 		hitter.kind = currentKindColor;
 		hitter.enabled = true;
-		hitter.parent = gameObject;
+		hitter.gameGridManager = GetComponent<BaseGameGridManager>();
 	}
 
 	public void Fire()
@@ -60,7 +70,7 @@ public class Launcher : MonoBehaviour
 		if (load == null) return;
 		var circleCollider2D = load.GetComponent<CircleCollider2D>();
 		circleCollider2D.enabled = true;
-
+		load.transform.parent = transform.parent.parent.parent;
 		var rb = load.GetComponent<Rigidbody2D>();
 		rb.velocity = transform.right * LAUNCH_SPEED;
 		load = null;
@@ -72,14 +82,13 @@ public class Launcher : MonoBehaviour
 
 		Vector2 position = new(transform.position.x,transform.position.y);
 		Vector2 direction = inputDirection;
-		lineRenderer.startColor = ArcadeGridManager.ColorArray[currentKindColor];
-		lineRenderer.endColor = ArcadeGridManager.ColorArray[currentKindColor];
+		lineRenderer.startColor = BaseGridManager.ColorArray[currentKindColor];
+		lineRenderer.endColor = BaseGridManager.ColorArray[currentKindColor];
 		reflectionPositions.Add(position);
 
 		for (var i = 0; i <= maximumReflectionCount; ++i)
 		{
 			var circleHit = Physics2D.CircleCast(position,0.24F, direction, maximumRayCastDistance);
-			//var hit = Physics2D.Raycast(position, direction, maximumRayCastDistance);
 			if (!circleHit) continue;
 			position = circleHit.point + circleHit.normal*0.24f;
 			reflectionPositions.Add(position);
