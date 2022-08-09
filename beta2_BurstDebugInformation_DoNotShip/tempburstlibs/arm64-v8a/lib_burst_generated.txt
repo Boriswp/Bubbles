@@ -1,6 +1,6 @@
 Library: lib_burst_generated
 --platform=Android
---backend=burst-llvm-11
+--backend=burst-llvm-12
 --target=ARMV8A_AARCH64
 --global-safety-checks-setting=Off
 --dump=Function
@@ -104,11 +104,6 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_MONO
 --compilation-defines=NET_STANDARD_2_0
 --compilation-defines=NET_STANDARD
---compilation-defines=DEVELOPMENT_BUILD
---compilation-defines=ENABLE_PROFILER
---compilation-defines=DEBUG
---compilation-defines=TRACE
---compilation-defines=UNITY_ASSERTIONS
 --compilation-defines=ENABLE_CUSTOM_RENDER_TEXTURE
 --compilation-defines=ENABLE_DIRECTOR
 --compilation-defines=ENABLE_LOCALIZATION
@@ -124,12 +119,8 @@ Library: lib_burst_generated
 --compilation-defines=PACKAGE_UITOOLKIT
 --compilation-defines=CSHARP_7_OR_LATER
 --compilation-defines=CSHARP_7_3_OR_NEWER
---compilation-defines=VISUAL_SCRIPTING_ENABLED
 --compilation-defines=ENABLE_VR_MODULE
 --compilation-defines=ENABLE_XR_MODULE
---compilation-defines=ADAPTIVE_PERFORMANCE_2_0_0_OR_NEWER
---compilation-defines=ADAPTIVE_PERFORMANCE_2_1_0_OR_NEWER
---compilation-defines=ADAPTIVE_PERFORMANCE_4_0_0_OR_NEWER
 --compilation-defines=ENABLE_BURST_1_0_0_OR_NEWER
 --compilation-defines=USING_ANIMATION_MODULE
 --compilation-defines=USING_PHYSICS2D_MODULE
@@ -142,10 +133,8 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_SPRITESHAPE_BURST
 --compilation-defines=TIMELINE_FRAMEACCURATE
 --generate-link-xml=Temp\burst.link.xml
---debug=Full
 --output=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\tempburstlibs\arm64-v8a\lib_burst_generated
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
---root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.AdaptivePerformance.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.Runtime.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.Services.Core.Telemetry.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
@@ -169,17 +158,15 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.2D.IK.Runtime.dll
+--root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\SimpleFileBrowser.Runtime.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.2D.Tilemap.Extras.dll
---root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.Profiling.Core.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.Services.Core.Threading.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.2D.Common.Runtime.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.Services.Core.Networking.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
---root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.Subsystem.Registration.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
---root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.AdaptivePerformance.Samsung.Android.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Core.ShaderLibrary.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.001.dll
 --root-assembly=C:\Users\boris\Documents\Bubbles\Temp\StagingArea\Data\Managed\Unity.RenderPipelines.Universal.Shaders.dll
