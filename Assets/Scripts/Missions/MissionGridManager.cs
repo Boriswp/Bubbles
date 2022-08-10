@@ -6,6 +6,9 @@ public class MissionGridManager : BaseGameGridManager
 {
 	private int ballcount = 0;
 
+	public delegate void OnUpdateBallCount(int count);
+	public static OnUpdateBallCount onUpdateBallCount;
+	
 	private void Awake()
 	{
 		ROW_MAX = rows * 4;
@@ -18,7 +21,21 @@ public class MissionGridManager : BaseGameGridManager
 				Creator(c, r);
 			}
 		}
-		ballcount = 30;
+		ballcount = 345;
+		onUpdateBallCount?.Invoke(ballcount);
 		onUpdateTarget.Invoke(new Vector2(0, -(rows-1) * gap));
 	}
+
+    public override List<int> UpdateLvlInfo()
+    {
+		ballcount--;
+		onUpdateBallCount?.Invoke(ballcount);
+		if(ballcount == 0)
+        {
+			onGameOver.Invoke();
+        }
+		System.Tuple<int,List<int>> tuple = Helpers.GetLastRowAndColors(grid, ROW_MAX, columns);
+		onUpdateTarget?.Invoke(new Vector2(0, -tuple.Item1 * gap));
+		return tuple.Item2;
+    }
 }

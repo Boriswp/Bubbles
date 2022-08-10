@@ -13,12 +13,14 @@ public class Launcher : MonoBehaviour
 	private int nextKindColor;
 	LineRenderer lineRenderer;
     readonly List<Vector3> reflectionPositions = new();
+	private BaseGameGridManager gameGridManager;
 
 	public const float LAUNCH_SPEED = 15f;
 
 	private void Awake()
 	{
 		nextKindColor = Random.Range(0, 5);
+		gameGridManager = GetComponent<BaseGameGridManager>();
 		Load();
 		lineRenderer = GetComponent<LineRenderer>();
 		lineRenderer.startWidth = 0.75f;
@@ -52,8 +54,18 @@ public class Launcher : MonoBehaviour
 	public void Load()
 	{
 		if (load != null) return;
+		var colorArray = gameGridManager.UpdateLvlInfo();
 		currentKindColor = nextKindColor;
-		nextKindColor = Random.Range(0, 5);
+		if(colorArray.Count > 0)
+		{
+			Debug.Log("here");
+			var index = Random.Range(0, colorArray.Count);
+			nextKindColor = colorArray[index];
+        }
+        else
+        {
+			nextKindColor = Random.Range(0, 5);
+		}
 		nextColorBall.GetComponent<SpriteRenderer>().color = BaseGridManager.ColorArray[nextKindColor];
 		load = Instantiate(ball, transform.parent.position,Quaternion.identity,transform.parent.parent);
 		load.SetActive(true);
@@ -62,7 +74,7 @@ public class Launcher : MonoBehaviour
 		var hitter = load.GetComponent<Hitter>();
 		hitter.kind = currentKindColor;
 		hitter.enabled = true;
-		hitter.gameGridManager = GetComponent<BaseGameGridManager>();
+		hitter.gameGridManager = gameGridManager;
 	}
 
 	public void Fire()

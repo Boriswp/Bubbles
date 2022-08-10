@@ -1060,7 +1060,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412338395}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0.09, z: -11}
+  m_LocalPosition: {x: 0, y: 0.09, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1450,7 +1450,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 584895272}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.23, y: 0.09, z: -1}
+  m_LocalPosition: {x: 2.13, y: 0.09, z: -1}
   m_LocalScale: {x: 0.1, y: 4.465173, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1885,10 +1885,8 @@ MonoBehaviour:
   gap: 0.5
   bubble: {fileID: 158212, guid: 8a1eed5b64b42624787d4ce0dcd1842b, type: 3}
   initialPos: {fileID: 270291093}
-  textCounter: {fileID: 1343287648}
   columns: 8
   rows: 5
-  gameScreenController: {fileID: 316772872}
   loseCountRow: 13
   ready: 0
 --- !u!82 &747305830

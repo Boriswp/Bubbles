@@ -18,9 +18,10 @@ public static class Helpers
 		}
 	}
 
-	public static int GetLastRow(GameObject[,] objects,int rows,int columns)
+	public static System.Tuple<int, List<int>> GetLastRowAndColors(GameObject[,] objects,int rows,int columns)
     {
 		var lastRow = 0;
+		var listColors = new List<int>();
 		for (var r = 0; r < rows; r++)
 		{
 			for (var c = 0; c < columns; c++)
@@ -30,10 +31,14 @@ public static class Helpers
 				}
                 else
                 {
+					var newKind = objects[c, r].GetComponent<GridMember>().kind;
+					if (!listColors.Contains(newKind)){
+						listColors.Add(newKind);
+                    }
 					lastRow = r;
                 }
 			}
 		}
-		return lastRow;
+		return System.Tuple.Create(lastRow,listColors);
     }
 }

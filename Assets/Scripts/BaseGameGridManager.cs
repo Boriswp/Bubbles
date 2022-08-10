@@ -35,9 +35,10 @@ public class BaseGameGridManager : BaseGridManager
         Create(position, newKind, true);
     }
 
+	public virtual List<int> UpdateLvlInfo() { return new List<int>(); }
+
 	public void CreateSimple(GameObject gameObject, int kind)
 	{
-		Debug.Log(gameObject);
 		ready = false;
 		var position = gameObject.transform.position;
 		while (true)
@@ -199,7 +200,6 @@ public class BaseGameGridManager : BaseGridManager
 				gm.state = BubbleState.Explode;
 			}
 		}
-		onUpdateTarget?.Invoke(new Vector2(0, -(Helpers.GetLastRow(grid, ROW_MAX, columns)) * gap));
 		onUpdateScore?.Invoke(_counter);
 	}
 }

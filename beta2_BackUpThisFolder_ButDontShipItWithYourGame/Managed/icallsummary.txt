@@ -31,6 +31,7 @@ Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::EndSample
 Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::GetCategoryDescription_Injected
 Unity.Profiling.ProfilerRecorder::GetRunning_Injected
 Unity.Profiling.ProfilerRecorder::GetValid_Injected
+Unity.Profiling.ProfilerRecorder::CopyTo_Pointer_Injected
 Unity.Profiling.ProfilerRecorder::GetCount_Injected
 Unity.Profiling.ProfilerRecorder::GetLastValue_Injected
 Unity.Profiling.ProfilerRecorder::Control_Injected
@@ -509,6 +510,7 @@ UnityEngine.GUILayoutUtility::Internal_MoveWindow_Injected
 UnityEngine.GUIStyle::IsTooltipActive
 UnityEngine.GUIStyle::get_stretchHeight
 UnityEngine.GUIStyle::get_stretchWidth
+UnityEngine.GUIStyle::get_wordWrap
 UnityEngine.GUIStyle::Internal_GetCursorStringIndex_Injected
 UnityEngine.GUIStyle::GetRectOffsetPtr
 UnityEngine.GUIStyle::GetStyleStatePtr
@@ -520,6 +522,8 @@ UnityEngine.GUIStyle::get_fixedHeight
 UnityEngine.GUIStyle::get_fixedWidth
 UnityEngine.GUIStyle::Internal_GetSelectedRenderedText_Injected
 UnityEngine.GUIStyle::get_rawName
+UnityEngine.GUIStyle::Internal_CalcMinMaxWidth_Injected
+UnityEngine.GUIStyle::Internal_CalcSizeWithConstraints_Injected
 UnityEngine.GUIStyle::Internal_CalcSize_Injected
 UnityEngine.GUIStyle::Internal_Destroy
 UnityEngine.GUIStyle::Internal_Draw2_Injected
@@ -537,6 +541,7 @@ UnityEngine.GUIStyle::set_richText
 UnityEngine.GUIStyle::set_stretchHeight
 UnityEngine.GUIStyle::set_wordWrap
 UnityEngine.GUIStyle::get_font
+UnityEngine.GUIStyle::get_imagePosition
 UnityEngine.GUIStyleState::Init
 UnityEngine.GUIStyleState::Cleanup
 UnityEngine.GUIStyleState::set_textColor_Injected
@@ -603,6 +608,7 @@ UnityEngine.Jobs.TransformAccessArray::Add
 UnityEngine.Jobs.TransformAccessArray::DestroyTransformAccessArray
 UnityEngine.Jobs.TransformAccessArray::RemoveAtSwapBack
 UnityEngine.Jobs.TransformAccessArray::GetTransform
+UnityEngine.JsonUtility::FromJsonInternal
 UnityEngine.JsonUtility::ToJsonInternal
 UnityEngine.Light::get_useColorTemperature
 UnityEngine.Light::get_bounceIntensity
@@ -677,6 +683,7 @@ UnityEngine.Mathf::FloatToHalf
 UnityEngine.Mathf::CorrelatedColorTemperatureToRGB_Injected
 UnityEngine.Matrix4x4::Inverse3DAffine_Injected
 UnityEngine.Matrix4x4::DecomposeProjection_Injected
+UnityEngine.Matrix4x4::Frustum_Injected
 UnityEngine.Matrix4x4::GetLossyScale_Injected
 UnityEngine.Matrix4x4::Inverse_Injected
 UnityEngine.Matrix4x4::Ortho_Injected
@@ -707,6 +714,7 @@ UnityEngine.Mesh::UploadMeshDataImpl
 UnityEngine.Mesh::get_bounds_Injected
 UnityEngine.Mesh::set_bounds_Injected
 UnityEngine.Mesh::set_indexFormat
+UnityEngine.Mesh::get_indexFormat
 UnityEngine.MeshFilter::set_sharedMesh
 UnityEngine.MonoBehaviour::Internal_IsInvokingAll
 UnityEngine.MonoBehaviour::IsInvoking
@@ -792,6 +800,8 @@ UnityEngine.PlayerPrefs::GetInt
 UnityEngine.PlayerPrefs::GetString
 UnityEngine.PlayerPrefs::Save
 UnityEngine.Profiling.Profiler::GetRuntimeMemorySizeLong
+UnityEngine.Profiling.Profiler::BeginSampleImpl
+UnityEngine.Profiling.Profiler::EndSample
 UnityEngine.PropertyNameUtils::PropertyNameFromString_Injected
 UnityEngine.QualitySettings::get_billboardsFaceCameraPosition
 UnityEngine.QualitySettings::get_antiAliasing

@@ -491,973 +491,977 @@ extern void U3CU3Ec__DisplayClass19_0_U3CAuthenticateU3Eb__0_mD4DDC0C0C4DDFB7E60
 extern void U3CU3Ec__DisplayClass19_0_U3CAuthenticateU3Eb__1_m41CF502B512716794A5B72BB84CFF4462EBE9149 (void);
 // 0x000000F7 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass20_0::.ctor()
 extern void U3CU3Ec__DisplayClass20_0__ctor_m01948F4D487D876615453A84C18FCEAD839046F3 (void);
-// 0x000000F8 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass20_0::<SignInOnResult>b__0(UnityEngine.AndroidJavaObject)
-extern void U3CU3Ec__DisplayClass20_0_U3CSignInOnResultU3Eb__0_m7560A9C2FB050A4B0E6CD70D6B505349C58DE4D4 (void);
-// 0x000000F9 System.Void GooglePlayGames.Android.AndroidClient/<>c::.cctor()
+// 0x000000F8 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass20_1::.ctor()
+extern void U3CU3Ec__DisplayClass20_1__ctor_m28CC9D16F57161693BEC27ECEBC21733976F08C4 (void);
+// 0x000000F9 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass20_1::<SignInOnResult>b__0(UnityEngine.AndroidJavaObject)
+extern void U3CU3Ec__DisplayClass20_1_U3CSignInOnResultU3Eb__0_mD447F53E23091F862DD56E7490D2C04F8B19335C (void);
+// 0x000000FA System.Void GooglePlayGames.Android.AndroidClient/<>c::.cctor()
 extern void U3CU3Ec__cctor_m1DB17031C89EE1A10C652C2BDE90BBA34203913B (void);
-// 0x000000FA System.Void GooglePlayGames.Android.AndroidClient/<>c::.ctor()
+// 0x000000FB System.Void GooglePlayGames.Android.AndroidClient/<>c::.ctor()
 extern void U3CU3Ec__ctor_mD16789031D4E68AA1F27DEC7ACAFAB67144C2352 (void);
-// 0x000000FB System.Void GooglePlayGames.Android.AndroidClient/<>c::<SignInOnResult>b__20_1(GooglePlayGames.BasicApi.Achievement[])
+// 0x000000FC System.Void GooglePlayGames.Android.AndroidClient/<>c::<SignInOnResult>b__20_1(GooglePlayGames.BasicApi.Achievement[])
 extern void U3CU3Ec_U3CSignInOnResultU3Eb__20_1_m84ACD824AB555E551661DFE26B67E4C456491471 (void);
-// 0x000000FC System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass21_0::.ctor()
+// 0x000000FD System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass21_0::.ctor()
 extern void U3CU3Ec__DisplayClass21_0__ctor_mAF0E4CA321EE28B70D326C5B538612345537B982 (void);
-// 0x000000FD System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass21_0::<RequestServerSideAccess>b__0(System.String)
+// 0x000000FE System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass21_0::<RequestServerSideAccess>b__0(System.String)
 extern void U3CU3Ec__DisplayClass21_0_U3CRequestServerSideAccessU3Eb__0_mB0AA3BFCFE5ED1A84EA00FDC11125678899281DE (void);
-// 0x000000FE System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass21_0::<RequestServerSideAccess>b__1(UnityEngine.AndroidJavaObject)
+// 0x000000FF System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass21_0::<RequestServerSideAccess>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass21_0_U3CRequestServerSideAccessU3Eb__1_m3D9532FE8788BF0A74E0B98B91C30C5D32900A86 (void);
-// 0x000000FF System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass22_0`1::.ctor()
-// 0x00000100 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass22_0`1::<AsOnGameThreadCallback>b__1(T)
-// 0x00000101 System.Void GooglePlayGames.Android.AndroidClient/<>c__22`1::.cctor()
-// 0x00000102 System.Void GooglePlayGames.Android.AndroidClient/<>c__22`1::.ctor()
-// 0x00000103 System.Void GooglePlayGames.Android.AndroidClient/<>c__22`1::<AsOnGameThreadCallback>b__22_0(T)
-// 0x00000104 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass23_0::.ctor()
+// 0x00000100 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass22_0`1::.ctor()
+// 0x00000101 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass22_0`1::<AsOnGameThreadCallback>b__1(T)
+// 0x00000102 System.Void GooglePlayGames.Android.AndroidClient/<>c__22`1::.cctor()
+// 0x00000103 System.Void GooglePlayGames.Android.AndroidClient/<>c__22`1::.ctor()
+// 0x00000104 System.Void GooglePlayGames.Android.AndroidClient/<>c__22`1::<AsOnGameThreadCallback>b__22_0(T)
+// 0x00000105 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass23_0::.ctor()
 extern void U3CU3Ec__DisplayClass23_0__ctor_mAF53FCB26ED2979E5334282DA367AA80D357D62D (void);
-// 0x00000105 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass23_0::<InvokeCallbackOnGameThread>b__0()
+// 0x00000106 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass23_0::<InvokeCallbackOnGameThread>b__0()
 extern void U3CU3Ec__DisplayClass23_0_U3CInvokeCallbackOnGameThreadU3Eb__0_m39D7C194F1C96798F9584C523F3625AF6BD719F1 (void);
-// 0x00000106 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass24_0`1::.ctor()
-// 0x00000107 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass24_0`1::<InvokeCallbackOnGameThread>b__0()
-// 0x00000108 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass25_0`2::.ctor()
-// 0x00000109 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass25_0`2::<AsOnGameThreadCallback>b__0(T1,T2)
-// 0x0000010A System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass25_1`2::.ctor()
-// 0x0000010B System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass25_1`2::<AsOnGameThreadCallback>b__1()
-// 0x0000010C System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass26_0`2::.ctor()
-// 0x0000010D System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass26_0`2::<InvokeCallbackOnGameThread>b__0()
-// 0x0000010E System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass29_0::.ctor()
+// 0x00000107 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass24_0`1::.ctor()
+// 0x00000108 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass24_0`1::<InvokeCallbackOnGameThread>b__0()
+// 0x00000109 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass25_0`2::.ctor()
+// 0x0000010A System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass25_0`2::<AsOnGameThreadCallback>b__0(T1,T2)
+// 0x0000010B System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass25_1`2::.ctor()
+// 0x0000010C System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass25_1`2::<AsOnGameThreadCallback>b__1()
+// 0x0000010D System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass26_0`2::.ctor()
+// 0x0000010E System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass26_0`2::<InvokeCallbackOnGameThread>b__0()
+// 0x0000010F System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass29_0::.ctor()
 extern void U3CU3Ec__DisplayClass29_0__ctor_mC9E2193CF78BFBCE89790CBFECC30B8DF24CC72D (void);
-// 0x0000010F System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass29_0::<LoadAllFriends>b__0(GooglePlayGames.BasicApi.LoadFriendsStatus)
+// 0x00000110 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass29_0::<LoadAllFriends>b__0(GooglePlayGames.BasicApi.LoadFriendsStatus)
 extern void U3CU3Ec__DisplayClass29_0_U3CLoadAllFriendsU3Eb__0_mDB6699757E733CEE71CF9A59207FA804D9D0CF70 (void);
-// 0x00000110 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_0::.ctor()
+// 0x00000111 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_0::.ctor()
 extern void U3CU3Ec__DisplayClass32_0__ctor_m14018F5C65B30A4089CB130C3D046A8F1B4ED993 (void);
-// 0x00000111 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_0::<LoadFriendsPaginated>b__0(UnityEngine.AndroidJavaObject)
+// 0x00000112 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_0::<LoadFriendsPaginated>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass32_0_U3CLoadFriendsPaginatedU3Eb__0_mD36B09253A25F19157420C8080E9F6EBF749643C (void);
-// 0x00000112 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_0::<LoadFriendsPaginated>b__1(UnityEngine.AndroidJavaObject)
+// 0x00000113 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_0::<LoadFriendsPaginated>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass32_0_U3CLoadFriendsPaginatedU3Eb__1_mDF7B33BADA91C32B32837E72D1E6ADB67250789D (void);
-// 0x00000113 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_1::.ctor()
+// 0x00000114 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_1::.ctor()
 extern void U3CU3Ec__DisplayClass32_1__ctor_m43C312E0482EEA9389B82F87A2BFD59146CB1B46 (void);
-// 0x00000114 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_1::<LoadFriendsPaginated>b__2(System.Boolean)
+// 0x00000115 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_1::<LoadFriendsPaginated>b__2(System.Boolean)
 extern void U3CU3Ec__DisplayClass32_1_U3CLoadFriendsPaginatedU3Eb__2_m37ACFA208BD604ADD4FAC8475ACC399017019B9B (void);
-// 0x00000115 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0::.ctor()
+// 0x00000116 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0::.ctor()
 extern void U3CU3Ec__DisplayClass35_0__ctor_m1178BA8CF01FC9B2D9D7CA6C7E99060455AE551B (void);
-// 0x00000116 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0::<AskForLoadFriendsResolution>b__0(UnityEngine.AndroidJavaObject)
+// 0x00000117 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0::<AskForLoadFriendsResolution>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass35_0_U3CAskForLoadFriendsResolutionU3Eb__0_m47CD31515866EA79F3C5687F05A14B33D170751E (void);
-// 0x00000117 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0::<AskForLoadFriendsResolution>b__1(UnityEngine.AndroidJavaObject)
+// 0x00000118 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0::<AskForLoadFriendsResolution>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass35_0_U3CAskForLoadFriendsResolutionU3Eb__1_m5C7B1F118E11B95177D8EF46610BCC48F6B22651 (void);
-// 0x00000118 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1::.ctor()
+// 0x00000119 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1::.ctor()
 extern void U3CU3Ec__DisplayClass35_1__ctor_m43BB6D094F2244A76E491A82939F76D6B0610FCC (void);
-// 0x00000119 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1::<AskForLoadFriendsResolution>b__2(System.Boolean)
+// 0x0000011A System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1::<AskForLoadFriendsResolution>b__2(System.Boolean)
 extern void U3CU3Ec__DisplayClass35_1_U3CAskForLoadFriendsResolutionU3Eb__2_m95A809E6905B43FF89FF199C4B9D42C2CABCC8BE (void);
-// 0x0000011A System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0::.ctor()
+// 0x0000011B System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0::.ctor()
 extern void U3CU3Ec__DisplayClass37_0__ctor_m5BBB28752DB622391DA48AC0FABCDFF883065AEB (void);
-// 0x0000011B System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0::<GetFriendsListVisibility>b__0(UnityEngine.AndroidJavaObject)
+// 0x0000011C System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0::<GetFriendsListVisibility>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass37_0_U3CGetFriendsListVisibilityU3Eb__0_m08EEF5D064F9EB797BBACDB8282FB8F625C47CF2 (void);
-// 0x0000011C System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0::<GetFriendsListVisibility>b__1(UnityEngine.AndroidJavaObject)
+// 0x0000011D System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0::<GetFriendsListVisibility>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass37_0_U3CGetFriendsListVisibilityU3Eb__1_mC2EC160CB053736F26C03127E10D66C4A27182BB (void);
-// 0x0000011D System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass42_0::.ctor()
+// 0x0000011E System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass42_0::.ctor()
 extern void U3CU3Ec__DisplayClass42_0__ctor_mB50351E2D263131C7749BBDFD2455491BD7FC909 (void);
-// 0x0000011E System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass42_0::<GetPlayerStats>b__0(UnityEngine.AndroidJavaObject)
+// 0x0000011F System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass42_0::<GetPlayerStats>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass42_0_U3CGetPlayerStatsU3Eb__0_m57174E0230F8A7D1DAF275CD77494708C88BFB6F (void);
-// 0x0000011F System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass42_0::<GetPlayerStats>b__1(UnityEngine.AndroidJavaObject)
+// 0x00000120 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass42_0::<GetPlayerStats>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass42_0_U3CGetPlayerStatsU3Eb__1_mF32C33FC80E5F1E80B64ABFC10871AA0023FD491 (void);
-// 0x00000120 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass43_0::.ctor()
+// 0x00000121 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass43_0::.ctor()
 extern void U3CU3Ec__DisplayClass43_0__ctor_m9E1E3071E400A6E396B5B081BED38B6D3DD62D69 (void);
-// 0x00000121 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass43_0::<LoadUsers>b__0(UnityEngine.AndroidJavaObject)
-extern void U3CU3Ec__DisplayClass43_0_U3CLoadUsersU3Eb__0_mBDAD655B5E6CC4667BA7987176F703DA6F69769B (void);
 // 0x00000122 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass43_1::.ctor()
 extern void U3CU3Ec__DisplayClass43_1__ctor_m2E0AB87B1099FA3AAECF5E03BB0BF9781A641367 (void);
-// 0x00000123 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass43_1::<LoadUsers>b__1(UnityEngine.AndroidJavaObject)
-extern void U3CU3Ec__DisplayClass43_1_U3CLoadUsersU3Eb__1_m61349D78F9E92E44BDD432E6BFB0E95698BBD225 (void);
-// 0x00000124 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass44_0::.ctor()
+// 0x00000123 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass43_1::<LoadUsers>b__0(UnityEngine.AndroidJavaObject)
+extern void U3CU3Ec__DisplayClass43_1_U3CLoadUsersU3Eb__0_mBBEAF524075C836FBBFC1D9523BFD28A6AEA5EB3 (void);
+// 0x00000124 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass43_2::.ctor()
+extern void U3CU3Ec__DisplayClass43_2__ctor_mF8B9C26443FF2E3B9BDFD48701E782C293761B57 (void);
+// 0x00000125 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass43_2::<LoadUsers>b__1(UnityEngine.AndroidJavaObject)
+extern void U3CU3Ec__DisplayClass43_2_U3CLoadUsersU3Eb__1_m6D924CAD6D60340ED01AF26B55E6054ADCAB65F7 (void);
+// 0x00000126 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass44_0::.ctor()
 extern void U3CU3Ec__DisplayClass44_0__ctor_m8BA1478D12BC1EE3269A39F467645318F5FE48D3 (void);
-// 0x00000125 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass44_0::<LoadAchievements>b__0(UnityEngine.AndroidJavaObject)
+// 0x00000127 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass44_0::<LoadAchievements>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass44_0_U3CLoadAchievementsU3Eb__0_m82AF58D47E2A975D0069581190D12E46AD042519 (void);
-// 0x00000126 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass44_0::<LoadAchievements>b__1(UnityEngine.AndroidJavaObject)
+// 0x00000128 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass44_0::<LoadAchievements>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass44_0_U3CLoadAchievementsU3Eb__1_m3A78998B07C1B72F5C2B6644339AF89CAA92B9AE (void);
-// 0x00000127 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass52_0::.ctor()
+// 0x00000129 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass52_0::.ctor()
 extern void U3CU3Ec__DisplayClass52_0__ctor_m2A43D975BE8812FA57B2DCC39CEE4E22AB131F6F (void);
-// 0x00000128 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass52_0::<LoadScores>b__0(UnityEngine.AndroidJavaObject)
+// 0x0000012A System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass52_0::<LoadScores>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass52_0_U3CLoadScoresU3Eb__0_m09D75263B5259133DB2B7D83AE13E724EBAE083A (void);
-// 0x00000129 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass52_0::<LoadScores>b__1(UnityEngine.AndroidJavaObject)
+// 0x0000012B System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass52_0::<LoadScores>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass52_0_U3CLoadScoresU3Eb__1_m1FE82A7A97C9BF7AD55FAD6FD7199738EE693ED5 (void);
-// 0x0000012A System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass52_1::.ctor()
+// 0x0000012C System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass52_1::.ctor()
 extern void U3CU3Ec__DisplayClass52_1__ctor_m2FCC6D3DEABDE0C6BA457636A6B0C13AC88DDC91 (void);
-// 0x0000012B System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass52_1::<LoadScores>b__2(System.Boolean)
+// 0x0000012D System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass52_1::<LoadScores>b__2(System.Boolean)
 extern void U3CU3Ec__DisplayClass52_1_U3CLoadScoresU3Eb__2_m92E07057D923F64D4CC2B6514146A3E8CF2D927E (void);
-// 0x0000012C System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass53_0::.ctor()
+// 0x0000012E System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass53_0::.ctor()
 extern void U3CU3Ec__DisplayClass53_0__ctor_mA05B40FBFC2594FE1ED3020DFDE4B4631DA21332 (void);
-// 0x0000012D System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass53_0::<LoadMoreScores>b__0(UnityEngine.AndroidJavaObject)
+// 0x0000012F System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass53_0::<LoadMoreScores>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass53_0_U3CLoadMoreScoresU3Eb__0_mA56A69B53A7B952DB894E5AC8020F52C7541EEC4 (void);
-// 0x0000012E System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass53_0::<LoadMoreScores>b__1(UnityEngine.AndroidJavaObject)
+// 0x00000130 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass53_0::<LoadMoreScores>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass53_0_U3CLoadMoreScoresU3Eb__1_m0B622446E82838513FD4F3C978804726A53365CE (void);
-// 0x0000012F System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass53_1::.ctor()
+// 0x00000131 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass53_1::.ctor()
 extern void U3CU3Ec__DisplayClass53_1__ctor_m39201D6D03D0598279436691DB80BDE483D1E472 (void);
-// 0x00000130 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass53_1::<LoadMoreScores>b__2(System.Boolean)
+// 0x00000132 System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass53_1::<LoadMoreScores>b__2(System.Boolean)
 extern void U3CU3Ec__DisplayClass53_1_U3CLoadMoreScoresU3Eb__2_m94748A90E95CD73D974214DC60EB0A961208B899 (void);
-// 0x00000131 System.Void GooglePlayGames.Android.AndroidEventsClient::.ctor()
+// 0x00000133 System.Void GooglePlayGames.Android.AndroidEventsClient::.ctor()
 extern void AndroidEventsClient__ctor_m5D27F91CA176BEC52122E077BE1692F4795F0D4C (void);
-// 0x00000132 System.Void GooglePlayGames.Android.AndroidEventsClient::FetchAllEvents(GooglePlayGames.BasicApi.DataSource,System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Events.IEvent>>)
+// 0x00000134 System.Void GooglePlayGames.Android.AndroidEventsClient::FetchAllEvents(GooglePlayGames.BasicApi.DataSource,System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Events.IEvent>>)
 extern void AndroidEventsClient_FetchAllEvents_m0B6AD02773BBA6C15507B259EA5229DC410E1F59 (void);
-// 0x00000133 System.Void GooglePlayGames.Android.AndroidEventsClient::FetchEvent(GooglePlayGames.BasicApi.DataSource,System.String,System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,GooglePlayGames.BasicApi.Events.IEvent>)
+// 0x00000135 System.Void GooglePlayGames.Android.AndroidEventsClient::FetchEvent(GooglePlayGames.BasicApi.DataSource,System.String,System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,GooglePlayGames.BasicApi.Events.IEvent>)
 extern void AndroidEventsClient_FetchEvent_mD03D0A7C388C059C75ADEA3EC1B7C83FB01B36B9 (void);
-// 0x00000134 System.Void GooglePlayGames.Android.AndroidEventsClient::IncrementEvent(System.String,System.UInt32)
+// 0x00000136 System.Void GooglePlayGames.Android.AndroidEventsClient::IncrementEvent(System.String,System.UInt32)
 extern void AndroidEventsClient_IncrementEvent_mC10D20A67742CF30CDEC5D3796CB3079A08855E1 (void);
-// 0x00000135 System.Action`2<T1,T2> GooglePlayGames.Android.AndroidEventsClient::ToOnGameThread(System.Action`2<T1,T2>)
-// 0x00000136 GooglePlayGames.BasicApi.Events.Event GooglePlayGames.Android.AndroidEventsClient::CreateEvent(UnityEngine.AndroidJavaObject)
+// 0x00000137 System.Action`2<T1,T2> GooglePlayGames.Android.AndroidEventsClient::ToOnGameThread(System.Action`2<T1,T2>)
+// 0x00000138 GooglePlayGames.BasicApi.Events.Event GooglePlayGames.Android.AndroidEventsClient::CreateEvent(UnityEngine.AndroidJavaObject)
 extern void AndroidEventsClient_CreateEvent_m4AAFFF93331C3E5EF7E6A90BA58C4EAE228B2233 (void);
-// 0x00000137 System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass2_0::.ctor()
+// 0x00000139 System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass2_0::.ctor()
 extern void U3CU3Ec__DisplayClass2_0__ctor_m7881B5BBE673326650B9E042D0B31D3DDDB44D47 (void);
-// 0x00000138 System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass2_0::<FetchAllEvents>b__0(UnityEngine.AndroidJavaObject)
+// 0x0000013A System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass2_0::<FetchAllEvents>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass2_0_U3CFetchAllEventsU3Eb__0_m0D6513F1B50D6696622CFA4F205AA5CA6B0CECE2 (void);
-// 0x00000139 System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass2_0::<FetchAllEvents>b__1(UnityEngine.AndroidJavaObject)
+// 0x0000013B System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass2_0::<FetchAllEvents>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass2_0_U3CFetchAllEventsU3Eb__1_m797E0F88898FDB880D65ED96F4E1D9A3B01835CB (void);
-// 0x0000013A System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass3_0::.ctor()
+// 0x0000013C System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass3_0::.ctor()
 extern void U3CU3Ec__DisplayClass3_0__ctor_m58034E5210FFA9D922C1A7BF9DF9AA11D85F4B06 (void);
-// 0x0000013B System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass3_0::<FetchEvent>b__0(UnityEngine.AndroidJavaObject)
+// 0x0000013D System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass3_0::<FetchEvent>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass3_0_U3CFetchEventU3Eb__0_m608E04649D0F77139AD9C19D78859A45324A1FF1 (void);
-// 0x0000013C System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass3_0::<FetchEvent>b__1(UnityEngine.AndroidJavaObject)
+// 0x0000013E System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass3_0::<FetchEvent>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass3_0_U3CFetchEventU3Eb__1_mDFBCE92B899F74653B9669AA2CEC24001541C96E (void);
-// 0x0000013D System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass5_0`2::.ctor()
-// 0x0000013E System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass5_0`2::<ToOnGameThread>b__0(T1,T2)
-// 0x0000013F System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass5_1`2::.ctor()
-// 0x00000140 System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass5_1`2::<ToOnGameThread>b__1()
-// 0x00000141 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidHelperFragment::GetActivity()
+// 0x0000013F System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass5_0`2::.ctor()
+// 0x00000140 System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass5_0`2::<ToOnGameThread>b__0(T1,T2)
+// 0x00000141 System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass5_1`2::.ctor()
+// 0x00000142 System.Void GooglePlayGames.Android.AndroidEventsClient/<>c__DisplayClass5_1`2::<ToOnGameThread>b__1()
+// 0x00000143 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidHelperFragment::GetActivity()
 extern void AndroidHelperFragment_GetActivity_m47EDC5B1C3AF13011AA0C317D9E4CA43785E0321 (void);
-// 0x00000142 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidHelperFragment::GetDefaultPopupView()
+// 0x00000144 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidHelperFragment::GetDefaultPopupView()
 extern void AndroidHelperFragment_GetDefaultPopupView_m50D51FF2C08BA6B4DFAD8C12DF4C72D739CC23E0 (void);
-// 0x00000143 System.Void GooglePlayGames.Android.AndroidHelperFragment::ShowAchievementsUI(System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+// 0x00000145 System.Void GooglePlayGames.Android.AndroidHelperFragment::ShowAchievementsUI(System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
 extern void AndroidHelperFragment_ShowAchievementsUI_m363947EA50AAFA55E6C2B0C70D68270167A5BEB6 (void);
-// 0x00000144 System.Void GooglePlayGames.Android.AndroidHelperFragment::ShowCaptureOverlayUI()
+// 0x00000146 System.Void GooglePlayGames.Android.AndroidHelperFragment::ShowCaptureOverlayUI()
 extern void AndroidHelperFragment_ShowCaptureOverlayUI_m3A49C96EF640FB78AD9D7A0AAD20307E885A8B51 (void);
-// 0x00000145 System.Void GooglePlayGames.Android.AndroidHelperFragment::ShowAllLeaderboardsUI(System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+// 0x00000147 System.Void GooglePlayGames.Android.AndroidHelperFragment::ShowAllLeaderboardsUI(System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
 extern void AndroidHelperFragment_ShowAllLeaderboardsUI_mB9D4D58CE327E9024604222FFE3F2D58FDD70494 (void);
-// 0x00000146 System.Void GooglePlayGames.Android.AndroidHelperFragment::ShowLeaderboardUI(System.String,GooglePlayGames.BasicApi.LeaderboardTimeSpan,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+// 0x00000148 System.Void GooglePlayGames.Android.AndroidHelperFragment::ShowLeaderboardUI(System.String,GooglePlayGames.BasicApi.LeaderboardTimeSpan,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
 extern void AndroidHelperFragment_ShowLeaderboardUI_m7C32C15E731E5AA6474B3424D612606D81138A5C (void);
-// 0x00000147 System.Void GooglePlayGames.Android.AndroidHelperFragment::ShowCompareProfileWithAlternativeNameHintsUI(System.String,System.String,System.String,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+// 0x00000149 System.Void GooglePlayGames.Android.AndroidHelperFragment::ShowCompareProfileWithAlternativeNameHintsUI(System.String,System.String,System.String,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
 extern void AndroidHelperFragment_ShowCompareProfileWithAlternativeNameHintsUI_mDF74A7C237F9394E9099F72D0473D74907FC6028 (void);
-// 0x00000148 System.Void GooglePlayGames.Android.AndroidHelperFragment::IsResolutionRequired(UnityEngine.AndroidJavaObject,System.Action`1<System.Boolean>)
+// 0x0000014A System.Void GooglePlayGames.Android.AndroidHelperFragment::IsResolutionRequired(UnityEngine.AndroidJavaObject,System.Action`1<System.Boolean>)
 extern void AndroidHelperFragment_IsResolutionRequired_m5125176D4E6BE9DD9F9F4FFE41F69A8F1BA472D0 (void);
-// 0x00000149 System.Void GooglePlayGames.Android.AndroidHelperFragment::AskForLoadFriendsResolution(UnityEngine.AndroidJavaObject,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+// 0x0000014B System.Void GooglePlayGames.Android.AndroidHelperFragment::AskForLoadFriendsResolution(UnityEngine.AndroidJavaObject,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
 extern void AndroidHelperFragment_AskForLoadFriendsResolution_mB07772559F9A0AE436AECED838D8FEC032B0AE84 (void);
-// 0x0000014A System.Void GooglePlayGames.Android.AndroidHelperFragment::ShowSelectSnapshotUI(System.Boolean,System.Boolean,System.Int32,System.String,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SelectUIStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
+// 0x0000014C System.Void GooglePlayGames.Android.AndroidHelperFragment::ShowSelectSnapshotUI(System.Boolean,System.Boolean,System.Int32,System.String,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SelectUIStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
 extern void AndroidHelperFragment_ShowSelectSnapshotUI_m26C2A4CC5A2B4F8EB06AFFAE3D43D7AA986EFEEF (void);
-// 0x0000014B System.Void GooglePlayGames.Android.AndroidHelperFragment::.ctor()
+// 0x0000014D System.Void GooglePlayGames.Android.AndroidHelperFragment::.ctor()
 extern void AndroidHelperFragment__ctor_mA52B1557735B49E0CB4A8BF32CF251473201892C (void);
-// 0x0000014C System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass3_0::.ctor()
+// 0x0000014E System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass3_0::.ctor()
 extern void U3CU3Ec__DisplayClass3_0__ctor_mC52E08407841D3452CDAB7520CF1C2031F9C6124 (void);
-// 0x0000014D System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass3_0::<ShowAchievementsUI>b__0(System.Int32)
+// 0x0000014F System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass3_0::<ShowAchievementsUI>b__0(System.Int32)
 extern void U3CU3Ec__DisplayClass3_0_U3CShowAchievementsUIU3Eb__0_m8E4057B502973C41DF913F485756D23E2BE27A97 (void);
-// 0x0000014E System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass3_0::<ShowAchievementsUI>b__1(UnityEngine.AndroidJavaObject)
+// 0x00000150 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass3_0::<ShowAchievementsUI>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass3_0_U3CShowAchievementsUIU3Eb__1_m1585A28F80DF3DAB334A4AC788E2C85D995CEB90 (void);
-// 0x0000014F System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass5_0::.ctor()
+// 0x00000151 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass5_0::.ctor()
 extern void U3CU3Ec__DisplayClass5_0__ctor_m39BB0D9DF463EEC6E57C14323279A3DF08C6CAAA (void);
-// 0x00000150 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass5_0::<ShowAllLeaderboardsUI>b__0(System.Int32)
+// 0x00000152 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass5_0::<ShowAllLeaderboardsUI>b__0(System.Int32)
 extern void U3CU3Ec__DisplayClass5_0_U3CShowAllLeaderboardsUIU3Eb__0_mD913E7CAED3413D26B6A62940F5678E42BE01AB9 (void);
-// 0x00000151 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass5_0::<ShowAllLeaderboardsUI>b__1(UnityEngine.AndroidJavaObject)
+// 0x00000153 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass5_0::<ShowAllLeaderboardsUI>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass5_0_U3CShowAllLeaderboardsUIU3Eb__1_mE4AF82E2806AE61FA511021A5FE7C47CF3E50D99 (void);
-// 0x00000152 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass6_0::.ctor()
+// 0x00000154 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass6_0::.ctor()
 extern void U3CU3Ec__DisplayClass6_0__ctor_m4FAABCA174F63399E9E968D2DE224EA9BAB704C6 (void);
-// 0x00000153 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass6_0::<ShowLeaderboardUI>b__0(System.Int32)
+// 0x00000155 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass6_0::<ShowLeaderboardUI>b__0(System.Int32)
 extern void U3CU3Ec__DisplayClass6_0_U3CShowLeaderboardUIU3Eb__0_m773399D62F37389CB917538B3E4EC4EA38A78B30 (void);
-// 0x00000154 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass6_0::<ShowLeaderboardUI>b__1(UnityEngine.AndroidJavaObject)
+// 0x00000156 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass6_0::<ShowLeaderboardUI>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass6_0_U3CShowLeaderboardUIU3Eb__1_m3CDD3F086331FBA52E62E0BE48801A049AF495E3 (void);
-// 0x00000155 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass7_0::.ctor()
+// 0x00000157 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass7_0::.ctor()
 extern void U3CU3Ec__DisplayClass7_0__ctor_m0E765AABA96403BF5511BC7A15725B0C2EF28A4D (void);
-// 0x00000156 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass7_0::<ShowCompareProfileWithAlternativeNameHintsUI>b__0(System.Int32)
+// 0x00000158 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass7_0::<ShowCompareProfileWithAlternativeNameHintsUI>b__0(System.Int32)
 extern void U3CU3Ec__DisplayClass7_0_U3CShowCompareProfileWithAlternativeNameHintsUIU3Eb__0_m72FF5734B5785EF548A5069503A3EFAD22250CD7 (void);
-// 0x00000157 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass7_0::<ShowCompareProfileWithAlternativeNameHintsUI>b__1(UnityEngine.AndroidJavaObject)
+// 0x00000159 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass7_0::<ShowCompareProfileWithAlternativeNameHintsUI>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass7_0_U3CShowCompareProfileWithAlternativeNameHintsUIU3Eb__1_mF6E685D69408D91B51F2884C1D13D59E821FEDF6 (void);
-// 0x00000158 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass9_0::.ctor()
+// 0x0000015A System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass9_0::.ctor()
 extern void U3CU3Ec__DisplayClass9_0__ctor_m278DE1E9378691204839A7AF3FD45359502D5D6A (void);
-// 0x00000159 System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass9_0::<AskForLoadFriendsResolution>b__0(System.Int32)
+// 0x0000015B System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass9_0::<AskForLoadFriendsResolution>b__0(System.Int32)
 extern void U3CU3Ec__DisplayClass9_0_U3CAskForLoadFriendsResolutionU3Eb__0_m06DB02373954197B507199610A3FB4A695291ACC (void);
-// 0x0000015A System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass9_0::<AskForLoadFriendsResolution>b__1(UnityEngine.AndroidJavaObject)
+// 0x0000015C System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass9_0::<AskForLoadFriendsResolution>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass9_0_U3CAskForLoadFriendsResolutionU3Eb__1_m24528C15D3ED7319DB43B42CD17768BAB54F8C86 (void);
-// 0x0000015B System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass10_0::.ctor()
+// 0x0000015D System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass10_0::.ctor()
 extern void U3CU3Ec__DisplayClass10_0__ctor_m2FEE78B70AE69905405D4F7C88F991166DBF6274 (void);
-// 0x0000015C System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass10_0::<ShowSelectSnapshotUI>b__0(UnityEngine.AndroidJavaObject)
+// 0x0000015E System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass10_0::<ShowSelectSnapshotUI>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass10_0_U3CShowSelectSnapshotUIU3Eb__0_mA51AD0E3A0977DF7586A6AFDD04B0EA669ADCEF2 (void);
-// 0x0000015D System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass10_0::<ShowSelectSnapshotUI>b__1(UnityEngine.AndroidJavaObject)
+// 0x0000015F System.Void GooglePlayGames.Android.AndroidHelperFragment/<>c__DisplayClass10_0::<ShowSelectSnapshotUI>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass10_0_U3CShowSelectSnapshotUIU3Eb__1_mCA2FF0A04DDE36BF890833426CE05C3D9BCC1ED1 (void);
-// 0x0000015E System.DateTime GooglePlayGames.Android.AndroidJavaConverter::ToDateTime(System.Int64)
+// 0x00000160 System.DateTime GooglePlayGames.Android.AndroidJavaConverter::ToDateTime(System.Int64)
 extern void AndroidJavaConverter_ToDateTime_mD6A76939C0C1C6A7E63559190781C91B10AAE2D2 (void);
-// 0x0000015F System.Int32 GooglePlayGames.Android.AndroidJavaConverter::ToLeaderboardVariantTimeSpan(GooglePlayGames.BasicApi.LeaderboardTimeSpan)
+// 0x00000161 System.Int32 GooglePlayGames.Android.AndroidJavaConverter::ToLeaderboardVariantTimeSpan(GooglePlayGames.BasicApi.LeaderboardTimeSpan)
 extern void AndroidJavaConverter_ToLeaderboardVariantTimeSpan_m3A7EBC2ADDEF3080B9AEB132CF59A7050F3E8D65 (void);
-// 0x00000160 System.Int32 GooglePlayGames.Android.AndroidJavaConverter::ToLeaderboardVariantCollection(GooglePlayGames.BasicApi.LeaderboardCollection)
+// 0x00000162 System.Int32 GooglePlayGames.Android.AndroidJavaConverter::ToLeaderboardVariantCollection(GooglePlayGames.BasicApi.LeaderboardCollection)
 extern void AndroidJavaConverter_ToLeaderboardVariantCollection_m1A6E6D325B0A263B9700F4CBFEF71F83A4D4372B (void);
-// 0x00000161 System.Int32 GooglePlayGames.Android.AndroidJavaConverter::ToPageDirection(GooglePlayGames.BasicApi.ScorePageDirection)
+// 0x00000163 System.Int32 GooglePlayGames.Android.AndroidJavaConverter::ToPageDirection(GooglePlayGames.BasicApi.ScorePageDirection)
 extern void AndroidJavaConverter_ToPageDirection_m5656F960DD22A2ABE080306CBA3938986F97A709 (void);
-// 0x00000162 GooglePlayGames.BasicApi.Player GooglePlayGames.Android.AndroidJavaConverter::ToPlayer(UnityEngine.AndroidJavaObject)
+// 0x00000164 GooglePlayGames.BasicApi.Player GooglePlayGames.Android.AndroidJavaConverter::ToPlayer(UnityEngine.AndroidJavaObject)
 extern void AndroidJavaConverter_ToPlayer_mCDF89287441C00D1ECFE0CCD59955EF801BB2BA7 (void);
-// 0x00000163 GooglePlayGames.BasicApi.PlayerProfile GooglePlayGames.Android.AndroidJavaConverter::ToPlayerProfile(UnityEngine.AndroidJavaObject)
+// 0x00000165 GooglePlayGames.BasicApi.PlayerProfile GooglePlayGames.Android.AndroidJavaConverter::ToPlayerProfile(UnityEngine.AndroidJavaObject)
 extern void AndroidJavaConverter_ToPlayerProfile_m14A8718CD4B6FDE20F8B21967C8E126728F3B59A (void);
-// 0x00000164 System.Collections.Generic.List`1<System.String> GooglePlayGames.Android.AndroidJavaConverter::ToStringList(UnityEngine.AndroidJavaObject)
+// 0x00000166 System.Collections.Generic.List`1<System.String> GooglePlayGames.Android.AndroidJavaConverter::ToStringList(UnityEngine.AndroidJavaObject)
 extern void AndroidJavaConverter_ToStringList_m85F1EA5B9A6D773CF678148297B2A40EAD4E6147 (void);
-// 0x00000165 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidJavaConverter::ToJavaStringList(System.Collections.Generic.List`1<System.String>)
+// 0x00000167 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidJavaConverter::ToJavaStringList(System.Collections.Generic.List`1<System.String>)
 extern void AndroidJavaConverter_ToJavaStringList_m422B74EE5E13DFCDC0F6F0AE4007F0619CF09685 (void);
-// 0x00000166 GooglePlayGames.BasicApi.FriendsListVisibilityStatus GooglePlayGames.Android.AndroidJavaConverter::ToFriendsListVisibilityStatus(System.Int32)
+// 0x00000168 GooglePlayGames.BasicApi.FriendsListVisibilityStatus GooglePlayGames.Android.AndroidJavaConverter::ToFriendsListVisibilityStatus(System.Int32)
 extern void AndroidJavaConverter_ToFriendsListVisibilityStatus_m4092BDE59FE2EB6496EC33F9B4955FA43DB1830B (void);
-// 0x00000167 UnityEngine.SocialPlatforms.IUserProfile[] GooglePlayGames.Android.AndroidJavaConverter::playersBufferToArray(UnityEngine.AndroidJavaObject)
+// 0x00000169 UnityEngine.SocialPlatforms.IUserProfile[] GooglePlayGames.Android.AndroidJavaConverter::playersBufferToArray(UnityEngine.AndroidJavaObject)
 extern void AndroidJavaConverter_playersBufferToArray_m14558FAEB72D29536A210DDE896203862CB11F5F (void);
-// 0x00000168 System.Void GooglePlayGames.Android.AndroidJavaConverter::.ctor()
+// 0x0000016A System.Void GooglePlayGames.Android.AndroidJavaConverter::.ctor()
 extern void AndroidJavaConverter__ctor_m34212DD31D174CE5268AF521A392F5605BDB4DC4 (void);
-// 0x00000169 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::.ctor()
+// 0x0000016B System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::.ctor()
 extern void AndroidNearbyConnectionClient__ctor_m9BB35FC8D6CE3506C734E9FD507A28459C3CA6D9 (void);
-// 0x0000016A System.Int32 GooglePlayGames.Android.AndroidNearbyConnectionClient::MaxUnreliableMessagePayloadLength()
+// 0x0000016C System.Int32 GooglePlayGames.Android.AndroidNearbyConnectionClient::MaxUnreliableMessagePayloadLength()
 extern void AndroidNearbyConnectionClient_MaxUnreliableMessagePayloadLength_m4A73DF6C8EAEC298CD03873549BBA1E0C927F9A6 (void);
-// 0x0000016B System.Int32 GooglePlayGames.Android.AndroidNearbyConnectionClient::MaxReliableMessagePayloadLength()
+// 0x0000016D System.Int32 GooglePlayGames.Android.AndroidNearbyConnectionClient::MaxReliableMessagePayloadLength()
 extern void AndroidNearbyConnectionClient_MaxReliableMessagePayloadLength_m8DC4BA3BBDEBD449756A3A06B4242E805AB6DBA5 (void);
-// 0x0000016C System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::SendReliable(System.Collections.Generic.List`1<System.String>,System.Byte[])
+// 0x0000016E System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::SendReliable(System.Collections.Generic.List`1<System.String>,System.Byte[])
 extern void AndroidNearbyConnectionClient_SendReliable_m390011F3779ED6C37938C3F10CDC9FB839D4FAC9 (void);
-// 0x0000016D System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::SendUnreliable(System.Collections.Generic.List`1<System.String>,System.Byte[])
+// 0x0000016F System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::SendUnreliable(System.Collections.Generic.List`1<System.String>,System.Byte[])
 extern void AndroidNearbyConnectionClient_SendUnreliable_m175334FA392988358768C70ED950898BAF992C18 (void);
-// 0x0000016E System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::InternalSend(System.Collections.Generic.List`1<System.String>,System.Byte[])
+// 0x00000170 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::InternalSend(System.Collections.Generic.List`1<System.String>,System.Byte[])
 extern void AndroidNearbyConnectionClient_InternalSend_m2B8A8C46E966D24DFE90CA11CBCEFA341A71C8D6 (void);
-// 0x0000016F System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::StartAdvertising(System.String,System.Collections.Generic.List`1<System.String>,System.Nullable`1<System.TimeSpan>,System.Action`1<GooglePlayGames.BasicApi.Nearby.AdvertisingResult>,System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionRequest>)
+// 0x00000171 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::StartAdvertising(System.String,System.Collections.Generic.List`1<System.String>,System.Nullable`1<System.TimeSpan>,System.Action`1<GooglePlayGames.BasicApi.Nearby.AdvertisingResult>,System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionRequest>)
 extern void AndroidNearbyConnectionClient_StartAdvertising_mE8549F299F06EF475FD187E4CB4EFB59AFFD9F2B (void);
-// 0x00000170 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidNearbyConnectionClient::CreateAdvertisingOptions()
+// 0x00000172 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidNearbyConnectionClient::CreateAdvertisingOptions()
 extern void AndroidNearbyConnectionClient_CreateAdvertisingOptions_m4A27325ED9C4CD604A6C8249EDA75A992A4B8A16 (void);
-// 0x00000171 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::StopAdvertising()
+// 0x00000173 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::StopAdvertising()
 extern void AndroidNearbyConnectionClient_StopAdvertising_mD46A1178CDEA47A46C30AE04F318A6C7F89F6E92 (void);
-// 0x00000172 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::SendConnectionRequest(System.String,System.String,System.Byte[],System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionResponse>,GooglePlayGames.BasicApi.Nearby.IMessageListener)
+// 0x00000174 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::SendConnectionRequest(System.String,System.String,System.Byte[],System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionResponse>,GooglePlayGames.BasicApi.Nearby.IMessageListener)
 extern void AndroidNearbyConnectionClient_SendConnectionRequest_mEFDB78A28F601EE26A90F38D9ECEA0BC32E1BDCC (void);
-// 0x00000173 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::AcceptConnectionRequest(System.String,System.Byte[],GooglePlayGames.BasicApi.Nearby.IMessageListener)
+// 0x00000175 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::AcceptConnectionRequest(System.String,System.Byte[],GooglePlayGames.BasicApi.Nearby.IMessageListener)
 extern void AndroidNearbyConnectionClient_AcceptConnectionRequest_mEB7D5DF5AA97A1BFCEA6181D951CCDA076ADD80A (void);
-// 0x00000174 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::StartDiscovery(System.String,System.Nullable`1<System.TimeSpan>,GooglePlayGames.BasicApi.Nearby.IDiscoveryListener)
+// 0x00000176 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::StartDiscovery(System.String,System.Nullable`1<System.TimeSpan>,GooglePlayGames.BasicApi.Nearby.IDiscoveryListener)
 extern void AndroidNearbyConnectionClient_StartDiscovery_mF58AA8621621DA079C46003FD1B2BF097A29F7DD (void);
-// 0x00000175 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidNearbyConnectionClient::CreateDiscoveryOptions()
+// 0x00000177 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidNearbyConnectionClient::CreateDiscoveryOptions()
 extern void AndroidNearbyConnectionClient_CreateDiscoveryOptions_mCC846BEA86F24F31088A7E2AC1A81F215FD3D012 (void);
-// 0x00000176 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::StopDiscovery(System.String)
+// 0x00000178 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::StopDiscovery(System.String)
 extern void AndroidNearbyConnectionClient_StopDiscovery_m2703A2B90D8EE375ADA2E0F3671B897AF2D79E9C (void);
-// 0x00000177 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::RejectConnectionRequest(System.String)
+// 0x00000179 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::RejectConnectionRequest(System.String)
 extern void AndroidNearbyConnectionClient_RejectConnectionRequest_mED6A5E8E9CC728C89D058454B3B94BE5C8454206 (void);
-// 0x00000178 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::DisconnectFromEndpoint(System.String)
+// 0x0000017A System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::DisconnectFromEndpoint(System.String)
 extern void AndroidNearbyConnectionClient_DisconnectFromEndpoint_mB2101E9812294FC8B0D5CFAA010D18562EDC7F46 (void);
-// 0x00000179 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::StopAllConnections()
+// 0x0000017B System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::StopAllConnections()
 extern void AndroidNearbyConnectionClient_StopAllConnections_m76B6AEE0B6C697AFB9EA0205ADA4562E06002951 (void);
-// 0x0000017A System.String GooglePlayGames.Android.AndroidNearbyConnectionClient::GetAppBundleId()
+// 0x0000017C System.String GooglePlayGames.Android.AndroidNearbyConnectionClient::GetAppBundleId()
 extern void AndroidNearbyConnectionClient_GetAppBundleId_mD6B3A6EDD5C6C3C37BA55C893E3AA39BBB65C3D0 (void);
-// 0x0000017B System.String GooglePlayGames.Android.AndroidNearbyConnectionClient::GetServiceId()
+// 0x0000017D System.String GooglePlayGames.Android.AndroidNearbyConnectionClient::GetServiceId()
 extern void AndroidNearbyConnectionClient_GetServiceId_m3A9D75675C303CE6A103A344D4034CE1EDF52891 (void);
-// 0x0000017C System.String GooglePlayGames.Android.AndroidNearbyConnectionClient::ReadServiceId()
+// 0x0000017E System.String GooglePlayGames.Android.AndroidNearbyConnectionClient::ReadServiceId()
 extern void AndroidNearbyConnectionClient_ReadServiceId_m4D9A80382028CD7D6E4BA6EAB1F7B80A88CB71BB (void);
-// 0x0000017D System.Action`1<T> GooglePlayGames.Android.AndroidNearbyConnectionClient::ToOnGameThread(System.Action`1<T>)
-// 0x0000017E System.Action`2<T1,T2> GooglePlayGames.Android.AndroidNearbyConnectionClient::ToOnGameThread(System.Action`2<T1,T2>)
-// 0x0000017F System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::.cctor()
+// 0x0000017F System.Action`1<T> GooglePlayGames.Android.AndroidNearbyConnectionClient::ToOnGameThread(System.Action`1<T>)
+// 0x00000180 System.Action`2<T1,T2> GooglePlayGames.Android.AndroidNearbyConnectionClient::ToOnGameThread(System.Action`2<T1,T2>)
+// 0x00000181 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient::.cctor()
 extern void AndroidNearbyConnectionClient__cctor_m5EA28740137BD0DD38F6EB9C772D7DD08613ACEF (void);
-// 0x00000180 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/AdvertisingConnectionLifecycleCallbackProxy::.ctor(System.Action`1<GooglePlayGames.BasicApi.Nearby.AdvertisingResult>,System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionRequest>,GooglePlayGames.Android.AndroidNearbyConnectionClient)
+// 0x00000182 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/AdvertisingConnectionLifecycleCallbackProxy::.ctor(System.Action`1<GooglePlayGames.BasicApi.Nearby.AdvertisingResult>,System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionRequest>,GooglePlayGames.Android.AndroidNearbyConnectionClient)
 extern void AdvertisingConnectionLifecycleCallbackProxy__ctor_m17F34C5D3F869425E531A74315F29E509532FA9F (void);
-// 0x00000181 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/AdvertisingConnectionLifecycleCallbackProxy::onConnectionInitiated(System.String,UnityEngine.AndroidJavaObject)
+// 0x00000183 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/AdvertisingConnectionLifecycleCallbackProxy::onConnectionInitiated(System.String,UnityEngine.AndroidJavaObject)
 extern void AdvertisingConnectionLifecycleCallbackProxy_onConnectionInitiated_mC4D3C9866510EBA2D61A48D3208D657AD69FB732 (void);
-// 0x00000182 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/AdvertisingConnectionLifecycleCallbackProxy::onConnectionResult(System.String,UnityEngine.AndroidJavaObject)
+// 0x00000184 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/AdvertisingConnectionLifecycleCallbackProxy::onConnectionResult(System.String,UnityEngine.AndroidJavaObject)
 extern void AdvertisingConnectionLifecycleCallbackProxy_onConnectionResult_m343A3912FA048AE26B25A7BA42882E2D92FFD4B6 (void);
-// 0x00000183 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/AdvertisingConnectionLifecycleCallbackProxy::onDisconnected(System.String)
+// 0x00000185 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/AdvertisingConnectionLifecycleCallbackProxy::onDisconnected(System.String)
 extern void AdvertisingConnectionLifecycleCallbackProxy_onDisconnected_mDDBE3A5BBCA4656D5856A3272D933DE6CE27B91A (void);
-// 0x00000184 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/PayloadCallback::.ctor(GooglePlayGames.BasicApi.Nearby.IMessageListener)
+// 0x00000186 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/PayloadCallback::.ctor(GooglePlayGames.BasicApi.Nearby.IMessageListener)
 extern void PayloadCallback__ctor_m8F8296D2E8F02453C18436E607B088AEB9C6EDCD (void);
-// 0x00000185 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/PayloadCallback::onPayloadReceived(System.String,UnityEngine.AndroidJavaObject)
+// 0x00000187 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/PayloadCallback::onPayloadReceived(System.String,UnityEngine.AndroidJavaObject)
 extern void PayloadCallback_onPayloadReceived_m0AB791DB7E2FA642780BB1CC76F753578F30A580 (void);
-// 0x00000186 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/DiscoveringConnectionLifecycleCallback::.ctor(System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionResponse>,GooglePlayGames.BasicApi.Nearby.IMessageListener,UnityEngine.AndroidJavaObject)
+// 0x00000188 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/DiscoveringConnectionLifecycleCallback::.ctor(System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionResponse>,GooglePlayGames.BasicApi.Nearby.IMessageListener,UnityEngine.AndroidJavaObject)
 extern void DiscoveringConnectionLifecycleCallback__ctor_m708A5DEDDCF1AC63C4F629EF07DF3227AB6F9F8D (void);
-// 0x00000187 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/DiscoveringConnectionLifecycleCallback::onConnectionInitiated(System.String,UnityEngine.AndroidJavaObject)
+// 0x00000189 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/DiscoveringConnectionLifecycleCallback::onConnectionInitiated(System.String,UnityEngine.AndroidJavaObject)
 extern void DiscoveringConnectionLifecycleCallback_onConnectionInitiated_mDC9C9C93FADCC285190BFCB0D3E382630AEA1897 (void);
-// 0x00000188 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/DiscoveringConnectionLifecycleCallback::onConnectionResult(System.String,UnityEngine.AndroidJavaObject)
+// 0x0000018A System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/DiscoveringConnectionLifecycleCallback::onConnectionResult(System.String,UnityEngine.AndroidJavaObject)
 extern void DiscoveringConnectionLifecycleCallback_onConnectionResult_m7541C6CB13D3B84C65DFCEB6F489200630F659CE (void);
-// 0x00000189 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/DiscoveringConnectionLifecycleCallback::onDisconnected(System.String)
+// 0x0000018B System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/DiscoveringConnectionLifecycleCallback::onDisconnected(System.String)
 extern void DiscoveringConnectionLifecycleCallback_onDisconnected_mE630ED175EEB90EC6D9D7DF4A2F784F45494E4C0 (void);
-// 0x0000018A System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/EndpointDiscoveryCallback::.ctor(GooglePlayGames.BasicApi.Nearby.IDiscoveryListener)
+// 0x0000018C System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/EndpointDiscoveryCallback::.ctor(GooglePlayGames.BasicApi.Nearby.IDiscoveryListener)
 extern void EndpointDiscoveryCallback__ctor_m0BF0CEF11BAC115CF44CFB1C33902877894BB58A (void);
-// 0x0000018B System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/EndpointDiscoveryCallback::onEndpointFound(System.String,UnityEngine.AndroidJavaObject)
+// 0x0000018D System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/EndpointDiscoveryCallback::onEndpointFound(System.String,UnityEngine.AndroidJavaObject)
 extern void EndpointDiscoveryCallback_onEndpointFound_mD55E9D51273758C25647EF7D91D1CD59DA02DC79 (void);
-// 0x0000018C System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/EndpointDiscoveryCallback::onEndpointLost(System.String)
+// 0x0000018E System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/EndpointDiscoveryCallback::onEndpointLost(System.String)
 extern void EndpointDiscoveryCallback_onEndpointLost_m09030D23B4AFE4F7AC54D4E5B223536FDE54BF08 (void);
-// 0x0000018D GooglePlayGames.BasicApi.Nearby.EndpointDetails GooglePlayGames.Android.AndroidNearbyConnectionClient/EndpointDiscoveryCallback::CreateEndPointDetails(System.String,UnityEngine.AndroidJavaObject)
+// 0x0000018F GooglePlayGames.BasicApi.Nearby.EndpointDetails GooglePlayGames.Android.AndroidNearbyConnectionClient/EndpointDiscoveryCallback::CreateEndPointDetails(System.String,UnityEngine.AndroidJavaObject)
 extern void EndpointDiscoveryCallback_CreateEndPointDetails_mB0C908945965F7D3631B1028705132D2963187DA (void);
-// 0x0000018E System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadMessageListener::.ctor(GooglePlayGames.BasicApi.Nearby.IMessageListener)
+// 0x00000190 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadMessageListener::.ctor(GooglePlayGames.BasicApi.Nearby.IMessageListener)
 extern void OnGameThreadMessageListener__ctor_mCD5F5530062F7AB4B39C6B0635A4821424D75CD4 (void);
-// 0x0000018F System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadMessageListener::OnMessageReceived(System.String,System.Byte[],System.Boolean)
+// 0x00000191 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadMessageListener::OnMessageReceived(System.String,System.Byte[],System.Boolean)
 extern void OnGameThreadMessageListener_OnMessageReceived_m0216A79D2E1F50CBC31B053DFC9D65C6CFA7E539 (void);
-// 0x00000190 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadMessageListener::OnRemoteEndpointDisconnected(System.String)
+// 0x00000192 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadMessageListener::OnRemoteEndpointDisconnected(System.String)
 extern void OnGameThreadMessageListener_OnRemoteEndpointDisconnected_m8DA7B31C196D029FFE9EBE501B3C88EDE35019EA (void);
-// 0x00000191 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadMessageListener/<>c__DisplayClass2_0::.ctor()
+// 0x00000193 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadMessageListener/<>c__DisplayClass2_0::.ctor()
 extern void U3CU3Ec__DisplayClass2_0__ctor_mE82A97E088FE6305F5633D9A9B23082C5072C3C9 (void);
-// 0x00000192 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadMessageListener/<>c__DisplayClass2_0::<OnMessageReceived>b__0()
+// 0x00000194 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadMessageListener/<>c__DisplayClass2_0::<OnMessageReceived>b__0()
 extern void U3CU3Ec__DisplayClass2_0_U3COnMessageReceivedU3Eb__0_m3215A719AFD1F127EDB56C33758514ADBFA1B2FE (void);
-// 0x00000193 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadMessageListener/<>c__DisplayClass3_0::.ctor()
+// 0x00000195 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadMessageListener/<>c__DisplayClass3_0::.ctor()
 extern void U3CU3Ec__DisplayClass3_0__ctor_m5217117DCDCBE87C421E3F5E2BB72BE913E857C5 (void);
-// 0x00000194 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadMessageListener/<>c__DisplayClass3_0::<OnRemoteEndpointDisconnected>b__0()
+// 0x00000196 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadMessageListener/<>c__DisplayClass3_0::<OnRemoteEndpointDisconnected>b__0()
 extern void U3CU3Ec__DisplayClass3_0_U3COnRemoteEndpointDisconnectedU3Eb__0_mF3D28522DE73500BF122600423956E85A4423194 (void);
-// 0x00000195 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadDiscoveryListener::.ctor(GooglePlayGames.BasicApi.Nearby.IDiscoveryListener)
+// 0x00000197 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadDiscoveryListener::.ctor(GooglePlayGames.BasicApi.Nearby.IDiscoveryListener)
 extern void OnGameThreadDiscoveryListener__ctor_mA3944F0D161DFB4BD09DB3CD064456BFEC132339 (void);
-// 0x00000196 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadDiscoveryListener::OnEndpointFound(GooglePlayGames.BasicApi.Nearby.EndpointDetails)
+// 0x00000198 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadDiscoveryListener::OnEndpointFound(GooglePlayGames.BasicApi.Nearby.EndpointDetails)
 extern void OnGameThreadDiscoveryListener_OnEndpointFound_mAA690645BB136041BB49704E117209708AD7B0F2 (void);
-// 0x00000197 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadDiscoveryListener::OnEndpointLost(System.String)
+// 0x00000199 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadDiscoveryListener::OnEndpointLost(System.String)
 extern void OnGameThreadDiscoveryListener_OnEndpointLost_mAA81EA2F0537F4E0AF51FAAF77D1763845C152BC (void);
-// 0x00000198 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadDiscoveryListener/<>c__DisplayClass2_0::.ctor()
+// 0x0000019A System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadDiscoveryListener/<>c__DisplayClass2_0::.ctor()
 extern void U3CU3Ec__DisplayClass2_0__ctor_m1E9EC3E0184FC93BAE6EE58865DCE3EB455CE178 (void);
-// 0x00000199 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadDiscoveryListener/<>c__DisplayClass2_0::<OnEndpointFound>b__0()
+// 0x0000019B System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadDiscoveryListener/<>c__DisplayClass2_0::<OnEndpointFound>b__0()
 extern void U3CU3Ec__DisplayClass2_0_U3COnEndpointFoundU3Eb__0_m1507258FD4174AC62BEBCBA984B88C6F1304639E (void);
-// 0x0000019A System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadDiscoveryListener/<>c__DisplayClass3_0::.ctor()
+// 0x0000019C System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadDiscoveryListener/<>c__DisplayClass3_0::.ctor()
 extern void U3CU3Ec__DisplayClass3_0__ctor_m39ABAA596A6BD84C548DACB966EE88CDEE3D740B (void);
-// 0x0000019B System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadDiscoveryListener/<>c__DisplayClass3_0::<OnEndpointLost>b__0()
+// 0x0000019D System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/OnGameThreadDiscoveryListener/<>c__DisplayClass3_0::<OnEndpointLost>b__0()
 extern void U3CU3Ec__DisplayClass3_0_U3COnEndpointLostU3Eb__0_m27BA5C68F7C7CC936FEECEEABFD60DE793B8E814 (void);
-// 0x0000019C System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass11_0::.ctor()
+// 0x0000019E System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass11_0::.ctor()
 extern void U3CU3Ec__DisplayClass11_0__ctor_m7F2824772F9E491EBF6A78D1BCD862EC70A6948E (void);
-// 0x0000019D System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass11_0::<StartAdvertising>b__0(UnityEngine.AndroidJavaObject)
+// 0x0000019F System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass11_0::<StartAdvertising>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass11_0_U3CStartAdvertisingU3Eb__0_m20339E378AF7ADC7C5774EAE230A2697C825BB54 (void);
-// 0x0000019E System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass18_0::.ctor()
+// 0x000001A0 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass18_0::.ctor()
 extern void U3CU3Ec__DisplayClass18_0__ctor_m7FE19811A4DD83BF7321E5755DF6FA23CD1BA128 (void);
-// 0x0000019F System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass18_0::<StartDiscovery>b__0(UnityEngine.AndroidJavaObject)
+// 0x000001A1 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass18_0::<StartDiscovery>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass18_0_U3CStartDiscoveryU3Eb__0_m727A7CBDC0D3A39796EF2FD29FB59EF7FC58B371 (void);
-// 0x000001A0 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass31_0`1::.ctor()
-// 0x000001A1 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass31_0`1::<ToOnGameThread>b__0(T)
-// 0x000001A2 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass31_1`1::.ctor()
-// 0x000001A3 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass31_1`1::<ToOnGameThread>b__1()
-// 0x000001A4 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass32_0`2::.ctor()
-// 0x000001A5 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass32_0`2::<ToOnGameThread>b__0(T1,T2)
-// 0x000001A6 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass32_1`2::.ctor()
-// 0x000001A7 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass32_1`2::<ToOnGameThread>b__1()
-// 0x000001A8 System.Void GooglePlayGames.Android.AndroidSavedGameClient::.ctor(GooglePlayGames.Android.AndroidClient)
+// 0x000001A2 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass31_0`1::.ctor()
+// 0x000001A3 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass31_0`1::<ToOnGameThread>b__0(T)
+// 0x000001A4 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass31_1`1::.ctor()
+// 0x000001A5 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass31_1`1::<ToOnGameThread>b__1()
+// 0x000001A6 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass32_0`2::.ctor()
+// 0x000001A7 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass32_0`2::<ToOnGameThread>b__0(T1,T2)
+// 0x000001A8 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass32_1`2::.ctor()
+// 0x000001A9 System.Void GooglePlayGames.Android.AndroidNearbyConnectionClient/<>c__DisplayClass32_1`2::<ToOnGameThread>b__1()
+// 0x000001AA System.Void GooglePlayGames.Android.AndroidSavedGameClient::.ctor(GooglePlayGames.Android.AndroidClient)
 extern void AndroidSavedGameClient__ctor_m5F0885AC6F2452022109A1EBB6D5BA6738FC7FC7 (void);
-// 0x000001A9 System.Void GooglePlayGames.Android.AndroidSavedGameClient::OpenWithAutomaticConflictResolution(System.String,GooglePlayGames.BasicApi.DataSource,GooglePlayGames.BasicApi.SavedGame.ConflictResolutionStrategy,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
+// 0x000001AB System.Void GooglePlayGames.Android.AndroidSavedGameClient::OpenWithAutomaticConflictResolution(System.String,GooglePlayGames.BasicApi.DataSource,GooglePlayGames.BasicApi.SavedGame.ConflictResolutionStrategy,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
 extern void AndroidSavedGameClient_OpenWithAutomaticConflictResolution_mA9B7FF6B236ED273A8693BA4B2C082A5BCC6E022 (void);
-// 0x000001AA System.Void GooglePlayGames.Android.AndroidSavedGameClient::OpenWithManualConflictResolution(System.String,GooglePlayGames.BasicApi.DataSource,System.Boolean,GooglePlayGames.BasicApi.SavedGame.ConflictCallback,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
+// 0x000001AC System.Void GooglePlayGames.Android.AndroidSavedGameClient::OpenWithManualConflictResolution(System.String,GooglePlayGames.BasicApi.DataSource,System.Boolean,GooglePlayGames.BasicApi.SavedGame.ConflictCallback,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
 extern void AndroidSavedGameClient_OpenWithManualConflictResolution_m30F4FBC04731B3C4CDBC2C1CE6FB810B2B11FC85 (void);
-// 0x000001AB System.Void GooglePlayGames.Android.AndroidSavedGameClient::InternalOpen(System.String,GooglePlayGames.BasicApi.DataSource,GooglePlayGames.BasicApi.SavedGame.ConflictResolutionStrategy,System.Boolean,GooglePlayGames.BasicApi.SavedGame.ConflictCallback,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
+// 0x000001AD System.Void GooglePlayGames.Android.AndroidSavedGameClient::InternalOpen(System.String,GooglePlayGames.BasicApi.DataSource,GooglePlayGames.BasicApi.SavedGame.ConflictResolutionStrategy,System.Boolean,GooglePlayGames.BasicApi.SavedGame.ConflictCallback,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
 extern void AndroidSavedGameClient_InternalOpen_mFB2E05ABC9B03ECFB38735C80FF20A55F40500F8 (void);
-// 0x000001AC System.Void GooglePlayGames.Android.AndroidSavedGameClient::ReadBinaryData(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,System.Byte[]>)
+// 0x000001AE System.Void GooglePlayGames.Android.AndroidSavedGameClient::ReadBinaryData(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,System.Byte[]>)
 extern void AndroidSavedGameClient_ReadBinaryData_m8D0A367006AF16EB3FDF42D418A92835B1EE9E97 (void);
-// 0x000001AD System.Void GooglePlayGames.Android.AndroidSavedGameClient::ShowSelectSavedGameUI(System.String,System.UInt32,System.Boolean,System.Boolean,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SelectUIStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
+// 0x000001AF System.Void GooglePlayGames.Android.AndroidSavedGameClient::ShowSelectSavedGameUI(System.String,System.UInt32,System.Boolean,System.Boolean,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SelectUIStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
 extern void AndroidSavedGameClient_ShowSelectSavedGameUI_m1A79429AA6FDBEB9C8EEDA3D6634DE40CDC9E23E (void);
-// 0x000001AE System.Void GooglePlayGames.Android.AndroidSavedGameClient::CommitUpdate(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate,System.Byte[],System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
+// 0x000001B0 System.Void GooglePlayGames.Android.AndroidSavedGameClient::CommitUpdate(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate,System.Byte[],System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
 extern void AndroidSavedGameClient_CommitUpdate_m381732B407FE6C6FFACBC2BE24C48E8388E7E4A6 (void);
-// 0x000001AF System.Void GooglePlayGames.Android.AndroidSavedGameClient::FetchAllSavedGames(GooglePlayGames.BasicApi.DataSource,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>>)
+// 0x000001B1 System.Void GooglePlayGames.Android.AndroidSavedGameClient::FetchAllSavedGames(GooglePlayGames.BasicApi.DataSource,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>>)
 extern void AndroidSavedGameClient_FetchAllSavedGames_m72D9DD11D271F8C3BC422BB87057832E4F847682 (void);
-// 0x000001B0 System.Void GooglePlayGames.Android.AndroidSavedGameClient::Delete(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata)
+// 0x000001B2 System.Void GooglePlayGames.Android.AndroidSavedGameClient::Delete(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata)
 extern void AndroidSavedGameClient_Delete_mEBC2DD346C32D0284E03961AF045F2C765C41C07 (void);
-// 0x000001B1 GooglePlayGames.BasicApi.SavedGame.ConflictCallback GooglePlayGames.Android.AndroidSavedGameClient::ToOnGameThread(GooglePlayGames.BasicApi.SavedGame.ConflictCallback)
+// 0x000001B3 GooglePlayGames.BasicApi.SavedGame.ConflictCallback GooglePlayGames.Android.AndroidSavedGameClient::ToOnGameThread(GooglePlayGames.BasicApi.SavedGame.ConflictCallback)
 extern void AndroidSavedGameClient_ToOnGameThread_m2C5D0084387910183A2FD6BD3AB4F34A067432CE (void);
-// 0x000001B2 System.Boolean GooglePlayGames.Android.AndroidSavedGameClient::IsValidFilename(System.String)
+// 0x000001B4 System.Boolean GooglePlayGames.Android.AndroidSavedGameClient::IsValidFilename(System.String)
 extern void AndroidSavedGameClient_IsValidFilename_mC4E445CA6E61363FFD053F0A91485C9540F6E1C4 (void);
-// 0x000001B3 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidSavedGameClient::AsMetadataChange(GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate)
+// 0x000001B5 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidSavedGameClient::AsMetadataChange(GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate)
 extern void AndroidSavedGameClient_AsMetadataChange_m8CBE912FDFB32687E0BF3B05097D461DD2186CBA (void);
-// 0x000001B4 System.Action`2<T1,T2> GooglePlayGames.Android.AndroidSavedGameClient::ToOnGameThread(System.Action`2<T1,T2>)
-// 0x000001B5 System.Void GooglePlayGames.Android.AndroidSavedGameClient::.cctor()
+// 0x000001B6 System.Action`2<T1,T2> GooglePlayGames.Android.AndroidSavedGameClient::ToOnGameThread(System.Action`2<T1,T2>)
+// 0x000001B7 System.Void GooglePlayGames.Android.AndroidSavedGameClient::.cctor()
 extern void AndroidSavedGameClient__cctor_m0E9B03294006098A2F5E5E00356BD31384008D3B (void);
-// 0x000001B6 System.Void GooglePlayGames.Android.AndroidSavedGameClient/AndroidConflictResolver::.ctor(GooglePlayGames.Android.AndroidSavedGameClient,UnityEngine.AndroidJavaObject,UnityEngine.AndroidJavaObject,GooglePlayGames.Android.AndroidSnapshotMetadata,GooglePlayGames.Android.AndroidSnapshotMetadata,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>,System.Action)
+// 0x000001B8 System.Void GooglePlayGames.Android.AndroidSavedGameClient/AndroidConflictResolver::.ctor(GooglePlayGames.Android.AndroidSavedGameClient,UnityEngine.AndroidJavaObject,UnityEngine.AndroidJavaObject,GooglePlayGames.Android.AndroidSnapshotMetadata,GooglePlayGames.Android.AndroidSnapshotMetadata,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>,System.Action)
 extern void AndroidConflictResolver__ctor_mFE5AE4B29D486B6286A647A21C8556F259355F35 (void);
-// 0x000001B7 System.Void GooglePlayGames.Android.AndroidSavedGameClient/AndroidConflictResolver::ResolveConflict(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate,System.Byte[])
+// 0x000001B9 System.Void GooglePlayGames.Android.AndroidSavedGameClient/AndroidConflictResolver::ResolveConflict(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate,System.Byte[])
 extern void AndroidConflictResolver_ResolveConflict_m8E1737EC90F11E6CBC614D58BD0E654D6AA946D9 (void);
-// 0x000001B8 System.Void GooglePlayGames.Android.AndroidSavedGameClient/AndroidConflictResolver::ChooseMetadata(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata)
+// 0x000001BA System.Void GooglePlayGames.Android.AndroidSavedGameClient/AndroidConflictResolver::ChooseMetadata(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata)
 extern void AndroidConflictResolver_ChooseMetadata_m24CDAF77E50D265BDC13A33649EF8E743BDDF94A (void);
-// 0x000001B9 System.Void GooglePlayGames.Android.AndroidSavedGameClient/AndroidConflictResolver::<ResolveConflict>b__8_0(UnityEngine.AndroidJavaObject)
+// 0x000001BB System.Void GooglePlayGames.Android.AndroidSavedGameClient/AndroidConflictResolver::<ResolveConflict>b__8_0(UnityEngine.AndroidJavaObject)
 extern void AndroidConflictResolver_U3CResolveConflictU3Eb__8_0_m279C28F3DFD3B751B7994FF1A2E85945DBCD95B9 (void);
-// 0x000001BA System.Void GooglePlayGames.Android.AndroidSavedGameClient/AndroidConflictResolver::<ResolveConflict>b__8_1(UnityEngine.AndroidJavaObject)
+// 0x000001BC System.Void GooglePlayGames.Android.AndroidSavedGameClient/AndroidConflictResolver::<ResolveConflict>b__8_1(UnityEngine.AndroidJavaObject)
 extern void AndroidConflictResolver_U3CResolveConflictU3Eb__8_1_mDF4E4F3A4CCC68FF12722CB3D610A5D620FC7A25 (void);
-// 0x000001BB System.Void GooglePlayGames.Android.AndroidSavedGameClient/AndroidConflictResolver::<ChooseMetadata>b__9_0(UnityEngine.AndroidJavaObject)
+// 0x000001BD System.Void GooglePlayGames.Android.AndroidSavedGameClient/AndroidConflictResolver::<ChooseMetadata>b__9_0(UnityEngine.AndroidJavaObject)
 extern void AndroidConflictResolver_U3CChooseMetadataU3Eb__9_0_mE79DA1AAD064C1659E6D2E3A3219696DD7551A61 (void);
-// 0x000001BC System.Void GooglePlayGames.Android.AndroidSavedGameClient/AndroidConflictResolver::<ChooseMetadata>b__9_1(UnityEngine.AndroidJavaObject)
+// 0x000001BE System.Void GooglePlayGames.Android.AndroidSavedGameClient/AndroidConflictResolver::<ChooseMetadata>b__9_1(UnityEngine.AndroidJavaObject)
 extern void AndroidConflictResolver_U3CChooseMetadataU3Eb__9_1_mAE9D38A4A1B52E122E3ACF351048A11F5B695F47 (void);
-// 0x000001BD System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass4_0::.ctor()
+// 0x000001BF System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass4_0::.ctor()
 extern void U3CU3Ec__DisplayClass4_0__ctor_mCAD8FCD334C44424AE9BF9E489369707F9DCD880 (void);
-// 0x000001BE System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass4_0::<OpenWithAutomaticConflictResolution>b__0(GooglePlayGames.BasicApi.SavedGame.IConflictResolver,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[],GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[])
+// 0x000001C0 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass4_0::<OpenWithAutomaticConflictResolution>b__0(GooglePlayGames.BasicApi.SavedGame.IConflictResolver,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[],GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[])
 extern void U3CU3Ec__DisplayClass4_0_U3COpenWithAutomaticConflictResolutionU3Eb__0_m970BB835CB9FDE75BBB4CC55607C26567B0A8B78 (void);
-// 0x000001BF System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass6_0::.ctor()
+// 0x000001C1 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass6_0::.ctor()
 extern void U3CU3Ec__DisplayClass6_0__ctor_mF8C27EBE92E4450379EED2D4279835BDA2A032D3 (void);
-// 0x000001C0 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass6_0::<InternalOpen>b__0(UnityEngine.AndroidJavaObject)
+// 0x000001C2 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass6_0::<InternalOpen>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass6_0_U3CInternalOpenU3Eb__0_mDC080000489F1C844E3ECDD193308C8497864E77 (void);
-// 0x000001C1 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass6_0::<InternalOpen>b__2()
+// 0x000001C3 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass6_0::<InternalOpen>b__2()
 extern void U3CU3Ec__DisplayClass6_0_U3CInternalOpenU3Eb__2_m29026E07B5F8F7D0AED612EB2F327A322502EB3E (void);
-// 0x000001C2 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass6_0::<InternalOpen>b__1(UnityEngine.AndroidJavaObject)
+// 0x000001C4 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass6_0::<InternalOpen>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass6_0_U3CInternalOpenU3Eb__1_mEAB4D6B19D7B78A81CB9B2ACAF90A71C952985A6 (void);
-// 0x000001C3 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass9_0::.ctor()
+// 0x000001C5 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass9_0::.ctor()
 extern void U3CU3Ec__DisplayClass9_0__ctor_m92021F931F20E0B11261553C42AF2BA1A356E74C (void);
-// 0x000001C4 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass9_0::<CommitUpdate>b__0(UnityEngine.AndroidJavaObject)
+// 0x000001C6 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass9_0::<CommitUpdate>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass9_0_U3CCommitUpdateU3Eb__0_m7E078E14A0F844C5EEB8CBDA02658D2CE72A4810 (void);
-// 0x000001C5 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass9_0::<CommitUpdate>b__1(UnityEngine.AndroidJavaObject)
+// 0x000001C7 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass9_0::<CommitUpdate>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass9_0_U3CCommitUpdateU3Eb__1_m3632313B67B7D9ECA2775C0B9CA8FBCA8DAB9665 (void);
-// 0x000001C6 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass10_0::.ctor()
+// 0x000001C8 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass10_0::.ctor()
 extern void U3CU3Ec__DisplayClass10_0__ctor_mA81262E9E0771CE65CB434A24798AD913DDB56C2 (void);
-// 0x000001C7 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass10_0::<FetchAllSavedGames>b__0(UnityEngine.AndroidJavaObject)
+// 0x000001C9 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass10_0::<FetchAllSavedGames>b__0(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass10_0_U3CFetchAllSavedGamesU3Eb__0_m01467860809FA7AE9474D0BF8708D3B97CD71937 (void);
-// 0x000001C8 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass10_0::<FetchAllSavedGames>b__1(UnityEngine.AndroidJavaObject)
+// 0x000001CA System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass10_0::<FetchAllSavedGames>b__1(UnityEngine.AndroidJavaObject)
 extern void U3CU3Ec__DisplayClass10_0_U3CFetchAllSavedGamesU3Eb__1_m8D4BD7724B30C0CE7BABC5A5A001BB2AE87E42C9 (void);
-// 0x000001C9 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass12_0::.ctor()
+// 0x000001CB System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass12_0::.ctor()
 extern void U3CU3Ec__DisplayClass12_0__ctor_mA7EAF1A1B90974EE6C3BEAD1FEB59BBFDE691A36 (void);
-// 0x000001CA System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass12_0::<ToOnGameThread>b__0(GooglePlayGames.BasicApi.SavedGame.IConflictResolver,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[],GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[])
+// 0x000001CC System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass12_0::<ToOnGameThread>b__0(GooglePlayGames.BasicApi.SavedGame.IConflictResolver,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[],GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[])
 extern void U3CU3Ec__DisplayClass12_0_U3CToOnGameThreadU3Eb__0_mB92E5C89EDD08B146C177CAA6296C67A9E9967D8 (void);
-// 0x000001CB System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass12_1::.ctor()
+// 0x000001CD System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass12_1::.ctor()
 extern void U3CU3Ec__DisplayClass12_1__ctor_m574547E711B7CDC34A22A817DF0A74D00C3F823F (void);
-// 0x000001CC System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass12_1::<ToOnGameThread>b__1()
+// 0x000001CE System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass12_1::<ToOnGameThread>b__1()
 extern void U3CU3Ec__DisplayClass12_1_U3CToOnGameThreadU3Eb__1_mD7C3AC56D4508397FF5390A11569F8BAC99412C6 (void);
-// 0x000001CD System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass16_0`2::.ctor()
-// 0x000001CE System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass16_0`2::<ToOnGameThread>b__0(T1,T2)
-// 0x000001CF System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass16_1`2::.ctor()
-// 0x000001D0 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass16_1`2::<ToOnGameThread>b__1()
-// 0x000001D1 System.Void GooglePlayGames.Android.AndroidSnapshotMetadata::.ctor(UnityEngine.AndroidJavaObject)
+// 0x000001CF System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass16_0`2::.ctor()
+// 0x000001D0 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass16_0`2::<ToOnGameThread>b__0(T1,T2)
+// 0x000001D1 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass16_1`2::.ctor()
+// 0x000001D2 System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass16_1`2::<ToOnGameThread>b__1()
+// 0x000001D3 System.Void GooglePlayGames.Android.AndroidSnapshotMetadata::.ctor(UnityEngine.AndroidJavaObject)
 extern void AndroidSnapshotMetadata__ctor_mF1A324EA8AA33AC36C201DC9453AA6D27BD3111B (void);
-// 0x000001D2 System.Void GooglePlayGames.Android.AndroidSnapshotMetadata::.ctor(UnityEngine.AndroidJavaObject,UnityEngine.AndroidJavaObject)
+// 0x000001D4 System.Void GooglePlayGames.Android.AndroidSnapshotMetadata::.ctor(UnityEngine.AndroidJavaObject,UnityEngine.AndroidJavaObject)
 extern void AndroidSnapshotMetadata__ctor_m0C8AE6772EDB4B9D63A9D7C6380CA2DBA843C95F (void);
-// 0x000001D3 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidSnapshotMetadata::get_JavaSnapshot()
+// 0x000001D5 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidSnapshotMetadata::get_JavaSnapshot()
 extern void AndroidSnapshotMetadata_get_JavaSnapshot_mBC209A6ACAEF0F64CA1C4534CFF93F5B83CF61E2 (void);
-// 0x000001D4 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidSnapshotMetadata::get_JavaMetadata()
+// 0x000001D6 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidSnapshotMetadata::get_JavaMetadata()
 extern void AndroidSnapshotMetadata_get_JavaMetadata_m70D8325B11FD4577A99A038BD845A1A486B9558C (void);
-// 0x000001D5 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidSnapshotMetadata::get_JavaContents()
+// 0x000001D7 UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidSnapshotMetadata::get_JavaContents()
 extern void AndroidSnapshotMetadata_get_JavaContents_mC57CACDA74711B5F747FBA3A60276B0EEDDCEBDF (void);
-// 0x000001D6 System.Boolean GooglePlayGames.Android.AndroidSnapshotMetadata::get_IsOpen()
+// 0x000001D8 System.Boolean GooglePlayGames.Android.AndroidSnapshotMetadata::get_IsOpen()
 extern void AndroidSnapshotMetadata_get_IsOpen_mD86F5C4D1F44555CD0FAF3B68BE9AEE15B76F761 (void);
-// 0x000001D7 System.String GooglePlayGames.Android.AndroidSnapshotMetadata::get_Filename()
+// 0x000001D9 System.String GooglePlayGames.Android.AndroidSnapshotMetadata::get_Filename()
 extern void AndroidSnapshotMetadata_get_Filename_m6414F063413B19E9DADAC37CAAC75521F3AB7EAB (void);
-// 0x000001D8 System.String GooglePlayGames.Android.AndroidSnapshotMetadata::get_Description()
+// 0x000001DA System.String GooglePlayGames.Android.AndroidSnapshotMetadata::get_Description()
 extern void AndroidSnapshotMetadata_get_Description_m92AC2FE29C008CFBD5D6C55A7017490EED3D7FD9 (void);
-// 0x000001D9 System.String GooglePlayGames.Android.AndroidSnapshotMetadata::get_CoverImageURL()
+// 0x000001DB System.String GooglePlayGames.Android.AndroidSnapshotMetadata::get_CoverImageURL()
 extern void AndroidSnapshotMetadata_get_CoverImageURL_mE16BB49E2CEDF00C6214F155AD28068AD48C8331 (void);
-// 0x000001DA System.TimeSpan GooglePlayGames.Android.AndroidSnapshotMetadata::get_TotalTimePlayed()
+// 0x000001DC System.TimeSpan GooglePlayGames.Android.AndroidSnapshotMetadata::get_TotalTimePlayed()
 extern void AndroidSnapshotMetadata_get_TotalTimePlayed_m55733A85C9A8AD19AD7C7A7B9D2E1CFCB32BF65A (void);
-// 0x000001DB System.DateTime GooglePlayGames.Android.AndroidSnapshotMetadata::get_LastModifiedTimestamp()
+// 0x000001DD System.DateTime GooglePlayGames.Android.AndroidSnapshotMetadata::get_LastModifiedTimestamp()
 extern void AndroidSnapshotMetadata_get_LastModifiedTimestamp_m40D9016C4D0441F80FB2141E2AD1C4A105036D1C (void);
-// 0x000001DC System.Void GooglePlayGames.Android.AndroidTaskUtils::.ctor()
+// 0x000001DE System.Void GooglePlayGames.Android.AndroidTaskUtils::.ctor()
 extern void AndroidTaskUtils__ctor_m1F7A746A629E19F9840D39BEA9C7876A2B400A95 (void);
-// 0x000001DD System.Void GooglePlayGames.Android.AndroidTaskUtils::AddOnSuccessListener(UnityEngine.AndroidJavaObject,System.Action`1<T>)
-// 0x000001DE System.Void GooglePlayGames.Android.AndroidTaskUtils::AddOnSuccessListener(UnityEngine.AndroidJavaObject,System.Boolean,System.Action`1<T>)
-// 0x000001DF System.Void GooglePlayGames.Android.AndroidTaskUtils::AddOnFailureListener(UnityEngine.AndroidJavaObject,System.Action`1<UnityEngine.AndroidJavaObject>)
+// 0x000001DF System.Void GooglePlayGames.Android.AndroidTaskUtils::AddOnSuccessListener(UnityEngine.AndroidJavaObject,System.Action`1<T>)
+// 0x000001E0 System.Void GooglePlayGames.Android.AndroidTaskUtils::AddOnSuccessListener(UnityEngine.AndroidJavaObject,System.Boolean,System.Action`1<T>)
+// 0x000001E1 System.Void GooglePlayGames.Android.AndroidTaskUtils::AddOnFailureListener(UnityEngine.AndroidJavaObject,System.Action`1<UnityEngine.AndroidJavaObject>)
 extern void AndroidTaskUtils_AddOnFailureListener_m0D6EC0349363CF6554E1B75766E738FF33859AF9 (void);
-// 0x000001E0 System.Void GooglePlayGames.Android.AndroidTaskUtils::AddOnCompleteListener(UnityEngine.AndroidJavaObject,System.Action`1<T>)
-// 0x000001E1 System.Void GooglePlayGames.Android.AndroidTaskUtils/TaskOnCompleteProxy`1::.ctor(System.Action`1<T>)
-// 0x000001E2 System.Void GooglePlayGames.Android.AndroidTaskUtils/TaskOnCompleteProxy`1::onComplete(T)
-// 0x000001E3 System.Void GooglePlayGames.Android.AndroidTaskUtils/TaskOnSuccessProxy`1::.ctor(System.Action`1<T>,System.Boolean)
-// 0x000001E4 System.Void GooglePlayGames.Android.AndroidTaskUtils/TaskOnSuccessProxy`1::onSuccess(T)
-// 0x000001E5 System.Void GooglePlayGames.Android.AndroidTaskUtils/TaskOnFailedProxy::.ctor(System.Action`1<UnityEngine.AndroidJavaObject>)
+// 0x000001E2 System.Void GooglePlayGames.Android.AndroidTaskUtils::AddOnCompleteListener(UnityEngine.AndroidJavaObject,System.Action`1<T>)
+// 0x000001E3 System.Void GooglePlayGames.Android.AndroidTaskUtils/TaskOnCompleteProxy`1::.ctor(System.Action`1<T>)
+// 0x000001E4 System.Void GooglePlayGames.Android.AndroidTaskUtils/TaskOnCompleteProxy`1::onComplete(T)
+// 0x000001E5 System.Void GooglePlayGames.Android.AndroidTaskUtils/TaskOnSuccessProxy`1::.ctor(System.Action`1<T>,System.Boolean)
+// 0x000001E6 System.Void GooglePlayGames.Android.AndroidTaskUtils/TaskOnSuccessProxy`1::onSuccess(T)
+// 0x000001E7 System.Void GooglePlayGames.Android.AndroidTaskUtils/TaskOnFailedProxy::.ctor(System.Action`1<UnityEngine.AndroidJavaObject>)
 extern void TaskOnFailedProxy__ctor_m5C7D847D4746F4D9E00F0CEB96E714E5D12768D9 (void);
-// 0x000001E6 System.Void GooglePlayGames.Android.AndroidTaskUtils/TaskOnFailedProxy::onFailure(UnityEngine.AndroidJavaObject)
+// 0x000001E8 System.Void GooglePlayGames.Android.AndroidTaskUtils/TaskOnFailedProxy::onFailure(UnityEngine.AndroidJavaObject)
 extern void TaskOnFailedProxy_onFailure_mEE4371F327D1F5565E5317FD048A0578488D2714 (void);
-// 0x000001E7 System.Boolean GooglePlayGames.OurUtils.Logger::get_DebugLogEnabled()
+// 0x000001E9 System.Boolean GooglePlayGames.OurUtils.Logger::get_DebugLogEnabled()
 extern void Logger_get_DebugLogEnabled_mEC3A726A71894E345C31BE369D4024CDEB7796D5 (void);
-// 0x000001E8 System.Void GooglePlayGames.OurUtils.Logger::set_DebugLogEnabled(System.Boolean)
+// 0x000001EA System.Void GooglePlayGames.OurUtils.Logger::set_DebugLogEnabled(System.Boolean)
 extern void Logger_set_DebugLogEnabled_mDB04550B7A84EF44998480FD1E64C1927155BC60 (void);
-// 0x000001E9 System.Boolean GooglePlayGames.OurUtils.Logger::get_WarningLogEnabled()
+// 0x000001EB System.Boolean GooglePlayGames.OurUtils.Logger::get_WarningLogEnabled()
 extern void Logger_get_WarningLogEnabled_m9DF80BC7237D69418A8C30A3E2B51222CE17FFEF (void);
-// 0x000001EA System.Void GooglePlayGames.OurUtils.Logger::set_WarningLogEnabled(System.Boolean)
+// 0x000001EC System.Void GooglePlayGames.OurUtils.Logger::set_WarningLogEnabled(System.Boolean)
 extern void Logger_set_WarningLogEnabled_m9F269654E46D7C27EE1445BB6B35DCD3AAFCF961 (void);
-// 0x000001EB System.Void GooglePlayGames.OurUtils.Logger::d(System.String)
+// 0x000001ED System.Void GooglePlayGames.OurUtils.Logger::d(System.String)
 extern void Logger_d_m7B222C8EEF0A9270A4A3201A3BC7E8F0781B4D36 (void);
-// 0x000001EC System.Void GooglePlayGames.OurUtils.Logger::w(System.String)
+// 0x000001EE System.Void GooglePlayGames.OurUtils.Logger::w(System.String)
 extern void Logger_w_m7C2FAFD542FDE2F248A25E51BDF7968DEB519258 (void);
-// 0x000001ED System.Void GooglePlayGames.OurUtils.Logger::e(System.String)
+// 0x000001EF System.Void GooglePlayGames.OurUtils.Logger::e(System.String)
 extern void Logger_e_m7AA171750BC8FBF664E6E88509DBB313E85DA5DF (void);
-// 0x000001EE System.String GooglePlayGames.OurUtils.Logger::describe(System.Byte[])
+// 0x000001F0 System.String GooglePlayGames.OurUtils.Logger::describe(System.Byte[])
 extern void Logger_describe_m7167C796D513CB3A2F0B6300C332384CE8CA99C8 (void);
-// 0x000001EF System.String GooglePlayGames.OurUtils.Logger::ToLogMessage(System.String,System.String,System.String)
+// 0x000001F1 System.String GooglePlayGames.OurUtils.Logger::ToLogMessage(System.String,System.String,System.String)
 extern void Logger_ToLogMessage_m2573B67BE3C4E447C5A3538BDC25E84DE627C034 (void);
-// 0x000001F0 System.Void GooglePlayGames.OurUtils.Logger::.ctor()
+// 0x000001F2 System.Void GooglePlayGames.OurUtils.Logger::.ctor()
 extern void Logger__ctor_m3286129EAA1EBEABAE0DCD08B23194357817F4F0 (void);
-// 0x000001F1 System.Void GooglePlayGames.OurUtils.Logger::.cctor()
+// 0x000001F3 System.Void GooglePlayGames.OurUtils.Logger::.cctor()
 extern void Logger__cctor_m0F2DB63B53C34E638F4D348967B58F1F12D54D2B (void);
-// 0x000001F2 System.Void GooglePlayGames.OurUtils.Logger/<>c__DisplayClass8_0::.ctor()
+// 0x000001F4 System.Void GooglePlayGames.OurUtils.Logger/<>c__DisplayClass8_0::.ctor()
 extern void U3CU3Ec__DisplayClass8_0__ctor_m70D49F7493E113CB929293FB9A519446C76932D4 (void);
-// 0x000001F3 System.Void GooglePlayGames.OurUtils.Logger/<>c__DisplayClass8_0::<d>b__0()
+// 0x000001F5 System.Void GooglePlayGames.OurUtils.Logger/<>c__DisplayClass8_0::<d>b__0()
 extern void U3CU3Ec__DisplayClass8_0_U3CdU3Eb__0_m500FEACCAFA3AEA76C97E5390C596DEA02F4C5BA (void);
-// 0x000001F4 System.Void GooglePlayGames.OurUtils.Logger/<>c__DisplayClass9_0::.ctor()
+// 0x000001F6 System.Void GooglePlayGames.OurUtils.Logger/<>c__DisplayClass9_0::.ctor()
 extern void U3CU3Ec__DisplayClass9_0__ctor_mE2C44C2E459C3B71F0C60E7A97F7B6504C3BD6FC (void);
-// 0x000001F5 System.Void GooglePlayGames.OurUtils.Logger/<>c__DisplayClass9_0::<w>b__0()
+// 0x000001F7 System.Void GooglePlayGames.OurUtils.Logger/<>c__DisplayClass9_0::<w>b__0()
 extern void U3CU3Ec__DisplayClass9_0_U3CwU3Eb__0_m6FCF5F960E11CDEF1AB4BD25B3646D47848AD9BF (void);
-// 0x000001F6 System.Void GooglePlayGames.OurUtils.Logger/<>c__DisplayClass10_0::.ctor()
+// 0x000001F8 System.Void GooglePlayGames.OurUtils.Logger/<>c__DisplayClass10_0::.ctor()
 extern void U3CU3Ec__DisplayClass10_0__ctor_mBBF05E32BAB548268954742D9AA3378FE693AC1E (void);
-// 0x000001F7 System.Void GooglePlayGames.OurUtils.Logger/<>c__DisplayClass10_0::<e>b__0()
+// 0x000001F9 System.Void GooglePlayGames.OurUtils.Logger/<>c__DisplayClass10_0::<e>b__0()
 extern void U3CU3Ec__DisplayClass10_0_U3CeU3Eb__0_m86999BB25B428A036C61A8D4E89E14B1A59E80D3 (void);
-// 0x000001F8 System.Void GooglePlayGames.OurUtils.Logger/<>c::.cctor()
+// 0x000001FA System.Void GooglePlayGames.OurUtils.Logger/<>c::.cctor()
 extern void U3CU3Ec__cctor_mA4DE2A141F7765EF30C7310DC0A924E7DF3366DB (void);
-// 0x000001F9 System.Void GooglePlayGames.OurUtils.Logger/<>c::.ctor()
+// 0x000001FB System.Void GooglePlayGames.OurUtils.Logger/<>c::.ctor()
 extern void U3CU3Ec__ctor_m74349611E9593AEF3C286F461AA2C4790657BCD9 (void);
-// 0x000001FA System.Void GooglePlayGames.OurUtils.Logger/<>c::<ToLogMessage>b__12_0()
+// 0x000001FC System.Void GooglePlayGames.OurUtils.Logger/<>c::<ToLogMessage>b__12_0()
 extern void U3CU3Ec_U3CToLogMessageU3Eb__12_0_mDD9678C6AC7A4CD1D0BF99248C8177EFE7550908 (void);
-// 0x000001FB System.Boolean GooglePlayGames.OurUtils.Misc::BuffersAreIdentical(System.Byte[],System.Byte[])
+// 0x000001FD System.Boolean GooglePlayGames.OurUtils.Misc::BuffersAreIdentical(System.Byte[],System.Byte[])
 extern void Misc_BuffersAreIdentical_m41284D59C73A78194F75ED6F2FF1A24A28AC2898 (void);
-// 0x000001FC System.Byte[] GooglePlayGames.OurUtils.Misc::GetSubsetBytes(System.Byte[],System.Int32,System.Int32)
+// 0x000001FE System.Byte[] GooglePlayGames.OurUtils.Misc::GetSubsetBytes(System.Byte[],System.Int32,System.Int32)
 extern void Misc_GetSubsetBytes_m0F781EE45718D550703DF4C73E29DD77541A2E42 (void);
-// 0x000001FD T GooglePlayGames.OurUtils.Misc::CheckNotNull(T)
-// 0x000001FE T GooglePlayGames.OurUtils.Misc::CheckNotNull(T,System.String)
-// 0x000001FF System.Void GooglePlayGames.OurUtils.NearbyHelperObject::CreateObject(GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient)
+// 0x000001FF T GooglePlayGames.OurUtils.Misc::CheckNotNull(T)
+// 0x00000200 T GooglePlayGames.OurUtils.Misc::CheckNotNull(T,System.String)
+// 0x00000201 System.Void GooglePlayGames.OurUtils.NearbyHelperObject::CreateObject(GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient)
 extern void NearbyHelperObject_CreateObject_m0376E6666EBDFAEB64643C744143AFA20DFA609A (void);
-// 0x00000200 System.Double GooglePlayGames.OurUtils.NearbyHelperObject::ToSeconds(System.Nullable`1<System.TimeSpan>)
+// 0x00000202 System.Double GooglePlayGames.OurUtils.NearbyHelperObject::ToSeconds(System.Nullable`1<System.TimeSpan>)
 extern void NearbyHelperObject_ToSeconds_m2979D29F05ADFC791E46738A59A5F0C7FDB51C9B (void);
-// 0x00000201 System.Void GooglePlayGames.OurUtils.NearbyHelperObject::StartAdvertisingTimer(System.Nullable`1<System.TimeSpan>)
+// 0x00000203 System.Void GooglePlayGames.OurUtils.NearbyHelperObject::StartAdvertisingTimer(System.Nullable`1<System.TimeSpan>)
 extern void NearbyHelperObject_StartAdvertisingTimer_m365248FCCBE6D5AC6D9D9D88055ED223B575CFCE (void);
-// 0x00000202 System.Void GooglePlayGames.OurUtils.NearbyHelperObject::StartDiscoveryTimer(System.Nullable`1<System.TimeSpan>)
+// 0x00000204 System.Void GooglePlayGames.OurUtils.NearbyHelperObject::StartDiscoveryTimer(System.Nullable`1<System.TimeSpan>)
 extern void NearbyHelperObject_StartDiscoveryTimer_mE79D60794B4B28E72680CD531CA5081E6FF88888 (void);
-// 0x00000203 System.Void GooglePlayGames.OurUtils.NearbyHelperObject::Awake()
+// 0x00000205 System.Void GooglePlayGames.OurUtils.NearbyHelperObject::Awake()
 extern void NearbyHelperObject_Awake_m7843DB61A903767A94BBAA1911D2877624CECD27 (void);
-// 0x00000204 System.Void GooglePlayGames.OurUtils.NearbyHelperObject::OnDisable()
+// 0x00000206 System.Void GooglePlayGames.OurUtils.NearbyHelperObject::OnDisable()
 extern void NearbyHelperObject_OnDisable_mEE3406A77D551E1315093F4C8A614FAA72E58619 (void);
-// 0x00000205 System.Void GooglePlayGames.OurUtils.NearbyHelperObject::Update()
+// 0x00000207 System.Void GooglePlayGames.OurUtils.NearbyHelperObject::Update()
 extern void NearbyHelperObject_Update_mA272E421CB61578029DB3186E1DAE45AEAE612F0 (void);
-// 0x00000206 System.Void GooglePlayGames.OurUtils.NearbyHelperObject::.ctor()
+// 0x00000208 System.Void GooglePlayGames.OurUtils.NearbyHelperObject::.ctor()
 extern void NearbyHelperObject__ctor_mB9816B1FECE0EDC7ECBBECABBE8876E4DEEA2195 (void);
-// 0x00000207 System.Boolean GooglePlayGames.OurUtils.PlatformUtils::get_Supported()
+// 0x00000209 System.Boolean GooglePlayGames.OurUtils.PlatformUtils::get_Supported()
 extern void PlatformUtils_get_Supported_mB805E2F0158A0357BE81F4A0660129898D46556F (void);
-// 0x00000208 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::CreateObject()
+// 0x0000020A System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::CreateObject()
 extern void PlayGamesHelperObject_CreateObject_mA5F89E10242917E209537252CFC224264C6B8C0D (void);
-// 0x00000209 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::Awake()
+// 0x0000020B System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::Awake()
 extern void PlayGamesHelperObject_Awake_mC242D4413A1E8C14D3D3EB2DD3177D868207CA08 (void);
-// 0x0000020A System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::OnDisable()
+// 0x0000020C System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::OnDisable()
 extern void PlayGamesHelperObject_OnDisable_m8BCEB826404769FE7A38AF26B5E89BC5820C591E (void);
-// 0x0000020B System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::RunCoroutine(System.Collections.IEnumerator)
+// 0x0000020D System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::RunCoroutine(System.Collections.IEnumerator)
 extern void PlayGamesHelperObject_RunCoroutine_mAAD2630CD3F5D3EA62D02D9FAFAF9C2D57F73324 (void);
-// 0x0000020C System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::RunOnGameThread(System.Action)
+// 0x0000020E System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::RunOnGameThread(System.Action)
 extern void PlayGamesHelperObject_RunOnGameThread_mC9C5858B42DCB027670176AB4C2FC885748D1B48 (void);
-// 0x0000020D System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::Update()
+// 0x0000020F System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::Update()
 extern void PlayGamesHelperObject_Update_mB0ED1F3808A109A4CF53D5670C0A12DD5FF59338 (void);
-// 0x0000020E System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::OnApplicationFocus(System.Boolean)
+// 0x00000210 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::OnApplicationFocus(System.Boolean)
 extern void PlayGamesHelperObject_OnApplicationFocus_m16276D783624DE1D93B11D77BC1DEAB2CAD56196 (void);
-// 0x0000020F System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::OnApplicationPause(System.Boolean)
+// 0x00000211 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::OnApplicationPause(System.Boolean)
 extern void PlayGamesHelperObject_OnApplicationPause_m79D4613B34410C6FDFBC6378572A588D01B8A6B4 (void);
-// 0x00000210 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::AddFocusCallback(System.Action`1<System.Boolean>)
+// 0x00000212 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::AddFocusCallback(System.Action`1<System.Boolean>)
 extern void PlayGamesHelperObject_AddFocusCallback_m58A5D0A820CE72A84711040C3A29AD4C4FF4D63D (void);
-// 0x00000211 System.Boolean GooglePlayGames.OurUtils.PlayGamesHelperObject::RemoveFocusCallback(System.Action`1<System.Boolean>)
+// 0x00000213 System.Boolean GooglePlayGames.OurUtils.PlayGamesHelperObject::RemoveFocusCallback(System.Action`1<System.Boolean>)
 extern void PlayGamesHelperObject_RemoveFocusCallback_mFBDA9F6223F3669FB42428D668B39A299800892D (void);
-// 0x00000212 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::AddPauseCallback(System.Action`1<System.Boolean>)
+// 0x00000214 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::AddPauseCallback(System.Action`1<System.Boolean>)
 extern void PlayGamesHelperObject_AddPauseCallback_m300BEBD8B30262BAAE5A27DF35A46F3E393E7975 (void);
-// 0x00000213 System.Boolean GooglePlayGames.OurUtils.PlayGamesHelperObject::RemovePauseCallback(System.Action`1<System.Boolean>)
+// 0x00000215 System.Boolean GooglePlayGames.OurUtils.PlayGamesHelperObject::RemovePauseCallback(System.Action`1<System.Boolean>)
 extern void PlayGamesHelperObject_RemovePauseCallback_m5115DAAB501CAC4E76778866F1DE3653A447F815 (void);
-// 0x00000214 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::.ctor()
+// 0x00000216 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::.ctor()
 extern void PlayGamesHelperObject__ctor_m2B2E6453DEF28A29E8D806605D83662BA8384DAB (void);
-// 0x00000215 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::.cctor()
+// 0x00000217 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject::.cctor()
 extern void PlayGamesHelperObject__cctor_mF59BA452E533BCFDA7AA411A42A67FFA81DACFD8 (void);
-// 0x00000216 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject/<>c__DisplayClass10_0::.ctor()
+// 0x00000218 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject/<>c__DisplayClass10_0::.ctor()
 extern void U3CU3Ec__DisplayClass10_0__ctor_m62D624713A455A2F1871FEFD3A39B38FBEF3A450 (void);
-// 0x00000217 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject/<>c__DisplayClass10_0::<RunCoroutine>b__0()
+// 0x00000219 System.Void GooglePlayGames.OurUtils.PlayGamesHelperObject/<>c__DisplayClass10_0::<RunCoroutine>b__0()
 extern void U3CU3Ec__DisplayClass10_0_U3CRunCoroutineU3Eb__0_mA6977F035C951F2EAC191F61097CC2FBEDC9D32F (void);
-// 0x00000218 System.String GooglePlayGames.BasicApi.Achievement::ToString()
+// 0x0000021A System.String GooglePlayGames.BasicApi.Achievement::ToString()
 extern void Achievement_ToString_m5F0E000DC319F149C7B3704837AD30F1D7E1786B (void);
-// 0x00000219 System.Void GooglePlayGames.BasicApi.Achievement::.ctor()
+// 0x0000021B System.Void GooglePlayGames.BasicApi.Achievement::.ctor()
 extern void Achievement__ctor_m0337FFA168BA3B6646E5228B00663BDF1CB6F40E (void);
-// 0x0000021A System.Boolean GooglePlayGames.BasicApi.Achievement::get_IsIncremental()
+// 0x0000021C System.Boolean GooglePlayGames.BasicApi.Achievement::get_IsIncremental()
 extern void Achievement_get_IsIncremental_mE546B9F8633B21B4D71A472795D173A47C0E4A0B (void);
-// 0x0000021B System.Void GooglePlayGames.BasicApi.Achievement::set_IsIncremental(System.Boolean)
+// 0x0000021D System.Void GooglePlayGames.BasicApi.Achievement::set_IsIncremental(System.Boolean)
 extern void Achievement_set_IsIncremental_mD3B9946C066875BCEC8077E258BBB9D9D6427EE2 (void);
-// 0x0000021C System.Int32 GooglePlayGames.BasicApi.Achievement::get_CurrentSteps()
+// 0x0000021E System.Int32 GooglePlayGames.BasicApi.Achievement::get_CurrentSteps()
 extern void Achievement_get_CurrentSteps_mB88179F5839499E63E715B4C536E9E88014F8DB0 (void);
-// 0x0000021D System.Void GooglePlayGames.BasicApi.Achievement::set_CurrentSteps(System.Int32)
+// 0x0000021F System.Void GooglePlayGames.BasicApi.Achievement::set_CurrentSteps(System.Int32)
 extern void Achievement_set_CurrentSteps_m10992AB453C1DE78E13CA8A29DCC5A3C4C94846F (void);
-// 0x0000021E System.Int32 GooglePlayGames.BasicApi.Achievement::get_TotalSteps()
+// 0x00000220 System.Int32 GooglePlayGames.BasicApi.Achievement::get_TotalSteps()
 extern void Achievement_get_TotalSteps_mD45C6B330DCF063965618D2AB77B5346D8456D10 (void);
-// 0x0000021F System.Void GooglePlayGames.BasicApi.Achievement::set_TotalSteps(System.Int32)
+// 0x00000221 System.Void GooglePlayGames.BasicApi.Achievement::set_TotalSteps(System.Int32)
 extern void Achievement_set_TotalSteps_m0BE38D306D9B59D6893BE24F2DCDC8D99AC30C66 (void);
-// 0x00000220 System.Boolean GooglePlayGames.BasicApi.Achievement::get_IsUnlocked()
+// 0x00000222 System.Boolean GooglePlayGames.BasicApi.Achievement::get_IsUnlocked()
 extern void Achievement_get_IsUnlocked_mEDC791B0C59761E6F636EDB453F6C1A0312A9D3B (void);
-// 0x00000221 System.Void GooglePlayGames.BasicApi.Achievement::set_IsUnlocked(System.Boolean)
+// 0x00000223 System.Void GooglePlayGames.BasicApi.Achievement::set_IsUnlocked(System.Boolean)
 extern void Achievement_set_IsUnlocked_m78ABD4F47A4443627D30537DAB2A9476E642CAE8 (void);
-// 0x00000222 System.Boolean GooglePlayGames.BasicApi.Achievement::get_IsRevealed()
+// 0x00000224 System.Boolean GooglePlayGames.BasicApi.Achievement::get_IsRevealed()
 extern void Achievement_get_IsRevealed_mF7F8A88E4CFA7E7AA1598939ACA1BBEEBC1400E6 (void);
-// 0x00000223 System.Void GooglePlayGames.BasicApi.Achievement::set_IsRevealed(System.Boolean)
+// 0x00000225 System.Void GooglePlayGames.BasicApi.Achievement::set_IsRevealed(System.Boolean)
 extern void Achievement_set_IsRevealed_m336CF3D14439E928F4232EDD5E03E7194A8A7DCD (void);
-// 0x00000224 System.String GooglePlayGames.BasicApi.Achievement::get_Id()
+// 0x00000226 System.String GooglePlayGames.BasicApi.Achievement::get_Id()
 extern void Achievement_get_Id_mEABE1BF0C3D9E2706CED4CFB477FA7650AFF2032 (void);
-// 0x00000225 System.Void GooglePlayGames.BasicApi.Achievement::set_Id(System.String)
+// 0x00000227 System.Void GooglePlayGames.BasicApi.Achievement::set_Id(System.String)
 extern void Achievement_set_Id_mF4925401D673ABEE8BA2B666B0AE68099DA23583 (void);
-// 0x00000226 System.String GooglePlayGames.BasicApi.Achievement::get_Description()
+// 0x00000228 System.String GooglePlayGames.BasicApi.Achievement::get_Description()
 extern void Achievement_get_Description_mD92C5619D6040D2DEDC6ACFFB19C3776CEC6E10C (void);
-// 0x00000227 System.Void GooglePlayGames.BasicApi.Achievement::set_Description(System.String)
+// 0x00000229 System.Void GooglePlayGames.BasicApi.Achievement::set_Description(System.String)
 extern void Achievement_set_Description_mCE20D83998C1A32984D4AD35A8D32718F8F2D723 (void);
-// 0x00000228 System.String GooglePlayGames.BasicApi.Achievement::get_Name()
+// 0x0000022A System.String GooglePlayGames.BasicApi.Achievement::get_Name()
 extern void Achievement_get_Name_m0766DDB0BF5136DCDA51EF51194187768C3CE22A (void);
-// 0x00000229 System.Void GooglePlayGames.BasicApi.Achievement::set_Name(System.String)
+// 0x0000022B System.Void GooglePlayGames.BasicApi.Achievement::set_Name(System.String)
 extern void Achievement_set_Name_mD369413C9658980C6C53381124A81B98B326229D (void);
-// 0x0000022A System.DateTime GooglePlayGames.BasicApi.Achievement::get_LastModifiedTime()
+// 0x0000022C System.DateTime GooglePlayGames.BasicApi.Achievement::get_LastModifiedTime()
 extern void Achievement_get_LastModifiedTime_m946991216948833DCDDFCC88B4D4842DC987D5E0 (void);
-// 0x0000022B System.Void GooglePlayGames.BasicApi.Achievement::set_LastModifiedTime(System.DateTime)
+// 0x0000022D System.Void GooglePlayGames.BasicApi.Achievement::set_LastModifiedTime(System.DateTime)
 extern void Achievement_set_LastModifiedTime_m5576814F9F0FE27DA62ECB74C41540EB58D5F090 (void);
-// 0x0000022C System.UInt64 GooglePlayGames.BasicApi.Achievement::get_Points()
+// 0x0000022E System.UInt64 GooglePlayGames.BasicApi.Achievement::get_Points()
 extern void Achievement_get_Points_m16489ED9680C6DD4575BD519D7990A1209B3B786 (void);
-// 0x0000022D System.Void GooglePlayGames.BasicApi.Achievement::set_Points(System.UInt64)
+// 0x0000022F System.Void GooglePlayGames.BasicApi.Achievement::set_Points(System.UInt64)
 extern void Achievement_set_Points_m483C660AB0BD49F0B5E47284A2B31D086389AF0D (void);
-// 0x0000022E System.String GooglePlayGames.BasicApi.Achievement::get_RevealedImageUrl()
+// 0x00000230 System.String GooglePlayGames.BasicApi.Achievement::get_RevealedImageUrl()
 extern void Achievement_get_RevealedImageUrl_m0108261D2B9EA2E1F762068577180D465CC324F2 (void);
-// 0x0000022F System.Void GooglePlayGames.BasicApi.Achievement::set_RevealedImageUrl(System.String)
+// 0x00000231 System.Void GooglePlayGames.BasicApi.Achievement::set_RevealedImageUrl(System.String)
 extern void Achievement_set_RevealedImageUrl_mEFDF4F533F28058AB6DF4FDFEB57ABF3030C7101 (void);
-// 0x00000230 System.String GooglePlayGames.BasicApi.Achievement::get_UnlockedImageUrl()
+// 0x00000232 System.String GooglePlayGames.BasicApi.Achievement::get_UnlockedImageUrl()
 extern void Achievement_get_UnlockedImageUrl_m72F69304409C87D35C3971A35A572C2FFD3F5CC1 (void);
-// 0x00000231 System.Void GooglePlayGames.BasicApi.Achievement::set_UnlockedImageUrl(System.String)
+// 0x00000233 System.Void GooglePlayGames.BasicApi.Achievement::set_UnlockedImageUrl(System.String)
 extern void Achievement_set_UnlockedImageUrl_m7974CBEC35943F0A11BC34185EE489D5845686C0 (void);
-// 0x00000232 System.Void GooglePlayGames.BasicApi.Achievement::.cctor()
+// 0x00000234 System.Void GooglePlayGames.BasicApi.Achievement::.cctor()
 extern void Achievement__cctor_m001854D1CFA81F11F96C6DDE4659FC3C4E2A2D6B (void);
-// 0x00000233 System.Boolean GooglePlayGames.BasicApi.CommonTypesUtil::StatusIsSuccess(GooglePlayGames.BasicApi.ResponseStatus)
+// 0x00000235 System.Boolean GooglePlayGames.BasicApi.CommonTypesUtil::StatusIsSuccess(GooglePlayGames.BasicApi.ResponseStatus)
 extern void CommonTypesUtil_StatusIsSuccess_m44DD603B8DA96430376BB3AAEF582E4A3ACFCE09 (void);
-// 0x00000234 System.Void GooglePlayGames.BasicApi.CommonTypesUtil::.ctor()
+// 0x00000236 System.Void GooglePlayGames.BasicApi.CommonTypesUtil::.ctor()
 extern void CommonTypesUtil__ctor_m60CFAF0B3CD4D5EDD51489BD82037A5F4D270EED (void);
-// 0x00000235 System.Void GooglePlayGames.BasicApi.DummyClient::Authenticate(System.Action`1<GooglePlayGames.BasicApi.SignInStatus>)
+// 0x00000237 System.Void GooglePlayGames.BasicApi.DummyClient::Authenticate(System.Action`1<GooglePlayGames.BasicApi.SignInStatus>)
 extern void DummyClient_Authenticate_m3713F0BDA26022A5BCC4FC105AEBDB60E3F4D4F5 (void);
-// 0x00000236 System.Void GooglePlayGames.BasicApi.DummyClient::ManuallyAuthenticate(System.Action`1<GooglePlayGames.BasicApi.SignInStatus>)
+// 0x00000238 System.Void GooglePlayGames.BasicApi.DummyClient::ManuallyAuthenticate(System.Action`1<GooglePlayGames.BasicApi.SignInStatus>)
 extern void DummyClient_ManuallyAuthenticate_m83085FA8AAC65AE98ED3F14694A1CC3EEDE492C7 (void);
-// 0x00000237 System.Boolean GooglePlayGames.BasicApi.DummyClient::IsAuthenticated()
+// 0x00000239 System.Boolean GooglePlayGames.BasicApi.DummyClient::IsAuthenticated()
 extern void DummyClient_IsAuthenticated_m4DFA2EA51BB3458EACF20A47EB01CBC1AD1761F1 (void);
-// 0x00000238 System.Void GooglePlayGames.BasicApi.DummyClient::RequestServerSideAccess(System.Boolean,System.Action`1<System.String>)
+// 0x0000023A System.Void GooglePlayGames.BasicApi.DummyClient::RequestServerSideAccess(System.Boolean,System.Action`1<System.String>)
 extern void DummyClient_RequestServerSideAccess_m1D3BFF109E9CECA8F0C06DADC0F46F5115F98E6B (void);
-// 0x00000239 System.String GooglePlayGames.BasicApi.DummyClient::GetUserId()
+// 0x0000023B System.String GooglePlayGames.BasicApi.DummyClient::GetUserId()
 extern void DummyClient_GetUserId_m7F6A0996563B430AF27FD216C7CD68EA2A47EBAB (void);
-// 0x0000023A System.Void GooglePlayGames.BasicApi.DummyClient::GetPlayerStats(System.Action`2<GooglePlayGames.BasicApi.CommonStatusCodes,GooglePlayGames.BasicApi.PlayerStats>)
+// 0x0000023C System.Void GooglePlayGames.BasicApi.DummyClient::GetPlayerStats(System.Action`2<GooglePlayGames.BasicApi.CommonStatusCodes,GooglePlayGames.BasicApi.PlayerStats>)
 extern void DummyClient_GetPlayerStats_mFE75E29F8397AF823BB32DD2D9CB4B28EDA34B0F (void);
-// 0x0000023B System.String GooglePlayGames.BasicApi.DummyClient::GetUserDisplayName()
+// 0x0000023D System.String GooglePlayGames.BasicApi.DummyClient::GetUserDisplayName()
 extern void DummyClient_GetUserDisplayName_m628F425C92DE0A379EB34556C0594538C4D6CDE8 (void);
-// 0x0000023C System.String GooglePlayGames.BasicApi.DummyClient::GetUserImageUrl()
+// 0x0000023E System.String GooglePlayGames.BasicApi.DummyClient::GetUserImageUrl()
 extern void DummyClient_GetUserImageUrl_m39EAB9130EB4BCEEE9C727E99DF25C032A67D717 (void);
-// 0x0000023D System.Void GooglePlayGames.BasicApi.DummyClient::LoadUsers(System.String[],System.Action`1<UnityEngine.SocialPlatforms.IUserProfile[]>)
+// 0x0000023F System.Void GooglePlayGames.BasicApi.DummyClient::LoadUsers(System.String[],System.Action`1<UnityEngine.SocialPlatforms.IUserProfile[]>)
 extern void DummyClient_LoadUsers_mBE1CE5DCE5092DECD77C444039F18BF54F18AD1D (void);
-// 0x0000023E System.Void GooglePlayGames.BasicApi.DummyClient::LoadAchievements(System.Action`1<GooglePlayGames.BasicApi.Achievement[]>)
+// 0x00000240 System.Void GooglePlayGames.BasicApi.DummyClient::LoadAchievements(System.Action`1<GooglePlayGames.BasicApi.Achievement[]>)
 extern void DummyClient_LoadAchievements_mF11B05DDB72F0B5B567B058ECA670B0443BF5A36 (void);
-// 0x0000023F System.Void GooglePlayGames.BasicApi.DummyClient::UnlockAchievement(System.String,System.Action`1<System.Boolean>)
+// 0x00000241 System.Void GooglePlayGames.BasicApi.DummyClient::UnlockAchievement(System.String,System.Action`1<System.Boolean>)
 extern void DummyClient_UnlockAchievement_m376A6BB39D128AA1504C8118F60FB41852B8742E (void);
-// 0x00000240 System.Void GooglePlayGames.BasicApi.DummyClient::RevealAchievement(System.String,System.Action`1<System.Boolean>)
+// 0x00000242 System.Void GooglePlayGames.BasicApi.DummyClient::RevealAchievement(System.String,System.Action`1<System.Boolean>)
 extern void DummyClient_RevealAchievement_mF7E8B8C75249AA3D56D762AFD43B056A33668E88 (void);
-// 0x00000241 System.Void GooglePlayGames.BasicApi.DummyClient::IncrementAchievement(System.String,System.Int32,System.Action`1<System.Boolean>)
+// 0x00000243 System.Void GooglePlayGames.BasicApi.DummyClient::IncrementAchievement(System.String,System.Int32,System.Action`1<System.Boolean>)
 extern void DummyClient_IncrementAchievement_m4F9804ED0F1549A4327A56E8974B2C594D71750C (void);
-// 0x00000242 System.Void GooglePlayGames.BasicApi.DummyClient::SetStepsAtLeast(System.String,System.Int32,System.Action`1<System.Boolean>)
+// 0x00000244 System.Void GooglePlayGames.BasicApi.DummyClient::SetStepsAtLeast(System.String,System.Int32,System.Action`1<System.Boolean>)
 extern void DummyClient_SetStepsAtLeast_mCC0211F86F9EA947716C84867E6002DF39E0596C (void);
-// 0x00000243 System.Void GooglePlayGames.BasicApi.DummyClient::ShowAchievementsUI(System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+// 0x00000245 System.Void GooglePlayGames.BasicApi.DummyClient::ShowAchievementsUI(System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
 extern void DummyClient_ShowAchievementsUI_m745A4A8907141940DB68FA23D9326C9FC3A97B04 (void);
-// 0x00000244 System.Void GooglePlayGames.BasicApi.DummyClient::AskForLoadFriendsResolution(System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+// 0x00000246 System.Void GooglePlayGames.BasicApi.DummyClient::AskForLoadFriendsResolution(System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
 extern void DummyClient_AskForLoadFriendsResolution_m44720F942178486516ADEDE82AA65B6A02F8D40D (void);
-// 0x00000245 GooglePlayGames.BasicApi.LoadFriendsStatus GooglePlayGames.BasicApi.DummyClient::GetLastLoadFriendsStatus()
+// 0x00000247 GooglePlayGames.BasicApi.LoadFriendsStatus GooglePlayGames.BasicApi.DummyClient::GetLastLoadFriendsStatus()
 extern void DummyClient_GetLastLoadFriendsStatus_m2E61FF8890FBBABC1C242F577E90F752D746CE77 (void);
-// 0x00000246 System.Void GooglePlayGames.BasicApi.DummyClient::LoadFriends(System.Int32,System.Boolean,System.Action`1<GooglePlayGames.BasicApi.LoadFriendsStatus>)
+// 0x00000248 System.Void GooglePlayGames.BasicApi.DummyClient::LoadFriends(System.Int32,System.Boolean,System.Action`1<GooglePlayGames.BasicApi.LoadFriendsStatus>)
 extern void DummyClient_LoadFriends_m12FEF3126A90A9903B4DF05C7306452094A8543B (void);
-// 0x00000247 System.Void GooglePlayGames.BasicApi.DummyClient::LoadMoreFriends(System.Int32,System.Action`1<GooglePlayGames.BasicApi.LoadFriendsStatus>)
+// 0x00000249 System.Void GooglePlayGames.BasicApi.DummyClient::LoadMoreFriends(System.Int32,System.Action`1<GooglePlayGames.BasicApi.LoadFriendsStatus>)
 extern void DummyClient_LoadMoreFriends_m34A035F38527937BEF522B8CDD212085A61A025D (void);
-// 0x00000248 System.Void GooglePlayGames.BasicApi.DummyClient::ShowCompareProfileWithAlternativeNameHintsUI(System.String,System.String,System.String,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+// 0x0000024A System.Void GooglePlayGames.BasicApi.DummyClient::ShowCompareProfileWithAlternativeNameHintsUI(System.String,System.String,System.String,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
 extern void DummyClient_ShowCompareProfileWithAlternativeNameHintsUI_mD7340497A4DD9CCFA700F6F5ADE8F7402CEE4802 (void);
-// 0x00000249 System.Void GooglePlayGames.BasicApi.DummyClient::GetFriendsListVisibility(System.Boolean,System.Action`1<GooglePlayGames.BasicApi.FriendsListVisibilityStatus>)
+// 0x0000024B System.Void GooglePlayGames.BasicApi.DummyClient::GetFriendsListVisibility(System.Boolean,System.Action`1<GooglePlayGames.BasicApi.FriendsListVisibilityStatus>)
 extern void DummyClient_GetFriendsListVisibility_mB12BCE22A71C5F0014D8F3BFFB0A340FDFEBF05C (void);
-// 0x0000024A System.Void GooglePlayGames.BasicApi.DummyClient::ShowLeaderboardUI(System.String,GooglePlayGames.BasicApi.LeaderboardTimeSpan,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+// 0x0000024C System.Void GooglePlayGames.BasicApi.DummyClient::ShowLeaderboardUI(System.String,GooglePlayGames.BasicApi.LeaderboardTimeSpan,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
 extern void DummyClient_ShowLeaderboardUI_m0A950E4AE3B8A85A9E710C432E6958605CC40B55 (void);
-// 0x0000024B System.Int32 GooglePlayGames.BasicApi.DummyClient::LeaderboardMaxResults()
+// 0x0000024D System.Int32 GooglePlayGames.BasicApi.DummyClient::LeaderboardMaxResults()
 extern void DummyClient_LeaderboardMaxResults_m31CACA13F15519AE951D1FF69DDF1507F52EB494 (void);
-// 0x0000024C System.Void GooglePlayGames.BasicApi.DummyClient::LoadScores(System.String,GooglePlayGames.BasicApi.LeaderboardStart,System.Int32,GooglePlayGames.BasicApi.LeaderboardCollection,GooglePlayGames.BasicApi.LeaderboardTimeSpan,System.Action`1<GooglePlayGames.BasicApi.LeaderboardScoreData>)
+// 0x0000024E System.Void GooglePlayGames.BasicApi.DummyClient::LoadScores(System.String,GooglePlayGames.BasicApi.LeaderboardStart,System.Int32,GooglePlayGames.BasicApi.LeaderboardCollection,GooglePlayGames.BasicApi.LeaderboardTimeSpan,System.Action`1<GooglePlayGames.BasicApi.LeaderboardScoreData>)
 extern void DummyClient_LoadScores_m1890F4151C780A502CE36EFC0D79ADDE072B2C2A (void);
-// 0x0000024D System.Void GooglePlayGames.BasicApi.DummyClient::LoadMoreScores(GooglePlayGames.BasicApi.ScorePageToken,System.Int32,System.Action`1<GooglePlayGames.BasicApi.LeaderboardScoreData>)
+// 0x0000024F System.Void GooglePlayGames.BasicApi.DummyClient::LoadMoreScores(GooglePlayGames.BasicApi.ScorePageToken,System.Int32,System.Action`1<GooglePlayGames.BasicApi.LeaderboardScoreData>)
 extern void DummyClient_LoadMoreScores_m7D973F3C080459538344592D3B78389D8ADAF198 (void);
-// 0x0000024E System.Void GooglePlayGames.BasicApi.DummyClient::SubmitScore(System.String,System.Int64,System.Action`1<System.Boolean>)
+// 0x00000250 System.Void GooglePlayGames.BasicApi.DummyClient::SubmitScore(System.String,System.Int64,System.Action`1<System.Boolean>)
 extern void DummyClient_SubmitScore_mF4FBD1A060D33EE116587BBC156F3D992CC9B28B (void);
-// 0x0000024F System.Void GooglePlayGames.BasicApi.DummyClient::SubmitScore(System.String,System.Int64,System.String,System.Action`1<System.Boolean>)
+// 0x00000251 System.Void GooglePlayGames.BasicApi.DummyClient::SubmitScore(System.String,System.Int64,System.String,System.Action`1<System.Boolean>)
 extern void DummyClient_SubmitScore_m328D7056FF59E58F7A4FF0EB49A25DD0342074BF (void);
-// 0x00000250 GooglePlayGames.BasicApi.SavedGame.ISavedGameClient GooglePlayGames.BasicApi.DummyClient::GetSavedGameClient()
+// 0x00000252 GooglePlayGames.BasicApi.SavedGame.ISavedGameClient GooglePlayGames.BasicApi.DummyClient::GetSavedGameClient()
 extern void DummyClient_GetSavedGameClient_m070DD611549FC73C85BF6277C7D64E171F63F21F (void);
-// 0x00000251 GooglePlayGames.BasicApi.Events.IEventsClient GooglePlayGames.BasicApi.DummyClient::GetEventsClient()
+// 0x00000253 GooglePlayGames.BasicApi.Events.IEventsClient GooglePlayGames.BasicApi.DummyClient::GetEventsClient()
 extern void DummyClient_GetEventsClient_mDADC15392EBDC138E5B156B3129E049A54089296 (void);
-// 0x00000252 System.Void GooglePlayGames.BasicApi.DummyClient::LoadFriends(System.Action`1<System.Boolean>)
+// 0x00000254 System.Void GooglePlayGames.BasicApi.DummyClient::LoadFriends(System.Action`1<System.Boolean>)
 extern void DummyClient_LoadFriends_m622D25E13C93232F35325CA15EC22D0875BE2A12 (void);
-// 0x00000253 UnityEngine.SocialPlatforms.IUserProfile[] GooglePlayGames.BasicApi.DummyClient::GetFriends()
+// 0x00000255 UnityEngine.SocialPlatforms.IUserProfile[] GooglePlayGames.BasicApi.DummyClient::GetFriends()
 extern void DummyClient_GetFriends_m91C94A48DFF7B644A181A324368356141E299420 (void);
-// 0x00000254 System.Void GooglePlayGames.BasicApi.DummyClient::LogUsage()
+// 0x00000256 System.Void GooglePlayGames.BasicApi.DummyClient::LogUsage()
 extern void DummyClient_LogUsage_m850FBD51F56D605E5FC151B3E9E303DD46EB640A (void);
-// 0x00000255 System.Void GooglePlayGames.BasicApi.DummyClient::.ctor()
+// 0x00000257 System.Void GooglePlayGames.BasicApi.DummyClient::.ctor()
 extern void DummyClient__ctor_m7815F867FA8E70B595218BB9D305ED71DD209F78 (void);
-// 0x00000256 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::Authenticate(System.Action`1<GooglePlayGames.BasicApi.SignInStatus>)
-// 0x00000257 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::ManuallyAuthenticate(System.Action`1<GooglePlayGames.BasicApi.SignInStatus>)
-// 0x00000258 System.Boolean GooglePlayGames.BasicApi.IPlayGamesClient::IsAuthenticated()
-// 0x00000259 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::RequestServerSideAccess(System.Boolean,System.Action`1<System.String>)
-// 0x0000025A System.String GooglePlayGames.BasicApi.IPlayGamesClient::GetUserId()
-// 0x0000025B System.Void GooglePlayGames.BasicApi.IPlayGamesClient::LoadFriends(System.Action`1<System.Boolean>)
-// 0x0000025C System.String GooglePlayGames.BasicApi.IPlayGamesClient::GetUserDisplayName()
-// 0x0000025D System.String GooglePlayGames.BasicApi.IPlayGamesClient::GetUserImageUrl()
-// 0x0000025E System.Void GooglePlayGames.BasicApi.IPlayGamesClient::GetPlayerStats(System.Action`2<GooglePlayGames.BasicApi.CommonStatusCodes,GooglePlayGames.BasicApi.PlayerStats>)
-// 0x0000025F System.Void GooglePlayGames.BasicApi.IPlayGamesClient::LoadUsers(System.String[],System.Action`1<UnityEngine.SocialPlatforms.IUserProfile[]>)
-// 0x00000260 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::LoadAchievements(System.Action`1<GooglePlayGames.BasicApi.Achievement[]>)
-// 0x00000261 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::UnlockAchievement(System.String,System.Action`1<System.Boolean>)
-// 0x00000262 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::RevealAchievement(System.String,System.Action`1<System.Boolean>)
-// 0x00000263 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::IncrementAchievement(System.String,System.Int32,System.Action`1<System.Boolean>)
-// 0x00000264 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::SetStepsAtLeast(System.String,System.Int32,System.Action`1<System.Boolean>)
-// 0x00000265 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::ShowAchievementsUI(System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
-// 0x00000266 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::AskForLoadFriendsResolution(System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
-// 0x00000267 GooglePlayGames.BasicApi.LoadFriendsStatus GooglePlayGames.BasicApi.IPlayGamesClient::GetLastLoadFriendsStatus()
-// 0x00000268 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::ShowCompareProfileWithAlternativeNameHintsUI(System.String,System.String,System.String,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
-// 0x00000269 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::GetFriendsListVisibility(System.Boolean,System.Action`1<GooglePlayGames.BasicApi.FriendsListVisibilityStatus>)
-// 0x0000026A System.Void GooglePlayGames.BasicApi.IPlayGamesClient::LoadFriends(System.Int32,System.Boolean,System.Action`1<GooglePlayGames.BasicApi.LoadFriendsStatus>)
-// 0x0000026B System.Void GooglePlayGames.BasicApi.IPlayGamesClient::LoadMoreFriends(System.Int32,System.Action`1<GooglePlayGames.BasicApi.LoadFriendsStatus>)
-// 0x0000026C System.Void GooglePlayGames.BasicApi.IPlayGamesClient::ShowLeaderboardUI(System.String,GooglePlayGames.BasicApi.LeaderboardTimeSpan,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
-// 0x0000026D System.Void GooglePlayGames.BasicApi.IPlayGamesClient::LoadScores(System.String,GooglePlayGames.BasicApi.LeaderboardStart,System.Int32,GooglePlayGames.BasicApi.LeaderboardCollection,GooglePlayGames.BasicApi.LeaderboardTimeSpan,System.Action`1<GooglePlayGames.BasicApi.LeaderboardScoreData>)
-// 0x0000026E System.Void GooglePlayGames.BasicApi.IPlayGamesClient::LoadMoreScores(GooglePlayGames.BasicApi.ScorePageToken,System.Int32,System.Action`1<GooglePlayGames.BasicApi.LeaderboardScoreData>)
-// 0x0000026F System.Int32 GooglePlayGames.BasicApi.IPlayGamesClient::LeaderboardMaxResults()
-// 0x00000270 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::SubmitScore(System.String,System.Int64,System.Action`1<System.Boolean>)
-// 0x00000271 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::SubmitScore(System.String,System.Int64,System.String,System.Action`1<System.Boolean>)
-// 0x00000272 GooglePlayGames.BasicApi.SavedGame.ISavedGameClient GooglePlayGames.BasicApi.IPlayGamesClient::GetSavedGameClient()
-// 0x00000273 GooglePlayGames.BasicApi.Events.IEventsClient GooglePlayGames.BasicApi.IPlayGamesClient::GetEventsClient()
-// 0x00000274 UnityEngine.SocialPlatforms.IUserProfile[] GooglePlayGames.BasicApi.IPlayGamesClient::GetFriends()
-// 0x00000275 System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::.ctor(System.String)
+// 0x00000258 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::Authenticate(System.Action`1<GooglePlayGames.BasicApi.SignInStatus>)
+// 0x00000259 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::ManuallyAuthenticate(System.Action`1<GooglePlayGames.BasicApi.SignInStatus>)
+// 0x0000025A System.Boolean GooglePlayGames.BasicApi.IPlayGamesClient::IsAuthenticated()
+// 0x0000025B System.Void GooglePlayGames.BasicApi.IPlayGamesClient::RequestServerSideAccess(System.Boolean,System.Action`1<System.String>)
+// 0x0000025C System.String GooglePlayGames.BasicApi.IPlayGamesClient::GetUserId()
+// 0x0000025D System.Void GooglePlayGames.BasicApi.IPlayGamesClient::LoadFriends(System.Action`1<System.Boolean>)
+// 0x0000025E System.String GooglePlayGames.BasicApi.IPlayGamesClient::GetUserDisplayName()
+// 0x0000025F System.String GooglePlayGames.BasicApi.IPlayGamesClient::GetUserImageUrl()
+// 0x00000260 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::GetPlayerStats(System.Action`2<GooglePlayGames.BasicApi.CommonStatusCodes,GooglePlayGames.BasicApi.PlayerStats>)
+// 0x00000261 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::LoadUsers(System.String[],System.Action`1<UnityEngine.SocialPlatforms.IUserProfile[]>)
+// 0x00000262 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::LoadAchievements(System.Action`1<GooglePlayGames.BasicApi.Achievement[]>)
+// 0x00000263 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::UnlockAchievement(System.String,System.Action`1<System.Boolean>)
+// 0x00000264 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::RevealAchievement(System.String,System.Action`1<System.Boolean>)
+// 0x00000265 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::IncrementAchievement(System.String,System.Int32,System.Action`1<System.Boolean>)
+// 0x00000266 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::SetStepsAtLeast(System.String,System.Int32,System.Action`1<System.Boolean>)
+// 0x00000267 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::ShowAchievementsUI(System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+// 0x00000268 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::AskForLoadFriendsResolution(System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+// 0x00000269 GooglePlayGames.BasicApi.LoadFriendsStatus GooglePlayGames.BasicApi.IPlayGamesClient::GetLastLoadFriendsStatus()
+// 0x0000026A System.Void GooglePlayGames.BasicApi.IPlayGamesClient::ShowCompareProfileWithAlternativeNameHintsUI(System.String,System.String,System.String,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+// 0x0000026B System.Void GooglePlayGames.BasicApi.IPlayGamesClient::GetFriendsListVisibility(System.Boolean,System.Action`1<GooglePlayGames.BasicApi.FriendsListVisibilityStatus>)
+// 0x0000026C System.Void GooglePlayGames.BasicApi.IPlayGamesClient::LoadFriends(System.Int32,System.Boolean,System.Action`1<GooglePlayGames.BasicApi.LoadFriendsStatus>)
+// 0x0000026D System.Void GooglePlayGames.BasicApi.IPlayGamesClient::LoadMoreFriends(System.Int32,System.Action`1<GooglePlayGames.BasicApi.LoadFriendsStatus>)
+// 0x0000026E System.Void GooglePlayGames.BasicApi.IPlayGamesClient::ShowLeaderboardUI(System.String,GooglePlayGames.BasicApi.LeaderboardTimeSpan,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+// 0x0000026F System.Void GooglePlayGames.BasicApi.IPlayGamesClient::LoadScores(System.String,GooglePlayGames.BasicApi.LeaderboardStart,System.Int32,GooglePlayGames.BasicApi.LeaderboardCollection,GooglePlayGames.BasicApi.LeaderboardTimeSpan,System.Action`1<GooglePlayGames.BasicApi.LeaderboardScoreData>)
+// 0x00000270 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::LoadMoreScores(GooglePlayGames.BasicApi.ScorePageToken,System.Int32,System.Action`1<GooglePlayGames.BasicApi.LeaderboardScoreData>)
+// 0x00000271 System.Int32 GooglePlayGames.BasicApi.IPlayGamesClient::LeaderboardMaxResults()
+// 0x00000272 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::SubmitScore(System.String,System.Int64,System.Action`1<System.Boolean>)
+// 0x00000273 System.Void GooglePlayGames.BasicApi.IPlayGamesClient::SubmitScore(System.String,System.Int64,System.String,System.Action`1<System.Boolean>)
+// 0x00000274 GooglePlayGames.BasicApi.SavedGame.ISavedGameClient GooglePlayGames.BasicApi.IPlayGamesClient::GetSavedGameClient()
+// 0x00000275 GooglePlayGames.BasicApi.Events.IEventsClient GooglePlayGames.BasicApi.IPlayGamesClient::GetEventsClient()
+// 0x00000276 UnityEngine.SocialPlatforms.IUserProfile[] GooglePlayGames.BasicApi.IPlayGamesClient::GetFriends()
+// 0x00000277 System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::.ctor(System.String)
 extern void LeaderboardScoreData__ctor_m56685C5231FA472712A09B09D4D2195DF09BB62E (void);
-// 0x00000276 System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::.ctor(System.String,GooglePlayGames.BasicApi.ResponseStatus)
+// 0x00000278 System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::.ctor(System.String,GooglePlayGames.BasicApi.ResponseStatus)
 extern void LeaderboardScoreData__ctor_m109E3BA0F8C1D1CA502022E056D20AA3A34CDA90 (void);
-// 0x00000277 System.Boolean GooglePlayGames.BasicApi.LeaderboardScoreData::get_Valid()
+// 0x00000279 System.Boolean GooglePlayGames.BasicApi.LeaderboardScoreData::get_Valid()
 extern void LeaderboardScoreData_get_Valid_m9295D904ECBE2632FF09D993A2B0F4D13F6F2D4F (void);
-// 0x00000278 GooglePlayGames.BasicApi.ResponseStatus GooglePlayGames.BasicApi.LeaderboardScoreData::get_Status()
+// 0x0000027A GooglePlayGames.BasicApi.ResponseStatus GooglePlayGames.BasicApi.LeaderboardScoreData::get_Status()
 extern void LeaderboardScoreData_get_Status_mEDB180C739133FD242DD8979D14CCA1FB17A5D1B (void);
-// 0x00000279 System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::set_Status(GooglePlayGames.BasicApi.ResponseStatus)
+// 0x0000027B System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::set_Status(GooglePlayGames.BasicApi.ResponseStatus)
 extern void LeaderboardScoreData_set_Status_mB4AE5A67AE0D6861A67DF19D32F3C22946849841 (void);
-// 0x0000027A System.UInt64 GooglePlayGames.BasicApi.LeaderboardScoreData::get_ApproximateCount()
+// 0x0000027C System.UInt64 GooglePlayGames.BasicApi.LeaderboardScoreData::get_ApproximateCount()
 extern void LeaderboardScoreData_get_ApproximateCount_m523AC4ADCF7650B015483B6BE44A506834D311B7 (void);
-// 0x0000027B System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::set_ApproximateCount(System.UInt64)
+// 0x0000027D System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::set_ApproximateCount(System.UInt64)
 extern void LeaderboardScoreData_set_ApproximateCount_m33D807DF99DBFFA332404B0CBF4D578BCF89EEBE (void);
-// 0x0000027C System.String GooglePlayGames.BasicApi.LeaderboardScoreData::get_Title()
+// 0x0000027E System.String GooglePlayGames.BasicApi.LeaderboardScoreData::get_Title()
 extern void LeaderboardScoreData_get_Title_m134E27E5F01702B0B15965BEC684B55CED23F63F (void);
-// 0x0000027D System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::set_Title(System.String)
+// 0x0000027F System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::set_Title(System.String)
 extern void LeaderboardScoreData_set_Title_m67B238B928BF032EFA6E5CA2139F714F13248582 (void);
-// 0x0000027E System.String GooglePlayGames.BasicApi.LeaderboardScoreData::get_Id()
+// 0x00000280 System.String GooglePlayGames.BasicApi.LeaderboardScoreData::get_Id()
 extern void LeaderboardScoreData_get_Id_m9A877748AE3F1256AD5B2FA7E8ED2D358F0271D3 (void);
-// 0x0000027F System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::set_Id(System.String)
+// 0x00000281 System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::set_Id(System.String)
 extern void LeaderboardScoreData_set_Id_mB727B847B55705986A4293872A26DF8367097157 (void);
-// 0x00000280 UnityEngine.SocialPlatforms.IScore GooglePlayGames.BasicApi.LeaderboardScoreData::get_PlayerScore()
+// 0x00000282 UnityEngine.SocialPlatforms.IScore GooglePlayGames.BasicApi.LeaderboardScoreData::get_PlayerScore()
 extern void LeaderboardScoreData_get_PlayerScore_m2DDCEC4A618191C22312334D67ACA2D141C8C821 (void);
-// 0x00000281 System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::set_PlayerScore(UnityEngine.SocialPlatforms.IScore)
+// 0x00000283 System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::set_PlayerScore(UnityEngine.SocialPlatforms.IScore)
 extern void LeaderboardScoreData_set_PlayerScore_m631FA63501C079C5E919D3ECB02761EFA7CFE9B9 (void);
-// 0x00000282 UnityEngine.SocialPlatforms.IScore[] GooglePlayGames.BasicApi.LeaderboardScoreData::get_Scores()
+// 0x00000284 UnityEngine.SocialPlatforms.IScore[] GooglePlayGames.BasicApi.LeaderboardScoreData::get_Scores()
 extern void LeaderboardScoreData_get_Scores_mB4BEB768E863A73183E7EFB087A63AFB706154BA (void);
-// 0x00000283 System.Int32 GooglePlayGames.BasicApi.LeaderboardScoreData::AddScore(GooglePlayGames.PlayGamesScore)
+// 0x00000285 System.Int32 GooglePlayGames.BasicApi.LeaderboardScoreData::AddScore(GooglePlayGames.PlayGamesScore)
 extern void LeaderboardScoreData_AddScore_m19E293B3E8D1911159555ADF0F9B4E517F58B91D (void);
-// 0x00000284 GooglePlayGames.BasicApi.ScorePageToken GooglePlayGames.BasicApi.LeaderboardScoreData::get_PrevPageToken()
+// 0x00000286 GooglePlayGames.BasicApi.ScorePageToken GooglePlayGames.BasicApi.LeaderboardScoreData::get_PrevPageToken()
 extern void LeaderboardScoreData_get_PrevPageToken_m77FF1B6BDA5BC4B35E0ACD95C09D26D3AEF96D27 (void);
-// 0x00000285 System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::set_PrevPageToken(GooglePlayGames.BasicApi.ScorePageToken)
+// 0x00000287 System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::set_PrevPageToken(GooglePlayGames.BasicApi.ScorePageToken)
 extern void LeaderboardScoreData_set_PrevPageToken_mF9C419CC151FEC27483DD66D40A98B8306404C61 (void);
-// 0x00000286 GooglePlayGames.BasicApi.ScorePageToken GooglePlayGames.BasicApi.LeaderboardScoreData::get_NextPageToken()
+// 0x00000288 GooglePlayGames.BasicApi.ScorePageToken GooglePlayGames.BasicApi.LeaderboardScoreData::get_NextPageToken()
 extern void LeaderboardScoreData_get_NextPageToken_m6D3F7C4578693B35CBB9C2584757BF2EB00642F3 (void);
-// 0x00000287 System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::set_NextPageToken(GooglePlayGames.BasicApi.ScorePageToken)
+// 0x00000289 System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::set_NextPageToken(GooglePlayGames.BasicApi.ScorePageToken)
 extern void LeaderboardScoreData_set_NextPageToken_mD1D92292E7D6459CF69F484888972F0E00E3C1F9 (void);
-// 0x00000288 System.String GooglePlayGames.BasicApi.LeaderboardScoreData::ToString()
+// 0x0000028A System.String GooglePlayGames.BasicApi.LeaderboardScoreData::ToString()
 extern void LeaderboardScoreData_ToString_m3A555A15B9EAE8A67604EA4D5B98013A389C397D (void);
-// 0x00000289 System.Void GooglePlayGames.BasicApi.Player::.ctor(System.String,System.String,System.String)
+// 0x0000028B System.Void GooglePlayGames.BasicApi.Player::.ctor(System.String,System.String,System.String)
 extern void Player__ctor_m6E1DAF1AAE495C5B45A4A5CA10862B8056425067 (void);
-// 0x0000028A System.Void GooglePlayGames.BasicApi.PlayerProfile::.ctor(System.String,System.String,System.String,System.Boolean)
+// 0x0000028C System.Void GooglePlayGames.BasicApi.PlayerProfile::.ctor(System.String,System.String,System.String,System.Boolean)
 extern void PlayerProfile__ctor_mB5D861E0ACF000004A453E65B9CEC0FD796318F7 (void);
-// 0x0000028B System.Void GooglePlayGames.BasicApi.PlayerStats::.ctor(System.Int32,System.Single,System.Int32,System.Int32,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+// 0x0000028D System.Void GooglePlayGames.BasicApi.PlayerStats::.ctor(System.Int32,System.Single,System.Int32,System.Int32,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
 extern void PlayerStats__ctor_mC9FD198D6991DE32CE798E5FFD4C8B6B908FB767 (void);
-// 0x0000028C System.Void GooglePlayGames.BasicApi.PlayerStats::.ctor()
+// 0x0000028E System.Void GooglePlayGames.BasicApi.PlayerStats::.ctor()
 extern void PlayerStats__ctor_m6F5119310FBCCA1C3FAEBADFFEEEB65DEF3B99C9 (void);
-// 0x0000028D System.Boolean GooglePlayGames.BasicApi.PlayerStats::get_Valid()
+// 0x0000028F System.Boolean GooglePlayGames.BasicApi.PlayerStats::get_Valid()
 extern void PlayerStats_get_Valid_m3C3DA289819583640F8A8717F40266008CD3A093 (void);
-// 0x0000028E System.Int32 GooglePlayGames.BasicApi.PlayerStats::get_NumberOfPurchases()
+// 0x00000290 System.Int32 GooglePlayGames.BasicApi.PlayerStats::get_NumberOfPurchases()
 extern void PlayerStats_get_NumberOfPurchases_m89B6E4A18BF6D64431AAEAD2CBA9313A1D7CC88A (void);
-// 0x0000028F System.Single GooglePlayGames.BasicApi.PlayerStats::get_AvgSessionLength()
+// 0x00000291 System.Single GooglePlayGames.BasicApi.PlayerStats::get_AvgSessionLength()
 extern void PlayerStats_get_AvgSessionLength_m7706A60262AAC2EB855F5407CC49ED58423D45E9 (void);
-// 0x00000290 System.Int32 GooglePlayGames.BasicApi.PlayerStats::get_DaysSinceLastPlayed()
+// 0x00000292 System.Int32 GooglePlayGames.BasicApi.PlayerStats::get_DaysSinceLastPlayed()
 extern void PlayerStats_get_DaysSinceLastPlayed_mE88498CBD85AA36070BBC1CDFBB8B40675F2AA85 (void);
-// 0x00000291 System.Int32 GooglePlayGames.BasicApi.PlayerStats::get_NumberOfSessions()
+// 0x00000293 System.Int32 GooglePlayGames.BasicApi.PlayerStats::get_NumberOfSessions()
 extern void PlayerStats_get_NumberOfSessions_m18D64D164F75509C561124A5A15C4817401C7974 (void);
-// 0x00000292 System.Single GooglePlayGames.BasicApi.PlayerStats::get_SessPercentile()
+// 0x00000294 System.Single GooglePlayGames.BasicApi.PlayerStats::get_SessPercentile()
 extern void PlayerStats_get_SessPercentile_m37D358BFC7BAAC0CC244CEAC6B62F1920678E4FF (void);
-// 0x00000293 System.Single GooglePlayGames.BasicApi.PlayerStats::get_SpendPercentile()
+// 0x00000295 System.Single GooglePlayGames.BasicApi.PlayerStats::get_SpendPercentile()
 extern void PlayerStats_get_SpendPercentile_mE001119D91E5CE44670C4F5A50E58165EEE2F175 (void);
-// 0x00000294 System.Single GooglePlayGames.BasicApi.PlayerStats::get_SpendProbability()
+// 0x00000296 System.Single GooglePlayGames.BasicApi.PlayerStats::get_SpendProbability()
 extern void PlayerStats_get_SpendProbability_m1B417BAA2AC482F8AEBEDE3CB2DEBFD466CEB244 (void);
-// 0x00000295 System.Single GooglePlayGames.BasicApi.PlayerStats::get_ChurnProbability()
+// 0x00000297 System.Single GooglePlayGames.BasicApi.PlayerStats::get_ChurnProbability()
 extern void PlayerStats_get_ChurnProbability_m8CE0C33E3A35BCA4C7D06F883C80F0B0A4C4EBCC (void);
-// 0x00000296 System.Single GooglePlayGames.BasicApi.PlayerStats::get_HighSpenderProbability()
+// 0x00000298 System.Single GooglePlayGames.BasicApi.PlayerStats::get_HighSpenderProbability()
 extern void PlayerStats_get_HighSpenderProbability_m2C4D3722D002A278C84C7D3648255C1C845E5F63 (void);
-// 0x00000297 System.Single GooglePlayGames.BasicApi.PlayerStats::get_TotalSpendNext28Days()
+// 0x00000299 System.Single GooglePlayGames.BasicApi.PlayerStats::get_TotalSpendNext28Days()
 extern void PlayerStats_get_TotalSpendNext28Days_m0B46574D8F26214ACAF329E6FC82BC834DDDB817 (void);
-// 0x00000298 System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasNumberOfPurchases()
+// 0x0000029A System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasNumberOfPurchases()
 extern void PlayerStats_HasNumberOfPurchases_mB1A9605FB57B4DBD4659958D4BE3482618DABF52 (void);
-// 0x00000299 System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasAvgSessionLength()
+// 0x0000029B System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasAvgSessionLength()
 extern void PlayerStats_HasAvgSessionLength_m1CBCF2436BBD26D34C9113E6D9CB59537F12D512 (void);
-// 0x0000029A System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasDaysSinceLastPlayed()
+// 0x0000029C System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasDaysSinceLastPlayed()
 extern void PlayerStats_HasDaysSinceLastPlayed_m5ED3293B90AB7ABB3160B84B6003669EBF73E3A8 (void);
-// 0x0000029B System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasNumberOfSessions()
+// 0x0000029D System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasNumberOfSessions()
 extern void PlayerStats_HasNumberOfSessions_mEBA976F7B72D96D3C6FF2FB56C99F5A3C27AF85E (void);
-// 0x0000029C System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasSessPercentile()
+// 0x0000029E System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasSessPercentile()
 extern void PlayerStats_HasSessPercentile_m69BA775DEC663B4DB74968AF06820A32E918205A (void);
-// 0x0000029D System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasSpendPercentile()
+// 0x0000029F System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasSpendPercentile()
 extern void PlayerStats_HasSpendPercentile_m0FBD133ED6985DA9F019A3CB4D0329DF1378EBBF (void);
-// 0x0000029E System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasChurnProbability()
+// 0x000002A0 System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasChurnProbability()
 extern void PlayerStats_HasChurnProbability_mCEEA3E4FBB98053FF7265BD1D5BFDD433171A540 (void);
-// 0x0000029F System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasHighSpenderProbability()
+// 0x000002A1 System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasHighSpenderProbability()
 extern void PlayerStats_HasHighSpenderProbability_m1DB914A55F3E1490EB9C54D654A01C17A7DC1956 (void);
-// 0x000002A0 System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasTotalSpendNext28Days()
+// 0x000002A2 System.Boolean GooglePlayGames.BasicApi.PlayerStats::HasTotalSpendNext28Days()
 extern void PlayerStats_HasTotalSpendNext28Days_m75FBB3A2EA2BEEBCB6631A041BA6FD8F0724996C (void);
-// 0x000002A1 System.Void GooglePlayGames.BasicApi.PlayerStats::.cctor()
+// 0x000002A3 System.Void GooglePlayGames.BasicApi.PlayerStats::.cctor()
 extern void PlayerStats__cctor_mFEB35CE4E58B87434BB7B8DC2252AADB4AAA95B1 (void);
-// 0x000002A2 System.Void GooglePlayGames.BasicApi.ScorePageToken::.ctor(System.Object,System.String,GooglePlayGames.BasicApi.LeaderboardCollection,GooglePlayGames.BasicApi.LeaderboardTimeSpan,GooglePlayGames.BasicApi.ScorePageDirection)
+// 0x000002A4 System.Void GooglePlayGames.BasicApi.ScorePageToken::.ctor(System.Object,System.String,GooglePlayGames.BasicApi.LeaderboardCollection,GooglePlayGames.BasicApi.LeaderboardTimeSpan,GooglePlayGames.BasicApi.ScorePageDirection)
 extern void ScorePageToken__ctor_mC6A95B2CF5D58E225B68F324F89740440E463A25 (void);
-// 0x000002A3 GooglePlayGames.BasicApi.LeaderboardCollection GooglePlayGames.BasicApi.ScorePageToken::get_Collection()
+// 0x000002A5 GooglePlayGames.BasicApi.LeaderboardCollection GooglePlayGames.BasicApi.ScorePageToken::get_Collection()
 extern void ScorePageToken_get_Collection_mE50CCE1F8DAD88FC3C1339CA56E3589F59B66D5F (void);
-// 0x000002A4 GooglePlayGames.BasicApi.LeaderboardTimeSpan GooglePlayGames.BasicApi.ScorePageToken::get_TimeSpan()
+// 0x000002A6 GooglePlayGames.BasicApi.LeaderboardTimeSpan GooglePlayGames.BasicApi.ScorePageToken::get_TimeSpan()
 extern void ScorePageToken_get_TimeSpan_mACECEE8508CBD17F79C6208DFC56C3ED3832E800 (void);
-// 0x000002A5 GooglePlayGames.BasicApi.ScorePageDirection GooglePlayGames.BasicApi.ScorePageToken::get_Direction()
+// 0x000002A7 GooglePlayGames.BasicApi.ScorePageDirection GooglePlayGames.BasicApi.ScorePageToken::get_Direction()
 extern void ScorePageToken_get_Direction_m311708F02EC16EE13575642268B522BDE4660396 (void);
-// 0x000002A6 System.String GooglePlayGames.BasicApi.ScorePageToken::get_LeaderboardId()
+// 0x000002A8 System.String GooglePlayGames.BasicApi.ScorePageToken::get_LeaderboardId()
 extern void ScorePageToken_get_LeaderboardId_mBEBA3AD6E37CF08D4F220EDBD40DCFEC3A65D9A5 (void);
-// 0x000002A7 System.Object GooglePlayGames.BasicApi.ScorePageToken::get_InternalObject()
+// 0x000002A9 System.Object GooglePlayGames.BasicApi.ScorePageToken::get_InternalObject()
 extern void ScorePageToken_get_InternalObject_mD94F9B5585B544390A76C6682F1F26888DFB6624 (void);
-// 0x000002A8 System.Void GooglePlayGames.BasicApi.SavedGame.ConflictCallback::.ctor(System.Object,System.IntPtr)
+// 0x000002AA System.Void GooglePlayGames.BasicApi.SavedGame.ConflictCallback::.ctor(System.Object,System.IntPtr)
 extern void ConflictCallback__ctor_m4FFD96F23036F325DEB301CC41A8DDCFBF7764DE (void);
-// 0x000002A9 System.Void GooglePlayGames.BasicApi.SavedGame.ConflictCallback::Invoke(GooglePlayGames.BasicApi.SavedGame.IConflictResolver,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[],GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[])
+// 0x000002AB System.Void GooglePlayGames.BasicApi.SavedGame.ConflictCallback::Invoke(GooglePlayGames.BasicApi.SavedGame.IConflictResolver,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[],GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[])
 extern void ConflictCallback_Invoke_m92A34A283DDCDAB5A353A201B466BA9EDF2C9CA4 (void);
-// 0x000002AA System.IAsyncResult GooglePlayGames.BasicApi.SavedGame.ConflictCallback::BeginInvoke(GooglePlayGames.BasicApi.SavedGame.IConflictResolver,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[],GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[],System.AsyncCallback,System.Object)
+// 0x000002AC System.IAsyncResult GooglePlayGames.BasicApi.SavedGame.ConflictCallback::BeginInvoke(GooglePlayGames.BasicApi.SavedGame.IConflictResolver,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[],GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[],System.AsyncCallback,System.Object)
 extern void ConflictCallback_BeginInvoke_m070CB10EA460E07BB8606F1E716B17A211F702E8 (void);
-// 0x000002AB System.Void GooglePlayGames.BasicApi.SavedGame.ConflictCallback::EndInvoke(System.IAsyncResult)
+// 0x000002AD System.Void GooglePlayGames.BasicApi.SavedGame.ConflictCallback::EndInvoke(System.IAsyncResult)
 extern void ConflictCallback_EndInvoke_mD8B65C517F1AF693DCDC2776A742EE122FBE907F (void);
-// 0x000002AC System.Void GooglePlayGames.BasicApi.SavedGame.ISavedGameClient::OpenWithAutomaticConflictResolution(System.String,GooglePlayGames.BasicApi.DataSource,GooglePlayGames.BasicApi.SavedGame.ConflictResolutionStrategy,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
-// 0x000002AD System.Void GooglePlayGames.BasicApi.SavedGame.ISavedGameClient::OpenWithManualConflictResolution(System.String,GooglePlayGames.BasicApi.DataSource,System.Boolean,GooglePlayGames.BasicApi.SavedGame.ConflictCallback,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
-// 0x000002AE System.Void GooglePlayGames.BasicApi.SavedGame.ISavedGameClient::ReadBinaryData(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,System.Byte[]>)
-// 0x000002AF System.Void GooglePlayGames.BasicApi.SavedGame.ISavedGameClient::ShowSelectSavedGameUI(System.String,System.UInt32,System.Boolean,System.Boolean,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SelectUIStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
-// 0x000002B0 System.Void GooglePlayGames.BasicApi.SavedGame.ISavedGameClient::CommitUpdate(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate,System.Byte[],System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
-// 0x000002B1 System.Void GooglePlayGames.BasicApi.SavedGame.ISavedGameClient::FetchAllSavedGames(GooglePlayGames.BasicApi.DataSource,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>>)
-// 0x000002B2 System.Void GooglePlayGames.BasicApi.SavedGame.ISavedGameClient::Delete(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata)
-// 0x000002B3 System.Void GooglePlayGames.BasicApi.SavedGame.IConflictResolver::ChooseMetadata(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata)
-// 0x000002B4 System.Void GooglePlayGames.BasicApi.SavedGame.IConflictResolver::ResolveConflict(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate,System.Byte[])
-// 0x000002B5 System.Boolean GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata::get_IsOpen()
-// 0x000002B6 System.String GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata::get_Filename()
-// 0x000002B7 System.String GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata::get_Description()
-// 0x000002B8 System.String GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata::get_CoverImageURL()
-// 0x000002B9 System.TimeSpan GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata::get_TotalTimePlayed()
-// 0x000002BA System.DateTime GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata::get_LastModifiedTimestamp()
-// 0x000002BB System.Void GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate::.ctor(GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder)
+// 0x000002AE System.Void GooglePlayGames.BasicApi.SavedGame.ISavedGameClient::OpenWithAutomaticConflictResolution(System.String,GooglePlayGames.BasicApi.DataSource,GooglePlayGames.BasicApi.SavedGame.ConflictResolutionStrategy,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
+// 0x000002AF System.Void GooglePlayGames.BasicApi.SavedGame.ISavedGameClient::OpenWithManualConflictResolution(System.String,GooglePlayGames.BasicApi.DataSource,System.Boolean,GooglePlayGames.BasicApi.SavedGame.ConflictCallback,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
+// 0x000002B0 System.Void GooglePlayGames.BasicApi.SavedGame.ISavedGameClient::ReadBinaryData(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,System.Byte[]>)
+// 0x000002B1 System.Void GooglePlayGames.BasicApi.SavedGame.ISavedGameClient::ShowSelectSavedGameUI(System.String,System.UInt32,System.Boolean,System.Boolean,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SelectUIStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
+// 0x000002B2 System.Void GooglePlayGames.BasicApi.SavedGame.ISavedGameClient::CommitUpdate(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate,System.Byte[],System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>)
+// 0x000002B3 System.Void GooglePlayGames.BasicApi.SavedGame.ISavedGameClient::FetchAllSavedGames(GooglePlayGames.BasicApi.DataSource,System.Action`2<GooglePlayGames.BasicApi.SavedGame.SavedGameRequestStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata>>)
+// 0x000002B4 System.Void GooglePlayGames.BasicApi.SavedGame.ISavedGameClient::Delete(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata)
+// 0x000002B5 System.Void GooglePlayGames.BasicApi.SavedGame.IConflictResolver::ChooseMetadata(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata)
+// 0x000002B6 System.Void GooglePlayGames.BasicApi.SavedGame.IConflictResolver::ResolveConflict(GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate,System.Byte[])
+// 0x000002B7 System.Boolean GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata::get_IsOpen()
+// 0x000002B8 System.String GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata::get_Filename()
+// 0x000002B9 System.String GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata::get_Description()
+// 0x000002BA System.String GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata::get_CoverImageURL()
+// 0x000002BB System.TimeSpan GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata::get_TotalTimePlayed()
+// 0x000002BC System.DateTime GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata::get_LastModifiedTimestamp()
+// 0x000002BD System.Void GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate::.ctor(GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder)
 extern void SavedGameMetadataUpdate__ctor_mFBA5FB3EE32FDBC4A51DF93E1B8C8292CC5C7C14 (void);
-// 0x000002BC System.Boolean GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate::get_IsDescriptionUpdated()
+// 0x000002BE System.Boolean GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate::get_IsDescriptionUpdated()
 extern void SavedGameMetadataUpdate_get_IsDescriptionUpdated_mAA4E078DE38089EC25D925A39EB8A93DAFC67FC4 (void);
-// 0x000002BD System.String GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate::get_UpdatedDescription()
+// 0x000002BF System.String GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate::get_UpdatedDescription()
 extern void SavedGameMetadataUpdate_get_UpdatedDescription_m8ECA7BE5BFA92D0AC2D61881ED513DA64623332D (void);
-// 0x000002BE System.Boolean GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate::get_IsCoverImageUpdated()
+// 0x000002C0 System.Boolean GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate::get_IsCoverImageUpdated()
 extern void SavedGameMetadataUpdate_get_IsCoverImageUpdated_mA7F232A85D35F63B2558FE71A55248BB9A05E896 (void);
-// 0x000002BF System.Byte[] GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate::get_UpdatedPngCoverImage()
+// 0x000002C1 System.Byte[] GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate::get_UpdatedPngCoverImage()
 extern void SavedGameMetadataUpdate_get_UpdatedPngCoverImage_mA7647A08F7F963020D21FBF5C0A40DB777C467F3 (void);
-// 0x000002C0 System.Boolean GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate::get_IsPlayedTimeUpdated()
+// 0x000002C2 System.Boolean GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate::get_IsPlayedTimeUpdated()
 extern void SavedGameMetadataUpdate_get_IsPlayedTimeUpdated_m2152967C608A38E561F49968DE7983BF8BAA9A40 (void);
-// 0x000002C1 System.Nullable`1<System.TimeSpan> GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate::get_UpdatedPlayedTime()
+// 0x000002C3 System.Nullable`1<System.TimeSpan> GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate::get_UpdatedPlayedTime()
 extern void SavedGameMetadataUpdate_get_UpdatedPlayedTime_m8D6718C8100611C88CA33EBAB6E726BC049E2069 (void);
-// 0x000002C2 GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder::WithUpdatedDescription(System.String)
+// 0x000002C4 GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder::WithUpdatedDescription(System.String)
 extern void Builder_WithUpdatedDescription_mE9B7EF6DFD45DCB1893C4CC4390DEDB461199110 (void);
-// 0x000002C3 GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder::WithUpdatedPngCoverImage(System.Byte[])
+// 0x000002C5 GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder::WithUpdatedPngCoverImage(System.Byte[])
 extern void Builder_WithUpdatedPngCoverImage_m2484990C7D5DFB84F5F933A2125BBC19596CDBB0 (void);
-// 0x000002C4 GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder::WithUpdatedPlayedTime(System.TimeSpan)
+// 0x000002C6 GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder::WithUpdatedPlayedTime(System.TimeSpan)
 extern void Builder_WithUpdatedPlayedTime_mA0DD09952CA1BCED3A97AA6505CBC078339E1E2D (void);
-// 0x000002C5 GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder::Build()
+// 0x000002C7 GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate GooglePlayGames.BasicApi.SavedGame.SavedGameMetadataUpdate/Builder::Build()
 extern void Builder_Build_m8EDC59A0D8E7D6DD3F7855B9975D147849F400FD (void);
-// 0x000002C6 System.Void GooglePlayGames.BasicApi.Nearby.AdvertisingResult::.ctor(GooglePlayGames.BasicApi.ResponseStatus,System.String)
+// 0x000002C8 System.Void GooglePlayGames.BasicApi.Nearby.AdvertisingResult::.ctor(GooglePlayGames.BasicApi.ResponseStatus,System.String)
 extern void AdvertisingResult__ctor_m15D7590EA615D30F680CB328BBDB198A523CC891 (void);
-// 0x000002C7 System.Boolean GooglePlayGames.BasicApi.Nearby.AdvertisingResult::get_Succeeded()
+// 0x000002C9 System.Boolean GooglePlayGames.BasicApi.Nearby.AdvertisingResult::get_Succeeded()
 extern void AdvertisingResult_get_Succeeded_m9981EE0B31926BC579FBD2D70ECBB82C66314955 (void);
-// 0x000002C8 GooglePlayGames.BasicApi.ResponseStatus GooglePlayGames.BasicApi.Nearby.AdvertisingResult::get_Status()
+// 0x000002CA GooglePlayGames.BasicApi.ResponseStatus GooglePlayGames.BasicApi.Nearby.AdvertisingResult::get_Status()
 extern void AdvertisingResult_get_Status_m15D8CEBEB8D857960DA7435B2B98EAF9C1B1E7F3 (void);
-// 0x000002C9 System.String GooglePlayGames.BasicApi.Nearby.AdvertisingResult::get_LocalEndpointName()
+// 0x000002CB System.String GooglePlayGames.BasicApi.Nearby.AdvertisingResult::get_LocalEndpointName()
 extern void AdvertisingResult_get_LocalEndpointName_mCC369A10E130C752357C1155FCD20DED9CF868A2 (void);
-// 0x000002CA System.Void GooglePlayGames.BasicApi.Nearby.ConnectionRequest::.ctor(System.String,System.String,System.String,System.Byte[])
+// 0x000002CC System.Void GooglePlayGames.BasicApi.Nearby.ConnectionRequest::.ctor(System.String,System.String,System.String,System.Byte[])
 extern void ConnectionRequest__ctor_mDF66363E2D62D12229F19F0EFAAA9A721A1309E0 (void);
-// 0x000002CB GooglePlayGames.BasicApi.Nearby.EndpointDetails GooglePlayGames.BasicApi.Nearby.ConnectionRequest::get_RemoteEndpoint()
+// 0x000002CD GooglePlayGames.BasicApi.Nearby.EndpointDetails GooglePlayGames.BasicApi.Nearby.ConnectionRequest::get_RemoteEndpoint()
 extern void ConnectionRequest_get_RemoteEndpoint_m48F21C567D148A57B5AB4A00B6FF403217366C72 (void);
-// 0x000002CC System.Byte[] GooglePlayGames.BasicApi.Nearby.ConnectionRequest::get_Payload()
+// 0x000002CE System.Byte[] GooglePlayGames.BasicApi.Nearby.ConnectionRequest::get_Payload()
 extern void ConnectionRequest_get_Payload_m3D13DE9B4C8C017BB0F1DCA02A6F1B4A834A70B0 (void);
-// 0x000002CD System.Void GooglePlayGames.BasicApi.Nearby.ConnectionResponse::.ctor(System.Int64,System.String,GooglePlayGames.BasicApi.Nearby.ConnectionResponse/Status,System.Byte[])
+// 0x000002CF System.Void GooglePlayGames.BasicApi.Nearby.ConnectionResponse::.ctor(System.Int64,System.String,GooglePlayGames.BasicApi.Nearby.ConnectionResponse/Status,System.Byte[])
 extern void ConnectionResponse__ctor_m23CE2CB141ECDA6C57870035B019B0745F43AB9A (void);
-// 0x000002CE System.Int64 GooglePlayGames.BasicApi.Nearby.ConnectionResponse::get_LocalClientId()
+// 0x000002D0 System.Int64 GooglePlayGames.BasicApi.Nearby.ConnectionResponse::get_LocalClientId()
 extern void ConnectionResponse_get_LocalClientId_mCE3D71D03B189859430A9554AAA444DA334BB7BA (void);
-// 0x000002CF System.String GooglePlayGames.BasicApi.Nearby.ConnectionResponse::get_RemoteEndpointId()
+// 0x000002D1 System.String GooglePlayGames.BasicApi.Nearby.ConnectionResponse::get_RemoteEndpointId()
 extern void ConnectionResponse_get_RemoteEndpointId_mB73CBEDE78BD068E2FBAFFA55AAA478F1928C39E (void);
-// 0x000002D0 GooglePlayGames.BasicApi.Nearby.ConnectionResponse/Status GooglePlayGames.BasicApi.Nearby.ConnectionResponse::get_ResponseStatus()
+// 0x000002D2 GooglePlayGames.BasicApi.Nearby.ConnectionResponse/Status GooglePlayGames.BasicApi.Nearby.ConnectionResponse::get_ResponseStatus()
 extern void ConnectionResponse_get_ResponseStatus_m50721201BDD16E18CCBD9A5E05302B0AC98384FD (void);
-// 0x000002D1 System.Byte[] GooglePlayGames.BasicApi.Nearby.ConnectionResponse::get_Payload()
+// 0x000002D3 System.Byte[] GooglePlayGames.BasicApi.Nearby.ConnectionResponse::get_Payload()
 extern void ConnectionResponse_get_Payload_m63A2E17969A99A44E880B2580A7CC4CD3E890412 (void);
-// 0x000002D2 GooglePlayGames.BasicApi.Nearby.ConnectionResponse GooglePlayGames.BasicApi.Nearby.ConnectionResponse::Rejected(System.Int64,System.String)
+// 0x000002D4 GooglePlayGames.BasicApi.Nearby.ConnectionResponse GooglePlayGames.BasicApi.Nearby.ConnectionResponse::Rejected(System.Int64,System.String)
 extern void ConnectionResponse_Rejected_m14B968B81CCAC54FAFEAA3D6A22A429966E26CA5 (void);
-// 0x000002D3 GooglePlayGames.BasicApi.Nearby.ConnectionResponse GooglePlayGames.BasicApi.Nearby.ConnectionResponse::NetworkNotConnected(System.Int64,System.String)
+// 0x000002D5 GooglePlayGames.BasicApi.Nearby.ConnectionResponse GooglePlayGames.BasicApi.Nearby.ConnectionResponse::NetworkNotConnected(System.Int64,System.String)
 extern void ConnectionResponse_NetworkNotConnected_m3BB225746829B280E40CC49ECA180F729BA005AE (void);
-// 0x000002D4 GooglePlayGames.BasicApi.Nearby.ConnectionResponse GooglePlayGames.BasicApi.Nearby.ConnectionResponse::InternalError(System.Int64,System.String)
+// 0x000002D6 GooglePlayGames.BasicApi.Nearby.ConnectionResponse GooglePlayGames.BasicApi.Nearby.ConnectionResponse::InternalError(System.Int64,System.String)
 extern void ConnectionResponse_InternalError_mD8523E5AA275FCB26953356470FFC1B08C4632A6 (void);
-// 0x000002D5 GooglePlayGames.BasicApi.Nearby.ConnectionResponse GooglePlayGames.BasicApi.Nearby.ConnectionResponse::EndpointNotConnected(System.Int64,System.String)
+// 0x000002D7 GooglePlayGames.BasicApi.Nearby.ConnectionResponse GooglePlayGames.BasicApi.Nearby.ConnectionResponse::EndpointNotConnected(System.Int64,System.String)
 extern void ConnectionResponse_EndpointNotConnected_mC9032078C89F51CA9E97529BC88B5623BCD1E6A6 (void);
-// 0x000002D6 GooglePlayGames.BasicApi.Nearby.ConnectionResponse GooglePlayGames.BasicApi.Nearby.ConnectionResponse::Accepted(System.Int64,System.String,System.Byte[])
+// 0x000002D8 GooglePlayGames.BasicApi.Nearby.ConnectionResponse GooglePlayGames.BasicApi.Nearby.ConnectionResponse::Accepted(System.Int64,System.String,System.Byte[])
 extern void ConnectionResponse_Accepted_m14048A59F4F8BC85286C547E4B8BD56695FD5315 (void);
-// 0x000002D7 GooglePlayGames.BasicApi.Nearby.ConnectionResponse GooglePlayGames.BasicApi.Nearby.ConnectionResponse::AlreadyConnected(System.Int64,System.String)
+// 0x000002D9 GooglePlayGames.BasicApi.Nearby.ConnectionResponse GooglePlayGames.BasicApi.Nearby.ConnectionResponse::AlreadyConnected(System.Int64,System.String)
 extern void ConnectionResponse_AlreadyConnected_m036F07ACEECFCDE2002D1859C1ABE4DD88D34F8F (void);
-// 0x000002D8 System.Void GooglePlayGames.BasicApi.Nearby.ConnectionResponse::.cctor()
+// 0x000002DA System.Void GooglePlayGames.BasicApi.Nearby.ConnectionResponse::.cctor()
 extern void ConnectionResponse__cctor_m62A410E80BE47E4FADC9A236DC8591ED9EDE5091 (void);
-// 0x000002D9 System.Int32 GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::MaxUnreliableMessagePayloadLength()
+// 0x000002DB System.Int32 GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::MaxUnreliableMessagePayloadLength()
 extern void DummyNearbyConnectionClient_MaxUnreliableMessagePayloadLength_mB850F559E773636931AE8E8BB406F9E071A05AE9 (void);
-// 0x000002DA System.Int32 GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::MaxReliableMessagePayloadLength()
+// 0x000002DC System.Int32 GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::MaxReliableMessagePayloadLength()
 extern void DummyNearbyConnectionClient_MaxReliableMessagePayloadLength_m06F10C244B7648A9AF6DEC2D924B4D0E34DF3DAC (void);
-// 0x000002DB System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::SendReliable(System.Collections.Generic.List`1<System.String>,System.Byte[])
+// 0x000002DD System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::SendReliable(System.Collections.Generic.List`1<System.String>,System.Byte[])
 extern void DummyNearbyConnectionClient_SendReliable_m76E71D0583C0D38996E854A8769168F4AF3BDABA (void);
-// 0x000002DC System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::SendUnreliable(System.Collections.Generic.List`1<System.String>,System.Byte[])
+// 0x000002DE System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::SendUnreliable(System.Collections.Generic.List`1<System.String>,System.Byte[])
 extern void DummyNearbyConnectionClient_SendUnreliable_mC4B80074F626D5847674B3648E72EF3087E7B2F0 (void);
-// 0x000002DD System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::StartAdvertising(System.String,System.Collections.Generic.List`1<System.String>,System.Nullable`1<System.TimeSpan>,System.Action`1<GooglePlayGames.BasicApi.Nearby.AdvertisingResult>,System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionRequest>)
+// 0x000002DF System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::StartAdvertising(System.String,System.Collections.Generic.List`1<System.String>,System.Nullable`1<System.TimeSpan>,System.Action`1<GooglePlayGames.BasicApi.Nearby.AdvertisingResult>,System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionRequest>)
 extern void DummyNearbyConnectionClient_StartAdvertising_m49366801C1FAD71979B5A41F77DF621135C78534 (void);
-// 0x000002DE System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::StopAdvertising()
+// 0x000002E0 System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::StopAdvertising()
 extern void DummyNearbyConnectionClient_StopAdvertising_m3D3508DDE307C7FD15A89DBABEC3AF90D5270781 (void);
-// 0x000002DF System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::SendConnectionRequest(System.String,System.String,System.Byte[],System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionResponse>,GooglePlayGames.BasicApi.Nearby.IMessageListener)
+// 0x000002E1 System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::SendConnectionRequest(System.String,System.String,System.Byte[],System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionResponse>,GooglePlayGames.BasicApi.Nearby.IMessageListener)
 extern void DummyNearbyConnectionClient_SendConnectionRequest_m18FD298BEFC1B570FB52165C702785C48DAE16CE (void);
-// 0x000002E0 System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::AcceptConnectionRequest(System.String,System.Byte[],GooglePlayGames.BasicApi.Nearby.IMessageListener)
+// 0x000002E2 System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::AcceptConnectionRequest(System.String,System.Byte[],GooglePlayGames.BasicApi.Nearby.IMessageListener)
 extern void DummyNearbyConnectionClient_AcceptConnectionRequest_mD23A49C3949ACD746CA25D7EC3118CCE6B5B200B (void);
-// 0x000002E1 System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::StartDiscovery(System.String,System.Nullable`1<System.TimeSpan>,GooglePlayGames.BasicApi.Nearby.IDiscoveryListener)
+// 0x000002E3 System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::StartDiscovery(System.String,System.Nullable`1<System.TimeSpan>,GooglePlayGames.BasicApi.Nearby.IDiscoveryListener)
 extern void DummyNearbyConnectionClient_StartDiscovery_m27D4A29F434992C265BEEF70A37B08C690928423 (void);
-// 0x000002E2 System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::StopDiscovery(System.String)
+// 0x000002E4 System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::StopDiscovery(System.String)
 extern void DummyNearbyConnectionClient_StopDiscovery_mCD7691DCFF1A6EA0BE827A7B5A04C78993A3B03C (void);
-// 0x000002E3 System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::RejectConnectionRequest(System.String)
+// 0x000002E5 System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::RejectConnectionRequest(System.String)
 extern void DummyNearbyConnectionClient_RejectConnectionRequest_m71491AEA881C9442201F83167CBA053FAD8707DA (void);
-// 0x000002E4 System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::DisconnectFromEndpoint(System.String)
+// 0x000002E6 System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::DisconnectFromEndpoint(System.String)
 extern void DummyNearbyConnectionClient_DisconnectFromEndpoint_m5AAC25B0A6D48E20D76A7C6005DEE63469B448FB (void);
-// 0x000002E5 System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::StopAllConnections()
+// 0x000002E7 System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::StopAllConnections()
 extern void DummyNearbyConnectionClient_StopAllConnections_mADE4ECCE02420B408DC199007C25B04CB3807261 (void);
-// 0x000002E6 System.String GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::LocalEndpointId()
+// 0x000002E8 System.String GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::LocalEndpointId()
 extern void DummyNearbyConnectionClient_LocalEndpointId_mC292A539D110A2F8AF9378C705B4FE33FF8AF0E7 (void);
-// 0x000002E7 System.String GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::LocalDeviceId()
+// 0x000002E9 System.String GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::LocalDeviceId()
 extern void DummyNearbyConnectionClient_LocalDeviceId_m692C4FFAA7CE075E04D4212DAA9C825C2FFD675E (void);
-// 0x000002E8 System.String GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::GetAppBundleId()
+// 0x000002EA System.String GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::GetAppBundleId()
 extern void DummyNearbyConnectionClient_GetAppBundleId_mBE040E3049AA4526BD3E0F3507D48B581A3BF33F (void);
-// 0x000002E9 System.String GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::GetServiceId()
+// 0x000002EB System.String GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::GetServiceId()
 extern void DummyNearbyConnectionClient_GetServiceId_mC7C3070530CD97B9E2B5A3A7BCAADB9885FBAF2D (void);
-// 0x000002EA System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::.ctor()
+// 0x000002EC System.Void GooglePlayGames.BasicApi.Nearby.DummyNearbyConnectionClient::.ctor()
 extern void DummyNearbyConnectionClient__ctor_mBEF7D59B77A5D0BE43018313BA7E25EA2381084F (void);
-// 0x000002EB System.Void GooglePlayGames.BasicApi.Nearby.EndpointDetails::.ctor(System.String,System.String,System.String)
+// 0x000002ED System.Void GooglePlayGames.BasicApi.Nearby.EndpointDetails::.ctor(System.String,System.String,System.String)
 extern void EndpointDetails__ctor_m42A92D99714095AC5995C882AB7881A396A9FA52 (void);
-// 0x000002EC System.String GooglePlayGames.BasicApi.Nearby.EndpointDetails::get_EndpointId()
+// 0x000002EE System.String GooglePlayGames.BasicApi.Nearby.EndpointDetails::get_EndpointId()
 extern void EndpointDetails_get_EndpointId_m5F4E6619FABAF16FBDE2940483FB1752B319DDCC (void);
-// 0x000002ED System.String GooglePlayGames.BasicApi.Nearby.EndpointDetails::get_Name()
+// 0x000002EF System.String GooglePlayGames.BasicApi.Nearby.EndpointDetails::get_Name()
 extern void EndpointDetails_get_Name_mED3DF73757840F813083F34F0D2F33D409C5AED8 (void);
-// 0x000002EE System.String GooglePlayGames.BasicApi.Nearby.EndpointDetails::get_ServiceId()
+// 0x000002F0 System.String GooglePlayGames.BasicApi.Nearby.EndpointDetails::get_ServiceId()
 extern void EndpointDetails_get_ServiceId_m37A34FB2859BA3561172C799410A0B0A118AD094 (void);
-// 0x000002EF System.Int32 GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::MaxUnreliableMessagePayloadLength()
-// 0x000002F0 System.Int32 GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::MaxReliableMessagePayloadLength()
-// 0x000002F1 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::SendReliable(System.Collections.Generic.List`1<System.String>,System.Byte[])
-// 0x000002F2 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::SendUnreliable(System.Collections.Generic.List`1<System.String>,System.Byte[])
-// 0x000002F3 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::StartAdvertising(System.String,System.Collections.Generic.List`1<System.String>,System.Nullable`1<System.TimeSpan>,System.Action`1<GooglePlayGames.BasicApi.Nearby.AdvertisingResult>,System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionRequest>)
-// 0x000002F4 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::StopAdvertising()
-// 0x000002F5 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::SendConnectionRequest(System.String,System.String,System.Byte[],System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionResponse>,GooglePlayGames.BasicApi.Nearby.IMessageListener)
-// 0x000002F6 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::AcceptConnectionRequest(System.String,System.Byte[],GooglePlayGames.BasicApi.Nearby.IMessageListener)
-// 0x000002F7 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::StartDiscovery(System.String,System.Nullable`1<System.TimeSpan>,GooglePlayGames.BasicApi.Nearby.IDiscoveryListener)
-// 0x000002F8 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::StopDiscovery(System.String)
-// 0x000002F9 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::RejectConnectionRequest(System.String)
-// 0x000002FA System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::DisconnectFromEndpoint(System.String)
-// 0x000002FB System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::StopAllConnections()
-// 0x000002FC System.String GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::GetAppBundleId()
-// 0x000002FD System.String GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::GetServiceId()
-// 0x000002FE System.Void GooglePlayGames.BasicApi.Nearby.IMessageListener::OnMessageReceived(System.String,System.Byte[],System.Boolean)
-// 0x000002FF System.Void GooglePlayGames.BasicApi.Nearby.IMessageListener::OnRemoteEndpointDisconnected(System.String)
-// 0x00000300 System.Void GooglePlayGames.BasicApi.Nearby.IDiscoveryListener::OnEndpointFound(GooglePlayGames.BasicApi.Nearby.EndpointDetails)
-// 0x00000301 System.Void GooglePlayGames.BasicApi.Nearby.IDiscoveryListener::OnEndpointLost(System.String)
-// 0x00000302 System.Void GooglePlayGames.BasicApi.Nearby.NearbyConnectionConfiguration::.ctor(System.Action`1<GooglePlayGames.BasicApi.Nearby.InitializationStatus>,System.Int64)
+// 0x000002F1 System.Int32 GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::MaxUnreliableMessagePayloadLength()
+// 0x000002F2 System.Int32 GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::MaxReliableMessagePayloadLength()
+// 0x000002F3 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::SendReliable(System.Collections.Generic.List`1<System.String>,System.Byte[])
+// 0x000002F4 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::SendUnreliable(System.Collections.Generic.List`1<System.String>,System.Byte[])
+// 0x000002F5 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::StartAdvertising(System.String,System.Collections.Generic.List`1<System.String>,System.Nullable`1<System.TimeSpan>,System.Action`1<GooglePlayGames.BasicApi.Nearby.AdvertisingResult>,System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionRequest>)
+// 0x000002F6 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::StopAdvertising()
+// 0x000002F7 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::SendConnectionRequest(System.String,System.String,System.Byte[],System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionResponse>,GooglePlayGames.BasicApi.Nearby.IMessageListener)
+// 0x000002F8 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::AcceptConnectionRequest(System.String,System.Byte[],GooglePlayGames.BasicApi.Nearby.IMessageListener)
+// 0x000002F9 System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::StartDiscovery(System.String,System.Nullable`1<System.TimeSpan>,GooglePlayGames.BasicApi.Nearby.IDiscoveryListener)
+// 0x000002FA System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::StopDiscovery(System.String)
+// 0x000002FB System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::RejectConnectionRequest(System.String)
+// 0x000002FC System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::DisconnectFromEndpoint(System.String)
+// 0x000002FD System.Void GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::StopAllConnections()
+// 0x000002FE System.String GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::GetAppBundleId()
+// 0x000002FF System.String GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient::GetServiceId()
+// 0x00000300 System.Void GooglePlayGames.BasicApi.Nearby.IMessageListener::OnMessageReceived(System.String,System.Byte[],System.Boolean)
+// 0x00000301 System.Void GooglePlayGames.BasicApi.Nearby.IMessageListener::OnRemoteEndpointDisconnected(System.String)
+// 0x00000302 System.Void GooglePlayGames.BasicApi.Nearby.IDiscoveryListener::OnEndpointFound(GooglePlayGames.BasicApi.Nearby.EndpointDetails)
+// 0x00000303 System.Void GooglePlayGames.BasicApi.Nearby.IDiscoveryListener::OnEndpointLost(System.String)
+// 0x00000304 System.Void GooglePlayGames.BasicApi.Nearby.NearbyConnectionConfiguration::.ctor(System.Action`1<GooglePlayGames.BasicApi.Nearby.InitializationStatus>,System.Int64)
 extern void NearbyConnectionConfiguration__ctor_mB1427DC130517FC2B16AF9BAAB94185A9916A18E (void);
-// 0x00000303 System.Int64 GooglePlayGames.BasicApi.Nearby.NearbyConnectionConfiguration::get_LocalClientId()
+// 0x00000305 System.Int64 GooglePlayGames.BasicApi.Nearby.NearbyConnectionConfiguration::get_LocalClientId()
 extern void NearbyConnectionConfiguration_get_LocalClientId_m98FA98E0D7B2410024B8B74DA80D8E5E041DDB28 (void);
-// 0x00000304 System.Action`1<GooglePlayGames.BasicApi.Nearby.InitializationStatus> GooglePlayGames.BasicApi.Nearby.NearbyConnectionConfiguration::get_InitializationCallback()
+// 0x00000306 System.Action`1<GooglePlayGames.BasicApi.Nearby.InitializationStatus> GooglePlayGames.BasicApi.Nearby.NearbyConnectionConfiguration::get_InitializationCallback()
 extern void NearbyConnectionConfiguration_get_InitializationCallback_mE751BCEF68A7D7CEDB42DA5D60EF1C829AB78B40 (void);
-// 0x00000305 System.Void GooglePlayGames.BasicApi.Events.Event::.ctor(System.String,System.String,System.String,System.String,System.UInt64,GooglePlayGames.BasicApi.Events.EventVisibility)
+// 0x00000307 System.Void GooglePlayGames.BasicApi.Events.Event::.ctor(System.String,System.String,System.String,System.String,System.UInt64,GooglePlayGames.BasicApi.Events.EventVisibility)
 extern void Event__ctor_m7B556E6AB4B2CCE3939135651F2DEC3194E33C4B (void);
-// 0x00000306 System.String GooglePlayGames.BasicApi.Events.Event::get_Id()
+// 0x00000308 System.String GooglePlayGames.BasicApi.Events.Event::get_Id()
 extern void Event_get_Id_mDB059CFF41860171CDD4A0AC92E04A4BA1E9A0A7 (void);
-// 0x00000307 System.String GooglePlayGames.BasicApi.Events.Event::get_Name()
+// 0x00000309 System.String GooglePlayGames.BasicApi.Events.Event::get_Name()
 extern void Event_get_Name_mA37D7FB644CC50D5E90B72331502364EE90E66BE (void);
-// 0x00000308 System.String GooglePlayGames.BasicApi.Events.Event::get_Description()
+// 0x0000030A System.String GooglePlayGames.BasicApi.Events.Event::get_Description()
 extern void Event_get_Description_m891BCB63ED187774CFEDD7545B6E0FB6E329B6D1 (void);
-// 0x00000309 System.String GooglePlayGames.BasicApi.Events.Event::get_ImageUrl()
+// 0x0000030B System.String GooglePlayGames.BasicApi.Events.Event::get_ImageUrl()
 extern void Event_get_ImageUrl_mB0CEF2CD2D2A162D873B137C35A7EF859A236C18 (void);
-// 0x0000030A System.UInt64 GooglePlayGames.BasicApi.Events.Event::get_CurrentCount()
+// 0x0000030C System.UInt64 GooglePlayGames.BasicApi.Events.Event::get_CurrentCount()
 extern void Event_get_CurrentCount_m1DBE8D3501BC0F8513428DA15EAEEF37558649F3 (void);
-// 0x0000030B GooglePlayGames.BasicApi.Events.EventVisibility GooglePlayGames.BasicApi.Events.Event::get_Visibility()
+// 0x0000030D GooglePlayGames.BasicApi.Events.EventVisibility GooglePlayGames.BasicApi.Events.Event::get_Visibility()
 extern void Event_get_Visibility_m1943DA6E09E14FF4E57B99B6B013777F7F2845D3 (void);
-// 0x0000030C System.String GooglePlayGames.BasicApi.Events.IEvent::get_Id()
-// 0x0000030D System.String GooglePlayGames.BasicApi.Events.IEvent::get_Name()
-// 0x0000030E System.String GooglePlayGames.BasicApi.Events.IEvent::get_Description()
-// 0x0000030F System.String GooglePlayGames.BasicApi.Events.IEvent::get_ImageUrl()
-// 0x00000310 System.UInt64 GooglePlayGames.BasicApi.Events.IEvent::get_CurrentCount()
-// 0x00000311 GooglePlayGames.BasicApi.Events.EventVisibility GooglePlayGames.BasicApi.Events.IEvent::get_Visibility()
-// 0x00000312 System.Void GooglePlayGames.BasicApi.Events.IEventsClient::FetchAllEvents(GooglePlayGames.BasicApi.DataSource,System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Events.IEvent>>)
-// 0x00000313 System.Void GooglePlayGames.BasicApi.Events.IEventsClient::FetchEvent(GooglePlayGames.BasicApi.DataSource,System.String,System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,GooglePlayGames.BasicApi.Events.IEvent>)
-// 0x00000314 System.Void GooglePlayGames.BasicApi.Events.IEventsClient::IncrementEvent(System.String,System.UInt32)
-static Il2CppMethodPointer s_methodPointers[788] = 
+// 0x0000030E System.String GooglePlayGames.BasicApi.Events.IEvent::get_Id()
+// 0x0000030F System.String GooglePlayGames.BasicApi.Events.IEvent::get_Name()
+// 0x00000310 System.String GooglePlayGames.BasicApi.Events.IEvent::get_Description()
+// 0x00000311 System.String GooglePlayGames.BasicApi.Events.IEvent::get_ImageUrl()
+// 0x00000312 System.UInt64 GooglePlayGames.BasicApi.Events.IEvent::get_CurrentCount()
+// 0x00000313 GooglePlayGames.BasicApi.Events.EventVisibility GooglePlayGames.BasicApi.Events.IEvent::get_Visibility()
+// 0x00000314 System.Void GooglePlayGames.BasicApi.Events.IEventsClient::FetchAllEvents(GooglePlayGames.BasicApi.DataSource,System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,System.Collections.Generic.List`1<GooglePlayGames.BasicApi.Events.IEvent>>)
+// 0x00000315 System.Void GooglePlayGames.BasicApi.Events.IEventsClient::FetchEvent(GooglePlayGames.BasicApi.DataSource,System.String,System.Action`2<GooglePlayGames.BasicApi.ResponseStatus,GooglePlayGames.BasicApi.Events.IEvent>)
+// 0x00000316 System.Void GooglePlayGames.BasicApi.Events.IEventsClient::IncrementEvent(System.String,System.UInt32)
+static Il2CppMethodPointer s_methodPointers[790] = 
 {
 	GameInfo_ApplicationIdInitialized_mD5DC367658D19D64ECA8D7F821637EF580973058,
 	GameInfo_WebClientIdInitialized_m7CE061231C3ED7D2485B88063F101588F0EACFDA,
@@ -1706,7 +1710,8 @@ static Il2CppMethodPointer s_methodPointers[788] =
 	U3CU3Ec__DisplayClass19_0_U3CAuthenticateU3Eb__0_mD4DDC0C0C4DDFB7E60389B0D19FBADEC0E7FE125,
 	U3CU3Ec__DisplayClass19_0_U3CAuthenticateU3Eb__1_m41CF502B512716794A5B72BB84CFF4462EBE9149,
 	U3CU3Ec__DisplayClass20_0__ctor_m01948F4D487D876615453A84C18FCEAD839046F3,
-	U3CU3Ec__DisplayClass20_0_U3CSignInOnResultU3Eb__0_m7560A9C2FB050A4B0E6CD70D6B505349C58DE4D4,
+	U3CU3Ec__DisplayClass20_1__ctor_m28CC9D16F57161693BEC27ECEBC21733976F08C4,
+	U3CU3Ec__DisplayClass20_1_U3CSignInOnResultU3Eb__0_mD447F53E23091F862DD56E7490D2C04F8B19335C,
 	U3CU3Ec__cctor_m1DB17031C89EE1A10C652C2BDE90BBA34203913B,
 	U3CU3Ec__ctor_mD16789031D4E68AA1F27DEC7ACAFAB67144C2352,
 	U3CU3Ec_U3CSignInOnResultU3Eb__20_1_m84ACD824AB555E551661DFE26B67E4C456491471,
@@ -1747,9 +1752,10 @@ static Il2CppMethodPointer s_methodPointers[788] =
 	U3CU3Ec__DisplayClass42_0_U3CGetPlayerStatsU3Eb__0_m57174E0230F8A7D1DAF275CD77494708C88BFB6F,
 	U3CU3Ec__DisplayClass42_0_U3CGetPlayerStatsU3Eb__1_mF32C33FC80E5F1E80B64ABFC10871AA0023FD491,
 	U3CU3Ec__DisplayClass43_0__ctor_m9E1E3071E400A6E396B5B081BED38B6D3DD62D69,
-	U3CU3Ec__DisplayClass43_0_U3CLoadUsersU3Eb__0_mBDAD655B5E6CC4667BA7987176F703DA6F69769B,
 	U3CU3Ec__DisplayClass43_1__ctor_m2E0AB87B1099FA3AAECF5E03BB0BF9781A641367,
-	U3CU3Ec__DisplayClass43_1_U3CLoadUsersU3Eb__1_m61349D78F9E92E44BDD432E6BFB0E95698BBD225,
+	U3CU3Ec__DisplayClass43_1_U3CLoadUsersU3Eb__0_mBBEAF524075C836FBBFC1D9523BFD28A6AEA5EB3,
+	U3CU3Ec__DisplayClass43_2__ctor_mF8B9C26443FF2E3B9BDFD48701E782C293761B57,
+	U3CU3Ec__DisplayClass43_2_U3CLoadUsersU3Eb__1_m6D924CAD6D60340ED01AF26B55E6054ADCAB65F7,
 	U3CU3Ec__DisplayClass44_0__ctor_m8BA1478D12BC1EE3269A39F467645318F5FE48D3,
 	U3CU3Ec__DisplayClass44_0_U3CLoadAchievementsU3Eb__0_m82AF58D47E2A975D0069581190D12E46AD042519,
 	U3CU3Ec__DisplayClass44_0_U3CLoadAchievementsU3Eb__1_m3A78998B07C1B72F5C2B6644339AF89CAA92B9AE,
@@ -2280,187 +2286,187 @@ extern void NearbyConnectionConfiguration_get_LocalClientId_m98FA98E0D7B2410024B
 extern void NearbyConnectionConfiguration_get_InitializationCallback_mE751BCEF68A7D7CEDB42DA5D60EF1C829AB78B40_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[30] = 
 {
-	{ 0x060002BB, SavedGameMetadataUpdate__ctor_mFBA5FB3EE32FDBC4A51DF93E1B8C8292CC5C7C14_AdjustorThunk },
-	{ 0x060002BC, SavedGameMetadataUpdate_get_IsDescriptionUpdated_mAA4E078DE38089EC25D925A39EB8A93DAFC67FC4_AdjustorThunk },
-	{ 0x060002BD, SavedGameMetadataUpdate_get_UpdatedDescription_m8ECA7BE5BFA92D0AC2D61881ED513DA64623332D_AdjustorThunk },
-	{ 0x060002BE, SavedGameMetadataUpdate_get_IsCoverImageUpdated_mA7F232A85D35F63B2558FE71A55248BB9A05E896_AdjustorThunk },
-	{ 0x060002BF, SavedGameMetadataUpdate_get_UpdatedPngCoverImage_mA7647A08F7F963020D21FBF5C0A40DB777C467F3_AdjustorThunk },
-	{ 0x060002C0, SavedGameMetadataUpdate_get_IsPlayedTimeUpdated_m2152967C608A38E561F49968DE7983BF8BAA9A40_AdjustorThunk },
-	{ 0x060002C1, SavedGameMetadataUpdate_get_UpdatedPlayedTime_m8D6718C8100611C88CA33EBAB6E726BC049E2069_AdjustorThunk },
-	{ 0x060002C2, Builder_WithUpdatedDescription_mE9B7EF6DFD45DCB1893C4CC4390DEDB461199110_AdjustorThunk },
-	{ 0x060002C3, Builder_WithUpdatedPngCoverImage_m2484990C7D5DFB84F5F933A2125BBC19596CDBB0_AdjustorThunk },
-	{ 0x060002C4, Builder_WithUpdatedPlayedTime_mA0DD09952CA1BCED3A97AA6505CBC078339E1E2D_AdjustorThunk },
-	{ 0x060002C5, Builder_Build_m8EDC59A0D8E7D6DD3F7855B9975D147849F400FD_AdjustorThunk },
-	{ 0x060002C6, AdvertisingResult__ctor_m15D7590EA615D30F680CB328BBDB198A523CC891_AdjustorThunk },
-	{ 0x060002C7, AdvertisingResult_get_Succeeded_m9981EE0B31926BC579FBD2D70ECBB82C66314955_AdjustorThunk },
-	{ 0x060002C8, AdvertisingResult_get_Status_m15D8CEBEB8D857960DA7435B2B98EAF9C1B1E7F3_AdjustorThunk },
-	{ 0x060002C9, AdvertisingResult_get_LocalEndpointName_mCC369A10E130C752357C1155FCD20DED9CF868A2_AdjustorThunk },
-	{ 0x060002CA, ConnectionRequest__ctor_mDF66363E2D62D12229F19F0EFAAA9A721A1309E0_AdjustorThunk },
-	{ 0x060002CB, ConnectionRequest_get_RemoteEndpoint_m48F21C567D148A57B5AB4A00B6FF403217366C72_AdjustorThunk },
-	{ 0x060002CC, ConnectionRequest_get_Payload_m3D13DE9B4C8C017BB0F1DCA02A6F1B4A834A70B0_AdjustorThunk },
-	{ 0x060002CD, ConnectionResponse__ctor_m23CE2CB141ECDA6C57870035B019B0745F43AB9A_AdjustorThunk },
-	{ 0x060002CE, ConnectionResponse_get_LocalClientId_mCE3D71D03B189859430A9554AAA444DA334BB7BA_AdjustorThunk },
-	{ 0x060002CF, ConnectionResponse_get_RemoteEndpointId_mB73CBEDE78BD068E2FBAFFA55AAA478F1928C39E_AdjustorThunk },
-	{ 0x060002D0, ConnectionResponse_get_ResponseStatus_m50721201BDD16E18CCBD9A5E05302B0AC98384FD_AdjustorThunk },
-	{ 0x060002D1, ConnectionResponse_get_Payload_m63A2E17969A99A44E880B2580A7CC4CD3E890412_AdjustorThunk },
-	{ 0x060002EB, EndpointDetails__ctor_m42A92D99714095AC5995C882AB7881A396A9FA52_AdjustorThunk },
-	{ 0x060002EC, EndpointDetails_get_EndpointId_m5F4E6619FABAF16FBDE2940483FB1752B319DDCC_AdjustorThunk },
-	{ 0x060002ED, EndpointDetails_get_Name_mED3DF73757840F813083F34F0D2F33D409C5AED8_AdjustorThunk },
-	{ 0x060002EE, EndpointDetails_get_ServiceId_m37A34FB2859BA3561172C799410A0B0A118AD094_AdjustorThunk },
-	{ 0x06000302, NearbyConnectionConfiguration__ctor_mB1427DC130517FC2B16AF9BAAB94185A9916A18E_AdjustorThunk },
-	{ 0x06000303, NearbyConnectionConfiguration_get_LocalClientId_m98FA98E0D7B2410024B8B74DA80D8E5E041DDB28_AdjustorThunk },
-	{ 0x06000304, NearbyConnectionConfiguration_get_InitializationCallback_mE751BCEF68A7D7CEDB42DA5D60EF1C829AB78B40_AdjustorThunk },
+	{ 0x060002BD, SavedGameMetadataUpdate__ctor_mFBA5FB3EE32FDBC4A51DF93E1B8C8292CC5C7C14_AdjustorThunk },
+	{ 0x060002BE, SavedGameMetadataUpdate_get_IsDescriptionUpdated_mAA4E078DE38089EC25D925A39EB8A93DAFC67FC4_AdjustorThunk },
+	{ 0x060002BF, SavedGameMetadataUpdate_get_UpdatedDescription_m8ECA7BE5BFA92D0AC2D61881ED513DA64623332D_AdjustorThunk },
+	{ 0x060002C0, SavedGameMetadataUpdate_get_IsCoverImageUpdated_mA7F232A85D35F63B2558FE71A55248BB9A05E896_AdjustorThunk },
+	{ 0x060002C1, SavedGameMetadataUpdate_get_UpdatedPngCoverImage_mA7647A08F7F963020D21FBF5C0A40DB777C467F3_AdjustorThunk },
+	{ 0x060002C2, SavedGameMetadataUpdate_get_IsPlayedTimeUpdated_m2152967C608A38E561F49968DE7983BF8BAA9A40_AdjustorThunk },
+	{ 0x060002C3, SavedGameMetadataUpdate_get_UpdatedPlayedTime_m8D6718C8100611C88CA33EBAB6E726BC049E2069_AdjustorThunk },
+	{ 0x060002C4, Builder_WithUpdatedDescription_mE9B7EF6DFD45DCB1893C4CC4390DEDB461199110_AdjustorThunk },
+	{ 0x060002C5, Builder_WithUpdatedPngCoverImage_m2484990C7D5DFB84F5F933A2125BBC19596CDBB0_AdjustorThunk },
+	{ 0x060002C6, Builder_WithUpdatedPlayedTime_mA0DD09952CA1BCED3A97AA6505CBC078339E1E2D_AdjustorThunk },
+	{ 0x060002C7, Builder_Build_m8EDC59A0D8E7D6DD3F7855B9975D147849F400FD_AdjustorThunk },
+	{ 0x060002C8, AdvertisingResult__ctor_m15D7590EA615D30F680CB328BBDB198A523CC891_AdjustorThunk },
+	{ 0x060002C9, AdvertisingResult_get_Succeeded_m9981EE0B31926BC579FBD2D70ECBB82C66314955_AdjustorThunk },
+	{ 0x060002CA, AdvertisingResult_get_Status_m15D8CEBEB8D857960DA7435B2B98EAF9C1B1E7F3_AdjustorThunk },
+	{ 0x060002CB, AdvertisingResult_get_LocalEndpointName_mCC369A10E130C752357C1155FCD20DED9CF868A2_AdjustorThunk },
+	{ 0x060002CC, ConnectionRequest__ctor_mDF66363E2D62D12229F19F0EFAAA9A721A1309E0_AdjustorThunk },
+	{ 0x060002CD, ConnectionRequest_get_RemoteEndpoint_m48F21C567D148A57B5AB4A00B6FF403217366C72_AdjustorThunk },
+	{ 0x060002CE, ConnectionRequest_get_Payload_m3D13DE9B4C8C017BB0F1DCA02A6F1B4A834A70B0_AdjustorThunk },
+	{ 0x060002CF, ConnectionResponse__ctor_m23CE2CB141ECDA6C57870035B019B0745F43AB9A_AdjustorThunk },
+	{ 0x060002D0, ConnectionResponse_get_LocalClientId_mCE3D71D03B189859430A9554AAA444DA334BB7BA_AdjustorThunk },
+	{ 0x060002D1, ConnectionResponse_get_RemoteEndpointId_mB73CBEDE78BD068E2FBAFFA55AAA478F1928C39E_AdjustorThunk },
+	{ 0x060002D2, ConnectionResponse_get_ResponseStatus_m50721201BDD16E18CCBD9A5E05302B0AC98384FD_AdjustorThunk },
+	{ 0x060002D3, ConnectionResponse_get_Payload_m63A2E17969A99A44E880B2580A7CC4CD3E890412_AdjustorThunk },
+	{ 0x060002ED, EndpointDetails__ctor_m42A92D99714095AC5995C882AB7881A396A9FA52_AdjustorThunk },
+	{ 0x060002EE, EndpointDetails_get_EndpointId_m5F4E6619FABAF16FBDE2940483FB1752B319DDCC_AdjustorThunk },
+	{ 0x060002EF, EndpointDetails_get_Name_mED3DF73757840F813083F34F0D2F33D409C5AED8_AdjustorThunk },
+	{ 0x060002F0, EndpointDetails_get_ServiceId_m37A34FB2859BA3561172C799410A0B0A118AD094_AdjustorThunk },
+	{ 0x06000304, NearbyConnectionConfiguration__ctor_mB1427DC130517FC2B16AF9BAAB94185A9916A18E_AdjustorThunk },
+	{ 0x06000305, NearbyConnectionConfiguration_get_LocalClientId_m98FA98E0D7B2410024B8B74DA80D8E5E041DDB28_AdjustorThunk },
+	{ 0x06000306, NearbyConnectionConfiguration_get_InitializationCallback_mE751BCEF68A7D7CEDB42DA5D60EF1C829AB78B40_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[788] = 
+static const int32_t s_InvokerIndices[790] = 
 {
-	10343,
-	10343,
-	10343,
-	9328,
-	2490,
-	1284,
-	403,
-	4483,
-	5612,
-	4483,
-	4483,
-	4483,
-	5491,
-	5491,
-	4483,
-	5407,
-	5465,
-	5465,
-	5431,
-	4421,
-	5407,
-	5407,
-	5422,
-	5491,
-	5491,
-	5491,
-	5491,
-	5465,
-	4483,
-	4483,
-	4483,
-	5407,
-	4392,
-	5491,
-	4483,
-	5465,
-	4457,
-	5507,
-	4499,
-	5465,
-	4457,
-	5491,
-	5597,
-	5491,
-	5491,
-	3197,
-	4584,
-	4483,
-	4483,
-	3785,
-	5465,
-	5407,
-	4483,
-	4483,
-	4483,
-	4483,
-	5491,
-	5407,
-	5407,
-	5491,
-	5491,
-	5407,
-	5465,
-	5491,
-	4483,
-	5612,
-	4457,
-	5612,
-	4457,
-	5612,
-	2288,
-	4483,
-	5612,
-	10343,
-	9582,
-	10367,
-	10367,
-	5491,
-	5491,
-	5491,
-	9589,
-	10367,
+	10426,
+	10426,
+	10426,
+	9405,
 	2494,
-	4483,
-	2494,
-	2494,
-	4483,
-	5407,
-	2039,
-	2494,
-	5491,
-	4483,
-	5491,
-	5491,
-	1284,
-	7914,
-	2494,
-	2494,
-	1294,
-	1294,
-	4483,
-	4483,
-	5491,
-	1265,
-	850,
-	2494,
+	1285,
+	404,
+	4505,
+	5659,
+	4505,
+	4505,
+	4505,
+	5537,
+	5537,
+	4505,
+	5453,
+	5511,
+	5511,
+	5477,
+	4443,
+	5453,
+	5453,
+	5468,
+	5537,
+	5537,
+	5537,
+	5537,
+	5511,
+	4505,
+	4505,
+	4505,
+	5453,
+	4414,
+	5537,
+	4505,
+	5511,
+	4479,
+	5554,
+	4523,
+	5511,
+	4479,
+	5537,
+	5644,
+	5537,
+	5537,
+	3207,
+	4609,
+	4505,
+	4505,
+	3796,
+	5511,
+	5453,
+	4505,
+	4505,
+	4505,
+	4505,
+	5537,
+	5453,
+	5453,
+	5537,
+	5537,
+	5453,
+	5511,
+	5537,
+	4505,
+	5659,
+	4479,
+	5659,
+	4479,
+	5659,
+	2291,
+	4505,
+	5659,
+	10426,
+	9659,
+	10450,
+	10450,
+	5537,
+	5537,
+	5537,
+	9666,
+	10450,
+	2498,
+	4505,
+	2498,
+	2498,
+	4505,
+	5453,
+	2041,
+	2498,
+	5537,
+	4505,
+	5537,
+	5537,
+	1285,
+	7976,
+	2498,
+	2498,
+	1295,
+	1295,
+	4505,
+	4505,
+	5537,
+	1266,
+	851,
+	2498,
 	252,
-	1294,
-	5491,
-	5612,
-	4483,
-	5612,
-	4483,
-	2494,
-	1294,
-	4483,
-	2494,
-	2494,
-	3197,
-	917,
-	2039,
-	4483,
-	5465,
-	1236,
-	2288,
-	1314,
-	5491,
-	3998,
+	1295,
+	5537,
+	5659,
+	4505,
+	5659,
+	4505,
+	2498,
+	1295,
+	4505,
+	2498,
+	2498,
+	3207,
+	918,
+	2041,
+	4505,
+	5511,
+	1237,
+	2291,
+	1315,
+	5537,
+	4010,
 	0,
 	0,
-	5612,
-	4483,
-	5612,
-	4457,
-	5612,
-	4457,
-	5612,
-	4483,
-	5612,
-	4483,
-	5612,
-	4483,
-	5612,
-	4483,
-	5612,
-	4483,
-	5612,
-	4483,
+	5659,
+	4505,
+	5659,
+	4479,
+	5659,
+	4479,
+	5659,
+	4505,
+	5659,
+	4505,
+	5659,
+	4505,
+	5659,
+	4505,
+	5659,
+	4505,
+	5659,
+	4505,
 	0,
 	0,
 	0,
@@ -2471,598 +2477,600 @@ static const int32_t s_InvokerIndices[788] =
 	0,
 	0,
 	226,
-	4483,
-	5491,
-	4483,
-	5466,
-	4458,
-	5422,
-	5491,
-	5491,
-	5465,
-	5491,
-	1314,
-	914,
-	1314,
-	5491,
-	5491,
-	5491,
-	5407,
-	5465,
-	5491,
-	5491,
-	5491,
-	3197,
-	5465,
-	5491,
-	4483,
-	4457,
-	5612,
-	5407,
-	5491,
-	5612,
-	5491,
-	9589,
-	10367,
-	5612,
-	5612,
-	5612,
-	10405,
-	4483,
-	4483,
-	2039,
-	2039,
-	2039,
-	0,
-	9589,
-	0,
-	0,
-	0,
-	5407,
-	4483,
-	829,
-	1236,
-	2288,
-	829,
-	9123,
-	5465,
-	4483,
-	917,
-	2039,
-	5491,
-	5491,
-	5491,
-	5491,
-	4483,
-	2494,
-	4483,
-	2494,
-	2494,
-	1294,
-	1294,
-	4483,
-	5465,
-	1294,
-	252,
-	1294,
-	404,
-	1303,
-	900,
-	5491,
-	5491,
-	5491,
-	5491,
-	5491,
-	5491,
-	5491,
-	10405,
-	5612,
-	4483,
-	4483,
-	5612,
-	4483,
-	10405,
-	5612,
-	4483,
-	5612,
-	4483,
-	4483,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5612,
-	5612,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5612,
-	4457,
-	5612,
-	4483,
-	4483,
-	5612,
-	4392,
-	5612,
-	4483,
-	4483,
-	5612,
-	4392,
-	5612,
-	4483,
-	4483,
-	5612,
-	4483,
-	4483,
-	5612,
-	4483,
-	5612,
-	4483,
-	5612,
-	4483,
-	4483,
-	5612,
-	4483,
-	4483,
-	5612,
-	4392,
-	5612,
-	4483,
-	4483,
-	5612,
-	4392,
-	5612,
-	2288,
-	1252,
-	2507,
-	0,
-	9328,
-	5612,
-	4483,
-	4483,
-	5612,
-	4483,
-	4483,
-	0,
-	0,
-	0,
-	0,
-	10367,
-	10367,
-	9589,
-	10405,
-	9589,
-	7467,
-	6805,
-	8348,
-	8348,
-	6346,
-	5612,
-	5612,
-	4457,
-	4483,
-	5612,
-	4457,
-	4483,
-	5612,
-	4457,
-	4483,
-	5612,
-	4457,
-	4483,
-	5612,
-	4457,
-	4483,
-	5612,
-	4483,
-	4483,
-	9166,
-	9235,
-	9235,
-	9235,
-	9328,
-	9328,
-	9328,
-	9328,
-	9235,
-	9328,
-	5612,
-	5612,
-	5465,
-	5465,
-	2494,
-	2494,
-	2494,
-	465,
-	5491,
-	5612,
-	478,
-	1314,
-	1271,
-	5491,
-	4483,
-	4483,
-	4483,
-	5612,
-	5491,
-	5491,
-	10367,
-	0,
-	0,
-	10405,
-	1314,
-	2494,
-	2494,
-	4483,
-	4483,
-	2494,
-	1314,
-	2494,
-	2494,
-	4483,
-	4483,
-	2494,
-	4483,
-	1708,
-	4483,
-	1308,
-	4483,
-	5612,
-	5612,
-	5612,
-	5612,
-	4483,
-	4425,
-	4483,
-	5612,
-	5612,
-	5612,
-	5612,
-	5612,
-	4483,
-	5612,
-	4483,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	4483,
-	891,
-	456,
-	249,
-	2494,
-	487,
-	925,
-	2288,
-	4483,
-	3998,
-	9123,
-	9336,
-	0,
-	10405,
-	170,
-	1322,
-	4483,
-	4483,
-	4483,
-	4483,
-	4483,
-	5612,
-	478,
-	5612,
-	4483,
-	5612,
-	4483,
-	5612,
-	4483,
-	4483,
-	5612,
-	4483,
-	4483,
-	5612,
-	478,
-	5612,
-	5612,
-	0,
-	0,
-	0,
-	0,
-	4483,
-	2494,
-	5491,
-	5491,
-	5491,
-	5407,
-	5491,
-	5491,
-	5491,
-	5585,
-	5422,
-	5612,
-	0,
-	0,
-	8348,
-	0,
-	0,
-	0,
-	0,
-	0,
-	4483,
-	4483,
-	10343,
-	9582,
-	10343,
-	9582,
-	9589,
-	9589,
-	9589,
-	9328,
-	7171,
-	5612,
-	10405,
-	5612,
-	5612,
-	5612,
-	5612,
-	5612,
-	5612,
-	10405,
-	5612,
-	5612,
-	7769,
-	7165,
-	0,
-	0,
-	9589,
-	9179,
-	9580,
-	9580,
-	5612,
-	5612,
-	5612,
-	5612,
-	10343,
-	10405,
-	5612,
-	5612,
-	9589,
-	9589,
-	5612,
-	4392,
-	4392,
-	9589,
-	9123,
-	9589,
-	9123,
-	5612,
-	10405,
-	5612,
-	5612,
-	5491,
-	5612,
-	5407,
-	4392,
-	5465,
-	4457,
-	5465,
-	4457,
-	5407,
-	4392,
-	5407,
-	4392,
-	5491,
-	4483,
-	5491,
-	4483,
-	5491,
-	4483,
-	5422,
-	4413,
-	5598,
-	4584,
-	5491,
-	4483,
-	5491,
-	4483,
-	10405,
-	9120,
-	5612,
-	4483,
-	4483,
-	5407,
-	2039,
-	5491,
-	4483,
-	5491,
-	5491,
-	2494,
-	4483,
-	2494,
-	2494,
-	1294,
-	1294,
-	4483,
-	4483,
-	5465,
-	1236,
-	2288,
-	917,
-	2039,
-	1294,
-	5465,
-	252,
-	1294,
-	1303,
-	900,
-	5491,
-	5491,
-	4483,
-	5491,
-	10405,
-	5612,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	4483,
-	2487,
-	5407,
-	5465,
-	4457,
-	5598,
-	4584,
-	5491,
-	4483,
-	5491,
-	4483,
-	5491,
-	4483,
-	5491,
-	3785,
-	5491,
-	4483,
-	5491,
-	4483,
-	5491,
-	1314,
-	914,
-	31,
-	5612,
-	5407,
-	5465,
-	5547,
-	5465,
-	5465,
-	5547,
-	5547,
-	5547,
-	5547,
-	5547,
-	5547,
-	5407,
-	5407,
-	5407,
-	5407,
-	5407,
-	5407,
-	5407,
-	5407,
-	5407,
-	10405,
-	468,
-	5465,
-	5465,
-	5465,
-	5491,
-	5491,
-	2490,
-	478,
-	137,
-	4483,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	4727,
-	5407,
-	5491,
-	5407,
-	5491,
-	5407,
-	5333,
-	4859,
-	4859,
-	4860,
+	4505,
 	5537,
-	2288,
-	5407,
-	5465,
-	5491,
-	917,
-	5435,
-	5491,
-	849,
-	5466,
-	5491,
-	5465,
-	5491,
-	7853,
-	7853,
-	7853,
-	7853,
-	7022,
-	7853,
-	10405,
-	5465,
-	5465,
+	4505,
+	5512,
+	4480,
+	5468,
+	5537,
+	5537,
+	5511,
+	5537,
+	1315,
+	915,
+	1315,
+	5537,
+	5537,
+	5537,
+	5453,
+	5511,
+	5537,
+	5537,
+	5537,
+	3207,
+	5511,
+	5537,
+	4505,
+	4479,
+	5659,
+	5453,
+	5537,
+	5659,
+	5537,
+	9666,
+	10450,
+	5659,
+	5659,
+	5659,
+	10488,
+	4505,
+	4505,
+	2041,
+	2041,
+	2041,
+	0,
+	9666,
+	0,
+	0,
+	0,
+	5453,
+	4505,
+	830,
+	1237,
+	2291,
+	830,
+	9199,
+	5511,
+	4505,
+	918,
+	2041,
+	5537,
+	5537,
+	5537,
+	5537,
+	4505,
+	2498,
+	4505,
+	2498,
+	2498,
+	1295,
+	1295,
+	4505,
+	5511,
+	1295,
+	252,
+	1295,
+	405,
+	1304,
+	901,
+	5537,
+	5537,
+	5537,
+	5537,
+	5537,
+	5537,
+	5537,
+	10488,
+	5659,
+	4505,
+	4505,
+	5659,
+	5659,
+	4505,
+	10488,
+	5659,
+	4505,
+	5659,
+	4505,
+	4505,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5659,
+	5659,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5659,
+	4479,
+	5659,
+	4505,
+	4505,
+	5659,
+	4414,
+	5659,
+	4505,
+	4505,
+	5659,
+	4414,
+	5659,
+	4505,
+	4505,
+	5659,
+	4505,
+	4505,
+	5659,
+	5659,
+	4505,
+	5659,
+	4505,
+	5659,
+	4505,
+	4505,
+	5659,
+	4505,
+	4505,
+	5659,
+	4414,
+	5659,
+	4505,
+	4505,
+	5659,
+	4414,
+	5659,
+	2291,
+	1253,
+	2511,
+	0,
+	9405,
+	5659,
+	4505,
+	4505,
+	5659,
+	4505,
+	4505,
+	0,
+	0,
+	0,
+	0,
+	10450,
+	10450,
+	9666,
+	10488,
+	9666,
+	7519,
+	6856,
+	8411,
+	8411,
+	6394,
+	5659,
+	5659,
+	4479,
+	4505,
+	5659,
+	4479,
+	4505,
+	5659,
+	4479,
+	4505,
+	5659,
+	4479,
+	4505,
+	5659,
+	4479,
+	4505,
+	5659,
+	4505,
+	4505,
+	9242,
+	9311,
+	9311,
+	9311,
+	9405,
+	9405,
+	9405,
+	9405,
+	9311,
+	9405,
+	5659,
+	5659,
+	5511,
+	5511,
+	2498,
+	2498,
+	2498,
+	466,
+	5537,
+	5659,
+	479,
+	1315,
+	1272,
+	5537,
+	4505,
+	4505,
+	4505,
+	5659,
+	5537,
+	5537,
+	10450,
+	0,
+	0,
+	10488,
+	1315,
+	2498,
+	2498,
+	4505,
+	4505,
+	2498,
+	1315,
+	2498,
+	2498,
+	4505,
+	4505,
+	2498,
+	4505,
+	1709,
+	4505,
+	1309,
+	4505,
+	5659,
+	5659,
+	5659,
+	5659,
+	4505,
+	4447,
+	4505,
+	5659,
+	5659,
+	5659,
+	5659,
+	5659,
+	4505,
+	5659,
+	4505,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	4505,
+	892,
+	457,
+	249,
+	2498,
+	488,
+	926,
+	2291,
+	4505,
+	4010,
+	9199,
+	9413,
+	0,
+	10488,
+	170,
+	1323,
+	4505,
+	4505,
+	4505,
+	4505,
+	4505,
+	5659,
+	479,
+	5659,
+	4505,
+	5659,
+	4505,
+	5659,
+	4505,
+	4505,
+	5659,
+	4505,
+	4505,
+	5659,
+	479,
+	5659,
+	5659,
+	0,
+	0,
+	0,
+	0,
+	4505,
+	2498,
+	5537,
+	5537,
+	5537,
+	5453,
+	5537,
+	5537,
+	5537,
+	5632,
+	5468,
+	5659,
+	0,
+	0,
+	8411,
+	0,
+	0,
+	0,
+	0,
+	0,
+	4505,
+	4505,
+	10426,
+	9659,
+	10426,
+	9659,
+	9666,
+	9666,
+	9666,
+	9405,
+	7222,
+	5659,
+	10488,
+	5659,
+	5659,
+	5659,
+	5659,
+	5659,
+	5659,
+	10488,
+	5659,
+	5659,
+	7831,
+	7216,
+	0,
+	0,
+	9666,
+	9255,
+	9657,
+	9657,
+	5659,
+	5659,
+	5659,
+	5659,
+	10426,
+	10488,
+	5659,
+	5659,
+	9666,
+	9666,
+	5659,
+	4414,
+	4414,
+	9666,
+	9199,
+	9666,
+	9199,
+	5659,
+	10488,
+	5659,
+	5659,
+	5537,
+	5659,
+	5453,
+	4414,
+	5511,
+	4479,
+	5511,
+	4479,
+	5453,
+	4414,
+	5453,
+	4414,
+	5537,
+	4505,
+	5537,
+	4505,
+	5537,
+	4505,
+	5468,
+	4435,
+	5645,
+	4609,
+	5537,
+	4505,
+	5537,
+	4505,
+	10488,
+	9196,
+	5659,
+	4505,
+	4505,
+	5453,
+	2041,
+	5537,
+	4505,
+	5537,
+	5537,
+	2498,
+	4505,
+	2498,
+	2498,
+	1295,
+	1295,
+	4505,
+	4505,
+	5511,
+	1237,
+	2291,
+	918,
+	2041,
+	1295,
+	5511,
+	252,
+	1295,
+	1304,
+	901,
+	5537,
+	5537,
+	4505,
+	5537,
+	10488,
+	5659,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	4505,
+	2491,
+	5453,
+	5511,
+	4479,
+	5645,
+	4609,
+	5537,
+	4505,
+	5537,
+	4505,
+	5537,
+	4505,
+	5537,
+	3796,
+	5537,
+	4505,
+	5537,
+	4505,
+	5537,
+	1315,
+	915,
+	31,
+	5659,
+	5453,
+	5511,
+	5594,
+	5511,
+	5511,
+	5594,
+	5594,
+	5594,
+	5594,
+	5594,
+	5594,
+	5453,
+	5453,
+	5453,
+	5453,
+	5453,
+	5453,
+	5453,
+	5453,
+	5453,
+	10488,
+	469,
+	5511,
+	5511,
+	5511,
+	5537,
+	5537,
 	2494,
-	2494,
-	465,
-	5612,
-	478,
-	1314,
-	1271,
-	4483,
-	4483,
-	4483,
-	5612,
-	5491,
-	5491,
-	5491,
-	5491,
-	5612,
-	1314,
-	5491,
-	5491,
-	5491,
+	479,
+	137,
+	4505,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	4753,
+	5453,
+	5537,
+	5453,
+	5537,
+	5453,
+	5379,
+	4886,
+	4886,
+	4887,
+	5584,
+	2291,
+	5453,
+	5511,
+	5537,
+	918,
+	5481,
+	5537,
+	850,
+	5512,
+	5537,
+	5511,
+	5537,
+	7915,
+	7915,
+	7915,
+	7915,
+	7073,
+	7915,
+	10488,
+	5511,
+	5511,
+	2498,
+	2498,
+	466,
+	5659,
+	479,
+	1315,
+	1272,
+	4505,
+	4505,
+	4505,
+	5659,
+	5537,
+	5537,
+	5537,
+	5537,
+	5659,
+	1315,
+	5537,
+	5537,
+	5537,
 	0,
 	0,
 	0,
@@ -3082,16 +3090,16 @@ static const int32_t s_InvokerIndices[788] =
 	0,
 	0,
 	0,
-	2488,
-	5466,
-	5491,
+	2492,
+	5512,
+	5537,
 	268,
-	5491,
-	5491,
-	5491,
-	5491,
-	5598,
-	5465,
+	5537,
+	5537,
+	5537,
+	5537,
+	5645,
+	5511,
 	0,
 	0,
 	0,
@@ -3108,37 +3116,37 @@ static const Il2CppTokenRangePair s_rgctxIndices[35] =
 	{ 0x02000015, { 12, 3 } },
 	{ 0x02000016, { 15, 2 } },
 	{ 0x02000017, { 17, 3 } },
-	{ 0x02000024, { 38, 1 } },
-	{ 0x02000025, { 39, 3 } },
-	{ 0x02000027, { 42, 2 } },
-	{ 0x02000028, { 44, 3 } },
-	{ 0x02000029, { 47, 2 } },
-	{ 0x0200002A, { 49, 2 } },
-	{ 0x0200003C, { 56, 3 } },
-	{ 0x0200003D, { 59, 2 } },
-	{ 0x02000053, { 71, 3 } },
-	{ 0x02000054, { 74, 2 } },
-	{ 0x02000055, { 76, 3 } },
-	{ 0x02000056, { 79, 2 } },
-	{ 0x0200005F, { 86, 3 } },
-	{ 0x02000060, { 89, 2 } },
-	{ 0x02000063, { 97, 3 } },
-	{ 0x02000064, { 100, 3 } },
+	{ 0x02000025, { 38, 1 } },
+	{ 0x02000026, { 39, 3 } },
+	{ 0x02000028, { 42, 2 } },
+	{ 0x02000029, { 44, 3 } },
+	{ 0x0200002A, { 47, 2 } },
+	{ 0x0200002B, { 49, 2 } },
+	{ 0x0200003E, { 56, 3 } },
+	{ 0x0200003F, { 59, 2 } },
+	{ 0x02000055, { 71, 3 } },
+	{ 0x02000056, { 74, 2 } },
+	{ 0x02000057, { 76, 3 } },
+	{ 0x02000058, { 79, 2 } },
+	{ 0x02000061, { 86, 3 } },
+	{ 0x02000062, { 89, 2 } },
+	{ 0x02000065, { 97, 3 } },
+	{ 0x02000066, { 100, 3 } },
 	{ 0x06000081, { 0, 3 } },
 	{ 0x06000082, { 3, 7 } },
 	{ 0x060000C9, { 20, 7 } },
 	{ 0x060000CB, { 27, 3 } },
 	{ 0x060000CC, { 30, 5 } },
 	{ 0x060000CD, { 35, 3 } },
-	{ 0x06000135, { 51, 5 } },
-	{ 0x0600017D, { 61, 5 } },
-	{ 0x0600017E, { 66, 5 } },
-	{ 0x060001B4, { 81, 5 } },
-	{ 0x060001DD, { 91, 2 } },
-	{ 0x060001DE, { 93, 2 } },
-	{ 0x060001E0, { 95, 2 } },
-	{ 0x060001FD, { 103, 1 } },
-	{ 0x060001FE, { 104, 1 } },
+	{ 0x06000137, { 51, 5 } },
+	{ 0x0600017F, { 61, 5 } },
+	{ 0x06000180, { 66, 5 } },
+	{ 0x060001B6, { 81, 5 } },
+	{ 0x060001DF, { 91, 2 } },
+	{ 0x060001E0, { 93, 2 } },
+	{ 0x060001E2, { 95, 2 } },
+	{ 0x060001FF, { 103, 1 } },
+	{ 0x06000200, { 104, 1 } },
 };
 extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass70_0_1_t402866A606A776C16BEA87FC6B0479CE4A0644DB;
 extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass70_0_1__ctor_m39C1DA28840821EEC4E56877D7DD98208666BBB9;
@@ -3357,7 +3365,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Google_Play_Games_CodeGenModule;
 const Il2CppCodeGenModule g_Google_Play_Games_CodeGenModule = 
 {
 	"Google.Play.Games.dll",
-	788,
+	790,
 	s_methodPointers,
 	30,
 	s_adjustorThunks,

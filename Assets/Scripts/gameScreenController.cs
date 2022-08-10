@@ -16,11 +16,19 @@ public class gameScreenController : AdModule
     public void OnEnable()
     {
         BaseGameGridManager.onGameOver += ShowLoseScreen;
+        BaseGameGridManager.onUpdateScore += UpdateScore;
+        UpdateScore(0);
     }
 
     public void OnDisable()
     {
         BaseGameGridManager.onGameOver -= ShowLoseScreen;
+        BaseGameGridManager.onUpdateScore -= UpdateScore;
+    }
+
+    public void UpdateScore(int score)
+    {
+        textCounter.text = score.ToString();
     }
 
     public void ShowMenu()

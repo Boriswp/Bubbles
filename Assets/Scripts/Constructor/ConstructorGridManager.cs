@@ -2,11 +2,16 @@ using System.Collections.Generic;
 using System.IO;
 using SimpleFileBrowser;
 using UnityEngine;
+using TMPro;
 
 public class ConstructorGridManager : BaseGridManager
 {
     const int COL_MAX = 8;
     const int ROW_MAX = 20;
+
+    public TMP_InputField ballCountText;
+
+
 
     private void Awake()
     {
@@ -45,31 +50,52 @@ public class ConstructorGridManager : BaseGridManager
         {
             for (var c = 0; c < COL_MAX; c++)
             {
-                if(grid[c,r] ==null) continue;
-                Destroy(grid[c,r]);
+                if (grid[c, r] == null) continue;
+                Destroy(grid[c, r]);
                 grid[c, r] = null;
             }
         }
     }
 
-    public void Generate(List<int> kinds,int rowFrom, int rowTo,int columnFrom,int columnTo)
+    public void Generate(List<int> kinds, int rowFrom, int rowTo, int columnFrom, int columnTo)
     {
         for (var r = rowFrom; r < rowTo; r++)
         {
             for (var c = columnFrom; c < columnTo; c++)
             {
-                Creator(c, r,kinds);
+                Creator(c, r, kinds);
             }
         }
     }
 
-    public void Creator(int column,int row,List<int> kinds)
+    public void Creator(int column, int row, List<int> kinds)
     {
         var position = new Vector3(column * gap, -row * gap, 0f) + initialPos.transform.position;
         var index = Random.Range(0, kinds.Count);
         var newKind = kinds[index];
 
-        Create(position, newKind,false);
+        Create(position, newKind, false);
+    }
+
+    public void Creator(int column, int row, int kind)
+    {
+        var position = new Vector3(column * gap, row * gap, 0f) + initialPos.transform.position;
+        Create(position, kind, false);
+    }
+
+    public void LoadFromJson()
+    {
+        FileBrowser.ShowLoadDialog((path) =>
+        {
+            string fileContents = File.ReadAllText(path[0]);
+            var gameData = JsonUtility.FromJson<SaveData>(fileContents);
+            ballCountText.text = gameData.playerBallCount.ToString();
+            foreach (var data in gameData.bubbles)
+            {
+                Creator(data.column, data.row, data.kind);
+            }
+        }, null, FileBrowser.PickMode.Files
+        );
     }
 
     public void SaveToJson()
@@ -79,7 +105,7 @@ public class ConstructorGridManager : BaseGridManager
         {
             for (var c = 0; c < COL_MAX; c++)
             {
-                if(grid[c,r]==null) continue;
+                if (grid[c, r] == null) continue;
                 var gridMember = grid[c, r].GetComponent<GridMember>();
                 var bubbleToSave = new BubbleSerialized()
                 {
@@ -90,14 +116,15 @@ public class ConstructorGridManager : BaseGridManager
                 bubbles.Add(bubbleToSave);
             }
         }
-       
+        int.TryParse(ballCountText.text, out var count);
         var saveData = new SaveData
         {
+            playerBallCount = count,
             columnCount = COL_MAX,
             rowCount = ROW_MAX,
             bubbles = bubbles
         };
-        
+
         var jsonString = JsonUtility.ToJson(saveData);
         FileBrowser.ShowSaveDialog((path) =>
         {
@@ -105,7 +132,7 @@ public class ConstructorGridManager : BaseGridManager
             {
                 File.WriteAllText(path[0], jsonString);
             };
-        }, null, FileBrowser.PickMode.Files, initialFilename: "level.json"); 
+        }, null, FileBrowser.PickMode.Files, initialFilename: "level.json");
     }
-    
+
 }
