@@ -11,6 +11,7 @@ public class MissionGridManager : BaseGameGridManager
 
     private void Awake()
     {
+        LoadRes();
         ROW_MAX = rows * 4;
         grid = new GameObject[columns, ROW_MAX];
 
@@ -34,7 +35,7 @@ public class MissionGridManager : BaseGameGridManager
         {
             onGameOver.Invoke();
         }
-        System.Tuple<int, List<int>> tuple = Helpers.GetLastRowAndColors(grid, ROW_MAX, columns);
+        var tuple = Helpers.GetLastRowAndColors(grid, ROW_MAX, columns);
         onUpdateTarget?.Invoke(new Vector2(0, -tuple.Item1 * gap));
         return tuple.Item2;
     }

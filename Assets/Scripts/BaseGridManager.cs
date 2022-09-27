@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class BaseGridManager : MonoBehaviour
@@ -6,12 +7,17 @@ public class BaseGridManager : MonoBehaviour
     public GameObject bubble;
     protected GameObject[,] grid;
     public GameObject initialPos;
-    public static readonly Color[] ColorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta };
+    public static readonly Color[] ColorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta,Color.blue, new(0.5f, 0, 1,1) };
+    public static Sprite[] SpriteArray;
     protected readonly int[] deltax = { -1, 0, -1, 0, -1, 1 };
     protected readonly int[] deltaxprime = { 1, 0, 1, 0, -1, 1 };
     protected readonly int[] deltay = { -1, -1, 1, 1, 0, 0 };
-    
-    
+
+    public void LoadRes()
+    {
+        SpriteArray = Resources.LoadAll<Sprite>("bubbles");
+    }
+
     public void Create(Vector2 position, int kind,bool isGame)
     {
         var snappedPosition = Snap(position);
@@ -46,12 +52,12 @@ public class BaseGridManager : MonoBehaviour
                 gridMember.kind = kind;
 
                 var spriteRenderer = bubbleClone.GetComponent<SpriteRenderer>();
-			
-                spriteRenderer.color = ColorArray[gridMember.kind];
+                
+                spriteRenderer.sprite = SpriteArray[gridMember.kind];
 
                 grid[column, -row] = bubbleClone;
             }
-            catch (System.IndexOutOfRangeException)
+            catch (IndexOutOfRangeException)
             {
                 Debug.Log($"wrong coord {position}");
             }

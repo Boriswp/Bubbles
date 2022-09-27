@@ -30,7 +30,7 @@ public class BaseGameGridManager : BaseGridManager
     protected void Creator(int column, int row)
     {
         var position = new Vector3(column * gap, -row * gap, 0f) + initialPos.transform.position;
-        var newKind = Random.Range(0, 5);
+        var newKind = Random.Range(0, 7);
 
         Create(position, newKind, true);
     }

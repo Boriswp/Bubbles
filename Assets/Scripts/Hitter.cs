@@ -9,7 +9,7 @@ public class Hitter : MonoBehaviour
 	private void Start()
 	{
 		var spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.color = BaseGridManager.ColorArray[kind];
+        spriteRenderer.sprite = BaseGridManager.SpriteArray[kind];
 	}
 	
 

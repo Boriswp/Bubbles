@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Random = UnityEngine.Random;
 
 public class Launcher : MonoBehaviour
 {
@@ -19,12 +21,16 @@ public class Launcher : MonoBehaviour
 
     private void Awake()
     {
-        nextKindColor = Random.Range(0, 5);
+        nextKindColor = Random.Range(0, 7);
         gameGridManager = GetComponent<BaseGameGridManager>();
-        Load();
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.startWidth = 0.75f;
         lineRenderer.endWidth = 0.75f;
+    }
+
+    public void Start()
+    {
+        Load();
     }
 
     public void OnEnable()
@@ -65,9 +71,9 @@ public class Launcher : MonoBehaviour
         }
         else
         {
-            nextKindColor = Random.Range(0, 5);
+            nextKindColor = Random.Range(0, 7);
         }
-        nextColorBall.GetComponent<SpriteRenderer>().color = BaseGridManager.ColorArray[nextKindColor];
+        nextColorBall.GetComponent<SpriteRenderer>().sprite = BaseGridManager.SpriteArray[nextKindColor];
         load = Instantiate(ball, transform.parent.position, Quaternion.identity, transform.parent.parent);
         load.SetActive(true);
         var circleCollider2D = load.GetComponent<CircleCollider2D>();
