@@ -66,7 +66,7 @@ public class BaseGridManager : MonoBehaviour
             0f
         );
         if ((int)objectSnap.y % 2 == 0) return initialPos.transform.position + objectSnap * gap;
-        if (objectOffset.x > objectSnap.x * gap)
+        if (objectOffset.x > objectSnap.x * 0.5f)
         {
             objectSnap.x += gap;
         }

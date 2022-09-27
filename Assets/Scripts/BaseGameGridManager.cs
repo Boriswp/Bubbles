@@ -8,26 +8,26 @@ public class BaseGameGridManager : BaseGridManager
     protected int _counter;
     public int columns;
     public int rows;
-	public int loseCountRow = 13;
-	protected int ROW_MAX;
-	public bool ready;
+    public int loseCountRow = 13;
+    protected int ROW_MAX;
+    public bool ready;
 
-	public delegate void OnGameOver();
-	public static OnGameOver onGameOver;
+    public delegate void OnGameOver();
+    public static OnGameOver onGameOver;
 
-	public delegate void OnGameWin();
-	public static OnGameWin onGameWin;
+    public delegate void OnGameWin();
+    public static OnGameWin onGameWin;
 
-	public delegate void OnUpdateTarget(Vector2 target);
-	public static OnUpdateTarget onUpdateTarget;
+    public delegate void OnUpdateTarget(Vector2 target);
+    public static OnUpdateTarget onUpdateTarget;
 
-	public delegate void OnUpdateScore(int score);
-	public static OnUpdateScore onUpdateScore;
+    public delegate void OnUpdateScore(int score);
+    public static OnUpdateScore onUpdateScore;
 
-	public delegate void OnReadyToLoad();
-	public static OnReadyToLoad onReadyToLoad;
+    public delegate void OnReadyToLoad();
+    public static OnReadyToLoad onReadyToLoad;
 
-	protected void Creator(int column, int row)
+    protected void Creator(int column, int row)
     {
         var position = new Vector3(column * gap, -row * gap, 0f) + initialPos.transform.position;
         var newKind = Random.Range(0, 5);
@@ -35,171 +35,171 @@ public class BaseGameGridManager : BaseGridManager
         Create(position, newKind, true);
     }
 
-	public virtual List<int> UpdateLvlInfo() { return new List<int>(); }
+    public virtual List<int> UpdateLvlInfo() { return new List<int>(); }
 
-	public void CreateSimple(GameObject gameObject, int kind)
-	{
-		ready = false;
-		var position = gameObject.transform.position;
-		while (true)
-		{
-			var snappedPosition = Snap(position);
-			var position1 = initialPos.transform.position;
-			var floatRow = (snappedPosition.y - position1.y) / gap;
-			var row = (int)Mathf.Round(floatRow);
-			float floatColumn;
-			if (row % 2 != 0)
-			{
-				floatColumn = (snappedPosition.x - position1.x) / gap + gap;
-			}
-			else
-			{
-				floatColumn = (snappedPosition.x - position1.x) / gap;
-			}
-			var column = (int)Mathf.Round(floatColumn);
-
-
-			if (column >= columns)
-			{
-				position = new Vector2(position.x - gap, position.y);
-			}
-			else if (column < 0)
-			{
-				position = new Vector2(position.x + gap, position.y);
-			}
-
-			if (grid[column, -row] != null)
-			{
-				if (grid[column, -(row - 1)] != null)
-				{
-					position = grid[column, -row].transform.position.x > position.x ? new Vector2(position.x - gap / 2, position.y) : new Vector2(position.x + gap / 2, position.y);
-				}
-				else
-				{
-					position = new Vector2(position.x, position.y - gap / 2);
-				}
-				continue;
-			}
-			gameObject.transform.position = snappedPosition;
-			var circleCollider2D = gameObject.GetComponent<CircleCollider2D>();
-			circleCollider2D.isTrigger = true;
-
-			var rb = gameObject.GetComponent<Rigidbody2D>();
-			rb.velocity = Vector2.zero;
-
-			var gridMember = gameObject.GetComponent<GridMember>();
-			gridMember.enabled = true;
-			gridMember.parent = this.gameObject;
-
-			gridMember.row = row;
-			gridMember.column = column;
-			gridMember.kind = kind;
-
-			if (row == -loseCountRow)
-				onGameOver?.Invoke(); 
-
-			grid[column, -row] = gameObject;
-			Seek(column,-row, kind);
-			onReadyToLoad?.Invoke();
-			ready = true;
-			return;
-		}
-	}
-
-	private Queue<GameObject> NeighborCounter(Queue<int[]> queue, bool[,] visited, int kind)
-	{
-		var objectQueue = new Queue<GameObject>();
-		while (queue.Count != 0)
-		{
-			var top = queue.Dequeue();
-			var gTop = grid[top[0], top[1]];
-			if (gTop != null)
-			{
-				objectQueue.Enqueue(gTop);
-			}
-			for (var i = 0; i < 6; i++)
-			{
-				var neighbor = new int[2];
-				neighbor[0] = top[1] % 2 != 0 ? top[0] + deltax[i] : top[0] + deltaxprime[i];
-				neighbor[1] = top[1] + deltay[i];
-				if (neighbor[0] >= columns || neighbor[1] >= ROW_MAX || neighbor[0] < 0 || neighbor[1] < 0)
-				{
-					continue;
-				}
-				var g = grid[neighbor[0], neighbor[1]];
-				if (g == null) continue;
-				var gridMember = g.GetComponent<GridMember>();
-				if (gridMember.kind != kind && kind != -1) continue;
-				if (visited[neighbor[0], neighbor[1]]) continue;
-				visited[neighbor[0], neighbor[1]] = true;
-				queue.Enqueue(neighbor);
-			}
-		}
-		return objectQueue;
-	}
-
-	protected void Seek(int column, int row, int kind)
-	{
-		int[] pair = { column, row };
-
-		var visited = new bool[columns, ROW_MAX];
-		visited[column, row] = true;
-		var queue = new Queue<int[]>();
-		queue.Enqueue(pair);
-		var objectQueue = NeighborCounter(queue, visited, kind);
-		if (objectQueue.Count >= 3)
-		{
-			while (objectQueue.Count != 0)
-			{
-				var g = objectQueue.Dequeue();
-
-				if (!g.TryGetComponent<GridMember>(out var gm)) continue;
-				grid[gm.column, -gm.row] = null;
-				_counter += 10;
-				gm.enabled = true;
-				gm.state = BubbleState.Pop;
-			}
-			onUpdateScore?.Invoke(_counter);
-			var audioSource = GetComponent<AudioSource>();
-			audioSource.Play();
-		}
-		CheckCeiling(0);
-	}
+    public void CreateSimple(GameObject gameObject, int kind)
+    {
+        ready = false;
+        var position = gameObject.transform.position;
+        while (true)
+        {
+            var snappedPosition = Snap(position);
+            var position1 = initialPos.transform.position;
+            var floatRow = (snappedPosition.y - position1.y) / gap;
+            var row = (int)Mathf.Round(floatRow);
+            float floatColumn;
+            if (row % 2 != 0)
+            {
+                floatColumn = (snappedPosition.x - position1.x) / gap + gap;
+            }
+            else
+            {
+                floatColumn = (snappedPosition.x - position1.x) / gap;
+            }
+            var column = (int)Mathf.Round(floatColumn);
 
 
-	protected void CheckCeiling(int ceiling)
-	{
-		var visited = new bool[columns, ROW_MAX];
+            if (column >= columns)
+            {
+                position = new Vector2(position.x - gap, position.y);
+            }
+            else if (column < 0)
+            {
+                position = new Vector2(position.x + gap, position.y);
+            }
 
-		var queue = new Queue<int[]>();
+            if (grid[column, -row] != null)
+            {
+                if (grid[column, -(row - 1)] != null)
+                {
+                    position = grid[column, -row].transform.position.x > position.x ? new Vector2(position.x - gap / 2, position.y) : new Vector2(position.x + gap / 2, position.y);
+                }
+                else
+                {
+                    position = new Vector2(position.x, position.y - gap / 2);
+                }
+                continue;
+            }
+            gameObject.transform.position = snappedPosition;
+            var circleCollider2D = gameObject.GetComponent<CircleCollider2D>();
+            circleCollider2D.isTrigger = true;
 
-		for (var i = 0; i < columns; i++)
-		{
-			var pair = new[] { i, ceiling };
-			if (grid[i, ceiling] == null) continue;
-			visited[i, ceiling] = true;
-			queue.Enqueue(pair);
-		}
+            var rb = gameObject.GetComponent<Rigidbody2D>();
+            rb.velocity = Vector2.zero;
 
-		var objectQueue = NeighborCounter(queue, visited, -1);
+            var gridMember = gameObject.GetComponent<GridMember>();
+            gridMember.enabled = true;
+            gridMember.parent = this.gameObject;
 
-		if (objectQueue.Count == 0)
-		{
-			onGameWin?.Invoke();
-		}
+            gridMember.row = row;
+            gridMember.column = column;
+            gridMember.kind = kind;
 
-		for (var r = 0; r < ROW_MAX; r++)
-		{
-			for (var c = 0; c < columns; c++)
-			{
-				if (grid[c, r] == null || visited[c, r]) continue;
-				if (!grid[c, r].TryGetComponent<GridMember>(out var gm)) continue;
-				grid[gm.column, -gm.row] = null;
-				_counter += 10;
-				gm.enabled = true;
-				gm.state = BubbleState.Explode;
-			}
-		}
-		onUpdateScore?.Invoke(_counter);
-	}
+            if (row == -loseCountRow)
+                onGameOver?.Invoke();
+
+            grid[column, -row] = gameObject;
+            Seek(column, -row, kind);
+            onReadyToLoad?.Invoke();
+            ready = true;
+            return;
+        }
+    }
+
+    private Queue<GameObject> NeighborCounter(Queue<int[]> queue, bool[,] visited, int kind)
+    {
+        var objectQueue = new Queue<GameObject>();
+        while (queue.Count != 0)
+        {
+            var top = queue.Dequeue();
+            var gTop = grid[top[0], top[1]];
+            if (gTop != null)
+            {
+                objectQueue.Enqueue(gTop);
+            }
+            for (var i = 0; i < 6; i++)
+            {
+                var neighbor = new int[2];
+                neighbor[0] = top[1] % 2 != 0 ? top[0] + deltax[i] : top[0] + deltaxprime[i];
+                neighbor[1] = top[1] + deltay[i];
+                if (neighbor[0] >= columns || neighbor[1] >= ROW_MAX || neighbor[0] < 0 || neighbor[1] < 0)
+                {
+                    continue;
+                }
+                var g = grid[neighbor[0], neighbor[1]];
+                if (g == null) continue;
+                var gridMember = g.GetComponent<GridMember>();
+                if (gridMember.kind != kind && kind != -1) continue;
+                if (visited[neighbor[0], neighbor[1]]) continue;
+                visited[neighbor[0], neighbor[1]] = true;
+                queue.Enqueue(neighbor);
+            }
+        }
+        return objectQueue;
+    }
+
+    protected void Seek(int column, int row, int kind)
+    {
+        int[] pair = { column, row };
+
+        var visited = new bool[columns, ROW_MAX];
+        visited[column, row] = true;
+        var queue = new Queue<int[]>();
+        queue.Enqueue(pair);
+        var objectQueue = NeighborCounter(queue, visited, kind);
+        if (objectQueue.Count >= 3)
+        {
+            while (objectQueue.Count != 0)
+            {
+                var g = objectQueue.Dequeue();
+
+                if (!g.TryGetComponent<GridMember>(out var gm)) continue;
+                grid[gm.column, -gm.row] = null;
+                _counter += 10;
+                gm.enabled = true;
+                gm.state = BubbleState.Pop;
+            }
+            onUpdateScore?.Invoke(_counter);
+            var audioSource = GetComponent<AudioSource>();
+            audioSource.Play();
+        }
+        CheckCeiling(0);
+    }
+
+
+    protected void CheckCeiling(int ceiling)
+    {
+        var visited = new bool[columns, ROW_MAX];
+
+        var queue = new Queue<int[]>();
+
+        for (var i = 0; i < columns; i++)
+        {
+            var pair = new[] { i, ceiling };
+            if (grid[i, ceiling] == null) continue;
+            visited[i, ceiling] = true;
+            queue.Enqueue(pair);
+        }
+
+        var objectQueue = NeighborCounter(queue, visited, -1);
+
+        if (objectQueue.Count == 0)
+        {
+            onGameWin?.Invoke();
+        }
+
+        for (var r = 0; r < ROW_MAX; r++)
+        {
+            for (var c = 0; c < columns; c++)
+            {
+                if (grid[c, r] == null || visited[c, r]) continue;
+                if (!grid[c, r].TryGetComponent<GridMember>(out var gm)) continue;
+                grid[gm.column, -gm.row] = null;
+                _counter += 10;
+                gm.enabled = true;
+                gm.state = BubbleState.Explode;
+            }
+        }
+        onUpdateScore?.Invoke(_counter);
+    }
 }

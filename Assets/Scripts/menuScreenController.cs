@@ -11,6 +11,7 @@ public class menuScreenController : AdModule
 
     private void Awake()
     {
+        Application.targetFrameRate = 60;
 #if UNITY_WEBGL
      exit.SetActive(false);
      settings.SetActive(false);
