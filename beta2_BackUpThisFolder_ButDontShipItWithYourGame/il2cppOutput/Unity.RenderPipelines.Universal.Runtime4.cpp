@@ -620,7 +620,6 @@ struct U3CU3Ec_t9640B378EA182FA3DA27C81E5CE57489880E7DB9;
 // UnityEngine.Rendering.Universal.LightCookieManager/Settings/AtlasSettings
 struct AtlasSettings_tE53BC2E0E77415B1398424E3FB07BCC7C4D42453;
 
-IL2CPP_EXTERN_C RuntimeClass* AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AdditionalLightsShadowCasterPass_t5E00A3C851AB73A44B7577458AD868AF8F4FE004_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F_il2cpp_TypeInfo_var;
@@ -7680,8 +7679,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DeferredLights_t8A3C2AC9C4AF92CF3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DeferredLights_DisableFramebufferFetchInput_mD3D52031BF54D7EBD48EA7E49513D867016EE7FA (DeferredLights_t8A3C2AC9C4AF92CF3411F722D8A094EA07DA14AC* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Rendering.Universal.DecalRendererFeature::RecreateSystemsIfNeeded(UnityEngine.Rendering.Universal.ScriptableRenderer,UnityEngine.Rendering.Universal.CameraData&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DecalRendererFeature_RecreateSystemsIfNeeded_m7AC19124F8412C12FB56D898BAF0EF506D83C712 (DecalRendererFeature_t60FD3C8045A8E32C2DF6FA12C247020274E76B7F* __this, ScriptableRenderer_tF15B95BB85F26BE4B4719901D909831B89DC8892* ___renderer0, CameraData_tC27AE109CD20677486A4AC19C0CF014AE0F50C3E* ___cameraData1, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Rendering.Universal.DecalRendererFeature::ChangeAdaptivePerformanceDrawDistances()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DecalRendererFeature_ChangeAdaptivePerformanceDrawDistances_m192D9817282CE0E3A86F51E0ABC086CA3AE92B92 (DecalRendererFeature_t60FD3C8045A8E32C2DF6FA12C247020274E76B7F* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Rendering.Universal.DecalEntityManager::Update()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DecalEntityManager_Update_mDCE8CDF07E499154DFE7078175B0CB815D497B11 (DecalEntityManager_tDA689202786946588782A67EF3F0B0D9121C294A* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Rendering.Universal.DecalUpdateCachedSystem::Execute()
@@ -7716,14 +7713,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CopyDepthPass_set_MssaSample
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CoreUtils_Destroy_mE6CB8C65A5BA214BE6B7788F2AE388723D7EAC65 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Rendering.Universal.SharedDecalEntityManager::Release(UnityEngine.Rendering.Universal.DecalEntityManager)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SharedDecalEntityManager_Release_mDF9307DFCE36208911BF3F36FE410DDACBD12C7E (SharedDecalEntityManager_tA0A2AD50403B776D27F3D5023EBF02D8A8C7DBBD* __this, DecalEntityManager_tDA689202786946588782A67EF3F0B0D9121C294A* ___decalEntityManager0, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset::get_useAdaptivePerformance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniversalRenderPipelineAsset_get_useAdaptivePerformance_m845E3D3BEED778FC0B75ECE2324D90773F33D8BF (UniversalRenderPipelineAsset_tE8A9AA6F030CC3B558CEA2EB54FFF4FC58CA6232* __this, const RuntimeMethod* method) ;
-// System.Single UnityEngine.AdaptivePerformance.AdaptivePerformanceRenderSettings::get_DecalsDrawDistance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AdaptivePerformanceRenderSettings_get_DecalsDrawDistance_mEA3C8F9C4CF073FC7B342AEE8C310ED9CD473561 (const RuntimeMethod* method) ;
-// System.Void UnityEngine.Rendering.Universal.DecalCreateDrawCallSystem::set_maxDrawDistance(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DecalCreateDrawCallSystem_set_maxDrawDistance_m0C3214E780FC8E8481DA13DCFF94879AB99A8BB8 (DecalCreateDrawCallSystem_tD9FCA6DDC386309EBF5C2D737D458A33E7EAF6DA* __this, float ___value0, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Rendering.Universal.DecalUpdateCullingGroupSystem::set_boundingDistance(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DecalUpdateCullingGroupSystem_set_boundingDistance_m0CFD3967035CC859264CDA31CA9AC92FD818FC5F (DecalUpdateCullingGroupSystem_t73FB1167667D8FAED3C38AF3E308A1E717E2C7D2* __this, float ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Rendering.Universal.DecalSettings::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DecalSettings__ctor_mF50A64EE4B8C4C385F32EF360DC31A5685A9956C (DecalSettings_t284DBCC5A3CE75296C077F83280E4C53B73EB5FC* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Rendering.Universal.ScriptableRendererFeature::.ctor()
@@ -19555,7 +19544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DecalRendererFeature_OnCameraPreCull_mFB
 	}
 	{
 		// return;
-		goto IL_00c2;
+		goto IL_00bb;
 	}
 
 IL_0013:
@@ -19564,8 +19553,6 @@ IL_0013:
 		ScriptableRenderer_tF15B95BB85F26BE4B4719901D909831B89DC8892* L_3 = ___renderer0;
 		CameraData_tC27AE109CD20677486A4AC19C0CF014AE0F50C3E* L_4 = ___cameraData1;
 		DecalRendererFeature_RecreateSystemsIfNeeded_m7AC19124F8412C12FB56D898BAF0EF506D83C712(__this, L_3, L_4, NULL);
-		// ChangeAdaptivePerformanceDrawDistances();
-		DecalRendererFeature_ChangeAdaptivePerformanceDrawDistances_m192D9817282CE0E3A86F51E0ABC086CA3AE92B92(__this, NULL);
 		// m_DecalEntityManager.Update();
 		DecalEntityManager_tDA689202786946588782A67EF3F0B0D9121C294A* L_5 = __this->___m_DecalEntityManager_16;
 		NullCheck(L_5);
@@ -19581,7 +19568,7 @@ IL_0013:
 		bool L_8 = V_1;
 		if (!L_8)
 		{
-			goto IL_005b;
+			goto IL_0054;
 		}
 	}
 	{
@@ -19591,10 +19578,10 @@ IL_0013:
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_11 = L_10->___camera_2;
 		NullCheck(L_9);
 		DecalUpdateCullingGroupSystem_Execute_m32F1635D3DB3CCEF80270C2FD0721BD5E5ECA965(L_9, L_11, NULL);
-		goto IL_00b5;
+		goto IL_00ae;
 	}
 
-IL_005b:
+IL_0054:
 	{
 		// m_DecalSkipCulledSystem.Execute(cameraData.camera);
 		DecalSkipCulledSystem_tBE639384B2E60736F4BD7E7A5DC71A9F8AF84B1C* L_12 = __this->___m_DecalSkipCulledSystem_29;
@@ -19612,7 +19599,7 @@ IL_005b:
 		bool L_17 = V_2;
 		if (!L_17)
 		{
-			goto IL_0098;
+			goto IL_0091;
 		}
 	}
 	{
@@ -19621,10 +19608,10 @@ IL_005b:
 		CameraData_tC27AE109CD20677486A4AC19C0CF014AE0F50C3E* L_19 = ___cameraData1;
 		NullCheck(L_18);
 		DecalDrawSystem_Execute_mDB6BC88981DC6AF9CCEAF4B2B3A3FC841484C031(L_18, L_19, NULL);
-		goto IL_00b4;
+		goto IL_00ad;
 	}
 
-IL_0098:
+IL_0091:
 	{
 		// else if (m_Technique == DecalTechnique.GBuffer)
 		int32_t L_20 = __this->___m_Technique_9;
@@ -19632,7 +19619,7 @@ IL_0098:
 		bool L_21 = V_3;
 		if (!L_21)
 		{
-			goto IL_00b4;
+			goto IL_00ad;
 		}
 	}
 	{
@@ -19643,11 +19630,11 @@ IL_0098:
 		DecalDrawSystem_Execute_mDB6BC88981DC6AF9CCEAF4B2B3A3FC841484C031(L_22, L_23, NULL);
 	}
 
-IL_00b4:
+IL_00ad:
 	{
 	}
 
-IL_00b5:
+IL_00ae:
 	{
 		// m_DrawErrorSystem.Execute(cameraData);
 		DecalDrawErrorSystem_tBFEB031E49B33054C1378119DBFC83DDCBBD9837* L_24 = __this->___m_DrawErrorSystem_21;
@@ -19656,7 +19643,7 @@ IL_00b5:
 		DecalDrawSystem_Execute_mDB6BC88981DC6AF9CCEAF4B2B3A3FC841484C031(L_24, L_25, NULL);
 	}
 
-IL_00c2:
+IL_00bb:
 	{
 		// }
 		return;
@@ -19696,7 +19683,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DecalRendererFeature_AddRenderPasses_m30
 		NullCheck(L_4);
 		ScriptableRenderer_EnqueuePass_m62AC5EFBA8DECFD514CAFC4EFDCFBF88C710954F(L_4, L_5, NULL);
 		// return;
-		goto IL_0163;
+		goto IL_015c;
 	}
 
 IL_0026:
@@ -19706,8 +19693,6 @@ IL_0026:
 		RenderingData_tAAA01190551D6D5954314E3E1E85B58DD45EED71* L_7 = ___renderingData1;
 		CameraData_tC27AE109CD20677486A4AC19C0CF014AE0F50C3E* L_8 = (&L_7->___cameraData_1);
 		DecalRendererFeature_RecreateSystemsIfNeeded_m7AC19124F8412C12FB56D898BAF0EF506D83C712(__this, L_6, L_8, NULL);
-		// ChangeAdaptivePerformanceDrawDistances();
-		DecalRendererFeature_ChangeAdaptivePerformanceDrawDistances_m192D9817282CE0E3A86F51E0ABC086CA3AE92B92(__this, NULL);
 		// if (intermediateRendering)
 		bool L_9;
 		L_9 = DecalRendererFeature_get_intermediateRendering_mA32621126D368BAFFBA7636AD2A525F5D42A7FBC(__this, NULL);
@@ -19715,7 +19700,7 @@ IL_0026:
 		bool L_10 = V_1;
 		if (!L_10)
 		{
-			goto IL_005f;
+			goto IL_0058;
 		}
 	}
 	{
@@ -19729,7 +19714,7 @@ IL_0026:
 		DecalCreateDrawCallSystem_Execute_m9065BD8BC60D5F12697E2F7C8B803E484A759BC8(L_12, NULL);
 	}
 
-IL_005f:
+IL_0058:
 	{
 		// switch (m_Technique)
 		int32_t L_13 = __this->___m_Technique_9;
@@ -19741,23 +19726,23 @@ IL_005f:
 		{
 			case 0:
 			{
-				goto IL_00b9;
+				goto IL_00b2;
 			}
 			case 1:
 			{
-				goto IL_0083;
+				goto IL_007c;
 			}
 			case 2:
 			{
-				goto IL_0095;
+				goto IL_008e;
 			}
 		}
 	}
 	{
-		goto IL_0163;
+		goto IL_015c;
 	}
 
-IL_0083:
+IL_007c:
 	{
 		// renderer.EnqueuePass(m_ScreenSpaceDecalRenderPass);
 		ScriptableRenderer_tF15B95BB85F26BE4B4719901D909831B89DC8892* L_16 = ___renderer0;
@@ -19765,10 +19750,10 @@ IL_0083:
 		NullCheck(L_16);
 		ScriptableRenderer_EnqueuePass_m62AC5EFBA8DECFD514CAFC4EFDCFBF88C710954F(L_16, L_17, NULL);
 		// break;
-		goto IL_0163;
+		goto IL_015c;
 	}
 
-IL_0095:
+IL_008e:
 	{
 		// m_GBufferRenderPass.Setup(m_DeferredLights);
 		DecalGBufferRenderPass_tF9AE5E097AC2B82F540580ECA6E502C1B885ECA4* L_18 = __this->___m_GBufferRenderPass_30;
@@ -19781,10 +19766,10 @@ IL_0095:
 		NullCheck(L_20);
 		ScriptableRenderer_EnqueuePass_m62AC5EFBA8DECFD514CAFC4EFDCFBF88C710954F(L_20, L_21, NULL);
 		// break;
-		goto IL_0163;
+		goto IL_015c;
 	}
 
-IL_00b9:
+IL_00b2:
 	{
 		// var universalRenderer = renderer as UniversalRenderer;
 		ScriptableRenderer_tF15B95BB85F26BE4B4719901D909831B89DC8892* L_22 = ___renderer0;
@@ -19798,7 +19783,7 @@ IL_00b9:
 		bool L_25 = V_5;
 		if (!L_25)
 		{
-			goto IL_00ff;
+			goto IL_00f8;
 		}
 	}
 	{
@@ -19823,10 +19808,10 @@ IL_00b9:
 		RenderTargetHandle__ctor_m4527993FB9AB70995D9178D5F8B021373A3762A1((&L_32), L_31, /*hidden argument*/NULL);
 		NullCheck(L_26);
 		CopyDepthPass_Setup_m09878F9AF1AC7B2F118A2E1E99DFAA48A422B992(L_26, L_29, L_32, NULL);
-		goto IL_012d;
+		goto IL_0126;
 	}
 
-IL_00ff:
+IL_00f8:
 	{
 		// m_CopyDepthPass.Setup(
 		//     new RenderTargetHandle(m_DBufferRenderPass.cameraDepthTextureIndentifier),
@@ -19851,7 +19836,7 @@ IL_00ff:
 		CopyDepthPass_Setup_m09878F9AF1AC7B2F118A2E1E99DFAA48A422B992(L_33, L_36, L_39, NULL);
 	}
 
-IL_012d:
+IL_0126:
 	{
 		// m_CopyDepthPass.MssaSamples = 1;
 		CopyDepthPass_t51FCA8600207D9DD0EE15862C514D9F9E3A74D82* L_40 = __this->___m_CopyDepthPass_13;
@@ -19873,10 +19858,10 @@ IL_012d:
 		NullCheck(L_45);
 		ScriptableRenderer_EnqueuePass_m62AC5EFBA8DECFD514CAFC4EFDCFBF88C710954F(L_45, L_46, NULL);
 		// break;
-		goto IL_0163;
+		goto IL_015c;
 	}
 
-IL_0163:
+IL_015c:
 	{
 		// }
 		return;
@@ -19969,77 +19954,6 @@ IL_0040:
 // System.Void UnityEngine.Rendering.Universal.DecalRendererFeature::ChangeAdaptivePerformanceDrawDistances()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DecalRendererFeature_ChangeAdaptivePerformanceDrawDistances_m192D9817282CE0E3A86F51E0ABC086CA3AE92B92 (DecalRendererFeature_t60FD3C8045A8E32C2DF6FA12C247020274E76B7F* __this, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniversalRenderPipeline_t54B4737DC500C08628C5BE283D8C583C14DED98F_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	bool V_0 = false;
-	bool V_1 = false;
-	bool V_2 = false;
-	{
-		// if (UniversalRenderPipeline.asset.useAdaptivePerformance)
-		il2cpp_codegen_runtime_class_init_inline(UniversalRenderPipeline_t54B4737DC500C08628C5BE283D8C583C14DED98F_il2cpp_TypeInfo_var);
-		UniversalRenderPipelineAsset_tE8A9AA6F030CC3B558CEA2EB54FFF4FC58CA6232* L_0;
-		L_0 = UniversalRenderPipeline_get_asset_mE97A926D00D90276CC9442857014B7180EF02819(NULL);
-		NullCheck(L_0);
-		bool L_1;
-		L_1 = UniversalRenderPipelineAsset_get_useAdaptivePerformance_m845E3D3BEED778FC0B75ECE2324D90773F33D8BF(L_0, NULL);
-		V_0 = L_1;
-		bool L_2 = V_0;
-		if (!L_2)
-		{
-			goto IL_0051;
-		}
-	}
-	{
-		// if (m_DecalCreateDrawCallSystem != null)
-		DecalCreateDrawCallSystem_tD9FCA6DDC386309EBF5C2D737D458A33E7EAF6DA* L_3 = __this->___m_DecalCreateDrawCallSystem_20;
-		V_1 = (bool)((!(((RuntimeObject*)(DecalCreateDrawCallSystem_tD9FCA6DDC386309EBF5C2D737D458A33E7EAF6DA*)L_3) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_4 = V_1;
-		if (!L_4)
-		{
-			goto IL_0030;
-		}
-	}
-	{
-		// m_DecalCreateDrawCallSystem.maxDrawDistance = AdaptivePerformance.AdaptivePerformanceRenderSettings.DecalsDrawDistance;
-		DecalCreateDrawCallSystem_tD9FCA6DDC386309EBF5C2D737D458A33E7EAF6DA* L_5 = __this->___m_DecalCreateDrawCallSystem_20;
-		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
-		float L_6;
-		L_6 = AdaptivePerformanceRenderSettings_get_DecalsDrawDistance_mEA3C8F9C4CF073FC7B342AEE8C310ED9CD473561(NULL);
-		NullCheck(L_5);
-		DecalCreateDrawCallSystem_set_maxDrawDistance_m0C3214E780FC8E8481DA13DCFF94879AB99A8BB8(L_5, L_6, NULL);
-	}
-
-IL_0030:
-	{
-		// if (m_DecalUpdateCullingGroupSystem != null)
-		DecalUpdateCullingGroupSystem_t73FB1167667D8FAED3C38AF3E308A1E717E2C7D2* L_7 = __this->___m_DecalUpdateCullingGroupSystem_18;
-		V_2 = (bool)((!(((RuntimeObject*)(DecalUpdateCullingGroupSystem_t73FB1167667D8FAED3C38AF3E308A1E717E2C7D2*)L_7) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_8 = V_2;
-		if (!L_8)
-		{
-			goto IL_0050;
-		}
-	}
-	{
-		// m_DecalUpdateCullingGroupSystem.boundingDistance = AdaptivePerformance.AdaptivePerformanceRenderSettings.DecalsDrawDistance;
-		DecalUpdateCullingGroupSystem_t73FB1167667D8FAED3C38AF3E308A1E717E2C7D2* L_9 = __this->___m_DecalUpdateCullingGroupSystem_18;
-		il2cpp_codegen_runtime_class_init_inline(AdaptivePerformanceRenderSettings_t1CA7AF4570B08D3E052FE8F176D429C2C15FBD79_il2cpp_TypeInfo_var);
-		float L_10;
-		L_10 = AdaptivePerformanceRenderSettings_get_DecalsDrawDistance_mEA3C8F9C4CF073FC7B342AEE8C310ED9CD473561(NULL);
-		NullCheck(L_9);
-		DecalUpdateCullingGroupSystem_set_boundingDistance_m0CFD3967035CC859264CDA31CA9AC92FD818FC5F(L_9, L_10, NULL);
-	}
-
-IL_0050:
-	{
-	}
-
-IL_0051:
 	{
 		// }
 		return;

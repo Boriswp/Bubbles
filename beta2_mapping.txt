@@ -1,7 +1,7 @@
 # compiler: R8
 # compiler_version: 2.0.88
 # min_api: 22
-# pg_map_id: 4d9fe84
+# pg_map_id: d840077
 # common_typos_disable
 android.support.customtabs.ICustomTabsCallback -> a.a.a.a:
     void extraCallback(java.lang.String,android.os.Bundle) -> C0
@@ -49779,26 +49779,6 @@ com.google.unity.ads.UnityRewardedInterstitialAd$5 -> com.google.unity.ads.Unity
     291:291:void <init>(com.google.unity.ads.UnityRewardedInterstitialAd) -> <init>
     291:291:java.lang.Object call() -> call
     294:294:com.google.android.gms.ads.rewarded.RewardItem call() -> call
-com.samsung.android.gamesdk.GameSDKManager -> c.b.a.a.a:
-    com.samsung.android.gamesdk.IGameSDKService mService -> a
-    float mServiceVersion -> b
-    20:82:void <init>() -> <init>
-    170:179:java.lang.String getVersion() -> a
-    528:541:boolean setCpuBoostMode(int) -> b
-    554:567:boolean setGpuBoostMode(int) -> c
-    700:710:void updateServiceVersion() -> d
-com.unity3d.JavaPluginPreloader -> c.c.a:
-    4:6:void <clinit>() -> <clinit>
-    2:2:void <init>() -> <init>
-    9:17:void loadJavaClass(java.lang.String) -> a
-com.unity3d.adaptiveperformance.samsung.GameLoadBooster -> c.c.b.a.a:
-    com.samsung.android.gamesdk.GameSDKManager manager -> a
-    java.lang.Boolean startupBoostEnabled -> b
-    11:16:void <clinit>() -> <clinit>
-    10:10:void <init>() -> <init>
-    47:71:boolean checkStartupBoostEnabled() -> a
-    20:36:boolean enableBoost() -> b
-    41:43:boolean isStartupBoostEnabled() -> c
 com.unity3d.player.BuildConfig -> com.unity3d.player.BuildConfig:
     7:7:void <clinit>() -> <clinit>
     6:6:void <init>() -> <init>
@@ -49823,3 +49803,70 @@ com.unity3d.player.UnityPlayerActivity -> com.unity3d.player.UnityPlayerActivity
     47:48:void onUnityPlayerUnloaded() -> onUnityPlayerUnloaded
     146:148:void onWindowFocusChanged(boolean) -> onWindowFocusChanged
     28:28:java.lang.String updateUnityCommandLineArguments(java.lang.String) -> updateUnityCommandLineArguments
+com.yasirkula.unity.FileBrowser -> com.yasirkula.unity.FileBrowser:
+    53:53:void <clinit>() -> <clinit>
+    36:36:void <init>() -> <init>
+    152:161:int CheckPermission(android.content.Context) -> CheckPermission
+    186:186:boolean CheckSAF() -> CheckSAF
+    282:297:void CopyDirectory(android.content.Context,java.lang.String,java.lang.String,boolean) -> CopyDirectory
+    238:275:void CopyFile(android.content.Context,java.lang.String,java.lang.String,boolean) -> CopyFile
+    664:705:void CopyRawDirectoryRecursively(android.content.Context,java.io.File,java.lang.String,boolean) -> CopyRawDirectoryRecursively
+    591:616:void CopyRawFile(java.lang.String,java.lang.String) -> CopyRawFile
+    621:659:void CopySAFDirectoryRecursively(android.content.Context,com.yasirkula.unity.FileBrowserSAFEntry,java.lang.String,boolean) -> CopySAFDirectoryRecursively
+    405:436:void CopySAFEntry(android.content.Context,java.lang.String,java.lang.String) -> CopySAFEntry
+    315:327:java.lang.String CreateSAFEntry(android.content.Context,java.lang.String,boolean,java.lang.String) -> CreateSAFEntry
+    710:723:void DeleteRawDirectoryRecursively(java.io.File) -> DeleteRawDirectoryRecursively
+    478:478:boolean DeleteSAFEntry(android.content.Context,java.lang.String) -> DeleteSAFEntry
+    202:230:java.lang.String FetchSAFQuickLinks(android.content.Context) -> FetchSAFQuickLinks
+    728:744:java.lang.String FindSAFEntryWithNameOrCreateNew(android.content.Context,java.lang.String,java.util.ArrayList,boolean,java.lang.String) -> FindSAFEntryWithNameOrCreateNew
+    57:146:java.lang.String GetExternalDrives(android.content.Context) -> GetExternalDrives
+    486:582:java.lang.String GetParentDirectory(android.content.Context,java.lang.String) -> GetParentDirectory
+    303:308:java.lang.String OpenSAFFolder(android.content.Context,java.lang.String) -> OpenSAFFolder
+    193:195:void PickSAFFolder(android.content.Context,com.yasirkula.unity.FileBrowserDirectoryReceiver) -> PickSAFFolder
+    370:398:void ReadFromSAFEntry(android.content.Context,java.lang.String,java.lang.String) -> ReadFromSAFEntry
+    472:472:java.lang.String RenameSAFEntry(android.content.Context,java.lang.String,java.lang.String) -> RenameSAFEntry
+    167:181:void RequestPermission(android.content.Context,com.yasirkula.unity.FileBrowserPermissionReceiver,int) -> RequestPermission
+    448:448:boolean SAFEntryDirectory(android.content.Context,java.lang.String) -> SAFEntryDirectory
+    441:442:boolean SAFEntryExists(android.content.Context,java.lang.String,boolean) -> SAFEntryExists
+    466:466:long SAFEntryLastModified(android.content.Context,java.lang.String) -> SAFEntryLastModified
+    454:454:java.lang.String SAFEntryName(android.content.Context,java.lang.String) -> SAFEntryName
+    460:460:long SAFEntrySize(android.content.Context,java.lang.String) -> SAFEntrySize
+    335:363:void WriteToSAFEntry(android.content.Context,java.lang.String,java.lang.String,boolean) -> WriteToSAFEntry
+com.yasirkula.unity.FileBrowser$UriPermissionSorter -> com.yasirkula.unity.FileBrowser$UriPermissionSorter:
+    39:39:void <init>() -> <init>
+    39:39:void <init>(com.yasirkula.unity.FileBrowser$1) -> <init>
+    38:38:int compare(java.lang.Object,java.lang.Object) -> compare
+    43:49:int compare(android.content.UriPermission,android.content.UriPermission) -> compare
+com.yasirkula.unity.FileBrowserDirectoryPickerFragment -> com.yasirkula.unity.FileBrowserDirectoryPickerFragment:
+    22:24:void <init>() -> <init>
+    27:29:void <init>(com.yasirkula.unity.FileBrowserDirectoryReceiver) -> <init>
+    64:89:void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    34:59:void onCreate(android.os.Bundle) -> onCreate
+com.yasirkula.unity.FileBrowserPermissionFragment -> com.yasirkula.unity.FileBrowserPermissionFragment:
+    41:43:void <init>() -> <init>
+    46:48:void <init>(com.yasirkula.unity.FileBrowserPermissionReceiver) -> <init>
+    53:63:void onCreate(android.os.Bundle) -> onCreate
+    68:118:void onRequestPermissionsResult(int,java.lang.String[],int[]) -> onRequestPermissionsResult
+com.yasirkula.unity.FileBrowserSAFEntry -> com.yasirkula.unity.FileBrowserSAFEntry:
+    57:60:void <init>(android.content.Context,android.net.Uri) -> <init>
+    276:315:void appendFilesToStringBuilder(java.lang.StringBuilder) -> appendFilesToStringBuilder
+    144:154:boolean canRead() -> canRead
+    160:189:boolean canWrite() -> canWrite
+    80:86:com.yasirkula.unity.FileBrowserSAFEntry createDirectory(java.lang.String) -> createDirectory
+    66:72:com.yasirkula.unity.FileBrowserSAFEntry createFile(java.lang.String,java.lang.String) -> createFile
+    196:203:boolean delete() -> delete
+    208:232:boolean exists() -> exists
+    49:53:com.yasirkula.unity.FileBrowserSAFEntry fromTreeUri(android.content.Context,android.net.Uri) -> fromTreeUri
+    97:97:java.lang.String getName() -> getName
+    335:335:java.lang.String getRawType() -> getRawType
+    102:109:java.lang.String getType() -> getType
+    92:92:android.net.Uri getUri() -> getUri
+    115:115:boolean isDirectory() -> isDirectory
+    120:127:boolean isFile() -> isFile
+    133:133:long lastModified() -> lastModified
+    138:138:long length() -> length
+    237:271:java.util.ArrayList listFiles() -> listFiles
+    371:371:int queryForInt(java.lang.String,int) -> queryForInt
+    376:402:long queryForLong(java.lang.String,long) -> queryForLong
+    340:366:java.lang.String queryForString(java.lang.String,java.lang.String) -> queryForString
+    321:330:java.lang.String renameTo(java.lang.String) -> renameTo
