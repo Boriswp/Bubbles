@@ -16,6 +16,7 @@ public class missionScreenController : gameScreenController
     private new void OnDisable()
     {
         BaseGameGridManager.onGameWin -= ShowWinScreen;
+        MissionGridManager.onUpdateBallCount-=UpdateBallCount;
         base.OnDisable();
     }
 
@@ -29,6 +30,6 @@ public class missionScreenController : gameScreenController
         Time.timeScale = 0f;
         fireButton.SetActive(false);
         LoseScreen.SetActive(true);
-        EndCounter.text = EndCounter.text + " " + textCounter.text;
+        EndCounter.text = EndCounter.text + " " + textCounterScore.text;
     }
 }

@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class BaseGameGridManager : BaseGridManager
 {
-    protected int _counter;
+    protected int _counterScore;
+    protected int _counterBalls;
     public int columns;
     public int rows;
     public int loseCountRow = 13;
@@ -21,7 +22,7 @@ public class BaseGameGridManager : BaseGridManager
     public delegate void OnUpdateTarget(Vector2 target);
     public static OnUpdateTarget onUpdateTarget;
 
-    public delegate void OnUpdateScore(int score);
+    public delegate void OnUpdateScore(int score,int balls);
     public static OnUpdateScore onUpdateScore;
 
     public delegate void OnReadyToLoad();
@@ -155,11 +156,12 @@ public class BaseGameGridManager : BaseGridManager
 
                 if (!g.TryGetComponent<GridMember>(out var gm)) continue;
                 grid[gm.column, -gm.row] = null;
-                _counter += 10;
+                _counterScore += 10;
+                _counterBalls--;
                 gm.enabled = true;
                 gm.state = BubbleState.Pop;
             }
-            onUpdateScore?.Invoke(_counter);
+            onUpdateScore?.Invoke(_counterScore, _counterBalls);
             var audioSource = GetComponent<AudioSource>();
             audioSource.Play();
         }
@@ -195,11 +197,12 @@ public class BaseGameGridManager : BaseGridManager
                 if (grid[c, r] == null || visited[c, r]) continue;
                 if (!grid[c, r].TryGetComponent<GridMember>(out var gm)) continue;
                 grid[gm.column, -gm.row] = null;
-                _counter += 10;
+                _counterScore += 10;
+                _counterBalls--;
                 gm.enabled = true;
                 gm.state = BubbleState.Explode;
             }
         }
-        onUpdateScore?.Invoke(_counter);
+        onUpdateScore?.Invoke(_counterScore, _counterBalls);
     }
 }

@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Serialization;
 
 public class gameScreenController : AdModule
 {
     public GameObject fireButton;
     public GameObject PauseMenu;
     public GameObject LoseScreen;
-    public TextMeshProUGUI textCounter;
+    public TextMeshProUGUI textCounterScore;
+    public TextMeshProUGUI textCounterBalls;
     public TextMeshProUGUI EndCounter;
 
 
@@ -17,7 +19,6 @@ public class gameScreenController : AdModule
     {
         BaseGameGridManager.onGameOver += ShowLoseScreen;
         BaseGameGridManager.onUpdateScore += UpdateScore;
-        UpdateScore(0);
     }
 
     public void OnDisable()
@@ -26,9 +27,10 @@ public class gameScreenController : AdModule
         BaseGameGridManager.onUpdateScore -= UpdateScore;
     }
 
-    public void UpdateScore(int score)
+    public void UpdateScore(int score,int balls)
     {
-        textCounter.text = score.ToString();
+        textCounterScore.text = score.ToString();
+        textCounterBalls.text = balls.ToString();
     }
 
     public void ShowMenu()
@@ -50,7 +52,7 @@ public class gameScreenController : AdModule
         Time.timeScale = 0f;
         fireButton.SetActive(false);
         LoseScreen.SetActive(true);
-        EndCounter.text = EndCounter.text + " " + textCounter.text;
+        EndCounter.text = EndCounter.text + " " + textCounterScore.text;
     }
 
     public void GoToMainMenu()
