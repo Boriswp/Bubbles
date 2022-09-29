@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
-using UnityEngine.Serialization;
 
 public class gameScreenController : AdModule
 {

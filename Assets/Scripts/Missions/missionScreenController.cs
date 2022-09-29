@@ -30,6 +30,5 @@ public class missionScreenController : gameScreenController
         Time.timeScale = 0f;
         fireButton.SetActive(false);
         LoseScreen.SetActive(true);
-        EndCounter.text = EndCounter.text + " " + textCounterScore.text;
     }
 }
