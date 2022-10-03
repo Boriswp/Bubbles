@@ -107,6 +107,64 @@ public class BaseGameGridManager : BaseGridManager
         }
     }
 
+    private Queue<GameObject> LightingNeighborCounter(Queue<int[]> queue, bool[,] visited)
+    {
+        var objectQueue = new Queue<GameObject>();
+        while (queue.Count != 0)
+        {
+            var top = queue.Dequeue();
+            var gTop = grid[top[0], top[1]];
+            if (gTop != null)
+            {
+                objectQueue.Enqueue(gTop);
+            }
+            for (var i = 0; i < 6; i++)
+            {
+                var neighbor = new int[2];
+                neighbor[0] = top[1] % 2 != 0 ? top[0] + deltax[i] : top[0] + deltaxprime[i];
+                neighbor[1] = top[1] + deltay[i];
+                if (neighbor[0] >= columns || neighbor[1] >= ROW_MAX || neighbor[0] < 0 || neighbor[1] < 0)
+                {
+                    continue;
+                }
+                var g = grid[neighbor[0], neighbor[1]];
+                if (g == null) continue;
+                if (visited[neighbor[0], neighbor[1]]) continue;
+                visited[neighbor[0], neighbor[1]] = true;
+                queue.Enqueue(neighbor);
+            }
+        }
+        return objectQueue;
+    }
+    
+    private Queue<GameObject> BombNeighborCounter(Queue<int[]> queue, bool[,] visited)
+    {
+        var objectQueue = new Queue<GameObject>();
+        
+            var top = queue.Dequeue();
+            var gTop = grid[top[0], top[1]];
+            if (gTop != null)
+            {
+                objectQueue.Enqueue(gTop);
+            }
+            for (var i = 0; i < 6; i++)
+            {
+                var neighbor = new int[2];
+                neighbor[0] = top[1] % 2 != 0 ? top[0] + deltax[i] : top[0] + deltaxprime[i];
+                neighbor[1] = top[1] + deltay[i];
+                if (neighbor[0] >= columns || neighbor[1] >= ROW_MAX || neighbor[0] < 0 || neighbor[1] < 0)
+                {
+                    continue;
+                }
+                var g = grid[neighbor[0], neighbor[1]];
+                if (g == null) continue;
+                if (visited[neighbor[0], neighbor[1]]) continue;
+                visited[neighbor[0], neighbor[1]] = true;
+                objectQueue.Enqueue(g);
+            }
+            return objectQueue;
+    }
+
     private Queue<GameObject> NeighborCounter(Queue<int[]> queue, bool[,] visited, int kind)
     {
         var objectQueue = new Queue<GameObject>();
@@ -147,8 +205,15 @@ public class BaseGameGridManager : BaseGridManager
         visited[column, row] = true;
         var queue = new Queue<int[]>();
         queue.Enqueue(pair);
-        var objectQueue = NeighborCounter(queue, visited, kind);
-        if (objectQueue.Count >= 3)
+        var objectQueue = kind switch
+        {
+            Constants.BOMB_KIND => BombNeighborCounter(queue, visited),
+            Constants.LIGHTNING_KIND => LightingNeighborCounter(queue, visited),
+            Constants.FIRE_KIND => BombNeighborCounter(queue,visited),
+            _ => NeighborCounter(queue, visited, kind)
+        };
+
+        if (objectQueue.Count >= 3||kind is Constants.BOMB_KIND or Constants.LIGHTNING_KIND)
         {
             while (objectQueue.Count != 0)
             {

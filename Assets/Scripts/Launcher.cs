@@ -12,12 +12,12 @@ public class Launcher : MonoBehaviour
     public int maximumReflectionCount = 5;
     public float maximumRayCastDistance = 50f;
     private int currentKindColor;
+    private bool isSpecialBall = false;
     private int nextKindColor;
     LineRenderer lineRenderer;
     readonly List<Vector3> reflectionPositions = new();
     private BaseGameGridManager gameGridManager;
-
-    public const float LAUNCH_SPEED = 15f;
+    
 
     private void Awake()
     {
@@ -27,9 +27,18 @@ public class Launcher : MonoBehaviour
         lineRenderer.startWidth = 0.75f;
         lineRenderer.endWidth = 0.75f;
     }
+    
 
-    public void Start()
+    public void SetUpSpecialBall(int kind)
     {
+        isSpecialBall = true;
+        currentKindColor = kind;
+        Load();
+    }
+
+    public void UnSetUpSpecialBall()
+    {
+        isSpecialBall = false;
         Load();
     }
 
@@ -44,7 +53,7 @@ public class Launcher : MonoBehaviour
     }
 
 
-    void Update()
+    private void Update()
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         var delta = mousePos - (Vector2)transform.parent.position;
@@ -61,19 +70,29 @@ public class Launcher : MonoBehaviour
 
     public void Load()
     {
-        if (load != null) return;
-        var colorArray = gameGridManager.UpdateLvlInfo();
-        currentKindColor = nextKindColor;
-        if (colorArray.Count > 0)
+        if (!isSpecialBall)
         {
-            var index = Random.Range(0, colorArray.Count);
-            nextKindColor = colorArray[index];
+            //if (load != null) return;
+            nextColorBall.SetActive(true);   
+            var colorArray = gameGridManager.UpdateLvlInfo();
+            currentKindColor = nextKindColor;
+            if (colorArray.Count > 0)
+            {
+                var index = Random.Range(0, colorArray.Count);
+                nextKindColor = colorArray[index];
+            }
+            else
+            {
+                nextKindColor = Random.Range(0, 7);
+            }
+
+            nextColorBall.GetComponent<SpriteRenderer>().sprite = BaseGridManager.SpriteArray[nextKindColor];
         }
         else
         {
-            nextKindColor = Random.Range(0, 7);
+            nextColorBall.SetActive(false);
+            Destroy(load);
         }
-        nextColorBall.GetComponent<SpriteRenderer>().sprite = BaseGridManager.SpriteArray[nextKindColor];
         load = Instantiate(ball, transform.parent.position, Quaternion.identity, transform.parent.parent);
         load.SetActive(true);
         var circleCollider2D = load.GetComponent<CircleCollider2D>();
@@ -92,7 +111,7 @@ public class Launcher : MonoBehaviour
         circleCollider2D.enabled = true;
         load.transform.parent = transform.parent.parent.parent;
         var rb = load.GetComponent<Rigidbody2D>();
-        rb.velocity = transform.right * LAUNCH_SPEED;
+        rb.velocity = transform.right * Constants.LAUNCH_SPEED;
         load = null;
     }
 
@@ -101,8 +120,7 @@ public class Launcher : MonoBehaviour
         reflectionPositions.Clear();
 
         Vector2 position = new(transform.position.x, transform.position.y);
-        Vector2 direction = inputDirection;
-        Vector2 newPos;
+        var direction = inputDirection;
 
         reflectionPositions.Add(position);
 
@@ -111,7 +129,7 @@ public class Launcher : MonoBehaviour
             var circleHit = Physics2D.CircleCast(position, 0.25F, direction, maximumRayCastDistance);
             if (!circleHit) continue;
             position = circleHit.point + circleHit.normal * 0.25f;
-            newPos = Helpers.GetAccuratePos(position);
+            var newPos = Helpers.GetAccuratePos(position);
 
             if (circleHit.collider.CompareTag("Bubble"))
             {

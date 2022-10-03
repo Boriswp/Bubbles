@@ -11,9 +11,6 @@ public class GridMember : MonoBehaviour
     public BubbleState state = BubbleState.Initial;
 
     private ParticleSystem particles;
-    private const float POP_SPEED = 0.9f;
-    private const float EXPLODE_SPEED = 8f;
-    private const float KILL_Y = -30f;
 
     private CircleCollider2D circleCollider2D;
     private Rigidbody2D rigidBody2D;
@@ -36,6 +33,7 @@ public class GridMember : MonoBehaviour
                     particles = GetComponent<ParticleSystem>();
                     var settings = particles.main;
                     settings.startColor = new ParticleSystem.MinMaxGradient(BaseGridManager.ColorArray[kind]);
+                    settings.duration = Constants.POP_SPEED;
                     particles.Play();
                     break;
                 }
@@ -46,8 +44,8 @@ public class GridMember : MonoBehaviour
 
                     rigidBody2D.gravityScale = 1f;
                     rigidBody2D.velocity = new Vector3(
-                        Random.Range(-EXPLODE_SPEED, EXPLODE_SPEED),
-                        Random.Range(-EXPLODE_SPEED, EXPLODE_SPEED),
+                        Random.Range(-Constants.EXPLODE_SPEED, Constants.EXPLODE_SPEED),
+                        Random.Range(-Constants.EXPLODE_SPEED, Constants.EXPLODE_SPEED),
                         0f
                     );
                     state = BubbleState.Fall;
@@ -55,7 +53,7 @@ public class GridMember : MonoBehaviour
                 }
             case BubbleState.Fall:
                 {
-                    if (transform.position.y < KILL_Y)
+                    if (transform.position.y < Constants.KILL_Y)
                     {
                         Destroy(gameObject);
                     }

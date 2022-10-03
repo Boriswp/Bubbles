@@ -27,6 +27,7 @@ public class MissionGridManager : BaseGameGridManager
         onUpdateBallCount.Invoke(_ballcount);
         onUpdateScore.Invoke(0,_counterBalls);
         onUpdateTarget.Invoke(new Vector2(0, -(rows - 1) * gap));
+        onReadyToLoad?.Invoke();
     }
 
     public override List<int> UpdateLvlInfo()

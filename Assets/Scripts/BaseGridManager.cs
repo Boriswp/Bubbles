@@ -7,15 +7,19 @@ public class BaseGridManager : MonoBehaviour
     public GameObject bubble;
     protected GameObject[,] grid;
     public GameObject initialPos;
-    public static readonly Color[] ColorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta,Color.blue, new(0.5f, 0, 1,1) };
+    public static readonly Color[] ColorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta,Color.blue, new(0.5f, 0, 1,1),Color.black,Color.black, Color.black, Color.black, };
     public static Sprite[] SpriteArray;
     protected readonly int[] deltax = { -1, 0, -1, 0, -1, 1 };
     protected readonly int[] deltaxprime = { 1, 0, 1, 0, -1, 1 };
-    protected readonly int[] deltay = { -1, -1, 1, 1, 0, 0 };
+    protected readonly int[] deltay = { -1, -1, 1, 1, 0, 0 }; 
 
-    public void LoadRes()
+    protected void LoadRes()
     {
-        SpriteArray = Resources.LoadAll<Sprite>("bubbles");
+        var usualSpites =   Resources.LoadAll<Sprite>("bubbles");
+        var special = Resources.LoadAll<Sprite>("special");
+        SpriteArray = new Sprite[special.Length + usualSpites.Length];
+        usualSpites.CopyTo(SpriteArray,0);
+        special.CopyTo(SpriteArray,usualSpites.Length);
     }
 
     public void Create(Vector2 position, int kind,bool isGame)
