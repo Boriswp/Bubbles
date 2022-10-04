@@ -49,7 +49,6 @@ public class BaseGridManager : MonoBehaviour
 
                 var gridMember = bubbleClone.GetComponent<GridMember>();
                 gridMember.enabled = true;
-                gridMember.parent = gameObject;
 
                 gridMember.row = row;
                 gridMember.column = column;

@@ -1,17 +1,22 @@
 ﻿using System;
+using System.Diagnostics;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class GridMember : MonoBehaviour
 {
-    public GameObject parent;
+    public GameObject simpleEffects;
+    public GameObject bombEffects;
+    public GameObject lightningEffect;
     public int row;
     public int column;
     public int kind;
     public BubbleState state = BubbleState.Initial;
 
     private ParticleSystem particles;
-
+    private ParticleSystem.MainModule settings;
+    
+    
     private CircleCollider2D circleCollider2D;
     private Rigidbody2D rigidBody2D;
 
@@ -30,8 +35,13 @@ public class GridMember : MonoBehaviour
                     if (particles != null) return;
                     circleCollider2D.enabled = false;
                     GetComponent<SpriteRenderer>().enabled = false;
-                    particles = GetComponent<ParticleSystem>();
-                    var settings = particles.main;
+                    particles = kind switch
+                    {
+                        Constants.BOMB_KIND => bombEffects.GetComponent<ParticleSystem>(),
+                        Constants.LIGHTNING_KIND => lightningEffect.GetComponent<ParticleSystem>(),
+                        _=>simpleEffects.GetComponent<ParticleSystem>(),
+                    };
+                    settings = particles.main;
                     settings.startColor = new ParticleSystem.MinMaxGradient(BaseGridManager.ColorArray[kind]);
                     settings.duration = Constants.POP_SPEED;
                     particles.Play();

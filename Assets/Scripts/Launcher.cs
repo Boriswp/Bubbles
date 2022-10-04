@@ -63,18 +63,19 @@ public class Launcher : MonoBehaviour
         if (zRotation is < 10 or > 170)
         {
             return;
-        }
+        } 
         transform.parent.rotation = Quaternion.Euler(0f, 0f, zRotation);
         DrawCurrentTrajectory(delta);
     }
 
     public void Load()
     {
+        
+        var colorArray = gameGridManager.UpdateLvlInfo();
         if (!isSpecialBall)
         {
             //if (load != null) return;
-            nextColorBall.SetActive(true);   
-            var colorArray = gameGridManager.UpdateLvlInfo();
+            nextColorBall.SetActive(true);
             currentKindColor = nextKindColor;
             if (colorArray.Count > 0)
             {
