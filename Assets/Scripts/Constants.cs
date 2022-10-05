@@ -8,4 +8,5 @@
     public const int FIRE_KIND = 8;
     public const int RANDOM_KIND = 9;
     public const int BOMB_KIND = 10;
+    public const string JSON_FILE_NAME = "profile_data.json";
 }

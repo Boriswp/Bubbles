@@ -45,7 +45,7 @@ public class AdModule : MonoBehaviour
         interstitial.OnAdFailedToLoad += HandleOnAdFailedToLoad;
         interstitial.OnAdOpening += HandleOnAdOpening;
         interstitial.OnAdClosed += HandleOnAdClosed;
-        AdRequest request = new AdRequest.Builder().Build();
+        var request = new AdRequest.Builder().Build();
         interstitial.LoadAd(request);
     }
 

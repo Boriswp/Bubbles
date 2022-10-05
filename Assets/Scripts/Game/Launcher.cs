@@ -71,7 +71,7 @@ public class Launcher : MonoBehaviour
     public void Load()
     {
         
-        var colorArray = gameGridManager.UpdateLvlInfo();
+        var colorArray = gameGridManager.UpdateLvlInfo(isSpecialBall);
         if (!isSpecialBall)
         {
             //if (load != null) return;

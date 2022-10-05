@@ -30,9 +30,13 @@ public class MissionGridManager : BaseGameGridManager
         onReadyToLoad?.Invoke();
     }
 
-    public override List<int> UpdateLvlInfo()
+    public override List<int> UpdateLvlInfo(bool specialBall)
     {
-        _ballcount--;
+        if (!specialBall)
+        {
+            _ballcount--;
+        }
+
         onUpdateBallCount?.Invoke(_ballcount);
         if (_ballcount == 0)
         {

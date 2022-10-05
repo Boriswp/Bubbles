@@ -36,7 +36,7 @@ public class BaseGameGridManager : BaseGridManager
         Create(position, newKind, true);
     }
 
-    public virtual List<int> UpdateLvlInfo() { return new List<int>(); }
+    public virtual List<int> UpdateLvlInfo(bool specialBall) { return new List<int>(); }
 
     public void CreateSimple(GameObject newGameObject, int kind)
     {

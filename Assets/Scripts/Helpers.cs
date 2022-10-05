@@ -1,10 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public static class Helpers
 {
-    public static bool isMoving = false;
+    public static bool isMoving;
     public static IEnumerator SmoothLerp(float time, Transform objectToTransform, Vector3 finalPos)
     {
         var startingPos = objectToTransform.position;
@@ -19,8 +21,37 @@ public static class Helpers
             isMoving = false;
         }
     }
+    
+    public static void WriteProfileDataToJson(ProfileData profileData) {
+        var jsonFilePath = DataPath();
+        if (!File.Exists(jsonFilePath))
+        {
+            File.Create(jsonFilePath).Close();
+        }
+        var dataString = JsonUtility.ToJson(profileData);
+        File.WriteAllText(jsonFilePath, dataString);
+    }
+    
+    public static ProfileData ReadProfileDataFromJson() {
+        
+        var jsonFilePath = DataPath();
+        if (!File.Exists(jsonFilePath))
+        {
+            File.Create(jsonFilePath).Close();
+            var newDataString = JsonUtility.ToJson(new ProfileData());
+            File.WriteAllText(jsonFilePath, newDataString);
+        }
+        var dataString = File.ReadAllText(jsonFilePath);
+        var loadedData = JsonUtility.FromJson<ProfileData>(dataString);
+        return loadedData;
+    }
+    
+    private static string DataPath()
+    {
+        return Path.Combine(Directory.Exists(Application.persistentDataPath) ? Application.persistentDataPath : Application.streamingAssetsPath, Constants.JSON_FILE_NAME);
+    }
 
-    public static System.Tuple<int, List<int>> GetLastRowAndColors(GameObject[,] objects, int rows, int columns)
+    public static Tuple<int, List<int>> GetLastRowAndColors(GameObject[,] objects, int rows, int columns)
     {
         var lastRow = 0;
         var listColors = new List<int>();
@@ -32,18 +63,16 @@ public static class Helpers
                 {
                     continue;
                 }
-                else
+
+                var newKind = objects[c, r].GetComponent<GridMember>().kind;
+                if (!listColors.Contains(newKind))
                 {
-                    var newKind = objects[c, r].GetComponent<GridMember>().kind;
-                    if (!listColors.Contains(newKind))
-                    {
-                        listColors.Add(newKind);
-                    }
-                    lastRow = r;
+                    listColors.Add(newKind);
                 }
+                lastRow = r;
             }
         }
-        return System.Tuple.Create(lastRow, listColors);
+        return Tuple.Create(lastRow, listColors);
     }
 
     public static Vector2 GetAccuratePos(Vector2 position)

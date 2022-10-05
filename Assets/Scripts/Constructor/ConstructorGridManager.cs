@@ -87,7 +87,7 @@ public class ConstructorGridManager : BaseGridManager
     {
         FileBrowser.ShowLoadDialog((path) =>
         {
-            string fileContents = File.ReadAllText(path[0]);
+            var fileContents = File.ReadAllText(path[0]);
             var gameData = JsonUtility.FromJson<SaveData>(fileContents);
             ballCountText.text = gameData.playerBallCount.ToString();
             foreach (var data in gameData.bubbles)

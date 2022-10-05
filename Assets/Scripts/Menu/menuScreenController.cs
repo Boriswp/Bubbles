@@ -12,11 +12,8 @@ public class menuScreenController : AdModule
     private void Awake()
     {
         Application.targetFrameRate = 60;
-#if UNITY_WEBGL
-     exit.SetActive(false);
-     settings.SetActive(false);
-#endif
         MobileAds.Initialize(initStatus => { });
+        var profileData = Helpers.ReadProfileDataFromJson();
     }
 
 
@@ -32,9 +29,5 @@ public class menuScreenController : AdModule
     {
         SceneManager.LoadScene(MissionsScene);
     }
-
-    public void ExitGame()
-    {
-        Application.Quit();
-    }
+    
 }
