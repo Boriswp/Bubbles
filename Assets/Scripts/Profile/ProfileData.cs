@@ -7,6 +7,7 @@ public class ProfileData
     public int Lives = 5;
     public float Time_to_lives_respawn;
     public float Time_to_get_reward;
+    public int money;
     public int Stars_Count;
     public int Bonus_Bombs_Count;
     public int Bonus_Lighting_Count;
