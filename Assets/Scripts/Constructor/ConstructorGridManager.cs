@@ -10,12 +10,15 @@ public class ConstructorGridManager : BaseGridManager
     const int ROW_MAX = 20;
 
     public TMP_InputField ballCountText;
-
+    public TMP_InputField oneStarScore;
+    public TMP_InputField twoStarScore;
+    public TMP_InputField threeStarScore;
 
 
     private void Awake()
     {
         grid = new GameObject[COL_MAX, ROW_MAX];
+        LoadRes();
     }
 
     public void DeleteThis(Vector2 position)
@@ -90,6 +93,9 @@ public class ConstructorGridManager : BaseGridManager
             var fileContents = File.ReadAllText(path[0]);
             var gameData = JsonUtility.FromJson<SaveData>(fileContents);
             ballCountText.text = gameData.playerBallCount.ToString();
+            oneStarScore.text = gameData.oneStarScore.ToString();
+            twoStarScore.text = gameData.twoStarScore.ToString();
+            threeStarScore.text = gameData.threeStarScore.ToString();
             foreach (var data in gameData.bubbles)
             {
                 Creator(data.column, data.row, data.kind);
@@ -116,10 +122,16 @@ public class ConstructorGridManager : BaseGridManager
                 bubbles.Add(bubbleToSave);
             }
         }
-        int.TryParse(ballCountText.text, out var count);
+        int.TryParse(ballCountText.text, out var ballCount);
+        int.TryParse(oneStarScore.text, out var oneScore);
+        int.TryParse(twoStarScore.text, out var twoScore);
+        int.TryParse(threeStarScore.text, out var threeScore);
         var saveData = new SaveData
         {
-            playerBallCount = count,
+            playerBallCount = ballCount,
+            oneStarScore = oneScore,
+            twoStarScore = twoScore,
+            threeStarScore = threeScore,
             columnCount = COL_MAX,
             rowCount = ROW_MAX,
             bubbles = bubbles
