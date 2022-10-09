@@ -21,7 +21,7 @@ public class Movement : MonoBehaviour
         _objectToSetPosition = Instantiate(ball, transform.position , Quaternion.identity);
         if (kind == -1) return;
         var spriteRenderer = _objectToSetPosition.GetComponent<SpriteRenderer>();
-        spriteRenderer.color = BaseGridManager.ColorArray[kind];
+        spriteRenderer.sprite = BaseGridManager.SpriteArray[kind];
     }
 
     private void OnMouseDrag()
