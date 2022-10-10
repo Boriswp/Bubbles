@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using UnityEditor.ShaderGraph.Serialization;
 using UnityEngine;
 
 public class menuCameraMovement : MonoBehaviour
@@ -6,17 +8,40 @@ public class menuCameraMovement : MonoBehaviour
     private Vector3 hit_position = Vector3.zero;
     private Vector3 current_position = Vector3.zero;
     private Vector3 camera_position = Vector3.zero;
-    private float z = 0.0f;
+    private readonly float z = 0.0f;
     public GameObject[] segmentsToSpawn;
-    private List<GameObject> spawnedSegments;
+    private List<GameObject> spawnedSegments = new();
     private int currentObject;
-    public float stepSize = 20.45f;
+    private int totalObjects;
+    public float stepSize = 20.4f;
+    private Camera cameraMain;
+    private float previousPos;
 
-    private void Update(){
+    private void Awake()
+    {
+        if (DataLoader.isInitialize)
+        {
+            Initialization();
+        }
+        DataLoader.onDataInitialize += Initialization;
+    }
+
+    private void OnDisable()
+    {
+        DataLoader.onDataInitialize -= Initialization;
+    }
+
+    private void Initialization()
+    {
+        cameraMain = Camera.main;
+        totalObjects = (DataLoader.lvls.Length - 1) / 13 + 1;
+        spawnObjects();
+    }
+
+    private void FixedUpdate(){
         if(Input.GetMouseButtonDown(0)){
             hit_position = Input.mousePosition;
             camera_position = transform.position;
-
         }
 
         if (!Input.GetMouseButton(0)) return;
@@ -27,45 +52,43 @@ public class menuCameraMovement : MonoBehaviour
     private void LeftMouseDrag(){
   
         current_position.z = hit_position.z = camera_position.y;
-        var cameraMain = Camera.main;
         if (cameraMain == null) return;
         var direction = new Vector3(transform.position.x,(cameraMain.ScreenToWorldPoint(current_position) - cameraMain.ScreenToWorldPoint(hit_position)).y,z);
         
       
         // Invert direction to that terrain appears to move with the mouse.
         direction *= -1;
-
-        spawnObjects(direction.y);
+        
         var position = camera_position + direction;
 
+        if(position.y<-1) return;
+        spawnObjects();
         transform.position = position;
     }
 
 
-    
-    void spawnObjects(float direction)
+    private void spawnObjects()
     {
-        if (transform.position.y % 90 == 0&&transform.position.y!=0)
+        var pos = transform.position.y;
+        if( pos%60 > Mathf.Epsilon+1||previousPos>pos)
         {
-            Destroy(spawnedSegments[0]);
-            Destroy(spawnedSegments[1]);
-            Destroy(spawnedSegments[2]);
-            spawnedSegments.RemoveRange(0,3);
+            return;
         }
-
-        if (transform.position.y % 40 != 0) return;
-        var gameObjectList = new List<GameObject>();
+           
         for (var i = 0; i < 3; i++)
         {
-            gameObjectList.Add(Instantiate(segmentsToSpawn[currentObject]));
-            gameObjectList[^1].transform.position = gameObjectList[^2].transform.position + new Vector3(0, stepSize , 0);
+            if(totalObjects < spawnedSegments.Count) return;
+            spawnedSegments.Add(Instantiate(segmentsToSpawn[currentObject]));
             currentObject++;
-            if (currentObject > 5)
+            if (currentObject > 4)
             {
                 currentObject = 0;
             }
+            if(spawnedSegments.Count<=1) continue;
+            spawnedSegments[^1].transform.position =
+                spawnedSegments[^2].transform.position + new Vector3(0, stepSize, 0);
         }
-        spawnedSegments.AddRange(gameObjectList);
+        previousPos = pos;
     }
 }
 

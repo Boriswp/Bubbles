@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class BaseGridManager : MonoBehaviour
 {
-    public float gap;
     public GameObject bubble;
     protected GameObject[,] grid;
     public GameObject initialPos;
@@ -13,9 +12,9 @@ public class BaseGridManager : MonoBehaviour
     protected readonly int[] deltaxprime = { 1, 0, 1, 0, -1, 1 };
     protected readonly int[] deltay = { -1, -1, 1, 1, 0, 0 }; 
 
-    protected void LoadRes()
+    protected void LoadSpriteRes()
     {
-        var usualSpites =   Resources.LoadAll<Sprite>("bubbles");
+        var usualSpites = Resources.LoadAll<Sprite>("bubbles");
         var special = Resources.LoadAll<Sprite>("special");
         SpriteArray = new Sprite[special.Length + usualSpites.Length];
         usualSpites.CopyTo(SpriteArray,0);
@@ -26,15 +25,15 @@ public class BaseGridManager : MonoBehaviour
     {
         var snappedPosition = Snap(position);
         var position1 = initialPos.transform.position;
-            var row = (int)Mathf.Round((snappedPosition.y - position1.y) / gap);
+            var row = (int)Mathf.Round((snappedPosition.y - position1.y) / Constants.GAP);
             int column;
             if (row % 2 != 0)
             {
-                column = (int)Mathf.Round((snappedPosition.x - position1.x) / gap + gap);
+                column = (int)Mathf.Round((snappedPosition.x - position1.x) / Constants.GAP + Constants.GAP);
             }
             else
             {
-                column = (int)Mathf.Round((snappedPosition.x - position1.x) / gap);
+                column = (int)Mathf.Round((snappedPosition.x - position1.x) / Constants.GAP);
             }
 
             try
@@ -70,19 +69,19 @@ public class BaseGridManager : MonoBehaviour
     {
         var objectOffset = position - initialPos.transform.position;
         var objectSnap = new Vector3(
-            Mathf.Round(objectOffset.x / gap),
-            Mathf.Round(objectOffset.y / gap),
+            Mathf.Round(objectOffset.x / Constants.GAP),
+            Mathf.Round(objectOffset.y / Constants.GAP),
             0f
         );
-        if ((int)objectSnap.y % 2 == 0) return initialPos.transform.position + objectSnap * gap;
+        if ((int)objectSnap.y % 2 == 0) return initialPos.transform.position + objectSnap * Constants.GAP;
         if (objectOffset.x > objectSnap.x * 0.5f)
         {
-            objectSnap.x += gap;
+            objectSnap.x += Constants.GAP;
         }
         else
         {
-            objectSnap.x -= gap;
+            objectSnap.x -= Constants.GAP;
         }
-        return initialPos.transform.position + objectSnap * gap;
+        return initialPos.transform.position + objectSnap * Constants.GAP;
     }
 }

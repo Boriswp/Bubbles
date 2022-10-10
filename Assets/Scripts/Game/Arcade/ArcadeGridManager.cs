@@ -11,11 +11,11 @@ public class ArcadeGridManager : BaseGameGridManager
 	private void Awake()
 	{
 		ROW_MAX = rows*4;
-		grid = new GameObject[columns, ROW_MAX];
+		grid = new GameObject[Constants.COLUMNS, ROW_MAX];
 
 		for (var r = 0; r < rows; r++)
 		{
-			for (var c = 0; c < columns; c++)
+			for (var c = 0; c < Constants.COLUMNS; c++)
 			{
 				Creator(c, r);
 			}
@@ -28,7 +28,7 @@ public class ArcadeGridManager : BaseGameGridManager
 		if (!ready) return;
 		for (var r = ROW_MAX-2; r >= 0; r--)
 		{
-			for (var c = 0; c < columns; c++)
+			for (var c = 0; c < Constants.COLUMNS; c++)
 			{
 				grid[c, r + 1] = grid[c, r];
 				if (grid[c, r + 1] == null) continue;
@@ -40,11 +40,11 @@ public class ArcadeGridManager : BaseGameGridManager
 					onGameOver?.Invoke();
 					return;
 				}
-				var snappedPosition = Snap(new Vector3(c * gap, -(r + 1) * gap, 0f) + initialPos.transform.position);
+				var snappedPosition = Snap(new Vector3(c * Constants.GAP, -(r + 1) * Constants.GAP, 0f) + initialPos.transform.position);
 				StartCoroutine(Helpers.SmoothLerp(0.25F, grid[c, r + 1].transform, snappedPosition));
 			}
 		}
-		for (var c = 0; c < columns; c++)
+		for (var c = 0; c < Constants.COLUMNS; c++)
 		{
 			Creator(c, 0);
 		}

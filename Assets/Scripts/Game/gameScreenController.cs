@@ -40,7 +40,7 @@ public class gameScreenController : AdModule
     public void ReloadScene()
     {
         Time.timeScale = 1f;
-        Scene scene = SceneManager.GetActiveScene(); 
+        var scene = SceneManager.GetActiveScene(); 
         SceneManager.LoadScene(scene.name);
     }
 

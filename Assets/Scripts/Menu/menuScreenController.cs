@@ -13,7 +13,6 @@ public class menuScreenController : AdModule
     {
         Application.targetFrameRate = 60;
         MobileAds.Initialize(initStatus => { });
-        var profileData = Helpers.ReadProfileDataFromJson();
     }
 
 

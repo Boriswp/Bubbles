@@ -6,7 +6,6 @@ using TMPro;
 
 public class ConstructorGridManager : BaseGridManager
 {
-    const int COL_MAX = 8;
     const int ROW_MAX = 20;
 
     public TMP_InputField ballCountText;
@@ -17,23 +16,23 @@ public class ConstructorGridManager : BaseGridManager
 
     private void Awake()
     {
-        grid = new GameObject[COL_MAX, ROW_MAX];
-        LoadRes();
+        grid = new GameObject[Constants.COLUMNS, ROW_MAX];
+        LoadSpriteRes();
     }
 
     public void DeleteThis(Vector2 position)
     {
         var snappedPosition = Snap(position);
         var position1 = initialPos.transform.position;
-        var row = (int)Mathf.Round((snappedPosition.y - position1.y) / gap);
+        var row = (int)Mathf.Round((snappedPosition.y - position1.y) / Constants.GAP);
         int column;
         if (row % 2 != 0)
         {
-            column = (int)Mathf.Round((snappedPosition.x - position1.x) / gap + gap);
+            column = (int)Mathf.Round((snappedPosition.x - position1.x) / Constants.GAP + Constants.GAP);
         }
         else
         {
-            column = (int)Mathf.Round((snappedPosition.x - position1.x) / gap);
+            column = (int)Mathf.Round((snappedPosition.x - position1.x) / Constants.GAP);
         }
         try
         {
@@ -51,7 +50,7 @@ public class ConstructorGridManager : BaseGridManager
     {
         for (var r = 0; r < ROW_MAX; r++)
         {
-            for (var c = 0; c < COL_MAX; c++)
+            for (var c = 0; c < Constants.COLUMNS; c++)
             {
                 if (grid[c, r] == null) continue;
                 Destroy(grid[c, r]);
@@ -73,7 +72,7 @@ public class ConstructorGridManager : BaseGridManager
 
     public void Creator(int column, int row, List<int> kinds)
     {
-        var position = new Vector3(column * gap, -row * gap, 0f) + initialPos.transform.position;
+        var position = new Vector3(column * Constants.GAP, -row * Constants.GAP, 0f) + initialPos.transform.position;
         var index = Random.Range(0, kinds.Count);
         var newKind = kinds[index];
 
@@ -82,7 +81,7 @@ public class ConstructorGridManager : BaseGridManager
 
     public void Creator(int column, int row, int kind)
     {
-        var position = new Vector3(column * gap, row * gap, 0f) + initialPos.transform.position;
+        var position = new Vector3(column * Constants.GAP, row * Constants.GAP, 0f) + initialPos.transform.position;
         Create(position, kind, false);
     }
 
@@ -109,7 +108,7 @@ public class ConstructorGridManager : BaseGridManager
         var bubbles = new List<BubbleSerialized>();
         for (var r = 0; r < ROW_MAX; r++)
         {
-            for (var c = 0; c < COL_MAX; c++)
+            for (var c = 0; c < Constants.COLUMNS; c++)
             {
                 if (grid[c, r] == null) continue;
                 var gridMember = grid[c, r].GetComponent<GridMember>();
@@ -132,7 +131,7 @@ public class ConstructorGridManager : BaseGridManager
             oneStarScore = oneScore,
             twoStarScore = twoScore,
             threeStarScore = threeScore,
-            columnCount = COL_MAX,
+            columnCount = Constants.COLUMNS,
             rowCount = ROW_MAX,
             bubbles = bubbles
         };
