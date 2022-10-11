@@ -12,7 +12,8 @@ public class Launcher : MonoBehaviour
     public int maximumReflectionCount = 5;
     public float maximumRayCastDistance = 50f;
     private int currentKindColor;
-    private bool isSpecialBall = false;
+    private bool isSpecialBall;
+    private bool firstLaunch = true;
     private int nextKindColor;
     LineRenderer lineRenderer;
     readonly List<Vector3> reflectionPositions = new();
@@ -39,6 +40,7 @@ public class Launcher : MonoBehaviour
     public void UnSetUpSpecialBall()
     {
         isSpecialBall = false;
+        Destroy(load);
         Load();
     }
 
@@ -68,14 +70,19 @@ public class Launcher : MonoBehaviour
         DrawCurrentTrajectory(delta);
     }
 
-    public void Load()
+    private void Load()
     {
         
         var colorArray = gameGridManager.UpdateLvlInfo(isSpecialBall);
         if (!isSpecialBall)
         {
-            //if (load != null) return;
             nextColorBall.SetActive(true);
+            if (firstLaunch)
+            {    var index = Random.Range(0, colorArray.Count);
+                nextKindColor = colorArray[index];
+                firstLaunch = false;
+
+            }
             currentKindColor = nextKindColor;
             if (colorArray.Count > 0)
             {

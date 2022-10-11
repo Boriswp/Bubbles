@@ -235,7 +235,7 @@ public class BaseGameGridManager : BaseGridManager
                 var neighbor = new int[2];
                 neighbor[0] = top[1] % 2 != 0 ? top[0] + deltax[i] : top[0] + deltaxprime[i];
                 neighbor[1] = top[1] + deltay[i];
-                if (neighbor[0] >= Constants.GAP || neighbor[1] >= ROW_MAX || neighbor[0] < 0 || neighbor[1] < 0)
+                if (neighbor[0] >= Constants.COLUMNS || neighbor[1] >= ROW_MAX || neighbor[0] < 0 || neighbor[1] < 0)
                 {
                     continue;
                 }

@@ -44,7 +44,7 @@ public class gameScreenController : AdModule
         SceneManager.LoadScene(scene.name);
     }
 
-    public void ShowLoseScreen()
+    private void ShowLoseScreen()
     {
         Time.timeScale = 0f;
         fireButton.SetActive(false);

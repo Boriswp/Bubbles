@@ -6,6 +6,7 @@ public static class DataLoader
 {
    public static bool isInitialize = false;
    public static int currentLvl = 0;
+   public static int lvlToload = 0;
    public static TextAsset[] lvls;
    public static ProfileData profileData;
 
@@ -19,7 +20,7 @@ public static class DataLoader
       Debug.Log(lvls.Length);
       profileData = Helpers.ReadProfileDataFromJson();
       isInitialize = true;
-      onDataInitialize.Invoke();
+      onDataInitialize?.Invoke();
    }
 
 }

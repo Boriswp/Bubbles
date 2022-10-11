@@ -10,10 +10,12 @@ public class GeneratorController : MonoBehaviour
     private bool isMagenta = true;
     private bool isCyan = true;
     private bool isYellow = true;
+    private bool isViolet = true;
+    private bool isBlue = true;
     private int rowFrom = 0;
     private int rowTo = 10;
     private int columnFrom = 0;
-    private int columnTo = 8;
+    private int columnTo = Constants.COLUMNS;
     private List<int> kindList = new();
 
 
@@ -34,6 +36,8 @@ public class GeneratorController : MonoBehaviour
     public void ToggleYellowColor(bool isEnabled) => isYellow = isEnabled;
 
     public void ToggleMagentaColor(bool isEnabled) => isMagenta = isEnabled;
+    public void ToggleBlueColor(bool isEnabled) => isBlue = isEnabled;
+    public void ToggleVioletColor(bool isEnabled) => isViolet = isEnabled;
 
 
     public void GenerateLVL()
@@ -59,6 +63,14 @@ public class GeneratorController : MonoBehaviour
         if (isMagenta)
         {
             kindList.Add(4);
+        }
+        if (isBlue)
+        {
+            kindList.Add(5);
+        }
+        if (isViolet)
+        {
+            kindList.Add(6);
         }
         if (kindList.Count == 0) return;
         gridManager.Generate(kindList,rowFrom,rowTo,columnFrom,columnTo);

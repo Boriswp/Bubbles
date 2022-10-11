@@ -6,6 +6,7 @@ using UnityEngine;
 public class missionScreenController : gameScreenController
 {
     public TextMeshProUGUI ballCounter;
+    public GameObject WinScreen;
     private new void OnEnable()
     {
         BaseGameGridManager.onGameWin += ShowWinScreen;
@@ -16,7 +17,7 @@ public class missionScreenController : gameScreenController
     private new void OnDisable()
     {
         BaseGameGridManager.onGameWin -= ShowWinScreen;
-        MissionGridManager.onUpdateBallCount-=UpdateBallCount;
+        MissionGridManager.onUpdateBallCount -= UpdateBallCount;
         base.OnDisable();
     }
 
@@ -24,11 +25,11 @@ public class missionScreenController : gameScreenController
     {
         ballCounter.text = count.ToString();
     }
-
+    
+    
     public void ShowWinScreen()
     {
-        Time.timeScale = 0f;
         fireButton.SetActive(false);
-        LoseScreen.SetActive(true);
+        WinScreen.SetActive(true);
     }
 }

@@ -1,6 +1,5 @@
-using System;
+
 using System.Collections.Generic;
-using UnityEditor.ShaderGraph.Serialization;
 using UnityEngine;
 
 public class menuCameraMovement : MonoBehaviour
@@ -12,6 +11,7 @@ public class menuCameraMovement : MonoBehaviour
     public GameObject[] segmentsToSpawn;
     private List<GameObject> spawnedSegments = new();
     private int currentObject;
+    private int counter = 0;
     private int totalObjects;
     public float stepSize = 20.4f;
     private Camera cameraMain;
@@ -77,12 +77,21 @@ public class menuCameraMovement : MonoBehaviour
            
         for (var i = 0; i < 3; i++)
         {
-            if(totalObjects < spawnedSegments.Count) return;
+            if(totalObjects <= spawnedSegments.Count) return;
             spawnedSegments.Add(Instantiate(segmentsToSpawn[currentObject]));
             currentObject++;
             if (currentObject > 4)
             {
                 currentObject = 0;
+            }
+
+            var buttons = spawnedSegments[^1].GetComponentsInChildren<menuButtonController>();
+            foreach (var button in buttons)
+            {
+                Debug.Log(counter);
+                if(counter > DataLoader.lvls.Length - 1)  button.setUpLvl(-1,0,false);;
+                button.setUpLvl(counter,0,false);
+                counter++;
             }
             if(spawnedSegments.Count<=1) continue;
             spawnedSegments[^1].transform.position =
