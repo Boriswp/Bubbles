@@ -8,28 +8,44 @@ using UnityEngine.SceneManagement;
 public class menuButtonController : MonoBehaviour
 {
     private int lvl = -1;
+    private bool isActive = true;
     public TextMeshProUGUI LvlText;
     public Sprite passedLvl;
     public Sprite currLvl;
+    public GameObject ballCurrLvl;
+    public GameObject[] stars;
+    
     
 
-    public void setUpLvl(int lvlIndexArray,int starsCount,bool isCurrentLvl)
-    {   if(lvlIndexArray==-1) gameObject.SetActive(false);
+    public void setUpLvl(int lvlIndexArray,int starsCount,bool isCurrentLvl, bool playable)
+    {
+        isActive = playable;
+        if (lvlIndexArray == -1)
+        {
+            gameObject.SetActive(false);
+            return;
+        }
         LvlText.text = (lvlIndexArray+1).ToString();
-        if (currLvl)
+        lvl = lvlIndexArray;
+        if (isCurrentLvl)
         {
             GetComponent<SpriteRenderer>().sprite = currLvl;
+            ballCurrLvl.SetActive(true);
+            LvlText.color = Color.green;
+            return;
         }
 
         if (starsCount > 0)
         {
             GetComponent<SpriteRenderer>().sprite =passedLvl;
+            LvlText.color = Color.red;
         }
-        lvl = lvlIndexArray;
+        stars[starsCount].gameObject.SetActive(isActive);
     }
     
     void OnMouseDown()
     {
+        if(!isActive) return;
         DataLoader.lvlToload = lvl;
         SceneManager.LoadScene("Levels");
     }

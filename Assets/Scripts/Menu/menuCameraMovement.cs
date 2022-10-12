@@ -1,5 +1,6 @@
 
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class menuCameraMovement : MonoBehaviour
@@ -11,7 +12,7 @@ public class menuCameraMovement : MonoBehaviour
     public GameObject[] segmentsToSpawn;
     private List<GameObject> spawnedSegments = new();
     private int currentObject;
-    private int counter = 0;
+    private int counter;
     private int totalObjects;
     public float stepSize = 20.4f;
     private Camera cameraMain;
@@ -35,7 +36,7 @@ public class menuCameraMovement : MonoBehaviour
     {
         cameraMain = Camera.main;
         totalObjects = (DataLoader.lvls.Length - 1) / 13 + 1;
-        spawnObjects();
+        SpawnObjects();
     }
 
     private void FixedUpdate(){
@@ -55,22 +56,22 @@ public class menuCameraMovement : MonoBehaviour
         if (cameraMain == null) return;
         var direction = new Vector3(transform.position.x,(cameraMain.ScreenToWorldPoint(current_position) - cameraMain.ScreenToWorldPoint(hit_position)).y,z);
         
-      
         // Invert direction to that terrain appears to move with the mouse.
         direction *= -1;
         
         var position = camera_position + direction;
 
         if(position.y<-1) return;
-        spawnObjects();
+        SpawnObjects();
         transform.position = position;
     }
 
 
-    private void spawnObjects()
+    private void SpawnObjects()
     {
         var pos = transform.position.y;
-        if( pos%60 > Mathf.Epsilon+1||previousPos>pos)
+        
+        if(pos%60 > Mathf.Epsilon+1||previousPos>pos)
         {
             return;
         }
@@ -88,12 +89,11 @@ public class menuCameraMovement : MonoBehaviour
             var buttons = spawnedSegments[^1].GetComponentsInChildren<menuButtonController>();
             foreach (var button in buttons)
             {
-                Debug.Log(counter);
-                if(counter > DataLoader.lvls.Length - 1)  button.setUpLvl(-1,0,false);;
-                button.setUpLvl(counter,0,false);
+                if(counter > DataLoader.lvls.Length - 1)  button.setUpLvl(-1,0,false,false);;
+                button.setUpLvl(counter,DataLoader.GetStarsCount(counter),counter==DataLoader.GetCurrentLvl(), counter<=DataLoader.GetCurrentLvl());
                 counter++;
             }
-            if(spawnedSegments.Count<=1) continue;
+            if(spawnedSegments.Count <= 1) continue;
             spawnedSegments[^1].transform.position =
                 spawnedSegments[^2].transform.position + new Vector3(0, stepSize, 0);
         }

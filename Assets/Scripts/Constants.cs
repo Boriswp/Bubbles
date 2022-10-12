@@ -11,4 +11,5 @@
     public const float GAP = 0.485f;
     public const int COLUMNS = 11;
     public const string JSON_FILE_NAME = "profile_data.json";
+    public const int MAX_LIFES = 7;
 }

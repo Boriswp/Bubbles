@@ -6,6 +6,9 @@ using UnityEngine;
 public class BaseGameGridManager : BaseGridManager
 {
     protected int _counterScore;
+    protected int scoreOne;
+    protected int scoreTwo;
+    protected int scoreThree;
     protected int _counterBalls;
     public int rows;
     public int loseCountRow = 13;
@@ -21,7 +24,7 @@ public class BaseGameGridManager : BaseGridManager
     public delegate void OnUpdateTarget(Vector2 target);
     public static OnUpdateTarget onUpdateTarget;
 
-    public delegate void OnUpdateScore(int score,int balls);
+    public delegate void OnUpdateScore(int score,int balls, int stars);
     public static OnUpdateScore onUpdateScore;
 
     public delegate void OnReadyToLoad();
@@ -280,7 +283,7 @@ public class BaseGameGridManager : BaseGridManager
                 gm.enabled = true;
                 gm.state = BubbleState.Pop;
             }
-            onUpdateScore?.Invoke(_counterScore, _counterBalls);
+            onUpdateScore?.Invoke(_counterScore, _counterBalls, Helpers.calculateStars(_counterBalls,scoreOne,scoreTwo,scoreThree));
             var audioSource = GetComponent<AudioSource>();
             audioSource.Play();
         }
@@ -322,6 +325,6 @@ public class BaseGameGridManager : BaseGridManager
                 gm.state = BubbleState.Explode;
             }
         }
-        onUpdateScore?.Invoke(_counterScore, _counterBalls);
+        onUpdateScore?.Invoke(_counterScore, _counterBalls, Helpers.calculateStars(_counterBalls,scoreOne,scoreTwo,scoreThree));
     }
 }

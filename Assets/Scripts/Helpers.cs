@@ -45,6 +45,21 @@ public static class Helpers
         var loadedData = JsonUtility.FromJson<ProfileData>(dataString);
         return loadedData;
     }
+
+    public static int calculateStars(int score, int scoreOne, int scoreTwo, int scoreThree)
+    {
+        if (score >= scoreOne && score < scoreTwo)
+        {
+            return 1;
+        }
+
+        if (score >= scoreTwo && score < scoreThree)
+        {
+            return 2;
+        }
+
+        return score>=scoreThree ? 3 : 0;
+    }
     
     private static string DataPath()
     {

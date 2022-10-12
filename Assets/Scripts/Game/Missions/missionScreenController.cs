@@ -1,8 +1,8 @@
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
+using System.Collections.Generic;
 public class missionScreenController : gameScreenController
 {
     public TextMeshProUGUI ballCounter;
@@ -29,6 +29,7 @@ public class missionScreenController : gameScreenController
     
     public void ShowWinScreen()
     {
+        DataLoader.setStarsToLVL(starsCount);
         fireButton.SetActive(false);
         WinScreen.SetActive(true);
     }

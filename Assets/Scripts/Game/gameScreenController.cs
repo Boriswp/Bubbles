@@ -7,6 +7,8 @@ public class gameScreenController : AdModule
     public GameObject fireButton;
     public GameObject PauseMenu;
     public GameObject LoseScreen;
+    public int starsCount = 0;
+    
     public TextMeshProUGUI textCounterScore;
     public TextMeshProUGUI textCounterBalls;
     public TextMeshProUGUI EndCounter;
@@ -24,9 +26,10 @@ public class gameScreenController : AdModule
         BaseGameGridManager.onUpdateScore -= UpdateScore;
     }
 
-    public void UpdateScore(int score,int balls)
+    public void UpdateScore(int score,int balls, int newStarsCount)
     {
         textCounterScore.text = score.ToString();
+        starsCount = newStarsCount;
         textCounterBalls.text = balls.ToString();
     }
 

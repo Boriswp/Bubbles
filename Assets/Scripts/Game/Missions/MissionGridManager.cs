@@ -23,7 +23,7 @@ public class MissionGridManager : BaseGameGridManager
         _ballcount = lvl.playerBallCount;
         _counterBalls = lvl.bubbles.Count;
         onUpdateBallCount.Invoke(_ballcount);
-        onUpdateScore.Invoke(0,_counterBalls);
+        onUpdateScore.Invoke(0,_counterBalls,0);
         onReadyToLoad?.Invoke();
     }
 

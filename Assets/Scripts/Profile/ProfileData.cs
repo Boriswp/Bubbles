@@ -4,7 +4,7 @@ using System.Collections.Generic;
 [System.Serializable]
 public class ProfileData
 {
-    public int Lives = 5;
+    public int Lifes = 7;
     public float Time_to_lives_respawn;
     public float Time_to_get_reward;
     public int money;
