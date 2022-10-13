@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -31,6 +32,7 @@ public class menuButtonController : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().sprite = currLvl;
             ballCurrLvl.SetActive(true);
+            ballCurrLvl.transform.DOMove(ballCurrLvl.transform.position - new Vector3(0,-0.25f,0), 1).SetLoops(-1, LoopType.Yoyo);
             LvlText.color = Color.green;
             return;
         }

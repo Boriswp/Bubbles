@@ -19,10 +19,27 @@ public static class DataLoader
       isInitialize = true;
       onDataInitialize?.Invoke();
    }
+   
+   public static void SetCurrentTime(long time)
+   {
+      profileData.Time_to_lives_respawn = time;
+      Helpers.WriteProfileDataToJson(profileData);
+   }
 
+   public static long GetTime()
+   {
+      return  profileData.Time_to_lives_respawn;
+
+   }
+   
    public static int GetStarsCount(int index)
    {
       return index >= profileData.Passed_Lvls.Count ? 0 : profileData.Passed_Lvls[index];
+   }
+
+   public static int GetLifeCount()
+   {
+      return profileData.Lifes;
    }
    
 

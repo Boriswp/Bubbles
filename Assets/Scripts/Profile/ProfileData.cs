@@ -5,8 +5,8 @@ using System.Collections.Generic;
 public class ProfileData
 {
     public int Lifes = 7;
-    public float Time_to_lives_respawn;
-    public float Time_to_get_reward;
+    public long Time_to_lives_respawn;
+    public long Time_to_get_reward;
     public int money;
     public int Stars_Count;
     public int Bonus_Bombs_Count;
