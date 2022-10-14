@@ -16,8 +16,10 @@ public class HeartSystem : MonoBehaviour
     {
         var savedTime = DataLoader.GetTime();
 
-        var timeSpan = DateTime.UtcNow.Ticks - savedTime;
-        var lifeCount = (int)(timeSpan % time);
+        var timeSpan = (DateTime.UtcNow.Ticks - savedTime)/10000000;
+        Debug.Log(timeSpan);
+        var lifeCount = (int)(timeSpan / time);
+        Debug.Log(lifeCount);
         var totalLifeCount = lifeCount + DataLoader.GetLifeCount();
         if (totalLifeCount > Constants.MAX_LIFES)
         {
@@ -27,6 +29,11 @@ public class HeartSystem : MonoBehaviour
         DataLoader.setCurrentLifesCount(totalLifeCount);
         _timeLeft = time;
         _timerOn = true;
+    }
+
+    private void OnDisable()
+    {
+        DataLoader.SetCurrentTime(DateTime.UtcNow.Ticks);
     }
 
     private void OnApplicationPause(bool pauseStatus)

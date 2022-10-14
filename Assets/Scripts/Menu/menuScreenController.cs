@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using GoogleMobileAds.Api;
@@ -6,13 +7,17 @@ using UnityEngine;
 
 public class menuScreenController : AdModule
 {
-    public GameObject exit;
-    public GameObject settings;
-
+    public GameObject LvlDetails;
     private void Awake()
     {
         Application.targetFrameRate = 60;
         MobileAds.Initialize(initStatus => { });
+        menuButtonController.onOpenLvlScreen += ShowLevelDetails;
+    }
+
+    private void OnDisable()
+    {
+        menuButtonController.onOpenLvlScreen -= ShowLevelDetails;
     }
 
 
@@ -24,9 +29,25 @@ public class menuScreenController : AdModule
         SceneManager.LoadScene(ArcadeScene);
     }
 
-    public void LoadMissionsScene()
+    public void ShowLevelDetails(int lvl)
     {
-        SceneManager.LoadScene(MissionsScene);
+        var currLvl  = lvl == -1 ? DataLoader.GetCurrentLvl() : lvl;
+        LvlDetails.SetActive(true);
+        LvlDetails.GetComponent<menuLvlDetailsController>().SetLvlDetails(currLvl,DataLoader.GetStarsCount(currLvl));
+        DataLoader.lvlToload = currLvl;
     }
     
+    public void LoadMissionsScene()
+    {
+        var currLife = DataLoader.GetLifeCount();
+        if (currLife > 0)
+        { 
+            DataLoader.setCurrentLifesCount(--currLife);
+            SceneManager.LoadScene(MissionsScene);
+        }
+        else
+        {
+            //TODO MotivtionScreen
+        }
+    }
 }

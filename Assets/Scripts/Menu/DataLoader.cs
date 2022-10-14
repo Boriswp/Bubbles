@@ -45,13 +45,14 @@ public static class DataLoader
 
    public static void setCurrentLifesCount(int lifesCount)
    {
+      Debug.Log(lifesCount);
       profileData.Lifes = lifesCount;
       Helpers.WriteProfileDataToJson(profileData);
    }
 
    public static void setStarsToLVL(int starsCount)
    {
-      if (profileData.Passed_Lvls.Count>=lvlToload)
+      if (profileData.Passed_Lvls.Count<lvlToload)
       {
          profileData.Passed_Lvls.Add(lvlToload);
       }

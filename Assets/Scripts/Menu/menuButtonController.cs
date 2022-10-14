@@ -15,6 +15,8 @@ public class menuButtonController : MonoBehaviour
     public Sprite currLvl;
     public GameObject ballCurrLvl;
     public GameObject[] stars;
+    public delegate void OnOpenLvlScreen(int Lvl);
+    public static OnOpenLvlScreen onOpenLvlScreen;
     
     
 
@@ -39,7 +41,7 @@ public class menuButtonController : MonoBehaviour
 
         if (starsCount > 0)
         {
-            GetComponent<SpriteRenderer>().sprite =passedLvl;
+            GetComponent<SpriteRenderer>().sprite = passedLvl;
             LvlText.color = Color.red;
         }
         stars[starsCount].gameObject.SetActive(isActive);
@@ -48,7 +50,6 @@ public class menuButtonController : MonoBehaviour
     void OnMouseDown()
     {
         if(!isActive) return;
-        DataLoader.lvlToload = lvl;
-        SceneManager.LoadScene("Levels");
+        onOpenLvlScreen.Invoke(lvl);
     }
 }
