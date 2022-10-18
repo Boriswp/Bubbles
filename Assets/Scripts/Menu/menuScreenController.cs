@@ -11,8 +11,12 @@ public class menuScreenController : AdModule
     private void Awake()
     {
         Application.targetFrameRate = 60;
-        MobileAds.Initialize(initStatus => { });
         menuButtonController.onOpenLvlScreen += ShowLevelDetails;
+
+#if UNITY_ANDROID || UNITY_IOS
+        MobileAds.Initialize(initStatus => { });
+#endif
+
     }
 
     private void OnDisable()

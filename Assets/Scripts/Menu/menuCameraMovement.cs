@@ -45,7 +45,19 @@ public class menuCameraMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-#if UNITY_EDITOR
+#if UNITY_EDITOR 
+        mouseLogic();
+#elif UNITY_WEBGL
+     if(Input.touchSupported){
+      touchLogic();
+     }else{ mouseLogic(); }
+#else
+      touchLogic();
+#endif
+    }
+
+    private void mouseLogic()
+    {
         if (Input.GetMouseButtonDown(0))
         {
             hit_position = Input.mousePosition;
@@ -56,8 +68,12 @@ public class menuCameraMovement : MonoBehaviour
         current_position = Input.mousePosition;
 
         LeftMouseDrag();
-#else
-        if (Input.touchCount == 1) {
+    }
+
+    private void touchLogic()
+    {
+        if (Input.touchCount == 1)
+        {
             Touch currentTouch = Input.GetTouch(0);
 
             if (currentTouch.phase == TouchPhase.Began)
@@ -76,7 +92,6 @@ public class menuCameraMovement : MonoBehaviour
                 );
             }
         }
-    #endif 
     }
 
     private void LeftMouseDrag()
@@ -90,8 +105,14 @@ public class menuCameraMovement : MonoBehaviour
         direction *= -1;
 
         var position = camera_position + direction;
-
-        if (position.y < -1) return;
+        if (position.y > Constants.CAMERA_STEP_MENU * spawnedSegments.Count)
+        {
+            position.y = Constants.CAMERA_STEP_MENU * spawnedSegments.Count;
+         
+        }
+        if (position.y < 0) {
+            position.y = 0;
+        }
         SpawnObjects();
         transform.position = position;
     }

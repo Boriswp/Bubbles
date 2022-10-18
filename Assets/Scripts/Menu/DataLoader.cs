@@ -52,7 +52,8 @@ public static class DataLoader
 
    public static void setStarsToLVL(int starsCount)
    {
-      if (profileData.Passed_Lvls.Count<lvlToload)
+  
+      if (profileData.Passed_Lvls.Count<=lvlToload)
       {
          profileData.Passed_Lvls.Add(lvlToload);
       }

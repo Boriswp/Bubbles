@@ -11,7 +11,9 @@ public class AdModule : MonoBehaviour
 
     private void Start()
     {
+#if UNITY_ANDROID || UNITY_IOS
         RequestBanner();
+#endif
     }
 
     private void RequestBanner()

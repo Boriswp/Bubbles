@@ -11,6 +11,7 @@ public class CameraControl : MonoBehaviour
 
         private float initialSize;
         private float targetAspect;
+        private bool isLandScape = false;
 
         private float initialFov;
         private float horizontalFov = 120f;
@@ -22,6 +23,8 @@ public class CameraControl : MonoBehaviour
 
             targetAspect = DefaultResolution.x / DefaultResolution.y;
 
+            isLandScape = Screen.width > Screen.height;
+
             initialFov = componentCamera.fieldOfView;
             horizontalFov = CalcVerticalFov(initialFov, 1 / targetAspect);
         }
@@ -30,8 +33,15 @@ public class CameraControl : MonoBehaviour
         {
             if (componentCamera.orthographic)
             {
+            if (isLandScape)
+            {
+                componentCamera.orthographicSize = 6;
+            }
+            else
+            {
                 float constantWidthSize = initialSize * (targetAspect / componentCamera.aspect);
                 componentCamera.orthographicSize = Mathf.Lerp(constantWidthSize, initialSize, WidthOrHeight);
+            }
             }
             else
             {

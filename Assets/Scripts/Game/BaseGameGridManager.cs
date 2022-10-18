@@ -117,6 +117,8 @@ public class BaseGameGridManager : BaseGridManager
         }
     }
 
+
+
     private Queue<GameObject> FireNeighborCounter(Queue<int[]> queue, bool[,] visited)
     {
         var objectQueue = new Queue<GameObject>();
@@ -126,30 +128,38 @@ public class BaseGameGridManager : BaseGridManager
         {
             objectQueue.Enqueue(gTop);
         }
-        
-        var i = top[1];
-        if (Constants.GAP / 2 < top[0])
+        var j = top[0];
+        for (var i = top[1]; i>= 0; i--)
         {
-            for (var j = top[0]; j < Constants.GAP; j++)
+            var jNext = i % 2 == 0&&j>0 ? j - 1:j+1;
+
+            if (j < 0 || j>= Constants.COLUMNS)
             {
-                var g = grid[j, i];
-                if (g == null) continue;
+                break;
+            }
+
+            var g = grid[j, i];
+            if (g != null)
+            {
                 objectQueue.Enqueue(g);
                 visited[j, i] = true;
-                i--;
             }
-        }
-        else
-        {
-            for (var j = top[0]; j >= 0; j--)
+
+            if (jNext < 0 || jNext >= Constants.COLUMNS)
             {
-                var g = grid[j, i];
-                if (g == null) continue;
-                objectQueue.Enqueue(g);
-                visited[j, i] = true;
-                i--;
+                break;
             }
+
+            var gnext = grid[jNext, i];
+            if (gnext != null)
+            {
+                objectQueue.Enqueue(gnext);
+                visited[jNext, i] = true;
+            }
+            if (top[0] < 5) { j--; } else if (top[0] > 5) { j++; }
         }
+
+
         return objectQueue;
     }
 
@@ -165,7 +175,7 @@ public class BaseGameGridManager : BaseGridManager
 
             var topIndex = top[1];
      
-            for (var i = top[0]+1; i < Constants.GAP; i++)
+            for (var i = top[0]+1; i < Constants.COLUMNS; i++)
             {
                 var g = grid[i, topIndex];
                 if (g == null) continue;
@@ -184,7 +194,7 @@ public class BaseGameGridManager : BaseGridManager
             if (objectQueue.Count != 1) return objectQueue;
             
                 topIndex--;
-                for (var i = 0; i < Constants.GAP; i++)
+                for (var i = 0; i < Constants.COLUMNS; i++)
                 {
                     var g = grid[i, topIndex];
                     if (g == null) continue;
@@ -209,7 +219,7 @@ public class BaseGameGridManager : BaseGridManager
                 var neighbor = new int[2];
                 neighbor[0] = top[1] % 2 != 0 ? top[0] + deltax[i] : top[0] + deltaxprime[i];
                 neighbor[1] = top[1] + deltay[i];
-                if (neighbor[0] >= Constants.GAP || neighbor[1] >= ROW_MAX || neighbor[0] < 0 || neighbor[1] < 0)
+                if (neighbor[0] >= Constants.COLUMNS || neighbor[1] >= ROW_MAX || neighbor[0] < 0 || neighbor[1] < 0)
                 {
                     continue;
                 }

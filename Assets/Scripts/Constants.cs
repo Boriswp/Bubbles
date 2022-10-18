@@ -12,4 +12,6 @@
     public const int COLUMNS = 11;
     public const string JSON_FILE_NAME = "profile_data.json";
     public const int MAX_LIFES = 7;
+    public const float CAMERA_STEP_MENU = 2.925f;
+    public const float CAMERA_STRIDE = 3;
 }
