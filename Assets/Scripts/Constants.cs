@@ -14,4 +14,6 @@
     public const int MAX_LIFES = 7;
     public const float CAMERA_STEP_MENU = 2.925f;
     public const float CAMERA_STRIDE = 3;
+    public const int DESTROY_BALL_SCORE = 10;
+    public const int FALLING_BALL_SCORE = 20;
 }

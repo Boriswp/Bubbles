@@ -6,9 +6,6 @@ using UnityEngine;
 public class BaseGameGridManager : BaseGridManager
 {
     protected int _counterScore;
-    protected int scoreOne;
-    protected int scoreTwo;
-    protected int scoreThree;
     protected int _counterBalls;
     public int rows;
     public int loseCountRow = 13;
@@ -16,18 +13,23 @@ public class BaseGameGridManager : BaseGridManager
     public bool ready;
 
     public delegate void OnGameOver();
+
     public static OnGameOver onGameOver;
 
     public delegate void OnGameWin();
+
     public static OnGameWin onGameWin;
 
     public delegate void OnUpdateTarget(Vector2 target);
+
     public static OnUpdateTarget onUpdateTarget;
 
-    public delegate void OnUpdateScore(int score,int balls, int stars);
+    public delegate void OnUpdateScore(int score, int balls);
+
     public static OnUpdateScore onUpdateScore;
 
     public delegate void OnReadyToLoad();
+
     public static OnReadyToLoad onReadyToLoad;
 
     protected void Creator(int column, int row)
@@ -38,7 +40,10 @@ public class BaseGameGridManager : BaseGridManager
         Create(position, newKind, true);
     }
 
-    public virtual List<int> UpdateLvlInfo(bool specialBall) { return new List<int>(); }
+    public virtual List<int> UpdateLvlInfo(bool specialBall)
+    {
+        return new List<int>();
+    }
 
     public void CreateSimple(GameObject newGameObject, int kind)
     {
@@ -59,6 +64,7 @@ public class BaseGameGridManager : BaseGridManager
             {
                 floatColumn = (snappedPosition.x - position1.x) / Constants.GAP;
             }
+
             var column = (int)Mathf.Round(floatColumn);
 
 
@@ -75,14 +81,18 @@ public class BaseGameGridManager : BaseGridManager
             {
                 if (grid[column, -(row - 1)] != null)
                 {
-                    position = grid[column, -row].transform.position.x > position.x ? new Vector2(position.x - Constants.GAP / 2, position.y) : new Vector2(position.x + Constants.GAP / 2, position.y);
+                    position = grid[column, -row].transform.position.x > position.x
+                        ? new Vector2(position.x - Constants.GAP / 2, position.y)
+                        : new Vector2(position.x + Constants.GAP / 2, position.y);
                 }
                 else
                 {
-                    position = new Vector2(position.x, position.y -Constants.GAP / 2);
+                    position = new Vector2(position.x, position.y - Constants.GAP / 2);
                 }
+
                 continue;
             }
+
             newGameObject.transform.position = snappedPosition;
             var circleCollider2D = newGameObject.GetComponent<CircleCollider2D>();
             circleCollider2D.isTrigger = true;
@@ -98,7 +108,7 @@ public class BaseGameGridManager : BaseGridManager
             if (kind == Constants.RANDOM_KIND)
             {
                 gridMember.kind = (int)Random.Range(1f, 7f);
-                var spriteRenderer =  newGameObject.GetComponent<SpriteRenderer>();
+                var spriteRenderer = newGameObject.GetComponent<SpriteRenderer>();
                 spriteRenderer.sprite = SpriteArray[gridMember.kind];
             }
             else
@@ -110,13 +120,13 @@ public class BaseGameGridManager : BaseGridManager
                 onGameOver?.Invoke();
 
             grid[column, -row] = newGameObject;
+            _counterBalls++;
             Seek(column, -row, gridMember.kind);
             onReadyToLoad?.Invoke();
             ready = true;
             return;
         }
     }
-
 
 
     private Queue<GameObject> FireNeighborCounter(Queue<int[]> queue, bool[,] visited)
@@ -128,12 +138,13 @@ public class BaseGameGridManager : BaseGridManager
         {
             objectQueue.Enqueue(gTop);
         }
-        var j = top[0];
-        for (var i = top[1]; i>= 0; i--)
-        {
-            var jNext = i % 2 == 0&&j>0 ? j - 1:j+1;
 
-            if (j < 0 || j>= Constants.COLUMNS)
+        var j = top[0];
+        for (var i = top[1]; i >= 0; i--)
+        {
+            var jNext = i % 2 == 0 && j > 0 ? j - 1 : j + 1;
+
+            if (j is < 0 or >= Constants.COLUMNS)
             {
                 break;
             }
@@ -145,18 +156,24 @@ public class BaseGameGridManager : BaseGridManager
                 visited[j, i] = true;
             }
 
-            if (jNext < 0 || jNext >= Constants.COLUMNS)
+            if (jNext is < 0 or >= Constants.COLUMNS)
             {
                 break;
             }
 
             var gnext = grid[jNext, i];
-            if (gnext != null)
+            if (gnext == null) continue;
+            objectQueue.Enqueue(gnext);
+            visited[jNext, i] = true;
+            switch (top[0])
             {
-                objectQueue.Enqueue(gnext);
-                visited[jNext, i] = true;
+                case < 5:
+                    j--;
+                    break;
+                case > 5:
+                    j++;
+                    break;
             }
-            if (top[0] < 5) { j--; } else if (top[0] > 5) { j++; }
         }
 
 
@@ -165,71 +182,75 @@ public class BaseGameGridManager : BaseGridManager
 
     private Queue<GameObject> LightingNeighborCounter(Queue<int[]> queue, bool[,] visited)
     {
-            var objectQueue = new Queue<GameObject>();
-            var top = queue.Dequeue();
-            var gTop = grid[top[0], top[1]];
-            if (gTop != null)
-            {
-                objectQueue.Enqueue(gTop);
-            }
+        var objectQueue = new Queue<GameObject>();
+        var top = queue.Dequeue();
+        var gTop = grid[top[0], top[1]];
+        if (gTop != null)
+        {
+            objectQueue.Enqueue(gTop);
+        }
 
-            var topIndex = top[1];
-     
-            for (var i = top[0]+1; i < Constants.COLUMNS; i++)
-            {
-                var g = grid[i, topIndex];
-                if (g == null) continue;
-                objectQueue.Enqueue(g);
-                visited[i, top[1]] = true;
-            }
+        var topIndex = top[1];
 
-            for (var i = top[0]-1; i >= 0; i--)
-            {
-                var g = grid[i, topIndex];
-                if (g == null) continue;
-                objectQueue.Enqueue(g);
-                visited[i, top[1]] = true;
-            }
+        for (var i = top[0] + 1; i < Constants.COLUMNS; i++)
+        {
+            var g = grid[i, topIndex];
+            if (g == null) continue;
+            objectQueue.Enqueue(g);
+            visited[i, top[1]] = true;
+        }
 
-            if (objectQueue.Count != 1) return objectQueue;
-            
-                topIndex--;
-                for (var i = 0; i < Constants.COLUMNS; i++)
-                {
-                    var g = grid[i, topIndex];
-                    if (g == null) continue;
-                    objectQueue.Enqueue(g);
-                    visited[i, top[1]] = true;
-                }
-                return objectQueue;
+        for (var i = top[0] - 1; i >= 0; i--)
+        {
+            var g = grid[i, topIndex];
+            if (g == null) continue;
+            objectQueue.Enqueue(g);
+            visited[i, top[1]] = true;
+        }
+
+        if (objectQueue.Count != 1) return objectQueue;
+
+        topIndex--;
+        for (var i = 0; i < Constants.COLUMNS; i++)
+        {
+            var g = grid[i, topIndex];
+            if (g == null) continue;
+            objectQueue.Enqueue(g);
+            visited[i, top[1]] = true;
+        }
+
+        return objectQueue;
     }
-    
+
     private Queue<GameObject> BombNeighborCounter(Queue<int[]> queue, bool[,] visited)
     {
-            var objectQueue = new Queue<GameObject>();
-        
-            var top = queue.Dequeue();
-            var gTop = grid[top[0], top[1]];
-            if (gTop != null)
+        var objectQueue = new Queue<GameObject>();
+
+        var top = queue.Dequeue();
+        var gTop = grid[top[0], top[1]];
+        if (gTop != null)
+        {
+            objectQueue.Enqueue(gTop);
+        }
+
+        for (var i = 0; i < 6; i++)
+        {
+            var neighbor = new int[2];
+            neighbor[0] = top[1] % 2 != 0 ? top[0] + deltax[i] : top[0] + deltaxprime[i];
+            neighbor[1] = top[1] + deltay[i];
+            if (neighbor[0] >= Constants.COLUMNS || neighbor[1] >= ROW_MAX || neighbor[0] < 0 || neighbor[1] < 0)
             {
-                objectQueue.Enqueue(gTop);
+                continue;
             }
-            for (var i = 0; i < 6; i++)
-            {
-                var neighbor = new int[2];
-                neighbor[0] = top[1] % 2 != 0 ? top[0] + deltax[i] : top[0] + deltaxprime[i];
-                neighbor[1] = top[1] + deltay[i];
-                if (neighbor[0] >= Constants.COLUMNS || neighbor[1] >= ROW_MAX || neighbor[0] < 0 || neighbor[1] < 0)
-                {
-                    continue;
-                }
-                var g = grid[neighbor[0], neighbor[1]];
-                if (g == null) continue;
-                if (visited[neighbor[0], neighbor[1]]) continue;
-                visited[neighbor[0], neighbor[1]] = true;
-                objectQueue.Enqueue(g);
-            }
-            return objectQueue;
+
+            var g = grid[neighbor[0], neighbor[1]];
+            if (g == null) continue;
+            if (visited[neighbor[0], neighbor[1]]) continue;
+            visited[neighbor[0], neighbor[1]] = true;
+            objectQueue.Enqueue(g);
+        }
+
+        return objectQueue;
     }
 
     private Queue<GameObject> NeighborCounter(Queue<int[]> queue, bool[,] visited, int kind)
@@ -243,6 +264,7 @@ public class BaseGameGridManager : BaseGridManager
             {
                 objectQueue.Enqueue(gTop);
             }
+
             for (var i = 0; i < 6; i++)
             {
                 var neighbor = new int[2];
@@ -252,6 +274,7 @@ public class BaseGameGridManager : BaseGridManager
                 {
                     continue;
                 }
+
                 var g = grid[neighbor[0], neighbor[1]];
                 if (g == null) continue;
                 var gridMember = g.GetComponent<GridMember>();
@@ -261,10 +284,11 @@ public class BaseGameGridManager : BaseGridManager
                 queue.Enqueue(neighbor);
             }
         }
+
         return objectQueue;
     }
 
-    protected void Seek(int column, int row, int kind)
+    private void Seek(int column, int row, int kind)
     {
         int[] pair = { column, row };
 
@@ -276,11 +300,11 @@ public class BaseGameGridManager : BaseGridManager
         {
             Constants.BOMB_KIND => BombNeighborCounter(queue, visited),
             Constants.LIGHTNING_KIND => LightingNeighborCounter(queue, visited),
-            Constants.FIRE_KIND => FireNeighborCounter(queue,visited),
+            Constants.FIRE_KIND => FireNeighborCounter(queue, visited),
             _ => NeighborCounter(queue, visited, kind)
         };
         Debug.Log($"{objectQueue.Count}");
-        if (objectQueue.Count >= 3||kind is Constants.BOMB_KIND or Constants.LIGHTNING_KIND or Constants.FIRE_KIND)
+        if (objectQueue.Count >= 3 || kind is Constants.BOMB_KIND or Constants.LIGHTNING_KIND or Constants.FIRE_KIND)
         {
             while (objectQueue.Count != 0)
             {
@@ -288,15 +312,17 @@ public class BaseGameGridManager : BaseGridManager
 
                 if (!g.TryGetComponent<GridMember>(out var gm)) continue;
                 grid[gm.column, -gm.row] = null;
-                _counterScore += 10;
+                _counterScore += Constants.DESTROY_BALL_SCORE;
                 _counterBalls--;
                 gm.enabled = true;
                 gm.state = BubbleState.Pop;
             }
-            onUpdateScore?.Invoke(_counterScore, _counterBalls, Helpers.calculateStars(_counterBalls,scoreOne,scoreTwo,scoreThree));
+
+            onUpdateScore?.Invoke(_counterScore, _counterBalls);
             var audioSource = GetComponent<AudioSource>();
             audioSource.Play();
         }
+
         CheckCeiling(0);
     }
 
@@ -307,7 +333,7 @@ public class BaseGameGridManager : BaseGridManager
 
         var queue = new Queue<int[]>();
 
-        for (var i = 0; i <Constants.COLUMNS; i++)
+        for (var i = 0; i < Constants.COLUMNS; i++)
         {
             var pair = new[] { i, ceiling };
             if (grid[i, ceiling] == null) continue;
@@ -329,12 +355,13 @@ public class BaseGameGridManager : BaseGridManager
                 if (grid[c, r] == null || visited[c, r]) continue;
                 if (!grid[c, r].TryGetComponent<GridMember>(out var gm)) continue;
                 grid[gm.column, -gm.row] = null;
-                _counterScore += 10;
+                _counterScore += Constants.FALLING_BALL_SCORE;
                 _counterBalls--;
                 gm.enabled = true;
                 gm.state = BubbleState.Explode;
             }
         }
-        onUpdateScore?.Invoke(_counterScore, _counterBalls, Helpers.calculateStars(_counterBalls,scoreOne,scoreTwo,scoreThree));
+
+        onUpdateScore?.Invoke(_counterScore, _counterBalls);
     }
 }

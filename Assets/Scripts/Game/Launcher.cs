@@ -55,7 +55,7 @@ public class Launcher : MonoBehaviour
     }
 
 
-    private void Update()
+    private void FixedUpdate()
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         var delta = mousePos - (Vector2)transform.parent.position;

@@ -8,6 +8,7 @@ using UnityEngine;
 public class menuScreenController : AdModule
 {
     public GameObject LvlDetails;
+    public GameObject Motivation;
     private void Awake()
     {
         Application.targetFrameRate = 60;
@@ -51,7 +52,8 @@ public class menuScreenController : AdModule
         }
         else
         {
-            //TODO MotivtionScreen
+            Motivation.SetActive(true);
+            LvlDetails.SetActive(false);
         }
     }
 }

@@ -8,6 +8,9 @@ public class MissionGridManager : BaseGameGridManager
 
     public delegate void OnUpdateBallCount(int count);
     public static OnUpdateBallCount onUpdateBallCount;
+    
+    public delegate void OnSetupScore(int oneStarScore, int twoStarScore,int threeStarScore);
+    public static OnSetupScore onSetupScore;
 
     private void Awake()
     {
@@ -23,7 +26,8 @@ public class MissionGridManager : BaseGameGridManager
         _ballcount = lvl.playerBallCount;
         _counterBalls = lvl.bubbles.Count;
         onUpdateBallCount.Invoke(_ballcount);
-        onUpdateScore.Invoke(0,_counterBalls,0);
+        onSetupScore.Invoke(lvl.oneStarScore, lvl.twoStarScore, lvl.threeStarScore);
+        onUpdateScore.Invoke(0,_counterBalls);
         onReadyToLoad?.Invoke();
     }
 

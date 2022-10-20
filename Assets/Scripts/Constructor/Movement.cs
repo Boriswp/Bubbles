@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-
     public GameObject ball;
     public int kind;
     private GameObject _objectToSetPosition;
@@ -18,7 +17,7 @@ public class Movement : MonoBehaviour
     private void OnMouseDown()
     {
         if (_objectToSetPosition != null) return;
-        _objectToSetPosition = Instantiate(ball, transform.position , Quaternion.identity);
+        _objectToSetPosition = Instantiate(ball, transform.position, Quaternion.identity);
         if (kind == -1) return;
         var spriteRenderer = _objectToSetPosition.GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = BaseGridManager.SpriteArray[kind];
@@ -39,9 +38,9 @@ public class Movement : MonoBehaviour
         }
         else
         {
-            _gridManager.Create(_objectToSetPosition.transform.position, kind,false);
+            _gridManager.Create(_objectToSetPosition.transform.position, kind, false);
         }
+
         Destroy(_objectToSetPosition);
     }
-    
 }

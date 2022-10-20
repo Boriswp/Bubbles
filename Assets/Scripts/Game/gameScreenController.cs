@@ -13,26 +13,19 @@ public class gameScreenController : AdModule
     public TextMeshProUGUI textCounterBalls;
     public TextMeshProUGUI EndCounter;
 
-
+    
     public void OnEnable()
     {
         BaseGameGridManager.onGameOver += ShowLoseScreen;
-        BaseGameGridManager.onUpdateScore += UpdateScore;
+       
     }
 
     public void OnDisable()
     {
         BaseGameGridManager.onGameOver -= ShowLoseScreen;
-        BaseGameGridManager.onUpdateScore -= UpdateScore;
     }
-
-    public void UpdateScore(int score,int balls, int newStarsCount)
-    {
-        textCounterScore.text = score.ToString();
-        starsCount = newStarsCount;
-        textCounterBalls.text = balls.ToString();
-    }
-
+    
+    
     public void ShowMenu()
    {
         Time.timeScale = 0f;
