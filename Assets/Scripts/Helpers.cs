@@ -46,7 +46,7 @@ public static class Helpers
         return loadedData;
     }
 
-    public static int calculateStars(int score, int scoreOne, int scoreTwo, int scoreThree)
+    public static int CalculateStars(int score, int scoreOne, int scoreTwo, int scoreThree)
     {
         if (score >= scoreOne && score < scoreTwo)
         {

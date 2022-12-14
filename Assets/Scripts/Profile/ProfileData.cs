@@ -8,6 +8,8 @@ public class ProfileData
     public long Time_to_lives_respawn;
     public long Time_to_get_reward;
     public int money;
+    public bool sound = true;
+    public bool music = true;
     public int Stars_Count;
     public int Bonus_Bombs_Count;
     public int Bonus_Lighting_Count;

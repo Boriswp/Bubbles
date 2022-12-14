@@ -46,6 +46,7 @@ public class gameScreenController : AdModule
         fireButton.SetActive(false);
         LoseScreen.SetActive(true);
         EndCounter.text = EndCounter.text + " " + textCounterScore.text;
+        SoundController.soundEvent.Invoke(SoundEvent.FAILSOUND);
     }
 
     public void GoToMainMenu()

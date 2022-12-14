@@ -52,7 +52,7 @@ public class missionScreenController : gameScreenController
     public void UpdateScore(int score,int balls)
     {
         textCounterScore.text = score.ToString();
-        starsCount = Helpers.calculateStars(score,scoreOne,scoreTwo,scoreThree);
+        starsCount = Helpers.CalculateStars(score,scoreOne,scoreTwo,scoreThree);
         textCounterBalls.text = balls.ToString();
         StatusBar.fillAmount = (float)score/scoreThree;
         if (starsCount <= 0) return;
@@ -65,6 +65,7 @@ public class missionScreenController : gameScreenController
     
     public void ShowWinScreen()
     {
+        SoundController.soundEvent.Invoke(SoundEvent.WINSOUND);
         DataLoader.setStarsToLVL(starsCount);
         fireButton.SetActive(false);
         WinScreen.SetActive(true);

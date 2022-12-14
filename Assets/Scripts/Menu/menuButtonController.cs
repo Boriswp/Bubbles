@@ -11,7 +11,7 @@ public class menuButtonController : MonoBehaviour
     private int lvl = -1;
     private bool isActive = true;
     public TextMeshProUGUI LvlText;
-    public Sprite passedLvl;
+    public Sprite passedLvl; 
     public Sprite currLvl;
     public GameObject ballCurrLvl;
     public GameObject[] stars;
@@ -22,6 +22,7 @@ public class menuButtonController : MonoBehaviour
 
     public void setUpLvl(int lvlIndexArray,int starsCount,bool isCurrentLvl, bool playable)
     {
+     
         isActive = playable;
         if (lvlIndexArray == -1)
         {
@@ -44,7 +45,7 @@ public class menuButtonController : MonoBehaviour
             GetComponent<SpriteRenderer>().sprite = passedLvl;
             LvlText.color = Color.red;
         }
-        stars[starsCount].gameObject.SetActive(isActive);
+        stars[starsCount].SetActive(isActive);
     }
     
     void OnMouseDown()
