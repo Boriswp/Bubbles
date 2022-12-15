@@ -41,9 +41,11 @@ public class menuScreenController : AdModule
         LvlDetails.GetComponent<menuLvlDetailsController>().SetLvlDetails(currLvl,DataLoader.GetStarsCount(currLvl));
         DataLoader.lvlToload = currLvl;
     }
+
     
     public void LoadMissionsScene()
     {
+        
         var currLife = DataLoader.GetLifeCount();
         if (currLife > 0)
         { 

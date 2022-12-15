@@ -319,8 +319,7 @@ public class BaseGameGridManager : BaseGridManager
             }
 
             onUpdateScore?.Invoke(_counterScore, _counterBalls);
-            var audioSource = GetComponent<AudioSource>();
-            audioSource.Play();
+
         }
 
         CheckCeiling(0);

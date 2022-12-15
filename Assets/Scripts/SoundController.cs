@@ -22,43 +22,36 @@ public class SoundController : MonoBehaviour
 
         if (objs.Length > 1)
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
         }
 
         if (DataLoader.getMusicStatus())
         {
             SetUpMusic();
         }
-        soundEvent += OnEventReaction;
 
-        DontDestroyOnLoad(gameObject); 
+        soundEvent += OnEventReaction;
     }
 
     private void OnEventReaction(SoundEvent soundEvent)
     {
-        switch (soundEvent)
+        soundSource.clip = soundEvent switch
         {
-            case SoundEvent.MUSICEVENT:
-                Toggler(!musicSource.isPlaying);
-                break;
-            case SoundEvent.BUTTONSOUND:
-                soundSource.clip = buttonSound;
-                soundSource.Play();
-                break;
-            case SoundEvent.FAILSOUND:
-                soundSource.clip = failClip;
-                soundSource.Play();
-                break;
-            case SoundEvent.WINSOUND:
-                soundSource.clip = winClip;
-                soundSource.Play();
-                break;
-            case SoundEvent.POPSOUND:
-                soundSource.clip = popClip;
-                soundSource.Play();
-                break;
-            default:
-                break;
+            SoundEvent.MUSICEVENT => Toggler(!musicSource.isPlaying),
+            SoundEvent.BUTTONSOUND => buttonSound,
+            SoundEvent.FAILSOUND => failClip,
+            SoundEvent.WINSOUND => winClip,
+            SoundEvent.POPSOUND => popClip,
+            _ => null,
+        };
+
+        if (DataLoader.getSoundStatus())
+        {
+            soundSource.Play();
         }
     }
 
@@ -68,7 +61,7 @@ public class SoundController : MonoBehaviour
     }
 
 
-    private void Toggler(bool status)
+    private AudioClip Toggler(bool status)
     {
         Debug.Log($"Music {status}");
         if (status)
@@ -79,6 +72,8 @@ public class SoundController : MonoBehaviour
         {
             StopPlayMusic();
         }
+
+        return null;
     }
 
     public void playPressButtonSound()

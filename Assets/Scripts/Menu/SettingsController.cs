@@ -19,6 +19,10 @@ public class SettingsController : MonoBehaviour
         Sound_off.SetActive(!DataLoader.getSoundStatus());
     }
 
+    public void playButtonSound()
+    {
+        SoundController.soundEvent.Invoke(SoundEvent.BUTTONSOUND);
+    }
 
     public void MusicToggle(bool isActive)
     {

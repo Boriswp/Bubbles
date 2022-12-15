@@ -27,7 +27,7 @@ public class HeartSystem : MonoBehaviour
         }
 
         DataLoader.setCurrentLifesCount(totalLifeCount);
-        _timeLeft = time -timeSpan%time;
+        _timeLeft = time - timeSpan%time;
         _timerOn = true;
     }
 

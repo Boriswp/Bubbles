@@ -51,6 +51,7 @@ public class menuButtonController : MonoBehaviour
     void OnMouseDown()
     {
         if(!isActive) return;
+        SoundController.soundEvent.Invoke(SoundEvent.BUTTONSOUND);
         onOpenLvlScreen.Invoke(lvl);
     }
 }

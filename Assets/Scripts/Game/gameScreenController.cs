@@ -28,6 +28,7 @@ public class gameScreenController : AdModule
     
     public void ShowMenu()
    {
+        playButtonSound();
         Time.timeScale = 0f;
         PauseMenu.SetActive(true);
         fireButton.SetActive(false);
@@ -35,6 +36,7 @@ public class gameScreenController : AdModule
 
     public void ReloadScene()
     {
+        playButtonSound();
         Time.timeScale = 1f;
         var scene = SceneManager.GetActiveScene(); 
         SceneManager.LoadScene(scene.name);
@@ -51,12 +53,14 @@ public class gameScreenController : AdModule
 
     public void GoToMainMenu()
     {
+        playButtonSound();
         Time.timeScale = 1f;
         SceneManager.LoadScene("Menu");
     }
 
     public void ReturnToGame()
     {
+        playButtonSound();
         Time.timeScale = 1f;
         PauseMenu.SetActive(false);
         fireButton.SetActive(true);

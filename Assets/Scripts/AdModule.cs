@@ -71,4 +71,10 @@ public class AdModule : MonoBehaviour
     {
         print("HandleAdClosed event received");
     }
+
+    public void playButtonSound()
+    {
+        SoundController.soundEvent.Invoke(SoundEvent.BUTTONSOUND);
+    }
+
 }
