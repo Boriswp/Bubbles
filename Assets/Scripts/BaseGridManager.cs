@@ -21,7 +21,7 @@ public class BaseGridManager : MonoBehaviour
         special.CopyTo(SpriteArray,usualSpites.Length);
     }
 
-    public void Create(Vector2 position, int kind,bool isGame)
+    public void Create(Vector2 position, int kind,bool isGame,Transform parent = null)
     {
         var snappedPosition = Snap(position);
         var position1 = initialPos.transform.position;
@@ -42,7 +42,7 @@ public class BaseGridManager : MonoBehaviour
                 {
                     Destroy(grid[column, -row]);
                 }
-                var bubbleClone = Instantiate(bubble, snappedPosition, Quaternion.identity);
+                var bubbleClone = Instantiate(bubble, snappedPosition, Quaternion.identity,parent);
                 var circleCollider2D = bubbleClone.GetComponent<CircleCollider2D>();
                 circleCollider2D.isTrigger = true;
 

@@ -6,12 +6,13 @@ using TMPro;
 
 public class ConstructorGridManager : BaseGridManager
 {
-    const int ROW_MAX = 20;
+    const int ROW_MAX = 500;
 
     public TMP_InputField ballCountText;
     public TMP_InputField oneStarScore;
     public TMP_InputField twoStarScore;
     public TMP_InputField threeStarScore;
+    public GameObject root;
 
 
     private void Awake()
@@ -61,6 +62,7 @@ public class ConstructorGridManager : BaseGridManager
 
     public void Generate(List<int> kinds, int rowFrom, int rowTo, int columnFrom, int columnTo)
     {
+
         for (var r = rowFrom; r < rowTo; r++)
         {
             for (var c = columnFrom; c < columnTo; c++)
@@ -76,13 +78,13 @@ public class ConstructorGridManager : BaseGridManager
         var index = Random.Range(0, kinds.Count);
         var newKind = kinds[index];
 
-        Create(position, newKind, false);
+        Create(position, newKind, false,root.transform);
     }
 
     public void Creator(int column, int row, int kind)
     {
         var position = new Vector3(column * Constants.GAP, row * Constants.GAP, 0f) + initialPos.transform.position;
-        Create(position, kind, false);
+        Create(position, kind, false,root.transform);
     }
 
     public void LoadFromJson()

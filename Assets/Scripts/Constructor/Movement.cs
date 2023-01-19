@@ -5,6 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public GameObject ball;
+    public GameObject root;
     public int kind;
     private GameObject _objectToSetPosition;
     private ConstructorGridManager _gridManager;
@@ -27,7 +28,7 @@ public class Movement : MonoBehaviour
     {
         if (_objectToSetPosition == null) return;
         var worldPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        _objectToSetPosition.transform.position = new Vector3(worldPosition.x, worldPosition.y, 1);
+        _objectToSetPosition.transform.position = new Vector3(worldPosition.x, worldPosition.y, 5);
     }
 
     private void OnMouseUp()
@@ -38,7 +39,7 @@ public class Movement : MonoBehaviour
         }
         else
         {
-            _gridManager.Create(_objectToSetPosition.transform.position, kind, false);
+            _gridManager.Create(_objectToSetPosition.transform.position, kind, false,root.transform);
         }
 
         Destroy(_objectToSetPosition);
