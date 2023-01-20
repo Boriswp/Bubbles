@@ -1,61 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Scroll : MonoBehaviour
 {
-    private Vector3 hit_position = Vector3.zero;
-    private Vector3 current_position = Vector3.zero;
-    private Vector3 object_position = Vector3.zero;
-    private readonly float z = 0.0f;
-    public bool enableScroll = false;
-    private Camera cameraMain;
+    public int multiplayer = 2;
+    public TextMeshProUGUI text;
     // Start is called before the first frame update
-    void Start()
+
+    private void Update()
     {
-        cameraMain = Camera.main;
-    }
-
-
-    public void OnRealScroll()
-    {
-
-    }
-
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        if(enableScroll)
-        mouseLogic();
-    }
-
-    private void mouseLogic()
-    {
-        if (Input.GetMouseButtonDown(0))
+        var scroll = Input.GetAxis("Mouse ScrollWheel");
+        if (transform.childCount == 1) return;
+      
+        if (scroll > 0f) // forward
         {
-            hit_position = Input.mousePosition;
-            object_position = transform.position;
+            if (transform.position.y - multiplayer * scroll < -0.5f) return;
+            transform.position -= new Vector3(0, multiplayer*scroll, 0);
+            return;
+        }
+        else if (scroll < 0f) // backwards
+        {
+         
+            transform.position -= new Vector3(0, multiplayer*scroll, 0);
+            return;
+        }
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            if (transform.position.y-0.5f < 0) return;
+            transform.position += new Vector3(0, -0.2f, 0);
         }
 
-        if (!Input.GetMouseButton(0)) return;
-        current_position = Input.mousePosition;
-        if (current_position.y - hit_position.y < 1f) return;
-        LeftMouseDrag();
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            transform.position += new Vector3(0, 0.2f, 0);
+        }
+        text.text = ((int)transform.position.y).ToString();
     }
 
-
-    private void LeftMouseDrag()
-    {
-        current_position.z = hit_position.z = object_position.y;
-        if (cameraMain == null) return;
-        if (transform.childCount == 0) return;
-        var direction = new Vector3(transform.position.x,
-            (cameraMain.ScreenToWorldPoint(current_position) - cameraMain.ScreenToWorldPoint(hit_position)).y, z);
-
-        // Invert direction to that terrain appears to move with the mouse.
-        //direction *= -1;
-
-        var position = object_position + direction;
-        transform.position = new Vector3(0,position.y,transform.position.z);
-    }
 }

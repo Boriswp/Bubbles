@@ -56,18 +56,26 @@ public class ConstructorGridManager : BaseGridManager
                 if (grid[c, r] == null) continue;
                 Destroy(grid[c, r]);
                 grid[c, r] = null;
+                root.transform.position = new Vector3(root.transform.position.x, 0, root.transform.position.z);
             }
         }
     }
 
-    public void Generate(List<int> kinds, int rowFrom, int rowTo, int columnFrom, int columnTo)
+    public void Generate(List<int> kinds, int rowFrom, int rowTo, int columnFrom, int columnTo,int hole)
     {
 
         for (var r = rowFrom; r < rowTo; r++)
         {
             for (var c = columnFrom; c < columnTo; c++)
             {
-                Creator(c, r, kinds);
+                if (Random.Range(1f, 100f) <= hole)
+                {
+                    continue;
+                }
+                else
+                {
+                   Creator(c, r, kinds);
+                }
             }
         }
     }
@@ -103,6 +111,7 @@ public class ConstructorGridManager : BaseGridManager
             }
         }, null, FileBrowser.PickMode.Files
         );
+        root.transform.position = new Vector3(root.transform.position.x, 0, root.transform.position.z);
     }
 
     public void SaveToJson()

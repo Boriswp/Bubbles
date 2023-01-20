@@ -9,9 +9,11 @@ public class Movement : MonoBehaviour
     public int kind;
     private GameObject _objectToSetPosition;
     private ConstructorGridManager _gridManager;
+    private Scroll scroll; 
 
     private void Awake()
     {
+         scroll = root.GetComponent<Scroll>();
         _gridManager = GetComponentInParent<ConstructorGridManager>();
     }
 
@@ -19,8 +21,9 @@ public class Movement : MonoBehaviour
     {
         if (_objectToSetPosition != null) return;
         _objectToSetPosition = Instantiate(ball, transform.position, Quaternion.identity);
-        if (kind == -1) return;
         var spriteRenderer = _objectToSetPosition.GetComponent<SpriteRenderer>();
+        spriteRenderer.sortingOrder = 5;
+        if (kind == -1) return;
         spriteRenderer.sprite = BaseGridManager.SpriteArray[kind];
     }
 

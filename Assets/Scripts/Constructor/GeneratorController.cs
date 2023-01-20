@@ -5,6 +5,7 @@ using UnityEngine;
 public class GeneratorController : MonoBehaviour
 {
     public ConstructorGridManager gridManager;
+    public Scroll scroll;
     private bool isRed = true;
     private bool isGreen = true;
     private bool isMagenta = true;
@@ -15,11 +16,14 @@ public class GeneratorController : MonoBehaviour
     private int rowFrom = 0;
     private int rowTo = 10;
     private int columnFrom = 0;
+    private int holeVar = 20;
     private int columnTo = Constants.COLUMNS;
     private List<int> kindList = new();
 
 
     public void SetRowTo(string num)=>int.TryParse(num, out rowTo);
+
+    public void SetProbability(string num) => int.TryParse(num, out holeVar);
 
     public void SetRowFrom(string num) => int.TryParse(num, out rowFrom);
 
@@ -73,7 +77,7 @@ public class GeneratorController : MonoBehaviour
             kindList.Add(6);
         }
         if (kindList.Count == 0) return;
-        gridManager.Generate(kindList,rowFrom,rowTo,columnFrom,columnTo);
+        gridManager.Generate(kindList,rowFrom,rowTo,columnFrom,columnTo,holeVar);
 
         OnCancell();
     }
