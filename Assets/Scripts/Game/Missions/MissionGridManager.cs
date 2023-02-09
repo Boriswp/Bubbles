@@ -8,26 +8,27 @@ public class MissionGridManager : BaseGameGridManager
 
     public delegate void OnUpdateBallCount(int count);
     public static OnUpdateBallCount onUpdateBallCount;
-    
-    public delegate void OnSetupScore(int oneStarScore, int twoStarScore,int threeStarScore);
+
+    public delegate void OnSetupScore(int oneStarScore, int twoStarScore, int threeStarScore);
     public static OnSetupScore onSetupScore;
 
     private void Awake()
     {
         LoadSpriteRes();
-        var lvl = JsonUtility.FromJson<SaveData>(DataLoader.lvls[DataLoader.lvlToload].text);
-        ROW_MAX = lvl.rowCount * 4;
+        var lvl = JsonUtility.FromJson<SaveData>(DataLoader.getLvl());
+        ROW_MAX = lvl.rowCount + 26;
+        loseCountRow = lvl.rowCount + 13;
         grid = new GameObject[Constants.COLUMNS, ROW_MAX];
         foreach (var bubbleSerialized in lvl.bubbles)
         {
             var position = new Vector3(bubbleSerialized.column * Constants.GAP, bubbleSerialized.row * Constants.GAP, 0f) + initialPos.transform.position;
-            Create(position,bubbleSerialized.kind,true);
+            Create(position, bubbleSerialized.kind, true);
         }
         _ballcount = lvl.playerBallCount;
         _counterBalls = lvl.bubbles.Count;
         onUpdateBallCount.Invoke(_ballcount);
         onSetupScore.Invoke(lvl.oneStarScore, lvl.twoStarScore, lvl.threeStarScore);
-        onUpdateScore.Invoke(0,_counterBalls);
+        onUpdateScore.Invoke(0, _counterBalls);
         onReadyToLoad?.Invoke();
     }
 

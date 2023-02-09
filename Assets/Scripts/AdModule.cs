@@ -74,7 +74,7 @@ public class AdModule : MonoBehaviour
 
     public void playButtonSound()
     {
-        SoundController.soundEvent.Invoke(SoundEvent.BUTTONSOUND);
+        SoundController.soundEvent?.Invoke(SoundEvent.BUTTONSOUND);
     }
 
 }

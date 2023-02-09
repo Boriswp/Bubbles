@@ -1,7 +1,9 @@
+using System.IO;
 using UnityEngine;
 
 public static class DataLoader
 {
+    public static bool testMode = false;
     public static bool isInitialize;
     public static int lvlToload = 0;
     public static TextAsset[] lvls;
@@ -52,7 +54,7 @@ public static class DataLoader
 
     public static void setStarsToLVL(int starsCount)
     {
-
+        if (testMode) return;
         if (profileData.Passed_Lvls.Count <= lvlToload)
         {
             profileData.Passed_Lvls.Add(lvlToload);
@@ -101,8 +103,20 @@ public static class DataLoader
         Helpers.WriteProfileDataToJson(profileData);
     }
 
+    public static string getLvl()
+    {
+        if (testMode) 
+        {
+            return File.ReadAllText($"{Application.persistentDataPath}/lvl.json"); 
+        }
+        else
+        {
+            return lvls[lvlToload].text;
+        }
+    }
+
     public static int GetCurrentLvl()
     {
         return profileData.Curr_Lvl;
-    }
+    } 
 }

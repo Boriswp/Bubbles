@@ -8,37 +8,37 @@ public class gameScreenController : AdModule
     public GameObject PauseMenu;
     public GameObject LoseScreen;
     public int starsCount = 0;
-    
+
     public TextMeshProUGUI textCounterScore;
     public TextMeshProUGUI textCounterBalls;
     public TextMeshProUGUI EndCounter;
 
-    
+
     public void OnEnable()
     {
         BaseGameGridManager.onGameOver += ShowLoseScreen;
-       
+
     }
 
     public void OnDisable()
     {
         BaseGameGridManager.onGameOver -= ShowLoseScreen;
     }
-    
-    
+
+
     public void ShowMenu()
-   {
+    {
         playButtonSound();
         Time.timeScale = 0f;
         PauseMenu.SetActive(true);
         fireButton.SetActive(false);
-   }
+    }
 
     public void ReloadScene()
     {
         playButtonSound();
         Time.timeScale = 1f;
-        var scene = SceneManager.GetActiveScene(); 
+        var scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.name);
     }
 
@@ -47,15 +47,22 @@ public class gameScreenController : AdModule
         Time.timeScale = 0f;
         fireButton.SetActive(false);
         LoseScreen.SetActive(true);
-        EndCounter.text = EndCounter.text + " " + textCounterScore.text;
-        SoundController.soundEvent.Invoke(SoundEvent.FAILSOUND);
+        //EndCounter.text = EndCounter.text + " " + textCounterScore.text;
+        SoundController.soundEvent?.Invoke(SoundEvent.FAILSOUND);
     }
 
     public void GoToMainMenu()
     {
-        playButtonSound();
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Menu");
+        if (DataLoader.testMode)
+        {
+            SceneManager.LoadScene("Constructor");
+        }
+        else
+        {
+            playButtonSound();
+            SceneManager.LoadScene("Menu");
+        }
     }
 
     public void ReturnToGame()

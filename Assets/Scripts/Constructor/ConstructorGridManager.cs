@@ -3,6 +3,7 @@ using System.IO;
 using SimpleFileBrowser;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class ConstructorGridManager : BaseGridManager
 {
@@ -13,12 +14,15 @@ public class ConstructorGridManager : BaseGridManager
     public TMP_InputField twoStarScore;
     public TMP_InputField threeStarScore;
     public GameObject root;
+    private string tempLvlPath = string.Empty;
 
 
     private void Awake()
     {
+        tempLvlPath = $"{Application.persistentDataPath}/lvl.json";
         grid = new GameObject[Constants.COLUMNS, ROW_MAX];
         LoadSpriteRes();
+        LoadSaveData(tempLvlPath);
     }
 
     public void DeleteThis(Vector2 position)
@@ -61,7 +65,7 @@ public class ConstructorGridManager : BaseGridManager
         }
     }
 
-    public void Generate(List<int> kinds, int rowFrom, int rowTo, int columnFrom, int columnTo,int hole)
+    public void Generate(List<int> kinds, int rowFrom, int rowTo, int columnFrom, int columnTo, int hole)
     {
 
         for (var r = rowFrom; r < rowTo; r++)
@@ -74,7 +78,7 @@ public class ConstructorGridManager : BaseGridManager
                 }
                 else
                 {
-                   Creator(c, r, kinds);
+                    Creator(c, r, kinds);
                 }
             }
         }
@@ -86,20 +90,59 @@ public class ConstructorGridManager : BaseGridManager
         var index = Random.Range(0, kinds.Count);
         var newKind = kinds[index];
 
-        Create(position, newKind, false,root.transform);
+        Create(position, newKind, false, root.transform);
     }
 
     public void Creator(int column, int row, int kind)
     {
         var position = new Vector3(column * Constants.GAP, row * Constants.GAP, 0f) + initialPos.transform.position;
-        Create(position, kind, false,root.transform);
+        Create(position, kind, false, root.transform);
+    }
+
+    void OnApplicationQuit()
+    {
+        CreateTempFile();
+    }
+
+    public void CreateTempFileAndLoadData()
+    {
+        CreateTempFile();
+        DataLoader.testMode = true;
+        SceneManager.LoadScene("Levels");
+    }
+
+    private void CreateTempFile()
+    {
+        var jsonString = JsonUtility.ToJson(prepareSaveData());
+        File.WriteAllText(tempLvlPath, jsonString);
     }
 
     public void LoadFromJson()
     {
         FileBrowser.ShowLoadDialog((path) =>
         {
-            var fileContents = File.ReadAllText(path[0]);
+            LoadSaveData(path[0]);
+        }, null, FileBrowser.PickMode.Files
+        );
+    }
+
+    public void SaveToJson()
+    {
+        var jsonString = JsonUtility.ToJson(prepareSaveData());
+        FileBrowser.ShowSaveDialog((path) =>
+        {
+            if (path.Length != 0)
+            {
+                File.WriteAllText(path[0], jsonString);
+            };
+        }, null, FileBrowser.PickMode.Files, initialFilename: "level.json");
+    }
+
+    private void LoadSaveData(string path)
+    {
+        try
+        {
+            var fileContents = File.ReadAllText(path);
             var gameData = JsonUtility.FromJson<SaveData>(fileContents);
             ballCountText.text = gameData.playerBallCount.ToString();
             oneStarScore.text = gameData.oneStarScore.ToString();
@@ -109,12 +152,15 @@ public class ConstructorGridManager : BaseGridManager
             {
                 Creator(data.column, data.row, data.kind);
             }
-        }, null, FileBrowser.PickMode.Files
-        );
-        root.transform.position = new Vector3(root.transform.position.x, 0, root.transform.position.z);
+            root.transform.position = new Vector3(root.transform.position.x, 0, root.transform.position.z);
+        }
+        catch (FileNotFoundException)
+        {
+
+        }
     }
 
-    public void SaveToJson()
+    private SaveData prepareSaveData()
     {
         var bubbles = new List<BubbleSerialized>();
         for (var r = 0; r < ROW_MAX; r++)
@@ -146,15 +192,7 @@ public class ConstructorGridManager : BaseGridManager
             rowCount = ROW_MAX,
             bubbles = bubbles
         };
-
-        var jsonString = JsonUtility.ToJson(saveData);
-        FileBrowser.ShowSaveDialog((path) =>
-        {
-            if (path.Length != 0)
-            {
-                File.WriteAllText(path[0], jsonString);
-            };
-        }, null, FileBrowser.PickMode.Files, initialFilename: "level.json");
+        return saveData;
     }
 
 }
