@@ -17,7 +17,6 @@ public class gameScreenController : AdModule
     public void OnEnable()
     {
         BaseGameGridManager.onGameOver += ShowLoseScreen;
-
     }
 
     public void OnDisable()
