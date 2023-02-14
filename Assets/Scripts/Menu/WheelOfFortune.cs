@@ -6,22 +6,69 @@ public class WheelOfFortune : MonoBehaviour
 
     public GameObject wheel;
     public GameObject[] winObjects;
+    public GameObject whiteSheet;
+    public GameObject[] gameObjects;
     private float angle = 51.25f;
-    public readonly int[] v = { 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7 };
+    private int index = 0;
+    private GameObject tempGameobject;
+    public readonly int[] v = { 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6 };
     public enum RewardType
     {
         Hearts,
-        Bomb,
-        FireBall,
-        LightingBall,
-        RandomBall,
         BonusBalls,
     }
 
     public void SpeenTheWheel()
     {
-        var r = Random.Range(0, v.Length);
-        wheel.transform.DORotate(new Vector3(0, 0, 720 + angle * v[r]), 7, RotateMode.FastBeyond360);
-
+        index = Random.Range(0, v.Length);
+        wheel.transform.DORotate(new Vector3(0, 0, 720 + angle * v[index]), 7, RotateMode.FastBeyond360).OnComplete(() =>
+        {
+            foreach (var obj in gameObjects)
+            {
+                obj.SetActive(false);
+            }
+           
+            tempGameobject = Instantiate(winObjects[v[index]], this.transform);
+            tempGameobject.transform.DORotate(new Vector3(0, 0, angle * v[index]),1);
+            tempGameobject.transform.DOLocalMoveY(-350, 1);
+            tempGameobject.transform.DOScale(new Vector3(2, 2, 0), 2).OnComplete(() =>
+            {
+                whiteSheet.SetActive(true);
+            });
+        });
     }
+
+    public void GetReward()
+    {
+        switch (v[index])
+        {
+            case 0:
+                DataLoader.SetInvulnerable();
+                break;
+            case 1:
+                DataLoader.SetMoneyBonus(200);
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                DataLoader.SetStarsBonus();
+                break;
+            case 6:
+                DataLoader.SetMoneyBonus(50);
+                break;
+
+        }
+        Destroy(tempGameobject);
+        foreach (var obj in gameObjects)
+        {
+            obj.SetActive(true);
+        }
+        whiteSheet.SetActive(false);
+    }
+
+
 }

@@ -5,12 +5,13 @@ using System.Collections.Generic;
 public class ProfileData
 {
     public int Lifes = 7;
+    public long Invulnerable_time;
     public long Time_to_lives_respawn;
     public long Time_to_get_reward;
     public int money;
     public bool sound = true;
     public bool music = true;
-    public int Stars_Count;
+    public int Stars_Count = 0;
     public int Bonus_Bombs_Count;
     public int Bonus_Lighting_Count;
     public int Bonus_Fire_Count;

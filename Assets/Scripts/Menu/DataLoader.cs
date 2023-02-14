@@ -28,10 +28,47 @@ public static class DataLoader
         Helpers.WriteProfileDataToJson(profileData);
     }
 
+    public static int GetMoney()
+    {
+        return profileData.money;
+    }
+
+    public static long GetInvulnerableStatus()
+    {
+        return profileData.Invulnerable_time;
+    }
+
     public static long GetTime()
     {
         return profileData.Time_to_lives_respawn;
 
+    }
+
+    public static void SetMoneyBonus(int money)
+    {
+        profileData.money += money;
+    }
+
+    public static void SetBonusBalls()
+    {
+
+    }
+
+    public static void SetStarsBonus()
+    {
+        profileData.Stars_Count += 2;
+        Helpers.WriteProfileDataToJson(profileData);
+    }
+
+    public static void SetInvulnerable()
+    {
+        profileData.Invulnerable_time = 900; 
+        Helpers.WriteProfileDataToJson(profileData);
+    }
+
+    public static int GetTotalStarsCount()
+    {
+        return profileData.Stars_Count;
     }
 
     public static int GetStarsCount(int index)
@@ -57,12 +94,14 @@ public static class DataLoader
         if (testMode) return;
         if (profileData.Passed_Lvls.Count <= lvlToload)
         {
-            profileData.Passed_Lvls.Add(lvlToload);
+            profileData.Passed_Lvls.Add(starsCount);
+            profileData.Stars_Count += starsCount;
         }
         else
         {
             if (profileData.Passed_Lvls[lvlToload] < starsCount)
             {
+                profileData.Stars_Count += starsCount - profileData.Passed_Lvls[lvlToload];
                 profileData.Passed_Lvls[lvlToload] = starsCount;
             }
         }

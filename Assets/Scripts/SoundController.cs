@@ -10,8 +10,7 @@ public class SoundController : MonoBehaviour
     public AudioClip failClip;
     public AudioClip winClip;
     public AudioClip popClip;
-    public AudioSource musicSource;
-    public AudioSource soundSource;
+    public AudioSource[] sources;
 
     public delegate void SoundControllerEvent(SoundEvent soundEvent);
     public static SoundControllerEvent soundEvent;
@@ -23,25 +22,25 @@ public class SoundController : MonoBehaviour
         if (objs.Length > 1)
         {
             Destroy(gameObject);
+            return;
         }
         else
         {
             DontDestroyOnLoad(gameObject);
         }
-
+        sources = GetComponents<AudioSource>();
         if (DataLoader.getMusicStatus())
         {
             SetUpMusic();
         }
-
         soundEvent += OnEventReaction;
     }
 
     private void OnEventReaction(SoundEvent soundEvent)
     {
-        soundSource.clip = soundEvent switch
+        sources[1].clip = soundEvent switch
         {
-            SoundEvent.MUSICEVENT => Toggler(!musicSource.isPlaying),
+            SoundEvent.MUSICEVENT => Toggler(!sources[0].isPlaying),
             SoundEvent.BUTTONSOUND => buttonSound,
             SoundEvent.FAILSOUND => failClip,
             SoundEvent.WINSOUND => winClip,
@@ -51,7 +50,7 @@ public class SoundController : MonoBehaviour
 
         if (DataLoader.getSoundStatus())
         {
-            soundSource.Play();
+            sources[1].Play();
         }
     }
 
@@ -80,20 +79,20 @@ public class SoundController : MonoBehaviour
     {
         if (DataLoader.getSoundStatus())
         {
-            soundSource.clip = buttonSound;
-            soundSource.Play();
+            sources[1].clip = buttonSound;
+            sources[1].Play();
         }
     }
 
 
     private void SetUpMusic()
     {
-        musicSource.clip = audioMusicClips[Random.Range(0, audioMusicClips.Length - 1)];
-        musicSource.Play();
+        sources[0].clip = audioMusicClips[Random.Range(0, audioMusicClips.Length - 1)];
+        sources[0].Play();
     }
 
     private void StopPlayMusic()
     {
-        musicSource.Stop();
+        sources[0].Stop();
     }
 }
