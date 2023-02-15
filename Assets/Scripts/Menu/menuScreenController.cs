@@ -50,7 +50,7 @@ public class menuScreenController : AdModule
         if (currLife > 0)
         { 
             DataLoader.setCurrentLifesCount(--currLife);
-            SceneManager.LoadScene(MissionsScene);
+            SceneManager.LoadScene(MissionsScene); 
         }
         else
         {

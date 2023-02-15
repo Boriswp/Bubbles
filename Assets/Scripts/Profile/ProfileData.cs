@@ -12,6 +12,7 @@ public class ProfileData
     public bool sound = true;
     public bool music = true;
     public int Stars_Count = 0;
+    public int Bonus_Balls_Count;
     public int Bonus_Bombs_Count;
     public int Bonus_Lighting_Count;
     public int Bonus_Fire_Count;

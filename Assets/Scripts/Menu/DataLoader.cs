@@ -28,6 +28,11 @@ public static class DataLoader
         Helpers.WriteProfileDataToJson(profileData);
     }
 
+    public static int GetBonusBallsCount()
+    {
+        return profileData.Bonus_Balls_Count;
+    }
+
     public static int GetMoney()
     {
         return profileData.money;
@@ -49,9 +54,10 @@ public static class DataLoader
         profileData.money += money;
     }
 
-    public static void SetBonusBalls()
+    public static void SetBonusBalls(int count)
     {
-
+        profileData.Bonus_Balls_Count += count;
+        Helpers.WriteProfileDataToJson(profileData);
     }
 
     public static void SetStarsBonus()

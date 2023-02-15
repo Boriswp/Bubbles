@@ -18,6 +18,7 @@ public class WheelOfFortune : MonoBehaviour
         BonusBalls,
     }
 
+
     public void SpeenTheWheel()
     {
         index = Random.Range(0, v.Length);
@@ -49,10 +50,13 @@ public class WheelOfFortune : MonoBehaviour
                 DataLoader.SetMoneyBonus(200);
                 break;
             case 2:
+                DataLoader.SetBonusBalls(5);
                 break;
             case 3:
+                DataLoader.SetBonusBalls(7);
                 break;
             case 4:
+                DataLoader.SetBonusBalls(10);
                 break;
             case 5:
                 DataLoader.SetStarsBonus();
