@@ -22,10 +22,27 @@ public static class DataLoader
         onDataInitialize?.Invoke();
     }
 
+    public static void SaveProfileData()
+    {
+        Helpers.WriteProfileDataToJson(profileData);
+    }
+
     public static void SetCurrentTime(long time)
     {
         profileData.Time_to_lives_respawn = time;
-        Helpers.WriteProfileDataToJson(profileData);
+        SaveProfileData();
+    }
+
+    public static void UnsetLvlBonus(int count)
+    {
+        profileData.On_lvl_Bonus_Balls = 0;
+        profileData.Bonus_Balls_Count += count;
+    }
+
+    public static void SetOnLvlBonus(int count)
+    {
+        profileData.On_lvl_Bonus_Balls = count;
+        profileData.Bonus_Balls_Count -= count;
     }
 
     public static int GetBonusBallsCount()
@@ -38,7 +55,7 @@ public static class DataLoader
         return profileData.money;
     }
 
-    public static long GetInvulnerableStatus()
+    public static float GetInvulnerableTime()
     {
         return profileData.Invulnerable_time;
     }
@@ -57,24 +74,32 @@ public static class DataLoader
     public static void SetBonusBalls(int count)
     {
         profileData.Bonus_Balls_Count += count;
-        Helpers.WriteProfileDataToJson(profileData);
+        SaveProfileData();
     }
 
     public static void SetStarsBonus()
     {
         profileData.Stars_Count += 2;
-        Helpers.WriteProfileDataToJson(profileData);
+        SaveProfileData();
     }
 
-    public static void SetInvulnerable()
+    public static void SetInvulnerable(float time)
     {
-        profileData.Invulnerable_time = 900; 
-        Helpers.WriteProfileDataToJson(profileData);
+        profileData.Invulnerable_time = time;
+        SaveProfileData();
     }
 
     public static int GetTotalStarsCount()
     {
         return profileData.Stars_Count;
+    }
+
+    public static int GetLVLBonusBalls()
+    {
+        var temp = profileData.On_lvl_Bonus_Balls;
+        profileData.On_lvl_Bonus_Balls = 0;
+        SaveProfileData();
+        return temp;
     }
 
     public static int GetStarsCount(int index)
@@ -92,7 +117,7 @@ public static class DataLoader
     {
         Debug.Log(lifesCount);
         profileData.Lifes = lifesCount;
-        Helpers.WriteProfileDataToJson(profileData);
+        SaveProfileData();
     }
 
     public static void setStarsToLVL(int starsCount)
@@ -117,13 +142,13 @@ public static class DataLoader
             profileData.Curr_Lvl++;
         }
 
-        Helpers.WriteProfileDataToJson(profileData);
+        SaveProfileData();
     }
 
     public static void setCurrentLvl(int lvlIndex)
     {
         profileData.Curr_Lvl = lvlIndex;
-        Helpers.WriteProfileDataToJson(profileData);
+        SaveProfileData();
     }
 
     public static bool getSoundStatus()
@@ -139,13 +164,13 @@ public static class DataLoader
     public static void setSoundStatus(bool isEnabled)
     {
         profileData.sound = isEnabled;
-        Helpers.WriteProfileDataToJson(profileData);
+        SaveProfileData();
     }
 
     public static void setMusicStatus(bool isEnabled)
     {
         profileData.music = isEnabled;
-        Helpers.WriteProfileDataToJson(profileData);
+        SaveProfileData();
     }
 
     public static string getLvl()

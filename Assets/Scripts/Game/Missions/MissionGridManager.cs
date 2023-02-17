@@ -24,7 +24,7 @@ public class MissionGridManager : BaseGameGridManager
             var position = new Vector3(bubbleSerialized.column * Constants.GAP, bubbleSerialized.row * Constants.GAP, 0f) + initialPos.transform.position;
             Create(position, bubbleSerialized.kind, true);
         }
-        _ballcount = lvl.playerBallCount;
+        _ballcount = lvl.playerBallCount + DataLoader.GetLVLBonusBalls();
         _counterBalls = lvl.bubbles.Count;
         onUpdateBallCount.Invoke(_ballcount);
         onSetupScore.Invoke(lvl.oneStarScore, lvl.twoStarScore, lvl.threeStarScore);

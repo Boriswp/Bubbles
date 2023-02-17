@@ -38,7 +38,7 @@ public class menuScreenController : AdModule
     {
         var currLvl  = lvl == -1 ? DataLoader.GetCurrentLvl() : lvl;
         LvlDetails.SetActive(true);
-        LvlDetails.GetComponent<menuLvlDetailsController>().SetLvlDetails(currLvl,DataLoader.GetStarsCount(currLvl));
+        LvlDetails.GetComponent<menuLvlDetailsController>().SetLvlDetails(currLvl,DataLoader.GetStarsCount(currLvl),DataLoader.GetBonusBallsCount());
         DataLoader.lvlToload = currLvl;
     }
 

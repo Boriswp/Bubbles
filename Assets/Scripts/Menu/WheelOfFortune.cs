@@ -8,6 +8,7 @@ public class WheelOfFortune : MonoBehaviour
     public GameObject[] winObjects;
     public GameObject whiteSheet;
     public GameObject[] gameObjects;
+    public GameObject speenButton;
     private float angle = 51.25f;
     private int index = 0;
     private GameObject tempGameobject;
@@ -21,6 +22,7 @@ public class WheelOfFortune : MonoBehaviour
 
     public void SpeenTheWheel()
     {
+        speenButton.SetActive(false);
         index = Random.Range(0, v.Length);
         wheel.transform.DORotate(new Vector3(0, 0, 720 + angle * v[index]), 7, RotateMode.FastBeyond360).OnComplete(() =>
         {
@@ -44,7 +46,7 @@ public class WheelOfFortune : MonoBehaviour
         switch (v[index])
         {
             case 0:
-                DataLoader.SetInvulnerable();
+                DataLoader.SetInvulnerable(900);
                 break;
             case 1:
                 DataLoader.SetMoneyBonus(200);
