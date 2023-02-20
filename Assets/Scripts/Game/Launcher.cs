@@ -18,7 +18,7 @@ public class Launcher : MonoBehaviour
     LineRenderer lineRenderer;
     readonly List<Vector3> reflectionPositions = new();
     private BaseGameGridManager gameGridManager;
-    
+
 
     private void Awake()
     {
@@ -28,7 +28,7 @@ public class Launcher : MonoBehaviour
         lineRenderer.startWidth = 0.75f;
         lineRenderer.endWidth = 0.75f;
     }
-    
+
 
     public void SetUpSpecialBall(int kind)
     {
@@ -42,6 +42,18 @@ public class Launcher : MonoBehaviour
         isSpecialBall = false;
         Destroy(load);
         Load();
+    }
+
+    public void OnColorChange()
+    {
+        var temp = currentKindColor;
+        currentKindColor = nextKindColor;
+        nextKindColor = temp;
+        var hitter = load.GetComponent<Hitter>();
+        hitter.kind = currentKindColor;
+        hitter.enabled = true;
+        hitter.gameGridManager = gameGridManager;
+        nextColorBall.GetComponent<SpriteRenderer>().sprite = BaseGridManager.SpriteArray[nextKindColor];
     }
 
     public void OnEnable()
@@ -60,25 +72,25 @@ public class Launcher : MonoBehaviour
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         var delta = mousePos - (Vector2)transform.parent.position;
         var zRotation = 90 - Mathf.Rad2Deg * Mathf.Atan2(delta.x, delta.y);
-        lineRenderer.startColor = BaseGridManager.ColorArray[currentKindColor];
-        lineRenderer.endColor = BaseGridManager.ColorArray[currentKindColor];
+        lineRenderer.materials[0].color = BaseGridManager.ColorArray[currentKindColor];
         if (zRotation is < 10 or > 170)
         {
             return;
-        } 
+        }
         transform.parent.rotation = Quaternion.Euler(0f, 0f, zRotation);
         DrawCurrentTrajectory(delta);
     }
 
     private void Load()
     {
-        
+
         var colorArray = gameGridManager.UpdateLvlInfo(isSpecialBall);
         if (!isSpecialBall)
         {
             nextColorBall.SetActive(true);
             if (firstLaunch)
-            {    var index = Random.Range(0, colorArray.Count);
+            {
+                var index = Random.Range(0, colorArray.Count);
                 nextKindColor = colorArray[index];
                 firstLaunch = false;
 
@@ -141,7 +153,8 @@ public class Launcher : MonoBehaviour
 
             if (circleHit.collider.CompareTag("Bubble"))
             {
-                reflectionPositions.Add(position);
+                Vector2 newHitPos = new(circleHit.transform.position.x, circleHit.transform.position.y);
+                reflectionPositions.Add(newHitPos + circleHit.normal * 0.23f);
                 break;
             }
             else

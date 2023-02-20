@@ -25,6 +25,7 @@ public class HeartSystem : MonoBehaviour
         _involve = invulnerableTime > 0;
         if (!_involve)
         {
+            DataLoader.SetInvulnerable(0);
             var lifeCount = (int)(timeSpan / time);
 
             var totalLifeCount = lifeCount + DataLoader.GetLifeCount();
