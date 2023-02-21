@@ -36,21 +36,25 @@ public class menuScreenController : AdModule
 
     public void ShowLevelDetails(int lvl)
     {
-        var currLvl  = lvl == -1 ? DataLoader.GetCurrentLvl() : lvl;
+        var currLvl = lvl == -1 ? DataLoader.GetCurrentLvl() : lvl;
         LvlDetails.SetActive(true);
-        LvlDetails.GetComponent<menuLvlDetailsController>().SetLvlDetails(currLvl,DataLoader.GetStarsCount(currLvl),DataLoader.GetBonusBallsCount());
+        LvlDetails.GetComponent<menuLvlDetailsController>().SetLvlDetails(currLvl, DataLoader.GetStarsCount(currLvl), DataLoader.GetBonusBallsCount());
         DataLoader.lvlToload = currLvl;
     }
 
-    
+
     public void LoadMissionsScene()
     {
-        
+        if (DataLoader.GetInvulnerableTime() > 0)
+        {
+            SceneManager.LoadScene(MissionsScene);
+            return;
+        }
         var currLife = DataLoader.GetLifeCount();
         if (currLife > 0)
-        { 
+        {
             DataLoader.setCurrentLifesCount(--currLife);
-            SceneManager.LoadScene(MissionsScene); 
+            SceneManager.LoadScene(MissionsScene);
         }
         else
         {

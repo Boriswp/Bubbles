@@ -77,6 +77,12 @@ public static class DataLoader
         SaveProfileData();
     }
 
+    public static void DecreaseStarsBonus()
+    {
+        profileData.Stars_Count -= 7;
+        SaveProfileData();
+    }
+
     public static void SetStarsBonus()
     {
         profileData.Stars_Count += 2;
@@ -175,9 +181,9 @@ public static class DataLoader
 
     public static string getLvl()
     {
-        if (testMode) 
+        if (testMode)
         {
-            return File.ReadAllText($"{Application.persistentDataPath}/lvl.json"); 
+            return File.ReadAllText($"{Application.persistentDataPath}/lvl.json");
         }
         else
         {
@@ -188,5 +194,45 @@ public static class DataLoader
     public static int GetCurrentLvl()
     {
         return profileData.Curr_Lvl;
-    } 
+    }
+
+    public static int GetBombsCount()
+    {
+        return profileData.Bonus_Bombs_Count;
+    }
+
+    public static int GetLightsCount()
+    {
+        return profileData.Bonus_Lighting_Count;
+    }
+
+    public static int GetRainbowCount()
+    {
+        return profileData.Bonus_Random_Count;
+    }
+
+    public static int GetFireBallCount()
+    {
+        return profileData.Bonus_Fire_Count;
+    }
+
+    public static void IncreaseBombsCount()
+    {
+        profileData.Bonus_Bombs_Count += 1;
+    }
+
+    public static void IncreaseLightsCount()
+    {
+        profileData.Bonus_Lighting_Count += 1;
+    }
+
+    public static void IncreaseRainbowCount()
+    {
+        profileData.Bonus_Random_Count += 1;
+    }
+
+    public static void IncreaseFireBallCount()
+    {
+        profileData.Bonus_Fire_Count += 1;
+    }
 }

@@ -8,10 +8,7 @@ using UnityEngine.UI;
 
 public class menuLvlDetailsController : MonoBehaviour
 {
-    public GameObject StarsZero;
-    public GameObject StarsOne;
-    public GameObject StarsTwo;
-    public GameObject StarsThree;
+    public GameObject[] Stars;
     public TextMeshProUGUI lvlText;
     public Toggle toggle;
     public Toggle toggleSecond;
@@ -35,21 +32,7 @@ public class menuLvlDetailsController : MonoBehaviour
     public void SetLvlDetails(int lvl, int starsCount, int ballsCount)
     {
         lvlText.text = $"{lvlStr} {lvl + 1}";
-        switch (starsCount)
-        {
-            case 0:
-                StarsZero.SetActive(true);
-                break;
-            case 1:
-                StarsOne.SetActive(true);
-                break;
-            case 2:
-                StarsTwo.SetActive(true);
-                break;
-            case 3:
-                StarsThree.SetActive(true);
-                break;
-        }
+        Stars[starsCount].SetActive(true);
         if (ballsCount < 5)
         {
             toggle.interactable = false;
@@ -138,10 +121,10 @@ public class menuLvlDetailsController : MonoBehaviour
 
     public void OnDisable()
     {
-        StarsZero.SetActive(false);
-        StarsOne.SetActive(false);
-        StarsTwo.SetActive(false);
-        StarsThree.SetActive(false);
+        foreach (var star in Stars)
+        {
+            star.SetActive(false);
+        }
         toggle.colors = notActiveCB;
         toggleSecond.colors = notActiveCB;
         toggleThird.colors = notActiveCB;

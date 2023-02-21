@@ -21,7 +21,7 @@ public class HeartSystem : MonoBehaviour
         var savedTime = DataLoader.GetTime();
 
         var timeSpan = (DateTime.UtcNow.Ticks - savedTime) / 10000000;
-        invulnerableTime = invulnerableTime - timeSpan;
+        invulnerableTime -= timeSpan;
         _involve = invulnerableTime > 0;
         if (!_involve)
         {
