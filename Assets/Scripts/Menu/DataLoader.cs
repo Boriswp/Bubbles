@@ -235,4 +235,24 @@ public static class DataLoader
     {
         profileData.Bonus_Fire_Count += 1;
     }
+
+    public static void DecreaseBombsCount()
+    {
+        profileData.Bonus_Bombs_Count -= 1;
+    }
+
+    public static void DecreaseLightsCount()
+    {
+        profileData.Bonus_Lighting_Count -= 1;
+    }
+
+    public static void DecreaseRainbowCount()
+    {
+        profileData.Bonus_Random_Count -= 1;
+    }
+
+    public static void DecreaseFireBallCount()
+    {
+        profileData.Bonus_Fire_Count -= 1;
+    }
 }

@@ -3,12 +3,16 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Random = UnityEngine.Random;
+using TMPro;
 
 public class Launcher : MonoBehaviour
 {
     public GameObject ball;
     public GameObject load;
     public GameObject nextColorBall;
+    public GameObject cancell;
+    public GameObject rowBalls;
+    public TextMeshProUGUI[] bombs;
     public int maximumReflectionCount = 5;
     public float maximumRayCastDistance = 50f;
     private int currentKindColor;
@@ -27,11 +31,36 @@ public class Launcher : MonoBehaviour
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.startWidth = 0.75f;
         lineRenderer.endWidth = 0.75f;
+        SetUpCountSpecialBalls();
     }
 
+    private void SetUpCountSpecialBalls()
+    {
+        bombs[0].text = DataLoader.GetBombsCount().ToString();
+        bombs[1].text = DataLoader.GetLightsCount().ToString();
+        bombs[2].text = DataLoader.GetFireBallCount().ToString();
+        bombs[3].text = DataLoader.GetRainbowCount().ToString();
+    }
 
     public void SetUpSpecialBall(int kind)
     {
+        switch (kind)
+        {
+            case Constants.BOMB_KIND:
+                if (DataLoader.GetBombsCount() == 0) return;
+                break;
+            case Constants.FIRE_KIND:
+                if (DataLoader.GetFireBallCount() == 0) return;
+                break;
+            case Constants.RANDOM_KIND:
+                if (DataLoader.GetRainbowCount() == 0) return;
+                break;
+            case Constants.LIGHTNING_KIND:
+                if (DataLoader.GetLightsCount() == 0) return;
+                break;
+        }
+        cancell.SetActive(true);
+        rowBalls.SetActive(false);
         isSpecialBall = true;
         currentKindColor = kind;
         Load();
@@ -42,6 +71,28 @@ public class Launcher : MonoBehaviour
         isSpecialBall = false;
         Destroy(load);
         Load();
+    }
+
+    public void UnSetUpSpecialBall(int kind)
+    {
+        switch (kind)
+        {
+            case Constants.BOMB_KIND:
+                DataLoader.DecreaseBombsCount();
+                break;
+            case Constants.FIRE_KIND:
+                DataLoader.DecreaseFireBallCount();
+                break;
+            case Constants.RANDOM_KIND:
+                DataLoader.DecreaseRainbowCount();
+                break;
+            case Constants.LIGHTNING_KIND:
+                DataLoader.DecreaseLightsCount();
+                break;
+        }
+        cancell.SetActive(false);
+        rowBalls.SetActive(true);
+        UnSetUpSpecialBall();
     }
 
     public void OnColorChange()
