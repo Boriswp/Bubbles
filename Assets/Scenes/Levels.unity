@@ -10153,6 +10153,8 @@ MonoBehaviour:
   ball: {fileID: 158212, guid: 8a1eed5b64b42624787d4ce0dcd1842b, type: 3}
   load: {fileID: 0}
   nextColorBall: {fileID: 120958218}
+  cancell: {fileID: 89988151}
+  rowBalls: {fileID: 57093734}
   bombs:
   - {fileID: 66831536}
   - {fileID: 2123109892}
