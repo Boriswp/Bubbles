@@ -182,6 +182,7 @@ public class Launcher : MonoBehaviour
         circleCollider2D.enabled = true;
         load.transform.parent = transform.parent.parent.parent;
         var rb = load.GetComponent<Rigidbody2D>();
+        rb.bodyType = RigidbodyType2D.Dynamic;
         rb.velocity = transform.right * Constants.LAUNCH_SPEED;
         load = null;
         if (isSpecialBall)
@@ -206,7 +207,7 @@ public class Launcher : MonoBehaviour
             position = circleHit.point + circleHit.normal * 0.23f;
             var newPos = Helpers.GetAccuratePos(position);
 
-            if (circleHit.collider.CompareTag("Bubble"))
+            if (circleHit.collider.CompareTag("Bubble")|| circleHit.collider.CompareTag("Destroyer"))
             {
                 Vector2 newHitPos = new(circleHit.transform.position.x, circleHit.transform.position.y);
                 reflectionPositions.Add(newHitPos + circleHit.normal * 0.23f);

@@ -43,9 +43,6 @@ public class BaseGridManager : MonoBehaviour
                 Destroy(grid[column, -row]);
             }
             var bubbleClone = Instantiate(bubble, snappedPosition, Quaternion.identity, parent);
-            var circleCollider2D = bubbleClone.GetComponent<CircleCollider2D>();
-            circleCollider2D.isTrigger = true;
-
             var gridMember = bubbleClone.GetComponent<GridMember>();
             gridMember.enabled = true;
 

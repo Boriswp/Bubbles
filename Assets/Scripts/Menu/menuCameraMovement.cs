@@ -78,18 +78,16 @@ public class menuCameraMovement : MonoBehaviour
 
             if (currentTouch.phase == TouchPhase.Began)
             {
-                this.worldStartPoint = this.getWorldPoint(currentTouch.position);
+                hit_position = Input.mousePosition;
+                camera_position = transform.position;
             }
 
             if (currentTouch.phase == TouchPhase.Moved)
             {
                 Vector2 worldDelta = this.getWorldPoint(currentTouch.position) - this.worldStartPoint;
 
-                Camera.main.transform.Translate(
-                    0,
-                    -worldDelta.y,
-                    0
-                );
+                current_position = worldDelta;
+                LeftMouseDrag();
             }
         }
     }

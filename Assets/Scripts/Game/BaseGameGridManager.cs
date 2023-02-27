@@ -45,10 +45,19 @@ public class BaseGameGridManager : BaseGridManager
         return new List<int>();
     }
 
+    public void Reload()
+    {
+        onReadyToLoad?.Invoke();
+        ready = true;
+    }
+
     public void CreateSimple(GameObject newGameObject, int kind)
     {
         ready = false;
         var position = newGameObject.transform.position;
+        var rb = newGameObject.GetComponent<Rigidbody2D>();
+        rb.velocity = Vector2.zero;
+        rb.bodyType = RigidbodyType2D.Static;
         while (true)
         {
             var snappedPosition = Snap(position);
@@ -77,18 +86,14 @@ public class BaseGameGridManager : BaseGridManager
                 }
                 else
                 {
-                    position = new Vector2(position.x, position.y - Constants.GAP);
+                    position = new Vector2(position.x, position.y - Constants.GAP / 2);
                 }
 
                 continue;
             }
 
             newGameObject.transform.position = snappedPosition;
-            var circleCollider2D = newGameObject.GetComponent<CircleCollider2D>();
-            circleCollider2D.isTrigger = true;
 
-            var rb = newGameObject.GetComponent<Rigidbody2D>();
-            rb.velocity = Vector2.zero;
 
             var gridMember = newGameObject.GetComponent<GridMember>();
             gridMember.enabled = true;
@@ -112,8 +117,7 @@ public class BaseGameGridManager : BaseGridManager
             grid[column, -row] = newGameObject;
             _counterBalls++;
             Seek(column, -row, gridMember.kind);
-            onReadyToLoad?.Invoke();
-            ready = true;
+            Reload();
             return;
         }
     }

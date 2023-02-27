@@ -11,11 +11,15 @@ public class Hitter : MonoBehaviour
 		var spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = BaseGridManager.SpriteArray[kind];
 	}
-	
 
-	private void OnTriggerEnter2D(Collider2D collider)
+
+	void OnCollisionEnter2D(Collision2D collision)
 	{
-		if(collided||collider==null||gameGridManager==null) return;
+		if (collision.collider.CompareTag("Destroyer")) {
+			gameGridManager.Reload();
+			Destroy(gameObject);
+		}
+		if(collided||!collision.collider.CompareTag("Bubble")||gameGridManager==null) return;
 		enabled = false;
 		collided = true;
 		gameGridManager.CreateSimple(gameObject, kind);

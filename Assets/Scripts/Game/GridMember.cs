@@ -51,7 +51,7 @@ public class GridMember : MonoBehaviour
                 {
 
                     circleCollider2D.enabled = false;
-
+                    rigidBody2D.bodyType = RigidbodyType2D.Kinematic;
                     rigidBody2D.gravityScale = 1f;
                     rigidBody2D.velocity = new Vector3(
                         Random.Range(-Constants.EXPLODE_SPEED, Constants.EXPLODE_SPEED),
