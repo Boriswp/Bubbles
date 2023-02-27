@@ -13,7 +13,7 @@
     public const string JSON_FILE_NAME = "profile_data.json";
     public const int MAX_LIFES = 7;
     public const int MAX_STARS_TO_BOX = 7;
-    public const float CAMERA_STEP_MENU = 2.925f;
+    public const float CAMERA_STEP_MENU = 12;
     public const float CAMERA_STRIDE = 3;
     public const int DESTROY_BALL_SCORE = 10;
     public const int FALLING_BALL_SCORE = 20;

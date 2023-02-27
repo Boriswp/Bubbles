@@ -67,16 +67,6 @@ public class BaseGameGridManager : BaseGridManager
 
             var column = (int)Mathf.Round(floatColumn);
 
-
-            if (column >= Constants.GAP)
-            {
-                position = new Vector2(position.x - Constants.GAP, position.y);
-            }
-            else if (column < 0)
-            {
-                position = new Vector2(position.x + Constants.GAP, position.y);
-            }
-
             if (grid[column, -row] != null)
             {
                 if (grid[column, -(row - 1)] != null)
@@ -87,7 +77,7 @@ public class BaseGameGridManager : BaseGridManager
                 }
                 else
                 {
-                    position = new Vector2(position.x, position.y - Constants.GAP / 2);
+                    position = new Vector2(position.x, position.y - Constants.GAP);
                 }
 
                 continue;

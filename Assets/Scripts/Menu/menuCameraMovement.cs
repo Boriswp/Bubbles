@@ -105,21 +105,21 @@ public class menuCameraMovement : MonoBehaviour
         direction *= -1;
 
         var position = camera_position + direction;
-        if (position.y > Constants.CAMERA_STEP_MENU * spawnedSegments.Count)
+        if (position.y > spawnedSegments[^1].transform.position.y + stepSize / 2 - 4)
         {
-            position.y = Constants.CAMERA_STEP_MENU * spawnedSegments.Count;
-         
+            position.y = spawnedSegments[^1].transform.position.y + stepSize / 2 - 4;
         }
-        if (position.y < 0) {
+        if (position.y < 0)
+        {
             position.y = 0;
         }
         SpawnObjects();
         transform.position = position;
     }
-   
 
 
-// convert screen point to world point
+
+    // convert screen point to world point
     private Vector2 getWorldPoint(Vector2 screenPoint)
     {
         RaycastHit hit;

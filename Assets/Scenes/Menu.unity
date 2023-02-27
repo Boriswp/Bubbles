@@ -6173,7 +6173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LvlDetails: {fileID: 858324610}
-  Motivation: {fileID: 0}
+  Motivation: {fileID: 1749025042}
   ArcadeScene: Level
   MissionsScene: Levels
 --- !u!114 &1162385377
@@ -9995,6 +9995,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1742844231}
   m_CullTransparentMesh: 1
+--- !u!1 &1749025042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8348155570427069957, guid: 31c00a99ad955bf49821db7b919f74ba, type: 3}
+  m_PrefabInstance: {fileID: 1566628647}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1814034136
 GameObject:
   m_ObjectHideFlags: 0

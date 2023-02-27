@@ -252,8 +252,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: "{dedicated}: \u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430/user.keystore"
-  AndroidKeyaliasName: key0
+  AndroidKeystoreName: C:/Users/user/Documents/KeyRepo/bubbles.keystore
+  AndroidKeyaliasName: 8450435
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1

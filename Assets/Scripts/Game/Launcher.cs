@@ -184,6 +184,10 @@ public class Launcher : MonoBehaviour
         var rb = load.GetComponent<Rigidbody2D>();
         rb.velocity = transform.right * Constants.LAUNCH_SPEED;
         load = null;
+        if (isSpecialBall)
+        {
+            UnSetUpSpecialBall();
+        }
     }
 
     private void DrawCurrentTrajectory(Vector2 inputDirection)
@@ -197,9 +201,9 @@ public class Launcher : MonoBehaviour
 
         for (var i = 0; i <= maximumReflectionCount; ++i)
         {
-            var circleHit = Physics2D.CircleCast(position, 0.25F, direction, maximumRayCastDistance);
+            var circleHit = Physics2D.CircleCast(position, 0.15F, direction, maximumRayCastDistance);
             if (!circleHit) continue;
-            position = circleHit.point + circleHit.normal * 0.25f;
+            position = circleHit.point + circleHit.normal * 0.23f;
             var newPos = Helpers.GetAccuratePos(position);
 
             if (circleHit.collider.CompareTag("Bubble"))
