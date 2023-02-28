@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public static class Helpers
 {
@@ -21,8 +22,27 @@ public static class Helpers
             isMoving = false;
         }
     }
-    
-    public static void WriteProfileDataToJson(ProfileData profileData) {
+
+    public static bool isUI(Vector2 position)
+    {
+        PointerEventData pointerEventData = new PointerEventData(EventSystem.current);
+        pointerEventData.position = position;
+        List<RaycastResult> raycastResultsList = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(pointerEventData, raycastResultsList);
+        var mouseOverUI = false;
+        for (int i = 0; i < raycastResultsList.Count; i++)
+        {
+            if (raycastResultsList[i].gameObject.GetType() == typeof(GameObject))
+            {
+                mouseOverUI = true;
+                break;
+            }
+        }
+        return mouseOverUI;
+    }
+
+    public static void WriteProfileDataToJson(ProfileData profileData)
+    {
         var jsonFilePath = DataPath();
         if (!File.Exists(jsonFilePath))
         {
@@ -31,9 +51,10 @@ public static class Helpers
         var dataString = JsonUtility.ToJson(profileData);
         File.WriteAllText(jsonFilePath, dataString);
     }
-    
-    public static ProfileData ReadProfileDataFromJson() {
-        
+
+    public static ProfileData ReadProfileDataFromJson()
+    {
+
         var jsonFilePath = DataPath();
         if (!File.Exists(jsonFilePath))
         {
@@ -58,9 +79,9 @@ public static class Helpers
             return 2;
         }
 
-        return score>=scoreThree ? 3 : 0;
+        return score >= scoreThree ? 3 : 0;
     }
-    
+
     private static string DataPath()
     {
         return Path.Combine(Directory.Exists(Application.persistentDataPath) ? Application.persistentDataPath : Application.streamingAssetsPath, Constants.JSON_FILE_NAME);

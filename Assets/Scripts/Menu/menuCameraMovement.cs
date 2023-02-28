@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class menuCameraMovement : MonoBehaviour
 {
@@ -66,7 +67,7 @@ public class menuCameraMovement : MonoBehaviour
 
         if (!Input.GetMouseButton(0)) return;
         current_position = Input.mousePosition;
-
+        if (Helpers.isUI(current_position)) return;
         LeftMouseDrag();
     }
 
@@ -75,7 +76,7 @@ public class menuCameraMovement : MonoBehaviour
         if (Input.touchCount > 0)
         {
             Touch currentTouch = Input.touches[0];
-            Debug.Log(currentTouch);
+
             if (currentTouch.phase == TouchPhase.Began)
             {
                 hit_position = currentTouch.position;
@@ -85,10 +86,14 @@ public class menuCameraMovement : MonoBehaviour
             if (currentTouch.phase == TouchPhase.Moved)
             {
                 current_position = currentTouch.position;
+                if (Helpers.isUI(current_position)) return;
+                LeftMouseDrag();
             }
-            LeftMouseDrag();
+           
         }
     }
+
+
 
     private void LeftMouseDrag()
     {
