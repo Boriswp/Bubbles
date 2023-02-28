@@ -6,7 +6,7 @@ public class Hitter : MonoBehaviour
 	private bool collided = false;
     public BaseGameGridManager gameGridManager;
 
-	private void Start()
+	public void Start()
 	{
 		var spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = BaseGridManager.SpriteArray[kind];

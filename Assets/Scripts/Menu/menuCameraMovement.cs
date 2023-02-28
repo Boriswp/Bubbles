@@ -43,7 +43,7 @@ public class menuCameraMovement : MonoBehaviour
         SpawnObjects();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
 #if UNITY_EDITOR 
         mouseLogic();
@@ -61,7 +61,7 @@ public class menuCameraMovement : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             hit_position = Input.mousePosition;
-            camera_position = transform.position;
+            camera_position = Camera.main.transform.position;
         }
 
         if (!Input.GetMouseButton(0)) return;
@@ -72,23 +72,21 @@ public class menuCameraMovement : MonoBehaviour
 
     private void touchLogic()
     {
-        if (Input.touchCount == 1)
+        if (Input.touchCount > 0)
         {
-            Touch currentTouch = Input.GetTouch(0);
-
+            Touch currentTouch = Input.touches[0];
+            Debug.Log(currentTouch);
             if (currentTouch.phase == TouchPhase.Began)
             {
-                hit_position = Input.mousePosition;
-                camera_position = transform.position;
+                hit_position = currentTouch.position;
+                camera_position = Camera.main.transform.position;
             }
 
             if (currentTouch.phase == TouchPhase.Moved)
             {
-                Vector2 worldDelta = this.getWorldPoint(currentTouch.position) - this.worldStartPoint;
-
-                current_position = worldDelta;
-                LeftMouseDrag();
+                current_position = currentTouch.position;
             }
+            LeftMouseDrag();
         }
     }
 
@@ -96,10 +94,9 @@ public class menuCameraMovement : MonoBehaviour
     {
         current_position.z = hit_position.z = camera_position.y;
         if (cameraMain == null) return;
-        var direction = new Vector3(transform.position.x,
+        var direction = new Vector3(camera_position.x,
             (cameraMain.ScreenToWorldPoint(current_position) - cameraMain.ScreenToWorldPoint(hit_position)).y, z);
 
-        // Invert direction to that terrain appears to move with the mouse.
         direction *= -1;
 
         var position = camera_position + direction;
@@ -112,7 +109,7 @@ public class menuCameraMovement : MonoBehaviour
             position.y = 0;
         }
         SpawnObjects();
-        transform.position = position;
+        Camera.main.transform.position = position;
     }
 
 
@@ -127,7 +124,7 @@ public class menuCameraMovement : MonoBehaviour
 
     private void SpawnObjects()
     {
-        var pos = transform.position.y;
+        var pos = Camera.main.transform.position.y;
 
         if (pos % 60 > Mathf.Epsilon + 1 || previousPos > pos)
         {

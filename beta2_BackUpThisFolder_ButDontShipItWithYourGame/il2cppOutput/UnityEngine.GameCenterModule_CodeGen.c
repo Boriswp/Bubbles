@@ -13,9 +13,9 @@
 
 
 // 0x00000001 UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.Social::get_Active()
-extern void Social_get_Active_m917F0BBA300F5DC846291DA71D6084AAB720EB30 (void);
+extern void Social_get_Active_m54586B347AE1248C646891B24054E71C8DE5DC88 (void);
 // 0x00000002 System.Void UnityEngine.Social::set_Active(UnityEngine.SocialPlatforms.ISocialPlatform)
-extern void Social_set_Active_mD1C8963D5C6AEB4A2E73AB9D9AD96FA2F51E093D (void);
+extern void Social_set_Active_m3E079BA4CFB75E910F913A8477135C0282BC72FB (void);
 // 0x00000003 UnityEngine.SocialPlatforms.ILocalUser UnityEngine.SocialPlatforms.Local::get_localUser()
 extern void Local_get_localUser_m21888B1B23DBA198D651B239D51DBCA525474F9E (void);
 // 0x00000004 System.Boolean UnityEngine.SocialPlatforms.Local::UnityEngine.SocialPlatforms.ISocialPlatform.GetLoading(UnityEngine.SocialPlatforms.ILeaderboard)
@@ -25,11 +25,11 @@ extern void Local_VerifyUser_m8AAA9F80FAFDA28FF4026A1532ABD34A4CDD88A1 (void);
 // 0x00000006 System.Void UnityEngine.SocialPlatforms.Local::.ctor()
 extern void Local__ctor_m223523E0079C7C184D1B804092E5C0A61B0E110E (void);
 // 0x00000007 UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.SocialPlatforms.ActivePlatform::get_Instance()
-extern void ActivePlatform_get_Instance_m1B60A4508DF2D5C1952EBD39B2CCB862CEF6A62D (void);
+extern void ActivePlatform_get_Instance_mC9DF8265897D79151D3F86D48A73691B6E3AFA06 (void);
 // 0x00000008 System.Void UnityEngine.SocialPlatforms.ActivePlatform::set_Instance(UnityEngine.SocialPlatforms.ISocialPlatform)
-extern void ActivePlatform_set_Instance_mA93ABEAEDF9062FAD2ABB4C500AA1CCD08C6E260 (void);
+extern void ActivePlatform_set_Instance_m11EC15E4BB9909B697B814DAA5C5C8314DE702E9 (void);
 // 0x00000009 UnityEngine.SocialPlatforms.ISocialPlatform UnityEngine.SocialPlatforms.ActivePlatform::SelectSocialPlatform()
-extern void ActivePlatform_SelectSocialPlatform_m1EABC12AC72AE55E283EA6A934A5AA90AE8B5AF8 (void);
+extern void ActivePlatform_SelectSocialPlatform_mEA0704F85B0FD046DE2E4069B1EC413BD835BCA7 (void);
 // 0x0000000A System.Boolean UnityEngine.SocialPlatforms.ISocialPlatform::GetLoading(UnityEngine.SocialPlatforms.ILeaderboard)
 // 0x0000000B System.Boolean UnityEngine.SocialPlatforms.ILocalUser::get_authenticated()
 // 0x0000000C System.Boolean UnityEngine.SocialPlatforms.ILeaderboard::get_loading()
@@ -65,15 +65,15 @@ extern void Leaderboard_get_range_m98008ADA839E76C8D69D152F7FC6EDBF2F6985DB (voi
 extern void Leaderboard_get_timeScope_mB7893524B11F9CF2C739B269C6CA34F19B1FC95E (void);
 static Il2CppMethodPointer s_methodPointers[29] = 
 {
-	Social_get_Active_m917F0BBA300F5DC846291DA71D6084AAB720EB30,
-	Social_set_Active_mD1C8963D5C6AEB4A2E73AB9D9AD96FA2F51E093D,
+	Social_get_Active_m54586B347AE1248C646891B24054E71C8DE5DC88,
+	Social_set_Active_m3E079BA4CFB75E910F913A8477135C0282BC72FB,
 	Local_get_localUser_m21888B1B23DBA198D651B239D51DBCA525474F9E,
 	Local_UnityEngine_SocialPlatforms_ISocialPlatform_GetLoading_m64E02B7FBE615554026DFFEAD1431696F48E241C,
 	Local_VerifyUser_m8AAA9F80FAFDA28FF4026A1532ABD34A4CDD88A1,
 	Local__ctor_m223523E0079C7C184D1B804092E5C0A61B0E110E,
-	ActivePlatform_get_Instance_m1B60A4508DF2D5C1952EBD39B2CCB862CEF6A62D,
-	ActivePlatform_set_Instance_mA93ABEAEDF9062FAD2ABB4C500AA1CCD08C6E260,
-	ActivePlatform_SelectSocialPlatform_m1EABC12AC72AE55E283EA6A934A5AA90AE8B5AF8,
+	ActivePlatform_get_Instance_mC9DF8265897D79151D3F86D48A73691B6E3AFA06,
+	ActivePlatform_set_Instance_m11EC15E4BB9909B697B814DAA5C5C8314DE702E9,
+	ActivePlatform_SelectSocialPlatform_mEA0704F85B0FD046DE2E4069B1EC413BD835BCA7,
 	NULL,
 	NULL,
 	NULL,
@@ -97,35 +97,35 @@ static Il2CppMethodPointer s_methodPointers[29] =
 };
 static const int32_t s_InvokerIndices[29] = 
 {
-	10839,
-	10053,
-	5724,
-	3375,
-	5638,
-	5847,
-	10839,
-	10053,
-	10839,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	5847,
-	5638,
-	5847,
-	5724,
-	5724,
-	5724,
-	5638,
-	5698,
-	5638,
-	5724,
-	5698,
+	10872,
+	10086,
 	5742,
-	5698,
+	3386,
+	5656,
+	5865,
+	10872,
+	10086,
+	10872,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	5865,
+	5656,
+	5865,
+	5742,
+	5742,
+	5742,
+	5656,
+	5716,
+	5656,
+	5742,
+	5716,
+	5760,
+	5716,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_GameCenterModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_GameCenterModule_CodeGenModule = 

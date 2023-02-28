@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 template <typename R>
@@ -244,12 +243,6 @@ struct List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376  : public RuntimeObject
 	RuntimeObject* ____syncRoot_4;
 };
 
-struct List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	MediationExtrasU5BU5D_t3929D8CB78842FB3A52C21A4BFF35C2152139335* ___s_emptyArray_5;
-};
-
 // System.Collections.Generic.List`1<System.Object>
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
 {
@@ -261,12 +254,6 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
 	int32_t ____version_3;
 	// System.Object System.Collections.Generic.List`1::_syncRoot
 	RuntimeObject* ____syncRoot_4;
-};
-
-struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
 };
 
 // System.Collections.Generic.List`1<System.String>
@@ -282,12 +269,6 @@ struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
 	RuntimeObject* ____syncRoot_4;
 };
 
-struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
-};
-
 // GoogleMobileAds.Api.AdRequest
 struct AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D  : public RuntimeObject
 {
@@ -297,12 +278,6 @@ struct AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D  : public RuntimeObje
 	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___U3CExtrasU3Ek__BackingField_3;
 	// System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras> GoogleMobileAds.Api.AdRequest::<MediationExtras>k__BackingField
 	List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___U3CMediationExtrasU3Ek__BackingField_4;
-};
-
-struct AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_StaticFields
-{
-	// System.String GoogleMobileAds.Api.AdRequest::<Version>k__BackingField
-	String_t* ___U3CVersionU3Ek__BackingField_0;
 };
 
 // GoogleMobileAds.Api.AdSize
@@ -316,22 +291,6 @@ struct AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158  : public RuntimeObject
 	int32_t ___width_2;
 	// System.Int32 GoogleMobileAds.Api.AdSize::height
 	int32_t ___height_3;
-};
-
-struct AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_StaticFields
-{
-	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::Banner
-	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___Banner_4;
-	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::MediumRectangle
-	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___MediumRectangle_5;
-	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::IABBanner
-	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___IABBanner_6;
-	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::Leaderboard
-	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___Leaderboard_7;
-	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::SmartBanner
-	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___SmartBanner_8;
-	// System.Int32 GoogleMobileAds.Api.AdSize::FullWidth
-	int32_t ___FullWidth_9;
 };
 
 // GoogleMobileAds.Api.AdValue
@@ -355,7 +314,6 @@ struct AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0  : public Runtime
 	// System.Int32 GoogleMobileAds.Api.AdapterStatus::<Latency>k__BackingField
 	int32_t ___U3CLatencyU3Ek__BackingField_2;
 };
-struct Il2CppArrayBounds;
 
 // System.Reflection.Assembly
 struct Assembly_t  : public RuntimeObject
@@ -452,12 +410,6 @@ struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377  : public RuntimeObje
 {
 };
 
-struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
-{
-	// System.EventArgs System.EventArgs::Empty
-	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
-};
-
 // GoogleMobileAds.Api.MaxAdContentRating
 struct MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17  : public RuntimeObject
 {
@@ -493,12 +445,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // System.Text.StringBuilder
@@ -603,14 +549,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // System.Double
 struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
 {
@@ -637,12 +575,6 @@ struct IntPtr_t
 {
 	// System.Void* System.IntPtr::m_value
 	void* ___m_value_0;
-};
-
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
 };
 
 // GoogleMobileAds.Api.Reward
@@ -710,6 +642,195 @@ struct Type_t  : public MemberInfo_t
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
 };
 
+// <Module>
+
+// <Module>
+
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+
+// System.Collections.Generic.HashSet`1<System.String>
+
+// System.Collections.Generic.HashSet`1<System.String>
+
+// System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras>
+struct List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	MediationExtrasU5BU5D_t3929D8CB78842FB3A52C21A4BFF35C2152139335* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras>
+
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.Object>
+
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.String>
+
+// GoogleMobileAds.Api.AdRequest
+struct AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_StaticFields
+{
+	// System.String GoogleMobileAds.Api.AdRequest::<Version>k__BackingField
+	String_t* ___U3CVersionU3Ek__BackingField_0;
+};
+
+// GoogleMobileAds.Api.AdRequest
+
+// GoogleMobileAds.Api.AdSize
+struct AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_StaticFields
+{
+	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::Banner
+	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___Banner_4;
+	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::MediumRectangle
+	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___MediumRectangle_5;
+	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::IABBanner
+	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___IABBanner_6;
+	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::Leaderboard
+	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___Leaderboard_7;
+	// GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::SmartBanner
+	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___SmartBanner_8;
+	// System.Int32 GoogleMobileAds.Api.AdSize::FullWidth
+	int32_t ___FullWidth_9;
+};
+
+// GoogleMobileAds.Api.AdSize
+
+// GoogleMobileAds.Api.AdValue
+
+// GoogleMobileAds.Api.AdValue
+
+// GoogleMobileAds.Api.AdapterStatus
+
+// GoogleMobileAds.Api.AdapterStatus
+
+// System.Reflection.Assembly
+
+// System.Reflection.Assembly
+
+// System.Reflection.AssemblyName
+
+// System.Reflection.AssemblyName
+
+// System.EventArgs
+struct EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields
+{
+	// System.EventArgs System.EventArgs::Empty
+	EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* ___Empty_0;
+};
+
+// System.EventArgs
+
+// GoogleMobileAds.Api.MaxAdContentRating
+
+// GoogleMobileAds.Api.MaxAdContentRating
+
+// GoogleMobileAds.Api.Mediation.MediationExtras
+
+// GoogleMobileAds.Api.Mediation.MediationExtras
+
+// GoogleMobileAds.Api.ServerSideVerificationOptions
+
+// GoogleMobileAds.Api.ServerSideVerificationOptions
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// System.Text.StringBuilder
+
+// System.Text.StringBuilder
+
+// System.Version
+
+// System.Version
+
+// GoogleMobileAds.Api.AdRequest/Builder
+
+// GoogleMobileAds.Api.AdRequest/Builder
+
+// GoogleMobileAds.Api.ServerSideVerificationOptions/Builder
+
+// GoogleMobileAds.Api.ServerSideVerificationOptions/Builder
+
+// System.Nullable`1<System.Boolean>
+
+// System.Nullable`1<System.Boolean>
+
+// System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment>
+
+// System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment>
+
+// System.Nullable`1<GoogleMobileAds.Api.TagForUnderAgeOfConsent>
+
+// System.Nullable`1<GoogleMobileAds.Api.TagForUnderAgeOfConsent>
+
+// GoogleMobileAds.Api.AdValueEventArgs
+
+// GoogleMobileAds.Api.AdValueEventArgs
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.Double
+
+// System.Double
+
+// System.Int32
+
+// System.Int32
+
+// System.Int64
+
+// System.Int64
+
+// GoogleMobileAds.Api.Reward
+
+// GoogleMobileAds.Api.Reward
+
+// System.Void
+
+// System.Void
+
+// GoogleMobileAds.Api.RequestConfiguration
+
+// GoogleMobileAds.Api.RequestConfiguration
+
+// System.RuntimeTypeHandle
+
+// System.RuntimeTypeHandle
+
+// GoogleMobileAds.Api.RequestConfiguration/Builder
+
+// GoogleMobileAds.Api.RequestConfiguration/Builder
+
+// System.Type
 struct Type_t_StaticFields
 {
 	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
@@ -727,6 +848,8 @@ struct Type_t_StaticFields
 	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
 };
+
+// System.Type
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -768,9 +891,9 @@ struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeA
 
 
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_mC13D3ADFE27A073EC3C583E9C926C801A7EE1DDD_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___collection0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_mC13D3ADFE27A073EC3C583E9C926C801A7EE1DDD_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m623BF34EB93B2B3A3B7D46743B508E2E2958939E_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___dictionary0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m623BF34EB93B2B3A3B7D46743B508E2E2958939E_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_dictionary, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
@@ -778,20 +901,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_m5B32FBC624618211EB46
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Add(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::Add(T)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Add(TKey,TValue)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___key0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, RuntimeObject* ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
 // System.Boolean System.Nullable`1<System.Boolean>::get_HasValue()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m6B76D139692C43B2AF7C695FAB044B16ACFAF355_gshared_inline (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, const RuntimeMethod* method) ;
 // T System.Nullable`1<System.Boolean>::get_Value()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Nullable_1_get_Value_mE2C54C6AE9FC9F05BF44CD9D7D61DC6CD56E3E28_gshared (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, const RuntimeMethod* method) ;
 // System.Void System.Nullable`1<System.Boolean>::.ctor(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_gshared (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_gshared (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, bool ___0_value, const RuntimeMethod* method) ;
 
 // System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m2570A2A5B32A5E9D9F0F38B37459DA18736C823E (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___handle0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
 // System.Version System.Reflection.AssemblyName::get_Version()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* AssemblyName_get_Version_mC20EC1E68FA7C40120112C2E29A19C9D948B5300_inline (AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2* __this, const RuntimeMethod* method) ;
 // System.Int32 System.Version::get_Major()
@@ -801,85 +924,85 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Version_get_Minor_m5EEC53
 // System.Int32 System.Version::get_Revision()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Version_get_Revision_mB8ABEDBEF89C1F44A43A93E90A943EBF94BDB030_inline (Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* __this, const RuntimeMethod* method) ;
 // System.String System.String::Format(System.String,System.Object,System.Object,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m76BF8F3A6AD789E38B708848A2688D400AAC250A (String_t* ___format0, RuntimeObject* ___arg01, RuntimeObject* ___arg12, RuntimeObject* ___arg23, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C (String_t* ___0_format, RuntimeObject* ___1_arg0, RuntimeObject* ___2_arg1, RuntimeObject* ___3_arg2, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.AdRequest::set_Version(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_Version_m42A61AA47AB54842EE4A32F4918836AD494B787F_inline (String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_Version_m75B666E0DD9ED3BA9CAD84DBD487EEC0FB47168F_inline (String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Collections.Generic.HashSet`1<System.String> GoogleMobileAds.Api.AdRequest/Builder::get_Keywords()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* Builder_get_Keywords_m2ACF0D9B8B00F9D47B950414A7DF7512FDBF78C4_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.HashSet`1<System.String>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-inline void HashSet_1__ctor_m9F8CD04799346CDC14E5D227FCC28B5A151A7C62 (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
+inline void HashSet_1__ctor_m9F8CD04799346CDC14E5D227FCC28B5A151A7C62 (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method)
 {
-	((  void (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, RuntimeObject*, const RuntimeMethod*))HashSet_1__ctor_mC13D3ADFE27A073EC3C583E9C926C801A7EE1DDD_gshared)(__this, ___collection0, method);
+	((  void (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, RuntimeObject*, const RuntimeMethod*))HashSet_1__ctor_mC13D3ADFE27A073EC3C583E9C926C801A7EE1DDD_gshared)(__this, ___0_collection, method);
 }
 // System.Void GoogleMobileAds.Api.AdRequest::set_Keywords(System.Collections.Generic.HashSet`1<System.String>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_Keywords_m52C0D51933CEB01E435A95CC04F792F45AB51FFF_inline (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_Keywords_m52C0D51933CEB01E435A95CC04F792F45AB51FFF_inline (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___0_value, const RuntimeMethod* method) ;
 // System.Collections.Generic.Dictionary`2<System.String,System.String> GoogleMobileAds.Api.AdRequest/Builder::get_Extras()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* Builder_get_Extras_m97B5CEAED23C0321CFAD990AE5E083A23AE4BC83_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::.ctor(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-inline void Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, RuntimeObject* ___dictionary0, const RuntimeMethod* method)
+inline void Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, RuntimeObject* ___0_dictionary, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, RuntimeObject*, const RuntimeMethod*))Dictionary_2__ctor_m623BF34EB93B2B3A3B7D46743B508E2E2958939E_gshared)(__this, ___dictionary0, method);
+	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, RuntimeObject*, const RuntimeMethod*))Dictionary_2__ctor_m623BF34EB93B2B3A3B7D46743B508E2E2958939E_gshared)(__this, ___0_dictionary, method);
 }
 // System.Void GoogleMobileAds.Api.AdRequest::set_Extras(System.Collections.Generic.Dictionary`2<System.String,System.String>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_Extras_mA153AFA80CFC7EC879E4D5AE825EC535426D12F3_inline (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_Extras_mA153AFA80CFC7EC879E4D5AE825EC535426D12F3_inline (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___0_value, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras> GoogleMobileAds.Api.AdRequest/Builder::get_MediationExtras()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* Builder_get_MediationExtras_mF07F0F80670613ED80AD4A78F0AA249D8F982E8B_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.AdRequest::set_MediationExtras(System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_MediationExtras_m1328653F1F1CE7CDC54FF446F5049006E223B23A_inline (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_MediationExtras_m1328653F1F1CE7CDC54FF446F5049006E223B23A_inline (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Text.StringBuilder::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_mCD797D942316CB356205FD96415B0B7581CDAD60 (StringBuilder_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_mCD797D942316CB356205FD96415B0B7581CDAD60 (StringBuilder_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.String GoogleMobileAds.Api.AdRequest::get_Version()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AdRequest_get_Version_mD249877A6BAE210A180AD6ED98E52F3FBF04B82F_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AdRequest_get_Version_mDEA58424E216DCD68C3CD09115A3F0207D8DDF79_inline (const RuntimeMethod* method) ;
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D (StringBuilder_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D (StringBuilder_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Boolean System.String::IsNullOrEmpty(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A (String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.HashSet`1<System.String>::.ctor()
 inline void HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03 (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, const RuntimeMethod* method)
 {
 	((  void (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, const RuntimeMethod*))HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared)(__this, method);
 }
 // System.Void GoogleMobileAds.Api.AdRequest/Builder::set_Keywords(System.Collections.Generic.HashSet`1<System.String>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_Keywords_mFE97D27725248C3AD38841B0A42C8499475823BF_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_Keywords_mFE97D27725248C3AD38841B0A42C8499475823BF_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::.ctor()
 inline void Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, const RuntimeMethod* method)
 {
 	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, const RuntimeMethod*))Dictionary_2__ctor_m5B32FBC624618211EB461D59CFBB10E987FD1329_gshared)(__this, method);
 }
 // System.Void GoogleMobileAds.Api.AdRequest/Builder::set_Extras(System.Collections.Generic.Dictionary`2<System.String,System.String>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_Extras_mBAC4F79F9F50762126383E5A522DE86F6990D9EE_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_Extras_mBAC4F79F9F50762126383E5A522DE86F6990D9EE_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras>::.ctor()
 inline void List_1__ctor_m3C7CA2F7991C9EA2001E12337D5FA693E23C7DAC (List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* __this, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
 }
 // System.Void GoogleMobileAds.Api.AdRequest/Builder::set_MediationExtras(System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_MediationExtras_mAD30DB258DAF1053F48130304841B542E2645410_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_MediationExtras_mAD30DB258DAF1053F48130304841B542E2645410_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___0_value, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.HashSet`1<System.String>::Add(T)
-inline bool HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, String_t* ___item0, const RuntimeMethod* method)
+inline bool HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, String_t* ___0_item, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, String_t*, const RuntimeMethod*))HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared)(__this, ___item0, method);
+	return ((  bool (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, String_t*, const RuntimeMethod*))HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared)(__this, ___0_item, method);
 }
 // System.Void GoogleMobileAds.Api.AdRequest::.ctor(GoogleMobileAds.Api.AdRequest/Builder)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest__ctor_m3C6402F85FF0A419939C7DF26D347496A1CE7059 (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* ___builder0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest__ctor_m3C6402F85FF0A419939C7DF26D347496A1CE7059 (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* ___0_builder, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras>::Add(T)
-inline void List_1_Add_m7F033746254FE8B3C4E9FC82E53584EEAC7084D4_inline (List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* __this, MediationExtras_t390586958F7ED4B158AD5AD18F58A86E9E7B621E* ___item0, const RuntimeMethod* method)
+inline void List_1_Add_m7F033746254FE8B3C4E9FC82E53584EEAC7084D4_inline (List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* __this, MediationExtras_t390586958F7ED4B158AD5AD18F58A86E9E7B621E* ___0_item, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376*, MediationExtras_t390586958F7ED4B158AD5AD18F58A86E9E7B621E*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___item0, method);
+	((  void (*) (List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376*, MediationExtras_t390586958F7ED4B158AD5AD18F58A86E9E7B621E*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
 }
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(TKey,TValue)
-inline void Dictionary_2_Add_mC78C20D5901C87AAC38F37C906FAB6946BDE5F13 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method)
+inline void Dictionary_2_Add_mC78C20D5901C87AAC38F37C906FAB6946BDE5F13 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, String_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method)
 {
-	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, String_t*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___key0, ___value1, method);
+	((  void (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, String_t*, String_t*, const RuntimeMethod*))Dictionary_2_Add_m93FFFABE8FCE7FA9793F0915E2A8842C7CD0C0C1_gshared)(__this, ___0_key, ___1_value, method);
 }
 // System.Void GoogleMobileAds.Api.AdSize::.ctor(System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdSize__ctor_m3135618F57F2ABBC18CD548238DB0078A781884D (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* __this, int32_t ___width0, int32_t ___height1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdSize__ctor_m3135618F57F2ABBC18CD548238DB0078A781884D (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* __this, int32_t ___0_width, int32_t ___1_height, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.AdSize::.ctor(System.Int32,System.Int32,GoogleMobileAds.Api.AdSize/Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdSize__ctor_mF8EE31157BD7A396CD2ACA8C7973AA9EB3D03D73 (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* __this, int32_t ___width0, int32_t ___height1, int32_t ___type2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdSize__ctor_mF8EE31157BD7A396CD2ACA8C7973AA9EB3D03D73 (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* __this, int32_t ___0_width, int32_t ___1_height, int32_t ___2_type, const RuntimeMethod* method) ;
 // GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::CreateAnchoredAdaptiveAdSize(System.Int32,GoogleMobileAds.Api.Orientation)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* AdSize_CreateAnchoredAdaptiveAdSize_m912AB52BFDCBC46DC1338126F762E793CCEE11B1 (int32_t ___width0, int32_t ___orientation1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* AdSize_CreateAnchoredAdaptiveAdSize_mEAA9CA664616821D386126D09FF3E451B9719A86 (int32_t ___0_width, int32_t ___1_orientation, const RuntimeMethod* method) ;
 // System.Type System.Object::GetType()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Int32 System.Int32::GetHashCode()
@@ -887,53 +1010,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Int32_GetHashCode_m253D60FF7527A483E9
 // System.Void System.EventArgs::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventArgs__ctor_mC6F9412D03203ADEF854117542C8EBF61624C8C3 (EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* __this, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.AdapterStatus::set_InitializationState(GoogleMobileAds.Api.AdapterState)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdapterStatus_set_InitializationState_mCAC923590AEBF2A82B50D11A840782E926D489FA_inline (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdapterStatus_set_InitializationState_mCAC923590AEBF2A82B50D11A840782E926D489FA_inline (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.AdapterStatus::set_Description(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdapterStatus_set_Description_m8987A66E81FAAC057BEE46A30CB522BA72788F32_inline (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdapterStatus_set_Description_m8987A66E81FAAC057BEE46A30CB522BA72788F32_inline (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.AdapterStatus::set_Latency(System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdapterStatus_set_Latency_m6AAFC26BBD8DB832E092CA129D496B023B4D2710_inline (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdapterStatus_set_Latency_m6AAFC26BBD8DB832E092CA129D496B023B4D2710_inline (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.MaxAdContentRating::set_Value(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MaxAdContentRating_set_Value_mED6650BB4FC02D217E2A8A57D6C57634881BD64E_inline (MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MaxAdContentRating_set_Value_mED6650BB4FC02D217E2A8A57D6C57634881BD64E_inline (MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.MaxAdContentRating::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaxAdContentRating__ctor_mB941F1C15423BA11C1D70F68B0FF19A3C8673856 (MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaxAdContentRating__ctor_mB941F1C15423BA11C1D70F68B0FF19A3C8673856 (MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // GoogleMobileAds.Api.MaxAdContentRating GoogleMobileAds.Api.RequestConfiguration/Builder::get_MaxAdContentRating()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* Builder_get_MaxAdContentRating_m4BEF4AD0EDC27107CF5837B902A078A4F547C208_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.RequestConfiguration::set_MaxAdContentRating(GoogleMobileAds.Api.MaxAdContentRating)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_MaxAdContentRating_m2B6ACA58719B2A0A075BA0A11FCEB2893CC14508_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_MaxAdContentRating_m2B6ACA58719B2A0A075BA0A11FCEB2893CC14508_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___0_value, const RuntimeMethod* method) ;
 // System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment> GoogleMobileAds.Api.RequestConfiguration/Builder::get_TagForChildDirectedTreatment()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD Builder_get_TagForChildDirectedTreatment_mC2A6C7BAE948C7B22E99105A524A5846217D8A78_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.RequestConfiguration::set_TagForChildDirectedTreatment(System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_TagForChildDirectedTreatment_m22F5F366495C21DAC85D7EEFF8B9BFBA9E3ECAD0_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_TagForChildDirectedTreatment_m22F5F366495C21DAC85D7EEFF8B9BFBA9E3ECAD0_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___0_value, const RuntimeMethod* method) ;
 // System.Nullable`1<GoogleMobileAds.Api.TagForUnderAgeOfConsent> GoogleMobileAds.Api.RequestConfiguration/Builder::get_TagForUnderAgeOfConsent()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 Builder_get_TagForUnderAgeOfConsent_mF4BDB4F7648CF1DAD58F7174002C3A3762B560C3_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.RequestConfiguration::set_TagForUnderAgeOfConsent(System.Nullable`1<GoogleMobileAds.Api.TagForUnderAgeOfConsent>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_TagForUnderAgeOfConsent_m7FDFAB70987A84DBA69CE2C75B6160DB38161DE2_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_TagForUnderAgeOfConsent_m7FDFAB70987A84DBA69CE2C75B6160DB38161DE2_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___0_value, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1<System.String> GoogleMobileAds.Api.RequestConfiguration/Builder::get_TestDeviceIds()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* Builder_get_TestDeviceIds_m3AE37E300BB67D456D0A46C6BC4D6D74BE88AF36_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.RequestConfiguration::set_TestDeviceIds(System.Collections.Generic.List`1<System.String>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_TestDeviceIds_m9727A2011EAFC6546F7A4EAC890D91FBFB24CEAA_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_TestDeviceIds_m9727A2011EAFC6546F7A4EAC890D91FBFB24CEAA_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_value, const RuntimeMethod* method) ;
 // System.Nullable`1<System.Boolean> GoogleMobileAds.Api.RequestConfiguration/Builder::get_SameAppKeyEnabled()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 Builder_get_SameAppKeyEnabled_mA27262640F2410EF0BC62D9884DA76EE1FA17EEC_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.RequestConfiguration::set_SameAppKeyEnabled(System.Nullable`1<System.Boolean>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_SameAppKeyEnabled_m83277CA092AFC81A9A0DDD7E1EBB1D74942E1E6A_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_SameAppKeyEnabled_m83277CA092AFC81A9A0DDD7E1EBB1D74942E1E6A_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___0_value, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.RequestConfiguration/Builder::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder__ctor_m0C1631E6835CC874EFBD2DE2CEA91F7556BC385D (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, const RuntimeMethod* method) ;
 // GoogleMobileAds.Api.MaxAdContentRating GoogleMobileAds.Api.RequestConfiguration::get_MaxAdContentRating()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* RequestConfiguration_get_MaxAdContentRating_mEDD9B954F58445193A387548E49A263091758E9A_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, const RuntimeMethod* method) ;
 // GoogleMobileAds.Api.RequestConfiguration/Builder GoogleMobileAds.Api.RequestConfiguration/Builder::SetMaxAdContentRating(GoogleMobileAds.Api.MaxAdContentRating)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetMaxAdContentRating_m2F7CC5E659E63A297CAE2307A71778A1B6B2107E (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___maxAdContentRating0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetMaxAdContentRating_m2F7CC5E659E63A297CAE2307A71778A1B6B2107E (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___0_maxAdContentRating, const RuntimeMethod* method) ;
 // System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment> GoogleMobileAds.Api.RequestConfiguration::get_TagForChildDirectedTreatment()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD RequestConfiguration_get_TagForChildDirectedTreatment_m0E52AF1CB09D1DF82E6AC9715D9FC863D3803489_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, const RuntimeMethod* method) ;
 // GoogleMobileAds.Api.RequestConfiguration/Builder GoogleMobileAds.Api.RequestConfiguration/Builder::SetTagForChildDirectedTreatment(System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetTagForChildDirectedTreatment_m276B46CB4D38C8036CDA4322A94D3F3248779258 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___tagForChildDirectedTreatment0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetTagForChildDirectedTreatment_m276B46CB4D38C8036CDA4322A94D3F3248779258 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___0_tagForChildDirectedTreatment, const RuntimeMethod* method) ;
 // System.Nullable`1<GoogleMobileAds.Api.TagForUnderAgeOfConsent> GoogleMobileAds.Api.RequestConfiguration::get_TagForUnderAgeOfConsent()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 RequestConfiguration_get_TagForUnderAgeOfConsent_m28E8E0762DCBC4C235557B4A569F13093B3E1EA8_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, const RuntimeMethod* method) ;
 // GoogleMobileAds.Api.RequestConfiguration/Builder GoogleMobileAds.Api.RequestConfiguration/Builder::SetTagForUnderAgeOfConsent(System.Nullable`1<GoogleMobileAds.Api.TagForUnderAgeOfConsent>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetTagForUnderAgeOfConsent_mC97C8EDB8DB9C256C279FD528C2E655597ED11C1 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___tagForUnderAgeOfConsent0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetTagForUnderAgeOfConsent_mC97C8EDB8DB9C256C279FD528C2E655597ED11C1 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___0_tagForUnderAgeOfConsent, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1<System.String> GoogleMobileAds.Api.RequestConfiguration::get_TestDeviceIds()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* RequestConfiguration_get_TestDeviceIds_m38BA8AC6D9B47F1BA8C5C17C707456B1E8B75A62_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, const RuntimeMethod* method) ;
 // GoogleMobileAds.Api.RequestConfiguration/Builder GoogleMobileAds.Api.RequestConfiguration/Builder::SetTestDeviceIds(System.Collections.Generic.List`1<System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetTestDeviceIds_m23097E49B7356B95143DEC3A07F7A62825DAF4DA (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___testDeviceIds0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetTestDeviceIds_m23097E49B7356B95143DEC3A07F7A62825DAF4DA (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_testDeviceIds, const RuntimeMethod* method) ;
 // System.Nullable`1<System.Boolean> GoogleMobileAds.Api.RequestConfiguration::get_SameAppKeyEnabled()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 RequestConfiguration_get_SameAppKeyEnabled_mBCB248BC03C4BDA094556649801DEC1EA9EA959A_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Nullable`1<System.Boolean>::get_HasValue()
@@ -947,45 +1070,45 @@ inline bool Nullable_1_get_Value_mE2C54C6AE9FC9F05BF44CD9D7D61DC6CD56E3E28 (Null
 	return ((  bool (*) (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01*, const RuntimeMethod*))Nullable_1_get_Value_mE2C54C6AE9FC9F05BF44CD9D7D61DC6CD56E3E28_gshared)(__this, method);
 }
 // GoogleMobileAds.Api.RequestConfiguration/Builder GoogleMobileAds.Api.RequestConfiguration/Builder::SetSameAppKeyEnabled(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetSameAppKeyEnabled_m11E40A96D12CFC49FD470937CDEBD7B5E52608B6 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, bool ___enabled0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetSameAppKeyEnabled_m11E40A96D12CFC49FD470937CDEBD7B5E52608B6 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, bool ___0_enabled, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.RequestConfiguration/Builder::set_MaxAdContentRating(GoogleMobileAds.Api.MaxAdContentRating)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_MaxAdContentRating_m53B90A8C17637AB6E1475C63175DD7856A4FF954_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_MaxAdContentRating_m53B90A8C17637AB6E1475C63175DD7856A4FF954_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___0_value, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.RequestConfiguration/Builder::set_TagForChildDirectedTreatment(System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_TagForChildDirectedTreatment_mC75F3BF3D11C9FD6FCE769C28B2185792432AC76_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_TagForChildDirectedTreatment_mC75F3BF3D11C9FD6FCE769C28B2185792432AC76_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___0_value, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.RequestConfiguration/Builder::set_TagForUnderAgeOfConsent(System.Nullable`1<GoogleMobileAds.Api.TagForUnderAgeOfConsent>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_TagForUnderAgeOfConsent_m550A8D87154CA8361C0A7CCE062791F909C53E0E_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_TagForUnderAgeOfConsent_m550A8D87154CA8361C0A7CCE062791F909C53E0E_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.String>::.ctor()
 inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
 }
 // System.Void GoogleMobileAds.Api.RequestConfiguration/Builder::set_TestDeviceIds(System.Collections.Generic.List`1<System.String>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_TestDeviceIds_m6A711A2A3A5E8A50E5307B860ABE6B45E6C43FD0_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_TestDeviceIds_m6A711A2A3A5E8A50E5307B860ABE6B45E6C43FD0_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_value, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.RequestConfiguration/Builder::set_SameAppKeyEnabled(System.Nullable`1<System.Boolean>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_SameAppKeyEnabled_mA0D6FA1509EAB48073BAA609C79D509B073DB550_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_SameAppKeyEnabled_mA0D6FA1509EAB48073BAA609C79D509B073DB550_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Nullable`1<System.Boolean>::.ctor(T)
-inline void Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5 (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, bool ___value0, const RuntimeMethod* method)
+inline void Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5 (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, bool ___0_value, const RuntimeMethod* method)
 {
-	((  void (*) (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01*, bool, const RuntimeMethod*))Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_gshared)(__this, ___value0, method);
+	((  void (*) (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01*, bool, const RuntimeMethod*))Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_gshared)(__this, ___0_value, method);
 }
 // System.Void GoogleMobileAds.Api.RequestConfiguration::.ctor(GoogleMobileAds.Api.RequestConfiguration/Builder)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestConfiguration__ctor_mCF78EE36863A8268C55C4FB0AE9DFA58D0D18406 (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* ___builder0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestConfiguration__ctor_mCF78EE36863A8268C55C4FB0AE9DFA58D0D18406 (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* ___0_builder, const RuntimeMethod* method) ;
 // System.String GoogleMobileAds.Api.ServerSideVerificationOptions/Builder::get_UserId()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Builder_get_UserId_m40BBB0F2049F1835E3D02ADE13E72C48AB5F9500_inline (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.ServerSideVerificationOptions::set_UserId(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ServerSideVerificationOptions_set_UserId_mF728D841C682C5FB56AC7600B3725767B4FA9E5E_inline (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ServerSideVerificationOptions_set_UserId_mF728D841C682C5FB56AC7600B3725767B4FA9E5E_inline (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.String GoogleMobileAds.Api.ServerSideVerificationOptions/Builder::get_CustomData()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Builder_get_CustomData_m8F1BF55AE365DAFDA2F04AE224DDEEDC7159E912_inline (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.ServerSideVerificationOptions::set_CustomData(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ServerSideVerificationOptions_set_CustomData_m9717F3B3DEB805774039998582BB8B6F769BD66D_inline (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ServerSideVerificationOptions_set_CustomData_m9717F3B3DEB805774039998582BB8B6F769BD66D_inline (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.ServerSideVerificationOptions/Builder::set_UserId(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_UserId_mA7E097E679644FFCA1A78C1D9AD7E00B6865C949_inline (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_UserId_mA7E097E679644FFCA1A78C1D9AD7E00B6865C949_inline (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.ServerSideVerificationOptions/Builder::set_CustomData(System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_CustomData_mBCAE82C8C5CF295D970377CB6FDC14821DC50CBC_inline (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_CustomData_mBCAE82C8C5CF295D970377CB6FDC14821DC50CBC_inline (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.ServerSideVerificationOptions::.ctor(GoogleMobileAds.Api.ServerSideVerificationOptions/Builder)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerSideVerificationOptions__ctor_m9CF57A2A017730B009485C01F7F1932119C3FFF8 (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* ___builder0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerSideVerificationOptions__ctor_m9CF57A2A017730B009485C01F7F1932119C3FFF8 (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* ___0_builder, const RuntimeMethod* method) ;
 // System.Void GoogleMobileAds.Api.Mediation.MediationExtras::set_Extras(System.Collections.Generic.Dictionary`2<System.String,System.String>)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MediationExtras_set_Extras_mA9D64360355284BC7D2A7BE683FFB0AD2A4EC138_inline (MediationExtras_t390586958F7ED4B158AD5AD18F58A86E9E7B621E* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MediationExtras_set_Extras_mA9D64360355284BC7D2A7BE683FFB0AD2A4EC138_inline (MediationExtras_t390586958F7ED4B158AD5AD18F58A86E9E7B621E* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___0_value, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1000,7 +1123,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MediationExtras_set_Extras_m
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void GoogleMobileAds.Api.AdRequest::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest__cctor_mE62F50E77B20D74F04E33F696652C50E86AA3750 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest__cctor_mB03DE91686BA3B5A8138D7DEA1D46515C904263A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1016,7 +1139,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest__cctor_mE62F50E77B20D74F04E33F
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_0 = { reinterpret_cast<intptr_t> (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_1;
-		L_1 = Type_GetTypeFromHandle_m2570A2A5B32A5E9D9F0F38B37459DA18736C823E(L_0, NULL);
+		L_1 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_0, NULL);
 		NullCheck(L_1);
 		Assembly_t* L_2;
 		L_2 = VirtualFuncInvoker0< Assembly_t* >::Invoke(26 /* System.Reflection.Assembly System.Type::get_Assembly() */, L_1);
@@ -1046,13 +1169,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest__cctor_mE62F50E77B20D74F04E33F
 		int32_t L_15 = L_14;
 		RuntimeObject* L_16 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_15);
 		String_t* L_17;
-		L_17 = String_Format_m76BF8F3A6AD789E38B708848A2688D400AAC250A(_stringLiteral8244FF4469CD24AECA8F7B1B293CA6DF261B2861, L_8, L_12, L_16, NULL);
-		AdRequest_set_Version_m42A61AA47AB54842EE4A32F4918836AD494B787F_inline(L_17, NULL);
+		L_17 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral8244FF4469CD24AECA8F7B1B293CA6DF261B2861, L_8, L_12, L_16, NULL);
+		AdRequest_set_Version_m75B666E0DD9ED3BA9CAD84DBD487EEC0FB47168F_inline(L_17, NULL);
 		return;
 	}
 }
 // System.Void GoogleMobileAds.Api.AdRequest::.ctor(GoogleMobileAds.Api.AdRequest/Builder)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest__ctor_m3C6402F85FF0A419939C7DF26D347496A1CE7059 (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* ___builder0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest__ctor_m3C6402F85FF0A419939C7DF26D347496A1CE7059 (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* ___0_builder, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1065,7 +1188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest__ctor_m3C6402F85FF0A419939C7DF
 	}
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* L_0 = ___builder0;
+		Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* L_0 = ___0_builder;
 		NullCheck(L_0);
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_1;
 		L_1 = Builder_get_Keywords_m2ACF0D9B8B00F9D47B950414A7DF7512FDBF78C4_inline(L_0, NULL);
@@ -1073,7 +1196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest__ctor_m3C6402F85FF0A419939C7DF
 		NullCheck(L_2);
 		HashSet_1__ctor_m9F8CD04799346CDC14E5D227FCC28B5A151A7C62(L_2, L_1, HashSet_1__ctor_m9F8CD04799346CDC14E5D227FCC28B5A151A7C62_RuntimeMethod_var);
 		AdRequest_set_Keywords_m52C0D51933CEB01E435A95CC04F792F45AB51FFF_inline(__this, L_2, NULL);
-		Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* L_3 = ___builder0;
+		Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* L_3 = ___0_builder;
 		NullCheck(L_3);
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_4;
 		L_4 = Builder_get_Extras_m97B5CEAED23C0321CFAD990AE5E083A23AE4BC83_inline(L_3, NULL);
@@ -1081,7 +1204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest__ctor_m3C6402F85FF0A419939C7DF
 		NullCheck(L_5);
 		Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9(L_5, L_4, Dictionary_2__ctor_m1D3CFAA07F0EE9405CAF58853C2E25690A51D0F9_RuntimeMethod_var);
 		AdRequest_set_Extras_mA153AFA80CFC7EC879E4D5AE825EC535426D12F3_inline(__this, L_5, NULL);
-		Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* L_6 = ___builder0;
+		Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* L_6 = ___0_builder;
 		NullCheck(L_6);
 		List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* L_7;
 		L_7 = Builder_get_MediationExtras_mF07F0F80670613ED80AD4A78F0AA249D8F982E8B_inline(L_6, NULL);
@@ -1090,7 +1213,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest__ctor_m3C6402F85FF0A419939C7DF
 	}
 }
 // System.String GoogleMobileAds.Api.AdRequest::get_Version()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AdRequest_get_Version_mD249877A6BAE210A180AD6ED98E52F3FBF04B82F (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AdRequest_get_Version_mDEA58424E216DCD68C3CD09115A3F0207D8DDF79 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1105,7 +1228,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AdRequest_get_Version_mD249877A6BAE
 	}
 }
 // System.Void GoogleMobileAds.Api.AdRequest::set_Version(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest_set_Version_m42A61AA47AB54842EE4A32F4918836AD494B787F (String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest_set_Version_m75B666E0DD9ED3BA9CAD84DBD487EEC0FB47168F (String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1114,7 +1237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest_set_Version_m42A61AA47AB54842E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_il2cpp_TypeInfo_var);
 		((AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_StaticFields*)il2cpp_codegen_static_fields_for(AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_il2cpp_TypeInfo_var))->___U3CVersionU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_StaticFields*)il2cpp_codegen_static_fields_for(AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_il2cpp_TypeInfo_var))->___U3CVersionU3Ek__BackingField_0), (void*)L_0);
@@ -1130,10 +1253,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HashSet_1_tEFC6605F7DE53F71946C33FD371E53C310
 	}
 }
 // System.Void GoogleMobileAds.Api.AdRequest::set_Keywords(System.Collections.Generic.HashSet`1<System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest_set_Keywords_m52C0D51933CEB01E435A95CC04F792F45AB51FFF (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest_set_Keywords_m52C0D51933CEB01E435A95CC04F792F45AB51FFF (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = ___value0;
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = ___0_value;
 		__this->___U3CKeywordsU3Ek__BackingField_2 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CKeywordsU3Ek__BackingField_2), (void*)L_0);
 		return;
@@ -1148,10 +1271,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F31
 	}
 }
 // System.Void GoogleMobileAds.Api.AdRequest::set_Extras(System.Collections.Generic.Dictionary`2<System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest_set_Extras_mA153AFA80CFC7EC879E4D5AE825EC535426D12F3 (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest_set_Extras_mA153AFA80CFC7EC879E4D5AE825EC535426D12F3 (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = ___value0;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = ___0_value;
 		__this->___U3CExtrasU3Ek__BackingField_3 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExtrasU3Ek__BackingField_3), (void*)L_0);
 		return;
@@ -1166,17 +1289,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3
 	}
 }
 // System.Void GoogleMobileAds.Api.AdRequest::set_MediationExtras(System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest_set_MediationExtras_m1328653F1F1CE7CDC54FF446F5049006E223B23A (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdRequest_set_MediationExtras_m1328653F1F1CE7CDC54FF446F5049006E223B23A (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* L_0 = ___value0;
+		List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* L_0 = ___0_value;
 		__this->___U3CMediationExtrasU3Ek__BackingField_4 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMediationExtrasU3Ek__BackingField_4), (void*)L_0);
 		return;
 	}
 }
 // System.String GoogleMobileAds.Api.AdRequest::BuildVersionString(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AdRequest_BuildVersionString_m37AFD9BA971CEE4E37FB507E8C0F79F01106CFB5 (String_t* ___nativePluginVersion0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AdRequest_BuildVersionString_mE20A7E8289BA107C2409CE7A3DCFEC5770EEC513 (String_t* ___0_nativePluginVersion, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1196,13 +1319,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AdRequest_BuildVersionString_m37AFD
 		StringBuilder_t* L_1 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_il2cpp_TypeInfo_var);
 		String_t* L_2;
-		L_2 = AdRequest_get_Version_mD249877A6BAE210A180AD6ED98E52F3FBF04B82F_inline(NULL);
+		L_2 = AdRequest_get_Version_mDEA58424E216DCD68C3CD09115A3F0207D8DDF79_inline(NULL);
 		NullCheck(L_1);
 		StringBuilder_t* L_3;
 		L_3 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_1, L_2, NULL);
-		String_t* L_4 = ___nativePluginVersion0;
+		String_t* L_4 = ___0_nativePluginVersion;
 		bool L_5;
-		L_5 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_4, NULL);
+		L_5 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_4, NULL);
 		if (L_5)
 		{
 			goto IL_0036;
@@ -1214,7 +1337,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AdRequest_BuildVersionString_m37AFD
 		StringBuilder_t* L_7;
 		L_7 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_6, _stringLiteral5F66A1EC0B47E429CB0A3F7C531F0674F96F49F3, NULL);
 		StringBuilder_t* L_8 = V_0;
-		String_t* L_9 = ___nativePluginVersion0;
+		String_t* L_9 = ___0_nativePluginVersion;
 		NullCheck(L_8);
 		StringBuilder_t* L_10;
 		L_10 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_8, L_9, NULL);
@@ -1277,10 +1400,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HashSet_1_tEFC6605F7DE53F71946C33FD371E53C310
 	}
 }
 // System.Void GoogleMobileAds.Api.AdRequest/Builder::set_Keywords(System.Collections.Generic.HashSet`1<System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_Keywords_mFE97D27725248C3AD38841B0A42C8499475823BF (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_Keywords_mFE97D27725248C3AD38841B0A42C8499475823BF (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = ___value0;
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = ___0_value;
 		__this->___U3CKeywordsU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CKeywordsU3Ek__BackingField_0), (void*)L_0);
 		return;
@@ -1295,10 +1418,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F31
 	}
 }
 // System.Void GoogleMobileAds.Api.AdRequest/Builder::set_Extras(System.Collections.Generic.Dictionary`2<System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_Extras_mBAC4F79F9F50762126383E5A522DE86F6990D9EE (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_Extras_mBAC4F79F9F50762126383E5A522DE86F6990D9EE (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = ___value0;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = ___0_value;
 		__this->___U3CExtrasU3Ek__BackingField_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExtrasU3Ek__BackingField_1), (void*)L_0);
 		return;
@@ -1313,17 +1436,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3
 	}
 }
 // System.Void GoogleMobileAds.Api.AdRequest/Builder::set_MediationExtras(System.Collections.Generic.List`1<GoogleMobileAds.Api.Mediation.MediationExtras>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_MediationExtras_mAD30DB258DAF1053F48130304841B542E2645410 (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_MediationExtras_mAD30DB258DAF1053F48130304841B542E2645410 (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* L_0 = ___value0;
+		List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* L_0 = ___0_value;
 		__this->___U3CMediationExtrasU3Ek__BackingField_2 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMediationExtrasU3Ek__BackingField_2), (void*)L_0);
 		return;
 	}
 }
 // GoogleMobileAds.Api.AdRequest/Builder GoogleMobileAds.Api.AdRequest/Builder::AddKeyword(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* Builder_AddKeyword_mAED29632B1B8D21E57E665CB2A50E239ADA0FBCB (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, String_t* ___keyword0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* Builder_AddKeyword_mAED29632B1B8D21E57E665CB2A50E239ADA0FBCB (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, String_t* ___0_keyword, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1334,7 +1457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t53925D96536F97B418172C0EF27AD9E6858F
 	{
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0;
 		L_0 = Builder_get_Keywords_m2ACF0D9B8B00F9D47B950414A7DF7512FDBF78C4_inline(__this, NULL);
-		String_t* L_1 = ___keyword0;
+		String_t* L_1 = ___0_keyword;
 		NullCheck(L_0);
 		bool L_2;
 		L_2 = HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D(L_0, L_1, HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
@@ -1358,7 +1481,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E
 	}
 }
 // GoogleMobileAds.Api.AdRequest/Builder GoogleMobileAds.Api.AdRequest/Builder::AddMediationExtras(GoogleMobileAds.Api.Mediation.MediationExtras)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* Builder_AddMediationExtras_m439D46974E663F40891E5869481D0DD2B52056B0 (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, MediationExtras_t390586958F7ED4B158AD5AD18F58A86E9E7B621E* ___extras0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* Builder_AddMediationExtras_m439D46974E663F40891E5869481D0DD2B52056B0 (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, MediationExtras_t390586958F7ED4B158AD5AD18F58A86E9E7B621E* ___0_extras, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1369,14 +1492,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t53925D96536F97B418172C0EF27AD9E6858F
 	{
 		List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* L_0;
 		L_0 = Builder_get_MediationExtras_mF07F0F80670613ED80AD4A78F0AA249D8F982E8B_inline(__this, NULL);
-		MediationExtras_t390586958F7ED4B158AD5AD18F58A86E9E7B621E* L_1 = ___extras0;
+		MediationExtras_t390586958F7ED4B158AD5AD18F58A86E9E7B621E* L_1 = ___0_extras;
 		NullCheck(L_0);
 		List_1_Add_m7F033746254FE8B3C4E9FC82E53584EEAC7084D4_inline(L_0, L_1, List_1_Add_m7F033746254FE8B3C4E9FC82E53584EEAC7084D4_RuntimeMethod_var);
 		return __this;
 	}
 }
 // GoogleMobileAds.Api.AdRequest/Builder GoogleMobileAds.Api.AdRequest/Builder::AddExtra(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* Builder_AddExtra_mB84451810636574D996604AB034A7FD42FB6DAE5 (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, String_t* ___key0, String_t* ___value1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* Builder_AddExtra_mB84451810636574D996604AB034A7FD42FB6DAE5 (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, String_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1387,8 +1510,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t53925D96536F97B418172C0EF27AD9E6858F
 	{
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0;
 		L_0 = Builder_get_Extras_m97B5CEAED23C0321CFAD990AE5E083A23AE4BC83_inline(__this, NULL);
-		String_t* L_1 = ___key0;
-		String_t* L_2 = ___value1;
+		String_t* L_1 = ___0_key;
+		String_t* L_2 = ___1_value;
 		NullCheck(L_0);
 		Dictionary_2_Add_mC78C20D5901C87AAC38F37C906FAB6946BDE5F13(L_0, L_1, L_2, Dictionary_2_Add_mC78C20D5901C87AAC38F37C906FAB6946BDE5F13_RuntimeMethod_var);
 		return __this;
@@ -1403,33 +1526,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t53925D96536F97B418172C0EF27AD9E6858F
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void GoogleMobileAds.Api.AdSize::.ctor(System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdSize__ctor_m3135618F57F2ABBC18CD548238DB0078A781884D (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* __this, int32_t ___width0, int32_t ___height1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdSize__ctor_m3135618F57F2ABBC18CD548238DB0078A781884D (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* __this, int32_t ___0_width, int32_t ___1_height, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		__this->___type_0 = 0;
-		int32_t L_0 = ___width0;
+		int32_t L_0 = ___0_width;
 		__this->___width_2 = L_0;
-		int32_t L_1 = ___height1;
+		int32_t L_1 = ___1_height;
 		__this->___height_3 = L_1;
 		__this->___orientation_1 = 0;
 		return;
 	}
 }
 // System.Void GoogleMobileAds.Api.AdSize::.ctor(System.Int32,System.Int32,GoogleMobileAds.Api.AdSize/Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdSize__ctor_mF8EE31157BD7A396CD2ACA8C7973AA9EB3D03D73 (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* __this, int32_t ___width0, int32_t ___height1, int32_t ___type2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdSize__ctor_mF8EE31157BD7A396CD2ACA8C7973AA9EB3D03D73 (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* __this, int32_t ___0_width, int32_t ___1_height, int32_t ___2_type, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = ___width0;
-		int32_t L_1 = ___height1;
+		int32_t L_0 = ___0_width;
+		int32_t L_1 = ___1_height;
 		AdSize__ctor_m3135618F57F2ABBC18CD548238DB0078A781884D(__this, L_0, L_1, NULL);
-		int32_t L_2 = ___type2;
+		int32_t L_2 = ___2_type;
 		__this->___type_0 = L_2;
 		return;
 	}
 }
 // GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::CreateAnchoredAdaptiveAdSize(System.Int32,GoogleMobileAds.Api.Orientation)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* AdSize_CreateAnchoredAdaptiveAdSize_m912AB52BFDCBC46DC1338126F762E793CCEE11B1 (int32_t ___width0, int32_t ___orientation1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* AdSize_CreateAnchoredAdaptiveAdSize_mEAA9CA664616821D386126D09FF3E451B9719A86 (int32_t ___0_width, int32_t ___1_orientation, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1439,13 +1562,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F
 	}
 	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* V_0 = NULL;
 	{
-		int32_t L_0 = ___width0;
+		int32_t L_0 = ___0_width;
 		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_1 = (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158*)il2cpp_codegen_object_new(AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_il2cpp_TypeInfo_var);
 		NullCheck(L_1);
 		AdSize__ctor_mF8EE31157BD7A396CD2ACA8C7973AA9EB3D03D73(L_1, L_0, 0, 2, NULL);
 		V_0 = L_1;
 		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_2 = V_0;
-		int32_t L_3 = ___orientation1;
+		int32_t L_3 = ___1_orientation;
 		NullCheck(L_2);
 		L_2->___orientation_1 = L_3;
 		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_4 = V_0;
@@ -1453,7 +1576,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F
 	}
 }
 // GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::GetLandscapeAnchoredAdaptiveBannerAdSizeWithWidth(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* AdSize_GetLandscapeAnchoredAdaptiveBannerAdSizeWithWidth_m831BEC0A3CC595D6C5C7897B4FC28442BEDD2CF4 (int32_t ___width0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* AdSize_GetLandscapeAnchoredAdaptiveBannerAdSizeWithWidth_m796307AD87871A198775F0395EF4798D377B1489 (int32_t ___0_width, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1462,15 +1585,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		int32_t L_0 = ___width0;
+		int32_t L_0 = ___0_width;
 		il2cpp_codegen_runtime_class_init_inline(AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_il2cpp_TypeInfo_var);
 		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_1;
-		L_1 = AdSize_CreateAnchoredAdaptiveAdSize_m912AB52BFDCBC46DC1338126F762E793CCEE11B1(L_0, 1, NULL);
+		L_1 = AdSize_CreateAnchoredAdaptiveAdSize_mEAA9CA664616821D386126D09FF3E451B9719A86(L_0, 1, NULL);
 		return L_1;
 	}
 }
 // GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::GetPortraitAnchoredAdaptiveBannerAdSizeWithWidth(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* AdSize_GetPortraitAnchoredAdaptiveBannerAdSizeWithWidth_mD7AB8F6FD8BB9F8E9C22F6262F836845E22B6F3A (int32_t ___width0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* AdSize_GetPortraitAnchoredAdaptiveBannerAdSizeWithWidth_mAFA60336C2A96C1BCECC8A37E9BB2E003DA8B133 (int32_t ___0_width, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1479,15 +1602,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		int32_t L_0 = ___width0;
+		int32_t L_0 = ___0_width;
 		il2cpp_codegen_runtime_class_init_inline(AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_il2cpp_TypeInfo_var);
 		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_1;
-		L_1 = AdSize_CreateAnchoredAdaptiveAdSize_m912AB52BFDCBC46DC1338126F762E793CCEE11B1(L_0, 2, NULL);
+		L_1 = AdSize_CreateAnchoredAdaptiveAdSize_mEAA9CA664616821D386126D09FF3E451B9719A86(L_0, 2, NULL);
 		return L_1;
 	}
 }
 // GoogleMobileAds.Api.AdSize GoogleMobileAds.Api.AdSize::GetCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* AdSize_GetCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth_m33C685BFEE376E1004EC0A4C7C36CC3A98797E87 (int32_t ___width0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* AdSize_GetCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth_m47EA294894380833C0500EBA7614840FB15A60EF (int32_t ___0_width, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1496,10 +1619,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		int32_t L_0 = ___width0;
+		int32_t L_0 = ___0_width;
 		il2cpp_codegen_runtime_class_init_inline(AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_il2cpp_TypeInfo_var);
 		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_1;
-		L_1 = AdSize_CreateAnchoredAdaptiveAdSize_m912AB52BFDCBC46DC1338126F762E793CCEE11B1(L_0, 0, NULL);
+		L_1 = AdSize_CreateAnchoredAdaptiveAdSize_mEAA9CA664616821D386126D09FF3E451B9719A86(L_0, 0, NULL);
 		return L_1;
 	}
 }
@@ -1536,7 +1659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdSize_get_Orientation_m9F0124F3CB2E7
 	}
 }
 // System.Boolean GoogleMobileAds.Api.AdSize::Equals(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdSize_Equals_m759FC89A81779FE4F570938486706AB55E2A90C0 (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* __this, RuntimeObject* ___obj0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdSize_Equals_m759FC89A81779FE4F570938486706AB55E2A90C0 (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1547,7 +1670,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdSize_Equals_m759FC89A81779FE4F57093848
 	AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* V_0 = NULL;
 	int32_t G_B8_0 = 0;
 	{
-		RuntimeObject* L_0 = ___obj0;
+		RuntimeObject* L_0 = ___0_obj;
 		if (!L_0)
 		{
 			goto IL_0017;
@@ -1556,7 +1679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdSize_Equals_m759FC89A81779FE4F57093848
 	{
 		Type_t* L_1;
 		L_1 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(__this, NULL);
-		RuntimeObject* L_2 = ___obj0;
+		RuntimeObject* L_2 = ___0_obj;
 		NullCheck(L_2);
 		Type_t* L_3;
 		L_3 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_2, NULL);
@@ -1573,7 +1696,7 @@ IL_0017:
 
 IL_0019:
 	{
-		RuntimeObject* L_4 = ___obj0;
+		RuntimeObject* L_4 = ___0_obj;
 		V_0 = ((AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158*)CastclassClass((RuntimeObject*)L_4, AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158_il2cpp_TypeInfo_var));
 		int32_t L_5 = __this->___width_2;
 		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_6 = V_0;
@@ -1624,24 +1747,24 @@ IL_0064:
 	}
 }
 // System.Boolean GoogleMobileAds.Api.AdSize::op_Equality(GoogleMobileAds.Api.AdSize,GoogleMobileAds.Api.AdSize)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdSize_op_Equality_m09EC05BDE981DBEC581C982142E7A12212DD812F (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___a0, AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___b1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdSize_op_Equality_m43CAE061632DCBBE98CA6060170AF3C98311CD63 (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___0_a, AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___1_b, const RuntimeMethod* method) 
 {
 	{
-		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_0 = ___a0;
+		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_0 = ___0_a;
 		if (L_0)
 		{
 			goto IL_000b;
 		}
 	}
 	{
-		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_1 = ___b1;
+		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_1 = ___1_b;
 		return (bool)((((RuntimeObject*)(AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158*)L_1) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
 	}
 
 IL_000b:
 	{
-		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_2 = ___a0;
-		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_3 = ___b1;
+		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_2 = ___0_a;
+		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_3 = ___1_b;
 		NullCheck(L_2);
 		bool L_4;
 		L_4 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_2, L_3);
@@ -1649,24 +1772,24 @@ IL_000b:
 	}
 }
 // System.Boolean GoogleMobileAds.Api.AdSize::op_Inequality(GoogleMobileAds.Api.AdSize,GoogleMobileAds.Api.AdSize)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdSize_op_Inequality_mB6EFDCEE5456738106FF6E335122787E87990583 (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___a0, AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___b1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdSize_op_Inequality_m12A2DC944FB6862C761E53B2BF39FD4471529F07 (AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___0_a, AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* ___1_b, const RuntimeMethod* method) 
 {
 	{
-		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_0 = ___a0;
+		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_0 = ___0_a;
 		if (L_0)
 		{
 			goto IL_000e;
 		}
 	}
 	{
-		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_1 = ___b1;
+		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_1 = ___1_b;
 		return (bool)((((int32_t)((((RuntimeObject*)(AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158*)L_1) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 
 IL_000e:
 	{
-		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_2 = ___a0;
-		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_3 = ___b1;
+		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_2 = ___0_a;
+		AdSize_tF9FBB34C7252D73803A62C13A3AB656A06A0F158* L_3 = ___1_b;
 		NullCheck(L_2);
 		bool L_4;
 		L_4 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_2, L_3);
@@ -1713,7 +1836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdSize_GetHashCode_mF8FDC407FD639A12E
 	}
 }
 // System.Void GoogleMobileAds.Api.AdSize::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdSize__cctor_m3350E03380D99F4EF81C159683DABC144E9DB4B8 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdSize__cctor_mF64D66ED3C0C6273A589A0BF4767870FAF9AEFC4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1776,10 +1899,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdValue_get_Precision_m727B490E89FD42
 	}
 }
 // System.Void GoogleMobileAds.Api.AdValue::set_Precision(GoogleMobileAds.Api.AdValue/PrecisionType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdValue_set_Precision_m488B0F9CAEBACDD5013E094660C3DD58B362FD03 (AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* __this, int32_t ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdValue_set_Precision_m488B0F9CAEBACDD5013E094660C3DD58B362FD03 (AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = ___value0;
+		int32_t L_0 = ___0_value;
 		__this->___U3CPrecisionU3Ek__BackingField_0 = L_0;
 		return;
 	}
@@ -1793,10 +1916,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t AdValue_get_Value_mB60399D1CA779A1976
 	}
 }
 // System.Void GoogleMobileAds.Api.AdValue::set_Value(System.Int64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdValue_set_Value_m7DF76A9D4ED62FE1F5FDBA6FEBBACD4E92115BE9 (AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* __this, int64_t ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdValue_set_Value_m7DF76A9D4ED62FE1F5FDBA6FEBBACD4E92115BE9 (AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* __this, int64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		int64_t L_0 = ___value0;
+		int64_t L_0 = ___0_value;
 		__this->___U3CValueU3Ek__BackingField_1 = L_0;
 		return;
 	}
@@ -1810,10 +1933,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AdValue_get_CurrencyCode_m2AF57ADB2
 	}
 }
 // System.Void GoogleMobileAds.Api.AdValue::set_CurrencyCode(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdValue_set_CurrencyCode_mA493466D946C6484F0F20604EF0B013EA0571F71 (AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdValue_set_CurrencyCode_mA493466D946C6484F0F20604EF0B013EA0571F71 (AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CCurrencyCodeU3Ek__BackingField_2 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCurrencyCodeU3Ek__BackingField_2), (void*)L_0);
 		return;
@@ -1851,10 +1974,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEB
 	}
 }
 // System.Void GoogleMobileAds.Api.AdValueEventArgs::set_AdValue(GoogleMobileAds.Api.AdValue)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdValueEventArgs_set_AdValue_mFDB2656F4BDBCC3CE719341385666747D72F357E (AdValueEventArgs_tFE4F97B850E2D4EF184678E9861479BA39B1299D* __this, AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdValueEventArgs_set_AdValue_mFDB2656F4BDBCC3CE719341385666747D72F357E (AdValueEventArgs_tFE4F97B850E2D4EF184678E9861479BA39B1299D* __this, AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* L_0 = ___value0;
+		AdValue_t3D87DDD4D06FAAA212BD2119CA464B4F0FEBBCFD* L_0 = ___0_value;
 		__this->___U3CAdValueU3Ek__BackingField_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAdValueU3Ek__BackingField_1), (void*)L_0);
 		return;
@@ -1869,15 +1992,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdValueEventArgs_set_AdValue_mFDB2656F4B
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void GoogleMobileAds.Api.AdapterStatus::.ctor(GoogleMobileAds.Api.AdapterState,System.String,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdapterStatus__ctor_mB1D229249120A477D0E82FF4CEC24CFEC3860087 (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, int32_t ___state0, String_t* ___description1, int32_t ___latency2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdapterStatus__ctor_mB1D229249120A477D0E82FF4CEC24CFEC3860087 (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, int32_t ___0_state, String_t* ___1_description, int32_t ___2_latency, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___state0;
+		int32_t L_0 = ___0_state;
 		AdapterStatus_set_InitializationState_mCAC923590AEBF2A82B50D11A840782E926D489FA_inline(__this, L_0, NULL);
-		String_t* L_1 = ___description1;
+		String_t* L_1 = ___1_description;
 		AdapterStatus_set_Description_m8987A66E81FAAC057BEE46A30CB522BA72788F32_inline(__this, L_1, NULL);
-		int32_t L_2 = ___latency2;
+		int32_t L_2 = ___2_latency;
 		AdapterStatus_set_Latency_m6AAFC26BBD8DB832E092CA129D496B023B4D2710_inline(__this, L_2, NULL);
 		return;
 	}
@@ -1891,10 +2014,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdapterStatus_get_InitializationState
 	}
 }
 // System.Void GoogleMobileAds.Api.AdapterStatus::set_InitializationState(GoogleMobileAds.Api.AdapterState)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdapterStatus_set_InitializationState_mCAC923590AEBF2A82B50D11A840782E926D489FA (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, int32_t ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdapterStatus_set_InitializationState_mCAC923590AEBF2A82B50D11A840782E926D489FA (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = ___value0;
+		int32_t L_0 = ___0_value;
 		__this->___U3CInitializationStateU3Ek__BackingField_0 = L_0;
 		return;
 	}
@@ -1908,10 +2031,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* AdapterStatus_get_Description_mC8E9
 	}
 }
 // System.Void GoogleMobileAds.Api.AdapterStatus::set_Description(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdapterStatus_set_Description_m8987A66E81FAAC057BEE46A30CB522BA72788F32 (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdapterStatus_set_Description_m8987A66E81FAAC057BEE46A30CB522BA72788F32 (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CDescriptionU3Ek__BackingField_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDescriptionU3Ek__BackingField_1), (void*)L_0);
 		return;
@@ -1926,10 +2049,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdapterStatus_get_Latency_m528A604431
 	}
 }
 // System.Void GoogleMobileAds.Api.AdapterStatus::set_Latency(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdapterStatus_set_Latency_m6AAFC26BBD8DB832E092CA129D496B023B4D2710 (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, int32_t ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdapterStatus_set_Latency_m6AAFC26BBD8DB832E092CA129D496B023B4D2710 (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = ___value0;
+		int32_t L_0 = ___0_value;
 		__this->___U3CLatencyU3Ek__BackingField_2 = L_0;
 		return;
 	}
@@ -1943,11 +2066,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdapterStatus_set_Latency_m6AAFC26BBD8DB
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void GoogleMobileAds.Api.MaxAdContentRating::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaxAdContentRating__ctor_mB941F1C15423BA11C1D70F68B0FF19A3C8673856 (MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaxAdContentRating__ctor_mB941F1C15423BA11C1D70F68B0FF19A3C8673856 (MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		MaxAdContentRating_set_Value_mED6650BB4FC02D217E2A8A57D6C57634881BD64E_inline(__this, L_0, NULL);
 		return;
 	}
@@ -1961,17 +2084,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MaxAdContentRating_get_Value_m41F2B
 	}
 }
 // System.Void GoogleMobileAds.Api.MaxAdContentRating::set_Value(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaxAdContentRating_set_Value_mED6650BB4FC02D217E2A8A57D6C57634881BD64E (MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaxAdContentRating_set_Value_mED6650BB4FC02D217E2A8A57D6C57634881BD64E (MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CValueU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CValueU3Ek__BackingField_0), (void*)L_0);
 		return;
 	}
 }
 // GoogleMobileAds.Api.MaxAdContentRating GoogleMobileAds.Api.MaxAdContentRating::get_G()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* MaxAdContentRating_get_G_m1A529F51BA1900355FDFA04D61452A63E54AFE2D (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* MaxAdContentRating_get_G_m32A78326A233108F3124F6F4F0ACEB8760A6963F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1988,7 +2111,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F3698
 	}
 }
 // GoogleMobileAds.Api.MaxAdContentRating GoogleMobileAds.Api.MaxAdContentRating::get_MA()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* MaxAdContentRating_get_MA_mFB63482D738EB9A79DAE7497227976874AD54F04 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* MaxAdContentRating_get_MA_mCFF75243CADADFCCA246FA2FA76892F1827E8D40 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2005,7 +2128,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F3698
 	}
 }
 // GoogleMobileAds.Api.MaxAdContentRating GoogleMobileAds.Api.MaxAdContentRating::get_PG()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* MaxAdContentRating_get_PG_m10D9646C7E1779D791097EB7DFB0E940DEC19B9F (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* MaxAdContentRating_get_PG_mC66ECF391F60E1CB49584E0FCEE31415D2EAAD55 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2022,7 +2145,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F3698
 	}
 }
 // GoogleMobileAds.Api.MaxAdContentRating GoogleMobileAds.Api.MaxAdContentRating::get_T()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* MaxAdContentRating_get_T_m75550A42B4B88D01532FB9D2D0CE62710132FDAF (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* MaxAdContentRating_get_T_mB5F30E3FFBC50BAE8D8602B8955C11DDACA257EF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2039,7 +2162,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F3698
 	}
 }
 // GoogleMobileAds.Api.MaxAdContentRating GoogleMobileAds.Api.MaxAdContentRating::get_Unspecified()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* MaxAdContentRating_get_Unspecified_m682F791BD7B384DAB5BAD1E9E4615885EF3839F4 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* MaxAdContentRating_get_Unspecified_m43010C5EF539F41AE14995A0754D894A9FD10607 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2057,7 +2180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F3698
 	}
 }
 // GoogleMobileAds.Api.MaxAdContentRating GoogleMobileAds.Api.MaxAdContentRating::ToMaxAdContentRating(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* MaxAdContentRating_ToMaxAdContentRating_m6FE154D1EB3B9FDED929BF813B2F09E959B52001 (String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* MaxAdContentRating_ToMaxAdContentRating_m9A29CB33E337A74C411FDA07208CB75305880BE5 (String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2066,7 +2189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F3698
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* L_1 = (MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17*)il2cpp_codegen_object_new(MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17_il2cpp_TypeInfo_var);
 		NullCheck(L_1);
 		MaxAdContentRating__ctor_mB941F1C15423BA11C1D70F68B0FF19A3C8673856(L_1, L_0, NULL);
@@ -2082,31 +2205,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F3698
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void GoogleMobileAds.Api.RequestConfiguration::.ctor(GoogleMobileAds.Api.RequestConfiguration/Builder)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestConfiguration__ctor_mCF78EE36863A8268C55C4FB0AE9DFA58D0D18406 (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* ___builder0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestConfiguration__ctor_mCF78EE36863A8268C55C4FB0AE9DFA58D0D18406 (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* ___0_builder, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* L_0 = ___builder0;
+		Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* L_0 = ___0_builder;
 		NullCheck(L_0);
 		MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* L_1;
 		L_1 = Builder_get_MaxAdContentRating_m4BEF4AD0EDC27107CF5837B902A078A4F547C208_inline(L_0, NULL);
 		RequestConfiguration_set_MaxAdContentRating_m2B6ACA58719B2A0A075BA0A11FCEB2893CC14508_inline(__this, L_1, NULL);
-		Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* L_2 = ___builder0;
+		Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* L_2 = ___0_builder;
 		NullCheck(L_2);
 		Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD L_3;
 		L_3 = Builder_get_TagForChildDirectedTreatment_mC2A6C7BAE948C7B22E99105A524A5846217D8A78_inline(L_2, NULL);
 		RequestConfiguration_set_TagForChildDirectedTreatment_m22F5F366495C21DAC85D7EEFF8B9BFBA9E3ECAD0_inline(__this, L_3, NULL);
-		Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* L_4 = ___builder0;
+		Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* L_4 = ___0_builder;
 		NullCheck(L_4);
 		Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 L_5;
 		L_5 = Builder_get_TagForUnderAgeOfConsent_mF4BDB4F7648CF1DAD58F7174002C3A3762B560C3_inline(L_4, NULL);
 		RequestConfiguration_set_TagForUnderAgeOfConsent_m7FDFAB70987A84DBA69CE2C75B6160DB38161DE2_inline(__this, L_5, NULL);
-		Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* L_6 = ___builder0;
+		Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* L_6 = ___0_builder;
 		NullCheck(L_6);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_7;
 		L_7 = Builder_get_TestDeviceIds_m3AE37E300BB67D456D0A46C6BC4D6D74BE88AF36_inline(L_6, NULL);
 		RequestConfiguration_set_TestDeviceIds_m9727A2011EAFC6546F7A4EAC890D91FBFB24CEAA_inline(__this, L_7, NULL);
-		Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* L_8 = ___builder0;
+		Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* L_8 = ___0_builder;
 		NullCheck(L_8);
 		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 L_9;
 		L_9 = Builder_get_SameAppKeyEnabled_mA27262640F2410EF0BC62D9884DA76EE1FA17EEC_inline(L_8, NULL);
@@ -2123,10 +2246,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F3698
 	}
 }
 // System.Void GoogleMobileAds.Api.RequestConfiguration::set_MaxAdContentRating(GoogleMobileAds.Api.MaxAdContentRating)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestConfiguration_set_MaxAdContentRating_m2B6ACA58719B2A0A075BA0A11FCEB2893CC14508 (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestConfiguration_set_MaxAdContentRating_m2B6ACA58719B2A0A075BA0A11FCEB2893CC14508 (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* L_0 = ___value0;
+		MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* L_0 = ___0_value;
 		__this->___U3CMaxAdContentRatingU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMaxAdContentRatingU3Ek__BackingField_0), (void*)L_0);
 		return;
@@ -2141,10 +2264,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283
 	}
 }
 // System.Void GoogleMobileAds.Api.RequestConfiguration::set_TagForChildDirectedTreatment(System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestConfiguration_set_TagForChildDirectedTreatment_m22F5F366495C21DAC85D7EEFF8B9BFBA9E3ECAD0 (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestConfiguration_set_TagForChildDirectedTreatment_m22F5F366495C21DAC85D7EEFF8B9BFBA9E3ECAD0 (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD L_0 = ___value0;
+		Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD L_0 = ___0_value;
 		__this->___U3CTagForChildDirectedTreatmentU3Ek__BackingField_1 = L_0;
 		return;
 	}
@@ -2158,10 +2281,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BC
 	}
 }
 // System.Void GoogleMobileAds.Api.RequestConfiguration::set_TagForUnderAgeOfConsent(System.Nullable`1<GoogleMobileAds.Api.TagForUnderAgeOfConsent>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestConfiguration_set_TagForUnderAgeOfConsent_m7FDFAB70987A84DBA69CE2C75B6160DB38161DE2 (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestConfiguration_set_TagForUnderAgeOfConsent_m7FDFAB70987A84DBA69CE2C75B6160DB38161DE2 (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 L_0 = ___value0;
+		Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 L_0 = ___0_value;
 		__this->___U3CTagForUnderAgeOfConsentU3Ek__BackingField_2 = L_0;
 		return;
 	}
@@ -2175,10 +2298,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD
 	}
 }
 // System.Void GoogleMobileAds.Api.RequestConfiguration::set_TestDeviceIds(System.Collections.Generic.List`1<System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestConfiguration_set_TestDeviceIds_m9727A2011EAFC6546F7A4EAC890D91FBFB24CEAA (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestConfiguration_set_TestDeviceIds_m9727A2011EAFC6546F7A4EAC890D91FBFB24CEAA (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___value0;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___0_value;
 		__this->___U3CTestDeviceIdsU3Ek__BackingField_3 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTestDeviceIdsU3Ek__BackingField_3), (void*)L_0);
 		return;
@@ -2193,10 +2316,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t78F453FADB4A9F50F267A4E349019C344
 	}
 }
 // System.Void GoogleMobileAds.Api.RequestConfiguration::set_SameAppKeyEnabled(System.Nullable`1<System.Boolean>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestConfiguration_set_SameAppKeyEnabled_m83277CA092AFC81A9A0DDD7E1EBB1D74942E1E6A (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequestConfiguration_set_SameAppKeyEnabled_m83277CA092AFC81A9A0DDD7E1EBB1D74942E1E6A (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 L_0 = ___value0;
+		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 L_0 = ___0_value;
 		__this->___U3CSameAppKeyEnabledU3Ek__BackingField_4 = L_0;
 		return;
 	}
@@ -2322,10 +2445,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7FF7A5F6F3698
 	}
 }
 // System.Void GoogleMobileAds.Api.RequestConfiguration/Builder::set_MaxAdContentRating(GoogleMobileAds.Api.MaxAdContentRating)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_MaxAdContentRating_m53B90A8C17637AB6E1475C63175DD7856A4FF954 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_MaxAdContentRating_m53B90A8C17637AB6E1475C63175DD7856A4FF954 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* L_0 = ___value0;
+		MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* L_0 = ___0_value;
 		__this->___U3CMaxAdContentRatingU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMaxAdContentRatingU3Ek__BackingField_0), (void*)L_0);
 		return;
@@ -2340,10 +2463,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283
 	}
 }
 // System.Void GoogleMobileAds.Api.RequestConfiguration/Builder::set_TagForChildDirectedTreatment(System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_TagForChildDirectedTreatment_mC75F3BF3D11C9FD6FCE769C28B2185792432AC76 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_TagForChildDirectedTreatment_mC75F3BF3D11C9FD6FCE769C28B2185792432AC76 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD L_0 = ___value0;
+		Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD L_0 = ___0_value;
 		__this->___U3CTagForChildDirectedTreatmentU3Ek__BackingField_1 = L_0;
 		return;
 	}
@@ -2357,10 +2480,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BC
 	}
 }
 // System.Void GoogleMobileAds.Api.RequestConfiguration/Builder::set_TagForUnderAgeOfConsent(System.Nullable`1<GoogleMobileAds.Api.TagForUnderAgeOfConsent>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_TagForUnderAgeOfConsent_m550A8D87154CA8361C0A7CCE062791F909C53E0E (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_TagForUnderAgeOfConsent_m550A8D87154CA8361C0A7CCE062791F909C53E0E (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 L_0 = ___value0;
+		Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 L_0 = ___0_value;
 		__this->___U3CTagForUnderAgeOfConsentU3Ek__BackingField_2 = L_0;
 		return;
 	}
@@ -2374,10 +2497,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD
 	}
 }
 // System.Void GoogleMobileAds.Api.RequestConfiguration/Builder::set_TestDeviceIds(System.Collections.Generic.List`1<System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_TestDeviceIds_m6A711A2A3A5E8A50E5307B860ABE6B45E6C43FD0 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_TestDeviceIds_m6A711A2A3A5E8A50E5307B860ABE6B45E6C43FD0 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___value0;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___0_value;
 		__this->___U3CTestDeviceIdsU3Ek__BackingField_3 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTestDeviceIdsU3Ek__BackingField_3), (void*)L_0);
 		return;
@@ -2392,52 +2515,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_t78F453FADB4A9F50F267A4E349019C344
 	}
 }
 // System.Void GoogleMobileAds.Api.RequestConfiguration/Builder::set_SameAppKeyEnabled(System.Nullable`1<System.Boolean>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_SameAppKeyEnabled_mA0D6FA1509EAB48073BAA609C79D509B073DB550 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_SameAppKeyEnabled_mA0D6FA1509EAB48073BAA609C79D509B073DB550 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 L_0 = ___value0;
+		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 L_0 = ___0_value;
 		__this->___U3CSameAppKeyEnabledU3Ek__BackingField_4 = L_0;
 		return;
 	}
 }
 // GoogleMobileAds.Api.RequestConfiguration/Builder GoogleMobileAds.Api.RequestConfiguration/Builder::SetMaxAdContentRating(GoogleMobileAds.Api.MaxAdContentRating)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetMaxAdContentRating_m2F7CC5E659E63A297CAE2307A71778A1B6B2107E (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___maxAdContentRating0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetMaxAdContentRating_m2F7CC5E659E63A297CAE2307A71778A1B6B2107E (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___0_maxAdContentRating, const RuntimeMethod* method) 
 {
 	{
-		MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* L_0 = ___maxAdContentRating0;
+		MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* L_0 = ___0_maxAdContentRating;
 		Builder_set_MaxAdContentRating_m53B90A8C17637AB6E1475C63175DD7856A4FF954_inline(__this, L_0, NULL);
 		return __this;
 	}
 }
 // GoogleMobileAds.Api.RequestConfiguration/Builder GoogleMobileAds.Api.RequestConfiguration/Builder::SetTagForChildDirectedTreatment(System.Nullable`1<GoogleMobileAds.Api.TagForChildDirectedTreatment>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetTagForChildDirectedTreatment_m276B46CB4D38C8036CDA4322A94D3F3248779258 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___tagForChildDirectedTreatment0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetTagForChildDirectedTreatment_m276B46CB4D38C8036CDA4322A94D3F3248779258 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___0_tagForChildDirectedTreatment, const RuntimeMethod* method) 
 {
 	{
-		Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD L_0 = ___tagForChildDirectedTreatment0;
+		Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD L_0 = ___0_tagForChildDirectedTreatment;
 		Builder_set_TagForChildDirectedTreatment_mC75F3BF3D11C9FD6FCE769C28B2185792432AC76_inline(__this, L_0, NULL);
 		return __this;
 	}
 }
 // GoogleMobileAds.Api.RequestConfiguration/Builder GoogleMobileAds.Api.RequestConfiguration/Builder::SetTagForUnderAgeOfConsent(System.Nullable`1<GoogleMobileAds.Api.TagForUnderAgeOfConsent>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetTagForUnderAgeOfConsent_mC97C8EDB8DB9C256C279FD528C2E655597ED11C1 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___tagForUnderAgeOfConsent0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetTagForUnderAgeOfConsent_mC97C8EDB8DB9C256C279FD528C2E655597ED11C1 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___0_tagForUnderAgeOfConsent, const RuntimeMethod* method) 
 {
 	{
-		Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 L_0 = ___tagForUnderAgeOfConsent0;
+		Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 L_0 = ___0_tagForUnderAgeOfConsent;
 		Builder_set_TagForUnderAgeOfConsent_m550A8D87154CA8361C0A7CCE062791F909C53E0E_inline(__this, L_0, NULL);
 		return __this;
 	}
 }
 // GoogleMobileAds.Api.RequestConfiguration/Builder GoogleMobileAds.Api.RequestConfiguration/Builder::SetTestDeviceIds(System.Collections.Generic.List`1<System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetTestDeviceIds_m23097E49B7356B95143DEC3A07F7A62825DAF4DA (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___testDeviceIds0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetTestDeviceIds_m23097E49B7356B95143DEC3A07F7A62825DAF4DA (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_testDeviceIds, const RuntimeMethod* method) 
 {
 	{
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___testDeviceIds0;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___0_testDeviceIds;
 		Builder_set_TestDeviceIds_m6A711A2A3A5E8A50E5307B860ABE6B45E6C43FD0_inline(__this, L_0, NULL);
 		return __this;
 	}
 }
 // GoogleMobileAds.Api.RequestConfiguration/Builder GoogleMobileAds.Api.RequestConfiguration/Builder::SetSameAppKeyEnabled(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetSameAppKeyEnabled_m11E40A96D12CFC49FD470937CDEBD7B5E52608B6 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, bool ___enabled0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* Builder_SetSameAppKeyEnabled_m11E40A96D12CFC49FD470937CDEBD7B5E52608B6 (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, bool ___0_enabled, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2446,7 +2569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		bool L_0 = ___enabled0;
+		bool L_0 = ___0_enabled;
 		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 L_1;
 		memset((&L_1), 0, sizeof(L_1));
 		Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5((&L_1), L_0, /*hidden argument*/Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_RuntimeMethod_var);
@@ -2502,10 +2625,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Reward_get_Type_m52A71F274CBCCF3FEF
 	}
 }
 // System.Void GoogleMobileAds.Api.Reward::set_Type(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Reward_set_Type_mE73B56720F80976BD60F0A0D6D03F726147437DA (Reward_t0F20A888BB23A15D26BEF02E5C367B31ECB87511* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Reward_set_Type_mE73B56720F80976BD60F0A0D6D03F726147437DA (Reward_t0F20A888BB23A15D26BEF02E5C367B31ECB87511* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CTypeU3Ek__BackingField_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTypeU3Ek__BackingField_1), (void*)L_0);
 		return;
@@ -2520,10 +2643,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Reward_get_Amount_m2A4B7143299E26F5C7B
 	}
 }
 // System.Void GoogleMobileAds.Api.Reward::set_Amount(System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Reward_set_Amount_mB5C08019F6553C5F5C0CE6181B67B1172B96988E (Reward_t0F20A888BB23A15D26BEF02E5C367B31ECB87511* __this, double ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Reward_set_Amount_mB5C08019F6553C5F5C0CE6181B67B1172B96988E (Reward_t0F20A888BB23A15D26BEF02E5C367B31ECB87511* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
-		double L_0 = ___value0;
+		double L_0 = ___0_value;
 		__this->___U3CAmountU3Ek__BackingField_2 = L_0;
 		return;
 	}
@@ -2537,16 +2660,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Reward_set_Amount_mB5C08019F6553C5F5C0CE
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void GoogleMobileAds.Api.ServerSideVerificationOptions::.ctor(GoogleMobileAds.Api.ServerSideVerificationOptions/Builder)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerSideVerificationOptions__ctor_m9CF57A2A017730B009485C01F7F1932119C3FFF8 (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* ___builder0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerSideVerificationOptions__ctor_m9CF57A2A017730B009485C01F7F1932119C3FFF8 (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* ___0_builder, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* L_0 = ___builder0;
+		Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* L_0 = ___0_builder;
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = Builder_get_UserId_m40BBB0F2049F1835E3D02ADE13E72C48AB5F9500_inline(L_0, NULL);
 		ServerSideVerificationOptions_set_UserId_mF728D841C682C5FB56AC7600B3725767B4FA9E5E_inline(__this, L_1, NULL);
-		Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* L_2 = ___builder0;
+		Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* L_2 = ___0_builder;
 		NullCheck(L_2);
 		String_t* L_3;
 		L_3 = Builder_get_CustomData_m8F1BF55AE365DAFDA2F04AE224DDEEDC7159E912_inline(L_2, NULL);
@@ -2563,10 +2686,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ServerSideVerificationOptions_get_U
 	}
 }
 // System.Void GoogleMobileAds.Api.ServerSideVerificationOptions::set_UserId(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerSideVerificationOptions_set_UserId_mF728D841C682C5FB56AC7600B3725767B4FA9E5E (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerSideVerificationOptions_set_UserId_mF728D841C682C5FB56AC7600B3725767B4FA9E5E (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CUserIdU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CUserIdU3Ek__BackingField_0), (void*)L_0);
 		return;
@@ -2581,10 +2704,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ServerSideVerificationOptions_get_C
 	}
 }
 // System.Void GoogleMobileAds.Api.ServerSideVerificationOptions::set_CustomData(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerSideVerificationOptions_set_CustomData_m9717F3B3DEB805774039998582BB8B6F769BD66D (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ServerSideVerificationOptions_set_CustomData_m9717F3B3DEB805774039998582BB8B6F769BD66D (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CCustomDataU3Ek__BackingField_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCustomDataU3Ek__BackingField_1), (void*)L_0);
 		return;
@@ -2615,10 +2738,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Builder_get_UserId_m40BBB0F2049F183
 	}
 }
 // System.Void GoogleMobileAds.Api.ServerSideVerificationOptions/Builder::set_UserId(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_UserId_mA7E097E679644FFCA1A78C1D9AD7E00B6865C949 (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_UserId_mA7E097E679644FFCA1A78C1D9AD7E00B6865C949 (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CUserIdU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CUserIdU3Ek__BackingField_0), (void*)L_0);
 		return;
@@ -2633,29 +2756,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Builder_get_CustomData_m8F1BF55AE36
 	}
 }
 // System.Void GoogleMobileAds.Api.ServerSideVerificationOptions/Builder::set_CustomData(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_CustomData_mBCAE82C8C5CF295D970377CB6FDC14821DC50CBC (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Builder_set_CustomData_mBCAE82C8C5CF295D970377CB6FDC14821DC50CBC (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CCustomDataU3Ek__BackingField_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCustomDataU3Ek__BackingField_1), (void*)L_0);
 		return;
 	}
 }
 // GoogleMobileAds.Api.ServerSideVerificationOptions/Builder GoogleMobileAds.Api.ServerSideVerificationOptions/Builder::SetUserId(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* Builder_SetUserId_m2B40F751C39205AF0B5C6F6E560F045515625D68 (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___userId0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* Builder_SetUserId_m2B40F751C39205AF0B5C6F6E560F045515625D68 (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___0_userId, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___userId0;
+		String_t* L_0 = ___0_userId;
 		Builder_set_UserId_mA7E097E679644FFCA1A78C1D9AD7E00B6865C949_inline(__this, L_0, NULL);
 		return __this;
 	}
 }
 // GoogleMobileAds.Api.ServerSideVerificationOptions/Builder GoogleMobileAds.Api.ServerSideVerificationOptions/Builder::SetCustomData(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* Builder_SetCustomData_m6B13E668BB6A0740ACE36133AFE56E635EF23436 (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___customData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* Builder_SetCustomData_m6B13E668BB6A0740ACE36133AFE56E635EF23436 (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___0_customData, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___customData0;
+		String_t* L_0 = ___0_customData;
 		Builder_set_CustomData_mBCAE82C8C5CF295D970377CB6FDC14821DC50CBC_inline(__this, L_0, NULL);
 		return __this;
 	}
@@ -2712,10 +2835,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828359E52F37F31
 	}
 }
 // System.Void GoogleMobileAds.Api.Mediation.MediationExtras::set_Extras(System.Collections.Generic.Dictionary`2<System.String,System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MediationExtras_set_Extras_mA9D64360355284BC7D2A7BE683FFB0AD2A4EC138 (MediationExtras_t390586958F7ED4B158AD5AD18F58A86E9E7B621E* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MediationExtras_set_Extras_mA9D64360355284BC7D2A7BE683FFB0AD2A4EC138 (MediationExtras_t390586958F7ED4B158AD5AD18F58A86E9E7B621E* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = ___value0;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = ___0_value;
 		__this->___U3CExtrasU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExtrasU3Ek__BackingField_0), (void*)L_0);
 		return;
@@ -2752,7 +2875,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Version_get_Revision_mB8A
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_Version_m42A61AA47AB54842EE4A32F4918836AD494B787F_inline (String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_Version_m75B666E0DD9ED3BA9CAD84DBD487EEC0FB47168F_inline (String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2761,7 +2884,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_Version_m42A61
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_il2cpp_TypeInfo_var);
 		((AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_StaticFields*)il2cpp_codegen_static_fields_for(AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_il2cpp_TypeInfo_var))->___U3CVersionU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_StaticFields*)il2cpp_codegen_static_fields_for(AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D_il2cpp_TypeInfo_var))->___U3CVersionU3Ek__BackingField_0), (void*)L_0);
@@ -2775,10 +2898,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR HashSet_1_tEFC6605F7DE53F71946C33
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_Keywords_m52C0D51933CEB01E435A95CC04F792F45AB51FFF_inline (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_Keywords_m52C0D51933CEB01E435A95CC04F792F45AB51FFF_inline (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = ___value0;
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = ___0_value;
 		__this->___U3CKeywordsU3Ek__BackingField_2 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CKeywordsU3Ek__BackingField_2), (void*)L_0);
 		return;
@@ -2791,10 +2914,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Dictionary_2_t46B2DB028096FA2B828
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_Extras_mA153AFA80CFC7EC879E4D5AE825EC535426D12F3_inline (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_Extras_mA153AFA80CFC7EC879E4D5AE825EC535426D12F3_inline (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = ___value0;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = ___0_value;
 		__this->___U3CExtrasU3Ek__BackingField_3 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExtrasU3Ek__BackingField_3), (void*)L_0);
 		return;
@@ -2807,16 +2930,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_t5E2EB19AA6B9CFA733A67F57A
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_MediationExtras_m1328653F1F1CE7CDC54FF446F5049006E223B23A_inline (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdRequest_set_MediationExtras_m1328653F1F1CE7CDC54FF446F5049006E223B23A_inline (AdRequest_tB2AC2CD266CFD5D636C917BC2D938BE96E72BF4D* __this, List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* L_0 = ___value0;
+		List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* L_0 = ___0_value;
 		__this->___U3CMediationExtrasU3Ek__BackingField_4 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMediationExtrasU3Ek__BackingField_4), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AdRequest_get_Version_mD249877A6BAE210A180AD6ED98E52F3FBF04B82F_inline (const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AdRequest_get_Version_mDEA58424E216DCD68C3CD09115A3F0207D8DDF79_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2830,62 +2953,62 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* AdRequest_get_Version_m
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_Keywords_mFE97D27725248C3AD38841B0A42C8499475823BF_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_Keywords_mFE97D27725248C3AD38841B0A42C8499475823BF_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = ___value0;
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = ___0_value;
 		__this->___U3CKeywordsU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CKeywordsU3Ek__BackingField_0), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_Extras_mBAC4F79F9F50762126383E5A522DE86F6990D9EE_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_Extras_mBAC4F79F9F50762126383E5A522DE86F6990D9EE_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = ___value0;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = ___0_value;
 		__this->___U3CExtrasU3Ek__BackingField_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExtrasU3Ek__BackingField_1), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_MediationExtras_mAD30DB258DAF1053F48130304841B542E2645410_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_MediationExtras_mAD30DB258DAF1053F48130304841B542E2645410_inline (Builder_t53925D96536F97B418172C0EF27AD9E6858FF348* __this, List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* L_0 = ___value0;
+		List_1_t5E2EB19AA6B9CFA733A67F57AF74DCBE981C3376* L_0 = ___0_value;
 		__this->___U3CMediationExtrasU3Ek__BackingField_2 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMediationExtrasU3Ek__BackingField_2), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdapterStatus_set_InitializationState_mCAC923590AEBF2A82B50D11A840782E926D489FA_inline (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, int32_t ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdapterStatus_set_InitializationState_mCAC923590AEBF2A82B50D11A840782E926D489FA_inline (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = ___value0;
+		int32_t L_0 = ___0_value;
 		__this->___U3CInitializationStateU3Ek__BackingField_0 = L_0;
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdapterStatus_set_Description_m8987A66E81FAAC057BEE46A30CB522BA72788F32_inline (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdapterStatus_set_Description_m8987A66E81FAAC057BEE46A30CB522BA72788F32_inline (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CDescriptionU3Ek__BackingField_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDescriptionU3Ek__BackingField_1), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdapterStatus_set_Latency_m6AAFC26BBD8DB832E092CA129D496B023B4D2710_inline (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, int32_t ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AdapterStatus_set_Latency_m6AAFC26BBD8DB832E092CA129D496B023B4D2710_inline (AdapterStatus_t4DFBD853B6BC534B2B9C9379AC5FA14051FFDEE0* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = ___value0;
+		int32_t L_0 = ___0_value;
 		__this->___U3CLatencyU3Ek__BackingField_2 = L_0;
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MaxAdContentRating_set_Value_mED6650BB4FC02D217E2A8A57D6C57634881BD64E_inline (MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MaxAdContentRating_set_Value_mED6650BB4FC02D217E2A8A57D6C57634881BD64E_inline (MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CValueU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CValueU3Ek__BackingField_0), (void*)L_0);
 		return;
@@ -2898,10 +3021,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR MaxAdContentRating_t8F4AA13668EB7
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_MaxAdContentRating_m2B6ACA58719B2A0A075BA0A11FCEB2893CC14508_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_MaxAdContentRating_m2B6ACA58719B2A0A075BA0A11FCEB2893CC14508_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* L_0 = ___value0;
+		MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* L_0 = ___0_value;
 		__this->___U3CMaxAdContentRatingU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMaxAdContentRatingU3Ek__BackingField_0), (void*)L_0);
 		return;
@@ -2914,10 +3037,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t5C1ED9E759C25CA8D8C3A
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_TagForChildDirectedTreatment_m22F5F366495C21DAC85D7EEFF8B9BFBA9E3ECAD0_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_TagForChildDirectedTreatment_m22F5F366495C21DAC85D7EEFF8B9BFBA9E3ECAD0_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD L_0 = ___value0;
+		Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD L_0 = ___0_value;
 		__this->___U3CTagForChildDirectedTreatmentU3Ek__BackingField_1 = L_0;
 		return;
 	}
@@ -2929,10 +3052,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_tD9EF87DE17BC8563283D8
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_TagForUnderAgeOfConsent_m7FDFAB70987A84DBA69CE2C75B6160DB38161DE2_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_TagForUnderAgeOfConsent_m7FDFAB70987A84DBA69CE2C75B6160DB38161DE2_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 L_0 = ___value0;
+		Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 L_0 = ___0_value;
 		__this->___U3CTagForUnderAgeOfConsentU3Ek__BackingField_2 = L_0;
 		return;
 	}
@@ -2944,10 +3067,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tF470A3BE5C1B5B68E1325EF3F
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_TestDeviceIds_m9727A2011EAFC6546F7A4EAC890D91FBFB24CEAA_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_TestDeviceIds_m9727A2011EAFC6546F7A4EAC890D91FBFB24CEAA_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___value0;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___0_value;
 		__this->___U3CTestDeviceIdsU3Ek__BackingField_3 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTestDeviceIdsU3Ek__BackingField_3), (void*)L_0);
 		return;
@@ -2960,10 +3083,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t78F453FADB4A9F50F267A
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_SameAppKeyEnabled_m83277CA092AFC81A9A0DDD7E1EBB1D74942E1E6A_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void RequestConfiguration_set_SameAppKeyEnabled_m83277CA092AFC81A9A0DDD7E1EBB1D74942E1E6A_inline (RequestConfiguration_tE715340E972C7F6E659FD3ACE136CDDEAD74CCCB* __this, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 L_0 = ___value0;
+		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 L_0 = ___0_value;
 		__this->___U3CSameAppKeyEnabledU3Ek__BackingField_4 = L_0;
 		return;
 	}
@@ -3003,44 +3126,44 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t78F453FADB4A9F50F267A
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_MaxAdContentRating_m53B90A8C17637AB6E1475C63175DD7856A4FF954_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_MaxAdContentRating_m53B90A8C17637AB6E1475C63175DD7856A4FF954_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* L_0 = ___value0;
+		MaxAdContentRating_t8F4AA13668EB7FF7A5F6F369845B5280BBE0BF17* L_0 = ___0_value;
 		__this->___U3CMaxAdContentRatingU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CMaxAdContentRatingU3Ek__BackingField_0), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_TagForChildDirectedTreatment_mC75F3BF3D11C9FD6FCE769C28B2185792432AC76_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_TagForChildDirectedTreatment_mC75F3BF3D11C9FD6FCE769C28B2185792432AC76_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD L_0 = ___value0;
+		Nullable_1_t5C1ED9E759C25CA8D8C3AD08588837283BCD0ADD L_0 = ___0_value;
 		__this->___U3CTagForChildDirectedTreatmentU3Ek__BackingField_1 = L_0;
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_TagForUnderAgeOfConsent_m550A8D87154CA8361C0A7CCE062791F909C53E0E_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_TagForUnderAgeOfConsent_m550A8D87154CA8361C0A7CCE062791F909C53E0E_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 L_0 = ___value0;
+		Nullable_1_tD9EF87DE17BC8563283D8BCB64EF209BCFE74FD3 L_0 = ___0_value;
 		__this->___U3CTagForUnderAgeOfConsentU3Ek__BackingField_2 = L_0;
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_TestDeviceIds_m6A711A2A3A5E8A50E5307B860ABE6B45E6C43FD0_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_TestDeviceIds_m6A711A2A3A5E8A50E5307B860ABE6B45E6C43FD0_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___value0;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_0 = ___0_value;
 		__this->___U3CTestDeviceIdsU3Ek__BackingField_3 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CTestDeviceIdsU3Ek__BackingField_3), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_SameAppKeyEnabled_mA0D6FA1509EAB48073BAA609C79D509B073DB550_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_SameAppKeyEnabled_mA0D6FA1509EAB48073BAA609C79D509B073DB550_inline (Builder_t8F1DEAFD238B8961C808810DD6AFBED8FF0DCF45* __this, Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 L_0 = ___value0;
+		Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 L_0 = ___0_value;
 		__this->___U3CSameAppKeyEnabledU3Ek__BackingField_4 = L_0;
 		return;
 	}
@@ -3052,10 +3175,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Builder_get_UserId_m40B
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ServerSideVerificationOptions_set_UserId_mF728D841C682C5FB56AC7600B3725767B4FA9E5E_inline (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ServerSideVerificationOptions_set_UserId_mF728D841C682C5FB56AC7600B3725767B4FA9E5E_inline (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CUserIdU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CUserIdU3Ek__BackingField_0), (void*)L_0);
 		return;
@@ -3068,43 +3191,43 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* Builder_get_CustomData_
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ServerSideVerificationOptions_set_CustomData_m9717F3B3DEB805774039998582BB8B6F769BD66D_inline (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ServerSideVerificationOptions_set_CustomData_m9717F3B3DEB805774039998582BB8B6F769BD66D_inline (ServerSideVerificationOptions_tCB0CF0403C3E4DDA0E47F9594BE01D214B4673C3* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CCustomDataU3Ek__BackingField_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCustomDataU3Ek__BackingField_1), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_UserId_mA7E097E679644FFCA1A78C1D9AD7E00B6865C949_inline (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_UserId_mA7E097E679644FFCA1A78C1D9AD7E00B6865C949_inline (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CUserIdU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CUserIdU3Ek__BackingField_0), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_CustomData_mBCAE82C8C5CF295D970377CB6FDC14821DC50CBC_inline (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Builder_set_CustomData_mBCAE82C8C5CF295D970377CB6FDC14821DC50CBC_inline (Builder_tA43002A25213D0C60D816558B409D90B08EBEE77* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		__this->___U3CCustomDataU3Ek__BackingField_1 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CCustomDataU3Ek__BackingField_1), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MediationExtras_set_Extras_mA9D64360355284BC7D2A7BE683FFB0AD2A4EC138_inline (MediationExtras_t390586958F7ED4B158AD5AD18F58A86E9E7B621E* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MediationExtras_set_Extras_mA9D64360355284BC7D2A7BE683FFB0AD2A4EC138_inline (MediationExtras_t390586958F7ED4B158AD5AD18F58A86E9E7B621E* __this, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = ___value0;
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = ___0_value;
 		__this->___U3CExtrasU3Ek__BackingField_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CExtrasU3Ek__BackingField_0), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
 	int32_t V_1 = 0;
@@ -3128,7 +3251,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 		__this->____size_2 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
 		int32_t L_7 = V_1;
-		RuntimeObject* L_8 = ___item0;
+		RuntimeObject* L_8 = ___0_item;
 		NullCheck(L_6);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
 		return;
@@ -3136,7 +3259,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 
 IL_0034:
 	{
-		RuntimeObject* L_9 = ___item0;
+		RuntimeObject* L_9 = ___0_item;
 		((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		return;
 	}

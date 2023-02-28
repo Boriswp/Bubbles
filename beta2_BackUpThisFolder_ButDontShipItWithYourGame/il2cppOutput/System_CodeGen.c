@@ -13,15 +13,15 @@
 
 
 // 0x00000001 System.String Internal.Cryptography.OidLookup::ToOid(System.String,System.Security.Cryptography.OidGroup,System.Boolean)
-extern void OidLookup_ToOid_mE362E659C0A532B8D2E1638D8B50FBACFEBFCF2D (void);
+extern void OidLookup_ToOid_m084AE2948BA1D784EAC148B97B6D5EF94F0D58B0 (void);
 // 0x00000002 System.Boolean Internal.Cryptography.OidLookup::ShouldUseCache(System.Security.Cryptography.OidGroup)
-extern void OidLookup_ShouldUseCache_mB50BE42B791BF8314979BCF725BB50F5C1DF0461 (void);
+extern void OidLookup_ShouldUseCache_mAF605BA00A22EA400B99D24286837F6904C84ED0 (void);
 // 0x00000003 System.String Internal.Cryptography.OidLookup::NativeFriendlyNameToOid(System.String,System.Security.Cryptography.OidGroup,System.Boolean)
-extern void OidLookup_NativeFriendlyNameToOid_m1CEF74ADB4771FEAFE0C491AC36DF806517C55AC (void);
+extern void OidLookup_NativeFriendlyNameToOid_m383F983E8333B3DAB97C9278B3B0EDF09E61758D (void);
 // 0x00000004 System.Void Internal.Cryptography.OidLookup::.cctor()
-extern void OidLookup__cctor_m315F5D4656A8C145CD154D9DF653F5207E12AEBC (void);
+extern void OidLookup__cctor_mBF99F75584EA62215139C76A1BBF57BCEAD2ADBC (void);
 // 0x00000005 System.Void Internal.Cryptography.OidLookup/<>c::.cctor()
-extern void U3CU3Ec__cctor_m2E929BF5DE0AAD59E0C0E2AA6875DFF57F976962 (void);
+extern void U3CU3Ec__cctor_m63CA89B172417DB40229C01C86A24DAAD5EC9963 (void);
 // 0x00000006 System.Void Internal.Cryptography.OidLookup/<>c::.ctor()
 extern void U3CU3Ec__ctor_m381C6259C7B5579501CBFB1E4D1DF201D5928470 (void);
 // 0x00000007 System.String Internal.Cryptography.OidLookup/<>c::<.cctor>b__10_0(System.Collections.Generic.KeyValuePair`2<System.String,System.String>)
@@ -29,43 +29,43 @@ extern void U3CU3Ec_U3C_cctorU3Eb__10_0_m6CCA3946EAC08544EB57D764DBF2D23E12DE30A
 // 0x00000008 System.String Internal.Cryptography.OidLookup/<>c::<.cctor>b__10_1(System.Collections.Generic.KeyValuePair`2<System.String,System.String>)
 extern void U3CU3Ec_U3C_cctorU3Eb__10_1_m7F86444F2B083758A76759BD54D31A3538101A4E (void);
 // 0x00000009 System.Int32 System.IPv4AddressHelper::ParseHostNumber(System.ReadOnlySpan`1<System.Char>,System.Int32,System.Int32)
-extern void IPv4AddressHelper_ParseHostNumber_mA778BE5D8E7B36AFF00BC3A042D532C5E4718B74 (void);
+extern void IPv4AddressHelper_ParseHostNumber_m3ECD734470D95F75F0A7475BB69A53D48A924179 (void);
 // 0x0000000A System.Boolean System.IPv4AddressHelper::IsValid(System.Char*,System.Int32,System.Int32&,System.Boolean,System.Boolean,System.Boolean)
-extern void IPv4AddressHelper_IsValid_m1E626B5740F8C0F4F4AEA9D8D9E06933BD79C7AE (void);
+extern void IPv4AddressHelper_IsValid_mB71D85892F391896358B6C19C6E4899ED31EFCF8 (void);
 // 0x0000000B System.Boolean System.IPv4AddressHelper::ParseCanonical(System.ReadOnlySpan`1<System.Char>,System.Byte*,System.Int32,System.Int32)
-extern void IPv4AddressHelper_ParseCanonical_m7BE948BF36EC5AD70DFFD320BD9EE8A343DA795E (void);
+extern void IPv4AddressHelper_ParseCanonical_m38827B1F002AC415916FF17D5C7DA3279486A91C (void);
 // 0x0000000C System.Boolean System.IPv4AddressHelper::IsValidCanonical(System.Char*,System.Int32,System.Int32&,System.Boolean,System.Boolean)
-extern void IPv4AddressHelper_IsValidCanonical_mBE62564C4A9F8F584C9FBC0E6A5D5159071BE23E (void);
+extern void IPv4AddressHelper_IsValidCanonical_m157BF3179C5A511A8915C572111A7014D7E5DB84 (void);
 // 0x0000000D System.Int64 System.IPv4AddressHelper::ParseNonCanonical(System.Char*,System.Int32,System.Int32&,System.Boolean)
-extern void IPv4AddressHelper_ParseNonCanonical_m4ACD00B972D7DBEB80BC3D7A9C36BB2CEA81638E (void);
+extern void IPv4AddressHelper_ParseNonCanonical_m8A508ED61556F4182AAEBE3E7D43C738A57C984D (void);
 // 0x0000000E System.String System.IPv4AddressHelper::ParseCanonicalName(System.String,System.Int32,System.Int32,System.Boolean&)
-extern void IPv4AddressHelper_ParseCanonicalName_m25D822E5AC4B56E40C2404C8DE1C03E70ABCF72C (void);
+extern void IPv4AddressHelper_ParseCanonicalName_mF74A625E0C85FC8C5CAE3A47785606BF93777FF1 (void);
 // 0x0000000F System.Boolean System.IPv4AddressHelper::Parse(System.String,System.Byte*,System.Int32,System.Int32)
-extern void IPv4AddressHelper_Parse_m61983BF8F1D7D827BABB3BD87AE4A2CE2BA92906 (void);
+extern void IPv4AddressHelper_Parse_m0F43F114BC6D0C8D85D29D3CA2CE24CA19714026 (void);
 // 0x00000010 System.ValueTuple`2<System.Int32,System.Int32> System.IPv6AddressHelper::FindCompressionRange(System.ReadOnlySpan`1<System.UInt16>)
-extern void IPv6AddressHelper_FindCompressionRange_m52DF5ADCE15CB8AE6F141E829F1252EBB436A39F (void);
+extern void IPv6AddressHelper_FindCompressionRange_m5BA0C004FA7BE7CB3C520AB47C4D6B6FA6C13C56 (void);
 // 0x00000011 System.Boolean System.IPv6AddressHelper::ShouldHaveIpv4Embedded(System.ReadOnlySpan`1<System.UInt16>)
-extern void IPv6AddressHelper_ShouldHaveIpv4Embedded_m59F598D7493A037117972E6D4AF8F233B7D87ABC (void);
+extern void IPv6AddressHelper_ShouldHaveIpv4Embedded_m08BEFD0452A0145779E70931B00F2D6EA15A1E70 (void);
 // 0x00000012 System.Void System.IPv6AddressHelper::Parse(System.ReadOnlySpan`1<System.Char>,System.UInt16*,System.Int32,System.String&)
-extern void IPv6AddressHelper_Parse_mE09CDE68CBB5BE9195B68D52D79D81591C270CAF (void);
+extern void IPv6AddressHelper_Parse_m6F68528ADBA8B6ECED3060135FC1DF6CCD2B0543 (void);
 // 0x00000013 System.String System.IPv6AddressHelper::ParseCanonicalName(System.String,System.Int32,System.Boolean&,System.String&)
-extern void IPv6AddressHelper_ParseCanonicalName_m148CB0071D79C29D97FE7E537B0BFA2CB27B709C (void);
+extern void IPv6AddressHelper_ParseCanonicalName_m5C5161CE7D6F7D7C7D81A808F51107C85A6CA21B (void);
 // 0x00000014 System.Boolean System.IPv6AddressHelper::IsLoopback(System.ReadOnlySpan`1<System.UInt16>)
-extern void IPv6AddressHelper_IsLoopback_mE5795ECD1129E9EB2368E4A7D4EB1433CF51A3F4 (void);
+extern void IPv6AddressHelper_IsLoopback_mAE6B2C6CFAD787337C6ABB41F2D2942A4C191C84 (void);
 // 0x00000015 System.Boolean System.IPv6AddressHelper::InternalIsValid(System.Char*,System.Int32,System.Int32&,System.Boolean)
-extern void IPv6AddressHelper_InternalIsValid_m23A4A563DF5766AC8391628217ADE8670A740D3D (void);
+extern void IPv6AddressHelper_InternalIsValid_mDF9ADFBBDDD76F8B77EC140686B6280F4BD53478 (void);
 // 0x00000016 System.Boolean System.IPv6AddressHelper::IsValid(System.Char*,System.Int32,System.Int32&)
-extern void IPv6AddressHelper_IsValid_mEA13C6DB64BF812706785DA99E9AFFBC95C1C3E7 (void);
+extern void IPv6AddressHelper_IsValid_mDEE6D566114425592CA0A067775A2E0C771CA5DA (void);
 // 0x00000017 System.Exception System.NotImplemented::ByDesignWithMessage(System.String)
-extern void NotImplemented_ByDesignWithMessage_m91D3B27BDC19FF6AAEDD420C9A8E3A43FB3B9DE3 (void);
+extern void NotImplemented_ByDesignWithMessage_m9A8A83C6B994C16CA1CFA80F5AD748ABA3510535 (void);
 // 0x00000018 System.Boolean System.IriHelper::CheckIriUnicodeRange(System.Char,System.Boolean)
-extern void IriHelper_CheckIriUnicodeRange_m47EF9FBD5FE075A464AE2A242FB43BEBC7C4F775 (void);
+extern void IriHelper_CheckIriUnicodeRange_m584D1B233AB9DB3642640CDBD787B0E51D2AC625 (void);
 // 0x00000019 System.Boolean System.IriHelper::CheckIriUnicodeRange(System.Char,System.Char,System.Boolean&,System.Boolean)
-extern void IriHelper_CheckIriUnicodeRange_m76D54508F06B0BD021CF86889C71C44578B495FB (void);
+extern void IriHelper_CheckIriUnicodeRange_m0989646614B5D6CD18622388A069BEA8A755F013 (void);
 // 0x0000001A System.Boolean System.IriHelper::CheckIsReserved(System.Char,System.UriComponents)
-extern void IriHelper_CheckIsReserved_mFF947D4AEDC2D811E2B5379B9706901ED2B29868 (void);
+extern void IriHelper_CheckIsReserved_m0F5942330B329B65D738A398854399FD43A5589C (void);
 // 0x0000001B System.String System.IriHelper::EscapeUnescapeIri(System.Char*,System.Int32,System.Int32,System.UriComponents)
-extern void IriHelper_EscapeUnescapeIri_mE7C6E85447A41E32A050856BC24B40279EDFF6E5 (void);
+extern void IriHelper_EscapeUnescapeIri_m311CD9679869740C6A303485944EF6DAE96FB169 (void);
 // 0x0000001C System.Boolean System.Uri::get_IsImplicitFile()
 extern void Uri_get_IsImplicitFile_m8D1A522158E4EB8AD8C077376D023ED1262998F6 (void);
 // 0x0000001D System.Boolean System.Uri::get_IsUncOrDosPath()
@@ -81,7 +81,7 @@ extern void Uri_get_Syntax_mCBAC18B1DC71D269BF6C98417D923674DE258DC2 (void);
 // 0x00000022 System.Boolean System.Uri::get_IsNotAbsoluteUri()
 extern void Uri_get_IsNotAbsoluteUri_m374185EB37A209B6102F955427913168C5543028 (void);
 // 0x00000023 System.Boolean System.Uri::IriParsingStatic(System.UriParser)
-extern void Uri_IriParsingStatic_m5FACD38C4EDB61BC6AC465759CDB56F24C34C3B8 (void);
+extern void Uri_IriParsingStatic_mF071497F10CC1CC81177D6F4BCE9D2007D8FDA16 (void);
 // 0x00000024 System.Boolean System.Uri::get_AllowIdn()
 extern void Uri_get_AllowIdn_m612B747CE2F03FCA867D81F14710758B561209E7 (void);
 // 0x00000025 System.Boolean System.Uri::AllowIdnStatic(System.UriParser,System.Uri/Flags)
@@ -99,9 +99,9 @@ extern void Uri_NotAny_mB88A38A602D4A784CADBD43FDF4CDA0235371E81 (void);
 // 0x0000002B System.Boolean System.Uri::InFact(System.Uri/Flags)
 extern void Uri_InFact_mEEE8ADE0780C0712A3DEB8935BD6FC7B23F38A7B (void);
 // 0x0000002C System.Boolean System.Uri::StaticNotAny(System.Uri/Flags,System.Uri/Flags)
-extern void Uri_StaticNotAny_mC49F6501AFE849E383AC6777CEB63D2B409B264E (void);
+extern void Uri_StaticNotAny_mDC2D7341AE3679E5750481E7B793F4E3636ACD6C (void);
 // 0x0000002D System.Boolean System.Uri::StaticInFact(System.Uri/Flags,System.Uri/Flags)
-extern void Uri_StaticInFact_m85C3E521AD9916CC030AC01E311F79D90E981B05 (void);
+extern void Uri_StaticInFact_m8F3964455197F6C2CB588843D71DDAD3B2F2AB77 (void);
 // 0x0000002E System.Uri/UriInfo System.Uri::EnsureUriInfo()
 extern void Uri_EnsureUriInfo_m6FE387306AF82CDCFC56E2E9C2171C406D1FA982 (void);
 // 0x0000002F System.Void System.Uri::EnsureParseRemaining()
@@ -119,9 +119,9 @@ extern void Uri_CreateUri_m9D81A5F3B332C44FDD875893EF619631708791F2 (void);
 // 0x00000035 System.Void System.Uri::.ctor(System.Uri,System.Uri)
 extern void Uri__ctor_m5AA91BCDE21E8AD62B9A48948CF3661B2F00E38F (void);
 // 0x00000036 System.ParsingError System.Uri::GetCombinedString(System.Uri,System.String,System.Boolean,System.String&)
-extern void Uri_GetCombinedString_mA3D01108BC32A4594A578A4345BA0F012F554521 (void);
+extern void Uri_GetCombinedString_m7D6A3DEB5DB42F79271CEC67DA2AEAD0E05BCEEF (void);
 // 0x00000037 System.UriFormatException System.Uri::GetException(System.ParsingError)
-extern void Uri_GetException_m9BD1AF317D6DE516C8D3909A0ECD460BA35996F7 (void);
+extern void Uri_GetException_m80C3194C72CA8F86F95A6DFC8D5C29BE31D749A8 (void);
 // 0x00000038 System.Void System.Uri::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern void Uri__ctor_mE1AB9FB0563073B8DFB381A69A54E9E0459D583F (void);
 // 0x00000039 System.Void System.Uri::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
@@ -143,11 +143,11 @@ extern void Uri_get_PathAndQuery_m33B64A4AAF08510C0199CF5A85918B91D1008E5C (void
 // 0x00000041 System.Boolean System.Uri::get_IsUnc()
 extern void Uri_get_IsUnc_mB190B452D6A7B09FC8BDD967A5C38F32E87E0FCA (void);
 // 0x00000042 System.Boolean System.Uri::StaticIsFile(System.UriParser)
-extern void Uri_StaticIsFile_mDA17D91238AB2D1C549C55C524F67C714145D9CF (void);
+extern void Uri_StaticIsFile_m8BD582D32BB053DCB5BADA29C1DD807AACCCE7E1 (void);
 // 0x00000043 System.Object System.Uri::get_InitializeLock()
-extern void Uri_get_InitializeLock_mBC92A79EFBC775C9192BB5992F88AB868576D9CF (void);
+extern void Uri_get_InitializeLock_m29D252F7183FE4C205E618018E8C42B56BC2B091 (void);
 // 0x00000044 System.Void System.Uri::InitializeUriConfig()
-extern void Uri_InitializeUriConfig_mADB8B77C49B053970C363E91FE4BDD8315401364 (void);
+extern void Uri_InitializeUriConfig_mCD4E00EDCA27459C7B005DDFFAD9D54396BF7DCB (void);
 // 0x00000045 System.Int32 System.Uri::get_Port()
 extern void Uri_get_Port_m7A1413AC9D9A2FC5DC8A7F89DF4A01ACA0241A02 (void);
 // 0x00000046 System.String System.Uri::get_Fragment()
@@ -165,23 +165,23 @@ extern void Uri_get_IsAbsoluteUri_m2F9B759B85D295639D7959A616E1FBC203D756DF (voi
 // 0x0000004C System.Boolean System.Uri::get_UserEscaped()
 extern void Uri_get_UserEscaped_m5A376B8E2DDB815CAA2E34AF8890FBA943DC2085 (void);
 // 0x0000004D System.Boolean System.Uri::IsGenDelim(System.Char)
-extern void Uri_IsGenDelim_mB6256291D6D90DAFB8B923D197BBD48A371F4265 (void);
+extern void Uri_IsGenDelim_mED487423251FBC7A3AA85A70023D531DED88B0D3 (void);
 // 0x0000004E System.Boolean System.Uri::IsHexDigit(System.Char)
-extern void Uri_IsHexDigit_m65CBC0215C67105D79C7B49FAF5DD4676B86ED20 (void);
+extern void Uri_IsHexDigit_m89270CD137F8D5AAC9953CB367BF194D0D0EEDBC (void);
 // 0x0000004F System.Int32 System.Uri::FromHex(System.Char)
-extern void Uri_FromHex_m16EF28AD07AF8D499C8157124A9E7C01D6FFFAA8 (void);
+extern void Uri_FromHex_m30578BD6ADBA0FE875257A8296ED979DC7849020 (void);
 // 0x00000050 System.Int32 System.Uri::GetHashCode()
 extern void Uri_GetHashCode_m41959A208E51019C57C20014B2505993FB94B70C (void);
 // 0x00000051 System.String System.Uri::ToString()
 extern void Uri_ToString_mDD98375BF8CEBEF6E3708BBCA6C4AB0B54165DA2 (void);
 // 0x00000052 System.Boolean System.Uri::op_Equality(System.Uri,System.Uri)
-extern void Uri_op_Equality_mB299FA02A76FD12A781BCBAD53D65B73C1768682 (void);
+extern void Uri_op_Equality_mD7D7AAB7023C0873B37D8B8C7195BEF34002A194 (void);
 // 0x00000053 System.Boolean System.Uri::op_Inequality(System.Uri,System.Uri)
-extern void Uri_op_Inequality_mC32A3382EF16D80BF39005BDD2AB452203D76D6E (void);
+extern void Uri_op_Inequality_m64BE981CDF88B751677B80D883B201BF3CFD83F7 (void);
 // 0x00000054 System.Boolean System.Uri::Equals(System.Object)
 extern void Uri_Equals_m1BD19791DD8A42FEFF5844C29623626C2849C452 (void);
 // 0x00000055 System.ParsingError System.Uri::ParseScheme(System.String,System.Uri/Flags&,System.UriParser&)
-extern void Uri_ParseScheme_m97A1B445A9528F29FC3007B02F2F8789AC201E82 (void);
+extern void Uri_ParseScheme_m8E14D8CA20935DF4A14DC0C7DFE2330C734F1AD6 (void);
 // 0x00000056 System.UriFormatException System.Uri::ParseMinimal()
 extern void Uri_ParseMinimal_m24D824EC77216C64F4B8B9175915CD6C3C6DB7B5 (void);
 // 0x00000057 System.ParsingError System.Uri::PrivateParseMinimal()
@@ -193,7 +193,7 @@ extern void Uri_CreateUriInfo_m3B4F804AB6CB010246F2A52F123D6E44DECDE998 (void);
 // 0x0000005A System.Void System.Uri::CreateHostString()
 extern void Uri_CreateHostString_mBBAF0ACD4E2EE673F8F7F4E416D87517D94245CF (void);
 // 0x0000005B System.String System.Uri::CreateHostStringHelper(System.String,System.UInt16,System.UInt16,System.Uri/Flags&,System.String&)
-extern void Uri_CreateHostStringHelper_mB7076A86E12D57D5722AA4AC0993B38332A21C8D (void);
+extern void Uri_CreateHostStringHelper_m196C6DAB9F26F08459220AC87C0A74785A61E9C3 (void);
 // 0x0000005C System.Void System.Uri::GetHostViaCustomSyntax()
 extern void Uri_GetHostViaCustomSyntax_m6632DAD1F66901E82C60A47D626A9140A586C802 (void);
 // 0x0000005D System.String System.Uri::GetParts(System.UriComponents,System.UriFormat)
@@ -209,11 +209,11 @@ extern void Uri_GetUriPartsFromUserString_m3D6EEB76609CCC54A0ABE65911CC24603A184
 // 0x00000062 System.Void System.Uri::ParseRemaining()
 extern void Uri_ParseRemaining_m9134D26360C9EEDFAFAFEE1ECA1A5CEE66BE5A3A (void);
 // 0x00000063 System.UInt16 System.Uri::ParseSchemeCheckImplicitFile(System.Char*,System.UInt16,System.ParsingError&,System.Uri/Flags&,System.UriParser&)
-extern void Uri_ParseSchemeCheckImplicitFile_m8244C40705A553AA88036339B231B1BB279580DC (void);
+extern void Uri_ParseSchemeCheckImplicitFile_m3577C77315714DF277763F7DE3BAAD8D94D2CA93 (void);
 // 0x00000064 System.Boolean System.Uri::CheckKnownSchemes(System.Int64*,System.UInt16,System.UriParser&)
-extern void Uri_CheckKnownSchemes_mB4E8E77DD15C70FACC9DA5078083E670B0EC9FA1 (void);
+extern void Uri_CheckKnownSchemes_m598B70C53F57AB20E2406763BAA5636A3B57195A (void);
 // 0x00000065 System.ParsingError System.Uri::CheckSchemeSyntax(System.Char*,System.UInt16,System.UriParser&)
-extern void Uri_CheckSchemeSyntax_m7D9517CBE8B09F13A24AF4EEF0AE2D185C3E1C2D (void);
+extern void Uri_CheckSchemeSyntax_m37B81B236F58066982C17FF76058B3ECB0740647 (void);
 // 0x00000066 System.UInt16 System.Uri::CheckAuthorityHelper(System.Char*,System.UInt16,System.UInt16,System.ParsingError&,System.Uri/Flags&,System.UriParser,System.String&)
 extern void Uri_CheckAuthorityHelper_m7946931160B7EC50E7167A11E570A4AF8AEB5B2E (void);
 // 0x00000067 System.Void System.Uri::CheckAuthorityHelperHandleDnsIri(System.Char*,System.UInt16,System.Int32,System.Int32,System.Boolean,System.Boolean,System.UriParser,System.String,System.Uri/Flags&,System.Boolean&,System.String&,System.ParsingError&)
@@ -229,23 +229,23 @@ extern void Uri_CheckCanonical_m54AFA85AA00A9909C2EC01F026873F12532AD7F7 (void);
 // 0x0000006C System.Char[] System.Uri::GetCanonicalPath(System.Char[],System.Int32&,System.UriFormat)
 extern void Uri_GetCanonicalPath_m66FA22F6E85D79E360A7EE86C0E03F1A009F6F99 (void);
 // 0x0000006D System.Void System.Uri::UnescapeOnly(System.Char*,System.Int32,System.Int32&,System.Char,System.Char,System.Char)
-extern void Uri_UnescapeOnly_m16364432252C3908D378B0BC2BC37F9AD5CED9A6 (void);
+extern void Uri_UnescapeOnly_mBED4CBBC30D19BA6BA801BCF9B33CD681771102B (void);
 // 0x0000006E System.Char[] System.Uri::Compress(System.Char[],System.UInt16,System.Int32&,System.UriParser)
-extern void Uri_Compress_m0A24E0C5DD7555EA7723C37FF428B0B1CA6B976D (void);
+extern void Uri_Compress_m22981FC433505DEE0F230312B93B062096607CCD (void);
 // 0x0000006F System.Int32 System.Uri::CalculateCaseInsensitiveHashCode(System.String)
-extern void Uri_CalculateCaseInsensitiveHashCode_mC84DC2B6AE39DB00143C7DE8BD0CDA05872635A5 (void);
+extern void Uri_CalculateCaseInsensitiveHashCode_m635E27F73B39946637685A19CD09741D14A359EE (void);
 // 0x00000070 System.String System.Uri::CombineUri(System.Uri,System.String,System.UriFormat)
-extern void Uri_CombineUri_m0A99C4A1F80FF7E6C8747545BB4610ABC4B4F9D1 (void);
+extern void Uri_CombineUri_m92FB418ECA7D55262958241C8A274715C58C6424 (void);
 // 0x00000071 System.Boolean System.Uri::IsLWS(System.Char)
-extern void Uri_IsLWS_m16D38DDA4D0A7CD3899DEEE31CEF160EAF2C3A44 (void);
+extern void Uri_IsLWS_mE00B6D5A24D07A5EA80278F981F1516343C0846D (void);
 // 0x00000072 System.Boolean System.Uri::IsAsciiLetter(System.Char)
-extern void Uri_IsAsciiLetter_mFDC33D2D538AFF6A5819B73CB555709865ADE841 (void);
+extern void Uri_IsAsciiLetter_m54D66D3D390C364A49529D304526152E2339A140 (void);
 // 0x00000073 System.Boolean System.Uri::IsAsciiLetterOrDigit(System.Char)
-extern void Uri_IsAsciiLetterOrDigit_m44901130AFF9E14663C5F9E6437BE44484A82BB8 (void);
+extern void Uri_IsAsciiLetterOrDigit_m9033B2053D679076DEADF04748CE5E983B25A9E0 (void);
 // 0x00000074 System.Boolean System.Uri::IsBidiControlCharacter(System.Char)
-extern void Uri_IsBidiControlCharacter_m17A486D6ED9263488C6F4B3F3EDF1BF95352765E (void);
+extern void Uri_IsBidiControlCharacter_m37BFE363354928FB34D016950008D1FB29DFBB0F (void);
 // 0x00000075 System.String System.Uri::StripBidiControlCharacter(System.Char*,System.Int32,System.Int32)
-extern void Uri_StripBidiControlCharacter_m259E2D3AA84B455ADD63DFBC4EC802241E4317FA (void);
+extern void Uri_StripBidiControlCharacter_mB8C52362A2A248EB33737D1A4792B3FB57975912 (void);
 // 0x00000076 System.Void System.Uri::CreateThis(System.String,System.Boolean,System.UriKind)
 extern void Uri_CreateThis_m522F36D576D9A8803410439127DB32837331BA3A (void);
 // 0x00000077 System.Void System.Uri::InitializeUri(System.ParsingError,System.UriKind,System.UriFormatException&)
@@ -257,19 +257,19 @@ extern void Uri_CheckForUnicode_mC763EF0DDC61EE359A6256B95209736EC0353AA1 (void)
 // 0x0000007A System.Boolean System.Uri::CheckForEscapedUnreserved(System.String)
 extern void Uri_CheckForEscapedUnreserved_mCEF702F733C72BE825E9FEBBEA751540A6A78D11 (void);
 // 0x0000007B System.Boolean System.Uri::TryCreate(System.String,System.UriKind,System.Uri&)
-extern void Uri_TryCreate_mBDD7F98C3BEBD9C3936DDF7960533CBB56478FDF (void);
+extern void Uri_TryCreate_m183077985BD7B1BE8DBDBCC4604F775C44723EC9 (void);
 // 0x0000007C System.String System.Uri::GetComponents(System.UriComponents,System.UriFormat)
 extern void Uri_GetComponents_m30E3EAD4E9A39939456E764FEF94AFD4D6B7532A (void);
 // 0x0000007D System.String System.Uri::UnescapeDataString(System.String)
-extern void Uri_UnescapeDataString_mD0A4732F7ED9CA5DB9E46D802971B5406094CC77 (void);
+extern void Uri_UnescapeDataString_m095AF55EE0F237A44FC8A53D2EE6FA66A567634D (void);
 // 0x0000007E System.String System.Uri::EscapeUnescapeIri(System.String,System.Int32,System.Int32,System.UriComponents)
 extern void Uri_EscapeUnescapeIri_m14C0CD1A4C14E2458685E5A10049204B1A15C16C (void);
 // 0x0000007F System.Void System.Uri::.ctor(System.Uri/Flags,System.UriParser,System.String)
 extern void Uri__ctor_m6EA3AF49C103A3D56EBBB24BCAEE8DE7E8676AF4 (void);
 // 0x00000080 System.Uri System.Uri::CreateHelper(System.String,System.Boolean,System.UriKind,System.UriFormatException&)
-extern void Uri_CreateHelper_mC4FC141C7E569879417FFC24BCB47E22CE09163B (void);
+extern void Uri_CreateHelper_mB015D0E87C2F9401D7C9B929C194AA5E432DA224 (void);
 // 0x00000081 System.Uri System.Uri::ResolveHelper(System.Uri,System.Uri,System.String&,System.Boolean&,System.UriFormatException&)
-extern void Uri_ResolveHelper_m8FD2A09E63507DB5178AE3C182C323E8EA4B8752 (void);
+extern void Uri_ResolveHelper_mCF316B7B35401CFE251F64CCE66AF24F687E7E04 (void);
 // 0x00000082 System.String System.Uri::GetRelativeSerializationString(System.UriFormat)
 extern void Uri_GetRelativeSerializationString_mDEB0AD1094EC2842C2F0830C1E43FF2FFDEB6F5B (void);
 // 0x00000083 System.String System.Uri::GetComponentsHelper(System.UriComponents,System.UriFormat)
@@ -277,7 +277,7 @@ extern void Uri_GetComponentsHelper_m83D8E4A027E180AFB34BA5290A8FF381EBCBCB75 (v
 // 0x00000084 System.Void System.Uri::CreateThisFromUri(System.Uri)
 extern void Uri_CreateThisFromUri_m986BB8F1CF8D75EEFA12D9D0963BA927FA394BE5 (void);
 // 0x00000085 System.Void System.Uri::.cctor()
-extern void Uri__cctor_mED6507CF356205205DE18F0D9D2A660D4C094F23 (void);
+extern void Uri__cctor_mF9A6F75B43C4652D9B89180A998B3D86B61F5594 (void);
 // 0x00000086 System.Void System.Uri/UriInfo::.ctor()
 extern void UriInfo__ctor_m88A6E3E7164B78B18C70D83CA5AD734517D308B3 (void);
 // 0x00000087 System.Void System.Uri/MoreInfo::.ctor()
@@ -291,29 +291,29 @@ extern void UriFormatException__ctor_m15F8C1205D9A648F72DD5D94DB92FD1FA1397FE0 (
 // 0x0000008B System.Void System.UriFormatException::System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 extern void UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_mF5C6CA057915A5F7F4E9D8FBE5D6EB2595A4FD80 (void);
 // 0x0000008C System.Char[] System.UriHelper::EscapeString(System.String,System.Int32,System.Int32,System.Char[],System.Int32&,System.Boolean,System.Char,System.Char,System.Char)
-extern void UriHelper_EscapeString_m616525587FFF13665945B9173F3C2EC41C9EDDA8 (void);
+extern void UriHelper_EscapeString_mA9075A39AFEE45E310AA6E2977B46D74F2FE38D3 (void);
 // 0x0000008D System.Char[] System.UriHelper::EnsureDestinationSize(System.Char*,System.Char[],System.Int32,System.Int16,System.Int16,System.Int32&,System.Int32)
-extern void UriHelper_EnsureDestinationSize_m4CAB570AAAC5145D6DAF9AC4362812693C324887 (void);
+extern void UriHelper_EnsureDestinationSize_m0A91CAD854571386F0490A975BA25CEEA93614C0 (void);
 // 0x0000008E System.Char[] System.UriHelper::UnescapeString(System.String,System.Int32,System.Int32,System.Char[],System.Int32&,System.Char,System.Char,System.Char,System.UnescapeMode,System.UriParser,System.Boolean)
-extern void UriHelper_UnescapeString_m978B253231CE4F7BA6F6DC7778D679C19F77CB54 (void);
+extern void UriHelper_UnescapeString_m37D24870CC3AF00984435A567B7AB28E7225D7B3 (void);
 // 0x0000008F System.Char[] System.UriHelper::UnescapeString(System.Char*,System.Int32,System.Int32,System.Char[],System.Int32&,System.Char,System.Char,System.Char,System.UnescapeMode,System.UriParser,System.Boolean)
-extern void UriHelper_UnescapeString_mD137E2B3F648504A96E7F244796CDCEBE6BB9BE1 (void);
+extern void UriHelper_UnescapeString_mAB62B336BC58C7697B4CA7355405F3C1FDBBB7E0 (void);
 // 0x00000090 System.Void System.UriHelper::MatchUTF8Sequence(System.Char*,System.Char[],System.Int32&,System.Char[],System.Int32,System.Byte[],System.Int32,System.Boolean,System.Boolean)
-extern void UriHelper_MatchUTF8Sequence_m0E963F060C446C4BBBBD60E4D54CAE9A36D5A3F7 (void);
+extern void UriHelper_MatchUTF8Sequence_mD118AEEE32C6BCBA4ED2E41E2B008EB83412D54B (void);
 // 0x00000091 System.Void System.UriHelper::EscapeAsciiChar(System.Char,System.Char[],System.Int32&)
-extern void UriHelper_EscapeAsciiChar_m3B740B3721EF4D93E9B9DFB2F881138AF4DE4452 (void);
+extern void UriHelper_EscapeAsciiChar_mFA21BF7A2306446A8E552111DA06160A41CD07D1 (void);
 // 0x00000092 System.Char System.UriHelper::EscapedAscii(System.Char,System.Char)
-extern void UriHelper_EscapedAscii_mC7BE08D5B7803E83C57B8269F298B6DFA9EC5120 (void);
+extern void UriHelper_EscapedAscii_m93D49C2D42E1E5E292199FACF5B4D6CC770D3DA1 (void);
 // 0x00000093 System.Boolean System.UriHelper::IsNotSafeForUnescape(System.Char)
-extern void UriHelper_IsNotSafeForUnescape_mD11825AB8FE6E410A5C0D6D7850C607DBF697D7E (void);
+extern void UriHelper_IsNotSafeForUnescape_m79864E996F8F46D4A1C00B965E2EB4EE7AFE63ED (void);
 // 0x00000094 System.Boolean System.UriHelper::IsReservedUnreservedOrHash(System.Char)
-extern void UriHelper_IsReservedUnreservedOrHash_mEAD756DAD5DB17F71960CC501BBB7CF9AB5EF74F (void);
+extern void UriHelper_IsReservedUnreservedOrHash_m7B622D953837E4F0FEF44B114718B75B846512A1 (void);
 // 0x00000095 System.Boolean System.UriHelper::IsUnreserved(System.Char)
-extern void UriHelper_IsUnreserved_m3171C456B602B4F7052B4E865F2DF04C71553797 (void);
+extern void UriHelper_IsUnreserved_mED7CF4BB5F43C337685396D5F99D7EFABAD5E5C9 (void);
 // 0x00000096 System.Boolean System.UriHelper::Is3986Unreserved(System.Char)
-extern void UriHelper_Is3986Unreserved_m06ED29AEFC563547A29E1DAA6A55760ADD9FCC30 (void);
+extern void UriHelper_Is3986Unreserved_mCDBDBB83B68181182A6AD07747084B3204C7BDCA (void);
 // 0x00000097 System.Void System.UriHelper::.cctor()
-extern void UriHelper__cctor_mEBD15B6A7F8E49B4188075DC2EF1A2956E7E3185 (void);
+extern void UriHelper__cctor_mB25AC23398D53149F4C33FB739BC6010324D0D81 (void);
 // 0x00000098 System.String System.UriParser::get_SchemeName()
 extern void UriParser_get_SchemeName_m3BD969B4E8EEA3769D070FA42CE340CDC766F47D (void);
 // 0x00000099 System.Int32 System.UriParser::get_DefaultPort()
@@ -327,9 +327,9 @@ extern void UriParser_Resolve_m7CC03524A2848FBD24BAB57CC62A19C751937182 (void);
 // 0x0000009D System.String System.UriParser::GetComponents(System.Uri,System.UriComponents,System.UriFormat)
 extern void UriParser_GetComponents_m230F3341901B4B90DC4650093272BC15A1161FAF (void);
 // 0x0000009E System.Boolean System.UriParser::get_ShouldUseLegacyV2Quirks()
-extern void UriParser_get_ShouldUseLegacyV2Quirks_m2BDF10B430FDA291AA6962104CD838776F31D20E (void);
+extern void UriParser_get_ShouldUseLegacyV2Quirks_m8EC9AB4BB2AD4FAAC4CD7C921C7A61AA4FC914D2 (void);
 // 0x0000009F System.Void System.UriParser::.cctor()
-extern void UriParser__cctor_m9E43C905DCA4EE1855EE2C0236A1FCB6075841C5 (void);
+extern void UriParser__cctor_m0F0B1F5441AF97DDBE797061C6CABA2CD4CDBE69 (void);
 // 0x000000A0 System.UriSyntaxFlags System.UriParser::get_Flags()
 extern void UriParser_get_Flags_mBE183D7CBEEEBEC670CCF1DF21D56B354796D6C3 (void);
 // 0x000000A1 System.Boolean System.UriParser::NotAny(System.UriSyntaxFlags)
@@ -343,7 +343,7 @@ extern void UriParser_IsFullMatch_mFC1C9EEDD31F040997931B26EF54CE7988495550 (voi
 // 0x000000A5 System.Void System.UriParser::.ctor(System.UriSyntaxFlags)
 extern void UriParser__ctor_m4FA54685DFA00FC6AEA73E94CD59C5FF2872E55A (void);
 // 0x000000A6 System.UriParser System.UriParser::FindOrFetchAsUnknownV1Syntax(System.String)
-extern void UriParser_FindOrFetchAsUnknownV1Syntax_m29D45A9BF93C7C4FC7C819658043B6E753E7F01A (void);
+extern void UriParser_FindOrFetchAsUnknownV1Syntax_m780CA32D27A4F1D8B7798FC4D3CC28A6FC4ACCE0 (void);
 // 0x000000A7 System.Boolean System.UriParser::get_IsSimple()
 extern void UriParser_get_IsSimple_m8ED850D585BA3BA0FDC239496065E6D2D973C7E5 (void);
 // 0x000000A8 System.UriParser System.UriParser::InternalOnNewUri()
@@ -357,31 +357,31 @@ extern void UriParser_InternalGetComponents_m52F450C5283A1820D5AFD07505E5FE82D4F
 // 0x000000AC System.Void System.UriParser/BuiltInUriParser::.ctor(System.String,System.Int32,System.UriSyntaxFlags)
 extern void BuiltInUriParser__ctor_m6E9775075E7360DD524B7E3E456A3FFA58F89E79 (void);
 // 0x000000AD System.String System.DomainNameHelper::ParseCanonicalName(System.String,System.Int32,System.Int32,System.Boolean&)
-extern void DomainNameHelper_ParseCanonicalName_m12865C6C2427B6ED804747CB1117D0B80E332F4D (void);
+extern void DomainNameHelper_ParseCanonicalName_mCDD58AA526B15176E4468ABA169068B279F3817F (void);
 // 0x000000AE System.Boolean System.DomainNameHelper::IsValid(System.Char*,System.UInt16,System.Int32&,System.Boolean&,System.Boolean)
-extern void DomainNameHelper_IsValid_m9E1909F6CA353F469ACF623BCBE1E3B545164752 (void);
+extern void DomainNameHelper_IsValid_mD977C4425926C44931F21A478C861D1041AF5B67 (void);
 // 0x000000AF System.Boolean System.DomainNameHelper::IsValidByIri(System.Char*,System.UInt16,System.Int32&,System.Boolean&,System.Boolean)
-extern void DomainNameHelper_IsValidByIri_mE5772C5B7528885976ACB5AB11881B79A410CE24 (void);
+extern void DomainNameHelper_IsValidByIri_m94490F7D0A09B0C35C89E2CD478B935EECEC5F96 (void);
 // 0x000000B0 System.String System.DomainNameHelper::IdnEquivalent(System.Char*,System.Int32,System.Int32,System.Boolean&,System.Boolean&)
-extern void DomainNameHelper_IdnEquivalent_m14CEBD0BD7B1BF46F8806E4EB5BB1901F7F29E2A (void);
+extern void DomainNameHelper_IdnEquivalent_m797D2222F0F6786FF059095B73ACF47A3374E8DC (void);
 // 0x000000B1 System.String System.DomainNameHelper::IdnEquivalent(System.Char*,System.Int32,System.Int32,System.Boolean&,System.String&)
-extern void DomainNameHelper_IdnEquivalent_mD8EBF17C7A0A50FFAA03EAA9CA737899C9A0881E (void);
+extern void DomainNameHelper_IdnEquivalent_mEFD473FCBC1D7F515577673838569560777F5D2B (void);
 // 0x000000B2 System.Boolean System.DomainNameHelper::IsIdnAce(System.String,System.Int32)
-extern void DomainNameHelper_IsIdnAce_m063EE4431000F1D566D2D62B3BBB947A00CDA8EF (void);
+extern void DomainNameHelper_IsIdnAce_m95A0515B49C9679EE331F830D05C2C12853919BC (void);
 // 0x000000B3 System.Boolean System.DomainNameHelper::IsIdnAce(System.Char*,System.Int32)
-extern void DomainNameHelper_IsIdnAce_mC429C00971921E7C357FA9A57D14AAB9A0CF3566 (void);
+extern void DomainNameHelper_IsIdnAce_mC02E0A64A83B0C99CF26AD5D49AA541E33143947 (void);
 // 0x000000B4 System.String System.DomainNameHelper::UnicodeEquivalent(System.String,System.Char*,System.Int32,System.Int32)
-extern void DomainNameHelper_UnicodeEquivalent_mD229718EC61E3ECBFA7AF5C894D22ADEEDE1B4ED (void);
+extern void DomainNameHelper_UnicodeEquivalent_m390DFCD943A3716158026F5E1AF6558E56461F12 (void);
 // 0x000000B5 System.String System.DomainNameHelper::UnicodeEquivalent(System.Char*,System.Int32,System.Int32,System.Boolean&,System.Boolean&)
-extern void DomainNameHelper_UnicodeEquivalent_m62B17C161795C1C6AC76D49A3FB50B16693CC9DB (void);
+extern void DomainNameHelper_UnicodeEquivalent_m9C7E79F0172D7AC0DEF7FC5236F1B9766C735517 (void);
 // 0x000000B6 System.Boolean System.DomainNameHelper::IsASCIILetterOrDigit(System.Char,System.Boolean&)
-extern void DomainNameHelper_IsASCIILetterOrDigit_mFAF590F20333B1D787428537FCD1CFF3993FE1F6 (void);
+extern void DomainNameHelper_IsASCIILetterOrDigit_m5C30C4CDEF0ECE647B2C5E714A595B08A8009B3A (void);
 // 0x000000B7 System.Boolean System.DomainNameHelper::IsValidDomainLabelCharacter(System.Char,System.Boolean&)
-extern void DomainNameHelper_IsValidDomainLabelCharacter_m957B15160BE378C49B6E25CC4F0D99BBA1FE06C6 (void);
+extern void DomainNameHelper_IsValidDomainLabelCharacter_m9BBE29F6DEACCA6864574A1B6C8BCBE6732BF5CF (void);
 // 0x000000B8 System.String System.UncNameHelper::ParseCanonicalName(System.String,System.Int32,System.Int32,System.Boolean&)
-extern void UncNameHelper_ParseCanonicalName_mB07DBCB21F6996E1A2BC9D4D4DD427AE0E5D36E2 (void);
+extern void UncNameHelper_ParseCanonicalName_m938F53305ABCF1840011969B589F0D53A1028C79 (void);
 // 0x000000B9 System.Boolean System.UncNameHelper::IsValid(System.Char*,System.UInt16,System.Int32&,System.Boolean)
-extern void UncNameHelper_IsValid_m677F95E73B0278AC062F862BEA6BE646048127D4 (void);
+extern void UncNameHelper_IsValid_mCF30A9D7038A73997B8B198D7EB606B171E00526 (void);
 // 0x000000BA System.Void System.IOAsyncCallback::.ctor(System.Object,System.IntPtr)
 extern void IOAsyncCallback__ctor_m58A7C732444005CB72C5B352096C2DB252A6F113 (void);
 // 0x000000BB System.Void System.IOAsyncCallback::Invoke(System.IOAsyncResult)
@@ -421,7 +421,7 @@ extern void Group__ctor_mFDE74CF068520CBE797B563B419B8817E60CB58C (void);
 // 0x000000CD System.Boolean System.Text.RegularExpressions.Group::get_Success()
 extern void Group_get_Success_m4E0238EE4B1E7F927E2AF13E2E5901BCA92BE62F (void);
 // 0x000000CE System.Void System.Text.RegularExpressions.Group::.cctor()
-extern void Group__cctor_mC3032FEBEBFB00282A4485A8D95E47649CE2B881 (void);
+extern void Group__cctor_mCEC94034CDEE90B4E5B77AE639965DA426C49161 (void);
 // 0x000000CF System.Void System.Text.RegularExpressions.Group::.ctor()
 extern void Group__ctor_mEB6936CDFD191A4C92766CE3F3301161D7505C5E (void);
 // 0x000000D0 System.Void System.Text.RegularExpressions.GroupCollection::.ctor(System.Text.RegularExpressions.Match,System.Collections.Hashtable)
@@ -501,7 +501,7 @@ extern void Enumerator_System_IDisposable_Dispose_m1C77D8E3DFF1A034E9329E11854F1
 // 0x000000F5 System.Void System.Text.RegularExpressions.Match::.ctor(System.Text.RegularExpressions.Regex,System.Int32,System.String,System.Int32,System.Int32,System.Int32)
 extern void Match__ctor_m2A6BD37E98680890114AC62CDD23E1821E80A53A (void);
 // 0x000000F6 System.Text.RegularExpressions.Match System.Text.RegularExpressions.Match::get_Empty()
-extern void Match_get_Empty_m9565EFA0F267BAF2886447CB8169A654C5471918 (void);
+extern void Match_get_Empty_m50E10899C5A892532ED484CDA11DE27CC6A7B546 (void);
 // 0x000000F7 System.Void System.Text.RegularExpressions.Match::Reset(System.Text.RegularExpressions.Regex,System.String,System.Int32,System.Int32,System.Int32)
 extern void Match_Reset_m53A78F16760B7CD5CC8A104F6CD95CA255D888AA (void);
 // 0x000000F8 System.Text.RegularExpressions.GroupCollection System.Text.RegularExpressions.Match::get_Groups()
@@ -527,7 +527,7 @@ extern void Match_MatchLength_m5C93EA60B018A79D9D05C8E69D25835848471B01 (void);
 // 0x00000102 System.Void System.Text.RegularExpressions.Match::Tidy(System.Int32)
 extern void Match_Tidy_mF0A46109EAF0E91CBCA732985265E1DC20CA3F51 (void);
 // 0x00000103 System.Void System.Text.RegularExpressions.Match::.cctor()
-extern void Match__cctor_mAB49EF64F5132A336358E3F1922FF173EA10CE3C (void);
+extern void Match__cctor_mB241D90D9F6B1311AC606248B3CCA821F8CC9855 (void);
 // 0x00000104 System.Void System.Text.RegularExpressions.Match::.ctor()
 extern void Match__ctor_mBABEF8F11A3BC6DB713519819D135CC87AC1B4CD (void);
 // 0x00000105 System.Void System.Text.RegularExpressions.MatchSparse::.ctor(System.Text.RegularExpressions.Regex,System.Collections.Hashtable,System.Int32,System.String,System.Int32,System.Int32,System.Int32)
@@ -547,41 +547,41 @@ extern void Regex_GetCachedCodeEntryInternal_m9FE175C47BF909F7F223013004C0EA0DAD
 // 0x0000010C System.Void System.Text.RegularExpressions.Regex::FillCacheDictionary()
 extern void Regex_FillCacheDictionary_mC47F317967E556D1F03A344B78B215356D604755 (void);
 // 0x0000010D System.Boolean System.Text.RegularExpressions.Regex::TryGetCacheValue(System.Text.RegularExpressions.Regex/CachedCodeEntryKey,System.Text.RegularExpressions.Regex/CachedCodeEntry&)
-extern void Regex_TryGetCacheValue_m8785E636E24F8F0C3E5A7CFE516978A434C99DEB (void);
+extern void Regex_TryGetCacheValue_mA2B41F91C84CB02DA59E18DB80B0A49CBC600A8B (void);
 // 0x0000010E System.Boolean System.Text.RegularExpressions.Regex::TryGetCacheValueSmall(System.Text.RegularExpressions.Regex/CachedCodeEntryKey,System.Text.RegularExpressions.Regex/CachedCodeEntry&)
-extern void Regex_TryGetCacheValueSmall_mEA1FE67593D84A849F8DDFD9BB4144FF5BE18A64 (void);
+extern void Regex_TryGetCacheValueSmall_mA62E6520886883BC787412F588CF79B7A02B9A28 (void);
 // 0x0000010F System.Text.RegularExpressions.Regex/CachedCodeEntry System.Text.RegularExpressions.Regex::LookupCachedAndPromote(System.Text.RegularExpressions.Regex/CachedCodeEntryKey)
-extern void Regex_LookupCachedAndPromote_m41760A936BAED48327B5E239894DA154B7832DD3 (void);
+extern void Regex_LookupCachedAndPromote_m2FE5584043609F1616158AF8621FC3ED48BCD900 (void);
 // 0x00000110 System.Boolean System.Text.RegularExpressions.Regex::IsMatch(System.String,System.String)
-extern void Regex_IsMatch_m967E98137B140DFD845C5E1699D1BC8EF08CC76C (void);
+extern void Regex_IsMatch_m66D13054C7992322810B0CFC6B46AF11A927C9AA (void);
 // 0x00000111 System.Boolean System.Text.RegularExpressions.Regex::IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
-extern void Regex_IsMatch_m3709329406E39A80F61F4DD2CC9AB672835A3E81 (void);
+extern void Regex_IsMatch_mCC0157A5E20FC634B8812B494F48877D55602C4D (void);
 // 0x00000112 System.Boolean System.Text.RegularExpressions.Regex::IsMatch(System.String)
 extern void Regex_IsMatch_m7E96E666FBE7259D7638A3A6A21BE824D2406F49 (void);
 // 0x00000113 System.Boolean System.Text.RegularExpressions.Regex::IsMatch(System.String,System.Int32)
 extern void Regex_IsMatch_mC358D80573E765ECC19F9F5882664E3B1FA0966E (void);
 // 0x00000114 System.Text.RegularExpressions.Match System.Text.RegularExpressions.Regex::Match(System.String,System.String)
-extern void Regex_Match_m49DD7357B4C9A9BCBCF686DAB3B5598B1BC688D7 (void);
+extern void Regex_Match_mE3EC82B72BF82AA4B8749251C12C383047531972 (void);
 // 0x00000115 System.Text.RegularExpressions.Match System.Text.RegularExpressions.Regex::Match(System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
-extern void Regex_Match_m793BC1BE5D514C9CE9B0D2A6B9A0536BAE7C6147 (void);
+extern void Regex_Match_m92E101BFAC22024C837C2F159E5ED516CF6E568F (void);
 // 0x00000116 System.Text.RegularExpressions.Match System.Text.RegularExpressions.Regex::Match(System.String)
 extern void Regex_Match_m58565ECF23ACCD2CA77D6F10A6A182B03CF0FF84 (void);
 // 0x00000117 System.Text.RegularExpressions.Match System.Text.RegularExpressions.Regex::Match(System.String,System.Int32)
 extern void Regex_Match_mDF110993CAA26CD41AE9F5DB7F0C307B2680CED3 (void);
 // 0x00000118 System.String System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.String)
-extern void Regex_Replace_mA40B00220816EB1850F503AAB876812C726D8D66 (void);
+extern void Regex_Replace_m811FCA60D20059998EC547FC390F053C524D045D (void);
 // 0x00000119 System.String System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.String,System.Text.RegularExpressions.RegexOptions,System.TimeSpan)
-extern void Regex_Replace_m09B7AAE77B831CF7E8B1F469D62EF719069370EB (void);
+extern void Regex_Replace_m6DCC34F103016E84A9DD25BADAC9133EF5613A09 (void);
 // 0x0000011A System.String System.Text.RegularExpressions.Regex::Replace(System.String,System.String)
 extern void Regex_Replace_m8E802C10B5A591BEA61FC00EA8E4AF398D815A90 (void);
 // 0x0000011B System.String System.Text.RegularExpressions.Regex::Replace(System.String,System.String,System.Int32,System.Int32)
 extern void Regex_Replace_mD86A837354847D86EC562069D67567F9F707C9C4 (void);
 // 0x0000011C System.Void System.Text.RegularExpressions.Regex::.cctor()
-extern void Regex__cctor_mF29CE2FFB1941E7609C5B67C0236AC98003F675F (void);
+extern void Regex__cctor_m689E73750FECC607BB4E1BF503660C16BE0F40E8 (void);
 // 0x0000011D System.Void System.Text.RegularExpressions.Regex::ValidateMatchTimeout(System.TimeSpan)
-extern void Regex_ValidateMatchTimeout_mA50CD0CB49AB9B42B548900335CA6EABC30BD18F (void);
+extern void Regex_ValidateMatchTimeout_m530D1B5EBC69BEAA11CCB7053A96C4AA9869C591 (void);
 // 0x0000011E System.TimeSpan System.Text.RegularExpressions.Regex::InitDefaultMatchTimeout()
-extern void Regex_InitDefaultMatchTimeout_mC441DFFACCC15C2710E85B95820DAB49AE9C47A7 (void);
+extern void Regex_InitDefaultMatchTimeout_m8EEBEF239D034DCF29E50E681B318B517202854E (void);
 // 0x0000011F System.Void System.Text.RegularExpressions.Regex::.ctor(System.String)
 extern void Regex__ctor_m082970AA73B8236360F0CA651FA24A8D1EBF89CD (void);
 // 0x00000120 System.Void System.Text.RegularExpressions.Regex::.ctor(System.String,System.Text.RegularExpressions.RegexOptions)
@@ -611,7 +611,7 @@ extern void CachedCodeEntryKey_Equals_m59F40708B97179EA5C9019EA6A958D7AB8BC8CA2 
 // 0x0000012C System.Boolean System.Text.RegularExpressions.Regex/CachedCodeEntryKey::Equals(System.Text.RegularExpressions.Regex/CachedCodeEntryKey)
 extern void CachedCodeEntryKey_Equals_m55F9ED97CB9AF357034A75C2FDB8498FC55D3AF0 (void);
 // 0x0000012D System.Boolean System.Text.RegularExpressions.Regex/CachedCodeEntryKey::op_Equality(System.Text.RegularExpressions.Regex/CachedCodeEntryKey,System.Text.RegularExpressions.Regex/CachedCodeEntryKey)
-extern void CachedCodeEntryKey_op_Equality_m5C48CEBA5D7F893F4FE88D06917EB738615DDCC6 (void);
+extern void CachedCodeEntryKey_op_Equality_mE9E3CA5933F8AE24BCE5AD52D6C4EE014C085E40 (void);
 // 0x0000012E System.Int32 System.Text.RegularExpressions.Regex/CachedCodeEntryKey::GetHashCode()
 extern void CachedCodeEntryKey_GetHashCode_m253B53C100F840B987A487020F02184019D776DE (void);
 // 0x0000012F System.Void System.Text.RegularExpressions.Regex/CachedCodeEntry::.ctor(System.Text.RegularExpressions.Regex/CachedCodeEntryKey,System.Collections.Hashtable,System.String[],System.Text.RegularExpressions.RegexCode,System.Collections.Hashtable,System.Int32,System.Text.RegularExpressions.ExclusiveReference,System.WeakReference`1<System.Text.RegularExpressions.RegexReplacement>)
@@ -657,39 +657,39 @@ extern void RegexCharClass_AddSpace_mD1BF3AD215D69EC6CF0E49A359F7FC709FD6FBB6 (v
 // 0x00000143 System.Void System.Text.RegularExpressions.RegexCharClass::AddDigit(System.Boolean,System.Boolean,System.String)
 extern void RegexCharClass_AddDigit_m04C1001F7E8DA85CB2D262ED403BA9BD215A7A8E (void);
 // 0x00000144 System.Char System.Text.RegularExpressions.RegexCharClass::SingletonChar(System.String)
-extern void RegexCharClass_SingletonChar_m11683F48B3AA3E0B5CD5849C40ADDCECC91BFF10 (void);
+extern void RegexCharClass_SingletonChar_m4B0E4CE38D80141C013BE74B01C58FB81B0DE630 (void);
 // 0x00000145 System.Boolean System.Text.RegularExpressions.RegexCharClass::IsMergeable(System.String)
-extern void RegexCharClass_IsMergeable_mD017475B43D0621F15ECAF5006410D4D0CCC46AD (void);
+extern void RegexCharClass_IsMergeable_m986CE5853CF227EC275D0F16E91472A3FA903531 (void);
 // 0x00000146 System.Boolean System.Text.RegularExpressions.RegexCharClass::IsEmpty(System.String)
-extern void RegexCharClass_IsEmpty_mDD55987C8F4B887716E46869730F5E1E31593A44 (void);
+extern void RegexCharClass_IsEmpty_m10A0C981C0200FFA5211CF9EEC8EE1FFECE27545 (void);
 // 0x00000147 System.Boolean System.Text.RegularExpressions.RegexCharClass::IsSingleton(System.String)
-extern void RegexCharClass_IsSingleton_mF23CB7003B555ADB4C5035A1B3A218A8ED847D12 (void);
+extern void RegexCharClass_IsSingleton_mA3970BE305000CAE9576642E3C6751249767A2B4 (void);
 // 0x00000148 System.Boolean System.Text.RegularExpressions.RegexCharClass::IsSingletonInverse(System.String)
-extern void RegexCharClass_IsSingletonInverse_m62E7E31998BEBC824A4EED3CEE5A2D3FB3BF5831 (void);
+extern void RegexCharClass_IsSingletonInverse_m04C0F39C52377F64FA6B7D93AF2B89D203E9A108 (void);
 // 0x00000149 System.Boolean System.Text.RegularExpressions.RegexCharClass::IsSubtraction(System.String)
-extern void RegexCharClass_IsSubtraction_m069CC20713C5757A8AAD9BA556F07C8E042F3BE8 (void);
+extern void RegexCharClass_IsSubtraction_mE9E413F4B753B830F3091897DB20C4E6E88EA5F9 (void);
 // 0x0000014A System.Boolean System.Text.RegularExpressions.RegexCharClass::IsNegated(System.String)
-extern void RegexCharClass_IsNegated_m66E1348EBCAAD253AEEA5EDC3F9A93E84A433947 (void);
+extern void RegexCharClass_IsNegated_m7F52D93AA1B63D6C1AACB04DE2CA8ECFB901BA47 (void);
 // 0x0000014B System.Boolean System.Text.RegularExpressions.RegexCharClass::IsECMAWordChar(System.Char)
-extern void RegexCharClass_IsECMAWordChar_m3A2920E6309D58F982B8B7AE20D9166601DDCA0B (void);
+extern void RegexCharClass_IsECMAWordChar_m95AFA872BB22C901C60DFCC9C8735BA78EE1EC84 (void);
 // 0x0000014C System.Boolean System.Text.RegularExpressions.RegexCharClass::IsWordChar(System.Char)
-extern void RegexCharClass_IsWordChar_m9FEFF0FC22277053D7A4404FD919C7F41733DB94 (void);
+extern void RegexCharClass_IsWordChar_m2912E5148F0F89512DDF7D629188ADA82961080C (void);
 // 0x0000014D System.Boolean System.Text.RegularExpressions.RegexCharClass::CharInClass(System.Char,System.String)
-extern void RegexCharClass_CharInClass_mAF6EE8C936383EB630F17C8C268F10BB8C10BC83 (void);
+extern void RegexCharClass_CharInClass_m635FAC50DE8EF6690ECA98FADD367716A5A54BEC (void);
 // 0x0000014E System.Boolean System.Text.RegularExpressions.RegexCharClass::CharInClassRecursive(System.Char,System.String,System.Int32)
-extern void RegexCharClass_CharInClassRecursive_m7B2DC6EF52CFA494C26DC8AA976F3A06DDAF22FC (void);
+extern void RegexCharClass_CharInClassRecursive_mEC6F84D9CFEAD5A3F0091FC05296AA53FF188232 (void);
 // 0x0000014F System.Boolean System.Text.RegularExpressions.RegexCharClass::CharInClassInternal(System.Char,System.String,System.Int32,System.Int32,System.Int32)
-extern void RegexCharClass_CharInClassInternal_m166B4DDEB0553E88B58A2F3E859CA2D29995CF54 (void);
+extern void RegexCharClass_CharInClassInternal_m013394FB15A790E1BF02D518C3F7485359A4E3E3 (void);
 // 0x00000150 System.Boolean System.Text.RegularExpressions.RegexCharClass::CharInCategory(System.Char,System.String,System.Int32,System.Int32,System.Int32)
-extern void RegexCharClass_CharInCategory_m1B20968374CE9C35FE81D172C3325E37433897E1 (void);
+extern void RegexCharClass_CharInCategory_m18B64CFDDA01F24D468ED85E35E72D7B71203957 (void);
 // 0x00000151 System.Boolean System.Text.RegularExpressions.RegexCharClass::CharInCategoryGroup(System.Char,System.Globalization.UnicodeCategory,System.String,System.Int32&)
-extern void RegexCharClass_CharInCategoryGroup_mDDAA3F1975AC1A7527137AE6951121F381703D48 (void);
+extern void RegexCharClass_CharInCategoryGroup_mE20D51D1FD31B839D900136C42B8A7F014032C82 (void);
 // 0x00000152 System.String System.Text.RegularExpressions.RegexCharClass::NegateCategory(System.String)
-extern void RegexCharClass_NegateCategory_m1C615694A5F8EECBBE4C09BA293454D856F52F50 (void);
+extern void RegexCharClass_NegateCategory_m6BE8AAA97753BF3F6A9577E4EB5D8A0590ADF638 (void);
 // 0x00000153 System.Text.RegularExpressions.RegexCharClass System.Text.RegularExpressions.RegexCharClass::Parse(System.String)
-extern void RegexCharClass_Parse_m4766E7E53BF572FD9815DEEBD9831380C33C796A (void);
+extern void RegexCharClass_Parse_mE586DA457874C3808D48C2C514AED5B147221D27 (void);
 // 0x00000154 System.Text.RegularExpressions.RegexCharClass System.Text.RegularExpressions.RegexCharClass::ParseRecursive(System.String,System.Int32)
-extern void RegexCharClass_ParseRecursive_m6ABF2F2B8B8C5A559866EBF3FBA305247DE4CCF6 (void);
+extern void RegexCharClass_ParseRecursive_m04198C9230D295E6B3261040CA9DD37DE03EE79F (void);
 // 0x00000155 System.Int32 System.Text.RegularExpressions.RegexCharClass::RangeCount()
 extern void RegexCharClass_RangeCount_m36A38A50CD2E3E61B5F55D95562BD92923F981F1 (void);
 // 0x00000156 System.String System.Text.RegularExpressions.RegexCharClass::ToStringClass()
@@ -699,9 +699,9 @@ extern void RegexCharClass_GetRangeAt_m67B8198B09F344044D8F742C5C9869034C4A3128 
 // 0x00000158 System.Void System.Text.RegularExpressions.RegexCharClass::Canonicalize()
 extern void RegexCharClass_Canonicalize_m77EEBAD046B3EAD5110DD472434BDE16851C7A9E (void);
 // 0x00000159 System.String System.Text.RegularExpressions.RegexCharClass::SetFromProperty(System.String,System.Boolean,System.String)
-extern void RegexCharClass_SetFromProperty_m75FD04D8F9EA5FD996E4C8B4A2DF45BEEE6BABC5 (void);
+extern void RegexCharClass_SetFromProperty_mD4411181E13EEB6F8D96972AF4564698999E9DF1 (void);
 // 0x0000015A System.Void System.Text.RegularExpressions.RegexCharClass::.cctor()
-extern void RegexCharClass__cctor_m70495E564EC18CDEF2A2687F8012C96E571A0631 (void);
+extern void RegexCharClass__cctor_m15D71DF95CE4C3DEF5BDF06B03E6521A07E58296 (void);
 // 0x0000015B System.Void System.Text.RegularExpressions.RegexCharClass/LowerCaseMapping::.ctor(System.Char,System.Char,System.Int32,System.Int32)
 extern void LowerCaseMapping__ctor_m06D0A21D5D72E39535F82076EF046F98C62D7D5A (void);
 // 0x0000015C System.Void System.Text.RegularExpressions.RegexCharClass/SingleRangeComparer::.ctor()
@@ -709,23 +709,23 @@ extern void SingleRangeComparer__ctor_m9B430EFE70974D964D73913D81E7C6C9236BBCCE 
 // 0x0000015D System.Int32 System.Text.RegularExpressions.RegexCharClass/SingleRangeComparer::Compare(System.Text.RegularExpressions.RegexCharClass/SingleRange,System.Text.RegularExpressions.RegexCharClass/SingleRange)
 extern void SingleRangeComparer_Compare_m917FDE86E5F31A755D07077EA095F8B7E27E130B (void);
 // 0x0000015E System.Void System.Text.RegularExpressions.RegexCharClass/SingleRangeComparer::.cctor()
-extern void SingleRangeComparer__cctor_m512F77BDA73732EB8D39BB056D00CF9B200D5D1C (void);
+extern void SingleRangeComparer__cctor_m649382AF0493818C7B5D453010FE22A3523F1A90 (void);
 // 0x0000015F System.Void System.Text.RegularExpressions.RegexCharClass/SingleRange::.ctor(System.Char,System.Char)
 extern void SingleRange__ctor_m14FD490AFB119E412298554D31FADDCB9465511E (void);
 // 0x00000160 System.Void System.Text.RegularExpressions.RegexCode::.ctor(System.Int32[],System.Collections.Generic.List`1<System.String>,System.Int32,System.Collections.Hashtable,System.Int32,System.Text.RegularExpressions.RegexBoyerMoore,System.Nullable`1<System.Text.RegularExpressions.RegexPrefix>,System.Int32,System.Boolean)
 extern void RegexCode__ctor_mA50EE1CFA1A050BFC45E135DAB7E2704049512E0 (void);
 // 0x00000161 System.Boolean System.Text.RegularExpressions.RegexCode::OpcodeBacktracks(System.Int32)
-extern void RegexCode_OpcodeBacktracks_m77D0680FD94F152F85C6CF8724A5EBFFE07A1397 (void);
+extern void RegexCode_OpcodeBacktracks_m44FC8B177CFCB191B72C109984A707744FD7B2BC (void);
 // 0x00000162 System.Void System.Text.RegularExpressions.RegexFCD::.ctor(System.Span`1<System.Int32>)
 extern void RegexFCD__ctor_mE1C0A21180069D25EEF6F3702938ABB087F35C0C (void);
 // 0x00000163 System.Nullable`1<System.Text.RegularExpressions.RegexPrefix> System.Text.RegularExpressions.RegexFCD::FirstChars(System.Text.RegularExpressions.RegexTree)
-extern void RegexFCD_FirstChars_mD151F8EF8DD64C9E1960D6C4E79E65A6766322CA (void);
+extern void RegexFCD_FirstChars_m3BAEF0481AF78F4FC40C35CEDA9100017A6D794B (void);
 // 0x00000164 System.Text.RegularExpressions.RegexPrefix System.Text.RegularExpressions.RegexFCD::Prefix(System.Text.RegularExpressions.RegexTree)
-extern void RegexFCD_Prefix_m6D786604F799DF1EEF509BEA577E2DC50C75FB6E (void);
+extern void RegexFCD_Prefix_mE4F5ABEA5443B6940F83E59C60D0A9A201CC4BD6 (void);
 // 0x00000165 System.Int32 System.Text.RegularExpressions.RegexFCD::Anchors(System.Text.RegularExpressions.RegexTree)
-extern void RegexFCD_Anchors_mF19C2B50200C6D7E38566E5C4854DB04EADFF5CE (void);
+extern void RegexFCD_Anchors_m9211098DA08795B8459B918CA3D9A1A4733365D7 (void);
 // 0x00000166 System.Int32 System.Text.RegularExpressions.RegexFCD::AnchorFromType(System.Int32)
-extern void RegexFCD_AnchorFromType_mF944273F420E8D43F4F9EC93950E3797B4C10A47 (void);
+extern void RegexFCD_AnchorFromType_m825872EAB7A0322BBD677DF34281A3ACEE8808D4 (void);
 // 0x00000167 System.Void System.Text.RegularExpressions.RegexFCD::PushInt(System.Int32)
 extern void RegexFCD_PushInt_m0B38AFDAF0D14FF1E41AC90838B40C4C866D8875 (void);
 // 0x00000168 System.Boolean System.Text.RegularExpressions.RegexFCD::IntIsEmpty()
@@ -897,9 +897,9 @@ extern void RegexNode_ChildCount_m833AF69D2711D8EEC5E50FD666A61F428A12396D (void
 // 0x000001BB System.Int32 System.Text.RegularExpressions.RegexNode::Type()
 extern void RegexNode_Type_mDE9685FD99646016D0D6038C4509C6392B10F019 (void);
 // 0x000001BC System.Text.RegularExpressions.RegexTree System.Text.RegularExpressions.RegexParser::Parse(System.String,System.Text.RegularExpressions.RegexOptions)
-extern void RegexParser_Parse_m5AE448041BC21B17EF68A2039991EC85F91AA9BB (void);
+extern void RegexParser_Parse_mB845F2DC38DFD8C50E5B8D0D0F87330597409793 (void);
 // 0x000001BD System.Text.RegularExpressions.RegexReplacement System.Text.RegularExpressions.RegexParser::ParseReplacement(System.String,System.Collections.Hashtable,System.Int32,System.Collections.Hashtable,System.Text.RegularExpressions.RegexOptions)
-extern void RegexParser_ParseReplacement_m721243B3049725DF4FCCBE8F1861CC47BAF380CD (void);
+extern void RegexParser_ParseReplacement_m552460B4F6F5F7B1B0D2F4E01A3847BE8662AF13 (void);
 // 0x000001BE System.Void System.Text.RegularExpressions.RegexParser::.ctor(System.Globalization.CultureInfo)
 extern void RegexParser__ctor_m99DC2B2C4B64E7298BBF49AD862BFD12007E38E4 (void);
 // 0x000001BF System.Void System.Text.RegularExpressions.RegexParser::SetPattern(System.String)
@@ -931,7 +931,7 @@ extern void RegexParser_ScanDecimal_m1BFFE19E0698D0EC97D81C655F3D04B608897161 (v
 // 0x000001CC System.Char System.Text.RegularExpressions.RegexParser::ScanHex(System.Int32)
 extern void RegexParser_ScanHex_mDD96A112E30DABDB5BC0C558373DA5607F8ACF95 (void);
 // 0x000001CD System.Int32 System.Text.RegularExpressions.RegexParser::HexDigit(System.Char)
-extern void RegexParser_HexDigit_mD112E7ACEDAD4A29DEA1A771854CA34CEB259053 (void);
+extern void RegexParser_HexDigit_m40FED0646820843A4C35AF9349E27B0E0A84A5CE (void);
 // 0x000001CE System.Char System.Text.RegularExpressions.RegexParser::ScanControl()
 extern void RegexParser_ScanControl_m26274BE5776CF5AC03E8EAC7B5972C0A8AF2A95B (void);
 // 0x000001CF System.Boolean System.Text.RegularExpressions.RegexParser::IsOnlyTopOption(System.Text.RegularExpressions.RegexOptions)
@@ -945,7 +945,7 @@ extern void RegexParser_ParseProperty_m3B765A1B30A38A723CAFE63AF9D6F3D08C7C6F38 
 // 0x000001D3 System.Int32 System.Text.RegularExpressions.RegexParser::TypeFromCode(System.Char)
 extern void RegexParser_TypeFromCode_m11B176B0B9A6EF391370E021B111101AE56F4CC6 (void);
 // 0x000001D4 System.Text.RegularExpressions.RegexOptions System.Text.RegularExpressions.RegexParser::OptionFromCode(System.Char)
-extern void RegexParser_OptionFromCode_mD6CDD96F9917C0518A437DB77BC53130AE702627 (void);
+extern void RegexParser_OptionFromCode_m7E2E8164FA38C45692BC68054E574F00B65F383A (void);
 // 0x000001D5 System.Void System.Text.RegularExpressions.RegexParser::CountCaptures()
 extern void RegexParser_CountCaptures_m2ECDC9ED534F245A12224038BB86DE5D66DB56A3 (void);
 // 0x000001D6 System.Void System.Text.RegularExpressions.RegexParser::NoteCaptureSlot(System.Int32,System.Int32)
@@ -975,15 +975,15 @@ extern void RegexParser_UseOptionX_m0BFB48EDC8A2F38A29A8F6CEC85080D9E04010FC (vo
 // 0x000001E2 System.Boolean System.Text.RegularExpressions.RegexParser::UseOptionE()
 extern void RegexParser_UseOptionE_mE0B7314EAB95CAC9B9762CD3AB9FBC71BFD410D9 (void);
 // 0x000001E3 System.Boolean System.Text.RegularExpressions.RegexParser::IsSpecial(System.Char)
-extern void RegexParser_IsSpecial_m4AC43B42D2727513B568B534C6FF09093ACB2754 (void);
+extern void RegexParser_IsSpecial_mF59FE804CDD354250CB77C4113F39C627349D051 (void);
 // 0x000001E4 System.Boolean System.Text.RegularExpressions.RegexParser::IsStopperX(System.Char)
-extern void RegexParser_IsStopperX_mF8FCEDFDBE9E5ED5469A04463782B951552BBB2F (void);
+extern void RegexParser_IsStopperX_m173A82937CA9600F7CB12B9A101F39CCFDA630C9 (void);
 // 0x000001E5 System.Boolean System.Text.RegularExpressions.RegexParser::IsQuantifier(System.Char)
-extern void RegexParser_IsQuantifier_m7FFA04954A7E4C39D443D790483F2126A5119E25 (void);
+extern void RegexParser_IsQuantifier_mBD18FA810A0404B632392725175846E6B30A8782 (void);
 // 0x000001E6 System.Boolean System.Text.RegularExpressions.RegexParser::IsTrueQuantifier()
 extern void RegexParser_IsTrueQuantifier_m22CCE851B85E0760270178DF1184746040E68AEF (void);
 // 0x000001E7 System.Boolean System.Text.RegularExpressions.RegexParser::IsSpace(System.Char)
-extern void RegexParser_IsSpace_m4E37D473B564502A80E5C968E630AA2D4A56231A (void);
+extern void RegexParser_IsSpace_m322B45C2A04F07D8C83B547370D266F39A8DE14E (void);
 // 0x000001E8 System.Void System.Text.RegularExpressions.RegexParser::AddConcatenate(System.Int32,System.Int32,System.Boolean)
 extern void RegexParser_AddConcatenate_mDDD0350FE254D75D6707668332D0F3088A5572AF (void);
 // 0x000001E9 System.Void System.Text.RegularExpressions.RegexParser::PushGroup()
@@ -1045,21 +1045,21 @@ extern void RegexParser_RightChar_m6BEE1FBF048A2DFC53235447BB2F6AC8C56A4147 (voi
 // 0x00000205 System.Int32 System.Text.RegularExpressions.RegexParser::CharsRight()
 extern void RegexParser_CharsRight_m6F83CD819B532331F5778143B6A95B31C8734A79 (void);
 // 0x00000206 System.Void System.Text.RegularExpressions.RegexParser::.cctor()
-extern void RegexParser__cctor_m4F6AA7D64102443052B58896EDF95DCC21C2C0C7 (void);
+extern void RegexParser__cctor_mC883BE9D9C8D47723D5CAD7CE25B5F347929AF54 (void);
 // 0x00000207 System.Void System.Text.RegularExpressions.RegexPrefix::.ctor(System.String,System.Boolean)
 extern void RegexPrefix__ctor_m05CD44F32CB0B5F8B2C080EAB94886F9743E86A4 (void);
 // 0x00000208 System.Boolean System.Text.RegularExpressions.RegexPrefix::get_CaseInsensitive()
 extern void RegexPrefix_get_CaseInsensitive_m4DAE2D9E91916BFFAB928F7DCAA20A5ABD4560E6 (void);
 // 0x00000209 System.Text.RegularExpressions.RegexPrefix System.Text.RegularExpressions.RegexPrefix::get_Empty()
-extern void RegexPrefix_get_Empty_m3D63F7F64529D4CA3C0929F94E035EEED7D9E0F9 (void);
+extern void RegexPrefix_get_Empty_m54EA279F2BE7F39358AB5DF1A5362A8CD92B4326 (void);
 // 0x0000020A System.String System.Text.RegularExpressions.RegexPrefix::get_Prefix()
 extern void RegexPrefix_get_Prefix_m844D02262C0720B0DC488AD1541713AD37BC518E (void);
 // 0x0000020B System.Void System.Text.RegularExpressions.RegexPrefix::.cctor()
-extern void RegexPrefix__cctor_mF7EA052790930134AC69C755D0066C70CA86363E (void);
+extern void RegexPrefix__cctor_m55930FB75AB023BADBEAB107BE38A1A559DDB7F2 (void);
 // 0x0000020C System.Void System.Text.RegularExpressions.RegexReplacement::.ctor(System.String,System.Text.RegularExpressions.RegexNode,System.Collections.Hashtable)
 extern void RegexReplacement__ctor_m9CE743F0908A59F98461440AE5B842BE1BC72EA5 (void);
 // 0x0000020D System.Text.RegularExpressions.RegexReplacement System.Text.RegularExpressions.RegexReplacement::GetOrCreate(System.WeakReference`1<System.Text.RegularExpressions.RegexReplacement>,System.String,System.Collections.Hashtable,System.Int32,System.Collections.Hashtable,System.Text.RegularExpressions.RegexOptions)
-extern void RegexReplacement_GetOrCreate_m3DABA1D0A9D785394FC1B3E7373EBFD0A2FEB3B5 (void);
+extern void RegexReplacement_GetOrCreate_m2C3E8DB4E10AFC24D45D754E67E5C989F40455F1 (void);
 // 0x0000020E System.String System.Text.RegularExpressions.RegexReplacement::get_Pattern()
 extern void RegexReplacement_get_Pattern_m146EA30FB574587E88DD056AC22F79375C3F55E6 (void);
 // 0x0000020F System.Void System.Text.RegularExpressions.RegexReplacement::ReplacementImpl(System.Text.StringBuilder,System.Text.RegularExpressions.Match)
@@ -1121,7 +1121,7 @@ extern void RegexTree__ctor_m89DA1335AAB55B0707774E978E6078CE42DB0DA6 (void);
 // 0x0000022D System.Void System.Text.RegularExpressions.RegexWriter::.ctor(System.Span`1<System.Int32>,System.Span`1<System.Int32>)
 extern void RegexWriter__ctor_m37DF964F59213D287C9D812A3D0945744BF341EE (void);
 // 0x0000022E System.Text.RegularExpressions.RegexCode System.Text.RegularExpressions.RegexWriter::Write(System.Text.RegularExpressions.RegexTree)
-extern void RegexWriter_Write_mCDBE8B9E7703439F2F27C082808594B1056BEB99 (void);
+extern void RegexWriter_Write_m69A5583635E511D67176A977E96C17AC982C4F01 (void);
 // 0x0000022F System.Void System.Text.RegularExpressions.RegexWriter::Dispose()
 extern void RegexWriter_Dispose_mD34F8BFC41D28F22FBC65E3F1A211DFE85625E04 (void);
 // 0x00000230 System.Text.RegularExpressions.RegexCode System.Text.RegularExpressions.RegexWriter::RegexCodeFromRegexTree(System.Text.RegularExpressions.RegexTree)
@@ -1141,25 +1141,25 @@ extern void RegexWriter_MapCapnum_m5EA7BA45A1C4D51DC20C281246D3997A3001A0B6 (voi
 // 0x00000237 System.Void System.Text.RegularExpressions.RegexWriter::EmitFragment(System.Int32,System.Text.RegularExpressions.RegexNode,System.Int32)
 extern void RegexWriter_EmitFragment_m0B35F7C3BDC22B5DE82735F2652C7948AE8494A5 (void);
 // 0x00000238 System.Void System.Diagnostics.Debug::Assert(System.Boolean)
-extern void Debug_Assert_mC3D55129DFDEB68EB7DEA1CDBA821AD268E632E4 (void);
+extern void Debug_Assert_m9192EFA9CFAB2EDE68E87341348441EEE645348F (void);
 // 0x00000239 System.Diagnostics.TraceListenerCollection System.Diagnostics.TraceInternal::get_Listeners()
-extern void TraceInternal_get_Listeners_m65CA1B43F66634A2649DF4C38711D1BC4CFDDC09 (void);
+extern void TraceInternal_get_Listeners_m038AFEB92A8F63732DB1B7E507BE03404A67925B (void);
 // 0x0000023A System.Boolean System.Diagnostics.TraceInternal::get_AutoFlush()
-extern void TraceInternal_get_AutoFlush_mA6CD506864A88784E661B0E88E675E82BA5D44A1 (void);
+extern void TraceInternal_get_AutoFlush_m88A979A8AD1923CF3CBF734AF135A0305B723CA4 (void);
 // 0x0000023B System.Boolean System.Diagnostics.TraceInternal::get_UseGlobalLock()
-extern void TraceInternal_get_UseGlobalLock_m3124CC4FA5B6887ECDBFB85101BD37C3C4F1CAC1 (void);
+extern void TraceInternal_get_UseGlobalLock_mCC5E985E9956F6DCE7FF5F3B6FDB4DF7C71C08A8 (void);
 // 0x0000023C System.Int32 System.Diagnostics.TraceInternal::get_IndentLevel()
-extern void TraceInternal_get_IndentLevel_mC76F5C9C346BECC375A399FBCB4B336AED411044 (void);
+extern void TraceInternal_get_IndentLevel_m885C3F0F4E0FDAA31C606217D3FFF2F0D73919CC (void);
 // 0x0000023D System.Int32 System.Diagnostics.TraceInternal::get_IndentSize()
-extern void TraceInternal_get_IndentSize_m32D735E3A34CD6A6667D3488CABA0D9C9883C082 (void);
+extern void TraceInternal_get_IndentSize_m6C7528DD5FE57CAB3CD8208A324EDFFC6D7E606F (void);
 // 0x0000023E System.Void System.Diagnostics.TraceInternal::Assert(System.Boolean)
-extern void TraceInternal_Assert_mB93D8C3BC62F4034E759C263A868DD934DE7BDE8 (void);
+extern void TraceInternal_Assert_m1AD75522ACF13B045A875151BDFF37D6B1795BFE (void);
 // 0x0000023F System.Void System.Diagnostics.TraceInternal::Fail(System.String)
-extern void TraceInternal_Fail_mA3A535414FE0F9E8CCEC08CD48108315A553109B (void);
+extern void TraceInternal_Fail_m972DFB85123BDCB9A75456E2830943085734A529 (void);
 // 0x00000240 System.Void System.Diagnostics.TraceInternal::InitializeSettings()
-extern void TraceInternal_InitializeSettings_m084DDD851AE58B70584519967C4D3067EFF411FF (void);
+extern void TraceInternal_InitializeSettings_m329AA26349B95A7022A45D40F36566EC199C528E (void);
 // 0x00000241 System.Void System.Diagnostics.TraceInternal::.cctor()
-extern void TraceInternal__cctor_m343A97F7E6E97674CC61894F50D9D706D077AF02 (void);
+extern void TraceInternal__cctor_mA8B9B4560B0FB9012DCD71FAEB02E98EDA6E0DF4 (void);
 // 0x00000242 System.Void System.Diagnostics.TraceListener::.ctor(System.String)
 extern void TraceListener__ctor_m429A376FB5133ADCCB49B49207424A85F2297B92 (void);
 // 0x00000243 System.Boolean System.Diagnostics.TraceListener::get_IsThreadSafe()
@@ -1223,9 +1223,9 @@ extern void TraceListenerCollection_System_Collections_ICollection_get_SyncRoot_
 // 0x00000261 System.Void System.Diagnostics.TraceListenerCollection::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
 extern void TraceListenerCollection_System_Collections_ICollection_CopyTo_mA96CE292953A3495982FE54BC34AC80E70F44E60 (void);
 // 0x00000262 System.Void System.Diagnostics.DefaultTraceListener::.cctor()
-extern void DefaultTraceListener__cctor_mDE152F0FE083A33746E4EC8A0F0437C0C71EFFEF (void);
+extern void DefaultTraceListener__cctor_mF67B21E651C8E74DD7188D5228BFC07D64708616 (void);
 // 0x00000263 System.String System.Diagnostics.DefaultTraceListener::GetPrefix(System.String,System.String)
-extern void DefaultTraceListener_GetPrefix_mE0B3AF4F25EF9D99AD974C74372D91445B620C06 (void);
+extern void DefaultTraceListener_GetPrefix_mE091E8DB14543D178AF6CEC1FB057C141C8868DF (void);
 // 0x00000264 System.Void System.Diagnostics.DefaultTraceListener::.ctor()
 extern void DefaultTraceListener__ctor_mC2E10D35F6E55FB86DAB67F2AD770ECB871B5708 (void);
 // 0x00000265 System.String System.Diagnostics.DefaultTraceListener::get_LogFileName()
@@ -1235,7 +1235,7 @@ extern void DefaultTraceListener_Fail_m15E4B32BC65587F6A23EAD126353394D2138F3CB 
 // 0x00000267 System.Void System.Diagnostics.DefaultTraceListener::Fail(System.String,System.String)
 extern void DefaultTraceListener_Fail_m3667C92A37B00128C44CE2507F28BA07050B8443 (void);
 // 0x00000268 System.Void System.Diagnostics.DefaultTraceListener::WriteWindowsDebugString(System.Char*)
-extern void DefaultTraceListener_WriteWindowsDebugString_m0782DE0851BF43893312F6BE83C696635CCDAC55 (void);
+extern void DefaultTraceListener_WriteWindowsDebugString_mB52F1467BC5BF75D061378F04E7FC80390552F91 (void);
 // 0x00000269 System.Void System.Diagnostics.DefaultTraceListener::WriteDebugString(System.String)
 extern void DefaultTraceListener_WriteDebugString_mD3BEBCC10CF1357ABD2D37032A7AE54050B3BE0E (void);
 // 0x0000026A System.Void System.Diagnostics.DefaultTraceListener::WriteMonoTrace(System.String)
@@ -1251,7 +1251,7 @@ extern void DefaultTraceListener_Write_m2C77CF6C1459080523FE7213B8854A9B7FFDCEF9
 // 0x0000026F System.Void System.Diagnostics.DefaultTraceListener::WriteLine(System.String)
 extern void DefaultTraceListener_WriteLine_m457B4152407B96D84AF638EF07A79550652FB049 (void);
 // 0x00000270 System.Int64 System.Diagnostics.Stopwatch::GetTimestamp()
-extern void Stopwatch_GetTimestamp_mD6D582A3E30369F05C829A5650BE2AE511EC807F (void);
+extern void Stopwatch_GetTimestamp_mA3BDF219C573A34751D6A792E86C825B74D2CEB7 (void);
 // 0x00000271 System.Void System.Diagnostics.Stopwatch::.ctor()
 extern void Stopwatch__ctor_mAFE6B2F45CF1C3469EF6D5307972BC098B473D0A (void);
 // 0x00000272 System.TimeSpan System.Diagnostics.Stopwatch::get_Elapsed()
@@ -1263,7 +1263,7 @@ extern void Stopwatch_get_ElapsedTicks_m3F4040FBF8C7CCDC69E0E04824019DEBB25AA410
 // 0x00000275 System.Void System.Diagnostics.Stopwatch::Start()
 extern void Stopwatch_Start_m35906A38C7D336CF9DD35854C7E170D762A55915 (void);
 // 0x00000276 System.Void System.Diagnostics.Stopwatch::.cctor()
-extern void Stopwatch__cctor_mB40A9951DF8D540C2432D56CBC9643E62C40039E (void);
+extern void Stopwatch__cctor_mF9BBC572803E232BF2D323301E90A6AFDB496FB9 (void);
 // 0x00000277 System.Void System.Security.Cryptography.Oid::.ctor(System.String)
 extern void Oid__ctor_m4AF81B9D51BED48AE505251E0874EC654BA07B72 (void);
 // 0x00000278 System.Void System.Security.Cryptography.Oid::.ctor(System.String,System.String)
@@ -1333,7 +1333,7 @@ extern void PublicKey_get_EncodedParameters_mE338A4A69A15907E38A644D624A07DDD55C
 // 0x00000298 System.Security.Cryptography.Oid System.Security.Cryptography.X509Certificates.PublicKey::get_Oid()
 extern void PublicKey_get_Oid_mB5796F569C136759CB740F747C6A3B6F8976401A (void);
 // 0x00000299 System.Void System.Security.Cryptography.X509Certificates.PublicKey::.cctor()
-extern void PublicKey__cctor_mBA35606057B7AD6687CD52BFED47441593DC5004 (void);
+extern void PublicKey__cctor_m1B2E44B5BBF321952E0FD1F19C048E43A6506407 (void);
 // 0x0000029A System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::.ctor()
 extern void X509BasicConstraintsExtension__ctor_m672BE9B41107A8C30454BF4CAC120D70512BA89A (void);
 // 0x0000029B System.Void System.Security.Cryptography.X509Certificates.X509BasicConstraintsExtension::.ctor(System.Security.Cryptography.AsnEncodedData,System.Boolean)
@@ -1407,11 +1407,11 @@ extern void X509SubjectKeyIdentifierExtension_get_SubjectKeyIdentifier_mFF2A1550
 // 0x000002BD System.Void System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::CopyFrom(System.Security.Cryptography.AsnEncodedData)
 extern void X509SubjectKeyIdentifierExtension_CopyFrom_m959BB16C6973B1B565D02ED9993AF9069019D77A (void);
 // 0x000002BE System.Byte System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::FromHexChar(System.Char)
-extern void X509SubjectKeyIdentifierExtension_FromHexChar_m0547F9E771F6BE506DEA650D696F7794F91B59A3 (void);
+extern void X509SubjectKeyIdentifierExtension_FromHexChar_m6A90ECC8622DD1D2DEA0FB18356E97B15E8371A9 (void);
 // 0x000002BF System.Byte System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::FromHexChars(System.Char,System.Char)
-extern void X509SubjectKeyIdentifierExtension_FromHexChars_m7143D074BE9451C082422BA3FF118C17D873E5A1 (void);
+extern void X509SubjectKeyIdentifierExtension_FromHexChars_mFBC6B2009778633420F9F4FF38D7E641FBF63EFA (void);
 // 0x000002C0 System.Byte[] System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::FromHex(System.String)
-extern void X509SubjectKeyIdentifierExtension_FromHex_m7A7DD49DB74BC4020A28007CDD5765765EC9DDB3 (void);
+extern void X509SubjectKeyIdentifierExtension_FromHex_m0C965FECB6AC9330589DBDC182E7EA34EFE4195D (void);
 // 0x000002C1 System.Security.Cryptography.AsnDecodeStatus System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::Decode(System.Byte[])
 extern void X509SubjectKeyIdentifierExtension_Decode_m9E9B87F478F55E202411CBCE3AA314CBF73C7F30 (void);
 // 0x000002C2 System.Byte[] System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension::Encode()
@@ -1447,31 +1447,31 @@ extern void IPAddress_Equals_m5EA56A0CBC4F66012C11628D8CC75E03E5A8C462 (void);
 // 0x000002D1 System.Int32 System.Net.IPAddress::GetHashCode()
 extern void IPAddress_GetHashCode_m243850627E81961E58E3A7A0A39A1F365C47A4BA (void);
 // 0x000002D2 System.Byte[] System.Net.IPAddress::ThrowAddressNullException()
-extern void IPAddress_ThrowAddressNullException_mF55B22F51151F17731038C12D118EBEC63C9CC4A (void);
+extern void IPAddress_ThrowAddressNullException_m2D5037C15BE289427E4A761A643C4F26C2F3F034 (void);
 // 0x000002D3 System.Void System.Net.IPAddress::.cctor()
-extern void IPAddress__cctor_mB1459880D331879EB11466988E78D88EBA0F6735 (void);
+extern void IPAddress__cctor_m83F9B947B6C0D0F8DEA3E0C62FCCC2573495D6CA (void);
 // 0x000002D4 System.Void System.Net.IPAddress/ReadOnlyIPAddress::.ctor(System.Int64)
 extern void ReadOnlyIPAddress__ctor_m0E47AC9070535FCCC4796C165AC8DAB6FA2B5AC5 (void);
 // 0x000002D5 System.String System.Net.IPAddressParser::IPv4AddressToString(System.UInt32)
-extern void IPAddressParser_IPv4AddressToString_mED56559517ADF1172DEE5FFBA56B7A3C66060303 (void);
+extern void IPAddressParser_IPv4AddressToString_m3D56686708BDA87E76737D94441BF1AE486922D2 (void);
 // 0x000002D6 System.Void System.Net.IPAddressParser::IPv4AddressToString(System.UInt32,System.Text.StringBuilder)
-extern void IPAddressParser_IPv4AddressToString_mC3C2E797E621FC478FCDBADFE9DE20909516D706 (void);
+extern void IPAddressParser_IPv4AddressToString_m4113E0673C882A7CB1313639E2836FB24B9BC6A0 (void);
 // 0x000002D7 System.Int32 System.Net.IPAddressParser::IPv4AddressToStringHelper(System.UInt32,System.Char*)
-extern void IPAddressParser_IPv4AddressToStringHelper_m732D3622C399BF418CC039E34BB8EBA0F5B7C581 (void);
+extern void IPAddressParser_IPv4AddressToStringHelper_m4226589AD61857FE45C082110271FFF2D3DF8C91 (void);
 // 0x000002D8 System.String System.Net.IPAddressParser::IPv6AddressToString(System.UInt16[],System.UInt32)
-extern void IPAddressParser_IPv6AddressToString_mA5E8E4CCAA57C745E4CF564CB6CA263661A1BB13 (void);
+extern void IPAddressParser_IPv6AddressToString_m7C25DEA2FB9E3F863777653CB9C314BBEDF911A6 (void);
 // 0x000002D9 System.Text.StringBuilder System.Net.IPAddressParser::IPv6AddressToStringHelper(System.UInt16[],System.UInt32)
-extern void IPAddressParser_IPv6AddressToStringHelper_m5E32EC869045EA58C14FDB598476013D76568A27 (void);
+extern void IPAddressParser_IPv6AddressToStringHelper_m405EE1B288D87500878DD96ADAEE31B106CCF930 (void);
 // 0x000002DA System.Void System.Net.IPAddressParser::FormatIPv4AddressNumber(System.Int32,System.Char*,System.Int32&)
-extern void IPAddressParser_FormatIPv4AddressNumber_m6C347346B73C32788716D03C3FB4DEA954EE37C2 (void);
+extern void IPAddressParser_FormatIPv4AddressNumber_m716041E973744C431B090589D624C53696FD801F (void);
 // 0x000002DB System.Void System.Net.IPAddressParser::AppendSections(System.UInt16[],System.Int32,System.Int32,System.Text.StringBuilder)
-extern void IPAddressParser_AppendSections_mB41667569210B39E7A732CE4EDDB684FF7B97C94 (void);
+extern void IPAddressParser_AppendSections_m141C016465F9E7E1538E03340FEC16F89B500284 (void);
 // 0x000002DC System.Void System.Net.IPAddressParser::AppendHex(System.UInt16,System.Text.StringBuilder)
-extern void IPAddressParser_AppendHex_m078E3C19C653E140FC8E6943F292CACBB29A13AD (void);
+extern void IPAddressParser_AppendHex_m877259AD615A68FDC55EDC188758E5AA95C124B2 (void);
 // 0x000002DD System.UInt32 System.Net.IPAddressParser::ExtractIPv4Address(System.UInt16[])
-extern void IPAddressParser_ExtractIPv4Address_mF574B7C9D0B4DC4C22DBC0F2A6701FC816A2128D (void);
+extern void IPAddressParser_ExtractIPv4Address_mB79D4899358C69C1FC7C44C81A26BBD976FC2CB6 (void);
 // 0x000002DE System.UInt16 System.Net.IPAddressParser::Reverse(System.UInt16)
-extern void IPAddressParser_Reverse_mD663C9994E59E47531F7D69E576B14D0572676D5 (void);
+extern void IPAddressParser_Reverse_mDEBC20FC5D00F7C505E1ADE428CB6967B72B425E (void);
 // 0x000002DF System.Void System.ComponentModel.EditorBrowsableAttribute::.ctor(System.ComponentModel.EditorBrowsableState)
 extern void EditorBrowsableAttribute__ctor_mE6105AD9666A4DF03DB2590C687EAC6B12D908CE (void);
 // 0x000002E0 System.Boolean System.ComponentModel.EditorBrowsableAttribute::Equals(System.Object)
@@ -1511,7 +1511,7 @@ extern void TypeConverterAttribute_Equals_mA3BF2C8CFA0AE8B5D0F52E066B1141AA53B4E
 // 0x000002F1 System.Int32 System.ComponentModel.TypeConverterAttribute::GetHashCode()
 extern void TypeConverterAttribute_GetHashCode_m23ACA2A297447E17150BF490188919676FBD8A01 (void);
 // 0x000002F2 System.Void System.ComponentModel.TypeConverterAttribute::.cctor()
-extern void TypeConverterAttribute__cctor_mB9A8C9E5E62F8A8D81E250D0B53D359860D7C04A (void);
+extern void TypeConverterAttribute__cctor_m7A206154E18C66B9CEA6934D8AFB1AE9DA4EA666 (void);
 // 0x000002F3 System.Void System.ComponentModel.CollectionConverter::.ctor()
 extern void CollectionConverter__ctor_m20ED0C661750EBE427D356F24AED92A407988147 (void);
 // 0x000002F4 System.Void System.ComponentModel.EnumConverter::.ctor(System.Type)
@@ -1665,7 +1665,7 @@ extern void TypeConverter__ctor_mA5B1882A94D0491297B903563E8B03D75B2F67A2 (void)
 // 0x00000386 System.Boolean System.Collections.Generic.SortedList`2/ValueList::Remove(TValue)
 // 0x00000387 System.Void System.Collections.Generic.SortedList`2/ValueList::RemoveAt(System.Int32)
 // 0x00000388 System.UInt32 <PrivateImplementationDetails>::ComputeStringHash(System.String)
-extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_mC09A19935970846B38570D03608F0E5F25E2020C (void);
+extern void U3CPrivateImplementationDetailsU3E_ComputeStringHash_m171C269D828658C44041FA68B6DE8CA290ED517F (void);
 // 0x00000389 System.Void System.Net.Configuration.BypassElementCollection::.ctor()
 extern void BypassElementCollection__ctor_m344EC8CD2EACA36E1213C5914037BB133E87FE54 (void);
 // 0x0000038A System.Void System.Net.Configuration.ConnectionManagementElementCollection::.ctor()
@@ -1725,36 +1725,36 @@ extern void DiagnosticsConfigurationHandler__ctor_mDFB0000E6218840F66D21BB6C9BF3
 // 0x000003A5 System.Object System.Diagnostics.DiagnosticsConfigurationHandler::Create(System.Object,System.Object,System.Xml.XmlNode)
 extern void DiagnosticsConfigurationHandler_Create_mF21B1CC68B87DE078690B2B493FCDC5F728CBAAB (void);
 // 0x000003A6 System.Void Unity.ThrowStub::ThrowNotSupportedException()
-extern void ThrowStub_ThrowNotSupportedException_m0E6C3891D0501FEF5BF1A72B7AA4D6310CE082DD (void);
+extern void ThrowStub_ThrowNotSupportedException_m14168B43936EF78B7B8AC08BD815254DAA1D9FA2 (void);
 static Il2CppMethodPointer s_methodPointers[934] = 
 {
-	OidLookup_ToOid_mE362E659C0A532B8D2E1638D8B50FBACFEBFCF2D,
-	OidLookup_ShouldUseCache_mB50BE42B791BF8314979BCF725BB50F5C1DF0461,
-	OidLookup_NativeFriendlyNameToOid_m1CEF74ADB4771FEAFE0C491AC36DF806517C55AC,
-	OidLookup__cctor_m315F5D4656A8C145CD154D9DF653F5207E12AEBC,
-	U3CU3Ec__cctor_m2E929BF5DE0AAD59E0C0E2AA6875DFF57F976962,
+	OidLookup_ToOid_m084AE2948BA1D784EAC148B97B6D5EF94F0D58B0,
+	OidLookup_ShouldUseCache_mAF605BA00A22EA400B99D24286837F6904C84ED0,
+	OidLookup_NativeFriendlyNameToOid_m383F983E8333B3DAB97C9278B3B0EDF09E61758D,
+	OidLookup__cctor_mBF99F75584EA62215139C76A1BBF57BCEAD2ADBC,
+	U3CU3Ec__cctor_m63CA89B172417DB40229C01C86A24DAAD5EC9963,
 	U3CU3Ec__ctor_m381C6259C7B5579501CBFB1E4D1DF201D5928470,
 	U3CU3Ec_U3C_cctorU3Eb__10_0_m6CCA3946EAC08544EB57D764DBF2D23E12DE30A1,
 	U3CU3Ec_U3C_cctorU3Eb__10_1_m7F86444F2B083758A76759BD54D31A3538101A4E,
-	IPv4AddressHelper_ParseHostNumber_mA778BE5D8E7B36AFF00BC3A042D532C5E4718B74,
-	IPv4AddressHelper_IsValid_m1E626B5740F8C0F4F4AEA9D8D9E06933BD79C7AE,
-	IPv4AddressHelper_ParseCanonical_m7BE948BF36EC5AD70DFFD320BD9EE8A343DA795E,
-	IPv4AddressHelper_IsValidCanonical_mBE62564C4A9F8F584C9FBC0E6A5D5159071BE23E,
-	IPv4AddressHelper_ParseNonCanonical_m4ACD00B972D7DBEB80BC3D7A9C36BB2CEA81638E,
-	IPv4AddressHelper_ParseCanonicalName_m25D822E5AC4B56E40C2404C8DE1C03E70ABCF72C,
-	IPv4AddressHelper_Parse_m61983BF8F1D7D827BABB3BD87AE4A2CE2BA92906,
-	IPv6AddressHelper_FindCompressionRange_m52DF5ADCE15CB8AE6F141E829F1252EBB436A39F,
-	IPv6AddressHelper_ShouldHaveIpv4Embedded_m59F598D7493A037117972E6D4AF8F233B7D87ABC,
-	IPv6AddressHelper_Parse_mE09CDE68CBB5BE9195B68D52D79D81591C270CAF,
-	IPv6AddressHelper_ParseCanonicalName_m148CB0071D79C29D97FE7E537B0BFA2CB27B709C,
-	IPv6AddressHelper_IsLoopback_mE5795ECD1129E9EB2368E4A7D4EB1433CF51A3F4,
-	IPv6AddressHelper_InternalIsValid_m23A4A563DF5766AC8391628217ADE8670A740D3D,
-	IPv6AddressHelper_IsValid_mEA13C6DB64BF812706785DA99E9AFFBC95C1C3E7,
-	NotImplemented_ByDesignWithMessage_m91D3B27BDC19FF6AAEDD420C9A8E3A43FB3B9DE3,
-	IriHelper_CheckIriUnicodeRange_m47EF9FBD5FE075A464AE2A242FB43BEBC7C4F775,
-	IriHelper_CheckIriUnicodeRange_m76D54508F06B0BD021CF86889C71C44578B495FB,
-	IriHelper_CheckIsReserved_mFF947D4AEDC2D811E2B5379B9706901ED2B29868,
-	IriHelper_EscapeUnescapeIri_mE7C6E85447A41E32A050856BC24B40279EDFF6E5,
+	IPv4AddressHelper_ParseHostNumber_m3ECD734470D95F75F0A7475BB69A53D48A924179,
+	IPv4AddressHelper_IsValid_mB71D85892F391896358B6C19C6E4899ED31EFCF8,
+	IPv4AddressHelper_ParseCanonical_m38827B1F002AC415916FF17D5C7DA3279486A91C,
+	IPv4AddressHelper_IsValidCanonical_m157BF3179C5A511A8915C572111A7014D7E5DB84,
+	IPv4AddressHelper_ParseNonCanonical_m8A508ED61556F4182AAEBE3E7D43C738A57C984D,
+	IPv4AddressHelper_ParseCanonicalName_mF74A625E0C85FC8C5CAE3A47785606BF93777FF1,
+	IPv4AddressHelper_Parse_m0F43F114BC6D0C8D85D29D3CA2CE24CA19714026,
+	IPv6AddressHelper_FindCompressionRange_m5BA0C004FA7BE7CB3C520AB47C4D6B6FA6C13C56,
+	IPv6AddressHelper_ShouldHaveIpv4Embedded_m08BEFD0452A0145779E70931B00F2D6EA15A1E70,
+	IPv6AddressHelper_Parse_m6F68528ADBA8B6ECED3060135FC1DF6CCD2B0543,
+	IPv6AddressHelper_ParseCanonicalName_m5C5161CE7D6F7D7C7D81A808F51107C85A6CA21B,
+	IPv6AddressHelper_IsLoopback_mAE6B2C6CFAD787337C6ABB41F2D2942A4C191C84,
+	IPv6AddressHelper_InternalIsValid_mDF9ADFBBDDD76F8B77EC140686B6280F4BD53478,
+	IPv6AddressHelper_IsValid_mDEE6D566114425592CA0A067775A2E0C771CA5DA,
+	NotImplemented_ByDesignWithMessage_m9A8A83C6B994C16CA1CFA80F5AD748ABA3510535,
+	IriHelper_CheckIriUnicodeRange_m584D1B233AB9DB3642640CDBD787B0E51D2AC625,
+	IriHelper_CheckIriUnicodeRange_m0989646614B5D6CD18622388A069BEA8A755F013,
+	IriHelper_CheckIsReserved_m0F5942330B329B65D738A398854399FD43A5589C,
+	IriHelper_EscapeUnescapeIri_m311CD9679869740C6A303485944EF6DAE96FB169,
 	Uri_get_IsImplicitFile_m8D1A522158E4EB8AD8C077376D023ED1262998F6,
 	Uri_get_IsUncOrDosPath_m33F2D8808AB44816518C1C464152D4B7872374F0,
 	Uri_get_IsDosPath_m16357B61F5D111C45EF7D40276B96429E414F0D2,
@@ -1762,7 +1762,7 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	Uri_get_HostType_mA30DC51045EE5FE94B3CB84B0D361A9C28EE572E,
 	Uri_get_Syntax_mCBAC18B1DC71D269BF6C98417D923674DE258DC2,
 	Uri_get_IsNotAbsoluteUri_m374185EB37A209B6102F955427913168C5543028,
-	Uri_IriParsingStatic_m5FACD38C4EDB61BC6AC465759CDB56F24C34C3B8,
+	Uri_IriParsingStatic_mF071497F10CC1CC81177D6F4BCE9D2007D8FDA16,
 	Uri_get_AllowIdn_m612B747CE2F03FCA867D81F14710758B561209E7,
 	Uri_AllowIdnStatic_m0B61B2A586F2BF870D185A1BD65151F52EFBC457,
 	Uri_IsIntranet_m3AC6DBC7C35F309DFAD0951ABC7D95A8000548EE,
@@ -1771,8 +1771,8 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	Uri_get_SecuredPathIndex_m575B7B28B17F8F7EE3FA563ACF6390B0926732AD,
 	Uri_NotAny_mB88A38A602D4A784CADBD43FDF4CDA0235371E81,
 	Uri_InFact_mEEE8ADE0780C0712A3DEB8935BD6FC7B23F38A7B,
-	Uri_StaticNotAny_mC49F6501AFE849E383AC6777CEB63D2B409B264E,
-	Uri_StaticInFact_m85C3E521AD9916CC030AC01E311F79D90E981B05,
+	Uri_StaticNotAny_mDC2D7341AE3679E5750481E7B793F4E3636ACD6C,
+	Uri_StaticInFact_m8F3964455197F6C2CB588843D71DDAD3B2F2AB77,
 	Uri_EnsureUriInfo_m6FE387306AF82CDCFC56E2E9C2171C406D1FA982,
 	Uri_EnsureParseRemaining_mDF7D4313A56047EB22457E12330C138156D54783,
 	Uri_EnsureHostString_m7F5F3ED8488F83170A857CD51F0CFEB8322AA055,
@@ -1781,8 +1781,8 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	Uri__ctor_mD7EC916948CBFE71F80298DDA6E4209724958B09,
 	Uri_CreateUri_m9D81A5F3B332C44FDD875893EF619631708791F2,
 	Uri__ctor_m5AA91BCDE21E8AD62B9A48948CF3661B2F00E38F,
-	Uri_GetCombinedString_mA3D01108BC32A4594A578A4345BA0F012F554521,
-	Uri_GetException_m9BD1AF317D6DE516C8D3909A0ECD460BA35996F7,
+	Uri_GetCombinedString_m7D6A3DEB5DB42F79271CEC67DA2AEAD0E05BCEEF,
+	Uri_GetException_m80C3194C72CA8F86F95A6DFC8D5C29BE31D749A8,
 	Uri__ctor_mE1AB9FB0563073B8DFB381A69A54E9E0459D583F,
 	Uri_System_Runtime_Serialization_ISerializable_GetObjectData_m39D9B260E68B8715E9B693A125A2116CE14D760D,
 	Uri_GetObjectData_m0D16C2BC060F0B88503DCC0EEACB151D43FA16CA,
@@ -1793,9 +1793,9 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	Uri_get_IsLoopback_m0E865DCC324F483C0C60E7D8E6FEF7AD0F46059A,
 	Uri_get_PathAndQuery_m33B64A4AAF08510C0199CF5A85918B91D1008E5C,
 	Uri_get_IsUnc_mB190B452D6A7B09FC8BDD967A5C38F32E87E0FCA,
-	Uri_StaticIsFile_mDA17D91238AB2D1C549C55C524F67C714145D9CF,
-	Uri_get_InitializeLock_mBC92A79EFBC775C9192BB5992F88AB868576D9CF,
-	Uri_InitializeUriConfig_mADB8B77C49B053970C363E91FE4BDD8315401364,
+	Uri_StaticIsFile_m8BD582D32BB053DCB5BADA29C1DD807AACCCE7E1,
+	Uri_get_InitializeLock_m29D252F7183FE4C205E618018E8C42B56BC2B091,
+	Uri_InitializeUriConfig_mCD4E00EDCA27459C7B005DDFFAD9D54396BF7DCB,
 	Uri_get_Port_m7A1413AC9D9A2FC5DC8A7F89DF4A01ACA0241A02,
 	Uri_get_Fragment_m3CB7AD14DA9618ADE406039D4713F67D6951D835,
 	Uri_get_Scheme_m29106D5109538220B22FC49DE7B44040E51B0F6F,
@@ -1804,21 +1804,21 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	Uri_get_DnsSafeHost_mE5001E7AE7F1879A2059024EA06C9031F6320A2B,
 	Uri_get_IsAbsoluteUri_m2F9B759B85D295639D7959A616E1FBC203D756DF,
 	Uri_get_UserEscaped_m5A376B8E2DDB815CAA2E34AF8890FBA943DC2085,
-	Uri_IsGenDelim_mB6256291D6D90DAFB8B923D197BBD48A371F4265,
-	Uri_IsHexDigit_m65CBC0215C67105D79C7B49FAF5DD4676B86ED20,
-	Uri_FromHex_m16EF28AD07AF8D499C8157124A9E7C01D6FFFAA8,
+	Uri_IsGenDelim_mED487423251FBC7A3AA85A70023D531DED88B0D3,
+	Uri_IsHexDigit_m89270CD137F8D5AAC9953CB367BF194D0D0EEDBC,
+	Uri_FromHex_m30578BD6ADBA0FE875257A8296ED979DC7849020,
 	Uri_GetHashCode_m41959A208E51019C57C20014B2505993FB94B70C,
 	Uri_ToString_mDD98375BF8CEBEF6E3708BBCA6C4AB0B54165DA2,
-	Uri_op_Equality_mB299FA02A76FD12A781BCBAD53D65B73C1768682,
-	Uri_op_Inequality_mC32A3382EF16D80BF39005BDD2AB452203D76D6E,
+	Uri_op_Equality_mD7D7AAB7023C0873B37D8B8C7195BEF34002A194,
+	Uri_op_Inequality_m64BE981CDF88B751677B80D883B201BF3CFD83F7,
 	Uri_Equals_m1BD19791DD8A42FEFF5844C29623626C2849C452,
-	Uri_ParseScheme_m97A1B445A9528F29FC3007B02F2F8789AC201E82,
+	Uri_ParseScheme_m8E14D8CA20935DF4A14DC0C7DFE2330C734F1AD6,
 	Uri_ParseMinimal_m24D824EC77216C64F4B8B9175915CD6C3C6DB7B5,
 	Uri_PrivateParseMinimal_m4D4C3CB26AC0DE8B0E1F7DC4143F2004D9D25B17,
 	Uri_PrivateParseMinimalIri_mD8C7CA7EE14D994E915B48FB6A2CDE62253D4F1E,
 	Uri_CreateUriInfo_m3B4F804AB6CB010246F2A52F123D6E44DECDE998,
 	Uri_CreateHostString_mBBAF0ACD4E2EE673F8F7F4E416D87517D94245CF,
-	Uri_CreateHostStringHelper_mB7076A86E12D57D5722AA4AC0993B38332A21C8D,
+	Uri_CreateHostStringHelper_m196C6DAB9F26F08459220AC87C0A74785A61E9C3,
 	Uri_GetHostViaCustomSyntax_m6632DAD1F66901E82C60A47D626A9140A586C802,
 	Uri_GetParts_m432C93EAC8684C7410585D36DA00B04F6DC34357,
 	Uri_GetEscapedParts_m0C33275AFEA210E5CAD22649E8B61B49FB43971E,
@@ -1826,9 +1826,9 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	Uri_ReCreateParts_mB622FFDF74676902D184FD96C4E6B740B65140AF,
 	Uri_GetUriPartsFromUserString_m3D6EEB76609CCC54A0ABE65911CC24603A184B29,
 	Uri_ParseRemaining_m9134D26360C9EEDFAFAFEE1ECA1A5CEE66BE5A3A,
-	Uri_ParseSchemeCheckImplicitFile_m8244C40705A553AA88036339B231B1BB279580DC,
-	Uri_CheckKnownSchemes_mB4E8E77DD15C70FACC9DA5078083E670B0EC9FA1,
-	Uri_CheckSchemeSyntax_m7D9517CBE8B09F13A24AF4EEF0AE2D185C3E1C2D,
+	Uri_ParseSchemeCheckImplicitFile_m3577C77315714DF277763F7DE3BAAD8D94D2CA93,
+	Uri_CheckKnownSchemes_m598B70C53F57AB20E2406763BAA5636A3B57195A,
+	Uri_CheckSchemeSyntax_m37B81B236F58066982C17FF76058B3ECB0740647,
 	Uri_CheckAuthorityHelper_m7946931160B7EC50E7167A11E570A4AF8AEB5B2E,
 	Uri_CheckAuthorityHelperHandleDnsIri_mB737EC35D3A477668E6E289D09DFB43EAD4D4D62,
 	Uri_CheckAuthorityHelperHandleAnyHostIri_mE38845CEFA41AB52AB949CAE2A43D77FB397C08D,
@@ -1836,83 +1836,83 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	Uri_FindEndOfComponent_m198F7AC80BEA08E8DAA6B4577D8A872B41C519B1,
 	Uri_CheckCanonical_m54AFA85AA00A9909C2EC01F026873F12532AD7F7,
 	Uri_GetCanonicalPath_m66FA22F6E85D79E360A7EE86C0E03F1A009F6F99,
-	Uri_UnescapeOnly_m16364432252C3908D378B0BC2BC37F9AD5CED9A6,
-	Uri_Compress_m0A24E0C5DD7555EA7723C37FF428B0B1CA6B976D,
-	Uri_CalculateCaseInsensitiveHashCode_mC84DC2B6AE39DB00143C7DE8BD0CDA05872635A5,
-	Uri_CombineUri_m0A99C4A1F80FF7E6C8747545BB4610ABC4B4F9D1,
-	Uri_IsLWS_m16D38DDA4D0A7CD3899DEEE31CEF160EAF2C3A44,
-	Uri_IsAsciiLetter_mFDC33D2D538AFF6A5819B73CB555709865ADE841,
-	Uri_IsAsciiLetterOrDigit_m44901130AFF9E14663C5F9E6437BE44484A82BB8,
-	Uri_IsBidiControlCharacter_m17A486D6ED9263488C6F4B3F3EDF1BF95352765E,
-	Uri_StripBidiControlCharacter_m259E2D3AA84B455ADD63DFBC4EC802241E4317FA,
+	Uri_UnescapeOnly_mBED4CBBC30D19BA6BA801BCF9B33CD681771102B,
+	Uri_Compress_m22981FC433505DEE0F230312B93B062096607CCD,
+	Uri_CalculateCaseInsensitiveHashCode_m635E27F73B39946637685A19CD09741D14A359EE,
+	Uri_CombineUri_m92FB418ECA7D55262958241C8A274715C58C6424,
+	Uri_IsLWS_mE00B6D5A24D07A5EA80278F981F1516343C0846D,
+	Uri_IsAsciiLetter_m54D66D3D390C364A49529D304526152E2339A140,
+	Uri_IsAsciiLetterOrDigit_m9033B2053D679076DEADF04748CE5E983B25A9E0,
+	Uri_IsBidiControlCharacter_m37BFE363354928FB34D016950008D1FB29DFBB0F,
+	Uri_StripBidiControlCharacter_mB8C52362A2A248EB33737D1A4792B3FB57975912,
 	Uri_CreateThis_m522F36D576D9A8803410439127DB32837331BA3A,
 	Uri_InitializeUri_m044EA7C6188B132874B4522D5CA41EEFDB9A1718,
 	Uri_CheckForConfigLoad_mC7297EBC00884B1793FDB16F79BF0FCFD53E9FA7,
 	Uri_CheckForUnicode_mC763EF0DDC61EE359A6256B95209736EC0353AA1,
 	Uri_CheckForEscapedUnreserved_mCEF702F733C72BE825E9FEBBEA751540A6A78D11,
-	Uri_TryCreate_mBDD7F98C3BEBD9C3936DDF7960533CBB56478FDF,
+	Uri_TryCreate_m183077985BD7B1BE8DBDBCC4604F775C44723EC9,
 	Uri_GetComponents_m30E3EAD4E9A39939456E764FEF94AFD4D6B7532A,
-	Uri_UnescapeDataString_mD0A4732F7ED9CA5DB9E46D802971B5406094CC77,
+	Uri_UnescapeDataString_m095AF55EE0F237A44FC8A53D2EE6FA66A567634D,
 	Uri_EscapeUnescapeIri_m14C0CD1A4C14E2458685E5A10049204B1A15C16C,
 	Uri__ctor_m6EA3AF49C103A3D56EBBB24BCAEE8DE7E8676AF4,
-	Uri_CreateHelper_mC4FC141C7E569879417FFC24BCB47E22CE09163B,
-	Uri_ResolveHelper_m8FD2A09E63507DB5178AE3C182C323E8EA4B8752,
+	Uri_CreateHelper_mB015D0E87C2F9401D7C9B929C194AA5E432DA224,
+	Uri_ResolveHelper_mCF316B7B35401CFE251F64CCE66AF24F687E7E04,
 	Uri_GetRelativeSerializationString_mDEB0AD1094EC2842C2F0830C1E43FF2FFDEB6F5B,
 	Uri_GetComponentsHelper_m83D8E4A027E180AFB34BA5290A8FF381EBCBCB75,
 	Uri_CreateThisFromUri_m986BB8F1CF8D75EEFA12D9D0963BA927FA394BE5,
-	Uri__cctor_mED6507CF356205205DE18F0D9D2A660D4C094F23,
+	Uri__cctor_mF9A6F75B43C4652D9B89180A998B3D86B61F5594,
 	UriInfo__ctor_m88A6E3E7164B78B18C70D83CA5AD734517D308B3,
 	MoreInfo__ctor_m4AC1286A4D4DAD0AB0EE99A2C952D54BFA5F44A7,
 	UriFormatException__ctor_m4D218C92C093CD0CDDDC012911A1E10CB327BB70,
 	UriFormatException__ctor_m718A5DEB020FAAD1F654CD05E63C3988AA7712D3,
 	UriFormatException__ctor_m15F8C1205D9A648F72DD5D94DB92FD1FA1397FE0,
 	UriFormatException_System_Runtime_Serialization_ISerializable_GetObjectData_mF5C6CA057915A5F7F4E9D8FBE5D6EB2595A4FD80,
-	UriHelper_EscapeString_m616525587FFF13665945B9173F3C2EC41C9EDDA8,
-	UriHelper_EnsureDestinationSize_m4CAB570AAAC5145D6DAF9AC4362812693C324887,
-	UriHelper_UnescapeString_m978B253231CE4F7BA6F6DC7778D679C19F77CB54,
-	UriHelper_UnescapeString_mD137E2B3F648504A96E7F244796CDCEBE6BB9BE1,
-	UriHelper_MatchUTF8Sequence_m0E963F060C446C4BBBBD60E4D54CAE9A36D5A3F7,
-	UriHelper_EscapeAsciiChar_m3B740B3721EF4D93E9B9DFB2F881138AF4DE4452,
-	UriHelper_EscapedAscii_mC7BE08D5B7803E83C57B8269F298B6DFA9EC5120,
-	UriHelper_IsNotSafeForUnescape_mD11825AB8FE6E410A5C0D6D7850C607DBF697D7E,
-	UriHelper_IsReservedUnreservedOrHash_mEAD756DAD5DB17F71960CC501BBB7CF9AB5EF74F,
-	UriHelper_IsUnreserved_m3171C456B602B4F7052B4E865F2DF04C71553797,
-	UriHelper_Is3986Unreserved_m06ED29AEFC563547A29E1DAA6A55760ADD9FCC30,
-	UriHelper__cctor_mEBD15B6A7F8E49B4188075DC2EF1A2956E7E3185,
+	UriHelper_EscapeString_mA9075A39AFEE45E310AA6E2977B46D74F2FE38D3,
+	UriHelper_EnsureDestinationSize_m0A91CAD854571386F0490A975BA25CEEA93614C0,
+	UriHelper_UnescapeString_m37D24870CC3AF00984435A567B7AB28E7225D7B3,
+	UriHelper_UnescapeString_mAB62B336BC58C7697B4CA7355405F3C1FDBBB7E0,
+	UriHelper_MatchUTF8Sequence_mD118AEEE32C6BCBA4ED2E41E2B008EB83412D54B,
+	UriHelper_EscapeAsciiChar_mFA21BF7A2306446A8E552111DA06160A41CD07D1,
+	UriHelper_EscapedAscii_m93D49C2D42E1E5E292199FACF5B4D6CC770D3DA1,
+	UriHelper_IsNotSafeForUnescape_m79864E996F8F46D4A1C00B965E2EB4EE7AFE63ED,
+	UriHelper_IsReservedUnreservedOrHash_m7B622D953837E4F0FEF44B114718B75B846512A1,
+	UriHelper_IsUnreserved_mED7CF4BB5F43C337685396D5F99D7EFABAD5E5C9,
+	UriHelper_Is3986Unreserved_mCDBDBB83B68181182A6AD07747084B3204C7BDCA,
+	UriHelper__cctor_mB25AC23398D53149F4C33FB739BC6010324D0D81,
 	UriParser_get_SchemeName_m3BD969B4E8EEA3769D070FA42CE340CDC766F47D,
 	UriParser_get_DefaultPort_m38684C86B40F59960533D8F812B311ACBBEB7AA5,
 	UriParser_OnNewUri_m752BC0174A2E3F7AA99F1088E1D539E5B8F7B5B2,
 	UriParser_InitializeAndValidate_m5B38A10B57DC49B1CE13F361ABD78D7269EDA886,
 	UriParser_Resolve_m7CC03524A2848FBD24BAB57CC62A19C751937182,
 	UriParser_GetComponents_m230F3341901B4B90DC4650093272BC15A1161FAF,
-	UriParser_get_ShouldUseLegacyV2Quirks_m2BDF10B430FDA291AA6962104CD838776F31D20E,
-	UriParser__cctor_m9E43C905DCA4EE1855EE2C0236A1FCB6075841C5,
+	UriParser_get_ShouldUseLegacyV2Quirks_m8EC9AB4BB2AD4FAAC4CD7C921C7A61AA4FC914D2,
+	UriParser__cctor_m0F0B1F5441AF97DDBE797061C6CABA2CD4CDBE69,
 	UriParser_get_Flags_mBE183D7CBEEEBEC670CCF1DF21D56B354796D6C3,
 	UriParser_NotAny_mCE6CF6736414BE547215F6E44C3E1283DEA05F56,
 	UriParser_InFact_m3C07C3050DE1E69F6B0BC816EC34AF610373E532,
 	UriParser_IsAllSet_mEE811F1E7BBCC34D7A32BC30A18AD5D34E690813,
 	UriParser_IsFullMatch_mFC1C9EEDD31F040997931B26EF54CE7988495550,
 	UriParser__ctor_m4FA54685DFA00FC6AEA73E94CD59C5FF2872E55A,
-	UriParser_FindOrFetchAsUnknownV1Syntax_m29D45A9BF93C7C4FC7C819658043B6E753E7F01A,
+	UriParser_FindOrFetchAsUnknownV1Syntax_m780CA32D27A4F1D8B7798FC4D3CC28A6FC4ACCE0,
 	UriParser_get_IsSimple_m8ED850D585BA3BA0FDC239496065E6D2D973C7E5,
 	UriParser_InternalOnNewUri_m93B84E04949FAE8FE3B6919DA9F933B682D4B2F8,
 	UriParser_InternalValidate_m69157B3E80381F3FC104788160F2213B3FE8F39D,
 	UriParser_InternalResolve_mD1963080EBCF493DA78656AA5AEA458BF5138F5B,
 	UriParser_InternalGetComponents_m52F450C5283A1820D5AFD07505E5FE82D4F476B0,
 	BuiltInUriParser__ctor_m6E9775075E7360DD524B7E3E456A3FFA58F89E79,
-	DomainNameHelper_ParseCanonicalName_m12865C6C2427B6ED804747CB1117D0B80E332F4D,
-	DomainNameHelper_IsValid_m9E1909F6CA353F469ACF623BCBE1E3B545164752,
-	DomainNameHelper_IsValidByIri_mE5772C5B7528885976ACB5AB11881B79A410CE24,
-	DomainNameHelper_IdnEquivalent_m14CEBD0BD7B1BF46F8806E4EB5BB1901F7F29E2A,
-	DomainNameHelper_IdnEquivalent_mD8EBF17C7A0A50FFAA03EAA9CA737899C9A0881E,
-	DomainNameHelper_IsIdnAce_m063EE4431000F1D566D2D62B3BBB947A00CDA8EF,
-	DomainNameHelper_IsIdnAce_mC429C00971921E7C357FA9A57D14AAB9A0CF3566,
-	DomainNameHelper_UnicodeEquivalent_mD229718EC61E3ECBFA7AF5C894D22ADEEDE1B4ED,
-	DomainNameHelper_UnicodeEquivalent_m62B17C161795C1C6AC76D49A3FB50B16693CC9DB,
-	DomainNameHelper_IsASCIILetterOrDigit_mFAF590F20333B1D787428537FCD1CFF3993FE1F6,
-	DomainNameHelper_IsValidDomainLabelCharacter_m957B15160BE378C49B6E25CC4F0D99BBA1FE06C6,
-	UncNameHelper_ParseCanonicalName_mB07DBCB21F6996E1A2BC9D4D4DD427AE0E5D36E2,
-	UncNameHelper_IsValid_m677F95E73B0278AC062F862BEA6BE646048127D4,
+	DomainNameHelper_ParseCanonicalName_mCDD58AA526B15176E4468ABA169068B279F3817F,
+	DomainNameHelper_IsValid_mD977C4425926C44931F21A478C861D1041AF5B67,
+	DomainNameHelper_IsValidByIri_m94490F7D0A09B0C35C89E2CD478B935EECEC5F96,
+	DomainNameHelper_IdnEquivalent_m797D2222F0F6786FF059095B73ACF47A3374E8DC,
+	DomainNameHelper_IdnEquivalent_mEFD473FCBC1D7F515577673838569560777F5D2B,
+	DomainNameHelper_IsIdnAce_m95A0515B49C9679EE331F830D05C2C12853919BC,
+	DomainNameHelper_IsIdnAce_mC02E0A64A83B0C99CF26AD5D49AA541E33143947,
+	DomainNameHelper_UnicodeEquivalent_m390DFCD943A3716158026F5E1AF6558E56461F12,
+	DomainNameHelper_UnicodeEquivalent_m9C7E79F0172D7AC0DEF7FC5236F1B9766C735517,
+	DomainNameHelper_IsASCIILetterOrDigit_m5C30C4CDEF0ECE647B2C5E714A595B08A8009B3A,
+	DomainNameHelper_IsValidDomainLabelCharacter_m9BBE29F6DEACCA6864574A1B6C8BCBE6732BF5CF,
+	UncNameHelper_ParseCanonicalName_m938F53305ABCF1840011969B589F0D53A1028C79,
+	UncNameHelper_IsValid_mCF30A9D7038A73997B8B198D7EB606B171E00526,
 	IOAsyncCallback__ctor_m58A7C732444005CB72C5B352096C2DB252A6F113,
 	IOAsyncCallback_Invoke_m70CC21061AD0965DBC87CB382AD395A35E1788B2,
 	UriTypeConverter__ctor_m02CB01E1305031BE5A45FB54601E520748B6EDB6,
@@ -1933,7 +1933,7 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	NULL,
 	Group__ctor_mFDE74CF068520CBE797B563B419B8817E60CB58C,
 	Group_get_Success_m4E0238EE4B1E7F927E2AF13E2E5901BCA92BE62F,
-	Group__cctor_mC3032FEBEBFB00282A4485A8D95E47649CE2B881,
+	Group__cctor_mCEC94034CDEE90B4E5B77AE639965DA426C49161,
 	Group__ctor_mEB6936CDFD191A4C92766CE3F3301161D7505C5E,
 	GroupCollection__ctor_m70201F22BBECA6AE7E6132AB9629B24EA458A7D2,
 	GroupCollection_get_IsReadOnly_mF1DE2BBB4E573C6EDE85B787281F90951AAB8C4A,
@@ -1973,7 +1973,7 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	Enumerator_System_Collections_IEnumerator_Reset_m5B7067CCF9E8139F34641618492A2DAACA5419B0,
 	Enumerator_System_IDisposable_Dispose_m1C77D8E3DFF1A034E9329E11854F11012F20AA69,
 	Match__ctor_m2A6BD37E98680890114AC62CDD23E1821E80A53A,
-	Match_get_Empty_m9565EFA0F267BAF2886447CB8169A654C5471918,
+	Match_get_Empty_m50E10899C5A892532ED484CDA11DE27CC6A7B546,
 	Match_Reset_m53A78F16760B7CD5CC8A104F6CD95CA255D888AA,
 	Match_get_Groups_mFFA743CDBD78BAD530F2C66FE216C9A5282DA09B,
 	Match_NextMatch_m4B7BA2B21E09FA0937806F41DDE3EE0F052C4052,
@@ -1986,7 +1986,7 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	Match_MatchIndex_m97F06DECDDA8BD3E4D8DF6B9224B8E24C0764F35,
 	Match_MatchLength_m5C93EA60B018A79D9D05C8E69D25835848471B01,
 	Match_Tidy_mF0A46109EAF0E91CBCA732985265E1DC20CA3F51,
-	Match__cctor_mAB49EF64F5132A336358E3F1922FF173EA10CE3C,
+	Match__cctor_mB241D90D9F6B1311AC606248B3CCA821F8CC9855,
 	Match__ctor_mBABEF8F11A3BC6DB713519819D135CC87AC1B4CD,
 	MatchSparse__ctor_m7CEA8A7F538C706527778E8E75003DD74AC2FD41,
 	MatchSparse_get_Groups_m02FA0AF82798ECC113234C2ED840DD630A3CCB45,
@@ -1996,24 +1996,24 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	Regex_GetCachedCode_m2039E73548B61FE55B6C8D85C00076DBA50332E6,
 	Regex_GetCachedCodeEntryInternal_m9FE175C47BF909F7F223013004C0EA0DAD660C06,
 	Regex_FillCacheDictionary_mC47F317967E556D1F03A344B78B215356D604755,
-	Regex_TryGetCacheValue_m8785E636E24F8F0C3E5A7CFE516978A434C99DEB,
-	Regex_TryGetCacheValueSmall_mEA1FE67593D84A849F8DDFD9BB4144FF5BE18A64,
-	Regex_LookupCachedAndPromote_m41760A936BAED48327B5E239894DA154B7832DD3,
-	Regex_IsMatch_m967E98137B140DFD845C5E1699D1BC8EF08CC76C,
-	Regex_IsMatch_m3709329406E39A80F61F4DD2CC9AB672835A3E81,
+	Regex_TryGetCacheValue_mA2B41F91C84CB02DA59E18DB80B0A49CBC600A8B,
+	Regex_TryGetCacheValueSmall_mA62E6520886883BC787412F588CF79B7A02B9A28,
+	Regex_LookupCachedAndPromote_m2FE5584043609F1616158AF8621FC3ED48BCD900,
+	Regex_IsMatch_m66D13054C7992322810B0CFC6B46AF11A927C9AA,
+	Regex_IsMatch_mCC0157A5E20FC634B8812B494F48877D55602C4D,
 	Regex_IsMatch_m7E96E666FBE7259D7638A3A6A21BE824D2406F49,
 	Regex_IsMatch_mC358D80573E765ECC19F9F5882664E3B1FA0966E,
-	Regex_Match_m49DD7357B4C9A9BCBCF686DAB3B5598B1BC688D7,
-	Regex_Match_m793BC1BE5D514C9CE9B0D2A6B9A0536BAE7C6147,
+	Regex_Match_mE3EC82B72BF82AA4B8749251C12C383047531972,
+	Regex_Match_m92E101BFAC22024C837C2F159E5ED516CF6E568F,
 	Regex_Match_m58565ECF23ACCD2CA77D6F10A6A182B03CF0FF84,
 	Regex_Match_mDF110993CAA26CD41AE9F5DB7F0C307B2680CED3,
-	Regex_Replace_mA40B00220816EB1850F503AAB876812C726D8D66,
-	Regex_Replace_m09B7AAE77B831CF7E8B1F469D62EF719069370EB,
+	Regex_Replace_m811FCA60D20059998EC547FC390F053C524D045D,
+	Regex_Replace_m6DCC34F103016E84A9DD25BADAC9133EF5613A09,
 	Regex_Replace_m8E802C10B5A591BEA61FC00EA8E4AF398D815A90,
 	Regex_Replace_mD86A837354847D86EC562069D67567F9F707C9C4,
-	Regex__cctor_mF29CE2FFB1941E7609C5B67C0236AC98003F675F,
-	Regex_ValidateMatchTimeout_mA50CD0CB49AB9B42B548900335CA6EABC30BD18F,
-	Regex_InitDefaultMatchTimeout_mC441DFFACCC15C2710E85B95820DAB49AE9C47A7,
+	Regex__cctor_m689E73750FECC607BB4E1BF503660C16BE0F40E8,
+	Regex_ValidateMatchTimeout_m530D1B5EBC69BEAA11CCB7053A96C4AA9869C591,
+	Regex_InitDefaultMatchTimeout_m8EEBEF239D034DCF29E50E681B318B517202854E,
 	Regex__ctor_m082970AA73B8236360F0CA651FA24A8D1EBF89CD,
 	Regex__ctor_mE3996C71B04A4A6845745D01C93B1D27423D0621,
 	Regex_System_Runtime_Serialization_ISerializable_GetObjectData_mD788EE38607BF5D618FDA920048707DF4CA4B99C,
@@ -2028,7 +2028,7 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	CachedCodeEntryKey__ctor_mE505E40C97820B3FD140F6212F0B4ECF8745585F,
 	CachedCodeEntryKey_Equals_m59F40708B97179EA5C9019EA6A958D7AB8BC8CA2,
 	CachedCodeEntryKey_Equals_m55F9ED97CB9AF357034A75C2FDB8498FC55D3AF0,
-	CachedCodeEntryKey_op_Equality_m5C48CEBA5D7F893F4FE88D06917EB738615DDCC6,
+	CachedCodeEntryKey_op_Equality_mE9E3CA5933F8AE24BCE5AD52D6C4EE014C085E40,
 	CachedCodeEntryKey_GetHashCode_m253B53C100F840B987A487020F02184019D776DE,
 	CachedCodeEntry__ctor_m14145ADFF67BA7C888673D806C24E28C96B83B2A,
 	RegexBoyerMoore__ctor_mFDCB1AB420E718548B67DE42C233402955BBB189,
@@ -2051,41 +2051,41 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	RegexCharClass_AddWord_mAED995BB6613893E0950C5895515204F1E95D152,
 	RegexCharClass_AddSpace_mD1BF3AD215D69EC6CF0E49A359F7FC709FD6FBB6,
 	RegexCharClass_AddDigit_m04C1001F7E8DA85CB2D262ED403BA9BD215A7A8E,
-	RegexCharClass_SingletonChar_m11683F48B3AA3E0B5CD5849C40ADDCECC91BFF10,
-	RegexCharClass_IsMergeable_mD017475B43D0621F15ECAF5006410D4D0CCC46AD,
-	RegexCharClass_IsEmpty_mDD55987C8F4B887716E46869730F5E1E31593A44,
-	RegexCharClass_IsSingleton_mF23CB7003B555ADB4C5035A1B3A218A8ED847D12,
-	RegexCharClass_IsSingletonInverse_m62E7E31998BEBC824A4EED3CEE5A2D3FB3BF5831,
-	RegexCharClass_IsSubtraction_m069CC20713C5757A8AAD9BA556F07C8E042F3BE8,
-	RegexCharClass_IsNegated_m66E1348EBCAAD253AEEA5EDC3F9A93E84A433947,
-	RegexCharClass_IsECMAWordChar_m3A2920E6309D58F982B8B7AE20D9166601DDCA0B,
-	RegexCharClass_IsWordChar_m9FEFF0FC22277053D7A4404FD919C7F41733DB94,
-	RegexCharClass_CharInClass_mAF6EE8C936383EB630F17C8C268F10BB8C10BC83,
-	RegexCharClass_CharInClassRecursive_m7B2DC6EF52CFA494C26DC8AA976F3A06DDAF22FC,
-	RegexCharClass_CharInClassInternal_m166B4DDEB0553E88B58A2F3E859CA2D29995CF54,
-	RegexCharClass_CharInCategory_m1B20968374CE9C35FE81D172C3325E37433897E1,
-	RegexCharClass_CharInCategoryGroup_mDDAA3F1975AC1A7527137AE6951121F381703D48,
-	RegexCharClass_NegateCategory_m1C615694A5F8EECBBE4C09BA293454D856F52F50,
-	RegexCharClass_Parse_m4766E7E53BF572FD9815DEEBD9831380C33C796A,
-	RegexCharClass_ParseRecursive_m6ABF2F2B8B8C5A559866EBF3FBA305247DE4CCF6,
+	RegexCharClass_SingletonChar_m4B0E4CE38D80141C013BE74B01C58FB81B0DE630,
+	RegexCharClass_IsMergeable_m986CE5853CF227EC275D0F16E91472A3FA903531,
+	RegexCharClass_IsEmpty_m10A0C981C0200FFA5211CF9EEC8EE1FFECE27545,
+	RegexCharClass_IsSingleton_mA3970BE305000CAE9576642E3C6751249767A2B4,
+	RegexCharClass_IsSingletonInverse_m04C0F39C52377F64FA6B7D93AF2B89D203E9A108,
+	RegexCharClass_IsSubtraction_mE9E413F4B753B830F3091897DB20C4E6E88EA5F9,
+	RegexCharClass_IsNegated_m7F52D93AA1B63D6C1AACB04DE2CA8ECFB901BA47,
+	RegexCharClass_IsECMAWordChar_m95AFA872BB22C901C60DFCC9C8735BA78EE1EC84,
+	RegexCharClass_IsWordChar_m2912E5148F0F89512DDF7D629188ADA82961080C,
+	RegexCharClass_CharInClass_m635FAC50DE8EF6690ECA98FADD367716A5A54BEC,
+	RegexCharClass_CharInClassRecursive_mEC6F84D9CFEAD5A3F0091FC05296AA53FF188232,
+	RegexCharClass_CharInClassInternal_m013394FB15A790E1BF02D518C3F7485359A4E3E3,
+	RegexCharClass_CharInCategory_m18B64CFDDA01F24D468ED85E35E72D7B71203957,
+	RegexCharClass_CharInCategoryGroup_mE20D51D1FD31B839D900136C42B8A7F014032C82,
+	RegexCharClass_NegateCategory_m6BE8AAA97753BF3F6A9577E4EB5D8A0590ADF638,
+	RegexCharClass_Parse_mE586DA457874C3808D48C2C514AED5B147221D27,
+	RegexCharClass_ParseRecursive_m04198C9230D295E6B3261040CA9DD37DE03EE79F,
 	RegexCharClass_RangeCount_m36A38A50CD2E3E61B5F55D95562BD92923F981F1,
 	RegexCharClass_ToStringClass_m6B0B92A0A525001CD78A6C2A766295268E0FED57,
 	RegexCharClass_GetRangeAt_m67B8198B09F344044D8F742C5C9869034C4A3128,
 	RegexCharClass_Canonicalize_m77EEBAD046B3EAD5110DD472434BDE16851C7A9E,
-	RegexCharClass_SetFromProperty_m75FD04D8F9EA5FD996E4C8B4A2DF45BEEE6BABC5,
-	RegexCharClass__cctor_m70495E564EC18CDEF2A2687F8012C96E571A0631,
+	RegexCharClass_SetFromProperty_mD4411181E13EEB6F8D96972AF4564698999E9DF1,
+	RegexCharClass__cctor_m15D71DF95CE4C3DEF5BDF06B03E6521A07E58296,
 	LowerCaseMapping__ctor_m06D0A21D5D72E39535F82076EF046F98C62D7D5A,
 	SingleRangeComparer__ctor_m9B430EFE70974D964D73913D81E7C6C9236BBCCE,
 	SingleRangeComparer_Compare_m917FDE86E5F31A755D07077EA095F8B7E27E130B,
-	SingleRangeComparer__cctor_m512F77BDA73732EB8D39BB056D00CF9B200D5D1C,
+	SingleRangeComparer__cctor_m649382AF0493818C7B5D453010FE22A3523F1A90,
 	SingleRange__ctor_m14FD490AFB119E412298554D31FADDCB9465511E,
 	RegexCode__ctor_mA50EE1CFA1A050BFC45E135DAB7E2704049512E0,
-	RegexCode_OpcodeBacktracks_m77D0680FD94F152F85C6CF8724A5EBFFE07A1397,
+	RegexCode_OpcodeBacktracks_m44FC8B177CFCB191B72C109984A707744FD7B2BC,
 	RegexFCD__ctor_mE1C0A21180069D25EEF6F3702938ABB087F35C0C,
-	RegexFCD_FirstChars_mD151F8EF8DD64C9E1960D6C4E79E65A6766322CA,
-	RegexFCD_Prefix_m6D786604F799DF1EEF509BEA577E2DC50C75FB6E,
-	RegexFCD_Anchors_mF19C2B50200C6D7E38566E5C4854DB04EADFF5CE,
-	RegexFCD_AnchorFromType_mF944273F420E8D43F4F9EC93950E3797B4C10A47,
+	RegexFCD_FirstChars_m3BAEF0481AF78F4FC40C35CEDA9100017A6D794B,
+	RegexFCD_Prefix_mE4F5ABEA5443B6940F83E59C60D0A9A201CC4BD6,
+	RegexFCD_Anchors_m9211098DA08795B8459B918CA3D9A1A4733365D7,
+	RegexFCD_AnchorFromType_m825872EAB7A0322BBD677DF34281A3ACEE8808D4,
 	RegexFCD_PushInt_m0B38AFDAF0D14FF1E41AC90838B40C4C866D8875,
 	RegexFCD_IntIsEmpty_m05E3C6FF40B69E98D90CF1C12DF3F32AEC800B5E,
 	RegexFCD_PopInt_m1DF4F5E6B4BA9E15AFF2B3C44D1A233EA46EFCD0,
@@ -2171,8 +2171,8 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	RegexNode_Child_m6F5C25EE5349D1BE0D65C89475FB0C42A15BFF27,
 	RegexNode_ChildCount_m833AF69D2711D8EEC5E50FD666A61F428A12396D,
 	RegexNode_Type_mDE9685FD99646016D0D6038C4509C6392B10F019,
-	RegexParser_Parse_m5AE448041BC21B17EF68A2039991EC85F91AA9BB,
-	RegexParser_ParseReplacement_m721243B3049725DF4FCCBE8F1861CC47BAF380CD,
+	RegexParser_Parse_mB845F2DC38DFD8C50E5B8D0D0F87330597409793,
+	RegexParser_ParseReplacement_m552460B4F6F5F7B1B0D2F4E01A3847BE8662AF13,
 	RegexParser__ctor_m99DC2B2C4B64E7298BBF49AD862BFD12007E38E4,
 	RegexParser_SetPattern_m852D668CE45FBCAA3A6ACC415B94BDD0A7190265,
 	RegexParser_Reset_m426A8C90F4D8065486802AE7AC9FB07FC599EB01,
@@ -2188,14 +2188,14 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	RegexParser_ScanOctal_m95EA0AE4B61D5418914DDD3815C6277471B4EDFD,
 	RegexParser_ScanDecimal_m1BFFE19E0698D0EC97D81C655F3D04B608897161,
 	RegexParser_ScanHex_mDD96A112E30DABDB5BC0C558373DA5607F8ACF95,
-	RegexParser_HexDigit_mD112E7ACEDAD4A29DEA1A771854CA34CEB259053,
+	RegexParser_HexDigit_m40FED0646820843A4C35AF9349E27B0E0A84A5CE,
 	RegexParser_ScanControl_m26274BE5776CF5AC03E8EAC7B5972C0A8AF2A95B,
 	RegexParser_IsOnlyTopOption_mAA13B95864B8B314B8B6689B47FA4BFE3B433280,
 	RegexParser_ScanOptions_m56F01464F53558D3AF3BF1CD874A2656930AF31C,
 	RegexParser_ScanCharEscape_mA872DDDD24E165F5B5C5F62DCFAE3B02CCF97C98,
 	RegexParser_ParseProperty_m3B765A1B30A38A723CAFE63AF9D6F3D08C7C6F38,
 	RegexParser_TypeFromCode_m11B176B0B9A6EF391370E021B111101AE56F4CC6,
-	RegexParser_OptionFromCode_mD6CDD96F9917C0518A437DB77BC53130AE702627,
+	RegexParser_OptionFromCode_m7E2E8164FA38C45692BC68054E574F00B65F383A,
 	RegexParser_CountCaptures_m2ECDC9ED534F245A12224038BB86DE5D66DB56A3,
 	RegexParser_NoteCaptureSlot_m21BD1F90FF2C62FFA445303D574D271757D62222,
 	RegexParser_NoteCaptureName_m5CDAF94FD43B665DE067B6DC02BD72A315D48FFD,
@@ -2210,11 +2210,11 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	RegexParser_UseOptionS_m070AD4458172FB14FF21E4502DCA6ECEE8938994,
 	RegexParser_UseOptionX_m0BFB48EDC8A2F38A29A8F6CEC85080D9E04010FC,
 	RegexParser_UseOptionE_mE0B7314EAB95CAC9B9762CD3AB9FBC71BFD410D9,
-	RegexParser_IsSpecial_m4AC43B42D2727513B568B534C6FF09093ACB2754,
-	RegexParser_IsStopperX_mF8FCEDFDBE9E5ED5469A04463782B951552BBB2F,
-	RegexParser_IsQuantifier_m7FFA04954A7E4C39D443D790483F2126A5119E25,
+	RegexParser_IsSpecial_mF59FE804CDD354250CB77C4113F39C627349D051,
+	RegexParser_IsStopperX_m173A82937CA9600F7CB12B9A101F39CCFDA630C9,
+	RegexParser_IsQuantifier_mBD18FA810A0404B632392725175846E6B30A8782,
 	RegexParser_IsTrueQuantifier_m22CCE851B85E0760270178DF1184746040E68AEF,
-	RegexParser_IsSpace_m4E37D473B564502A80E5C968E630AA2D4A56231A,
+	RegexParser_IsSpace_m322B45C2A04F07D8C83B547370D266F39A8DE14E,
 	RegexParser_AddConcatenate_mDDD0350FE254D75D6707668332D0F3088A5572AF,
 	RegexParser_PushGroup_m2D76CB852430A3B3F7454DDC3322B2A5E4CE398F,
 	RegexParser_PopGroup_mEC525DC83E5BF2F8DA03129AE3DF06834EB76552,
@@ -2245,14 +2245,14 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	RegexParser_RightChar_m23D21ECC3D6999A466C0A91BDF589BFE4801CF91,
 	RegexParser_RightChar_m6BEE1FBF048A2DFC53235447BB2F6AC8C56A4147,
 	RegexParser_CharsRight_m6F83CD819B532331F5778143B6A95B31C8734A79,
-	RegexParser__cctor_m4F6AA7D64102443052B58896EDF95DCC21C2C0C7,
+	RegexParser__cctor_mC883BE9D9C8D47723D5CAD7CE25B5F347929AF54,
 	RegexPrefix__ctor_m05CD44F32CB0B5F8B2C080EAB94886F9743E86A4,
 	RegexPrefix_get_CaseInsensitive_m4DAE2D9E91916BFFAB928F7DCAA20A5ABD4560E6,
-	RegexPrefix_get_Empty_m3D63F7F64529D4CA3C0929F94E035EEED7D9E0F9,
+	RegexPrefix_get_Empty_m54EA279F2BE7F39358AB5DF1A5362A8CD92B4326,
 	RegexPrefix_get_Prefix_m844D02262C0720B0DC488AD1541713AD37BC518E,
-	RegexPrefix__cctor_mF7EA052790930134AC69C755D0066C70CA86363E,
+	RegexPrefix__cctor_m55930FB75AB023BADBEAB107BE38A1A559DDB7F2,
 	RegexReplacement__ctor_m9CE743F0908A59F98461440AE5B842BE1BC72EA5,
-	RegexReplacement_GetOrCreate_m3DABA1D0A9D785394FC1B3E7373EBFD0A2FEB3B5,
+	RegexReplacement_GetOrCreate_m2C3E8DB4E10AFC24D45D754E67E5C989F40455F1,
 	RegexReplacement_get_Pattern_m146EA30FB574587E88DD056AC22F79375C3F55E6,
 	RegexReplacement_ReplacementImpl_m60E4B82702C44912E56FED402AC793E7B7CCC7E8,
 	RegexReplacement_ReplacementImplRTL_m343AE6575EE1B8810D049CA7F8203237920C84E0,
@@ -2285,7 +2285,7 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	NULL,
 	RegexTree__ctor_m89DA1335AAB55B0707774E978E6078CE42DB0DA6,
 	RegexWriter__ctor_m37DF964F59213D287C9D812A3D0945744BF341EE,
-	RegexWriter_Write_mCDBE8B9E7703439F2F27C082808594B1056BEB99,
+	RegexWriter_Write_m69A5583635E511D67176A977E96C17AC982C4F01,
 	RegexWriter_Dispose_mD34F8BFC41D28F22FBC65E3F1A211DFE85625E04,
 	RegexWriter_RegexCodeFromRegexTree_m3352CAF05A1B1753D32D768B83BB778B3E2D4568,
 	RegexWriter_PatchJump_mC1090F37107CAF7F4B52B020E070BDE9284118A6,
@@ -2295,16 +2295,16 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	RegexWriter_StringCode_m5D4A227BBAA0674B820D70BEA1A2F7D0B29635FE,
 	RegexWriter_MapCapnum_m5EA7BA45A1C4D51DC20C281246D3997A3001A0B6,
 	RegexWriter_EmitFragment_m0B35F7C3BDC22B5DE82735F2652C7948AE8494A5,
-	Debug_Assert_mC3D55129DFDEB68EB7DEA1CDBA821AD268E632E4,
-	TraceInternal_get_Listeners_m65CA1B43F66634A2649DF4C38711D1BC4CFDDC09,
-	TraceInternal_get_AutoFlush_mA6CD506864A88784E661B0E88E675E82BA5D44A1,
-	TraceInternal_get_UseGlobalLock_m3124CC4FA5B6887ECDBFB85101BD37C3C4F1CAC1,
-	TraceInternal_get_IndentLevel_mC76F5C9C346BECC375A399FBCB4B336AED411044,
-	TraceInternal_get_IndentSize_m32D735E3A34CD6A6667D3488CABA0D9C9883C082,
-	TraceInternal_Assert_mB93D8C3BC62F4034E759C263A868DD934DE7BDE8,
-	TraceInternal_Fail_mA3A535414FE0F9E8CCEC08CD48108315A553109B,
-	TraceInternal_InitializeSettings_m084DDD851AE58B70584519967C4D3067EFF411FF,
-	TraceInternal__cctor_m343A97F7E6E97674CC61894F50D9D706D077AF02,
+	Debug_Assert_m9192EFA9CFAB2EDE68E87341348441EEE645348F,
+	TraceInternal_get_Listeners_m038AFEB92A8F63732DB1B7E507BE03404A67925B,
+	TraceInternal_get_AutoFlush_m88A979A8AD1923CF3CBF734AF135A0305B723CA4,
+	TraceInternal_get_UseGlobalLock_mCC5E985E9956F6DCE7FF5F3B6FDB4DF7C71C08A8,
+	TraceInternal_get_IndentLevel_m885C3F0F4E0FDAA31C606217D3FFF2F0D73919CC,
+	TraceInternal_get_IndentSize_m6C7528DD5FE57CAB3CD8208A324EDFFC6D7E606F,
+	TraceInternal_Assert_m1AD75522ACF13B045A875151BDFF37D6B1795BFE,
+	TraceInternal_Fail_m972DFB85123BDCB9A75456E2830943085734A529,
+	TraceInternal_InitializeSettings_m329AA26349B95A7022A45D40F36566EC199C528E,
+	TraceInternal__cctor_mA8B9B4560B0FB9012DCD71FAEB02E98EDA6E0DF4,
 	TraceListener__ctor_m429A376FB5133ADCCB49B49207424A85F2297B92,
 	TraceListener_get_IsThreadSafe_m49B40383732B0D1CC00074B720CD01109EBE7CDE,
 	TraceListener_Dispose_mE461183D13600E87F700B6E6767DB53C297B1B7A,
@@ -2337,13 +2337,13 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	TraceListenerCollection_System_Collections_IList_Remove_mAD2C8873D42366D938885D4819D8BEBD2FAD6CEA,
 	TraceListenerCollection_System_Collections_ICollection_get_SyncRoot_m1BDA227922987065A1F9645F772B5D9EE3F42245,
 	TraceListenerCollection_System_Collections_ICollection_CopyTo_mA96CE292953A3495982FE54BC34AC80E70F44E60,
-	DefaultTraceListener__cctor_mDE152F0FE083A33746E4EC8A0F0437C0C71EFFEF,
-	DefaultTraceListener_GetPrefix_mE0B3AF4F25EF9D99AD974C74372D91445B620C06,
+	DefaultTraceListener__cctor_mF67B21E651C8E74DD7188D5228BFC07D64708616,
+	DefaultTraceListener_GetPrefix_mE091E8DB14543D178AF6CEC1FB057C141C8868DF,
 	DefaultTraceListener__ctor_mC2E10D35F6E55FB86DAB67F2AD770ECB871B5708,
 	DefaultTraceListener_get_LogFileName_m2DEF6CAE064A36F79543673CDB59656333C24C88,
 	DefaultTraceListener_Fail_m15E4B32BC65587F6A23EAD126353394D2138F3CB,
 	DefaultTraceListener_Fail_m3667C92A37B00128C44CE2507F28BA07050B8443,
-	DefaultTraceListener_WriteWindowsDebugString_m0782DE0851BF43893312F6BE83C696635CCDAC55,
+	DefaultTraceListener_WriteWindowsDebugString_mB52F1467BC5BF75D061378F04E7FC80390552F91,
 	DefaultTraceListener_WriteDebugString_mD3BEBCC10CF1357ABD2D37032A7AE54050B3BE0E,
 	DefaultTraceListener_WriteMonoTrace_m94915ED3790147BBBB25D5B6CE3F8197B4A46EB5,
 	DefaultTraceListener_WritePrefix_m5FB6FE5C1A069AB53AA66C4A74355B4B4C5F250C,
@@ -2351,13 +2351,13 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	DefaultTraceListener_WriteLogFile_m1B03BFECAD957FB2CEF7B9D4A4A8A0D7B1E25E8D,
 	DefaultTraceListener_Write_m2C77CF6C1459080523FE7213B8854A9B7FFDCEF9,
 	DefaultTraceListener_WriteLine_m457B4152407B96D84AF638EF07A79550652FB049,
-	Stopwatch_GetTimestamp_mD6D582A3E30369F05C829A5650BE2AE511EC807F,
+	Stopwatch_GetTimestamp_mA3BDF219C573A34751D6A792E86C825B74D2CEB7,
 	Stopwatch__ctor_mAFE6B2F45CF1C3469EF6D5307972BC098B473D0A,
 	Stopwatch_get_Elapsed_mF16CCA2F9B7E2EAEFCAF8D81F44370DBAC1B2178,
 	Stopwatch_get_ElapsedMilliseconds_m8D8E60ADEB47D008C06D8E57D28D41EAE07AECBF,
 	Stopwatch_get_ElapsedTicks_m3F4040FBF8C7CCDC69E0E04824019DEBB25AA410,
 	Stopwatch_Start_m35906A38C7D336CF9DD35854C7E170D762A55915,
-	Stopwatch__cctor_mB40A9951DF8D540C2432D56CBC9643E62C40039E,
+	Stopwatch__cctor_mF9BBC572803E232BF2D323301E90A6AFDB496FB9,
 	Oid__ctor_m4AF81B9D51BED48AE505251E0874EC654BA07B72,
 	Oid__ctor_m533C0126C7C8D382D3E702287A9AD0CED2D0377D,
 	Oid__ctor_m3973A5FE5482D45FABC8642E59B655274B0B5D59,
@@ -2392,7 +2392,7 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	PublicKey_get_EncodedKeyValue_m153EF781728D471C55002A40BBDA435F1B3A1213,
 	PublicKey_get_EncodedParameters_mE338A4A69A15907E38A644D624A07DDD55C521E0,
 	PublicKey_get_Oid_mB5796F569C136759CB740F747C6A3B6F8976401A,
-	PublicKey__cctor_mBA35606057B7AD6687CD52BFED47441593DC5004,
+	PublicKey__cctor_m1B2E44B5BBF321952E0FD1F19C048E43A6506407,
 	X509BasicConstraintsExtension__ctor_m672BE9B41107A8C30454BF4CAC120D70512BA89A,
 	X509BasicConstraintsExtension__ctor_m76C88E8D4C7CCEC7B2C3D56CC58A56352F7729E4,
 	X509BasicConstraintsExtension__ctor_m02334D8CAA280B339CA41E2019CF1F02C8B2E7DE,
@@ -2429,9 +2429,9 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	X509SubjectKeyIdentifierExtension__ctor_m1858C1B050FAF65946B790737652E874781B4B56,
 	X509SubjectKeyIdentifierExtension_get_SubjectKeyIdentifier_mFF2A155072C67F430E7F4B178733A80388943CBA,
 	X509SubjectKeyIdentifierExtension_CopyFrom_m959BB16C6973B1B565D02ED9993AF9069019D77A,
-	X509SubjectKeyIdentifierExtension_FromHexChar_m0547F9E771F6BE506DEA650D696F7794F91B59A3,
-	X509SubjectKeyIdentifierExtension_FromHexChars_m7143D074BE9451C082422BA3FF118C17D873E5A1,
-	X509SubjectKeyIdentifierExtension_FromHex_m7A7DD49DB74BC4020A28007CDD5765765EC9DDB3,
+	X509SubjectKeyIdentifierExtension_FromHexChar_m6A90ECC8622DD1D2DEA0FB18356E97B15E8371A9,
+	X509SubjectKeyIdentifierExtension_FromHexChars_mFBC6B2009778633420F9F4FF38D7E641FBF63EFA,
+	X509SubjectKeyIdentifierExtension_FromHex_m0C965FECB6AC9330589DBDC182E7EA34EFE4195D,
 	X509SubjectKeyIdentifierExtension_Decode_m9E9B87F478F55E202411CBCE3AA314CBF73C7F30,
 	X509SubjectKeyIdentifierExtension_Encode_m8746D45CE4AC46543D3332BC6001FA1BC7A72CB3,
 	X509SubjectKeyIdentifierExtension_ToString_m9AE51334149DE6200E554F9C30E2DC5570D36707,
@@ -2449,19 +2449,19 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	IPAddress_Equals_mC4514B3B7F9B95B79A1121706C115AECE61636C7,
 	IPAddress_Equals_m5EA56A0CBC4F66012C11628D8CC75E03E5A8C462,
 	IPAddress_GetHashCode_m243850627E81961E58E3A7A0A39A1F365C47A4BA,
-	IPAddress_ThrowAddressNullException_mF55B22F51151F17731038C12D118EBEC63C9CC4A,
-	IPAddress__cctor_mB1459880D331879EB11466988E78D88EBA0F6735,
+	IPAddress_ThrowAddressNullException_m2D5037C15BE289427E4A761A643C4F26C2F3F034,
+	IPAddress__cctor_m83F9B947B6C0D0F8DEA3E0C62FCCC2573495D6CA,
 	ReadOnlyIPAddress__ctor_m0E47AC9070535FCCC4796C165AC8DAB6FA2B5AC5,
-	IPAddressParser_IPv4AddressToString_mED56559517ADF1172DEE5FFBA56B7A3C66060303,
-	IPAddressParser_IPv4AddressToString_mC3C2E797E621FC478FCDBADFE9DE20909516D706,
-	IPAddressParser_IPv4AddressToStringHelper_m732D3622C399BF418CC039E34BB8EBA0F5B7C581,
-	IPAddressParser_IPv6AddressToString_mA5E8E4CCAA57C745E4CF564CB6CA263661A1BB13,
-	IPAddressParser_IPv6AddressToStringHelper_m5E32EC869045EA58C14FDB598476013D76568A27,
-	IPAddressParser_FormatIPv4AddressNumber_m6C347346B73C32788716D03C3FB4DEA954EE37C2,
-	IPAddressParser_AppendSections_mB41667569210B39E7A732CE4EDDB684FF7B97C94,
-	IPAddressParser_AppendHex_m078E3C19C653E140FC8E6943F292CACBB29A13AD,
-	IPAddressParser_ExtractIPv4Address_mF574B7C9D0B4DC4C22DBC0F2A6701FC816A2128D,
-	IPAddressParser_Reverse_mD663C9994E59E47531F7D69E576B14D0572676D5,
+	IPAddressParser_IPv4AddressToString_m3D56686708BDA87E76737D94441BF1AE486922D2,
+	IPAddressParser_IPv4AddressToString_m4113E0673C882A7CB1313639E2836FB24B9BC6A0,
+	IPAddressParser_IPv4AddressToStringHelper_m4226589AD61857FE45C082110271FFF2D3DF8C91,
+	IPAddressParser_IPv6AddressToString_m7C25DEA2FB9E3F863777653CB9C314BBEDF911A6,
+	IPAddressParser_IPv6AddressToStringHelper_m405EE1B288D87500878DD96ADAEE31B106CCF930,
+	IPAddressParser_FormatIPv4AddressNumber_m716041E973744C431B090589D624C53696FD801F,
+	IPAddressParser_AppendSections_m141C016465F9E7E1538E03340FEC16F89B500284,
+	IPAddressParser_AppendHex_m877259AD615A68FDC55EDC188758E5AA95C124B2,
+	IPAddressParser_ExtractIPv4Address_mB79D4899358C69C1FC7C44C81A26BBD976FC2CB6,
+	IPAddressParser_Reverse_mDEBC20FC5D00F7C505E1ADE428CB6967B72B425E,
 	EditorBrowsableAttribute__ctor_mE6105AD9666A4DF03DB2590C687EAC6B12D908CE,
 	EditorBrowsableAttribute_Equals_m2DFA6ADDE69D95657A8257840C01FCAF74A6B02F,
 	EditorBrowsableAttribute_GetHashCode_m1AE50FA45B338D71189AA3C249DB56406DEC798C,
@@ -2481,7 +2481,7 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	TypeConverterAttribute_get_ConverterTypeName_mBBE5335F11FC13345D2828866172BB5DDF9F3E45,
 	TypeConverterAttribute_Equals_mA3BF2C8CFA0AE8B5D0F52E066B1141AA53B4E015,
 	TypeConverterAttribute_GetHashCode_m23ACA2A297447E17150BF490188919676FBD8A01,
-	TypeConverterAttribute__cctor_mB9A8C9E5E62F8A8D81E250D0B53D359860D7C04A,
+	TypeConverterAttribute__cctor_m7A206154E18C66B9CEA6934D8AFB1AE9DA4EA666,
 	CollectionConverter__ctor_m20ED0C661750EBE427D356F24AED92A407988147,
 	EnumConverter__ctor_m3E3C7D81C8092A5591BAA556288B2A3E22DCA99B,
 	TypeConverter__ctor_mA5B1882A94D0491297B903563E8B03D75B2F67A2,
@@ -2631,7 +2631,7 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	NULL,
 	NULL,
 	NULL,
-	U3CPrivateImplementationDetailsU3E_ComputeStringHash_mC09A19935970846B38570D03608F0E5F25E2020C,
+	U3CPrivateImplementationDetailsU3E_ComputeStringHash_m171C269D828658C44041FA68B6DE8CA290ED517F,
 	BypassElementCollection__ctor_m344EC8CD2EACA36E1213C5914037BB133E87FE54,
 	ConnectionManagementElementCollection__ctor_m4698342A715032A762FA04B2745BFCA46263BCB3,
 	ConnectionManagementSection__ctor_m2FA1D29F887BD6498FBEF692BBC0AA727E38E802,
@@ -2661,7 +2661,7 @@ static Il2CppMethodPointer s_methodPointers[934] =
 	WebRequestModuleElementCollection__ctor_m62C156D78336B2E37EA6F10D477FDEAE4161F99E,
 	DiagnosticsConfigurationHandler__ctor_mDFB0000E6218840F66D21BB6C9BF3F647CCBC5A3,
 	DiagnosticsConfigurationHandler_Create_mF21B1CC68B87DE078690B2B493FCDC5F728CBAAB,
-	ThrowStub_ThrowNotSupportedException_m0E6C3891D0501FEF5BF1A72B7AA4D6310CE082DD,
+	ThrowStub_ThrowNotSupportedException_m14168B43936EF78B7B8AC08BD815254DAA1D9FA2,
 };
 extern void CachedCodeEntryKey__ctor_mE505E40C97820B3FD140F6212F0B4ECF8745585F_AdjustorThunk (void);
 extern void CachedCodeEntryKey_Equals_m59F40708B97179EA5C9019EA6A958D7AB8BC8CA2_AdjustorThunk (void);
@@ -2686,763 +2686,763 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[9] =
 };
 static const int32_t s_InvokerIndices[934] = 
 {
-	7560,
-	9580,
-	7560,
-	10877,
-	10877,
-	5847,
-	4168,
-	4168,
-	7442,
-	6179,
-	6778,
-	6345,
-	6963,
-	7016,
-	6801,
-	9525,
-	9573,
-	7118,
-	7013,
-	9573,
-	6787,
-	7363,
-	9791,
-	8244,
-	6820,
-	8245,
-	6988,
-	5638,
-	5638,
-	5638,
-	5638,
-	5833,
-	5724,
-	5638,
-	9583,
-	5638,
-	1687,
-	3375,
-	5638,
-	5847,
-	5831,
-	3482,
-	3482,
-	8252,
-	8252,
-	5724,
-	5847,
-	4594,
-	4687,
-	2654,
-	2661,
-	1427,
-	2661,
-	6882,
-	9788,
-	2670,
-	2670,
-	2670,
-	5724,
-	5724,
-	5724,
-	5638,
-	5638,
-	5724,
-	5638,
-	9583,
-	10839,
-	10877,
-	5698,
-	5724,
-	5724,
-	5638,
-	5724,
-	5724,
-	5638,
-	5638,
-	9593,
-	9593,
-	9705,
-	5698,
-	5724,
-	8198,
-	8198,
-	3375,
+	7591,
+	9614,
+	7591,
+	10910,
+	10910,
+	5865,
+	4187,
+	4187,
 	7471,
-	5724,
-	5698,
-	2674,
-	4791,
-	5847,
-	6526,
-	5847,
-	2071,
-	4180,
-	2071,
-	1175,
-	4180,
-	5847,
-	6539,
-	7366,
-	7451,
-	158,
-	16,
-	57,
-	888,
-	828,
-	562,
-	1183,
-	6271,
-	7062,
-	9699,
-	7568,
-	9593,
-	9593,
-	9593,
-	9593,
-	7531,
-	1399,
-	1357,
-	3375,
-	3375,
-	3375,
-	7381,
-	2071,
-	9791,
-	796,
-	1486,
-	7002,
-	6498,
-	4180,
-	2071,
-	4687,
-	10877,
-	5847,
-	5847,
-	5847,
-	4687,
-	2670,
-	2670,
-	6037,
-	6134,
-	6014,
-	6013,
-	6044,
-	7910,
-	8579,
-	9593,
-	9593,
-	9593,
-	9593,
-	10877,
-	5724,
-	5698,
-	5724,
-	2644,
-	1188,
-	1187,
-	10815,
-	10877,
-	5698,
-	3346,
-	3346,
-	3346,
-	1646,
-	4661,
-	9791,
-	5638,
-	5724,
-	2644,
-	1188,
-	1187,
-	1410,
-	7016,
-	6347,
-	6347,
-	6485,
-	6485,
-	8196,
-	8138,
-	7000,
-	6485,
-	8243,
-	8243,
-	7016,
-	6791,
-	2657,
-	4687,
-	5847,
-	3375,
-	1410,
-	5698,
-	4661,
-	5698,
-	4661,
-	5724,
-	4687,
-	5724,
-	5724,
-	5566,
-	5566,
-	5698,
-	0,
-	0,
-	947,
-	5638,
-	10877,
-	5847,
-	2661,
-	5638,
-	5698,
-	4180,
-	5724,
-	5724,
-	4180,
-	4180,
-	5724,
-	2654,
-	2654,
-	3969,
-	2453,
-	4661,
-	4180,
-	2453,
-	4687,
-	5847,
-	3375,
-	3375,
-	3969,
-	5847,
-	3375,
-	3969,
-	2453,
-	5638,
-	4687,
-	4661,
-	4180,
-	2453,
-	5847,
-	4687,
-	5638,
-	5724,
-	5724,
-	5847,
-	5847,
-	276,
-	10839,
-	494,
-	5724,
-	5724,
-	2939,
-	5566,
-	1361,
-	4661,
-	4661,
-	3346,
-	3946,
-	3946,
-	4661,
-	10877,
-	5847,
-	182,
-	5724,
-	5724,
-	4687,
-	5847,
-	2114,
-	2114,
-	5847,
-	8265,
-	8265,
-	9810,
-	8198,
-	6809,
-	3375,
-	1678,
-	8462,
-	7033,
-	4184,
-	2084,
-	7569,
-	6507,
-	2086,
-	801,
-	10877,
-	10060,
-	10866,
-	4687,
-	2654,
-	2670,
-	932,
-	5638,
-	5724,
-	4180,
-	5847,
-	228,
-	5638,
-	5638,
-	1371,
-	3375,
-	3611,
-	8266,
-	5698,
-	136,
-	891,
-	1678,
-	551,
-	681,
-	5847,
-	848,
-	5638,
-	4594,
-	4789,
-	4687,
-	4687,
-	4687,
-	2723,
-	891,
-	4687,
-	4687,
-	1477,
-	2199,
-	2199,
-	1308,
-	9914,
-	9583,
-	9583,
-	9583,
-	9583,
-	9583,
-	9583,
-	9593,
-	9593,
-	8246,
-	7399,
-	6369,
-	6369,
-	6819,
-	9791,
-	9791,
-	8457,
-	5698,
-	5724,
-	5061,
-	5847,
-	7555,
-	10877,
-	992,
-	5847,
-	2004,
-	10877,
-	2723,
-	65,
-	9580,
-	4529,
-	9480,
+	6204,
+	6804,
+	6370,
+	6990,
+	7043,
+	6827,
+	9558,
+	9607,
+	7145,
+	7040,
+	9607,
+	6813,
+	7391,
 	9824,
-	9699,
-	9695,
-	4661,
-	5638,
-	5698,
-	4687,
-	5638,
-	5724,
-	5724,
-	5847,
-	4184,
-	5847,
-	1370,
-	4594,
-	991,
-	1397,
-	1674,
-	5638,
-	4594,
-	4184,
-	2661,
-	5847,
-	4661,
-	4661,
-	4661,
-	4661,
-	5698,
-	5698,
-	5698,
-	5847,
-	4661,
-	2430,
+	8277,
+	6846,
+	8278,
+	7015,
+	5656,
+	5656,
+	5656,
+	5656,
+	5851,
+	5742,
+	5656,
+	9617,
+	5656,
+	1691,
+	3386,
+	5656,
+	5865,
+	5849,
+	3493,
+	3493,
+	8285,
+	8285,
+	5742,
+	5865,
+	4613,
+	4706,
+	2664,
+	2671,
+	1431,
+	2671,
+	6909,
+	9821,
+	2680,
+	2680,
+	2680,
+	5742,
+	5742,
+	5742,
+	5656,
+	5656,
+	5742,
+	5656,
+	9617,
+	10872,
+	10910,
+	5716,
+	5742,
+	5742,
+	5656,
+	5742,
+	5742,
+	5656,
+	5656,
+	9627,
+	9627,
+	9739,
+	5716,
+	5742,
+	8231,
+	8231,
+	3386,
+	7500,
+	5742,
+	5716,
+	2684,
+	4810,
+	5865,
+	6552,
+	5865,
+	2077,
+	4199,
+	2077,
+	1179,
+	4199,
+	5865,
+	6565,
+	7394,
+	7480,
+	158,
+	17,
+	59,
+	892,
+	832,
+	565,
+	1187,
+	6296,
+	7089,
+	9733,
+	7599,
+	9627,
+	9627,
+	9627,
+	9627,
+	7562,
+	1403,
 	1361,
-	4661,
-	2430,
-	5847,
-	4661,
-	5847,
-	4661,
-	5698,
-	3946,
-	4661,
-	2430,
-	5847,
-	4661,
-	5698,
-	3946,
-	5698,
-	3946,
-	5698,
-	5698,
-	5698,
-	5698,
-	5831,
-	3375,
-	1646,
-	5847,
-	4338,
-	5638,
-	5847,
-	1437,
-	5847,
-	2670,
-	2670,
-	5724,
-	5724,
-	5820,
-	2430,
-	1364,
-	1362,
-	1361,
-	867,
-	5638,
-	5724,
-	1361,
-	5724,
-	4180,
-	5724,
-	5724,
-	5724,
-	5724,
-	5724,
-	1150,
-	4687,
-	4180,
-	5698,
-	5698,
-	8457,
-	6502,
-	4687,
-	4687,
-	4661,
-	5724,
-	5724,
-	2057,
-	5724,
-	5847,
-	4176,
-	4176,
-	5724,
-	5724,
-	5831,
-	5698,
-	4338,
-	9705,
-	5831,
-	3346,
-	5847,
-	5831,
-	5724,
-	4037,
-	9705,
-	5847,
-	2430,
+	3386,
+	3386,
+	3386,
+	7409,
+	2077,
+	9824,
+	800,
+	1490,
+	7029,
+	6524,
+	4199,
+	2077,
+	4706,
+	10910,
+	5865,
+	5865,
+	5865,
+	4706,
+	2680,
+	2680,
+	6060,
+	6157,
+	6037,
+	6036,
+	6068,
+	7940,
+	8612,
+	9627,
+	9627,
+	9627,
+	9627,
+	10910,
+	5742,
+	5716,
+	5742,
 	2654,
-	1413,
-	5847,
-	3969,
-	3346,
-	3375,
-	5638,
-	5638,
-	5638,
-	5638,
-	5638,
-	5638,
-	9593,
-	9593,
-	9593,
-	5638,
-	9593,
-	1358,
-	5847,
-	5847,
-	5638,
-	4687,
-	5847,
-	5847,
-	1312,
-	5724,
-	4789,
-	4789,
-	4687,
-	4687,
-	4661,
-	5847,
-	5847,
-	5847,
-	5638,
-	5847,
-	4184,
-	5698,
-	4661,
-	5831,
-	5847,
-	4661,
-	5847,
-	4338,
-	5831,
-	4338,
-	5698,
-	10877,
-	2646,
-	5638,
-	10850,
-	5724,
-	10877,
-	1433,
-	6235,
-	5724,
-	2661,
-	2661,
-	801,
-	5847,
-	101,
-	5847,
-	5847,
-	5847,
+	1192,
+	1191,
+	10848,
+	10910,
+	5716,
+	3357,
+	3357,
+	3357,
+	1650,
+	4680,
+	9824,
+	5656,
+	5742,
+	2654,
+	1192,
+	1191,
+	1414,
+	7043,
+	6372,
+	6372,
+	6511,
+	6511,
+	8229,
+	8168,
+	7027,
+	6511,
+	8276,
+	8276,
+	7043,
+	6817,
+	2667,
+	4706,
+	5865,
+	3386,
+	1414,
+	5716,
+	4680,
+	5716,
+	4680,
+	5742,
+	4706,
+	5742,
+	5742,
+	5584,
+	5584,
+	5716,
 	0,
 	0,
-	0,
-	5847,
-	4176,
-	5847,
-	1049,
-	1049,
-	5847,
-	5847,
-	5847,
-	4661,
-	5698,
-	5698,
-	1361,
-	867,
-	5847,
-	3346,
-	3946,
-	3946,
-	0,
+	951,
+	5656,
+	10910,
+	5865,
+	2671,
+	5656,
+	5716,
+	4199,
+	5742,
+	5742,
+	4199,
+	4199,
+	5742,
+	2664,
+	2664,
+	3984,
+	2459,
+	4680,
+	4199,
+	2459,
+	4706,
+	5865,
+	3386,
+	3386,
+	3984,
+	5865,
+	3386,
+	3984,
+	2459,
+	5656,
+	4706,
+	4680,
+	4199,
+	2459,
+	5865,
+	4706,
+	5656,
+	5742,
+	5742,
+	5865,
+	5865,
+	278,
+	10872,
+	497,
+	5742,
+	5742,
+	2948,
+	5584,
+	1365,
+	4680,
+	4680,
+	3357,
+	3961,
+	3961,
+	4680,
+	10910,
+	5865,
 	184,
-	2181,
-	9791,
-	5847,
-	4184,
-	2430,
-	4661,
-	2430,
-	1361,
-	3969,
-	3946,
-	1370,
-	10046,
-	10839,
-	10815,
-	10815,
-	10832,
-	10832,
-	10046,
-	10053,
-	10877,
-	10877,
-	4687,
-	5638,
-	5847,
-	4594,
-	5847,
-	4661,
-	4661,
-	5638,
-	4594,
-	4687,
-	2661,
-	0,
-	5847,
-	0,
-	5847,
-	5698,
-	3969,
-	5847,
-	5724,
-	4687,
-	4661,
-	4180,
-	2453,
-	5638,
-	5638,
-	3969,
-	3375,
-	3969,
-	2453,
-	4687,
-	5724,
-	2654,
-	10877,
-	8462,
-	5847,
-	5724,
-	4687,
-	2661,
-	10045,
-	4687,
-	4687,
-	5847,
-	4687,
-	2661,
-	4687,
-	4687,
-	10833,
-	5847,
-	5820,
-	5699,
-	5699,
-	5847,
-	10877,
-	4687,
-	2661,
-	4687,
-	5724,
-	4687,
-	5847,
-	3969,
-	4180,
-	5698,
-	5724,
-	5724,
-	2654,
-	5724,
-	4687,
-	5724,
-	5724,
-	5638,
-	5847,
-	5847,
-	4687,
-	5724,
-	4687,
-	4687,
-	4176,
-	4176,
-	4176,
-	4176,
-	4176,
-	4176,
-	4176,
-	4176,
-	5724,
-	5724,
-	5724,
-	10877,
-	5847,
-	2646,
-	842,
-	5638,
-	5638,
-	5698,
-	4687,
-	3969,
-	5724,
-	4176,
-	2646,
-	4687,
-	3969,
-	4176,
-	5847,
-	5638,
-	4594,
-	4687,
-	4184,
-	5847,
-	2646,
-	2392,
-	5698,
-	4687,
-	3946,
-	3969,
-	5724,
-	4176,
-	5847,
-	2646,
-	2646,
-	2646,
-	2646,
-	1407,
-	5724,
-	4687,
-	9593,
-	8247,
-	9791,
-	3969,
-	5724,
-	4176,
-	5638,
-	5638,
-	5832,
-	4790,
-	5832,
-	4790,
-	4662,
-	2655,
-	2170,
-	5698,
-	5724,
-	1674,
-	3375,
-	5698,
-	10839,
-	10877,
-	4662,
-	9803,
-	8813,
-	8379,
-	8468,
-	8468,
-	7837,
-	7175,
-	8811,
-	9930,
-	9917,
-	4661,
-	3375,
-	5698,
-	5847,
-	5847,
-	5847,
-	5847,
-	5847,
-	5847,
-	5847,
-	5847,
-	5847,
-	5847,
-	5847,
-	5847,
-	4687,
-	5724,
-	3375,
-	5698,
-	10877,
-	5847,
-	4687,
-	5847,
+	5742,
+	5742,
+	4706,
+	5865,
+	2120,
+	2120,
+	5865,
+	8298,
+	8298,
+	9843,
+	8231,
+	6835,
+	3386,
+	1682,
+	8495,
+	7060,
+	4203,
+	2090,
+	7600,
+	6533,
+	2092,
+	805,
+	10910,
+	10093,
+	10899,
+	4706,
+	2664,
+	2680,
+	936,
+	5656,
+	5742,
+	4199,
+	5865,
+	230,
+	5656,
+	5656,
+	1375,
+	3386,
+	3626,
+	8299,
+	5716,
+	136,
+	895,
+	1682,
+	554,
+	685,
+	5865,
+	852,
+	5656,
+	4613,
+	4808,
+	4706,
+	4706,
+	4706,
+	2733,
+	895,
+	4706,
+	4706,
+	1481,
+	2205,
+	2205,
+	1312,
+	9947,
+	9617,
+	9617,
+	9617,
+	9617,
+	9617,
+	9617,
+	9627,
+	9627,
+	8279,
+	7428,
+	6394,
+	6394,
+	6845,
+	9824,
+	9824,
+	8490,
+	5716,
+	5742,
+	5088,
+	5865,
+	7586,
+	10910,
+	996,
+	5865,
+	2010,
+	10910,
+	2733,
+	67,
+	9614,
+	4548,
+	9513,
+	9857,
+	9733,
+	9729,
+	4680,
+	5656,
+	5716,
+	4706,
+	5656,
+	5742,
+	5742,
+	5865,
+	4203,
+	5865,
+	1374,
+	4613,
+	995,
+	1401,
+	1678,
+	5656,
+	4613,
+	4203,
+	2671,
+	5865,
+	4680,
+	4680,
+	4680,
+	4680,
+	5716,
+	5716,
+	5716,
+	5865,
+	4680,
+	2436,
+	1365,
+	4680,
+	2436,
+	5865,
+	4680,
+	5865,
+	4680,
+	5716,
+	3961,
+	4680,
+	2436,
+	5865,
+	4680,
+	5716,
+	3961,
+	5716,
+	3961,
+	5716,
+	5716,
+	5716,
+	5716,
+	5849,
+	3386,
+	1650,
+	5865,
+	4357,
+	5656,
+	5865,
+	1441,
+	5865,
+	2680,
+	2680,
+	5742,
+	5742,
+	5838,
+	2436,
+	1368,
+	1366,
+	1365,
+	871,
+	5656,
+	5742,
+	1365,
+	5742,
+	4199,
+	5742,
+	5742,
+	5742,
+	5742,
+	5742,
+	1154,
+	4706,
+	4199,
+	5716,
+	5716,
+	8490,
+	6528,
+	4706,
+	4706,
+	4680,
+	5742,
+	5742,
+	2063,
+	5742,
+	5865,
+	4195,
+	4195,
+	5742,
+	5742,
+	5849,
+	5716,
+	4357,
+	9739,
+	5849,
+	3357,
+	5865,
+	5849,
+	5742,
+	4052,
+	9739,
+	5865,
+	2436,
+	2664,
+	1417,
+	5865,
+	3984,
+	3357,
+	3386,
+	5656,
+	5656,
+	5656,
+	5656,
+	5656,
+	5656,
+	9627,
+	9627,
+	9627,
+	5656,
+	9627,
+	1362,
+	5865,
+	5865,
+	5656,
+	4706,
+	5865,
+	5865,
+	1316,
+	5742,
+	4808,
+	4808,
+	4706,
+	4706,
+	4680,
+	5865,
+	5865,
+	5865,
+	5656,
+	5865,
+	4203,
+	5716,
+	4680,
+	5849,
+	5865,
+	4680,
+	5865,
+	4357,
+	5849,
+	4357,
+	5716,
+	10910,
+	2656,
+	5656,
+	10883,
+	5742,
+	10910,
+	1437,
+	6260,
+	5742,
+	2671,
+	2671,
+	805,
+	5865,
+	103,
+	5865,
+	5865,
+	5865,
+	0,
+	0,
+	0,
+	5865,
+	4195,
+	5865,
+	1053,
+	1053,
+	5865,
+	5865,
+	5865,
+	4680,
+	5716,
+	5716,
+	1365,
+	871,
+	5865,
+	3357,
+	3961,
+	3961,
+	0,
+	186,
+	2187,
+	9824,
+	5865,
+	4203,
+	2436,
+	4680,
+	2436,
+	1365,
+	3984,
+	3961,
+	1374,
+	10079,
+	10872,
+	10848,
+	10848,
+	10865,
+	10865,
+	10079,
+	10086,
+	10910,
+	10910,
+	4706,
+	5656,
+	5865,
+	4613,
+	5865,
+	4680,
+	4680,
+	5656,
+	4613,
+	4706,
+	2671,
+	0,
+	5865,
+	0,
+	5865,
+	5716,
+	3984,
+	5865,
+	5742,
+	4706,
+	4680,
+	4199,
+	2459,
+	5656,
+	5656,
+	3984,
+	3386,
+	3984,
+	2459,
+	4706,
+	5742,
+	2664,
+	10910,
+	8495,
+	5865,
+	5742,
+	4706,
+	2671,
+	10078,
+	4706,
+	4706,
+	5865,
+	4706,
+	2671,
+	4706,
+	4706,
+	10866,
+	5865,
+	5838,
+	5717,
+	5717,
+	5865,
+	10910,
+	4706,
+	2671,
+	4706,
+	5742,
+	4706,
+	5865,
+	3984,
+	4199,
+	5716,
+	5742,
+	5742,
+	2664,
+	5742,
+	4706,
+	5742,
+	5742,
+	5656,
+	5865,
+	5865,
+	4706,
+	5742,
+	4706,
+	4706,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	4195,
+	5742,
+	5742,
+	5742,
+	10910,
+	5865,
+	2656,
+	846,
+	5656,
+	5656,
+	5716,
+	4706,
+	3984,
+	5742,
+	4195,
+	2656,
+	4706,
+	3984,
+	4195,
+	5865,
+	5656,
+	4613,
+	4706,
+	4203,
+	5865,
+	2656,
+	2398,
+	5716,
+	4706,
+	3961,
+	3984,
+	5742,
+	4195,
+	5865,
+	2656,
+	2656,
+	2656,
+	2656,
+	1411,
+	5742,
+	4706,
+	9627,
+	8280,
+	9824,
+	3984,
+	5742,
+	4195,
+	5656,
+	5656,
+	5850,
+	4809,
+	5850,
+	4809,
+	4681,
+	2665,
+	2176,
+	5716,
+	5742,
+	1678,
+	3386,
+	5716,
+	10872,
+	10910,
+	4681,
+	9836,
+	8846,
+	8412,
+	8501,
+	8501,
+	7867,
+	7203,
+	8844,
+	9963,
+	9950,
+	4680,
+	3386,
+	5716,
+	5865,
+	5865,
+	5865,
+	5865,
+	5865,
+	5865,
+	5865,
+	5865,
+	5865,
+	5865,
+	5865,
+	5865,
+	4706,
+	5742,
+	3386,
+	5716,
+	10910,
+	5865,
+	4706,
+	5865,
 	0,
 	0,
 	0,
@@ -3589,37 +3589,37 @@ static const int32_t s_InvokerIndices[934] =
 	0,
 	0,
 	0,
-	9930,
-	5847,
-	5847,
-	5847,
-	5724,
-	5847,
-	5724,
-	4687,
-	5847,
-	5724,
-	5847,
-	5724,
-	5847,
-	5724,
-	5847,
-	5847,
-	5724,
-	5847,
-	5724,
-	5847,
-	5724,
-	5847,
-	5724,
-	5847,
-	5724,
-	5847,
-	5724,
-	5847,
-	5847,
-	1193,
-	10877,
+	9963,
+	5865,
+	5865,
+	5865,
+	5742,
+	5865,
+	5742,
+	4706,
+	5865,
+	5742,
+	5865,
+	5742,
+	5865,
+	5742,
+	5865,
+	5865,
+	5742,
+	5865,
+	5742,
+	5865,
+	5742,
+	5865,
+	5742,
+	5865,
+	5742,
+	5865,
+	5742,
+	5865,
+	5865,
+	1197,
+	10910,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[15] = 
 {
@@ -3643,18 +3643,18 @@ extern const uint32_t g_rgctx_ICollection_1_tBBE79C4BDAC457BEA82DD2DF2F03F76C807
 extern const uint32_t g_rgctx_ICollection_1_get_Count_m061AC25DE6178D7B65EEC103CA96FF4BA19BD619;
 extern const uint32_t g_rgctx_TU5BU5D_t0774D83EB1084043708109FF8A984C3D75E1AFD3;
 extern const uint32_t g_rgctx_ICollection_1_CopyTo_m1679AA0510BF4540C3E77CA2AEFBE2F173741A06;
-extern const uint32_t g_rgctx_T_tD61B3019D1869264718D125EAEE4311D26728AB7;
+extern const uint32_t g_rgctx_T_t047CCAB016DADA45BF2B971B3E7C13F5D9EEAD31;
 extern const uint32_t g_rgctx_Span_1_get_Length_m839FCF6D0CEBC13A23B4913B4B3BE1D2EF497540;
 extern const uint32_t g_rgctx_ValueListBuilder_1_Grow_m64DA028E30FA837F9D8AA340D3A9344AA8CAEB90;
 extern const uint32_t g_rgctx_Span_1_Slice_mD195CE80DA136235424FC8460CCC1F444AA8F4C1;
-extern const uint32_t g_rgctx_Span_1_op_Implicit_mB474EB18DE57762E3A0772E2DE27ED5252766862;
+extern const uint32_t g_rgctx_Span_1_op_Implicit_m3BF14B5756BF4908C2A9A5E34B150191F65411C7;
 extern const uint32_t g_rgctx_Span_1_t44C40F6E179DE0B4F52D7DA2E1884C0EE6DE3FB3;
-extern const uint32_t g_rgctx_ArrayPool_1_get_Shared_m1992B72A302318B5A74633D26273A877D27EB4EF;
+extern const uint32_t g_rgctx_ArrayPool_1_get_Shared_mFF75CCDA4CFD179AEFF8DCACCB63C2F7A077C4BE;
 extern const uint32_t g_rgctx_ArrayPool_1_t58F3AC60669102F215C83BF8491B2CFFADF20417;
 extern const uint32_t g_rgctx_ArrayPool_1_t58F3AC60669102F215C83BF8491B2CFFADF20417;
 extern const uint32_t g_rgctx_ArrayPool_1_Return_mFE24FCB54D3C02CA684BD71EA9152AED02E0B440;
 extern const uint32_t g_rgctx_ArrayPool_1_Rent_m5EF306341F1ED22323168043C5B68D869254CC35;
-extern const uint32_t g_rgctx_Span_1_op_Implicit_mC53ACE9FE1E7E5E9F3A0C098C37C5A4DCDE2FE82;
+extern const uint32_t g_rgctx_Span_1_op_Implicit_m951005873D5028B6640FA52DF3A3E88636FD12BD;
 extern const uint32_t g_rgctx_Span_1_TryCopyTo_m42CCEFF44F507F716B350717B93A19A5C5529A78;
 extern const uint32_t g_rgctx_ICollection_1_t608D63629FB1E2D115DA1D5A932FF3AB790D4B4E;
 extern const uint32_t g_rgctx_ICollection_1_get_Count_mCAAEBD5758B0D827A86F8D52D2387386E987B5AA;
@@ -3681,7 +3681,7 @@ extern const uint32_t g_rgctx_LinkedListNode_1_get_Next_mB1A01A4FC5490DBA9D6A301
 extern const uint32_t g_rgctx_LinkedListNode_1_Invalidate_m92AA7C26274AB3F1B2C90AAD36ED50BA53479F31;
 extern const uint32_t g_rgctx_LinkedList_1_Find_m05423F53A6D38259BBFB8C5A4DC487E2C2182B00;
 extern const uint32_t g_rgctx_LinkedList_1_get_Count_m9716A6902AA14DDA5DD9C943647E5A06A1DBB6E9;
-extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_m78B05B517FFE11DE4D4E7F722CC8488A24712D57;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_m831FBA2817035A8EB2087E6CF99799DA6F98DAE3;
 extern const uint32_t g_rgctx_EqualityComparer_1_t392B3893C4126DDA49A6D8C4161C74BC1ECB9674;
 extern const uint32_t g_rgctx_T_tB8CC012B03969318B6B5424CAE7A44EDE0AA6665;
 extern const uint32_t g_rgctx_EqualityComparer_1_t392B3893C4126DDA49A6D8C4161C74BC1ECB9674;
@@ -3698,18 +3698,18 @@ extern const uint32_t g_rgctx_TU5BU5D_tB7945C667DD94B711E283C8F803CF9F9F3DF9C5E;
 extern const uint32_t g_rgctx_LinkedList_1_t2BE688DBB804B0F90493D85355AF0536C5697D2D;
 extern const uint32_t g_rgctx_LinkedList_1_get_Count_m00D92A248A5513B9C324C4F8A7EEAAE4A1AB9A85;
 extern const uint32_t g_rgctx_T_t40ED5F405E4C66916984D6B18DAD11FB5460B70E;
-extern const uint32_t g_rgctx_Array_Empty_TisTKey_t1FD6F73134BEFD3DA81B6A46436C50FA38749EC7_m962F8D7E72A72B5866FC788E97F3050DBF2D2EB6;
-extern const uint32_t g_rgctx_Array_Empty_TisTValue_t05B39B62795218B9FB2F0D6E1C002FB430DD6D0C_mDCBE7E1087DB97D086F71B6F5758E1ED70F712F2;
-extern const uint32_t g_rgctx_Comparer_1_get_Default_mCA970F420D07D5E98EB02857280D3EEBCA160863;
+extern const uint32_t g_rgctx_Array_Empty_TisTKey_t1FD6F73134BEFD3DA81B6A46436C50FA38749EC7_mBBA0D8AA16E426C3758AE0707A7BDCB0BC03F287;
+extern const uint32_t g_rgctx_Array_Empty_TisTValue_t05B39B62795218B9FB2F0D6E1C002FB430DD6D0C_m53BD1375CA2D6170B921629C5DB26898BF4A3547;
+extern const uint32_t g_rgctx_Comparer_1_get_Default_m685DB6B39298383463C87A14AE18F51B8137D3C3;
 extern const uint32_t g_rgctx_Comparer_1_tB1C14895A92A1CFDFEC8C2B1B3A8AAB2774915B1;
 extern const uint32_t g_rgctx_TKey_t1FD6F73134BEFD3DA81B6A46436C50FA38749EC7;
-extern const uint32_t g_rgctx_Array_BinarySearch_TisTKey_t1FD6F73134BEFD3DA81B6A46436C50FA38749EC7_mB622ACDC6278218422284DF9F8C56A15C318A6D0;
+extern const uint32_t g_rgctx_Array_BinarySearch_TisTKey_t1FD6F73134BEFD3DA81B6A46436C50FA38749EC7_m415033BF1DD5E9C87C2A3D710C61FD7F45680FB5;
 extern const uint32_t g_rgctx_SortedList_2_Insert_mCC6515C2D0BC090B63A93434CB515DA7B30ACA96;
 extern const uint32_t g_rgctx_KeyValuePair_2_get_Key_m5E4415016462D57B44F58AD0F77CF776F27E7AE5;
 extern const uint32_t g_rgctx_KeyValuePair_2_get_Value_m4D424FA5AA51495D1B7C4303F24F504CABFCCFD7;
 extern const uint32_t g_rgctx_SortedList_2_Add_m5FFD3B1C5235EC7DE6A9C6D8D9910CC27A9AC1DA;
 extern const uint32_t g_rgctx_SortedList_2_IndexOfKey_m6481FD095B461438A1FE2B37991097DDA1D815DD;
-extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_mE82F170302E1DA99A2944801AD9A2DFC2F663119;
+extern const uint32_t g_rgctx_EqualityComparer_1_get_Default_mA03A68D5263C0AA0CD234ABF8BD3C2293A48926C;
 extern const uint32_t g_rgctx_EqualityComparer_1_t0A97056FB9DAAF5FD6C7ED54906FF1D95D3B49E8;
 extern const uint32_t g_rgctx_EqualityComparer_1_t0A97056FB9DAAF5FD6C7ED54906FF1D95D3B49E8;
 extern const uint32_t g_rgctx_EqualityComparer_1_Equals_m633EB6F895BE1F9A3BCD62EFADBB54D45AFC4591;
@@ -3722,7 +3722,7 @@ extern const uint32_t g_rgctx_KeyList_tBF0BA35A8E56C2CA6B0D132E81B49AAC9D037ABE;
 extern const uint32_t g_rgctx_KeyList__ctor_m9E800CDF1F22A710C1B85E30E2CE048FC4F42188;
 extern const uint32_t g_rgctx_ValueList_t0BD3E7798079666543FFC993879C507993BFFEE7;
 extern const uint32_t g_rgctx_ValueList__ctor_m2C2D0F1A586CC2C94A51E4AD4078C4E81AAE88BE;
-extern const uint32_t g_rgctx_SortedList_2_IsCompatibleKey_m292C7E9BFADCEEBC3D94DC79A480ED45C9EFCD25;
+extern const uint32_t g_rgctx_SortedList_2_IsCompatibleKey_m9C72A8EF291941CCF918ABC099DE629DD7FCDC2B;
 extern const uint32_t g_rgctx_SortedList_2_t93A9CE8FB30B3C390C759153CE3225118DD18523;
 extern const uint32_t g_rgctx_SortedList_2_ContainsKey_mD43E2CDBF2912D4CF756124303F08E7877325A0D;
 extern const uint32_t g_rgctx_SortedList_2_IndexOfValue_m0C27E1E3CA435B9541143BED59421495454F76CC;
@@ -3736,7 +3736,7 @@ extern const uint32_t g_rgctx_Enumerator__ctor_mAA4F2E43EE68D2CD181E9A0D6CC81FFC
 extern const uint32_t g_rgctx_TValue_t05B39B62795218B9FB2F0D6E1C002FB430DD6D0C;
 extern const uint32_t g_rgctx_SortedList_2_set_Item_m44BAA94EE58C1BD2E91CDABEBFF3F62D0702E4A7;
 extern const uint32_t g_rgctx_TValue_t05B39B62795218B9FB2F0D6E1C002FB430DD6D0C;
-extern const uint32_t g_rgctx_Array_IndexOf_TisTValue_t05B39B62795218B9FB2F0D6E1C002FB430DD6D0C_m50CBD31A2C8613FCF3A49C18828951D925CB3A0E;
+extern const uint32_t g_rgctx_Array_IndexOf_TisTValue_t05B39B62795218B9FB2F0D6E1C002FB430DD6D0C_m7B83FE8757E3BDAFB09D8C0CF6C62A1DA25E85E4;
 extern const uint32_t g_rgctx_SortedList_2_EnsureCapacity_m9AFA49D189786022026E89A084CD32F0ED866E92;
 extern const uint32_t g_rgctx_SortedList_2_tC6344DFC770CE08ABFDA57B902B4868D9F62EF3C;
 extern const uint32_t g_rgctx_SortedList_2_get_Count_mCE323B5DCB7E363E70AF36EC76133C1D587B8EC8;
@@ -3757,32 +3757,32 @@ extern const uint32_t g_rgctx_SortedList_2_GetKey_m2D600345BA732A25B665312432E50
 extern const uint32_t g_rgctx_SortedListKeyEnumerator_tD25E4501C93F8996465E698CF2E30942795FF24F;
 extern const uint32_t g_rgctx_SortedListKeyEnumerator__ctor_m28CBE46D4F471D562C6E9BF643EEBEE97FAC49A2;
 extern const uint32_t g_rgctx_TKey_t299F6A80A11873E87035AB041EBF0A5F15103B73;
-extern const uint32_t g_rgctx_Array_BinarySearch_TisTKey_t299F6A80A11873E87035AB041EBF0A5F15103B73_mF0629A26CAB34F85B81363205BE184CBD08961E5;
+extern const uint32_t g_rgctx_Array_BinarySearch_TisTKey_t299F6A80A11873E87035AB041EBF0A5F15103B73_mF3C9CBA015A35FC0C212C7EAF52DBE14D3CE367F;
 extern const uint32_t g_rgctx_SortedList_2_tEF86C98A7E9ABE5CE49C66355C8C437FA26BC3CD;
 extern const uint32_t g_rgctx_SortedList_2_ContainsValue_m27B9FF070EEA5DBA0145190F4D3F7A2F9B31C62D;
 extern const uint32_t g_rgctx_SortedList_2_get_Count_mD3233393E8C9A5AA14992E1D63A185032E77D8DC;
 extern const uint32_t g_rgctx_SortedList_2_GetByIndex_m53C32801F4EA95F9423C85DC10D062A6F118F43A;
 extern const uint32_t g_rgctx_SortedListValueEnumerator_t2C333B1C34817C77FE472AF6C5C121C216A1E0BC;
 extern const uint32_t g_rgctx_SortedListValueEnumerator__ctor_m5888F52C713CBACC1D3039B513BB385DCCFFAC84;
-extern const uint32_t g_rgctx_Array_IndexOf_TisTValue_tEB96A977159351D0F21BC37F853A4450F0186BAF_m2A579BC9630F279050FFC0C41214B3CAFD81E0AF;
+extern const uint32_t g_rgctx_Array_IndexOf_TisTValue_tEB96A977159351D0F21BC37F853A4450F0186BAF_mC4AF15A267ED1A98605088D7D2D93DD8BA4F2248;
 static const Il2CppRGCTXDefinition s_rgctxValues[126] = 
 {
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ICollection_1_tBBE79C4BDAC457BEA82DD2DF2F03F76C807048CE },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ICollection_1_get_Count_m061AC25DE6178D7B65EEC103CA96FF4BA19BD619 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_t0774D83EB1084043708109FF8A984C3D75E1AFD3 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ICollection_1_CopyTo_m1679AA0510BF4540C3E77CA2AEFBE2F173741A06 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tD61B3019D1869264718D125EAEE4311D26728AB7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t047CCAB016DADA45BF2B971B3E7C13F5D9EEAD31 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Span_1_get_Length_m839FCF6D0CEBC13A23B4913B4B3BE1D2EF497540 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ValueListBuilder_1_Grow_m64DA028E30FA837F9D8AA340D3A9344AA8CAEB90 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Span_1_Slice_mD195CE80DA136235424FC8460CCC1F444AA8F4C1 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Span_1_op_Implicit_mB474EB18DE57762E3A0772E2DE27ED5252766862 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Span_1_op_Implicit_m3BF14B5756BF4908C2A9A5E34B150191F65411C7 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Span_1_t44C40F6E179DE0B4F52D7DA2E1884C0EE6DE3FB3 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ArrayPool_1_get_Shared_m1992B72A302318B5A74633D26273A877D27EB4EF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ArrayPool_1_get_Shared_mFF75CCDA4CFD179AEFF8DCACCB63C2F7A077C4BE },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ArrayPool_1_t58F3AC60669102F215C83BF8491B2CFFADF20417 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ArrayPool_1_t58F3AC60669102F215C83BF8491B2CFFADF20417 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ArrayPool_1_Return_mFE24FCB54D3C02CA684BD71EA9152AED02E0B440 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ArrayPool_1_Rent_m5EF306341F1ED22323168043C5B68D869254CC35 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Span_1_op_Implicit_mC53ACE9FE1E7E5E9F3A0C098C37C5A4DCDE2FE82 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Span_1_op_Implicit_m951005873D5028B6640FA52DF3A3E88636FD12BD },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Span_1_TryCopyTo_m42CCEFF44F507F716B350717B93A19A5C5529A78 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ICollection_1_t608D63629FB1E2D115DA1D5A932FF3AB790D4B4E },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ICollection_1_get_Count_mCAAEBD5758B0D827A86F8D52D2387386E987B5AA },
@@ -3809,7 +3809,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[126] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_LinkedListNode_1_Invalidate_m92AA7C26274AB3F1B2C90AAD36ED50BA53479F31 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_LinkedList_1_Find_m05423F53A6D38259BBFB8C5A4DC487E2C2182B00 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_LinkedList_1_get_Count_m9716A6902AA14DDA5DD9C943647E5A06A1DBB6E9 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_m78B05B517FFE11DE4D4E7F722CC8488A24712D57 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_m831FBA2817035A8EB2087E6CF99799DA6F98DAE3 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t392B3893C4126DDA49A6D8C4161C74BC1ECB9674 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tB8CC012B03969318B6B5424CAE7A44EDE0AA6665 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t392B3893C4126DDA49A6D8C4161C74BC1ECB9674 },
@@ -3826,18 +3826,18 @@ static const Il2CppRGCTXDefinition s_rgctxValues[126] =
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_LinkedList_1_t2BE688DBB804B0F90493D85355AF0536C5697D2D },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_LinkedList_1_get_Count_m00D92A248A5513B9C324C4F8A7EEAAE4A1AB9A85 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t40ED5F405E4C66916984D6B18DAD11FB5460B70E },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_Empty_TisTKey_t1FD6F73134BEFD3DA81B6A46436C50FA38749EC7_m962F8D7E72A72B5866FC788E97F3050DBF2D2EB6 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_Empty_TisTValue_t05B39B62795218B9FB2F0D6E1C002FB430DD6D0C_mDCBE7E1087DB97D086F71B6F5758E1ED70F712F2 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Comparer_1_get_Default_mCA970F420D07D5E98EB02857280D3EEBCA160863 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_Empty_TisTKey_t1FD6F73134BEFD3DA81B6A46436C50FA38749EC7_mBBA0D8AA16E426C3758AE0707A7BDCB0BC03F287 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_Empty_TisTValue_t05B39B62795218B9FB2F0D6E1C002FB430DD6D0C_m53BD1375CA2D6170B921629C5DB26898BF4A3547 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Comparer_1_get_Default_m685DB6B39298383463C87A14AE18F51B8137D3C3 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Comparer_1_tB1C14895A92A1CFDFEC8C2B1B3A8AAB2774915B1 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t1FD6F73134BEFD3DA81B6A46436C50FA38749EC7 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_BinarySearch_TisTKey_t1FD6F73134BEFD3DA81B6A46436C50FA38749EC7_mB622ACDC6278218422284DF9F8C56A15C318A6D0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_BinarySearch_TisTKey_t1FD6F73134BEFD3DA81B6A46436C50FA38749EC7_m415033BF1DD5E9C87C2A3D710C61FD7F45680FB5 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedList_2_Insert_mCC6515C2D0BC090B63A93434CB515DA7B30ACA96 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_KeyValuePair_2_get_Key_m5E4415016462D57B44F58AD0F77CF776F27E7AE5 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_KeyValuePair_2_get_Value_m4D424FA5AA51495D1B7C4303F24F504CABFCCFD7 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedList_2_Add_m5FFD3B1C5235EC7DE6A9C6D8D9910CC27A9AC1DA },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedList_2_IndexOfKey_m6481FD095B461438A1FE2B37991097DDA1D815DD },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_mE82F170302E1DA99A2944801AD9A2DFC2F663119 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_get_Default_mA03A68D5263C0AA0CD234ABF8BD3C2293A48926C },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t0A97056FB9DAAF5FD6C7ED54906FF1D95D3B49E8 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_EqualityComparer_1_t0A97056FB9DAAF5FD6C7ED54906FF1D95D3B49E8 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_EqualityComparer_1_Equals_m633EB6F895BE1F9A3BCD62EFADBB54D45AFC4591 },
@@ -3850,7 +3850,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[126] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_KeyList__ctor_m9E800CDF1F22A710C1B85E30E2CE048FC4F42188 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ValueList_t0BD3E7798079666543FFC993879C507993BFFEE7 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ValueList__ctor_m2C2D0F1A586CC2C94A51E4AD4078C4E81AAE88BE },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedList_2_IsCompatibleKey_m292C7E9BFADCEEBC3D94DC79A480ED45C9EFCD25 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedList_2_IsCompatibleKey_m9C72A8EF291941CCF918ABC099DE629DD7FCDC2B },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_SortedList_2_t93A9CE8FB30B3C390C759153CE3225118DD18523 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedList_2_ContainsKey_mD43E2CDBF2912D4CF756124303F08E7877325A0D },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedList_2_IndexOfValue_m0C27E1E3CA435B9541143BED59421495454F76CC },
@@ -3864,7 +3864,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[126] =
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TValue_t05B39B62795218B9FB2F0D6E1C002FB430DD6D0C },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedList_2_set_Item_m44BAA94EE58C1BD2E91CDABEBFF3F62D0702E4A7 },
 	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TValue_t05B39B62795218B9FB2F0D6E1C002FB430DD6D0C },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_IndexOf_TisTValue_t05B39B62795218B9FB2F0D6E1C002FB430DD6D0C_m50CBD31A2C8613FCF3A49C18828951D925CB3A0E },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_IndexOf_TisTValue_t05B39B62795218B9FB2F0D6E1C002FB430DD6D0C_m7B83FE8757E3BDAFB09D8C0CF6C62A1DA25E85E4 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedList_2_EnsureCapacity_m9AFA49D189786022026E89A084CD32F0ED866E92 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_SortedList_2_tC6344DFC770CE08ABFDA57B902B4868D9F62EF3C },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedList_2_get_Count_mCE323B5DCB7E363E70AF36EC76133C1D587B8EC8 },
@@ -3885,14 +3885,14 @@ static const Il2CppRGCTXDefinition s_rgctxValues[126] =
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_SortedListKeyEnumerator_tD25E4501C93F8996465E698CF2E30942795FF24F },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedListKeyEnumerator__ctor_m28CBE46D4F471D562C6E9BF643EEBEE97FAC49A2 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TKey_t299F6A80A11873E87035AB041EBF0A5F15103B73 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_BinarySearch_TisTKey_t299F6A80A11873E87035AB041EBF0A5F15103B73_mF0629A26CAB34F85B81363205BE184CBD08961E5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_BinarySearch_TisTKey_t299F6A80A11873E87035AB041EBF0A5F15103B73_mF3C9CBA015A35FC0C212C7EAF52DBE14D3CE367F },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_SortedList_2_tEF86C98A7E9ABE5CE49C66355C8C437FA26BC3CD },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedList_2_ContainsValue_m27B9FF070EEA5DBA0145190F4D3F7A2F9B31C62D },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedList_2_get_Count_mD3233393E8C9A5AA14992E1D63A185032E77D8DC },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedList_2_GetByIndex_m53C32801F4EA95F9423C85DC10D062A6F118F43A },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_SortedListValueEnumerator_t2C333B1C34817C77FE472AF6C5C121C216A1E0BC },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_SortedListValueEnumerator__ctor_m5888F52C713CBACC1D3039B513BB385DCCFFAC84 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_IndexOf_TisTValue_tEB96A977159351D0F21BC37F853A4450F0186BAF_m2A579BC9630F279050FFC0C41214B3CAFD81E0AF },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Array_IndexOf_TisTValue_tEB96A977159351D0F21BC37F853A4450F0186BAF_mC4AF15A267ED1A98605088D7D2D93DD8BA4F2248 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_CodeGenModule;
 const Il2CppCodeGenModule g_System_CodeGenModule = 

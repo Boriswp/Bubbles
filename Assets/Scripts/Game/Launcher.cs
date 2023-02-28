@@ -61,16 +61,21 @@ public class Launcher : MonoBehaviour
         }
         cancell.SetActive(true);
         rowBalls.SetActive(false);
+        nextColorBall.SetActive(false);
         isSpecialBall = true;
         currentKindColor = kind;
-        Load();
+        var hitter = load.GetComponent<Hitter>();
+        hitter.kind = currentKindColor;
+        hitter.gameGridManager = gameGridManager;
+        hitter.Start();
     }
 
     public void UnSetUpSpecialBall()
     {
         isSpecialBall = false;
-        Destroy(load);
-        Load();
+        cancell.SetActive(false);
+        rowBalls.SetActive(true);
+        nextColorBall.SetActive(true);
     }
 
     public void UnSetUpSpecialBall(int kind)
@@ -90,8 +95,6 @@ public class Launcher : MonoBehaviour
                 DataLoader.DecreaseLightsCount();
                 break;
         }
-        cancell.SetActive(false);
-        rowBalls.SetActive(true);
         UnSetUpSpecialBall();
     }
 
@@ -102,8 +105,8 @@ public class Launcher : MonoBehaviour
         nextKindColor = temp;
         var hitter = load.GetComponent<Hitter>();
         hitter.kind = currentKindColor;
-        hitter.enabled = true;
         hitter.gameGridManager = gameGridManager;
+        hitter.Start();
         nextColorBall.GetComponent<SpriteRenderer>().sprite = BaseGridManager.SpriteArray[nextKindColor];
     }
 
@@ -118,7 +121,7 @@ public class Launcher : MonoBehaviour
     }
 
 
-    private void FixedUpdate()
+    private void Update()
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         var delta = mousePos - (Vector2)transform.parent.position;
@@ -136,42 +139,34 @@ public class Launcher : MonoBehaviour
     {
 
         var colorArray = gameGridManager.UpdateLvlInfo(isSpecialBall);
-        if (!isSpecialBall)
+        nextColorBall.SetActive(true);
+        if (firstLaunch)
         {
-            nextColorBall.SetActive(true);
-            if (firstLaunch)
-            {
-                var index = Random.Range(0, colorArray.Count);
-                nextKindColor = colorArray[index];
-                firstLaunch = false;
+            var index = Random.Range(0, colorArray.Count);
+            nextKindColor = colorArray[index];
+            firstLaunch = false;
 
-            }
-            currentKindColor = nextKindColor;
-            if (colorArray.Count > 0)
-            {
-                var index = Random.Range(0, colorArray.Count);
-                nextKindColor = colorArray[index];
-            }
-            else
-            {
-                nextKindColor = Random.Range(0, 7);
-            }
-
-            nextColorBall.GetComponent<SpriteRenderer>().sprite = BaseGridManager.SpriteArray[nextKindColor];
+        }
+        currentKindColor = nextKindColor;
+        if (colorArray.Count > 0)
+        {
+            var index = Random.Range(0, colorArray.Count);
+            nextKindColor = colorArray[index];
         }
         else
         {
-            nextColorBall.SetActive(false);
-            Destroy(load);
+            nextKindColor = Random.Range(0, 7);
         }
+
+        nextColorBall.GetComponent<SpriteRenderer>().sprite = BaseGridManager.SpriteArray[nextKindColor];
         load = Instantiate(ball, transform.parent.position, Quaternion.identity, transform.parent.parent);
         load.SetActive(true);
         var circleCollider2D = load.GetComponent<CircleCollider2D>();
         circleCollider2D.enabled = false;
         var hitter = load.GetComponent<Hitter>();
         hitter.kind = currentKindColor;
-        hitter.enabled = true;
         hitter.gameGridManager = gameGridManager;
+        hitter.enabled = true;
     }
 
     public void Fire()
@@ -187,7 +182,7 @@ public class Launcher : MonoBehaviour
         load = null;
         if (isSpecialBall)
         {
-            UnSetUpSpecialBall();
+            UnSetUpSpecialBall(currentKindColor);
         }
     }
 
@@ -207,7 +202,7 @@ public class Launcher : MonoBehaviour
             position = circleHit.point + circleHit.normal * 0.23f;
             var newPos = Helpers.GetAccuratePos(position);
 
-            if (circleHit.collider.CompareTag("Bubble")|| circleHit.collider.CompareTag("Destroyer"))
+            if (circleHit.collider.CompareTag("Bubble") || circleHit.collider.CompareTag("Destroyer"))
             {
                 Vector2 newHitPos = new(circleHit.transform.position.x, circleHit.transform.position.y);
                 reflectionPositions.Add(newHitPos + circleHit.normal * 0.23f);

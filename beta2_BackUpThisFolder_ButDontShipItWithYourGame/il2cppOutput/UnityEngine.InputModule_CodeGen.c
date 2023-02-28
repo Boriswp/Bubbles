@@ -17,38 +17,38 @@ extern void NativeUpdateCallback__ctor_m04FDCD50564E7535FADAFF34BBA83500585A84F5
 // 0x00000002 System.Void UnityEngineInternal.Input.NativeUpdateCallback::Invoke(UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
 extern void NativeUpdateCallback_Invoke_mC4B7018AE8ED52FB9C6805F65C57A81812D21333 (void);
 // 0x00000003 System.Void UnityEngineInternal.Input.NativeInputSystem::.cctor()
-extern void NativeInputSystem__cctor_m6A57ED781C2707E4F793E2C78636AED670A7D226 (void);
+extern void NativeInputSystem__cctor_mADBD6616441651B2AFE2AD8AF64D63DF0BA66693 (void);
 // 0x00000004 System.Void UnityEngineInternal.Input.NativeInputSystem::NotifyBeforeUpdate(UnityEngineInternal.Input.NativeInputUpdateType)
-extern void NativeInputSystem_NotifyBeforeUpdate_mCE2C119B7A2B715BA0E2DA92E8C425854A45C75B (void);
+extern void NativeInputSystem_NotifyBeforeUpdate_m39AE2F1A42BD47200A263AD0EF9EDA5EF4C0042A (void);
 // 0x00000005 System.Void UnityEngineInternal.Input.NativeInputSystem::NotifyUpdate(UnityEngineInternal.Input.NativeInputUpdateType,System.IntPtr)
-extern void NativeInputSystem_NotifyUpdate_mF65F379B3C3B1B36390A54F168CD21792B99F745 (void);
+extern void NativeInputSystem_NotifyUpdate_m482599CC17084B0383809F97671530613EA39AD0 (void);
 // 0x00000006 System.Void UnityEngineInternal.Input.NativeInputSystem::NotifyDeviceDiscovered(System.Int32,System.String)
-extern void NativeInputSystem_NotifyDeviceDiscovered_mB0B367982110E777DA0BEAB72334C7C5AFB70E82 (void);
+extern void NativeInputSystem_NotifyDeviceDiscovered_m861CCAFB4DD314DB3DC58FBD0398800CF9272C03 (void);
 // 0x00000007 System.Void UnityEngineInternal.Input.NativeInputSystem::ShouldRunUpdate(UnityEngineInternal.Input.NativeInputUpdateType,System.Boolean&)
-extern void NativeInputSystem_ShouldRunUpdate_m5E504C5D05E4F6C5A21604C1E2D8782AEB658C63 (void);
+extern void NativeInputSystem_ShouldRunUpdate_m7C9E1201550198D8E1F163787175C86A8B0EE71B (void);
 // 0x00000008 System.Void UnityEngineInternal.Input.NativeInputSystem::set_hasDeviceDiscoveredCallback(System.Boolean)
-extern void NativeInputSystem_set_hasDeviceDiscoveredCallback_m2E3D1F06C4889BF357605229E11E87555245EBED (void);
+extern void NativeInputSystem_set_hasDeviceDiscoveredCallback_m0979ABC04DBA52617481EDF743D8B48CC089A1C8 (void);
 static Il2CppMethodPointer s_methodPointers[8] = 
 {
 	NativeUpdateCallback__ctor_m04FDCD50564E7535FADAFF34BBA83500585A84F5,
 	NativeUpdateCallback_Invoke_mC4B7018AE8ED52FB9C6805F65C57A81812D21333,
-	NativeInputSystem__cctor_m6A57ED781C2707E4F793E2C78636AED670A7D226,
-	NativeInputSystem_NotifyBeforeUpdate_mCE2C119B7A2B715BA0E2DA92E8C425854A45C75B,
-	NativeInputSystem_NotifyUpdate_mF65F379B3C3B1B36390A54F168CD21792B99F745,
-	NativeInputSystem_NotifyDeviceDiscovered_mB0B367982110E777DA0BEAB72334C7C5AFB70E82,
-	NativeInputSystem_ShouldRunUpdate_m5E504C5D05E4F6C5A21604C1E2D8782AEB658C63,
-	NativeInputSystem_set_hasDeviceDiscoveredCallback_m2E3D1F06C4889BF357605229E11E87555245EBED,
+	NativeInputSystem__cctor_mADBD6616441651B2AFE2AD8AF64D63DF0BA66693,
+	NativeInputSystem_NotifyBeforeUpdate_m39AE2F1A42BD47200A263AD0EF9EDA5EF4C0042A,
+	NativeInputSystem_NotifyUpdate_m482599CC17084B0383809F97671530613EA39AD0,
+	NativeInputSystem_NotifyDeviceDiscovered_m861CCAFB4DD314DB3DC58FBD0398800CF9272C03,
+	NativeInputSystem_ShouldRunUpdate_m7C9E1201550198D8E1F163787175C86A8B0EE71B,
+	NativeInputSystem_set_hasDeviceDiscoveredCallback_m0979ABC04DBA52617481EDF743D8B48CC089A1C8,
 };
 static const int32_t s_InvokerIndices[8] = 
 {
-	2657,
-	2386,
-	10877,
-	10049,
-	8723,
-	8725,
-	8720,
-	10046,
+	2667,
+	2392,
+	10910,
+	10082,
+	8756,
+	8758,
+	8753,
+	10079,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_InputModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_InputModule_CodeGenModule = 

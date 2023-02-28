@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 struct VirtualActionInvoker0
@@ -684,9 +683,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_CallStatic_TisInt32_t680F
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_CallStatic_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m2FC8ACAFE956D789EAA03558DC9E281FA48D6243_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_CallStatic_TisString_t_mB5DC41208BD7C326A089C20F4F1C2B8B2444ACC3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Array_Resize_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_mD159D1D60050433780B1582642F59737D1924253_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Array_Sort_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_mFFCF29E1AD96ED471A0799EC2696D62213C3E581_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Resize_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m4E061A33E0B1F92504D300F1AFD62BC7D9AE4A49_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Sort_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m4470317FB5DC2D24D13772410A0CB87E3AC31ED4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_m22ACF33DC0AB281D8B1E18650516D0765006FE66_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCanvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_m209BA4F663AB98A4504995B5BD3EADEDEFB92BF2_RuntimeMethod_var;
@@ -756,10 +755,10 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_m6ED635462BA2E138C5F001935B
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_m6B76D139692C43B2AF7C695FAB044B16ACFAF355_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_Value_mE2C54C6AE9FC9F05BF44CD9D7D61DC6CD56E3E28_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisFileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5_m2C78D5BF63ED0467DC474EB734C61772D80FB383_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisFileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_m71B28905C9E5CE01C1F11CDBBEB7CECDCFFC8C5C_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mC898F7E3D9541F17BD8B79579FDD431C0651E12D_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Resources_Load_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mCEBDEACE7062C5E4C71A9146FE8B42C9D5797720_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisFileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5_mF1E83F43023E43A70776D5BED8D4A780E8905985_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisFileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_mA283CC0780F7E4D6E53BB45A771FC1F53263C8EF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Resources_Load_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m496A3B1B60A28F5E0397043974B848C9157B625A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CCreateNewFolderCoroutineU3Ed__241_System_Collections_IEnumerator_Reset_m646C888543E172930F7076CAFAC901E75623C089_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CRefreshFilesU3Eb__236_0_mE12282742C87B1CF40426F7831E5DD8551C26B7F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass220_0_U3COnSubmitButtonClickedU3Eb__0_m4EFEA0F30A4569D823AD46B412957AB24E380DEB_RuntimeMethod_var;
@@ -814,12 +813,6 @@ struct U3CModuleU3E_tB1365C208DC4E0FC19E754B7C4936AD893D937CA
 // System.EmptyArray`1<System.Object>
 struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE  : public RuntimeObject
 {
-};
-
-struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
-{
-	// T[] System.EmptyArray`1::Value
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Value_0;
 };
 
 // System.Collections.Generic.HashSet`1<System.Char>
@@ -877,12 +870,6 @@ struct List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175  : public RuntimeObject
 	RuntimeObject* ____syncRoot_4;
 };
 
-struct List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	FileBrowserItemU5BU5D_tFF3B19E03F981E40DBCAB2BC1836505B117175C7* ___s_emptyArray_5;
-};
-
 // System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserQuickLink>
 struct List_1_t417643521992E3A9934A752A70E79B7192BE59ED  : public RuntimeObject
 {
@@ -894,12 +881,6 @@ struct List_1_t417643521992E3A9934A752A70E79B7192BE59ED  : public RuntimeObject
 	int32_t ____version_3;
 	// System.Object System.Collections.Generic.List`1::_syncRoot
 	RuntimeObject* ____syncRoot_4;
-};
-
-struct List_1_t417643521992E3A9934A752A70E79B7192BE59ED_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	FileBrowserQuickLinkU5BU5D_tDFAAE04F697C67FC3B6FF336567CD9F9A0D18945* ___s_emptyArray_5;
 };
 
 // System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>
@@ -915,12 +896,6 @@ struct List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B  : public RuntimeObject
 	RuntimeObject* ____syncRoot_4;
 };
 
-struct List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* ___s_emptyArray_5;
-};
-
 // System.Collections.Generic.List`1<System.Int32>
 struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73  : public RuntimeObject
 {
@@ -932,12 +907,6 @@ struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73  : public RuntimeObject
 	int32_t ____version_3;
 	// System.Object System.Collections.Generic.List`1::_syncRoot
 	RuntimeObject* ____syncRoot_4;
-};
-
-struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_emptyArray_5;
 };
 
 // System.Collections.Generic.List`1<System.Object>
@@ -953,12 +922,6 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
 	RuntimeObject* ____syncRoot_4;
 };
 
-struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
-};
-
 // System.Collections.Generic.List`1<System.String>
 struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
 {
@@ -970,12 +933,6 @@ struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
 	int32_t ____version_3;
 	// System.Object System.Collections.Generic.List`1::_syncRoot
 	RuntimeObject* ____syncRoot_4;
-};
-
-struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
 };
 
 // System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>
@@ -991,12 +948,6 @@ struct List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55  : public RuntimeObject
 	RuntimeObject* ____syncRoot_4;
 };
 
-struct List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	OptionDataU5BU5D_tF56CF744A9E6A0DBB0AC2072BE52F7C8D2E1947F* ___s_emptyArray_5;
-};
-
 // System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowser/Filter>
 struct List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916  : public RuntimeObject
 {
@@ -1008,12 +959,6 @@ struct List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916  : public RuntimeObject
 	int32_t ____version_3;
 	// System.Object System.Collections.Generic.List`1::_syncRoot
 	RuntimeObject* ____syncRoot_4;
-};
-
-struct List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C* ___s_emptyArray_5;
 };
 
 // UnityEngine.EventSystems.AbstractEventData
@@ -1032,13 +977,6 @@ struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0  : public Run
 	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jclass_2;
 };
 
-struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_StaticFields
-{
-	// System.Boolean UnityEngine.AndroidJavaObject::enableDebugPrints
-	bool ___enableDebugPrints_0;
-};
-struct Il2CppArrayBounds;
-
 // System.Globalization.CompareInfo
 struct CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57  : public RuntimeObject
 {
@@ -1052,18 +990,6 @@ struct CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57  : public RuntimeOb
 	int32_t ___culture_8;
 	// System.Globalization.ISimpleCollator System.Globalization.CompareInfo::collator
 	RuntimeObject* ___collator_9;
-};
-
-struct CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57_StaticFields
-{
-	// System.Globalization.CompareInfo System.Globalization.CompareInfo::Invariant
-	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___Invariant_4;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Globalization.ISimpleCollator> System.Globalization.CompareInfo::collators
-	Dictionary_2_tFA0E7CD5951B83DD87A65E89D971A68E538F9470* ___collators_10;
-	// System.Boolean System.Globalization.CompareInfo::managedCollation
-	bool ___managedCollation_11;
-	// System.Boolean System.Globalization.CompareInfo::managedCollationChecked
-	bool ___managedCollationChecked_12;
 };
 
 // System.Globalization.CultureInfo
@@ -1123,28 +1049,6 @@ struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0  : public RuntimeOb
 	CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D* ___m_cultureData_28;
 	// System.Boolean System.Globalization.CultureInfo::m_isInherited
 	bool ___m_isInherited_29;
-};
-
-struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
-{
-	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::invariant_culture_info
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___invariant_culture_info_0;
-	// System.Object System.Globalization.CultureInfo::shared_table_lock
-	RuntimeObject* ___shared_table_lock_1;
-	// System.Globalization.CultureInfo System.Globalization.CultureInfo::default_current_culture
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___default_current_culture_2;
-	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::s_DefaultThreadCurrentUICulture
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentUICulture_34;
-	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::s_DefaultThreadCurrentCulture
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentCulture_35;
-	// System.Collections.Generic.Dictionary`2<System.Int32,System.Globalization.CultureInfo> System.Globalization.CultureInfo::shared_by_number
-	Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3* ___shared_by_number_36;
-	// System.Collections.Generic.Dictionary`2<System.String,System.Globalization.CultureInfo> System.Globalization.CultureInfo::shared_by_name
-	Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28* ___shared_by_name_37;
-	// System.Globalization.CultureInfo System.Globalization.CultureInfo::s_UserPreferredCultureInfoInAppX
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_UserPreferredCultureInfoInAppX_38;
-	// System.Boolean System.Globalization.CultureInfo::IsTaiwanSku
-	bool ___IsTaiwanSku_39;
 };
 // Native definition for P/Invoke marshalling of System.Globalization.CultureInfo
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke
@@ -1231,30 +1135,6 @@ struct Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC  : public RuntimeObject
 {
 };
 
-struct Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_StaticFields
-{
-	// System.Char[] System.IO.Path::InvalidPathChars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___InvalidPathChars_0;
-	// System.Char System.IO.Path::AltDirectorySeparatorChar
-	Il2CppChar ___AltDirectorySeparatorChar_1;
-	// System.Char System.IO.Path::DirectorySeparatorChar
-	Il2CppChar ___DirectorySeparatorChar_2;
-	// System.Char System.IO.Path::PathSeparator
-	Il2CppChar ___PathSeparator_3;
-	// System.String System.IO.Path::DirectorySeparatorStr
-	String_t* ___DirectorySeparatorStr_4;
-	// System.Char System.IO.Path::VolumeSeparatorChar
-	Il2CppChar ___VolumeSeparatorChar_5;
-	// System.Char[] System.IO.Path::PathSeparatorChars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___PathSeparatorChars_6;
-	// System.Boolean System.IO.Path::dirEqualsVolume
-	bool ___dirEqualsVolume_7;
-	// System.Char[] System.IO.Path::trimEndCharsWindows
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___trimEndCharsWindows_8;
-	// System.Char[] System.IO.Path::trimEndCharsUnix
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___trimEndCharsUnix_9;
-};
-
 // System.String
 struct String_t  : public RuntimeObject
 {
@@ -1262,12 +1142,6 @@ struct String_t  : public RuntimeObject
 	int32_t ____stringLength_4;
 	// System.Char System.String::_firstChar
 	Il2CppChar ____firstChar_5;
-};
-
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
 };
 
 // System.Text.StringBuilder
@@ -1345,14 +1219,6 @@ struct U3CU3Ec__DisplayClass3_0_t6F14BCAA484AC8DE9FDC3F55B6F310B903EA9746  : pub
 // SimpleFileBrowser.FileBrowser/<>c
 struct U3CU3Ec_t6465B650974F0FB45FBE66E11C631E405F31D4F0  : public RuntimeObject
 {
-};
-
-struct U3CU3Ec_t6465B650974F0FB45FBE66E11C631E405F31D4F0_StaticFields
-{
-	// SimpleFileBrowser.FileBrowser/<>c SimpleFileBrowser.FileBrowser/<>c::<>9
-	U3CU3Ec_t6465B650974F0FB45FBE66E11C631E405F31D4F0* ___U3CU3E9_0;
-	// System.Comparison`1<SimpleFileBrowser.FileSystemEntry> SimpleFileBrowser.FileBrowser/<>c::<>9__236_0
-	Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209* ___U3CU3E9__236_0_1;
 };
 
 // SimpleFileBrowser.FileBrowser/<>c__DisplayClass220_0
@@ -1467,14 +1333,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // System.Byte
 struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
 {
@@ -1487,12 +1345,6 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17
 {
 	// System.Char System.Char::m_value
 	Il2CppChar ___m_value_0;
-};
-
-struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
-{
-	// System.Byte[] System.Char::s_categoryForLatin1
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_categoryForLatin1_3;
 };
 
 // UnityEngine.Color
@@ -1513,20 +1365,6 @@ struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D
 {
 	// System.UInt64 System.DateTime::_dateData
 	uint64_t ____dateData_46;
-};
-
-struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
-{
-	// System.Int32[] System.DateTime::s_daysToMonth365
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
-	// System.Int32[] System.DateTime::s_daysToMonth366
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
-	// System.DateTime System.DateTime::MinValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
-	// System.DateTime System.DateTime::MaxValue
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
-	// System.DateTime System.DateTime::UnixEpoch
-	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
 };
 
 // System.Double
@@ -1598,12 +1436,6 @@ struct IntPtr_t
 	void* ___m_value_0;
 };
 
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
 // UnityEngine.Mathf
 struct Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682 
 {
@@ -1614,12 +1446,6 @@ struct Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682
 		};
 		uint8_t Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682__padding[1];
 	};
-};
-
-struct Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields
-{
-	// System.Single UnityEngine.Mathf::Epsilon
-	float ___Epsilon_0;
 };
 
 // UnityEngine.UI.Navigation
@@ -1724,12 +1550,6 @@ struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefOb
 	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore_3;
 };
 
-struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
-{
-	// System.IO.Stream System.IO.Stream::Null
-	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___Null_1;
-};
-
 // UnityEngine.Vector2
 struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
 {
@@ -1737,26 +1557,6 @@ struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7
 	float ___x_0;
 	// System.Single UnityEngine.Vector2::y
 	float ___y_1;
-};
-
-struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
-{
-	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector_2;
-	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector_3;
-	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector_4;
-	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector_5;
-	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector_6;
-	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector_7;
-	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector_8;
-	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector_9;
 };
 
 // UnityEngine.Vector3
@@ -1770,30 +1570,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2
 	float ___z_4;
 };
 
-struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
-{
-	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector_5;
-	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector_6;
-	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector_7;
-	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector_8;
-	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector_9;
-	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector_10;
-	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector_11;
-	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector_12;
-	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector_13;
-	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector_14;
-};
-
 // UnityEngine.Vector4
 struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
 {
@@ -1805,18 +1581,6 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3
 	float ___z_3;
 	// System.Single UnityEngine.Vector4::w
 	float ___w_4;
-};
-
-struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
-{
-	// UnityEngine.Vector4 UnityEngine.Vector4::zeroVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector_5;
-	// UnityEngine.Vector4 UnityEngine.Vector4::oneVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector_6;
-	// UnityEngine.Vector4 UnityEngine.Vector4::positiveInfinityVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector_7;
-	// UnityEngine.Vector4 UnityEngine.Vector4::negativeInfinityVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector_8;
 };
 
 // System.Void
@@ -1948,14 +1712,6 @@ struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D  : public Runt
 	intptr_t ___proxyObject_1;
 };
 
-struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_StaticFields
-{
-	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaProxy::s_JavaLangSystemClass
-	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___s_JavaLangSystemClass_2;
-	// System.IntPtr UnityEngine.AndroidJavaProxy::s_HashCodeMethodID
-	intptr_t ___s_HashCodeMethodID_3;
-};
-
 // UnityEngine.Bounds
 struct Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 
 {
@@ -2023,12 +1779,6 @@ struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11
 	float ___m_ColorMultiplier_5;
 	// System.Single UnityEngine.UI.ColorBlock::m_FadeDuration
 	float ___m_FadeDuration_6;
-};
-
-struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_StaticFields
-{
-	// UnityEngine.UI.ColorBlock UnityEngine.UI.ColorBlock::defaultColorBlock
-	ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___defaultColorBlock_7;
 };
 
 // UnityEngine.Coroutine
@@ -2149,12 +1899,6 @@ struct Exception_t  : public RuntimeObject
 	// System.Int32 System.Exception::caught_in_unmanaged
 	int32_t ___caught_in_unmanaged_16;
 };
-
-struct Exception_t_StaticFields
-{
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
 // Native definition for P/Invoke marshalling of System.Exception
 struct Exception_t_marshaled_pinvoke
 {
@@ -2199,18 +1943,6 @@ struct Exception_t_marshaled_com
 // SimpleFileBrowser.FileBrowserHelpers
 struct FileBrowserHelpers_t4D2A406D8F1A1DD0935198DFE740E8E72A8FE1D7  : public RuntimeObject
 {
-};
-
-struct FileBrowserHelpers_t4D2A406D8F1A1DD0935198DFE740E8E72A8FE1D7_StaticFields
-{
-	// UnityEngine.AndroidJavaClass SimpleFileBrowser.FileBrowserHelpers::m_ajc
-	AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* ___m_ajc_0;
-	// UnityEngine.AndroidJavaObject SimpleFileBrowser.FileBrowserHelpers::m_context
-	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___m_context_1;
-	// System.String SimpleFileBrowser.FileBrowserHelpers::m_temporaryFilePath
-	String_t* ___m_temporaryFilePath_2;
-	// System.Nullable`1<System.Boolean> SimpleFileBrowser.FileBrowserHelpers::m_shouldUseSAF
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___m_shouldUseSAF_3;
 };
 
 // System.IO.FileStatus
@@ -2281,25 +2013,11 @@ struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8  : public Stream_tF8
 	int64_t ___buf_start_20;
 };
 
-struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
-{
-	// System.Byte[] System.IO.FileStream::buf_recycle
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_recycle_4;
-	// System.Object System.IO.FileStream::buf_recycle_lock
-	RuntimeObject* ___buf_recycle_lock_5;
-};
-
 // UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 {
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
-};
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
@@ -2325,18 +2043,22 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023
 	float ___index_3;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::depth
 	int32_t ___depth_4;
+	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingGroupID
+	int32_t ___sortingGroupID_5;
+	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingGroupOrder
+	int32_t ___sortingGroupOrder_6;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingLayer
-	int32_t ___sortingLayer_5;
+	int32_t ___sortingLayer_7;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::sortingOrder
-	int32_t ___sortingOrder_6;
+	int32_t ___sortingOrder_8;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldPosition
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
 	// UnityEngine.Vector3 UnityEngine.EventSystems.RaycastResult::worldNormal
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
 	// UnityEngine.Vector2 UnityEngine.EventSystems.RaycastResult::screenPosition
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
 	// System.Int32 UnityEngine.EventSystems.RaycastResult::displayIndex
-	int32_t ___displayIndex_10;
+	int32_t ___displayIndex_12;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.EventSystems.RaycastResult
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
@@ -2346,12 +2068,14 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
 	float ___distance_2;
 	float ___index_3;
 	int32_t ___depth_4;
-	int32_t ___sortingLayer_5;
-	int32_t ___sortingOrder_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	int32_t ___displayIndex_10;
+	int32_t ___sortingGroupID_5;
+	int32_t ___sortingGroupOrder_6;
+	int32_t ___sortingLayer_7;
+	int32_t ___sortingOrder_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
+	int32_t ___displayIndex_12;
 };
 // Native definition for COM marshalling of UnityEngine.EventSystems.RaycastResult
 struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
@@ -2361,12 +2085,14 @@ struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
 	float ___distance_2;
 	float ___index_3;
 	int32_t ___depth_4;
-	int32_t ___sortingLayer_5;
-	int32_t ___sortingOrder_6;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_7;
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_8;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_9;
-	int32_t ___displayIndex_10;
+	int32_t ___sortingGroupID_5;
+	int32_t ___sortingGroupOrder_6;
+	int32_t ___sortingLayer_7;
+	int32_t ___sortingOrder_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition_9;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal_10;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition_11;
+	int32_t ___displayIndex_12;
 };
 
 // SimpleFileBrowser.FileBrowser/<>c__DisplayClass242_0
@@ -2424,12 +2150,6 @@ struct Font_tC95270EA3198038970422D78B74A7F2E218A96B6  : public Object_tC12DECB6
 {
 	// UnityEngine.Font/FontTextureRebuildCallback UnityEngine.Font::m_FontTextureRebuildCallback
 	FontTextureRebuildCallback_t76D5E172DF8AA57E67763D453AAC40F0961D09B1* ___m_FontTextureRebuildCallback_5;
-};
-
-struct Font_tC95270EA3198038970422D78B74A7F2E218A96B6_StaticFields
-{
-	// System.Action`1<UnityEngine.Font> UnityEngine.Font::textureRebuilt
-	Action_1_tD91E4D0ED3C2E385D3BDD4B3EA48B5F99D39F1DC* ___textureRebuilt_4;
 };
 
 // UnityEngine.GameObject
@@ -2785,33 +2505,9 @@ struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t019
 {
 };
 
-struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
-{
-	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreCull
-	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull_4;
-	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreRender
-	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender_5;
-	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPostRender
-	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender_6;
-};
-
 // UnityEngine.Canvas
 struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
 {
-};
-
-struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_StaticFields
-{
-	// UnityEngine.Canvas/WillRenderCanvases UnityEngine.Canvas::preWillRenderCanvases
-	WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC* ___preWillRenderCanvases_4;
-	// UnityEngine.Canvas/WillRenderCanvases UnityEngine.Canvas::willRenderCanvases
-	WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC* ___willRenderCanvases_5;
-	// System.Action`1<System.Int32> UnityEngine.Canvas::<externBeginRenderOverlays>k__BackingField
-	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* ___U3CexternBeginRenderOverlaysU3Ek__BackingField_6;
-	// System.Action`2<System.Int32,System.Int32> UnityEngine.Canvas::<externRenderOverlaysBefore>k__BackingField
-	Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* ___U3CexternRenderOverlaysBeforeU3Ek__BackingField_7;
-	// System.Action`1<System.Int32> UnityEngine.Canvas::<externEndRenderOverlays>k__BackingField
-	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* ___U3CexternEndRenderOverlaysU3Ek__BackingField_8;
 };
 
 // UnityEngine.MonoBehaviour
@@ -2822,12 +2518,6 @@ struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behavio
 // UnityEngine.RectTransform
 struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5  : public Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1
 {
-};
-
-struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_StaticFields
-{
-	// UnityEngine.RectTransform/ReapplyDrivenProperties UnityEngine.RectTransform::reapplyDrivenProperties
-	ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24* ___reapplyDrivenProperties_4;
 };
 
 // SimpleFileBrowser.EventSystemHandler
@@ -3039,40 +2729,6 @@ struct FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA  : public MonoBehav
 	OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* ___onCancel_115;
 };
 
-struct FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields
-{
-	// System.Boolean SimpleFileBrowser.FileBrowser::<IsOpen>k__BackingField
-	bool ___U3CIsOpenU3Ek__BackingField_6;
-	// System.Boolean SimpleFileBrowser.FileBrowser::<Success>k__BackingField
-	bool ___U3CSuccessU3Ek__BackingField_7;
-	// System.String[] SimpleFileBrowser.FileBrowser::<Result>k__BackingField
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CResultU3Ek__BackingField_8;
-	// System.Boolean SimpleFileBrowser.FileBrowser::m_askPermissions
-	bool ___m_askPermissions_13;
-	// System.Boolean SimpleFileBrowser.FileBrowser::m_singleClickMode
-	bool ___m_singleClickMode_14;
-	// SimpleFileBrowser.FileBrowser/FileSystemEntryFilter SimpleFileBrowser.FileBrowser::m_displayedEntriesFilter
-	FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* ___m_displayedEntriesFilter_15;
-	// System.Boolean SimpleFileBrowser.FileBrowser::m_showFileOverwriteDialog
-	bool ___m_showFileOverwriteDialog_16;
-	// System.Boolean SimpleFileBrowser.FileBrowser::m_checkWriteAccessToDestinationDirectory
-	bool ___m_checkWriteAccessToDestinationDirectory_17;
-	// System.Single SimpleFileBrowser.FileBrowser::m_drivesRefreshInterval
-	float ___m_drivesRefreshInterval_18;
-	// System.Boolean SimpleFileBrowser.FileBrowser::m_displayHiddenFilesToggle
-	bool ___m_displayHiddenFilesToggle_19;
-	// System.String SimpleFileBrowser.FileBrowser::m_allFilesFilterText
-	String_t* ___m_allFilesFilterText_20;
-	// System.String SimpleFileBrowser.FileBrowser::m_foldersFilterText
-	String_t* ___m_foldersFilterText_21;
-	// System.String SimpleFileBrowser.FileBrowser::m_pickFolderQuickLinkText
-	String_t* ___m_pickFolderQuickLinkText_22;
-	// SimpleFileBrowser.FileBrowser SimpleFileBrowser.FileBrowser::m_instance
-	FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* ___m_instance_23;
-	// System.Boolean SimpleFileBrowser.FileBrowser::quickLinksInitialized
-	bool ___quickLinksInitialized_31;
-};
-
 // SimpleFileBrowser.FileBrowserAccessRestrictedPanel
 struct FileBrowserAccessRestrictedPanel_tC1AAEBE26B66832BCAE1D39CD9DEBDBC5E351F9E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -3239,16 +2895,6 @@ struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707  : public UIBehavio
 	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___m_DummyData_13;
 };
 
-struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_StaticFields
-{
-	// System.Collections.Generic.List`1<UnityEngine.EventSystems.EventSystem> UnityEngine.EventSystems.EventSystem::m_EventSystems
-	List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3* ___m_EventSystems_6;
-	// System.Comparison`1<UnityEngine.EventSystems.RaycastResult> UnityEngine.EventSystems.EventSystem::s_RaycastComparer
-	Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC* ___s_RaycastComparer_14;
-	// UnityEngine.EventSystems.EventSystem/UIToolkitOverrideConfig UnityEngine.EventSystems.EventSystem::s_UIToolkitOverride
-	UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182 ___s_UIToolkitOverride_15;
-};
-
 // SimpleFileBrowser.FileBrowserItem
 struct FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5  : public ListItem_tE112A367BDC021731139C4894491A00F05B295B3
 {
@@ -3291,44 +2937,34 @@ struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_t
 	bool ___m_SkipMaterialUpdate_9;
 	// System.Boolean UnityEngine.UI.Graphic::m_RaycastTarget
 	bool ___m_RaycastTarget_10;
+	// System.Boolean UnityEngine.UI.Graphic::m_RaycastTargetCache
+	bool ___m_RaycastTargetCache_11;
 	// UnityEngine.Vector4 UnityEngine.UI.Graphic::m_RaycastPadding
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding_11;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding_12;
 	// UnityEngine.RectTransform UnityEngine.UI.Graphic::m_RectTransform
-	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform_12;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform_13;
 	// UnityEngine.CanvasRenderer UnityEngine.UI.Graphic::m_CanvasRenderer
-	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer_13;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer_14;
 	// UnityEngine.Canvas UnityEngine.UI.Graphic::m_Canvas
-	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas_14;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas_15;
 	// System.Boolean UnityEngine.UI.Graphic::m_VertsDirty
-	bool ___m_VertsDirty_15;
+	bool ___m_VertsDirty_16;
 	// System.Boolean UnityEngine.UI.Graphic::m_MaterialDirty
-	bool ___m_MaterialDirty_16;
+	bool ___m_MaterialDirty_17;
 	// UnityEngine.Events.UnityAction UnityEngine.UI.Graphic::m_OnDirtyLayoutCallback
-	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback_17;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback_18;
 	// UnityEngine.Events.UnityAction UnityEngine.UI.Graphic::m_OnDirtyVertsCallback
-	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback_18;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback_19;
 	// UnityEngine.Events.UnityAction UnityEngine.UI.Graphic::m_OnDirtyMaterialCallback
-	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback_19;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback_20;
 	// UnityEngine.Mesh UnityEngine.UI.Graphic::m_CachedMesh
-	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh_22;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh_23;
 	// UnityEngine.Vector2[] UnityEngine.UI.Graphic::m_CachedUvs
-	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs_23;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs_24;
 	// UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween> UnityEngine.UI.Graphic::m_ColorTweenRunner
-	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner_24;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner_25;
 	// System.Boolean UnityEngine.UI.Graphic::<useLegacyMeshGeneration>k__BackingField
-	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField_25;
-};
-
-struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
-{
-	// UnityEngine.Material UnityEngine.UI.Graphic::s_DefaultUI
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultUI_4;
-	// UnityEngine.Texture2D UnityEngine.UI.Graphic::s_WhiteTexture
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_WhiteTexture_5;
-	// UnityEngine.Mesh UnityEngine.UI.Graphic::s_Mesh
-	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___s_Mesh_20;
-	// UnityEngine.UI.VertexHelper UnityEngine.UI.Graphic::s_VertexHelper
-	VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___s_VertexHelper_21;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField_26;
 };
 
 // UnityEngine.UI.LayoutElement
@@ -3464,14 +3100,6 @@ struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712  : public UIBehaviou
 	List_1_t2CDCA768E7F493F5EDEBC75AEB200FD621354E35* ___m_CanvasGroupCache_19;
 };
 
-struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712_StaticFields
-{
-	// UnityEngine.UI.Selectable[] UnityEngine.UI.Selectable::s_Selectables
-	SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9* ___s_Selectables_4;
-	// System.Int32 UnityEngine.UI.Selectable::s_SelectableCount
-	int32_t ___s_SelectableCount_5;
-};
-
 // UnityEngine.UI.Button
 struct Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098  : public Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712
 {
@@ -3510,12 +3138,6 @@ struct Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89  : public Selectable_t
 	TweenRunner_1_t830EC096236A3CEC7189DFA6E0B2E74C5C97780B* ___m_AlphaTweenRunner_32;
 	// System.Boolean UnityEngine.UI.Dropdown::validTemplate
 	bool ___validTemplate_33;
-};
-
-struct Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_StaticFields
-{
-	// UnityEngine.UI.Dropdown/OptionData UnityEngine.UI.Dropdown::s_NoOptionData
-	OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* ___s_NoOptionData_35;
 };
 
 // SimpleFileBrowser.FileBrowserQuickLink
@@ -3626,39 +3248,29 @@ struct InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140  : public Selectable
 	Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB* ___m_ProcessingEvent_74;
 };
 
-struct InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_StaticFields
-{
-	// System.Char[] UnityEngine.UI.InputField::kSeparators
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___kSeparators_21;
-	// System.Boolean UnityEngine.UI.InputField::s_IsQuestDeviceEvaluated
-	bool ___s_IsQuestDeviceEvaluated_22;
-	// System.Boolean UnityEngine.UI.InputField::s_IsQuestDevice
-	bool ___s_IsQuestDevice_23;
-};
-
 // UnityEngine.UI.MaskableGraphic
 struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
 {
 	// System.Boolean UnityEngine.UI.MaskableGraphic::m_ShouldRecalculateStencil
-	bool ___m_ShouldRecalculateStencil_26;
+	bool ___m_ShouldRecalculateStencil_27;
 	// UnityEngine.Material UnityEngine.UI.MaskableGraphic::m_MaskMaterial
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial_27;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial_28;
 	// UnityEngine.UI.RectMask2D UnityEngine.UI.MaskableGraphic::m_ParentMask
-	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask_28;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask_29;
 	// System.Boolean UnityEngine.UI.MaskableGraphic::m_Maskable
-	bool ___m_Maskable_29;
+	bool ___m_Maskable_30;
 	// System.Boolean UnityEngine.UI.MaskableGraphic::m_IsMaskingGraphic
-	bool ___m_IsMaskingGraphic_30;
+	bool ___m_IsMaskingGraphic_31;
 	// System.Boolean UnityEngine.UI.MaskableGraphic::m_IncludeForMasking
-	bool ___m_IncludeForMasking_31;
+	bool ___m_IncludeForMasking_32;
 	// UnityEngine.UI.MaskableGraphic/CullStateChangedEvent UnityEngine.UI.MaskableGraphic::m_OnCullStateChanged
-	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged_32;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged_33;
 	// System.Boolean UnityEngine.UI.MaskableGraphic::m_ShouldRecalculate
-	bool ___m_ShouldRecalculate_33;
+	bool ___m_ShouldRecalculate_34;
 	// System.Int32 UnityEngine.UI.MaskableGraphic::m_StencilValue
-	int32_t ___m_StencilValue_34;
+	int32_t ___m_StencilValue_35;
 	// UnityEngine.Vector3[] UnityEngine.UI.MaskableGraphic::m_Corners
-	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners_35;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners_36;
 };
 
 // UnityEngine.UI.Scrollbar
@@ -3709,75 +3321,881 @@ struct Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F  : public Selectable_t32
 struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
 {
 	// UnityEngine.Sprite UnityEngine.UI.Image::m_Sprite
-	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Sprite_37;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Sprite_38;
 	// UnityEngine.Sprite UnityEngine.UI.Image::m_OverrideSprite
-	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_OverrideSprite_38;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_OverrideSprite_39;
 	// UnityEngine.UI.Image/Type UnityEngine.UI.Image::m_Type
-	int32_t ___m_Type_39;
+	int32_t ___m_Type_40;
 	// System.Boolean UnityEngine.UI.Image::m_PreserveAspect
-	bool ___m_PreserveAspect_40;
+	bool ___m_PreserveAspect_41;
 	// System.Boolean UnityEngine.UI.Image::m_FillCenter
-	bool ___m_FillCenter_41;
+	bool ___m_FillCenter_42;
 	// UnityEngine.UI.Image/FillMethod UnityEngine.UI.Image::m_FillMethod
-	int32_t ___m_FillMethod_42;
+	int32_t ___m_FillMethod_43;
 	// System.Single UnityEngine.UI.Image::m_FillAmount
-	float ___m_FillAmount_43;
+	float ___m_FillAmount_44;
 	// System.Boolean UnityEngine.UI.Image::m_FillClockwise
-	bool ___m_FillClockwise_44;
+	bool ___m_FillClockwise_45;
 	// System.Int32 UnityEngine.UI.Image::m_FillOrigin
-	int32_t ___m_FillOrigin_45;
+	int32_t ___m_FillOrigin_46;
 	// System.Single UnityEngine.UI.Image::m_AlphaHitTestMinimumThreshold
-	float ___m_AlphaHitTestMinimumThreshold_46;
+	float ___m_AlphaHitTestMinimumThreshold_47;
 	// System.Boolean UnityEngine.UI.Image::m_Tracked
-	bool ___m_Tracked_47;
+	bool ___m_Tracked_48;
 	// System.Boolean UnityEngine.UI.Image::m_UseSpriteMesh
-	bool ___m_UseSpriteMesh_48;
+	bool ___m_UseSpriteMesh_49;
 	// System.Single UnityEngine.UI.Image::m_PixelsPerUnitMultiplier
-	float ___m_PixelsPerUnitMultiplier_49;
+	float ___m_PixelsPerUnitMultiplier_50;
 	// System.Single UnityEngine.UI.Image::m_CachedReferencePixelsPerUnit
-	float ___m_CachedReferencePixelsPerUnit_50;
-};
-
-struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields
-{
-	// UnityEngine.Material UnityEngine.UI.Image::s_ETC1DefaultUI
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_ETC1DefaultUI_36;
-	// UnityEngine.Vector2[] UnityEngine.UI.Image::s_VertScratch
-	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_VertScratch_51;
-	// UnityEngine.Vector2[] UnityEngine.UI.Image::s_UVScratch
-	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_UVScratch_52;
-	// UnityEngine.Vector3[] UnityEngine.UI.Image::s_Xy
-	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Xy_53;
-	// UnityEngine.Vector3[] UnityEngine.UI.Image::s_Uv
-	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Uv_54;
-	// System.Collections.Generic.List`1<UnityEngine.UI.Image> UnityEngine.UI.Image::m_TrackedTexturelessImages
-	List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* ___m_TrackedTexturelessImages_55;
-	// System.Boolean UnityEngine.UI.Image::s_Initialized
-	bool ___s_Initialized_56;
+	float ___m_CachedReferencePixelsPerUnit_51;
 };
 
 // UnityEngine.UI.Text
 struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
 {
 	// UnityEngine.UI.FontData UnityEngine.UI.Text::m_FontData
-	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData_36;
+	FontData_tB8E562846C6CB59C43260F69AE346B9BF3157224* ___m_FontData_37;
 	// System.String UnityEngine.UI.Text::m_Text
-	String_t* ___m_Text_37;
+	String_t* ___m_Text_38;
 	// UnityEngine.TextGenerator UnityEngine.UI.Text::m_TextCache
-	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache_38;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCache_39;
 	// UnityEngine.TextGenerator UnityEngine.UI.Text::m_TextCacheForLayout
-	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout_39;
+	TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC* ___m_TextCacheForLayout_40;
 	// System.Boolean UnityEngine.UI.Text::m_DisableFontTextureRebuiltCallback
-	bool ___m_DisableFontTextureRebuiltCallback_41;
+	bool ___m_DisableFontTextureRebuiltCallback_42;
 	// UnityEngine.UIVertex[] UnityEngine.UI.Text::m_TempVerts
-	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts_42;
+	UIVertexU5BU5D_tBC532486B45D071A520751A90E819C77BA4E3D2F* ___m_TempVerts_43;
 };
 
+// <Module>
+
+// <Module>
+
+// System.EmptyArray`1<System.Object>
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
+{
+	// T[] System.EmptyArray`1::Value
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Value_0;
+};
+
+// System.EmptyArray`1<System.Object>
+
+// System.Collections.Generic.HashSet`1<System.Char>
+
+// System.Collections.Generic.HashSet`1<System.Char>
+
+// System.Collections.Generic.HashSet`1<System.String>
+
+// System.Collections.Generic.HashSet`1<System.String>
+
+// System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserItem>
+struct List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	FileBrowserItemU5BU5D_tFF3B19E03F981E40DBCAB2BC1836505B117175C7* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserItem>
+
+// System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserQuickLink>
+struct List_1_t417643521992E3A9934A752A70E79B7192BE59ED_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	FileBrowserQuickLinkU5BU5D_tDFAAE04F697C67FC3B6FF336567CD9F9A0D18945* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserQuickLink>
+
+// System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>
+struct List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>
+
+// System.Collections.Generic.List`1<System.Int32>
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.Int32>
+
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.Object>
+
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.String>
+
+// System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>
+struct List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	OptionDataU5BU5D_tF56CF744A9E6A0DBB0AC2072BE52F7C8D2E1947F* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>
+
+// System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowser/Filter>
+struct List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowser/Filter>
+
+// UnityEngine.AndroidJavaObject
+struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_StaticFields
+{
+	// System.Boolean UnityEngine.AndroidJavaObject::enableDebugPrints
+	bool ___enableDebugPrints_0;
+};
+
+// UnityEngine.AndroidJavaObject
+
+// System.Globalization.CompareInfo
+struct CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57_StaticFields
+{
+	// System.Globalization.CompareInfo System.Globalization.CompareInfo::Invariant
+	CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* ___Invariant_4;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Globalization.ISimpleCollator> System.Globalization.CompareInfo::collators
+	Dictionary_2_tFA0E7CD5951B83DD87A65E89D971A68E538F9470* ___collators_10;
+	// System.Boolean System.Globalization.CompareInfo::managedCollation
+	bool ___managedCollation_11;
+	// System.Boolean System.Globalization.CompareInfo::managedCollationChecked
+	bool ___managedCollationChecked_12;
+};
+
+// System.Globalization.CompareInfo
+
+// System.Globalization.CultureInfo
+struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_StaticFields
+{
+	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::invariant_culture_info
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___invariant_culture_info_0;
+	// System.Object System.Globalization.CultureInfo::shared_table_lock
+	RuntimeObject* ___shared_table_lock_1;
+	// System.Globalization.CultureInfo System.Globalization.CultureInfo::default_current_culture
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___default_current_culture_2;
+	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::s_DefaultThreadCurrentUICulture
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentUICulture_34;
+	// System.Globalization.CultureInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Globalization.CultureInfo::s_DefaultThreadCurrentCulture
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_DefaultThreadCurrentCulture_35;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Globalization.CultureInfo> System.Globalization.CultureInfo::shared_by_number
+	Dictionary_2_t9FA6D82CAFC18769F7515BB51D1C56DAE09381C3* ___shared_by_number_36;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Globalization.CultureInfo> System.Globalization.CultureInfo::shared_by_name
+	Dictionary_2_tE1603CE612C16451D1E56FF4D4859D4FE4087C28* ___shared_by_name_37;
+	// System.Globalization.CultureInfo System.Globalization.CultureInfo::s_UserPreferredCultureInfoInAppX
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___s_UserPreferredCultureInfoInAppX_38;
+	// System.Boolean System.Globalization.CultureInfo::IsTaiwanSku
+	bool ___IsTaiwanSku_39;
+};
+
+// System.Globalization.CultureInfo
+
+// System.IO.Path
+struct Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_StaticFields
+{
+	// System.Char[] System.IO.Path::InvalidPathChars
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___InvalidPathChars_0;
+	// System.Char System.IO.Path::AltDirectorySeparatorChar
+	Il2CppChar ___AltDirectorySeparatorChar_1;
+	// System.Char System.IO.Path::DirectorySeparatorChar
+	Il2CppChar ___DirectorySeparatorChar_2;
+	// System.Char System.IO.Path::PathSeparator
+	Il2CppChar ___PathSeparator_3;
+	// System.String System.IO.Path::DirectorySeparatorStr
+	String_t* ___DirectorySeparatorStr_4;
+	// System.Char System.IO.Path::VolumeSeparatorChar
+	Il2CppChar ___VolumeSeparatorChar_5;
+	// System.Char[] System.IO.Path::PathSeparatorChars
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___PathSeparatorChars_6;
+	// System.Boolean System.IO.Path::dirEqualsVolume
+	bool ___dirEqualsVolume_7;
+	// System.Char[] System.IO.Path::trimEndCharsWindows
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___trimEndCharsWindows_8;
+	// System.Char[] System.IO.Path::trimEndCharsUnix
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___trimEndCharsUnix_9;
+};
+
+// System.IO.Path
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// System.Text.StringBuilder
+
+// System.Text.StringBuilder
+
+// UnityEngine.UI.Dropdown/OptionData
+
+// UnityEngine.UI.Dropdown/OptionData
+
+// SimpleFileBrowser.FBDirectoryReceiveCallbackAndroid/<>c__DisplayClass3_0
+
+// SimpleFileBrowser.FBDirectoryReceiveCallbackAndroid/<>c__DisplayClass3_0
+
+// SimpleFileBrowser.FileBrowser/<>c
+struct U3CU3Ec_t6465B650974F0FB45FBE66E11C631E405F31D4F0_StaticFields
+{
+	// SimpleFileBrowser.FileBrowser/<>c SimpleFileBrowser.FileBrowser/<>c::<>9
+	U3CU3Ec_t6465B650974F0FB45FBE66E11C631E405F31D4F0* ___U3CU3E9_0;
+	// System.Comparison`1<SimpleFileBrowser.FileSystemEntry> SimpleFileBrowser.FileBrowser/<>c::<>9__236_0
+	Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209* ___U3CU3E9__236_0_1;
+};
+
+// SimpleFileBrowser.FileBrowser/<>c
+
+// SimpleFileBrowser.FileBrowser/<>c__DisplayClass220_0
+
+// SimpleFileBrowser.FileBrowser/<>c__DisplayClass220_0
+
+// SimpleFileBrowser.FileBrowser/<CreateNewFolderCoroutine>d__241
+
+// SimpleFileBrowser.FileBrowser/<CreateNewFolderCoroutine>d__241
+
+// SimpleFileBrowser.FileBrowser/<WaitForLoadDialog>d__265
+
+// SimpleFileBrowser.FileBrowser/<WaitForLoadDialog>d__265
+
+// SimpleFileBrowser.FileBrowser/<WaitForSaveDialog>d__264
+
+// SimpleFileBrowser.FileBrowser/<WaitForSaveDialog>d__264
+
+// SimpleFileBrowser.FileBrowser/Filter
+
+// SimpleFileBrowser.FileBrowser/Filter
+
+// System.Nullable`1<System.Boolean>
+
+// System.Nullable`1<System.Boolean>
+
+// UnityEngine.Events.UnityEvent`1<System.String>
+
+// UnityEngine.Events.UnityEvent`1<System.String>
+
+// UnityEngine.AndroidJavaClass
+
+// UnityEngine.AndroidJavaClass
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.Byte
+
+// System.Byte
+
+// System.Char
+struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
+{
+	// System.Byte[] System.Char::s_categoryForLatin1
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_categoryForLatin1_3;
+};
+
+// System.Char
+
+// UnityEngine.Color
+
+// UnityEngine.Color
+
+// System.DateTime
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_StaticFields
+{
+	// System.Int32[] System.DateTime::s_daysToMonth365
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth365_30;
+	// System.Int32[] System.DateTime::s_daysToMonth366
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_daysToMonth366_31;
+	// System.DateTime System.DateTime::MinValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MinValue_32;
+	// System.DateTime System.DateTime::MaxValue
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___MaxValue_33;
+	// System.DateTime System.DateTime::UnixEpoch
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___UnixEpoch_34;
+};
+
+// System.DateTime
+
+// System.Double
+
+// System.Double
+
+// SimpleFileBrowser.FileSystemEntry
+
+// SimpleFileBrowser.FileSystemEntry
+
+// System.Int32
+
+// System.Int32
+
+// System.Int64
+
+// System.Int64
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// UnityEngine.Mathf
+struct Mathf_tE284D016E3B297B72311AAD9EB8F0E643F6A4682_StaticFields
+{
+	// System.Single UnityEngine.Mathf::Epsilon
+	float ___Epsilon_0;
+};
+
+// UnityEngine.Mathf
+
+// UnityEngine.SceneManagement.Scene
+
+// UnityEngine.SceneManagement.Scene
+
+// System.Single
+
+// System.Single
+
+// System.IO.Stream
+struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
+{
+	// System.IO.Stream System.IO.Stream::Null
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___Null_1;
+};
+
+// System.IO.Stream
+
+// UnityEngine.Vector2
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector_2;
+	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector_3;
+	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector_4;
+	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector_5;
+	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector_6;
+	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector_7;
+	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector_8;
+	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector_9;
+};
+
+// UnityEngine.Vector2
+
+// UnityEngine.Vector3
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector_5;
+	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector_6;
+	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector_7;
+	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector_8;
+	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector_9;
+	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector_10;
+	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector_11;
+	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector_12;
+	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector_13;
+	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector_14;
+};
+
+// UnityEngine.Vector3
+
+// System.Void
+
+// System.Void
+
+// SimpleFileBrowser.FileBrowser/FiletypeIcon
+
+// SimpleFileBrowser.FileBrowser/FiletypeIcon
+
+// SimpleFileBrowser.FileBrowser/QuickLink
+
+// SimpleFileBrowser.FileBrowser/QuickLink
+
+// UnityEngine.AndroidJavaProxy
+struct AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_StaticFields
+{
+	// UnityEngine.GlobalJavaObjectRef UnityEngine.AndroidJavaProxy::s_JavaLangSystemClass
+	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___s_JavaLangSystemClass_2;
+	// System.IntPtr UnityEngine.AndroidJavaProxy::s_HashCodeMethodID
+	intptr_t ___s_HashCodeMethodID_3;
+};
+
+// UnityEngine.AndroidJavaProxy
+
+// UnityEngine.CharacterInfo
+
+// UnityEngine.CharacterInfo
+
+// UnityEngine.Coroutine
+
+// UnityEngine.Coroutine
+
+// System.Delegate
+
+// System.Delegate
+
+// System.Exception
+struct Exception_t_StaticFields
+{
+	// System.Object System.Exception::s_EDILock
+	RuntimeObject* ___s_EDILock_0;
+};
+
+// System.Exception
+
+// SimpleFileBrowser.FileBrowserHelpers
+struct FileBrowserHelpers_t4D2A406D8F1A1DD0935198DFE740E8E72A8FE1D7_StaticFields
+{
+	// UnityEngine.AndroidJavaClass SimpleFileBrowser.FileBrowserHelpers::m_ajc
+	AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* ___m_ajc_0;
+	// UnityEngine.AndroidJavaObject SimpleFileBrowser.FileBrowserHelpers::m_context
+	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* ___m_context_1;
+	// System.String SimpleFileBrowser.FileBrowserHelpers::m_temporaryFilePath
+	String_t* ___m_temporaryFilePath_2;
+	// System.Nullable`1<System.Boolean> SimpleFileBrowser.FileBrowserHelpers::m_shouldUseSAF
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ___m_shouldUseSAF_3;
+};
+
+// SimpleFileBrowser.FileBrowserHelpers
+
+// System.IO.FileStream
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
+{
+	// System.Byte[] System.IO.FileStream::buf_recycle
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_recycle_4;
+	// System.Object System.IO.FileStream::buf_recycle_lock
+	RuntimeObject* ___buf_recycle_lock_5;
+};
+
+// System.IO.FileStream
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// SimpleFileBrowser.FileBrowser/<>c__DisplayClass242_0
+
+// SimpleFileBrowser.FileBrowser/<>c__DisplayClass242_0
+
+// UnityEngine.UI.InputField/OnChangeEvent
+
+// UnityEngine.UI.InputField/OnChangeEvent
+
+// UnityEngine.Component
+
+// UnityEngine.Component
+
+// SimpleFileBrowser.FBDirectoryReceiveCallbackAndroid
+
+// SimpleFileBrowser.FBDirectoryReceiveCallbackAndroid
+
+// SimpleFileBrowser.FBPermissionCallbackAndroid
+
+// SimpleFileBrowser.FBPermissionCallbackAndroid
+
+// System.IO.FileSystemInfo
+
+// System.IO.FileSystemInfo
+
+// UnityEngine.Font
+struct Font_tC95270EA3198038970422D78B74A7F2E218A96B6_StaticFields
+{
+	// System.Action`1<UnityEngine.Font> UnityEngine.Font::textureRebuilt
+	Action_1_tD91E4D0ED3C2E385D3BDD4B3EA48B5F99D39F1DC* ___textureRebuilt_4;
+};
+
+// UnityEngine.Font
+
+// UnityEngine.GameObject
+
+// UnityEngine.GameObject
+
+// UnityEngine.EventSystems.PointerEventData
+
+// UnityEngine.EventSystems.PointerEventData
+
+// UnityEngine.Sprite
+
+// UnityEngine.Sprite
+
+// System.Comparison`1<SimpleFileBrowser.FileSystemEntry>
+
+// System.Comparison`1<SimpleFileBrowser.FileSystemEntry>
+
+// UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene>
+
+// UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene>
+
+// UnityEngine.Events.UnityAction`1<System.String>
+
+// UnityEngine.Events.UnityAction`1<System.String>
+
+// UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>
+
+// UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>
+
+// System.Action
+
+// System.Action
+
+// System.ArgumentException
+
+// System.ArgumentException
+
+// System.AsyncCallback
+
+// System.AsyncCallback
+
+// UnityEngine.Behaviour
+
+// UnityEngine.Behaviour
+
+// System.IO.DirectoryInfo
+
+// System.IO.DirectoryInfo
+
+// System.IO.FileInfo
+
+// System.IO.FileInfo
+
+// System.NotSupportedException
+
+// System.NotSupportedException
+
+// SimpleFileBrowser.OnItemClickedHandler
+
+// SimpleFileBrowser.OnItemClickedHandler
+
+// UnityEngine.Transform
+
+// UnityEngine.Transform
+
+// SimpleFileBrowser.UISkin
+
+// SimpleFileBrowser.UISkin
+
+// System.UnauthorizedAccessException
+
+// System.UnauthorizedAccessException
+
+// SimpleFileBrowser.FileBrowser/AndroidSAFDirectoryPickCallback
+
+// SimpleFileBrowser.FileBrowser/AndroidSAFDirectoryPickCallback
+
+// SimpleFileBrowser.FileBrowser/FileSystemEntryFilter
+
+// SimpleFileBrowser.FileBrowser/FileSystemEntryFilter
+
+// SimpleFileBrowser.FileBrowser/OnCancel
+
+// SimpleFileBrowser.FileBrowser/OnCancel
+
+// SimpleFileBrowser.FileBrowser/OnSuccess
+
+// SimpleFileBrowser.FileBrowser/OnSuccess
+
+// SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel/OnOperationConfirmed
+
+// SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel/OnOperationConfirmed
+
+// SimpleFileBrowser.FileBrowserRenamedItem/OnRenameCompleted
+
+// SimpleFileBrowser.FileBrowserRenamedItem/OnRenameCompleted
+
+// UnityEngine.UI.InputField/OnValidateInput
+
+// UnityEngine.UI.InputField/OnValidateInput
+
+// UnityEngine.Camera
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreCull
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull_4;
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPreRender
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender_5;
+	// UnityEngine.Camera/CameraCallback UnityEngine.Camera::onPostRender
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender_6;
+};
+
+// UnityEngine.Camera
+
+// UnityEngine.Canvas
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26_StaticFields
+{
+	// UnityEngine.Canvas/WillRenderCanvases UnityEngine.Canvas::preWillRenderCanvases
+	WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC* ___preWillRenderCanvases_4;
+	// UnityEngine.Canvas/WillRenderCanvases UnityEngine.Canvas::willRenderCanvases
+	WillRenderCanvases_tA4A6E66DBA797DCB45B995DBA449A9D1D80D0FBC* ___willRenderCanvases_5;
+	// System.Action`1<System.Int32> UnityEngine.Canvas::<externBeginRenderOverlays>k__BackingField
+	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* ___U3CexternBeginRenderOverlaysU3Ek__BackingField_6;
+	// System.Action`2<System.Int32,System.Int32> UnityEngine.Canvas::<externRenderOverlaysBefore>k__BackingField
+	Action_2_tD7438462601D3939500ED67463331FE00CFFBDB8* ___U3CexternRenderOverlaysBeforeU3Ek__BackingField_7;
+	// System.Action`1<System.Int32> UnityEngine.Canvas::<externEndRenderOverlays>k__BackingField
+	Action_1_tD69A6DC9FBE94131E52F5A73B2A9D4AB51EEC404* ___U3CexternEndRenderOverlaysU3Ek__BackingField_8;
+};
+
+// UnityEngine.Canvas
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.MonoBehaviour
+
+// UnityEngine.RectTransform
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_StaticFields
+{
+	// UnityEngine.RectTransform/ReapplyDrivenProperties UnityEngine.RectTransform::reapplyDrivenProperties
+	ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24* ___reapplyDrivenProperties_4;
+};
+
+// UnityEngine.RectTransform
+
+// SimpleFileBrowser.EventSystemHandler
+
+// SimpleFileBrowser.EventSystemHandler
+
+// SimpleFileBrowser.FBCallbackHelper
+
+// SimpleFileBrowser.FBCallbackHelper
+
+// SimpleFileBrowser.FileBrowser
+struct FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields
+{
+	// System.Boolean SimpleFileBrowser.FileBrowser::<IsOpen>k__BackingField
+	bool ___U3CIsOpenU3Ek__BackingField_6;
+	// System.Boolean SimpleFileBrowser.FileBrowser::<Success>k__BackingField
+	bool ___U3CSuccessU3Ek__BackingField_7;
+	// System.String[] SimpleFileBrowser.FileBrowser::<Result>k__BackingField
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___U3CResultU3Ek__BackingField_8;
+	// System.Boolean SimpleFileBrowser.FileBrowser::m_askPermissions
+	bool ___m_askPermissions_13;
+	// System.Boolean SimpleFileBrowser.FileBrowser::m_singleClickMode
+	bool ___m_singleClickMode_14;
+	// SimpleFileBrowser.FileBrowser/FileSystemEntryFilter SimpleFileBrowser.FileBrowser::m_displayedEntriesFilter
+	FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* ___m_displayedEntriesFilter_15;
+	// System.Boolean SimpleFileBrowser.FileBrowser::m_showFileOverwriteDialog
+	bool ___m_showFileOverwriteDialog_16;
+	// System.Boolean SimpleFileBrowser.FileBrowser::m_checkWriteAccessToDestinationDirectory
+	bool ___m_checkWriteAccessToDestinationDirectory_17;
+	// System.Single SimpleFileBrowser.FileBrowser::m_drivesRefreshInterval
+	float ___m_drivesRefreshInterval_18;
+	// System.Boolean SimpleFileBrowser.FileBrowser::m_displayHiddenFilesToggle
+	bool ___m_displayHiddenFilesToggle_19;
+	// System.String SimpleFileBrowser.FileBrowser::m_allFilesFilterText
+	String_t* ___m_allFilesFilterText_20;
+	// System.String SimpleFileBrowser.FileBrowser::m_foldersFilterText
+	String_t* ___m_foldersFilterText_21;
+	// System.String SimpleFileBrowser.FileBrowser::m_pickFolderQuickLinkText
+	String_t* ___m_pickFolderQuickLinkText_22;
+	// SimpleFileBrowser.FileBrowser SimpleFileBrowser.FileBrowser::m_instance
+	FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* ___m_instance_23;
+	// System.Boolean SimpleFileBrowser.FileBrowser::quickLinksInitialized
+	bool ___quickLinksInitialized_31;
+};
+
+// SimpleFileBrowser.FileBrowser
+
+// SimpleFileBrowser.FileBrowserAccessRestrictedPanel
+
+// SimpleFileBrowser.FileBrowserAccessRestrictedPanel
+
+// SimpleFileBrowser.FileBrowserContextMenu
+
+// SimpleFileBrowser.FileBrowserContextMenu
+
+// SimpleFileBrowser.FileBrowserCursorHandler
+
+// SimpleFileBrowser.FileBrowserCursorHandler
+
+// SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel
+
+// SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel
+
+// SimpleFileBrowser.FileBrowserMovement
+
+// SimpleFileBrowser.FileBrowserMovement
+
+// SimpleFileBrowser.FileBrowserRenamedItem
+
+// SimpleFileBrowser.FileBrowserRenamedItem
+
+// SimpleFileBrowser.ListItem
+
+// SimpleFileBrowser.ListItem
+
+// SimpleFileBrowser.RecycledListView
+
+// SimpleFileBrowser.RecycledListView
+
+// UnityEngine.EventSystems.EventSystem
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_StaticFields
+{
+	// System.Collections.Generic.List`1<UnityEngine.EventSystems.EventSystem> UnityEngine.EventSystems.EventSystem::m_EventSystems
+	List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3* ___m_EventSystems_6;
+	// System.Comparison`1<UnityEngine.EventSystems.RaycastResult> UnityEngine.EventSystems.EventSystem::s_RaycastComparer
+	Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC* ___s_RaycastComparer_14;
+	// UnityEngine.EventSystems.EventSystem/UIToolkitOverrideConfig UnityEngine.EventSystems.EventSystem::s_UIToolkitOverride
+	UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182 ___s_UIToolkitOverride_15;
+};
+
+// UnityEngine.EventSystems.EventSystem
+
+// SimpleFileBrowser.FileBrowserItem
+
+// SimpleFileBrowser.FileBrowserItem
+
+// UnityEngine.UI.Graphic
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
+{
+	// UnityEngine.Material UnityEngine.UI.Graphic::s_DefaultUI
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultUI_4;
+	// UnityEngine.Texture2D UnityEngine.UI.Graphic::s_WhiteTexture
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_WhiteTexture_5;
+	// UnityEngine.Mesh UnityEngine.UI.Graphic::s_Mesh
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___s_Mesh_21;
+	// UnityEngine.UI.VertexHelper UnityEngine.UI.Graphic::s_VertexHelper
+	VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___s_VertexHelper_22;
+};
+
+// UnityEngine.UI.Graphic
+
+// UnityEngine.UI.LayoutElement
+
+// UnityEngine.UI.LayoutElement
+
+// UnityEngine.UI.ScrollRect
+
+// UnityEngine.UI.ScrollRect
+
+// UnityEngine.UI.Selectable
+struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712_StaticFields
+{
+	// UnityEngine.UI.Selectable[] UnityEngine.UI.Selectable::s_Selectables
+	SelectableU5BU5D_t4160E135F02A40F75A63F787D36F31FEC6FE91A9* ___s_Selectables_4;
+	// System.Int32 UnityEngine.UI.Selectable::s_SelectableCount
+	int32_t ___s_SelectableCount_5;
+};
+
+// UnityEngine.UI.Selectable
+
+// UnityEngine.UI.Button
+
+// UnityEngine.UI.Button
+
+// UnityEngine.UI.Dropdown
+struct Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89_StaticFields
+{
+	// UnityEngine.UI.Dropdown/OptionData UnityEngine.UI.Dropdown::s_NoOptionData
+	OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* ___s_NoOptionData_35;
+};
+
+// UnityEngine.UI.Dropdown
+
+// SimpleFileBrowser.FileBrowserQuickLink
+
+// SimpleFileBrowser.FileBrowserQuickLink
+
+// UnityEngine.UI.InputField
+struct InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140_StaticFields
+{
+	// System.Char[] UnityEngine.UI.InputField::kSeparators
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___kSeparators_21;
+	// System.Boolean UnityEngine.UI.InputField::s_IsQuestDeviceEvaluated
+	bool ___s_IsQuestDeviceEvaluated_22;
+	// System.Boolean UnityEngine.UI.InputField::s_IsQuestDevice
+	bool ___s_IsQuestDevice_23;
+};
+
+// UnityEngine.UI.InputField
+
+// UnityEngine.UI.Scrollbar
+
+// UnityEngine.UI.Scrollbar
+
+// UnityEngine.UI.Toggle
+
+// UnityEngine.UI.Toggle
+
+// UnityEngine.UI.Image
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields
+{
+	// UnityEngine.Material UnityEngine.UI.Image::s_ETC1DefaultUI
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_ETC1DefaultUI_37;
+	// UnityEngine.Vector2[] UnityEngine.UI.Image::s_VertScratch
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_VertScratch_52;
+	// UnityEngine.Vector2[] UnityEngine.UI.Image::s_UVScratch
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_UVScratch_53;
+	// UnityEngine.Vector3[] UnityEngine.UI.Image::s_Xy
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Xy_54;
+	// UnityEngine.Vector3[] UnityEngine.UI.Image::s_Uv
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Uv_55;
+	// System.Collections.Generic.List`1<UnityEngine.UI.Image> UnityEngine.UI.Image::m_TrackedTexturelessImages
+	List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* ___m_TrackedTexturelessImages_56;
+	// System.Boolean UnityEngine.UI.Image::s_Initialized
+	bool ___s_Initialized_57;
+};
+
+// UnityEngine.UI.Image
+
+// UnityEngine.UI.Text
 struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62_StaticFields
 {
 	// UnityEngine.Material UnityEngine.UI.Text::s_DefaultText
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText_40;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultText_41;
 };
+
+// UnityEngine.UI.Text
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -4355,45 +4773,45 @@ IL2CPP_EXTERN_C void FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m
 // T UnityEngine.GameObject::AddComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,System.Int32Enum>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_2__ctor_m7445B0F04ECB8542147C3C9B963A792140CFAD0A_gshared (UnityAction_2_tF47D82C7E3C3B118B409866D926435B55A0675BD* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_2__ctor_m7445B0F04ECB8542147C3C9B963A792140CFAD0A_gshared (UnityAction_2_tF47D82C7E3C3B118B409866D926435B55A0675BD* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m3D196ADE59DE13B9FDC5D827B1A6D00CBEF1F6DF_gshared (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m3D196ADE59DE13B9FDC5D827B1A6D00CBEF1F6DF_gshared (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::set_Item(System.Int32,T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_set_Item_m3C58DBC69A321AF2826595584FF3E9F43C07EA56_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, RuntimeObject* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_set_Item_m3C58DBC69A321AF2826595584FF3E9F43C07EA56_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
 // T UnityEngine.Resources::Load<System.Object>(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Resources_Load_TisRuntimeObject_m8B40A11CE62A4E445DADC28C81BD73922A4D4B65_gshared (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Resources_Load_TisRuntimeObject_mD1AF6299B14F87ED1D1A6199A51480919F7C79D7_gshared (String_t* ___0_path, const RuntimeMethod* method) ;
 // T UnityEngine.Object::Instantiate<System.Object>(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_mCD6FC6BB14BA9EF1A4B314841EB4D40675E3C1DB_gshared (RuntimeObject* ___original0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m90A1E6C4C2B445D2E848DB75C772D1B95AAC046A_gshared (RuntimeObject* ___0_original, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::GetComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::RemoveAt(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::Add(T)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.List`1<System.Int32>::Contains(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___item0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<System.Object>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared (UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityEvent`1<System.Object>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___call0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205* __this, UnityAction_1_t9C30BCD020745BF400CBACF22C6F34ADBA2DDA6A* ___0_call, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.HashSet`1<System.Char>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_mD29D3E8CAEB61AF816E7BEFCEF45BEC2159581B6_gshared (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A* __this, RuntimeObject* ___collection0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_mD29D3E8CAEB61AF816E7BEFCEF45BEC2159581B6_gshared (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.HashSet`1<System.Char>::Add(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_mC54C49D2322343A65275FF0C6DCCA0948B6AD12A_gshared (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A* __this, Il2CppChar ___item0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_mC54C49D2322343A65275FF0C6DCCA0948B6AD12A_gshared (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A* __this, Il2CppChar ___0_item, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>::get_Count()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mDA7F3CFCF6F2A8790207DA9B92F27D27C864EC87_gshared_inline (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, const RuntimeMethod* method) ;
 // T UnityEngine.Object::Instantiate<System.Object>(T,UnityEngine.Transform,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m8784E2833D9F115FD2B2BED6615426E8CD75EE9B_gshared (RuntimeObject* ___original0, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___parent1, bool ___worldPositionStays2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_mDC5AD8BD13FE50E98B67B956C048367F4E8C6F94_gshared (RuntimeObject* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, bool ___2_worldPositionStays, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>::get_Item(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 List_1_get_Item_m7AB15058368BF77621066E5E28167546E7B9ED33_gshared (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 List_1_get_Item_m7AB15058368BF77621066E5E28167546E7B9ED33_gshared (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::CallStatic<System.Object>(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_CallStatic_TisRuntimeObject_mCAFE27630F6092C4910E14592B050DACFCBE146F_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_CallStatic_TisRuntimeObject_mCAFE27630F6092C4910E14592B050DACFCBE146F_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // T[] System.Collections.Generic.List`1<System.Object>::ToArray()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* List_1_ToArray_mD7E4F8E7C11C3C67CB5739FCC0A6E86106A6291F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::Clear()
@@ -4403,80 +4821,80 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mF590592
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>::Clear()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_mF9022804554FAA8ABB71A8058BE83E8A30494B9E_gshared_inline (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<System.Int32>::get_Item(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>::Add(T)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m2C3311361907002ECD4E970B1F066439FF7B428C_gshared_inline (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___item0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m2C3311361907002ECD4E970B1F066439FF7B428C_gshared_inline (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_item, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.List`1<System.Object>::Contains(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Contains_m4C9139C2A6B23E9343D3F87807B32C6E2CFE660D_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Contains_m4C9139C2A6B23E9343D3F87807B32C6E2CFE660D_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Int32>::Clear()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Int32>::Add(T)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___item0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.List`1<System.Int32>::Remove(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___item0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Int32>::RemoveAt(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // System.Void System.Comparison`1<SimpleFileBrowser.FileSystemEntry>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Comparison_1__ctor_m47C787D870830DB2586F410E427EC96FCE4B5AED_gshared (Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Comparison_1__ctor_m47C787D870830DB2586F410E427EC96FCE4B5AED_gshared (Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void System.Array::Sort<SimpleFileBrowser.FileSystemEntry>(T[],System.Comparison`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Sort_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_mFFCF29E1AD96ED471A0799EC2696D62213C3E581_gshared (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* ___array0, Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209* ___comparison1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Sort_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m4470317FB5DC2D24D13772410A0CB87E3AC31ED4_gshared (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* ___0_array, Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209* ___1_comparison, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Contains(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Contains_m9BACE52BFA0BD83C601529D3629118453E459BBB_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Contains_m9BACE52BFA0BD83C601529D3629118453E459BBB_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Add(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Int32>::Sort()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Sort_m6DA897B8E2A3434A84E3529FE9850B2773D88B65_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.HashSet`1<System.Char>::Contains(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Contains_mE60FDE27327895B50551345B5D75DFDD5349801B_gshared (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A* __this, Il2CppChar ___item0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HashSet_1_Contains_mE60FDE27327895B50551345B5D75DFDD5349801B_gshared (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A* __this, Il2CppChar ___0_item, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::Clear()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1_Clear_m75A6528F0B47448EB3B3A05EC379260E9BDFC2DD_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m76CBBC3E2F0583F5AD30CE592CEA1225C06A0428_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___capacity0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m76CBBC3E2F0583F5AD30CE592CEA1225C06A0428_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_capacity, const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::CallStatic<System.Int32>(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidJavaObject_CallStatic_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m6619B03C8DA4F5A66785845A2E5B39DAEF36642A_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidJavaObject_CallStatic_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m6619B03C8DA4F5A66785845A2E5B39DAEF36642A_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m0BAC45BE7CBFF878268B4811C4BF318D7AB9E142_gshared (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Int32>::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___capacity0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_capacity, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m1CB6B0F85D9BF954C38F5641E23FC96E7496C67E_gshared (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, int32_t ___capacity0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m1CB6B0F85D9BF954C38F5641E23FC96E7496C67E_gshared (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, int32_t ___0_capacity, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_mC13D3ADFE27A073EC3C583E9C926C801A7EE1DDD_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___collection0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HashSet_1__ctor_mC13D3ADFE27A073EC3C583E9C926C801A7EE1DDD_gshared (HashSet_1_t2F33BEB06EEA4A872E2FAF464382422AA39AE885* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponentInChildren<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInChildren_TisRuntimeObject_mE483A27E876DE8E4E6901D6814837F81D7C42F65_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // FieldType UnityEngine.AndroidJavaObject::GetStatic<System.Object>(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, const RuntimeMethod* method) ;
 // System.Boolean System.Nullable`1<System.Boolean>::get_HasValue()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m6B76D139692C43B2AF7C695FAB044B16ACFAF355_gshared_inline (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, const RuntimeMethod* method) ;
 // T[] System.Array::Empty<System.Object>()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::CallStatic<System.Boolean>(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.Void System.Nullable`1<System.Boolean>::.ctor(T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_gshared (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_gshared (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, bool ___0_value, const RuntimeMethod* method) ;
 // T System.Nullable`1<System.Boolean>::get_Value()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Nullable_1_get_Value_mE2C54C6AE9FC9F05BF44CD9D7D61DC6CD56E3E28_gshared (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, const RuntimeMethod* method) ;
 // System.Void System.Array::Resize<SimpleFileBrowser.FileSystemEntry>(T[]&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_mD159D1D60050433780B1582642F59737D1924253_gshared (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9** ___array0, int32_t ___newSize1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Resize_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m4E061A33E0B1F92504D300F1AFD62BC7D9AE4A49_gshared (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9** ___0_array, int32_t ___1_newSize, const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::CallStatic<System.Int64>(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t AndroidJavaObject_CallStatic_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m2FC8ACAFE956D789EAA03558DC9E281FA48D6243_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t AndroidJavaObject_CallStatic_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m2FC8ACAFE956D789EAA03558DC9E281FA48D6243_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 
 // UnityEngine.GameObject UnityEngine.Component::get_gameObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Object::DontDestroyOnLoad(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m303AA1C4DC810349F285B4809E426CBBA8F834F9 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___target0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_target, const RuntimeMethod* method) ;
 // System.Void System.Action::Invoke()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaProxy::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7 (AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D* __this, String_t* ___javaInterface0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7 (AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D* __this, String_t* ___0_javaInterface, const RuntimeMethod* method) ;
 // System.Void UnityEngine.GameObject::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___name0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___0_name, const RuntimeMethod* method) ;
 // T UnityEngine.GameObject::AddComponent<SimpleFileBrowser.FBCallbackHelper>()
 inline FBCallbackHelper_t7E0F7B187D1D7635420FD5B8DF1A821A180496DC* GameObject_AddComponent_TisFBCallbackHelper_t7E0F7B187D1D7635420FD5B8DF1A821A180496DC_mF23A4C73E4178F61EA4086B79F08F2DB7485CD85 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
@@ -4485,138 +4903,138 @@ inline FBCallbackHelper_t7E0F7B187D1D7635420FD5B8DF1A821A180496DC* GameObject_Ad
 // System.Void SimpleFileBrowser.FBDirectoryReceiveCallbackAndroid/<>c__DisplayClass3_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass3_0__ctor_m0BADEE0ADB0246B3F2BB0DB75DE189CA168C75BD (U3CU3Ec__DisplayClass3_0_t6F14BCAA484AC8DE9FDC3F55B6F310B903EA9746* __this, const RuntimeMethod* method) ;
 // System.Void System.Action::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FBCallbackHelper::CallOnMainThread(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBCallbackHelper_CallOnMainThread_mCFB59901F4D4D308596392B29037EAD8676AF5A0 (FBCallbackHelper_t7E0F7B187D1D7635420FD5B8DF1A821A180496DC* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___function0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBCallbackHelper_CallOnMainThread_mCFB59901F4D4D308596392B29037EAD8676AF5A0 (FBCallbackHelper_t7E0F7B187D1D7635420FD5B8DF1A821A180496DC* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_function, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___obj0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser/AndroidSAFDirectoryPickCallback::Invoke(System.String,System.String)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_inline (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___rawUri0, String_t* ___name1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_inline (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___0_rawUri, String_t* ___1_name, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FBDirectoryReceiveCallbackAndroid::DirectoryPickedCallback(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBDirectoryReceiveCallbackAndroid_DirectoryPickedCallback_m344B80A0B24256B298D30EA30292F9FB3B9F6680 (FBDirectoryReceiveCallbackAndroid_t24BD96193D84DEE13F2849FE3EACD73546AAB1AC* __this, String_t* ___rawUri0, String_t* ___name1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBDirectoryReceiveCallbackAndroid_DirectoryPickedCallback_m344B80A0B24256B298D30EA30292F9FB3B9F6680 (FBDirectoryReceiveCallbackAndroid_t24BD96193D84DEE13F2849FE3EACD73546AAB1AC* __this, String_t* ___0_rawUri, String_t* ___1_name, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FBPermissionCallbackAndroid::set_Result(System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FBPermissionCallbackAndroid_set_Result_m98B5F4B6CD64D49741C20A10D71EA84C9EAC2B2C_inline (FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FBPermissionCallbackAndroid_set_Result_m98B5F4B6CD64D49741C20A10D71EA84C9EAC2B2C_inline (FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Threading.Monitor::Exit(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9 (RuntimeObject* ___obj0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 // System.Void System.Threading.Monitor::Enter(System.Object,System.Boolean&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4 (RuntimeObject* ___obj0, bool* ___lockTaken1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149 (RuntimeObject* ___0_obj, bool* ___1_lockTaken, const RuntimeMethod* method) ;
 // System.Void System.Threading.Monitor::Pulse(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Pulse_mCCD5C110AC8E4CD538E367C3414CA4E93F045419 (RuntimeObject* ___obj0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Pulse_mA8279943D6C2913ADFAF661E35C4951BDFACE43D (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041 (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041 (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_2__ctor_m7445B0F04ECB8542147C3C9B963A792140CFAD0A_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_2__ctor_m7445B0F04ECB8542147C3C9B963A792140CFAD0A_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.SceneManagement.SceneManager::remove_sceneLoaded(UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_remove_sceneLoaded_m8840CC33052C4A09A52BF927C3738A7B66783155 (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_remove_sceneLoaded_m72A7C2A1B8EF1C21A208A9A015375577768B3978 (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.SceneManagement.SceneManager::add_sceneLoaded(UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_add_sceneLoaded_mDE45940CCEC5D17EB92EB76DB8931E5483FBCD2C (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_add_sceneLoaded_m14BEBCC5E4A8DD2C806A48D79A4773315CB434C6 (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_1__ctor_m3D196ADE59DE13B9FDC5D827B1A6D00CBEF1F6DF (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_1__ctor_m3D196ADE59DE13B9FDC5D827B1A6D00CBEF1F6DF (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m3D196ADE59DE13B9FDC5D827B1A6D00CBEF1F6DF_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m3D196ADE59DE13B9FDC5D827B1A6D00CBEF1F6DF_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.SceneManagement.SceneManager::remove_sceneUnloaded(UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_remove_sceneUnloaded_mAE3FCD9113413A6B067527A0D2B01525CC5D631A (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_remove_sceneUnloaded_m2CACDB3F47DED2C92E6AA1912906F7E2C61424EB (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.SceneManagement.SceneManager::add_sceneUnloaded(UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_add_sceneUnloaded_mDFA2FD86D583E308417C3FF7753C92AAE11B99FA (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_add_sceneUnloaded_mC3BAE77FFFA0DBA3F6EE3303CA78400A3932F029 (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* ___0_value, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.EventSystemHandler::ActivateEventSystemIfNeeded()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_ActivateEventSystemIfNeeded_m26897A9709E138E297D0E26B6B8078E91460E2DC (EventSystemHandler_t7CB535E10532BE6E9DCEDDC52077F858ED29124C* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.EventSystemHandler::DeactivateEventSystem()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_DeactivateEventSystem_mB3B40342307C76CD9B05C23F771E973A0E5CA36E (EventSystemHandler_t7CB535E10532BE6E9DCEDDC52077F858ED29124C* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___exists0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
 // UnityEngine.EventSystems.EventSystem UnityEngine.EventSystems.EventSystem::get_current()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* EventSystem_get_current_mD15EA86304E070D175EF359A051A7DB807CA26C0 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.GameObject::SetActive(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
 // SimpleFileBrowser.FileBrowser SimpleFileBrowser.FileBrowser::get_Instance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF (const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // System.Int32 SimpleFileBrowser.UISkin::get_Version()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UISkin_get_Version_mDAF7A3DD2F270AF0E34DB56BE95481EFEBE3D150 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::RefreshSkin()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshSkin_mB4CF280DFD76B5963B1957FDC4C5D1C7630606DC (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::PersistFileEntrySelection()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_PersistFileEntrySelection_m539A9413D6681B3BA6FE5A474F255CD1F282CA93 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::RefreshFiles(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshFiles_m14E4ABD98486CB7DDAD461D233295B6DA37ED763 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___pathChanged0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshFiles_m14E4ABD98486CB7DDAD461D233295B6DA37ED763 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___0_pathChanged, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.UI.Toggle::get_isOn()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Toggle_get_isOn_m89A609E936CD67F460E336CA8E03C4047BFB6619 (Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.Toggle::set_isOn(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F (Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F (Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* __this, bool ___0_value, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 UnityEngine.RectTransform::get_sizeDelta()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowserHelpers::get_ShouldUseSAF()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B (const RuntimeMethod* method) ;
 // System.Boolean System.String::op_Inequality(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Inequality_m0FBE5AC4931D312E5B347BAA603755676E6DA2FE (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser/Filter::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m1A2EDFD7D15168A8C473A0F6760D6643200DCDBE (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* __this, String_t* ___name0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m1A2EDFD7D15168A8C473A0F6760D6643200DCDBE (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* __this, String_t* ___0_name, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowser/Filter>::get_Count()
 inline int32_t List_1_get_Count_mD22594E83E5DD6B4CF57A4300EC96408D374F2EA_inline (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* __this, const RuntimeMethod* method)
 {
 	return ((  int32_t (*) (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
 }
 // T System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowser/Filter>::get_Item(System.Int32)
-inline Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* List_1_get_Item_m76C7E4C255FB6735CEA4DC543B6FBC137E8374E8 (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* __this, int32_t ___index0, const RuntimeMethod* method)
+inline Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* List_1_get_Item_m76C7E4C255FB6735CEA4DC543B6FBC137E8374E8 (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	return ((  Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* (*) (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___index0, method);
+	return ((  Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* (*) (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowser/Filter>::set_Item(System.Int32,T)
-inline void List_1_set_Item_m6ED635462BA2E138C5F001935BA25ADA1FA052F7 (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* __this, int32_t ___index0, Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* ___value1, const RuntimeMethod* method)
+inline void List_1_set_Item_m6ED635462BA2E138C5F001935BA25ADA1FA052F7 (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* __this, int32_t ___0_index, Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* ___1_value, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916*, int32_t, Filter_t33B81718659A91E455B1B65C329FC191DC6792BB*, const RuntimeMethod*))List_1_set_Item_m3C58DBC69A321AF2826595584FF3E9F43C07EA56_gshared)(__this, ___index0, ___value1, method);
+	((  void (*) (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916*, int32_t, Filter_t33B81718659A91E455B1B65C329FC191DC6792BB*, const RuntimeMethod*))List_1_set_Item_m3C58DBC69A321AF2826595584FF3E9F43C07EA56_gshared)(__this, ___0_index, ___1_value, method);
 }
 // System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> UnityEngine.UI.Dropdown::get_options()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55* Dropdown_get_options_m30F757DBA22980CB77DADB8315207D5B87307816 (Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>::get_Item(System.Int32)
-inline OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* List_1_get_Item_m6248FAA3EA9E9148D0E784C78FA4B1F5FFDD6366 (List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55* __this, int32_t ___index0, const RuntimeMethod* method)
+inline OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* List_1_get_Item_m6248FAA3EA9E9148D0E784C78FA4B1F5FFDD6366 (List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	return ((  OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* (*) (List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___index0, method);
+	return ((  OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* (*) (List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
 // System.String UnityEngine.UI.Dropdown/OptionData::get_text()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* OptionData_get_text_m147C3EFE4B7D157914D2C6CF653B32CE2D987AF1 (OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* __this, const RuntimeMethod* method) ;
 // System.Boolean System.String::op_Equality(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0 (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.Dropdown/OptionData::set_text(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OptionData_set_text_mA6022A455FC38025B0CA97B4E3629DA10FDE259E (OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OptionData_set_text_mA6022A455FC38025B0CA97B4E3629DA10FDE259E (OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.Dropdown::RefreshShownValue()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dropdown_RefreshShownValue_mA112A95E8653859FC2B6C2D0CC89660D36E8970E (Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserQuickLink>::get_Item(System.Int32)
-inline FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* List_1_get_Item_m040132F98E0DE21F6E8DFB0783B327D964E21CFE (List_1_t417643521992E3A9934A752A70E79B7192BE59ED* __this, int32_t ___index0, const RuntimeMethod* method)
+inline FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* List_1_get_Item_m040132F98E0DE21F6E8DFB0783B327D964E21CFE (List_1_t417643521992E3A9934A752A70E79B7192BE59ED* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	return ((  FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* (*) (List_1_t417643521992E3A9934A752A70E79B7192BE59ED*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___index0, method);
+	return ((  FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* (*) (List_1_t417643521992E3A9934A752A70E79B7192BE59ED*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
 // System.String SimpleFileBrowser.FileBrowserQuickLink::get_TargetPath()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserQuickLink_get_TargetPath_mFF4A822E3C9FFDE3F531E1376E6B1797D64AD756 (FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* __this, const RuntimeMethod* method) ;
 // SimpleFileBrowser.UISkin SimpleFileBrowser.FileBrowser::get_Skin()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* FileBrowser_get_Skin_mF5E5790CDB02A70F885B319526F5FA5C8B4A518F (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* FileBrowser_get_Skin_m7E7753130935B8B694D77618B7F1C8E53707EB27 (const RuntimeMethod* method) ;
 // UnityEngine.Sprite SimpleFileBrowser.UISkin::get_DriveIcon()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* UISkin_get_DriveIcon_mBEEB8049F062992480B4CDE6D40762778981EB6A (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserQuickLink::SetQuickLink(UnityEngine.Sprite,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserQuickLink_SetQuickLink_mCA309400C8524097232B24883F14BAFE92D0C900 (FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___icon0, String_t* ___name1, String_t* ___targetPath2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserQuickLink_SetQuickLink_mCA309400C8524097232B24883F14BAFE92D0C900 (FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_icon, String_t* ___1_name, String_t* ___2_targetPath, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserQuickLink>::get_Count()
 inline int32_t List_1_get_Count_m7BDC3D70BE4C6520A918D33714E3B3CDAF262800_inline (List_1_t417643521992E3A9934A752A70E79B7192BE59ED* __this, const RuntimeMethod* method)
 {
 	return ((  int32_t (*) (List_1_t417643521992E3A9934A752A70E79B7192BE59ED*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
 }
 // T UnityEngine.Resources::Load<UnityEngine.GameObject>(System.String)
-inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Resources_Load_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mCEBDEACE7062C5E4C71A9146FE8B42C9D5797720 (String_t* ___path0, const RuntimeMethod* method)
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Resources_Load_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m496A3B1B60A28F5E0397043974B848C9157B625A (String_t* ___0_path, const RuntimeMethod* method)
 {
-	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_m8B40A11CE62A4E445DADC28C81BD73922A4D4B65_gshared)(___path0, method);
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (String_t*, const RuntimeMethod*))Resources_Load_TisRuntimeObject_mD1AF6299B14F87ED1D1A6199A51480919F7C79D7_gshared)(___0_path, method);
 }
 // T UnityEngine.Object::Instantiate<UnityEngine.GameObject>(T)
-inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mC898F7E3D9541F17BD8B79579FDD431C0651E12D (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___original0, const RuntimeMethod* method)
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, const RuntimeMethod* method)
 {
-	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_mCD6FC6BB14BA9EF1A4B314841EB4D40675E3C1DB_gshared)(___original0, method);
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m90A1E6C4C2B445D2E848DB75C772D1B95AAC046A_gshared)(___0_original, method);
 }
 // T UnityEngine.GameObject::GetComponent<SimpleFileBrowser.FileBrowser>()
 inline FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* GameObject_GetComponent_TisFileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_mC3A14066D52C09B711783636CBEF57340CBC7189 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
@@ -4628,19 +5046,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UISkin_get_AllIconExtensionsHaveSingleSu
 // System.String System.String::Trim()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5 (String_t* __this, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowserHelpers::ShouldUseSAFForPath(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.String SimpleFileBrowser.FileBrowser::GetPathWithoutTrailingDirectorySeparator(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetPathWithoutTrailingDirectorySeparator_m56DF6CC3E788CE233690E42B4878B6D45E5F4B21 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetPathWithoutTrailingDirectorySeparator_m56DF6CC3E788CE233690E42B4878B6D45E5F4B21 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Boolean System.String::IsNullOrEmpty(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A (String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.InputField::set_text(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowserHelpers::DirectoryExists(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_DirectoryExists_m34D0C75C33EABE4964762FC0C9B8B8446FF6C335 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_DirectoryExists_m31B7C5281BA37017E49D68D3CA92DAC455862164 (String_t* ___0_path, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<System.String>::get_Item(System.Int32)
-inline String_t* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___index0, const RuntimeMethod* method)
+inline String_t* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	return ((  String_t* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___index0, method);
+	return ((  String_t* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
 // System.Int32 System.Collections.Generic.List`1<System.String>::get_Count()
 inline int32_t List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
@@ -4648,57 +5066,57 @@ inline int32_t List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline
 	return ((  int32_t (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
 }
 // System.Void System.Collections.Generic.List`1<System.String>::set_Item(System.Int32,T)
-inline void List_1_set_Item_m6A72B7648178616800F05C13DB492E4EDB866B7C (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___index0, String_t* ___value1, const RuntimeMethod* method)
+inline void List_1_set_Item_m6A72B7648178616800F05C13DB492E4EDB866B7C (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___0_index, String_t* ___1_value, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, String_t*, const RuntimeMethod*))List_1_set_Item_m3C58DBC69A321AF2826595584FF3E9F43C07EA56_gshared)(__this, ___index0, ___value1, method);
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, String_t*, const RuntimeMethod*))List_1_set_Item_m3C58DBC69A321AF2826595584FF3E9F43C07EA56_gshared)(__this, ___0_index, ___1_value, method);
 }
 // System.Void System.Collections.Generic.List`1<System.String>::RemoveAt(System.Int32)
-inline void List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___index0, const RuntimeMethod* method)
+inline void List_1_RemoveAt_m031D3A21689276A872FCA7566C8F2F79F9581F0D (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___index0, method);
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___0_index, method);
 }
 // System.Void System.Collections.Generic.List`1<System.String>::Add(T)
-inline void List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___item0, const RuntimeMethod* method)
+inline void List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___0_item, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___item0, method);
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
 }
 // System.Void UnityEngine.UI.Selectable::set_interactable(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492 (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492 (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, bool ___0_value, const RuntimeMethod* method) ;
 // System.String SimpleFileBrowser.FileBrowserHelpers::GetDirectoryName(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_GetDirectoryName_m6342C65603EF0B25E2C2382773027263E5AB1817 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_GetDirectoryName_mDA870C6C80FBDDB0E3F5F5AED86AB28207BBB7F4 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.IO.DirectoryInfo System.IO.Directory::GetParent(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* Directory_GetParent_m2BB7C00349FB9BC0E79725723B451A7F75E941C8 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* Directory_GetParent_mDD1F4DD5F95A5D6676009FB76E5016EDD127FFB2 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.ScrollRect::set_verticalNormalizedPosition(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollRect_set_verticalNormalizedPosition_m4AF461113925E6710BF04F46A49CF1F856F7738C (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollRect_set_verticalNormalizedPosition_m4AF461113925E6710BF04F46A49CF1F856F7738C (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, float ___0_value, const RuntimeMethod* method) ;
 // UnityEngine.Color SimpleFileBrowser.UISkin::get_InputFieldNormalBackgroundColor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F UISkin_get_InputFieldNormalBackgroundColor_m3F438650067F2332CD8726F3EC1F902D374AFFDD (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, const RuntimeMethod* method) ;
 // System.Int32 System.String::LastIndexOf(System.Char)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_LastIndexOf_m6BB3E7E1B48702D4C715FA423F8A822C053B290E (String_t* __this, Il2CppChar ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_LastIndexOf_m6BB3E7E1B48702D4C715FA423F8A822C053B290E (String_t* __this, Il2CppChar ___0_value, const RuntimeMethod* method) ;
 // System.String System.String::Substring(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472 (String_t* __this, int32_t ___startIndex0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472 (String_t* __this, int32_t ___0_startIndex, const RuntimeMethod* method) ;
 // System.Boolean System.String::EndsWith(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_EndsWith_mCD3754F5401E19CE7821CD398986E4EAA6AD87DC (String_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_EndsWith_mCD3754F5401E19CE7821CD398986E4EAA6AD87DC (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserItem::SetSelected(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserItem_SetSelected_mD98A715E8753CAAC93243CE7E865BB3E981FE3BB (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* __this, bool ___isSelected0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserItem_SetSelected_mD98A715E8753CAAC93243CE7E865BB3E981FE3BB (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* __this, bool ___0_isSelected, const RuntimeMethod* method) ;
 // System.String SimpleFileBrowser.FileBrowser::get_FoldersFilterText()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_FoldersFilterText_mA3D49D59F8F4FB8D7DD400B783872F0505785FA5 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_FoldersFilterText_m4901CABD7A9CF855638B1BC8134B8C4BBF6952EA (const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.Dropdown::set_value(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dropdown_set_value_m0764A5E2023E34705ADD422689BF6C0074449FEE (Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dropdown_set_value_m0764A5E2023E34705ADD422689BF6C0074449FEE (Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // UnityEngine.UI.Graphic UnityEngine.UI.InputField::get_placeholder()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931* InputField_get_placeholder_m84C2F2E414B8A03B372C7CEB3C97A2AE72F3A39F (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserItem>::get_Item(System.Int32)
-inline FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* List_1_get_Item_m8D3B1E24D2841064E441E04D49D458BC46624D95 (List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175* __this, int32_t ___index0, const RuntimeMethod* method)
+inline FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* List_1_get_Item_m8D3B1E24D2841064E441E04D49D458BC46624D95 (List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	return ((  FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* (*) (List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___index0, method);
+	return ((  FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* (*) (List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
 }
 // System.Boolean UnityEngine.GameObject::get_activeSelf()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Int32 SimpleFileBrowser.ListItem::get_Position()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ListItem_get_Position_m49214519D4BBE5B0F33D6AAB4E3B8F49B580DEFD_inline (ListItem_tE112A367BDC021731139C4894491A00F05B295B3* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.List`1<System.Int32>::Contains(T)
-inline bool List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___item0, const RuntimeMethod* method)
+inline bool List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method)
 {
-	return ((  bool (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B_gshared)(__this, ___item0, method);
+	return ((  bool (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B_gshared)(__this, ___0_item, method);
 }
 // System.Int32 System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserItem>::get_Count()
 inline int32_t List_1_get_Count_mAAB8BD99B559D91C09A3BD2AFB2B9B33B016E5B4_inline (List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175* __this, const RuntimeMethod* method)
@@ -4706,9 +5124,9 @@ inline int32_t List_1_get_Count_mAAB8BD99B559D91C09A3BD2AFB2B9B33B016E5B4_inline
 	return ((  int32_t (*) (List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
 }
 // System.String UnityEngine.PlayerPrefs::GetString(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerPrefs_GetString_mC671EDA77D8D35BE514817F54950630327A74F63 (String_t* ___key0, String_t* ___defaultValue1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2 (String_t* ___0_key, String_t* ___1_defaultValue, const RuntimeMethod* method) ;
 // System.Void UnityEngine.PlayerPrefs::SetString(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetString_mDB0D33B60716ECC669310D27F861F464ACE3A3FF (String_t* ___key0, String_t* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256 (String_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method) ;
 // UnityEngine.Transform UnityEngine.Component::get_transform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.Canvas>()
@@ -4719,76 +5137,76 @@ inline Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* Component_GetComponent_
 // UnityEngine.Vector2 UnityEngine.RectTransform::get_anchoredPosition()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.EventSystems.PointerEventData::.ctor(UnityEngine.EventSystems.EventSystem)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerEventData__ctor_m63837790B68893F0022CCEFEF26ADD55A975F71C (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___eventSystem0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PointerEventData__ctor_m63837790B68893F0022CCEFEF26ADD55A975F71C (PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* __this, EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___0_eventSystem, const RuntimeMethod* method) ;
 // System.String UnityEngine.Application::get_persistentDataPath()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_m787EBC9B0862E7617DCD6CABD2147E61717EAC17 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399 (const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::SetExcludedExtensions(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetExcludedExtensions_mF4555FEA87743C688BF75C4A90B2CC9BB80547A5 (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___excludedExtensions0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetExcludedExtensions_m3D50AB959182D1519C45A714CD4CD5289DE24C27 (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_excludedExtensions, const RuntimeMethod* method) ;
 // UnityEngine.UI.InputField/OnValidateInput UnityEngine.UI.InputField::get_onValidateInput()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* InputField_get_onValidateInput_m370D93274B6040422092981DD3A34E4B88E96EBC (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.InputField/OnValidateInput::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValidateInput__ctor_mDC0454BF264F87154EF8694821905B5A6A587A29 (OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnValidateInput__ctor_mDC0454BF264F87154EF8694821905B5A6A587A29 (OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.InputField::set_onValidateInput(UnityEngine.UI.InputField/OnValidateInput)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_onValidateInput_m3A3FA74285B9BBA68325A91AA862201AF3A18CE4 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputField_set_onValidateInput_m3A3FA74285B9BBA68325A91AA862201AF3A18CE4 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B* ___0_value, const RuntimeMethod* method) ;
 // UnityEngine.UI.InputField/OnChangeEvent UnityEngine.UI.InputField::get_onValueChanged()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR OnChangeEvent_tE4829F88300B0E0E0D1B78B453AF25FC1AA55E2F* InputField_get_onValueChanged_mA9ABE178FE3EB05AEF3DC20C11349427C59916AE (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Events.UnityAction`1<System.String>::.ctor(System.Object,System.IntPtr)
-inline void UnityAction_1__ctor_mE6251CCFD943EB114960F556A546E2777B18AC71 (UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void UnityAction_1__ctor_mE6251CCFD943EB114960F556A546E2777B18AC71 (UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m0C2FC6B483B474AE9596A43EBA7FF6E85503A92A_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void UnityEngine.Events.UnityEvent`1<System.String>::AddListener(UnityEngine.Events.UnityAction`1<T0>)
-inline void UnityEvent_1_AddListener_mEC384A8CFC5D4D41B62B08248A738CF61B82172F (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* ___call0, const RuntimeMethod* method)
+inline void UnityEvent_1_AddListener_mEC384A8CFC5D4D41B62B08248A738CF61B82172F (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257* __this, UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B* ___0_call, const RuntimeMethod* method)
 {
-	((  void (*) (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*, UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___call0, method);
+	((  void (*) (UnityEvent_1_tC9859540CF1468306CAB6D758C0A0D95DBCEC257*, UnityAction_1_t690494F0E492A2098660E28B8EB7D71B2C69BE1B*, const RuntimeMethod*))UnityEvent_1_AddListener_m055233246714700E4BDAA62635BC0AA49E8165CC_gshared)(__this, ___0_call, method);
 }
 // System.String SimpleFileBrowser.FileBrowser::get_AllFilesFilterText()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_AllFilesFilterText_m11A59EC77A38E7954AD443B9BC9B445468BDB842 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_AllFilesFilterText_m4810E88D7B0236799E3FA9C6D3A872492671B4A5 (const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowser/Filter>::Add(T)
-inline void List_1_Add_m828D942C78815CC7C3B83D3077F22293CC99BB2B_inline (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* __this, Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* ___item0, const RuntimeMethod* method)
+inline void List_1_Add_m828D942C78815CC7C3B83D3077F22293CC99BB2B_inline (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* __this, Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* ___0_item, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916*, Filter_t33B81718659A91E455B1B65C329FC191DC6792BB*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___item0, method);
+	((  void (*) (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916*, Filter_t33B81718659A91E455B1B65C329FC191DC6792BB*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
 }
 // System.Char[] System.IO.Path::GetInvalidFileNameChars()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* Path_GetInvalidFileNameChars_mF4B35029327062F820D9DB967D012B43651854F8 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* Path_GetInvalidFileNameChars_m398C2B0D1FF5A9CC06287509C1CFF5D7552D08CB (const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.HashSet`1<System.Char>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-inline void HashSet_1__ctor_mD29D3E8CAEB61AF816E7BEFCEF45BEC2159581B6 (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A* __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
+inline void HashSet_1__ctor_mD29D3E8CAEB61AF816E7BEFCEF45BEC2159581B6 (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method)
 {
-	((  void (*) (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A*, RuntimeObject*, const RuntimeMethod*))HashSet_1__ctor_mD29D3E8CAEB61AF816E7BEFCEF45BEC2159581B6_gshared)(__this, ___collection0, method);
+	((  void (*) (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A*, RuntimeObject*, const RuntimeMethod*))HashSet_1__ctor_mD29D3E8CAEB61AF816E7BEFCEF45BEC2159581B6_gshared)(__this, ___0_collection, method);
 }
 // System.Boolean System.Collections.Generic.HashSet`1<System.Char>::Add(T)
-inline bool HashSet_1_Add_mC54C49D2322343A65275FF0C6DCCA0948B6AD12A (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A* __this, Il2CppChar ___item0, const RuntimeMethod* method)
+inline bool HashSet_1_Add_mC54C49D2322343A65275FF0C6DCCA0948B6AD12A (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A* __this, Il2CppChar ___0_item, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A*, Il2CppChar, const RuntimeMethod*))HashSet_1_Add_mC54C49D2322343A65275FF0C6DCCA0948B6AD12A_gshared)(__this, ___item0, method);
+	return ((  bool (*) (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A*, Il2CppChar, const RuntimeMethod*))HashSet_1_Add_mC54C49D2322343A65275FF0C6DCCA0948B6AD12A_gshared)(__this, ___0_item, method);
 }
 // System.Void SimpleFileBrowser.FileBrowserMovement::Initialize(SimpleFileBrowser.FileBrowser)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserMovement_Initialize_mE6E2DCBA906CED5E93919B74BACC873B18DC8C5A (FileBrowserMovement_tE0654C45955E7E9C00D84B6E9FEC55E4C896DDC5* __this, FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* ___fileBrowser0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserMovement_Initialize_mE6E2DCBA906CED5E93919B74BACC873B18DC8C5A (FileBrowserMovement_tE0654C45955E7E9C00D84B6E9FEC55E4C896DDC5* __this, FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* ___0_fileBrowser, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.RecycledListView::SetAdapter(SimpleFileBrowser.IListViewAdapter)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecycledListView_SetAdapter_mF900098FEB7DCE2041BE234FD593A9DDD7E20699 (RecycledListView_t00EFBAA414C3606D349D75DBEF693D5614472EF1* __this, RuntimeObject* ___adapter0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecycledListView_SetAdapter_mF900098FEB7DCE2041BE234FD593A9DDD7E20699 (RecycledListView_t00EFBAA414C3606D349D75DBEF693D5614472EF1* __this, RuntimeObject* ___0_adapter, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::EnsureWindowIsWithinBounds()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_EnsureWindowIsWithinBounds_m6052BE3802013AF0A0F003D19C6A132E144F3EE6 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Vector2::op_Inequality(UnityEngine.Vector2,UnityEngine.Vector2)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Inequality_mCF3935E28AC7B30B279F07F9321CC56718E1311A_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___lhs0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rhs1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Inequality_mBEA93B5A0E954FEFB863DC61CB209119980EC713_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::OnWindowDimensionsChanged(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnWindowDimensionsChanged_mF3F9FE60AFAAD85235F6AF5E5F6E28530C397A0C (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___size0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnWindowDimensionsChanged_mF3F9FE60AFAAD85235F6AF5E5F6E28530C397A0C (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_size, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel::OnCanvasDimensionsChanged(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_OnCanvasDimensionsChanged_mC0D67041F1171A9036D3FF3263FB209E5C698B62 (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___size0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_OnCanvasDimensionsChanged_mC0D67041F1171A9036D3FF3263FB209E5C698B62 (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_size, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserContextMenu::Hide()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_Hide_m4F44530197AA791474C6EB6DA5AE8769537F3B0C (FileBrowserContextMenu_t2DDF7D4CB23A81DDA461574CE6D995FF47732595* __this, const RuntimeMethod* method) ;
 // UnityEngine.GameObject UnityEngine.EventSystems.EventSystem::get_currentSelectedGameObject()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* EventSystem_get_currentSelectedGameObject_mD606FFACF3E72755298A523CBB709535CF08C98A (EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Behaviour::get_enabled()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1 (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
 // UnityEngine.UI.Text UnityEngine.UI.InputField::get_textComponent()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* InputField_get_textComponent_m319EF4B9B24056AF25327874A2455362FF7B7A85 (InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* __this, const RuntimeMethod* method) ;
 // UnityEngine.Color SimpleFileBrowser.UISkin::get_InputFieldTextColor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F UISkin_get_InputFieldTextColor_m2C432E5F4DD75770C2E537C8996BBC5A67691883 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Time::get_realtimeSinceStartup()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_realtimeSinceStartup_mB49A5622E38FFE9589EB9B3E75573E443B8D63EC (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510 (const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::RefreshDriveQuickLinks()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshDriveQuickLinks_m540D5683EDD68826961F7814C499450EB2E14798 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>::get_Count()
@@ -4799,51 +5217,51 @@ inline int32_t List_1_get_Count_mDA7F3CFCF6F2A8790207DA9B92F27D27C864EC87_inline
 // System.Single SimpleFileBrowser.UISkin::get_FileHeight()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UISkin_get_FileHeight_m490761AA2FCD12C90DE5F023FC3353965867FDF8 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, const RuntimeMethod* method) ;
 // T UnityEngine.Object::Instantiate<SimpleFileBrowser.FileBrowserItem>(T,UnityEngine.Transform,System.Boolean)
-inline FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* Object_Instantiate_TisFileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5_m2C78D5BF63ED0467DC474EB734C61772D80FB383 (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* ___original0, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___parent1, bool ___worldPositionStays2, const RuntimeMethod* method)
+inline FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* Object_Instantiate_TisFileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5_mF1E83F43023E43A70776D5BED8D4A780E8905985 (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, bool ___2_worldPositionStays, const RuntimeMethod* method)
 {
-	return ((  FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* (*) (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, bool, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m8784E2833D9F115FD2B2BED6615426E8CD75EE9B_gshared)(___original0, ___parent1, ___worldPositionStays2, method);
+	return ((  FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* (*) (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, bool, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_mDC5AD8BD13FE50E98B67B956C048367F4E8C6F94_gshared)(___0_original, ___1_parent, ___2_worldPositionStays, method);
 }
 // System.Void SimpleFileBrowser.FileBrowserItem::SetFileBrowser(SimpleFileBrowser.FileBrowser,SimpleFileBrowser.UISkin)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserItem_SetFileBrowser_m113A09B2B5105907F7A0565AABD1208E96E1DD35 (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* __this, FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* ___fileBrowser0, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___skin1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserItem_SetFileBrowser_m113A09B2B5105907F7A0565AABD1208E96E1DD35 (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* __this, FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* ___0_fileBrowser, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___1_skin, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserItem>::Add(T)
-inline void List_1_Add_m8FF9375701028D7F46999061905C56100FC3FCD1_inline (List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175* __this, FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* ___item0, const RuntimeMethod* method)
+inline void List_1_Add_m8FF9375701028D7F46999061905C56100FC3FCD1_inline (List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175* __this, FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* ___0_item, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175*, FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___item0, method);
+	((  void (*) (List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175*, FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
 }
 // T System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>::get_Item(System.Int32)
-inline FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 List_1_get_Item_m7AB15058368BF77621066E5E28167546E7B9ED33 (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, int32_t ___index0, const RuntimeMethod* method)
+inline FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 List_1_get_Item_m7AB15058368BF77621066E5E28167546E7B9ED33 (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	return ((  FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 (*) (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B*, int32_t, const RuntimeMethod*))List_1_get_Item_m7AB15058368BF77621066E5E28167546E7B9ED33_gshared)(__this, ___index0, method);
+	return ((  FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 (*) (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B*, int32_t, const RuntimeMethod*))List_1_get_Item_m7AB15058368BF77621066E5E28167546E7B9ED33_gshared)(__this, ___0_index, method);
 }
 // UnityEngine.Sprite SimpleFileBrowser.FileBrowser::GetIconForFileEntry(SimpleFileBrowser.FileSystemEntry)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* FileBrowser_GetIconForFileEntry_m39E97FDC81C7D26CDC1A09146CCB8D50949FD147 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___fileInfo0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* FileBrowser_GetIconForFileEntry_m39E97FDC81C7D26CDC1A09146CCB8D50949FD147 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_fileInfo, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileSystemEntry::get_IsDirectory()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileSystemEntry_get_IsDirectory_m5B6EAD6DAC01DC97FA18BF8C82FB57CD009F9E53 (FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserItem::SetFile(UnityEngine.Sprite,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserItem_SetFile_m01704B1D968B4F8DCFD399DC0D9FE8DC07A36DE5 (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___icon0, String_t* ___name1, bool ___isDirectory2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserItem_SetFile_m01704B1D968B4F8DCFD399DC0D9FE8DC07A36DE5 (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_icon, String_t* ___1_name, bool ___2_isDirectory, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserItem::SetHidden(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserItem_SetHidden_mC9BA839FA2A4429730135DC29989E8B441E76525 (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* __this, bool ___isHidden0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserItem_SetHidden_mC9BA839FA2A4429730135DC29989E8B441E76525 (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* __this, bool ___0_isHidden, const RuntimeMethod* method) ;
 // System.String SimpleFileBrowser.FileBrowser::get_PickFolderQuickLinkText()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_PickFolderQuickLinkText_mBEFAA93F33C6344716A60C7DFDD4B5752AE7CBEF (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_PickFolderQuickLinkText_m7557ABB7EBBA7B1BF24060D96BC5E1E4C2F2E82A (const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowser::AddQuickLink(UnityEngine.Sprite,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_AddQuickLink_mF254B02358535E14D2319F1AC1230F513D58B42A (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___icon0, String_t* ___name1, String_t* ___path2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_AddQuickLink_mF254B02358535E14D2319F1AC1230F513D58B42A (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_icon, String_t* ___1_name, String_t* ___2_path, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::FetchPersistedSAFQuickLinks()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_FetchPersistedSAFQuickLinks_mD83DFA3F3B05472530D971F47077A9C93A107BE1 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogException(System.Exception)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogException_m82E44FEC6B03BC34AFC2CAF6583051570C60CB9E (Exception_t* ___exception0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0 (Exception_t* ___0_exception, const RuntimeMethod* method) ;
 // UnityEngine.AndroidJavaClass SimpleFileBrowser.FileBrowserHelpers::get_AJC()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846 (const RuntimeMethod* method) ;
 // UnityEngine.AndroidJavaObject SimpleFileBrowser.FileBrowserHelpers::get_Context()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642 (const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::CallStatic<System.String>(System.String,System.Object[])
-inline String_t* AndroidJavaObject_CallStatic_TisString_t_mB5DC41208BD7C326A089C20F4F1C2B8B2444ACC3 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method)
+inline String_t* AndroidJavaObject_CallStatic_TisString_t_mB5DC41208BD7C326A089C20F4F1C2B8B2444ACC3 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
 {
-	return ((  String_t* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_CallStatic_TisRuntimeObject_mCAFE27630F6092C4910E14592B050DACFCBE146F_gshared)(__this, ___methodName0, ___args1, method);
+	return ((  String_t* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_CallStatic_TisRuntimeObject_mCAFE27630F6092C4910E14592B050DACFCBE146F_gshared)(__this, ___0_methodName, ___1_args, method);
 }
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserQuickLink>::RemoveAt(System.Int32)
-inline void List_1_RemoveAt_m317E3DB6D180480338536A76E28EC4528A548D29 (List_1_t417643521992E3A9934A752A70E79B7192BE59ED* __this, int32_t ___index0, const RuntimeMethod* method)
+inline void List_1_RemoveAt_m317E3DB6D180480338536A76E28EC4528A548D29 (List_1_t417643521992E3A9934A752A70E79B7192BE59ED* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t417643521992E3A9934A752A70E79B7192BE59ED*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___index0, method);
+	((  void (*) (List_1_t417643521992E3A9934A752A70E79B7192BE59ED*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___0_index, method);
 }
 // T[] System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserQuickLink>::ToArray()
 inline FileBrowserQuickLinkU5BU5D_tDFAAE04F697C67FC3B6FF336567CD9F9A0D18945* List_1_ToArray_m3A68DA493DD0178DD3D363903800991E6FA23ACB (List_1_t417643521992E3A9934A752A70E79B7192BE59ED* __this, const RuntimeMethod* method)
@@ -4856,32 +5274,32 @@ inline void List_1_Clear_m801649606323141959EE753A00889650720E9EEC_inline (List_
 	((  void (*) (List_1_t417643521992E3A9934A752A70E79B7192BE59ED*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
 }
 // UnityEngine.Vector2 UnityEngine.Vector2::get_zero()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m009B92B5D35AB02BD1610C2E1ACCE7C9CF964A6E_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) ;
 // System.Void UnityEngine.RectTransform::set_sizeDelta(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
 // System.Int32 System.String::get_Length()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) ;
 // System.String[] System.String::Split(System.Char,System.StringSplitOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* String_Split_m9530B73D02054692283BF35C3A27C8F2230946F4 (String_t* __this, Il2CppChar ___separator0, int32_t ___options1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* String_Split_m9530B73D02054692283BF35C3A27C8F2230946F4 (String_t* __this, Il2CppChar ___0_separator, int32_t ___1_options, const RuntimeMethod* method) ;
 // System.String System.Int32::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector2::.ctor(System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___x0, float ___y1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
 // UnityEngine.RectTransform SimpleFileBrowser.FileBrowserItem::get_TransformComponent()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* FileBrowserItem_get_TransformComponent_m54A7F99BE536DE843DFD8C2308122A7BA77CFFD9 (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.RectTransform::set_anchoredPosition(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserQuickLink>::Add(T)
-inline void List_1_Add_m06B31F88D12C523C0C9CA6DD3C8A31104B78A7FB_inline (List_1_t417643521992E3A9934A752A70E79B7192BE59ED* __this, FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* ___item0, const RuntimeMethod* method)
+inline void List_1_Add_m06B31F88D12C523C0C9CA6DD3C8A31104B78A7FB_inline (List_1_t417643521992E3A9934A752A70E79B7192BE59ED* __this, FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* ___0_item, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t417643521992E3A9934A752A70E79B7192BE59ED*, FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___item0, method);
+	((  void (*) (List_1_t417643521992E3A9934A752A70E79B7192BE59ED*, FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
 }
 // System.String System.IO.Path::GetPathRoot(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetPathRoot_m6DDE2394DA53E1C4F4753406F0B48955DFF1E5EB (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetPathRoot_m31AA9272864F572DEC78EC2595D2A5ABFEF5651C (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::set_CurrentPath(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_CurrentPath_mC77AFECC7927FE02B265B490C3825EEE685E3BE7 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_CurrentPath_mC77AFECC7927FE02B265B490C3825EEE685E3BE7 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.UI.Image>()
 inline Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -4900,7 +5318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 // UnityEngine.Color SimpleFileBrowser.UISkin::get_TitleTextColor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F UISkin_get_TitleTextColor_m0EFEAD3F0F07BC93BB02F3ED98399FF5DA701864 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.UISkin::ApplyTo(UnityEngine.UI.Text,UnityEngine.Color)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UISkin_ApplyTo_m53C98C362E95A9E5E22E385E0A39FEAFA2DA5DEB (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___text0, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___textColor1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UISkin_ApplyTo_m53C98C362E95A9E5E22E385E0A39FEAFA2DA5DEB (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___0_text, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_textColor, const RuntimeMethod* method) ;
 // UnityEngine.UI.Image UnityEngine.UI.Selectable::get_image()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* Selectable_get_image_m88664022F6BC90E7B8D4BFCBA7FE24B48E90C639 (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, const RuntimeMethod* method) ;
 // UnityEngine.Color SimpleFileBrowser.UISkin::get_HeaderButtonsColor()
@@ -4908,7 +5326,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 // UnityEngine.Sprite SimpleFileBrowser.UISkin::get_HeaderBackButton()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* UISkin_get_HeaderBackButton_mBE8EA5E2A83099BE0D0200FA395E08F7DEB22EF7 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.Image::set_sprite(UnityEngine.Sprite)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE (Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_value, const RuntimeMethod* method) ;
 // UnityEngine.Sprite SimpleFileBrowser.UISkin::get_HeaderForwardButton()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* UISkin_get_HeaderForwardButton_m8B3822B153FBE2F369C08E0C3CEFDC87EAB90826 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, const RuntimeMethod* method) ;
 // UnityEngine.Sprite SimpleFileBrowser.UISkin::get_HeaderUpButton()
@@ -4920,19 +5338,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 // UnityEngine.Sprite SimpleFileBrowser.UISkin::get_WindowResizeGizmo()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* UISkin_get_WindowResizeGizmo_mDBEB8CE46B80527E0F33AE2173A305BFF3F9E18D (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.UISkin::ApplyTo(UnityEngine.UI.InputField)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UISkin_ApplyTo_m9B342028BE704955C675CC93864D4347FCF282BA (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* ___inputField0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UISkin_ApplyTo_m9B342028BE704955C675CC93864D4347FCF282BA (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* ___0_inputField, const RuntimeMethod* method) ;
 // UnityEngine.UI.InputField SimpleFileBrowser.FileBrowserRenamedItem::get_InputField()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* FileBrowserRenamedItem_get_InputField_m91346D55198B298E74E3BCF1E0F0217F89BDDDD4 (FileBrowserRenamedItem_tA7DE040D258C479A7C3D9C169F1850CD27D115A6* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.UISkin::ApplyTo(UnityEngine.UI.Button)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UISkin_ApplyTo_m74872228D165B123D86A4E2692C2027E337A6602 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___button0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UISkin_ApplyTo_m74872228D165B123D86A4E2692C2027E337A6602 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___0_button, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.UISkin::ApplyTo(UnityEngine.UI.Dropdown)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UISkin_ApplyTo_mD21874F09929E40C271F99AB71EA5EF2B91FD354 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___dropdown0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UISkin_ApplyTo_mD21874F09929E40C271F99AB71EA5EF2B91FD354 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* ___0_dropdown, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.UISkin::ApplyTo(UnityEngine.UI.Toggle)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UISkin_ApplyTo_m90BBC4AB07D33B0EDD572D2CD6A92F52C353F493 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* ___toggle0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UISkin_ApplyTo_m90BBC4AB07D33B0EDD572D2CD6A92F52C353F493 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* ___0_toggle, const RuntimeMethod* method) ;
 // UnityEngine.UI.Scrollbar UnityEngine.UI.ScrollRect::get_verticalScrollbar()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* ScrollRect_get_verticalScrollbar_mCEB62CC858B43CE7FB07D287CAFC1363668E78C6 (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.UISkin::ApplyTo(UnityEngine.UI.Scrollbar)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UISkin_ApplyTo_m82C9BDB7381611FFF8AE75C42E41824F0E4E8E72 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* ___scrollbar0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UISkin_ApplyTo_m82C9BDB7381611FFF8AE75C42E41824F0E4E8E72 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* ___0_scrollbar, const RuntimeMethod* method) ;
 // UnityEngine.RectTransform UnityEngine.UI.Dropdown::get_template()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* Dropdown_get_template_m6714116D7DA3F457F184B004785B4F017D50987A (Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* __this, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.UI.ScrollRect>()
@@ -4941,7 +5359,7 @@ inline ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* Component_GetCompon
 	return ((  ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
 }
 // System.Void SimpleFileBrowser.FileBrowserItem::OnSkinRefreshed(SimpleFileBrowser.UISkin,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserItem_OnSkinRefreshed_m9ACDA69EDA9861AC47C8A27F02984C03291C1051 (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* __this, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___skin0, bool ___isInitialized1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserItem_OnSkinRefreshed_m9ACDA69EDA9861AC47C8A27F02984C03291C1051 (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* __this, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___0_skin, bool ___1_isInitialized, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Transform::GetSiblingIndex()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Transform_GetSiblingIndex_m45EE497589C36D1FBED87FB802BD80A95CE68575 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 // UnityEngine.UI.Image SimpleFileBrowser.FileBrowserItem::get_Icon()
@@ -4953,34 +5371,34 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CA
 // UnityEngine.RectTransform SimpleFileBrowser.FileBrowserRenamedItem::get_TransformComponent()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* FileBrowserRenamedItem_get_TransformComponent_m5028BCA8A4B50F5F12E62676D6606F29DD8D54CD (FileBrowserRenamedItem_tA7DE040D258C479A7C3D9C169F1850CD27D115A6* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserContextMenu::RefreshSkin(SimpleFileBrowser.UISkin)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_RefreshSkin_mA4DA4B81E3CD5F07DAC9C1C03812E99F8517E58F (FileBrowserContextMenu_t2DDF7D4CB23A81DDA461574CE6D995FF47732595* __this, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___skin0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_RefreshSkin_mA4DA4B81E3CD5F07DAC9C1C03812E99F8517E58F (FileBrowserContextMenu_t2DDF7D4CB23A81DDA461574CE6D995FF47732595* __this, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___0_skin, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel::RefreshSkin(SimpleFileBrowser.UISkin)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_RefreshSkin_m5114B0BFA2B29156A94A77E8AD45954AD8CEFE8F (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___skin0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_RefreshSkin_m5114B0BFA2B29156A94A77E8AD45954AD8CEFE8F (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___0_skin, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserAccessRestrictedPanel::RefreshSkin(SimpleFileBrowser.UISkin)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserAccessRestrictedPanel_RefreshSkin_m44E91D070077B59EDC47C0AED22B868AEB0D14AB (FileBrowserAccessRestrictedPanel_tC1AAEBE26B66832BCAE1D39CD9DEBDBC5E351F9E* __this, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___skin0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserAccessRestrictedPanel_RefreshSkin_m44E91D070077B59EDC47C0AED22B868AEB0D14AB (FileBrowserAccessRestrictedPanel_tC1AAEBE26B66832BCAE1D39CD9DEBDBC5E351F9E* __this, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___0_skin, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.RecycledListView::OnSkinRefreshed()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecycledListView_OnSkinRefreshed_mA211E24C82988639442BFFB7077CCC5073C7B3EC (RecycledListView_t00EFBAA414C3606D349D75DBEF693D5614472EF1* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Transform::get_position()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Transform::InverseTransformPoint(UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___position0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 UnityEngine.Vector2::op_Implicit(UnityEngine.Vector3)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_m8F73B300CB4E6F9B4EB5FB6130363D76CEAA230B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___v0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::ShowContextMenuAt(UnityEngine.Vector2,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_ShowContextMenuAt_m13F6C5767CB0B266FF2F2D583C23957BFC74453C (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___position0, bool ___isMoreOptionsMenu1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_ShowContextMenuAt_m13F6C5767CB0B266FF2F2D583C23957BFC74453C (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_position, bool ___1_isMoreOptionsMenu, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.ScrollRect::set_velocity(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollRect_set_velocity_mBC8D4BC0A0184FCC3AEB359AE68E9130E811AFC2 (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollRect_set_velocity_mBC8D4BC0A0184FCC3AEB359AE68E9130E811AFC2 (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
 // UnityEngine.Camera UnityEngine.Canvas::get_worldCamera()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Canvas_get_worldCamera_mD2FDE13B61A5213F4E64B40008EB0A8D2D07B853 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.RectTransformUtility::ScreenPointToLocalPointInRectangle(UnityEngine.RectTransform,UnityEngine.Vector2,UnityEngine.Camera,UnityEngine.Vector2&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RectTransformUtility_ScreenPointToLocalPointInRectangle_m9E502D410F5B141117D263D4706C426EFA109DC0 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___rect0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPoint1, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___cam2, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___localPoint3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RectTransformUtility_ScreenPointToLocalPointInRectangle_m01A75CAFB6D1019F1C65BA606635EAB10AF31195 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_rect, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_screenPoint, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___2_cam, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___3_localPoint, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<System.Int32>::get_Count()
 inline int32_t List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method)
 {
 	return ((  int32_t (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, const RuntimeMethod*))List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_gshared_inline)(__this, method);
 }
 // System.Void SimpleFileBrowser.FileBrowserContextMenu::Show(System.Boolean,System.Boolean,System.Boolean,System.Boolean,UnityEngine.Vector2,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_Show_mA733F9163F6D4929AF02FF90393B092D6A1BDCD8 (FileBrowserContextMenu_t2DDF7D4CB23A81DDA461574CE6D995FF47732595* __this, bool ___selectAllButtonVisible0, bool ___deselectAllButtonVisible1, bool ___deleteButtonVisible2, bool ___renameButtonVisible3, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___position4, bool ___isMoreOptionsMenu5, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_Show_mA733F9163F6D4929AF02FF90393B092D6A1BDCD8 (FileBrowserContextMenu_t2DDF7D4CB23A81DDA461574CE6D995FF47732595* __this, bool ___0_selectAllButtonVisible, bool ___1_deselectAllButtonVisible, bool ___2_deleteButtonVisible, bool ___3_renameButtonVisible, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___4_position, bool ___5_isMoreOptionsMenu, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser/<>c__DisplayClass220_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass220_0__ctor_m7ADBC0B53E1F7E3CEA2865BEBB6DE7C84F3562B2 (U3CU3Ec__DisplayClass220_0_t5318662939BF8FB64939FB9510ED829AC3A4CB76* __this, const RuntimeMethod* method) ;
 // System.String UnityEngine.UI.InputField::get_text()
@@ -4998,93 +5416,93 @@ inline void List_1_Clear_mF9022804554FAA8ABB71A8058BE83E8A30494B9E_inline (List_
 // UnityEngine.Color SimpleFileBrowser.UISkin::get_InputFieldInvalidBackgroundColor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F UISkin_get_InputFieldInvalidBackgroundColor_mDB2E76A76311F129618DDFBA57C416EBE0C1CCF1 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<System.Int32>::get_Item(System.Int32)
-inline int32_t List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___index0, const RuntimeMethod* method)
+inline int32_t List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_gshared)(__this, ___index0, method);
+	return ((  int32_t (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_gshared)(__this, ___0_index, method);
 }
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>::Add(T)
-inline void List_1_Add_m2C3311361907002ECD4E970B1F066439FF7B428C_inline (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___item0, const RuntimeMethod* method)
+inline void List_1_Add_m2C3311361907002ECD4E970B1F066439FF7B428C_inline (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_item, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B*, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1, const RuntimeMethod*))List_1_Add_m2C3311361907002ECD4E970B1F066439FF7B428C_gshared_inline)(__this, ___item0, method);
+	((  void (*) (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B*, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1, const RuntimeMethod*))List_1_Add_m2C3311361907002ECD4E970B1F066439FF7B428C_gshared_inline)(__this, ___0_item, method);
 }
 // System.Boolean System.Collections.Generic.List`1<System.String>::Contains(T)
-inline bool List_1_Contains_m359254483BE42CAD4DCA8FBAFB87473FB4CF00E1 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___item0, const RuntimeMethod* method)
+inline bool List_1_Contains_m359254483BE42CAD4DCA8FBAFB87473FB4CF00E1 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___0_item, const RuntimeMethod* method)
 {
-	return ((  bool (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Contains_m4C9139C2A6B23E9343D3F87807B32C6E2CFE660D_gshared)(__this, ___item0, method);
+	return ((  bool (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Contains_m4C9139C2A6B23E9343D3F87807B32C6E2CFE660D_gshared)(__this, ___0_item, method);
 }
 // System.Int32 SimpleFileBrowser.FileBrowser::ExtractFilenameFromInput(System.String,System.Int32&,System.Int32&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_ExtractFilenameFromInput_m8D87F77E24E8BCCC89D886486CAE777A7848FADD (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___input0, int32_t* ___startIndex1, int32_t* ___nextStartIndex2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_ExtractFilenameFromInput_m8D87F77E24E8BCCC89D886486CAE777A7848FADD (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_input, int32_t* ___1_startIndex, int32_t* ___2_nextStartIndex, const RuntimeMethod* method) ;
 // System.String System.String::Substring(System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE (String_t* __this, int32_t ___startIndex0, int32_t ___length1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE (String_t* __this, int32_t ___0_startIndex, int32_t ___1_length, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowser::VerifyFilename(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_VerifyFilename_mE5DF42B3621A2CB78BE75923F7EAB9F92245A541 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___filename0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_VerifyFilename_mE5DF42B3621A2CB78BE75923F7EAB9F92245A541 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_filename, const RuntimeMethod* method) ;
 // System.String SimpleFileBrowser.FileBrowserHelpers::GetFilename(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_GetFilename_mA8E038218E294D76E4DAFD17571427175F8E24BE (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_GetFilename_mF0C6FE7BAB440BB2A45AC7E0B73894BAB9CE5450 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileSystemEntry::.ctor(System.String,System.String,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemEntry__ctor_mFB6D7113F6EC140A0863D55B690ACADC5A22EBD1 (FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* __this, String_t* ___path0, String_t* ___name1, String_t* ___extension2, bool ___isDirectory3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemEntry__ctor_mFB6D7113F6EC140A0863D55B690ACADC5A22EBD1 (FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* __this, String_t* ___0_path, String_t* ___1_name, String_t* ___2_extension, bool ___3_isDirectory, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowser::get_AllExtensionsHaveSingleSuffix()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_AllExtensionsHaveSingleSuffix_mE1B6D3A19497EB0952FAC108AA6DCD46A63AC3A2 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowser::FileSystemEntryMatchesFilters(SimpleFileBrowser.FileSystemEntry,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_FileSystemEntryMatchesFilters_m24AE1C7D006207B7365D7493E1D2C5126AF2DE5C (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___item0, bool ___allExtensionsHaveSingleSuffix1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_FileSystemEntryMatchesFilters_m24AE1C7D006207B7365D7493E1D2C5126AF2DE5C (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_item, bool ___1_allExtensionsHaveSingleSuffix, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowserHelpers::FileExists(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_FileExists_mD73A1D794A8CCB271F1BA746A082354E338F57FD (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_FileExists_m7208C912E35C8470E0A63418A818BE40FCDA1408 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.String SimpleFileBrowser.FileBrowser::GetExtensionFromFilename(System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetExtensionFromFilename_mDFAD3BC2729A0685EDCD8D46085C755670E02346 (String_t* ___filename0, bool ___extractOnlyLastSuffix1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetExtensionFromFilename_m2F13A07937DD5779FEF23A192C94ED899B20AA4D (String_t* ___0_filename, bool ___1_extractOnlyLastSuffix, const RuntimeMethod* method) ;
 // System.Int32 SimpleFileBrowser.FileBrowser::FilenameToFileEntryIndex(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_FilenameToFileEntryIndex_mD95AA43AA727DBF8FCD6F5932E5F034BF6504B58 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___filename0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_FilenameToFileEntryIndex_mD95AA43AA727DBF8FCD6F5932E5F034BF6504B58 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_filename, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.UI.Dropdown::get_value()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Dropdown_get_value_m386913162D5E273B762657FE5156DC567602BC3C (Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* __this, const RuntimeMethod* method) ;
 // System.Char System.String::get_Chars(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3 (String_t* __this, int32_t ___index0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3 (String_t* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // System.Boolean System.String::StartsWith(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_StartsWith_mF75DBA1EB709811E711B44E26FF919C88A8E65C0 (String_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_StartsWith_mF75DBA1EB709811E711B44E26FF919C88A8E65C0 (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowser/Filter::MatchesExtension(System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Filter_MatchesExtension_m599F1975211ADE2667EC0B6AE513A1451153042E (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* __this, String_t* ___extension0, bool ___extensionMayHaveMultipleSuffixes1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Filter_MatchesExtension_m599F1975211ADE2667EC0B6AE513A1451153042E (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* __this, String_t* ___0_extension, bool ___1_extensionMayHaveMultipleSuffixes, const RuntimeMethod* method) ;
 // System.String System.IO.Path::ChangeExtension(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_ChangeExtension_m8137B6ADAA7685301AE571D88C0DDA9F2A9D9EEA (String_t* ___path0, String_t* ___extension1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_ChangeExtension_mBC1AFA3E5E6FE1F855925EA34A4FAB7248478A83 (String_t* ___0_path, String_t* ___1_extension, const RuntimeMethod* method) ;
 // System.String SimpleFileBrowser.FileBrowserHelpers::CreateFolderInDirectory(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFolderInDirectory_mAEE39C8930FB9F6A6972D87CE827CD8EA6C7B9A7 (String_t* ___directoryPath0, String_t* ___folderName1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFolderInDirectory_m322EE05BAED6F7D0CFBC302289F33C3527870286 (String_t* ___0_directoryPath, String_t* ___1_folderName, const RuntimeMethod* method) ;
 // System.String SimpleFileBrowser.FileBrowserHelpers::CreateFileInDirectory(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFileInDirectory_m494CB83E0BB762403696BF033B728AD1D43C6477 (String_t* ___directoryPath0, String_t* ___filename1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFileInDirectory_m66C5E15A3C514C19964A15869009277AD0B976B1 (String_t* ___0_directoryPath, String_t* ___1_filename, const RuntimeMethod* method) ;
 // System.String System.IO.Path::Combine(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474 (String_t* ___path10, String_t* ___path21, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE (String_t* ___0_path1, String_t* ___1_path2, const RuntimeMethod* method) ;
 // T[] System.Collections.Generic.List`1<System.String>::ToArray()
 inline StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
 {
 	return ((  StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1_ToArray_mD7E4F8E7C11C3C67CB5739FCC0A6E86106A6291F_gshared)(__this, method);
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::CheckDirectoryWriteAccess(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_CheckDirectoryWriteAccess_mAC0E6106F6B45810948A51A4EF7F3A82146C1625 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_CheckDirectoryWriteAccess_mAC0E6106F6B45810948A51A4EF7F3A82146C1625 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserAccessRestrictedPanel::Show()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserAccessRestrictedPanel_Show_m5AD03532265A78448B21A3C6742BBB134F8F914A (FileBrowserAccessRestrictedPanel_tC1AAEBE26B66832BCAE1D39CD9DEBDBC5E351F9E* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel/OnOperationConfirmed::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnOperationConfirmed__ctor_m7346406F7CB76D04007DAB1E32F07A5D20858A70 (OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnOperationConfirmed__ctor_m7346406F7CB76D04007DAB1E32F07A5D20858A70 (OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel::Show(SimpleFileBrowser.FileBrowser,System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>,SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel/OperationType,SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel/OnOperationConfirmed)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_Show_mA1BDB18DC17DC1B2842A134649A540E3E25BDFD5 (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* ___fileBrowser0, List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* ___items1, int32_t ___operationType2, OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* ___onOperationConfirmed3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_Show_mA1BDB18DC17DC1B2842A134649A540E3E25BDFD5 (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* ___0_fileBrowser, List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* ___1_items, int32_t ___2_operationType, OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* ___3_onOperationConfirmed, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::OnOperationSuccessful(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnOperationSuccessful_m2CF8A90FC6BA08A1765667852A41111CF43FB4DB (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___paths0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnOperationSuccessful_m2CF8A90FC6BA08A1765667852A41111CF43FB4DB (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_paths, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::OnOperationCanceled(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnOperationCanceled_mDC4CDB908EE1BBC64F34DC02D56BF6B9746F78D8 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___invokeCancelCallback0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnOperationCanceled_mDC4CDB908EE1BBC64F34DC02D56BF6B9746F78D8 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___0_invokeCancelCallback, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::set_Success(System.Boolean)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_Success_mE3E30E699935AC3FC78C668691DDB21610E1F1B4_inline (bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_Success_m468F84004618609ED6161B13043EB83E974C1654_inline (bool ___0_value, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::set_Result(System.String[])
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_Result_m6656F9251FE3557D72BF0D0F4BA83B475820F8AD_inline (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_Result_m6EC4D1C118FC65B1BB34738F18E25A215CF7CC52_inline (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_value, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::Hide()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_Hide_mD14D207CDCAEA3EBCE749396FA71BF049BC897A1 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::set_LastBrowsedFolder(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_LastBrowsedFolder_m74581F03A4ADFF9A990FD5F467A1E8978DF7A46A (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_LastBrowsedFolder_m74581F03A4ADFF9A990FD5F467A1E8978DF7A46A (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser/OnSuccess::Invoke(System.String[])
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_inline (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___paths0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_inline (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_paths, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser/OnCancel::Invoke()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnCancel_Invoke_mE143A09B94A5BA1EC2E849F9442BA582C0A74361_inline (OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::set_SearchString(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_SearchString_mDDD0C4D50DA3999E4338C0A8A001279D08331E48 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_SearchString_mDDD0C4D50DA3999E4338C0A8A001279D08331E48 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser/AndroidSAFDirectoryPickCallback::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidSAFDirectoryPickCallback__ctor_mEB5F8227A1E8CDCED8C3ECD8376AE31CF8903FDD (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidSAFDirectoryPickCallback__ctor_mEB5F8227A1E8CDCED8C3ECD8376AE31CF8903FDD (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FBDirectoryReceiveCallbackAndroid::.ctor(SimpleFileBrowser.FileBrowser/AndroidSAFDirectoryPickCallback)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBDirectoryReceiveCallbackAndroid__ctor_m3E14BCB63628D3C98E169FFEF939ABAC67499803 (FBDirectoryReceiveCallbackAndroid_t24BD96193D84DEE13F2849FE3EACD73546AAB1AC* __this, AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* ___callback0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBDirectoryReceiveCallbackAndroid__ctor_m3E14BCB63628D3C98E169FFEF939ABAC67499803 (FBDirectoryReceiveCallbackAndroid_t24BD96193D84DEE13F2849FE3EACD73546AAB1AC* __this, AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* ___0_callback, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::CallStatic(System.String,System.Object[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowserItem::get_IsDirectory()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FileBrowserItem_get_IsDirectory_mE2B9AE6ADA43DF5A8408EE693F2FDDD88D216D0F_inline (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Int32>::Clear()
@@ -5093,61 +5511,61 @@ inline void List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline (List_
 	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, const RuntimeMethod*))List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_gshared_inline)(__this, method);
 }
 // System.Void System.Collections.Generic.List`1<System.Int32>::Add(T)
-inline void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___item0, const RuntimeMethod* method)
+inline void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline)(__this, ___item0, method);
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline)(__this, ___0_item, method);
 }
 // System.Boolean System.Collections.Generic.List`1<System.Int32>::Remove(T)
-inline bool List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___item0, const RuntimeMethod* method)
+inline bool List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method)
 {
-	return ((  bool (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5_gshared)(__this, ___item0, method);
+	return ((  bool (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5_gshared)(__this, ___0_item, method);
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_MultiSelectionToggleSelectionMode(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_MultiSelectionToggleSelectionMode_m0F58D2FE698D3B849FB78DC405551C2A54899830 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_MultiSelectionToggleSelectionMode_m0F58D2FE698D3B849FB78DC405551C2A54899830 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___0_value, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::UpdateFilenameInputFieldWithSelection()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_UpdateFilenameInputFieldWithSelection_mE68C8FA9B60ADB869F43D6FD7D8ABA5301A7F7E1 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowser::get_SingleClickMode()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_SingleClickMode_mBC1D95A4EF5641CE3D6B8096C609EE0467F03C7D (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_SingleClickMode_mB2E953435870E05CF0AFA484781DF8266DB56EE8 (const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::OnSubmitButtonClicked()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnSubmitButtonClicked_m3332294C34AC603145DA335F0C86BD11A0688DF8 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.String SimpleFileBrowser.FileBrowserItem::get_Name()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserItem_get_Name_mB4AB269ACE59C310314C422DE06883842C6B1A15 (FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::OnItemSelected(SimpleFileBrowser.FileBrowserItem,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnItemSelected_m553F21D12D4F28911E2B04E2B5E14D434AE8B067 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* ___item0, bool ___isDoubleClick1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnItemSelected_m553F21D12D4F28911E2B04E2B5E14D434AE8B067 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* ___0_item, bool ___1_isDoubleClick, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowser::get_MultiSelectionToggleSelectionMode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_MultiSelectionToggleSelectionMode_m0CC81C607E6309B5E0E706E5A8F74CF3E541A082 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Int32>::RemoveAt(System.Int32)
-inline void List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___index0, const RuntimeMethod* method)
+inline void List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_gshared)(__this, ___index0, method);
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_gshared)(__this, ___0_index, method);
 }
 // System.Int32 System.String::LastIndexOf(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_LastIndexOf_m8923DBD89F2B3E5A34190B038B48F402E0C17E40 (String_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_LastIndexOf_m8923DBD89F2B3E5A34190B038B48F402E0C17E40 (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogError(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Int32 System.String::IndexOf(System.String,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_IndexOf_mCBADAB35416ED6F5F733DF46CC86C23E5C9E5A56 (String_t* __this, String_t* ___value0, int32_t ___startIndex1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_IndexOf_mCBADAB35416ED6F5F733DF46CC86C23E5C9E5A56 (String_t* __this, String_t* ___0_value, int32_t ___1_startIndex, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowser::get_AskPermissions()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_AskPermissions_m550ED3B674566CE6C04CB7F76C97B07686BFCA16 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_AskPermissions_m0BBD82FDD3C5646E78BFADAB5E3BCA7F565D8F07 (const RuntimeMethod* method) ;
 // SimpleFileBrowser.FileBrowser/Permission SimpleFileBrowser.FileBrowser::RequestPermission()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_RequestPermission_m7F419FBC909B5904989D292C92427ACB414B489E (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_RequestPermission_m3938A9ED25EB15C45D72777BDEC5CC96E82A80AA (const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::InitializeQuickLinks()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_InitializeQuickLinks_mC08CA308D9034BA498A4CE1AC3FFE849230DFB56 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::set_IsOpen(System.Boolean)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_IsOpen_mC94644F22A61409CE23169AAD18499301862D444_inline (bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_IsOpen_m936300FE9E761E2E76AB8D177927C61F2159B531_inline (bool ___0_value, const RuntimeMethod* method) ;
 // System.String SimpleFileBrowser.FileBrowser::GetInitialPath(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetInitialPath_mB6A20DD2C4B53CA447385B11A12FDA952FFB5831 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___initialPath0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetInitialPath_mB6A20DD2C4B53CA447385B11A12FDA952FFB5831 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_initialPath, const RuntimeMethod* method) ;
 // SimpleFileBrowser.FileSystemEntry[] SimpleFileBrowser.FileBrowserHelpers::GetEntriesInDirectory(System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* FileBrowserHelpers_GetEntriesInDirectory_m4E5FA288844CAA15C783E32EB39CD6C062B37AC3 (String_t* ___path0, bool ___extractOnlyLastSuffixFromExtensions1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* FileBrowserHelpers_GetEntriesInDirectory_mD38D1E010FC6D76DEA66731BB3A214C8AE33BE0A (String_t* ___0_path, bool ___1_extractOnlyLastSuffixFromExtensions, const RuntimeMethod* method) ;
 // System.Void System.Comparison`1<SimpleFileBrowser.FileSystemEntry>::.ctor(System.Object,System.IntPtr)
-inline void Comparison_1__ctor_m47C787D870830DB2586F410E427EC96FCE4B5AED (Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Comparison_1__ctor_m47C787D870830DB2586F410E427EC96FCE4B5AED (Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209*, RuntimeObject*, intptr_t, const RuntimeMethod*))Comparison_1__ctor_m47C787D870830DB2586F410E427EC96FCE4B5AED_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209*, RuntimeObject*, intptr_t, const RuntimeMethod*))Comparison_1__ctor_m47C787D870830DB2586F410E427EC96FCE4B5AED_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Void System.Array::Sort<SimpleFileBrowser.FileSystemEntry>(T[],System.Comparison`1<T>)
-inline void Array_Sort_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_mFFCF29E1AD96ED471A0799EC2696D62213C3E581 (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* ___array0, Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209* ___comparison1, const RuntimeMethod* method)
+inline void Array_Sort_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m4470317FB5DC2D24D13772410A0CB87E3AC31ED4 (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* ___0_array, Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209* ___1_comparison, const RuntimeMethod* method)
 {
-	((  void (*) (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9*, Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209*, const RuntimeMethod*))Array_Sort_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_mFFCF29E1AD96ED471A0799EC2696D62213C3E581_gshared)(___array0, ___comparison1, method);
+	((  void (*) (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9*, Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209*, const RuntimeMethod*))Array_Sort_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m4470317FB5DC2D24D13772410A0CB87E3AC31ED4_gshared)(___0_array, ___1_comparison, method);
 }
 // System.Boolean UnityEngine.UI.Selectable::get_interactable()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Selectable_get_interactable_m17DD0484DC62DCB4467109488D7A599BC85EC112 (Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712* __this, const RuntimeMethod* method) ;
@@ -5156,82 +5574,82 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecycledListView_UpdateList_mDB5B2A69EA3
 // System.Void SimpleFileBrowser.FileBrowser::EnsureScrollViewIsWithinBounds()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_EnsureScrollViewIsWithinBounds_mB014E75CA8EFC7FC5B9A388413D610BE6747D954 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.HashSet`1<System.String>::Contains(T)
-inline bool HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853 (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, String_t* ___item0, const RuntimeMethod* method)
+inline bool HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853 (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, String_t* ___0_item, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, String_t*, const RuntimeMethod*))HashSet_1_Contains_m9BACE52BFA0BD83C601529D3629118453E459BBB_gshared)(__this, ___item0, method);
+	return ((  bool (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, String_t*, const RuntimeMethod*))HashSet_1_Contains_m9BACE52BFA0BD83C601529D3629118453E459BBB_gshared)(__this, ___0_item, method);
 }
 // System.Boolean System.String::EndsWith(System.String,System.StringComparison)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_EndsWith_m5E5D307CA6AEB7C08CE782B4693B19D07ADC9075 (String_t* __this, String_t* ___value0, int32_t ___comparisonType1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_EndsWith_m5E5D307CA6AEB7C08CE782B4693B19D07ADC9075 (String_t* __this, String_t* ___0_value, int32_t ___1_comparisonType, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.HashSet`1<System.String>::Add(T)
-inline bool HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, String_t* ___item0, const RuntimeMethod* method)
+inline bool HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, String_t* ___0_item, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, String_t*, const RuntimeMethod*))HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared)(__this, ___item0, method);
+	return ((  bool (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, String_t*, const RuntimeMethod*))HashSet_1_Add_m2CD7657B3459B61DD4BBA47024AC71F7D319658B_gshared)(__this, ___0_item, method);
 }
 // System.Boolean SimpleFileBrowser.FileBrowser/FileSystemEntryFilter::Invoke(SimpleFileBrowser.FileSystemEntry)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_inline (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___entry0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_inline (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_entry, const RuntimeMethod* method) ;
 // System.Collections.IEnumerator SimpleFileBrowser.FileBrowser::CreateNewFolderCoroutine()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FileBrowser_CreateNewFolderCoroutine_mB8A66589D4DCF5D8ECA7C2EA681101BD9D17CABD (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___routine0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser/<CreateNewFolderCoroutine>d__241::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateNewFolderCoroutineU3Ed__241__ctor_mF89B78AA43299DAFF0A7A50CF874F9C8688E8356 (U3CCreateNewFolderCoroutineU3Ed__241_t992A5B557642F89A3D7E0B62E181D10D0D19CEEC* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateNewFolderCoroutineU3Ed__241__ctor_mF89B78AA43299DAFF0A7A50CF874F9C8688E8356 (U3CCreateNewFolderCoroutineU3Ed__241_t992A5B557642F89A3D7E0B62E181D10D0D19CEEC* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser/<>c__DisplayClass242_0::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass242_0__ctor_m21D88A43F39E63A97E0882FBE404C7FB3F402373 (U3CU3Ec__DisplayClass242_0_t21574AB45B70E2B8B193046A6F51072EAFCA7423* __this, const RuntimeMethod* method) ;
 // UnityEngine.Color SimpleFileBrowser.UISkin::get_FileSelectedBackgroundColor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F UISkin_get_FileSelectedBackgroundColor_m3E275E244C9580296423FEB3C26DF2D30C44BF37 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserRenamedItem/OnRenameCompleted::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnRenameCompleted__ctor_m48E13B91ED45B15352E140198FC3415D9A888858 (OnRenameCompleted_t431AC2CFF8D11E4AEF72BBD7D07F5271994D5E84* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnRenameCompleted__ctor_m48E13B91ED45B15352E140198FC3415D9A888858 (OnRenameCompleted_t431AC2CFF8D11E4AEF72BBD7D07F5271994D5E84* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserRenamedItem::Show(System.String,UnityEngine.Color,UnityEngine.Sprite,SimpleFileBrowser.FileBrowserRenamedItem/OnRenameCompleted)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserRenamedItem_Show_m55D9787654356551E45B68F837AF154EB31613F0 (FileBrowserRenamedItem_tA7DE040D258C479A7C3D9C169F1850CD27D115A6* __this, String_t* ___initialFilename0, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___backgroundColor1, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___icon2, OnRenameCompleted_t431AC2CFF8D11E4AEF72BBD7D07F5271994D5E84* ___onRenameCompleted3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserRenamedItem_Show_m55D9787654356551E45B68F837AF154EB31613F0 (FileBrowserRenamedItem_tA7DE040D258C479A7C3D9C169F1850CD27D115A6* __this, String_t* ___0_initialFilename, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_backgroundColor, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___2_icon, OnRenameCompleted_t431AC2CFF8D11E4AEF72BBD7D07F5271994D5E84* ___3_onRenameCompleted, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<System.Int32>::Sort()
 inline void List_1_Sort_m6DA897B8E2A3434A84E3529FE9850B2773D88B65 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, const RuntimeMethod*))List_1_Sort_m6DA897B8E2A3434A84E3529FE9850B2773D88B65_gshared)(__this, method);
 }
 // System.Void SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel::Show(SimpleFileBrowser.FileBrowser,System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>,System.Collections.Generic.List`1<System.Int32>,SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel/OperationType,SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel/OnOperationConfirmed)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_Show_mABF73277F67B8C5C2E573BDD036A08F30DCDDA73 (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* ___fileBrowser0, List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* ___items1, List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___selectedItemIndices2, int32_t ___operationType3, OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* ___onOperationConfirmed4, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_Show_mABF73277F67B8C5C2E573BDD036A08F30DCDDA73 (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* ___0_fileBrowser, List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* ___1_items, List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___2_selectedItemIndices, int32_t ___3_operationType, OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* ___4_onOperationConfirmed, const RuntimeMethod* method) ;
 // System.Boolean System.IO.Directory::Exists(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Directory_Exists_m1AC1A8910C9883BD4198ECF585C97F09E23C4702 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Directory_Exists_m3D125E9E88C291CF11113444F961A64DD83AE1C7 (String_t* ___0_path, const RuntimeMethod* method) ;
 // T UnityEngine.Object::Instantiate<SimpleFileBrowser.FileBrowserQuickLink>(T,UnityEngine.Transform,System.Boolean)
-inline FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* Object_Instantiate_TisFileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_m71B28905C9E5CE01C1F11CDBBEB7CECDCFFC8C5C (FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* ___original0, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___parent1, bool ___worldPositionStays2, const RuntimeMethod* method)
+inline FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* Object_Instantiate_TisFileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_mA283CC0780F7E4D6E53BB45A771FC1F53263C8EF (FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* ___0_original, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___1_parent, bool ___2_worldPositionStays, const RuntimeMethod* method)
 {
-	return ((  FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* (*) (FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, bool, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m8784E2833D9F115FD2B2BED6615426E8CD75EE9B_gshared)(___original0, ___parent1, ___worldPositionStays2, method);
+	return ((  FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* (*) (FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E*, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1*, bool, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_mDC5AD8BD13FE50E98B67B956C048367F4E8C6F94_gshared)(___0_original, ___1_parent, ___2_worldPositionStays, method);
 }
 // System.Single UnityEngine.UI.ScrollRect::get_verticalNormalizedPosition()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScrollRect_get_verticalNormalizedPosition_m4FE766F04272C1805FDE2A4B72D80F6190841FA1 (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 UnityEngine.Vector2::op_Multiply(UnityEngine.Vector2,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Multiply_m4EEB2FF3F4830390A53CE9B6076FB31801D65EED_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, float ___d1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, float ___1_d, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 UnityEngine.Vector2::op_Subtraction(UnityEngine.Vector2,UnityEngine.Vector2)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___b1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 UnityEngine.Vector2::op_Addition(UnityEngine.Vector2,UnityEngine.Vector2)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Addition_m704B5B98EAFE885978381E21B7F89D9DF83C2A60_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___b1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Mathf::Min(System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_inline (float ___a0, float ___b1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Transform::SetParent(UnityEngine.Transform,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___parent0, bool ___worldPositionStays1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_SetParent_m9BDD7B7476714B2D7919B10BDC22CE75C0A0A195 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_parent, bool ___1_worldPositionStays, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.RecycledListView::OnViewportDimensionsChanged()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecycledListView_OnViewportDimensionsChanged_mB6C2DC3A7A045804CA21594CADB070B00EA8C04B (RecycledListView_t00EFBAA414C3606D349D75DBEF693D5614472EF1* __this, const RuntimeMethod* method) ;
 // UnityEngine.Sprite SimpleFileBrowser.UISkin::GetIconForFileEntry(SimpleFileBrowser.FileSystemEntry,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* UISkin_GetIconForFileEntry_mBE3548DA513A0F0D809AFD07DC7067086E53E5AC (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___fileInfo0, bool ___extensionMayHaveMultipleSuffixes1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* UISkin_GetIconForFileEntry_mBE3548DA513A0F0D809AFD07DC7067086E53E5AC (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_fileInfo, bool ___1_extensionMayHaveMultipleSuffixes, const RuntimeMethod* method) ;
 // System.String System.String::ToLowerInvariant()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_ToLowerInvariant_mBE32C93DE27C5353FEA3FA654FC1DDBE3D0EB0F2 (String_t* __this, const RuntimeMethod* method) ;
 // System.String System.IO.Path::GetDirectoryName(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetDirectoryName_mB9369289430566A15BB0A0CFCCBED3C6ECA7F30C (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetDirectoryName_m428BADBE493A3927B51A13DEF658929B430516F6 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Void System.Text.StringBuilder::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m2619CA8D2C3476DF1A302D9D941498BB1C6164C5 (StringBuilder_t* __this, int32_t ___capacity0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder__ctor_m2619CA8D2C3476DF1A302D9D941498BB1C6164C5 (StringBuilder_t* __this, int32_t ___0_capacity, const RuntimeMethod* method) ;
 // System.Void System.Text.StringBuilder::set_Length(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder_set_Length_mE2427BDAEF91C4E4A6C80F3BDF1F6E01DBCC2414 (StringBuilder_t* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StringBuilder_set_Length_mE2427BDAEF91C4E4A6C80F3BDF1F6E01DBCC2414 (StringBuilder_t* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D (StringBuilder_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D (StringBuilder_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Int32 System.String::IndexOf(System.Char,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_IndexOf_m15B90A59047584420D227EE3A7EAC0C5EAF676F4 (String_t* __this, Il2CppChar ___value0, int32_t ___startIndex1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_IndexOf_m15B90A59047584420D227EE3A7EAC0C5EAF676F4 (String_t* __this, Il2CppChar ___0_value, int32_t ___1_startIndex, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.HashSet`1<System.Char>::Contains(T)
-inline bool HashSet_1_Contains_mE60FDE27327895B50551345B5D75DFDD5349801B (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A* __this, Il2CppChar ___item0, const RuntimeMethod* method)
+inline bool HashSet_1_Contains_mE60FDE27327895B50551345B5D75DFDD5349801B (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A* __this, Il2CppChar ___0_item, const RuntimeMethod* method)
 {
-	return ((  bool (*) (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A*, Il2CppChar, const RuntimeMethod*))HashSet_1_Contains_mE60FDE27327895B50551345B5D75DFDD5349801B_gshared)(__this, ___item0, method);
+	return ((  bool (*) (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A*, Il2CppChar, const RuntimeMethod*))HashSet_1_Contains_mE60FDE27327895B50551345B5D75DFDD5349801B_gshared)(__this, ___0_item, method);
 }
 // System.Boolean System.Char::IsWhiteSpace(System.Char)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Char_IsWhiteSpace_m9CE0F6685DB2502ABE106D160F95A287EFC07EF9 (Il2CppChar ___c0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Char_IsWhiteSpace_m02AEC6EA19513CAFC6882CFCA54C45794D2B5924 (Il2CppChar ___0_c, const RuntimeMethod* method) ;
 // UnityEngine.Font UnityEngine.UI.Text::get_font()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Font_tC95270EA3198038970422D78B74A7F2E218A96B6* Text_get_font_mBF98ED39D5C5081AF14A64170EC3391D206CCAFD (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* __this, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.UI.Text::get_fontSize()
@@ -5239,9 +5657,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Text_get_fontSize_m837C0618E78D0FDA97
 // UnityEngine.FontStyle UnityEngine.UI.Text::get_fontStyle()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Text_get_fontStyle_m7684B5FFE1DC8237FB573A012B482DDB04E3BA47 (Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Font::RequestCharactersInTexture(System.String,System.Int32,UnityEngine.FontStyle)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Font_RequestCharactersInTexture_m87509ABBEDF61305BA10B2DC65B565E57FF6DDD4 (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* __this, String_t* ___characters0, int32_t ___size1, int32_t ___style2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Font_RequestCharactersInTexture_m87509ABBEDF61305BA10B2DC65B565E57FF6DDD4 (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* __this, String_t* ___0_characters, int32_t ___1_size, int32_t ___2_style, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Font::GetCharacterInfo(System.Char,UnityEngine.CharacterInfo&,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Font_GetCharacterInfo_m16CAF16CA4CAEA2CCC7A1DB4211F78A76040FBAA (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* __this, Il2CppChar ___ch0, CharacterInfo_t211705CECE52870AEC4DBD0574D581AF765BB889* ___info1, int32_t ___size2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Font_GetCharacterInfo_m16CAF16CA4CAEA2CCC7A1DB4211F78A76040FBAA (Font_tC95270EA3198038970422D78B74A7F2E218A96B6* __this, Il2CppChar ___0_ch, CharacterInfo_t211705CECE52870AEC4DBD0574D581AF765BB889* ___1_info, int32_t ___2_size, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.CharacterInfo::get_advance()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CharacterInfo_get_advance_m0AAC68ABA1BD5B184B53E01F270BA4FD1D2C2B9A (CharacterInfo_t211705CECE52870AEC4DBD0574D581AF765BB889* __this, const RuntimeMethod* method) ;
 // System.String SimpleFileBrowser.FileBrowser::get_CurrentPath()
@@ -5249,27 +5667,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_CurrentPath_mBFA8E3
 // System.String SimpleFileBrowser.FileBrowser::get_LastBrowsedFolder()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_LastBrowsedFolder_m6457C65E0801437674EF2AC7C3732368ACB70438 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.Void System.IO.File::Delete(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_Delete_mB5CB249F5370D49747243BCA9C56CCC48D3E6A08 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.IO.FileStream System.IO.File::Create(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* File_Create_m1CEFB773993DCC259CC20C29818B754726A25E89 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* File_Create_m7A88AE26DE05E6D790E3C5B1140EE5DC91DCC519 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowser::ShowDialogInternal(SimpleFileBrowser.FileBrowser/OnSuccess,SimpleFileBrowser.FileBrowser/OnCancel,SimpleFileBrowser.FileBrowser/PickMode,System.Boolean,System.Boolean,System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowDialogInternal_mC92646F8C1B0FF0AD77C57F9D0EBEEDE2BB07ADE (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* ___onSuccess0, OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* ___onCancel1, int32_t ___pickMode2, bool ___allowMultiSelection3, bool ___acceptNonExistingFilename4, String_t* ___initialPath5, String_t* ___initialFilename6, String_t* ___title7, String_t* ___submitButtonText8, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowDialogInternal_m949FABBA8CA78165352B9A09DE5DD11044A4759B (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* ___0_onSuccess, OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* ___1_onCancel, int32_t ___2_pickMode, bool ___3_allowMultiSelection, bool ___4_acceptNonExistingFilename, String_t* ___5_initialPath, String_t* ___6_initialFilename, String_t* ___7_title, String_t* ___8_submitButtonText, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::set_PickerMode(SimpleFileBrowser.FileBrowser/PickMode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_PickerMode_m252A1D099DEF70FAF8AC72FD5D7A4C45B65AA206 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_PickerMode_m252A1D099DEF70FAF8AC72FD5D7A4C45B65AA206 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::set_AllowMultiSelection(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AllowMultiSelection_m4FC44DD7C7836F9F094C0CBE960A29259B0D1E05 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AllowMultiSelection_m4FC44DD7C7836F9F094C0CBE960A29259B0D1E05 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___0_value, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::set_Title(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Title_mA303A37D55D2D07C43D734B10507A42B55D10423 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Title_mA303A37D55D2D07C43D734B10507A42B55D10423 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::set_SubmitButtonText(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_SubmitButtonText_m29CFCD8B22FB378B3E8F4388C72C7A1A7AB3C0D4 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_SubmitButtonText_m29CFCD8B22FB378B3E8F4388C72C7A1A7AB3C0D4 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::set_AcceptNonExistingFilename(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AcceptNonExistingFilename_mF0E53CE81D674BEBE2583049BEE0586661374079 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AcceptNonExistingFilename_mF0E53CE81D674BEBE2583049BEE0586661374079 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___0_value, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::Show(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_Show_m64A9C6492FE4F3A2E083847F85078AF64A491C98 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___initialPath0, String_t* ___initialFilename1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_Show_m64A9C6492FE4F3A2E083847F85078AF64A491C98 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_initialPath, String_t* ___1_initialFilename, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser/<WaitForSaveDialog>d__264::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForSaveDialogU3Ed__264__ctor_mAACF2B62EAEB977B6E0DA1F7DB5345349441E537 (U3CWaitForSaveDialogU3Ed__264_t15DCB29ED5436BB9EC2F69D03DDFDF605D8FCD09* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForSaveDialogU3Ed__264__ctor_mAACF2B62EAEB977B6E0DA1F7DB5345349441E537 (U3CWaitForSaveDialogU3Ed__264_t15DCB29ED5436BB9EC2F69D03DDFDF605D8FCD09* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser/<WaitForLoadDialog>d__265::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForLoadDialogU3Ed__265__ctor_mC93B4DB776B7735E61017BF5849390CD626ACDD6 (U3CWaitForLoadDialogU3Ed__265_tC9E7C1136C4F78302395A6B34E1FE8CF969786FC* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForLoadDialogU3Ed__265__ctor_mC93B4DB776B7735E61017BF5849390CD626ACDD6 (U3CWaitForLoadDialogU3Ed__265_tC9E7C1136C4F78302395A6B34E1FE8CF969786FC* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::ClearQuickLinksInternal()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_ClearQuickLinksInternal_m16606512E3CA993A619C864CC764D9253FBAE162 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.HashSet`1<System.String>::Clear()
@@ -5278,62 +5696,62 @@ inline void HashSet_1_Clear_m0181AAD373CCA0B6C26FE43A802121B3C0DE5F90 (HashSet_1
 	((  void (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, const RuntimeMethod*))HashSet_1_Clear_m75A6528F0B47448EB3B3A05EC379260E9BDFC2DD_gshared)(__this, method);
 }
 // System.Void SimpleFileBrowser.FileBrowser::SetFilters(System.Boolean,System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_m9A1F7D8B946BE18B89EC1FEBE09E68C227EEF5A0 (bool ___showAllFilesFilter0, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___filters1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_m405721CF130ECD476DD62195DF04D78AE51D5F3C (bool ___0_showAllFilesFilter, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_filters, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::SetFiltersPreProcessing(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFiltersPreProcessing_m06AA25B9394BC9012763EA01B0EB166C8BDBEE42 (bool ___showAllFilesFilter0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFiltersPreProcessing_m44B66B81F18AB5F7985B76B2DD530383381720D8 (bool ___0_showAllFilesFilter, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser/Filter::.ctor(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m26233F843105D6920F34365B6BD6B82BFA9FB44E (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* __this, String_t* ___name0, String_t* ___extension1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m26233F843105D6920F34365B6BD6B82BFA9FB44E (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* __this, String_t* ___0_name, String_t* ___1_extension, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser::SetFiltersPostProcessing()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFiltersPostProcessing_m026D4142F0AACA8173F861F5A0E86969EBB01C7C (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFiltersPostProcessing_m60A808CACF30021F776693CBDA63A3CEF1E2EE93 (const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowser/Filter>::Clear()
 inline void List_1_Clear_m4EE16077BDAF9B78EBD5C5ABF3A65D7960512FF3_inline (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* __this, const RuntimeMethod* method)
 {
 	((  void (*) (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
 }
 // System.Void System.Collections.Generic.List`1<System.String>::.ctor(System.Int32)
-inline void List_1__ctor_m1A062F45FE926079CE2D4FD38A3BF15F7AEB89AF (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___capacity0, const RuntimeMethod* method)
+inline void List_1__ctor_m1A062F45FE926079CE2D4FD38A3BF15F7AEB89AF (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___0_capacity, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1__ctor_m76CBBC3E2F0583F5AD30CE592CEA1225C06A0428_gshared)(__this, ___capacity0, method);
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1__ctor_m76CBBC3E2F0583F5AD30CE592CEA1225C06A0428_gshared)(__this, ___0_capacity, method);
 }
 // System.Int32 SimpleFileBrowser.FileBrowser::CalculateLengthOfDropdownText(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_CalculateLengthOfDropdownText_m9066BB1F5AB9C6051690469BD3FFA52BC20ADD9D (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___str0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_CalculateLengthOfDropdownText_m9066BB1F5AB9C6051690469BD3FFA52BC20ADD9D (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_str, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Mathf::Max(System.Int32,System.Int32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m8A4C189A6749DFE3ED8B66D9D3CACD8DB333974F_inline (int32_t ___a0, int32_t ___b1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.Dropdown::ClearOptions()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dropdown_ClearOptions_m3EE71BFE47AB96BC7F731C4EE6BC728ED0E6EE56 (Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.Dropdown::AddOptions(System.Collections.Generic.List`1<System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dropdown_AddOptions_mCFB763400FA1BCA695C168E7FBCDE20C9B8E7839 (Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___options0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dropdown_AddOptions_mCFB763400FA1BCA695C168E7FBCDE20C9B8E7839 (Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_options, const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::CallStatic<System.Int32>(System.String,System.Object[])
-inline int32_t AndroidJavaObject_CallStatic_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m6619B03C8DA4F5A66785845A2E5B39DAEF36642A (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method)
+inline int32_t AndroidJavaObject_CallStatic_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m6619B03C8DA4F5A66785845A2E5B39DAEF36642A (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_CallStatic_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m6619B03C8DA4F5A66785845A2E5B39DAEF36642A_gshared)(__this, ___methodName0, ___args1, method);
+	return ((  int32_t (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_CallStatic_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_m6619B03C8DA4F5A66785845A2E5B39DAEF36642A_gshared)(__this, ___0_methodName, ___1_args, method);
 }
 // System.Int32 UnityEngine.PlayerPrefs::GetInt(System.String,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayerPrefs_GetInt_mDCAA431AEC7CBAA6AF58857A8773E5B6B472285C (String_t* ___key0, int32_t ___defaultValue1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D (String_t* ___0_key, int32_t ___1_defaultValue, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FBPermissionCallbackAndroid::.ctor(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBPermissionCallbackAndroid__ctor_m06CC708AA6C575C48463DAB87773AB835BFEAEA9 (FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* __this, RuntimeObject* ___threadLock0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBPermissionCallbackAndroid__ctor_m06CC708AA6C575C48463DAB87773AB835BFEAEA9 (FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* __this, RuntimeObject* ___0_threadLock, const RuntimeMethod* method) ;
 // System.Int32 SimpleFileBrowser.FBPermissionCallbackAndroid::get_Result()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t FBPermissionCallbackAndroid_get_Result_mC64B832D8BD6285E1DD4C32D54427B2E2C9DEDCF_inline (FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Threading.Monitor::Wait(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Monitor_Wait_m4E2A910D043438CDD5F8B9B9E82213C1E3CC8A78 (RuntimeObject* ___obj0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Monitor_Wait_m322138959FFE3F4F3212658ACB0C30C981880D28 (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
 // System.Void UnityEngine.PlayerPrefs::SetInt(System.String,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetInt_mDC9617BFD56FEC670626A1002D9A5FE963D8D175 (String_t* ___key0, int32_t ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948 (String_t* ___0_key, int32_t ___1_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.PlayerPrefs::Save()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_Save_mCC9D4FCE00EA315AC967771D5D993E04CB742DFB (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE (const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.HashSet`1<System.String>::.ctor()
 inline void HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03 (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, const RuntimeMethod* method)
 {
 	((  void (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, const RuntimeMethod*))HashSet_1__ctor_m9132EE1422BAA45E44B7FFF495F378790D36D90E_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserItem>::.ctor(System.Int32)
-inline void List_1__ctor_mC6C0112F9CC2DCC838435F2C0870E268BF62FA69 (List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175* __this, int32_t ___capacity0, const RuntimeMethod* method)
+inline void List_1__ctor_mC6C0112F9CC2DCC838435F2C0870E268BF62FA69 (List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175* __this, int32_t ___0_capacity, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175*, int32_t, const RuntimeMethod*))List_1__ctor_m76CBBC3E2F0583F5AD30CE592CEA1225C06A0428_gshared)(__this, ___capacity0, method);
+	((  void (*) (List_1_t929BC16488C7AC287FAEA407865DE8BA730EF175*, int32_t, const RuntimeMethod*))List_1__ctor_m76CBBC3E2F0583F5AD30CE592CEA1225C06A0428_gshared)(__this, ___0_capacity, method);
 }
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowserQuickLink>::.ctor(System.Int32)
-inline void List_1__ctor_mA0036C5B661D03B69EDAB2A00939E9037E128551 (List_1_t417643521992E3A9934A752A70E79B7192BE59ED* __this, int32_t ___capacity0, const RuntimeMethod* method)
+inline void List_1__ctor_mA0036C5B661D03B69EDAB2A00939E9037E128551 (List_1_t417643521992E3A9934A752A70E79B7192BE59ED* __this, int32_t ___0_capacity, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t417643521992E3A9934A752A70E79B7192BE59ED*, int32_t, const RuntimeMethod*))List_1__ctor_m76CBBC3E2F0583F5AD30CE592CEA1225C06A0428_gshared)(__this, ___capacity0, method);
+	((  void (*) (List_1_t417643521992E3A9934A752A70E79B7192BE59ED*, int32_t, const RuntimeMethod*))List_1__ctor_m76CBBC3E2F0583F5AD30CE592CEA1225C06A0428_gshared)(__this, ___0_capacity, method);
 }
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>::.ctor()
 inline void List_1__ctor_m0BAC45BE7CBFF878268B4811C4BF318D7AB9E142 (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, const RuntimeMethod* method)
@@ -5341,9 +5759,9 @@ inline void List_1__ctor_m0BAC45BE7CBFF878268B4811C4BF318D7AB9E142 (List_1_tF2EE
 	((  void (*) (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B*, const RuntimeMethod*))List_1__ctor_m0BAC45BE7CBFF878268B4811C4BF318D7AB9E142_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.List`1<System.Int32>::.ctor(System.Int32)
-inline void List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___capacity0, const RuntimeMethod* method)
+inline void List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_capacity, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98_gshared)(__this, ___capacity0, method);
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1__ctor_m30DD6F0F8DFBA9856BF7220A3CDB1C89ECEC0D98_gshared)(__this, ___0_capacity, method);
 }
 // System.Void System.Collections.Generic.List`1<System.String>::.ctor()
 inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
@@ -5351,9 +5769,9 @@ inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470
 	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
 }
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>::.ctor(System.Int32)
-inline void List_1__ctor_m1CB6B0F85D9BF954C38F5641E23FC96E7496C67E (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, int32_t ___capacity0, const RuntimeMethod* method)
+inline void List_1__ctor_m1CB6B0F85D9BF954C38F5641E23FC96E7496C67E (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, int32_t ___0_capacity, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B*, int32_t, const RuntimeMethod*))List_1__ctor_m1CB6B0F85D9BF954C38F5641E23FC96E7496C67E_gshared)(__this, ___capacity0, method);
+	((  void (*) (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B*, int32_t, const RuntimeMethod*))List_1__ctor_m1CB6B0F85D9BF954C38F5641E23FC96E7496C67E_gshared)(__this, ___0_capacity, method);
 }
 // System.Void System.Collections.Generic.List`1<SimpleFileBrowser.FileBrowser/Filter>::.ctor()
 inline void List_1__ctor_m1AD8B1CD6189AA90D2E4D1BDD6B10C1FE4CDB186 (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* __this, const RuntimeMethod* method)
@@ -5361,34 +5779,34 @@ inline void List_1__ctor_m1AD8B1CD6189AA90D2E4D1BDD6B10C1FE4CDB186 (List_1_t4C78
 	((  void (*) (List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
 }
 // System.Void System.Globalization.CultureInfo::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CultureInfo__ctor_m13C68B1478A97FC5FA9653C46B2C42DA01573FFB (CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* __this, String_t* ___name0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CultureInfo__ctor_m13C68B1478A97FC5FA9653C46B2C42DA01573FFB (CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* __this, String_t* ___0_name, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.ScrollRect::set_movementType(UnityEngine.UI.ScrollRect/MovementType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollRect_set_movementType_m2A900C10E6C005FD6866EFF1DA2DF78AA957534A (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollRect_set_movementType_m2A900C10E6C005FD6866EFF1DA2DF78AA957534A (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserHelpers::DeleteDirectory(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_DeleteDirectory_m2812DF984D0E379CD2185D077FF519AB5FA717EB (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_DeleteDirectory_mE91C675665F5749E1701942508146B708CD2393F (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserHelpers::DeleteFile(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_DeleteFile_m9FE24F1EEA853DE05BE18E9DA85D014C73360AD8 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_DeleteFile_m66A7C172841347E97372F839F29FEF337ACD4DA8 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.HashSet`1<System.String>::.ctor(System.Collections.Generic.IEnumerable`1<T>)
-inline void HashSet_1__ctor_m9F8CD04799346CDC14E5D227FCC28B5A151A7C62 (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, RuntimeObject* ___collection0, const RuntimeMethod* method)
+inline void HashSet_1__ctor_m9F8CD04799346CDC14E5D227FCC28B5A151A7C62 (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method)
 {
-	((  void (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, RuntimeObject*, const RuntimeMethod*))HashSet_1__ctor_mC13D3ADFE27A073EC3C583E9C926C801A7EE1DDD_gshared)(__this, ___collection0, method);
+	((  void (*) (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*, RuntimeObject*, const RuntimeMethod*))HashSet_1__ctor_mC13D3ADFE27A073EC3C583E9C926C801A7EE1DDD_gshared)(__this, ___0_collection, method);
 }
 // System.String System.String::Concat(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0 (String_t* ___str00, String_t* ___str11, String_t* ___str22, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowser/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mDC67BB8C9A0B1001B8C37486C2AA5D9197175C1A (U3CU3Ec_t6465B650974F0FB45FBE66E11C631E405F31D4F0* __this, const RuntimeMethod* method) ;
 // System.Int32 System.String::CompareTo(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_CompareTo_m32A3DFBEA443A4091053D53825DBB76E6EAFECCF (String_t* __this, String_t* ___strB0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_CompareTo_m32A3DFBEA443A4091053D53825DBB76E6EAFECCF (String_t* __this, String_t* ___0_strB, const RuntimeMethod* method) ;
 // System.Void System.NotSupportedException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
 // System.String SimpleFileBrowser.FileBrowserHelpers::RenameDirectory(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_RenameDirectory_m006A6B9AAECF8288AF9D689AC23C54F6E6518DEB (String_t* ___path0, String_t* ___newName1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_RenameDirectory_m29646F29E0E519BF9B60F7108E9B5C227EEBCB29 (String_t* ___0_path, String_t* ___1_newName, const RuntimeMethod* method) ;
 // System.String SimpleFileBrowser.FileBrowserHelpers::RenameFile(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_RenameFile_m28EC14810CA6B6A17C271ABC2AC2BFA21DDE67D9 (String_t* ___path0, String_t* ___newName1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_RenameFile_m73347952A287B918D3101E781F000BA89255F665 (String_t* ___0_path, String_t* ___1_newName, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowser::ShowSaveDialog(SimpleFileBrowser.FileBrowser/OnSuccess,SimpleFileBrowser.FileBrowser/OnCancel,SimpleFileBrowser.FileBrowser/PickMode,System.Boolean,System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowSaveDialog_m144B1D73495975776018A3D243D9C5902CAA8B2C (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* ___onSuccess0, OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* ___onCancel1, int32_t ___pickMode2, bool ___allowMultiSelection3, String_t* ___initialPath4, String_t* ___initialFilename5, String_t* ___title6, String_t* ___saveButtonText7, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowSaveDialog_mBF81960D923B68B03EB2B2545FE2EB3E31439049 (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* ___0_onSuccess, OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* ___1_onCancel, int32_t ___2_pickMode, bool ___3_allowMultiSelection, String_t* ___4_initialPath, String_t* ___5_initialFilename, String_t* ___6_title, String_t* ___7_saveButtonText, const RuntimeMethod* method) ;
 // System.Boolean SimpleFileBrowser.FileBrowser::ShowLoadDialog(SimpleFileBrowser.FileBrowser/OnSuccess,SimpleFileBrowser.FileBrowser/OnCancel,SimpleFileBrowser.FileBrowser/PickMode,System.Boolean,System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowLoadDialog_mAE177552745B54980984B3EBE1EB9830B79DC082 (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* ___onSuccess0, OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* ___onCancel1, int32_t ___pickMode2, bool ___allowMultiSelection3, String_t* ___initialPath4, String_t* ___initialFilename5, String_t* ___title6, String_t* ___loadButtonText7, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowLoadDialog_m2D0B708FC10E2D7A1DABAA36782E9C193B9A4B97 (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* ___0_onSuccess, OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* ___1_onCancel, int32_t ___2_pickMode, bool ___3_allowMultiSelection, String_t* ___4_initialPath, String_t* ___5_initialFilename, String_t* ___6_title, String_t* ___7_loadButtonText, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponentInChildren<UnityEngine.UI.Image>()
 inline Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* Component_GetComponentInChildren_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_m22ACF33DC0AB281D8B1E18650516D0765006FE66 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -5401,15 +5819,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CA
 // UnityEngine.Color SimpleFileBrowser.UISkin::get_PopupPanelsTextColor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F UISkin_get_PopupPanelsTextColor_mDFD2A197B891E1F32FB73B291A467132C90920C2 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 UnityEngine.Vector2::get_one()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_one_m232E885D3C7BB6A96D5FEF4494709BA170447604_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline (const RuntimeMethod* method) ;
 // System.Void UnityEngine.RectTransform::set_pivot(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UI.LayoutRebuilder::ForceRebuildLayoutImmediate(UnityEngine.RectTransform)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_ForceRebuildLayoutImmediate_m1DFB9F055F838E4CB32A471460AEA23D85DA8B57 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___layoutRoot0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutRebuilder_ForceRebuildLayoutImmediate_mCCA094579654469919EFA4B5AA5D9AF93CD67B4A (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___0_layoutRoot, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 UnityEngine.RectTransform::get_pivot()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 RectTransform_get_pivot_mA8334AF05AA7FF09A173A2430F2BB9E85E5CBFFF (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector2::Scale(UnityEngine.Vector2)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2_Scale_mEACE26803ED193717CE821462D85F1CA0573C051_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___scale0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2_Scale_mEACE26803ED193717CE821462D85F1CA0573C051_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_scale, const RuntimeMethod* method) ;
 // UnityEngine.Color SimpleFileBrowser.UISkin::get_ContextMenuBackgroundColor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F UISkin_get_ContextMenuBackgroundColor_mB22BB4E4E1F1174790B7C5155A6A56C19ECBB545 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* __this, const RuntimeMethod* method) ;
 // UnityEngine.Color SimpleFileBrowser.UISkin::get_ContextMenuTextColor()
@@ -5427,9 +5845,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_DeleteSelectedFiles_mCA7847F
 // System.Void SimpleFileBrowser.FileBrowser::RenameSelectedFile()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RenameSelectedFile_m81CA56F0C89D20230E7A22C487D7B914E45582CF (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.RectTransform::set_anchorMin(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.RectTransform::set_anchorMax(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_anchorMax_m52829ABEDD229ABD3DA20BCA676FA1DCA4A39B7D (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<UnityEngine.UI.Button>()
 inline Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* Component_GetComponent_TisButton_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098_mFF8BA4CA5D7158D1D6249559A3289E7A6DF0A2BB (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -5445,37 +5863,37 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnOperationConfirmed_Invoke_
 // System.IO.FileAttributes System.IO.FileSystemInfo::get_Attributes()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileSystemInfo_get_Attributes_m38971A5B147214C5EE193CE9F60628EA834EF6DA (FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* __this, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileSystemEntry::.ctor(System.IO.FileSystemInfo,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemEntry__ctor_mF3DAAE9ECE05D268F76C8A7A8E9B23083B699C22 (FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* __this, FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* ___fileInfo0, String_t* ___extension1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemEntry__ctor_mF3DAAE9ECE05D268F76C8A7A8E9B23083B699C22 (FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* __this, FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* ___0_fileInfo, String_t* ___1_extension, const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaClass::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389 (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* __this, String_t* ___className0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389 (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* __this, String_t* ___0_className, const RuntimeMethod* method) ;
 // FieldType UnityEngine.AndroidJavaObject::GetStatic<UnityEngine.AndroidJavaObject>(System.String)
-inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___fieldName0, const RuntimeMethod* method)
+inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, const RuntimeMethod* method)
 {
-	return ((  AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, const RuntimeMethod*))AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared)(__this, ___fieldName0, method);
+	return ((  AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, const RuntimeMethod*))AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared)(__this, ___0_fieldName, method);
 }
 // System.String UnityEngine.Application::get_temporaryCachePath()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_temporaryCachePath_m1C071883726EAFA66324E50FE73A1145272A4C60 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_temporaryCachePath_mE4483A939988E69570C19F8B31AB9FB17B0FD97D (const RuntimeMethod* method) ;
 // System.IO.DirectoryInfo System.IO.Directory::CreateDirectory(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* Directory_CreateDirectory_mD89FECDFB25BC52F866DC0B1BB8552334FB249D2 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* Directory_CreateDirectory_m16EC5CE8561A997C6635E06DC24C77590F29D94F (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Boolean System.Nullable`1<System.Boolean>::get_HasValue()
 inline bool Nullable_1_get_HasValue_m6B76D139692C43B2AF7C695FAB044B16ACFAF355_inline (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, const RuntimeMethod* method)
 {
 	return ((  bool (*) (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01*, const RuntimeMethod*))Nullable_1_get_HasValue_m6B76D139692C43B2AF7C695FAB044B16ACFAF355_gshared_inline)(__this, method);
 }
 // T[] System.Array::Empty<System.Object>()
-inline ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline (const RuntimeMethod* method)
+inline ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline (const RuntimeMethod* method)
 {
-	return ((  ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_gshared_inline)(method);
+	return ((  ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline)(method);
 }
 // ReturnType UnityEngine.AndroidJavaObject::CallStatic<System.Boolean>(System.String,System.Object[])
-inline bool AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method)
+inline bool AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
 {
-	return ((  bool (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6_gshared)(__this, ___methodName0, ___args1, method);
+	return ((  bool (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6_gshared)(__this, ___0_methodName, ___1_args, method);
 }
 // System.Void System.Nullable`1<System.Boolean>::.ctor(T)
-inline void Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5 (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, bool ___value0, const RuntimeMethod* method)
+inline void Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5 (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, bool ___0_value, const RuntimeMethod* method)
 {
-	((  void (*) (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01*, bool, const RuntimeMethod*))Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_gshared)(__this, ___value0, method);
+	((  void (*) (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01*, bool, const RuntimeMethod*))Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_gshared)(__this, ___0_value, method);
 }
 // T System.Nullable`1<System.Boolean>::get_Value()
 inline bool Nullable_1_get_Value_mE2C54C6AE9FC9F05BF44CD9D7D61DC6CD56E3E28 (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01* __this, const RuntimeMethod* method)
@@ -5483,77 +5901,77 @@ inline bool Nullable_1_get_Value_mE2C54C6AE9FC9F05BF44CD9D7D61DC6CD56E3E28 (Null
 	return ((  bool (*) (Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01*, const RuntimeMethod*))Nullable_1_get_Value_mE2C54C6AE9FC9F05BF44CD9D7D61DC6CD56E3E28_gshared)(__this, method);
 }
 // System.Boolean System.IO.File::Exists(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool File_Exists_mD7E7A84A6B9E9A9BADBDA7C46AAE0624EF106D85 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.String[] System.IO.Directory::GetFiles(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Directory_GetFiles_m2E5907ADCF2B7E795692FD961E466E4B6612A70F (String_t* ___path0, String_t* ___searchPattern1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* Directory_GetFiles_m35ACD3D557D3B7EF4CF9A7908D2EDA61E6330090 (String_t* ___0_path, String_t* ___1_searchPattern, const RuntimeMethod* method) ;
 // System.String System.IO.Path::GetExtension(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetExtension_m52A28295599B87FA550D0654E531B56354C540C7 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetExtension_m6FEAA9E14451BFD210B9D1AEC2430C813F570FE5 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Int32 System.String::IndexOf(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_IndexOf_m69E9BDAFD93767C85A7FF861B453415D3B4A200F (String_t* __this, String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t String_IndexOf_m69E9BDAFD93767C85A7FF861B453415D3B4A200F (String_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void System.IO.DirectoryInfo::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DirectoryInfo__ctor_m36BC476C58B55083046C0A738157D84E2323E0E9 (DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* __this, String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DirectoryInfo__ctor_m36BC476C58B55083046C0A738157D84E2323E0E9 (DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* __this, String_t* ___0_path, const RuntimeMethod* method) ;
 // System.IO.FileSystemInfo[] System.IO.DirectoryInfo::GetFileSystemInfos()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileSystemInfoU5BU5D_tF7D37070CBD32AA8FF200811C4906E3543061AE7* DirectoryInfo_GetFileSystemInfos_m35F27B3A479619281F13C053A9164ACC6C135BED (DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* __this, const RuntimeMethod* method) ;
 // System.Void System.Array::Resize<SimpleFileBrowser.FileSystemEntry>(T[]&,System.Int32)
-inline void Array_Resize_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_mD159D1D60050433780B1582642F59737D1924253 (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9** ___array0, int32_t ___newSize1, const RuntimeMethod* method)
+inline void Array_Resize_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m4E061A33E0B1F92504D300F1AFD62BC7D9AE4A49 (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9** ___0_array, int32_t ___1_newSize, const RuntimeMethod* method)
 {
-	((  void (*) (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9**, int32_t, const RuntimeMethod*))Array_Resize_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_mD159D1D60050433780B1582642F59737D1924253_gshared)(___array0, ___newSize1, method);
+	((  void (*) (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9**, int32_t, const RuntimeMethod*))Array_Resize_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m4E061A33E0B1F92504D300F1AFD62BC7D9AE4A49_gshared)(___0_array, ___1_newSize, method);
 }
 // System.String SimpleFileBrowser.FileBrowserHelpers::get_TemporaryFilePath()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465 (const RuntimeMethod* method) ;
 // System.Void System.IO.File::WriteAllBytes(System.String,System.Byte[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_WriteAllBytes_m72C1A24339B30F84A655E6BF516AE1638B2C4668 (String_t* ___path0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_WriteAllBytes_mC491031DA14AA9B591F62D6AD0181D090E081077 (String_t* ___0_path, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, const RuntimeMethod* method) ;
 // System.Void System.IO.File::WriteAllText(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_WriteAllText_mE462D8448CA65183AA5D464210706167E0EF19EB (String_t* ___path0, String_t* ___contents1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1 (String_t* ___0_path, String_t* ___1_contents, const RuntimeMethod* method) ;
 // System.Void System.IO.FileStream::.ctor(System.String,System.IO.FileMode,System.IO.FileAccess)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStream__ctor_m158997E4E7ADD1BA5E75F4835882E32137ACB3C9 (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* __this, String_t* ___path0, int32_t ___mode1, int32_t ___access2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStream__ctor_m158997E4E7ADD1BA5E75F4835882E32137ACB3C9 (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* __this, String_t* ___0_path, int32_t ___1_mode, int32_t ___2_access, const RuntimeMethod* method) ;
 // System.Void System.IO.File::AppendAllText(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_AppendAllText_m5B3C01E1D6B97218061DB033C55DCFAEEB0FBFBA (String_t* ___path0, String_t* ___contents1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_AppendAllText_m08069DB321F56261289DCE3509565270F23DAEC6 (String_t* ___0_path, String_t* ___1_contents, const RuntimeMethod* method) ;
 // System.IO.FileStream System.IO.File::OpenRead(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* File_OpenRead_m32C8C37542B7A02A2F643E3B816D16ABE690FF50 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* File_OpenRead_m6181B052EB0E98D2E18FAC79E7744D766BA4244C (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Byte[] System.IO.File::ReadAllBytes(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* File_ReadAllBytes_mE0C2C5A0270CD40C496E85B1D8BA15C607E7011E (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* File_ReadAllBytes_m704CBBA3F130C94F5A3E0BE2A93D9E9D79DC3E24 (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.String System.IO.File::ReadAllText(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* File_ReadAllText_m5635BE83C14358AB1721547180F43103F777CEB5 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* File_ReadAllText_mA4A939F853D573379F7129AFDC469B91E9747BAA (String_t* ___0_path, const RuntimeMethod* method) ;
 // System.Void System.IO.File::Copy(System.String,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_Copy_m68957393F932BED668C5725704E5DA9B71925395 (String_t* ___sourceFileName0, String_t* ___destFileName1, bool ___overwrite2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_Copy_m3798F05909C43D7EA26130D51D0A15CFCBE7458A (String_t* ___0_sourceFileName, String_t* ___1_destFileName, bool ___2_overwrite, const RuntimeMethod* method) ;
 // System.Void SimpleFileBrowser.FileBrowserHelpers::CopyDirectoryRecursively(System.IO.DirectoryInfo,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyDirectoryRecursively_mC86E85947B557233487229377CC3F6BB6C3F00F0 (DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* ___sourceDirectory0, String_t* ___destinationPath1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyDirectoryRecursively_mC8DA44EAEC502DCFA66972185546B57C96FEABA1 (DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* ___0_sourceDirectory, String_t* ___1_destinationPath, const RuntimeMethod* method) ;
 // System.IO.FileInfo[] System.IO.DirectoryInfo::GetFiles()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileInfoU5BU5D_tCB74DD125A9220ABCF5F48549F2C71B74BBCD7E6* DirectoryInfo_GetFiles_m998040748717954CDDCE273F61EEC0625069543F (DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* __this, const RuntimeMethod* method) ;
 // System.IO.FileInfo System.IO.FileInfo::CopyTo(System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* FileInfo_CopyTo_m4AC9EAD035D0106081B5DA5FBE4E02BDA911DD49 (FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* __this, String_t* ___destFileName0, bool ___overwrite1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* FileInfo_CopyTo_m4AC9EAD035D0106081B5DA5FBE4E02BDA911DD49 (FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* __this, String_t* ___0_destFileName, bool ___1_overwrite, const RuntimeMethod* method) ;
 // System.IO.DirectoryInfo[] System.IO.DirectoryInfo::GetDirectories()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DirectoryInfoU5BU5D_t5D09D46C6EBC15480AF7C63C54276B57A4287953* DirectoryInfo_GetDirectories_m2EC8498544C3A85EF92273330858E03B284C6901 (DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* __this, const RuntimeMethod* method) ;
 // System.Void System.IO.File::Move(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_Move_mF906DE37D2EF2E47B2DF79FA50C765859AFB9ECF (String_t* ___sourceFileName0, String_t* ___destFileName1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_Move_mBC9450111E0144A55D893A720F19E612D658AC37 (String_t* ___0_sourceFileName, String_t* ___1_destFileName, const RuntimeMethod* method) ;
 // System.Void System.IO.Directory::Move(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Directory_Move_m4598E16D8BD952FA82A65BF65E9C9E07A82D3E48 (String_t* ___sourceDirName0, String_t* ___destDirName1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Directory_Move_mA9C7ED31B0223C808C52AC0AF5F4476305DB5D31 (String_t* ___0_sourceDirName, String_t* ___1_destDirName, const RuntimeMethod* method) ;
 // System.IO.DirectoryInfo System.IO.DirectoryInfo::get_Parent()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* DirectoryInfo_get_Parent_m2B95E4D3CBA22F8DAA259247ED791F1411D93347 (DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* __this, const RuntimeMethod* method) ;
 // System.Void System.IO.Directory::Delete(System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Directory_Delete_m6CB0FB437D90EE5C377796BE03DA6A9FE509A04E (String_t* ___path0, bool ___recursive1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Directory_Delete_mB5C70379DEFE9B8AA95F67BAE04233E60CEF09F4 (String_t* ___0_path, bool ___1_recursive, const RuntimeMethod* method) ;
 // System.String System.IO.Path::GetFileName(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetFileName_mEBC73E0C8D8C56214D1DA4BA8409C5B5F00457A5 (String_t* ___path0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetFileName_mB1A8CE314EE250B06E3D33142315E2BD3A75D1D6 (String_t* ___0_path, const RuntimeMethod* method) ;
 // ReturnType UnityEngine.AndroidJavaObject::CallStatic<System.Int64>(System.String,System.Object[])
-inline int64_t AndroidJavaObject_CallStatic_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m2FC8ACAFE956D789EAA03558DC9E281FA48D6243 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___methodName0, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___args1, const RuntimeMethod* method)
+inline int64_t AndroidJavaObject_CallStatic_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m2FC8ACAFE956D789EAA03558DC9E281FA48D6243 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method)
 {
-	return ((  int64_t (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_CallStatic_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m2FC8ACAFE956D789EAA03558DC9E281FA48D6243_gshared)(__this, ___methodName0, ___args1, method);
+	return ((  int64_t (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*, const RuntimeMethod*))AndroidJavaObject_CallStatic_TisInt64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_m2FC8ACAFE956D789EAA03558DC9E281FA48D6243_gshared)(__this, ___0_methodName, ___1_args, method);
 }
 // System.Void System.IO.FileInfo::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileInfo__ctor_m0A602529DFCFC44BB4EF4C530E6FBA765C44143F (FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* __this, String_t* ___fileName0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileInfo__ctor_m0A602529DFCFC44BB4EF4C530E6FBA765C44143F (FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* __this, String_t* ___0_fileName, const RuntimeMethod* method) ;
 // System.Int64 System.IO.FileInfo::get_Length()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t FileInfo_get_Length_m7FADCE0E3C88678C0A7BFA694786C02AD652A33B (FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* __this, const RuntimeMethod* method) ;
 // System.Void System.DateTime::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTime__ctor_m1F66A4327FE6B127F0F0E83A70CED25DB0DFFB00 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, int32_t ___year0, int32_t ___month1, int32_t ___day2, int32_t ___hour3, int32_t ___minute4, int32_t ___second5, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTime__ctor_m1F66A4327FE6B127F0F0E83A70CED25DB0DFFB00 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, int32_t ___0_year, int32_t ___1_month, int32_t ___2_day, int32_t ___3_hour, int32_t ___4_minute, int32_t ___5_second, const RuntimeMethod* method) ;
 // System.DateTime System.DateTime::AddMilliseconds(System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D DateTime_AddMilliseconds_mEF44A0EE635A478B7B0CDAA438D2240C14C88D05 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, double ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D DateTime_AddMilliseconds_mEF44A0EE635A478B7B0CDAA438D2240C14C88D05 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* __this, double ___0_value, const RuntimeMethod* method) ;
 // System.DateTime System.IO.FileSystemInfo::get_LastWriteTime()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D FileSystemInfo_get_LastWriteTime_m5009457B3D837E929AF4FBC9E2738F15BB6476C5 (FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Vector2::op_Equality(UnityEngine.Vector2,UnityEngine.Vector2)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Equality_m5447BF12C18339431AB8AF02FA463C543D88D463_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___lhs0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rhs1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Equality_m6F2E069A50E787D131261E5CB25FC9E03F95B5E1_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) ;
 // System.Void System.Array::Clear(System.Array,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m48B57EC27CADC3463CA98A33373D557DA587FF1B (RuntimeArray* ___array0, int32_t ___index1, int32_t ___length2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -5581,7 +5999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBCallbackHelper_Awake_mC34D6D431F735716
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_DontDestroyOnLoad_m303AA1C4DC810349F285B4809E426CBBA8F834F9(L_0, NULL);
+		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_0, NULL);
 		// }
 		return;
 	}
@@ -5621,11 +6039,11 @@ IL_0025:
 	}
 }
 // System.Void SimpleFileBrowser.FBCallbackHelper::CallOnMainThread(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBCallbackHelper_CallOnMainThread_mCFB59901F4D4D308596392B29037EAD8676AF5A0 (FBCallbackHelper_t7E0F7B187D1D7635420FD5B8DF1A821A180496DC* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___function0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBCallbackHelper_CallOnMainThread_mCFB59901F4D4D308596392B29037EAD8676AF5A0 (FBCallbackHelper_t7E0F7B187D1D7635420FD5B8DF1A821A180496DC* __this, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_function, const RuntimeMethod* method) 
 {
 	{
 		// mainThreadAction = function;
-		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___function0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_0 = ___0_function;
 		__this->___mainThreadAction_4 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___mainThreadAction_4), (void*)L_0);
 		// }
@@ -5652,7 +6070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBCallbackHelper__ctor_mCE87858BE5900484
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void SimpleFileBrowser.FBDirectoryReceiveCallbackAndroid::.ctor(SimpleFileBrowser.FileBrowser/AndroidSAFDirectoryPickCallback)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBDirectoryReceiveCallbackAndroid__ctor_m3E14BCB63628D3C98E169FFEF939ABAC67499803 (FBDirectoryReceiveCallbackAndroid_t24BD96193D84DEE13F2849FE3EACD73546AAB1AC* __this, AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* ___callback0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBDirectoryReceiveCallbackAndroid__ctor_m3E14BCB63628D3C98E169FFEF939ABAC67499803 (FBDirectoryReceiveCallbackAndroid_t24BD96193D84DEE13F2849FE3EACD73546AAB1AC* __this, AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* ___0_callback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5669,7 +6087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBDirectoryReceiveCallbackAndroid__ctor_
 		il2cpp_codegen_runtime_class_init_inline(AndroidJavaProxy_tE5521F9761F7B95444B9C39FB15FDFC23F80A78D_il2cpp_TypeInfo_var);
 		AndroidJavaProxy__ctor_m2832886A0E1BBF6702653A7C6A4609F11FB712C7(__this, _stringLiteral63E2FA3488362960AAFAD8E921EA6D16865416FE, NULL);
 		// this.callback = callback;
-		AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* L_0 = ___callback0;
+		AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* L_0 = ___0_callback;
 		__this->___callback_4 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___callback_4), (void*)L_0);
 		// callbackHelper = new GameObject( "FBCallbackHelper" ).AddComponent<FBCallbackHelper>();
@@ -5686,7 +6104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBDirectoryReceiveCallbackAndroid__ctor_
 	}
 }
 // System.Void SimpleFileBrowser.FBDirectoryReceiveCallbackAndroid::OnDirectoryPicked(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBDirectoryReceiveCallbackAndroid_OnDirectoryPicked_mD6AFC93F68864BFCCC64665EA39D49773E3FC2C3 (FBDirectoryReceiveCallbackAndroid_t24BD96193D84DEE13F2849FE3EACD73546AAB1AC* __this, String_t* ___rawUri0, String_t* ___name1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBDirectoryReceiveCallbackAndroid_OnDirectoryPicked_mD6AFC93F68864BFCCC64665EA39D49773E3FC2C3 (FBDirectoryReceiveCallbackAndroid_t24BD96193D84DEE13F2849FE3EACD73546AAB1AC* __this, String_t* ___0_rawUri, String_t* ___1_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5707,12 +6125,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBDirectoryReceiveCallbackAndroid_OnDire
 		L_1->___U3CU3E4__this_0 = __this;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_0), (void*)__this);
 		U3CU3Ec__DisplayClass3_0_t6F14BCAA484AC8DE9FDC3F55B6F310B903EA9746* L_2 = V_0;
-		String_t* L_3 = ___rawUri0;
+		String_t* L_3 = ___0_rawUri;
 		NullCheck(L_2);
 		L_2->___rawUri_1 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___rawUri_1), (void*)L_3);
 		U3CU3Ec__DisplayClass3_0_t6F14BCAA484AC8DE9FDC3F55B6F310B903EA9746* L_4 = V_0;
-		String_t* L_5 = ___name1;
+		String_t* L_5 = ___1_name;
 		NullCheck(L_4);
 		L_4->___name_2 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&L_4->___name_2), (void*)L_5);
@@ -5729,7 +6147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBDirectoryReceiveCallbackAndroid_OnDire
 	}
 }
 // System.Void SimpleFileBrowser.FBDirectoryReceiveCallbackAndroid::DirectoryPickedCallback(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBDirectoryReceiveCallbackAndroid_DirectoryPickedCallback_m344B80A0B24256B298D30EA30292F9FB3B9F6680 (FBDirectoryReceiveCallbackAndroid_t24BD96193D84DEE13F2849FE3EACD73546AAB1AC* __this, String_t* ___rawUri0, String_t* ___name1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBDirectoryReceiveCallbackAndroid_DirectoryPickedCallback_m344B80A0B24256B298D30EA30292F9FB3B9F6680 (FBDirectoryReceiveCallbackAndroid_t24BD96193D84DEE13F2849FE3EACD73546AAB1AC* __this, String_t* ___0_rawUri, String_t* ___1_name, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5752,7 +6170,7 @@ FINALLY_0020:
 				GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 				L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-				Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA(L_1, NULL);
+				Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_1, NULL);
 				return;
 			}// end finally (depth: 1)
 		});
@@ -5771,8 +6189,8 @@ FINALLY_0020:
 			{
 				// callback( rawUri, name );
 				AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* L_4 = __this->___callback_4;
-				String_t* L_5 = ___rawUri0;
-				String_t* L_6 = ___name1;
+				String_t* L_5 = ___0_rawUri;
+				String_t* L_6 = ___1_name;
 				NullCheck(L_4);
 				AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_inline(L_4, L_5, L_6, NULL);
 			}
@@ -5841,17 +6259,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FBPermissionCallbackAndroid_get_Resul
 	}
 }
 // System.Void SimpleFileBrowser.FBPermissionCallbackAndroid::set_Result(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBPermissionCallbackAndroid_set_Result_m98B5F4B6CD64D49741C20A10D71EA84C9EAC2B2C (FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* __this, int32_t ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBPermissionCallbackAndroid_set_Result_m98B5F4B6CD64D49741C20A10D71EA84C9EAC2B2C (FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public int Result { get; private set; }
-		int32_t L_0 = ___value0;
+		int32_t L_0 = ___0_value;
 		__this->___U3CResultU3Ek__BackingField_5 = L_0;
 		return;
 	}
 }
 // System.Void SimpleFileBrowser.FBPermissionCallbackAndroid::.ctor(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBPermissionCallbackAndroid__ctor_m06CC708AA6C575C48463DAB87773AB835BFEAEA9 (FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* __this, RuntimeObject* ___threadLock0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBPermissionCallbackAndroid__ctor_m06CC708AA6C575C48463DAB87773AB835BFEAEA9 (FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* __this, RuntimeObject* ___0_threadLock, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5867,7 +6285,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBPermissionCallbackAndroid__ctor_m06CC7
 		// Result = -1;
 		FBPermissionCallbackAndroid_set_Result_m98B5F4B6CD64D49741C20A10D71EA84C9EAC2B2C_inline(__this, (-1), NULL);
 		// this.threadLock = threadLock;
-		RuntimeObject* L_0 = ___threadLock0;
+		RuntimeObject* L_0 = ___0_threadLock;
 		__this->___threadLock_4 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___threadLock_4), (void*)L_0);
 		// }
@@ -5875,13 +6293,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBPermissionCallbackAndroid__ctor_m06CC7
 	}
 }
 // System.Void SimpleFileBrowser.FBPermissionCallbackAndroid::OnPermissionResult(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBPermissionCallbackAndroid_OnPermissionResult_m6D7FA627A0305C6B6AFE4EA6509706AA603EEB77 (FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* __this, int32_t ___result0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FBPermissionCallbackAndroid_OnPermissionResult_m6D7FA627A0305C6B6AFE4EA6509706AA603EEB77 (FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* __this, int32_t ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject* V_0 = NULL;
 	bool V_1 = false;
 	{
 		// Result = result;
-		int32_t L_0 = ___result0;
+		int32_t L_0 = ___0_result;
 		FBPermissionCallbackAndroid_set_Result_m98B5F4B6CD64D49741C20A10D71EA84C9EAC2B2C_inline(__this, L_0, NULL);
 		// lock( threadLock )
 		RuntimeObject* L_1 = __this->___threadLock_4;
@@ -5903,7 +6321,7 @@ FINALLY_002b:
 				}
 				{
 					RuntimeObject* L_3 = V_0;
-					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_3, NULL);
+					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_3, NULL);
 				}
 
 IL_0035:
@@ -5915,10 +6333,10 @@ IL_0035:
 		try
 		{// begin try (depth: 1)
 			RuntimeObject* L_4 = V_0;
-			Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_4, (&V_1), NULL);
+			Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_4, (&V_1), NULL);
 			// Monitor.Pulse( threadLock );
 			RuntimeObject* L_5 = __this->___threadLock_4;
-			Monitor_Pulse_mCCD5C110AC8E4CD538E367C3414CA4E93F045419(L_5, NULL);
+			Monitor_Pulse_mA8279943D6C2913ADFAF661E35C4951BDFACE43D(L_5, NULL);
 			goto IL_0036;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -5960,22 +6378,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_OnEnable_mDD49C17C6E8
 		NullCheck(L_0);
 		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_0, __this, (intptr_t)((void*)EventSystemHandler_OnSceneLoaded_m486690D2E862AE813A76D7F36F142C92C74A2F57_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_remove_sceneLoaded_m8840CC33052C4A09A52BF927C3738A7B66783155(L_0, NULL);
+		SceneManager_remove_sceneLoaded_m72A7C2A1B8EF1C21A208A9A015375577768B3978(L_0, NULL);
 		// SceneManager.sceneLoaded += OnSceneLoaded;
 		UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* L_1 = (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*)il2cpp_codegen_object_new(UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
 		NullCheck(L_1);
 		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_1, __this, (intptr_t)((void*)EventSystemHandler_OnSceneLoaded_m486690D2E862AE813A76D7F36F142C92C74A2F57_RuntimeMethod_var), NULL);
-		SceneManager_add_sceneLoaded_mDE45940CCEC5D17EB92EB76DB8931E5483FBCD2C(L_1, NULL);
+		SceneManager_add_sceneLoaded_m14BEBCC5E4A8DD2C806A48D79A4773315CB434C6(L_1, NULL);
 		// SceneManager.sceneUnloaded -= OnSceneUnloaded;
 		UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* L_2 = (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C*)il2cpp_codegen_object_new(UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C_il2cpp_TypeInfo_var);
 		NullCheck(L_2);
 		UnityAction_1__ctor_m3D196ADE59DE13B9FDC5D827B1A6D00CBEF1F6DF(L_2, __this, (intptr_t)((void*)EventSystemHandler_OnSceneUnloaded_m799539AB9388ED038BC36806BB97C6064EAEBC55_RuntimeMethod_var), NULL);
-		SceneManager_remove_sceneUnloaded_mAE3FCD9113413A6B067527A0D2B01525CC5D631A(L_2, NULL);
+		SceneManager_remove_sceneUnloaded_m2CACDB3F47DED2C92E6AA1912906F7E2C61424EB(L_2, NULL);
 		// SceneManager.sceneUnloaded += OnSceneUnloaded;
 		UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* L_3 = (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C*)il2cpp_codegen_object_new(UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C_il2cpp_TypeInfo_var);
 		NullCheck(L_3);
 		UnityAction_1__ctor_m3D196ADE59DE13B9FDC5D827B1A6D00CBEF1F6DF(L_3, __this, (intptr_t)((void*)EventSystemHandler_OnSceneUnloaded_m799539AB9388ED038BC36806BB97C6064EAEBC55_RuntimeMethod_var), NULL);
-		SceneManager_add_sceneUnloaded_mDFA2FD86D583E308417C3FF7753C92AAE11B99FA(L_3, NULL);
+		SceneManager_add_sceneUnloaded_mC3BAE77FFFA0DBA3F6EE3303CA78400A3932F029(L_3, NULL);
 		// ActivateEventSystemIfNeeded();
 		EventSystemHandler_ActivateEventSystemIfNeeded_m26897A9709E138E297D0E26B6B8078E91460E2DC(__this, NULL);
 		// }
@@ -6001,12 +6419,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_OnDisable_m2DAA585102
 		NullCheck(L_0);
 		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_0, __this, (intptr_t)((void*)EventSystemHandler_OnSceneLoaded_m486690D2E862AE813A76D7F36F142C92C74A2F57_RuntimeMethod_var), NULL);
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
-		SceneManager_remove_sceneLoaded_m8840CC33052C4A09A52BF927C3738A7B66783155(L_0, NULL);
+		SceneManager_remove_sceneLoaded_m72A7C2A1B8EF1C21A208A9A015375577768B3978(L_0, NULL);
 		// SceneManager.sceneUnloaded -= OnSceneUnloaded;
 		UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* L_1 = (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C*)il2cpp_codegen_object_new(UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C_il2cpp_TypeInfo_var);
 		NullCheck(L_1);
 		UnityAction_1__ctor_m3D196ADE59DE13B9FDC5D827B1A6D00CBEF1F6DF(L_1, __this, (intptr_t)((void*)EventSystemHandler_OnSceneUnloaded_m799539AB9388ED038BC36806BB97C6064EAEBC55_RuntimeMethod_var), NULL);
-		SceneManager_remove_sceneUnloaded_mAE3FCD9113413A6B067527A0D2B01525CC5D631A(L_1, NULL);
+		SceneManager_remove_sceneUnloaded_m2CACDB3F47DED2C92E6AA1912906F7E2C61424EB(L_1, NULL);
 		// DeactivateEventSystem();
 		EventSystemHandler_DeactivateEventSystem_mB3B40342307C76CD9B05C23F771E973A0E5CA36E(__this, NULL);
 		// }
@@ -6014,7 +6432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_OnDisable_m2DAA585102
 	}
 }
 // System.Void SimpleFileBrowser.EventSystemHandler::OnSceneLoaded(UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_OnSceneLoaded_m486690D2E862AE813A76D7F36F142C92C74A2F57 (EventSystemHandler_t7CB535E10532BE6E9DCEDDC52077F858ED29124C* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___scene0, int32_t ___mode1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_OnSceneLoaded_m486690D2E862AE813A76D7F36F142C92C74A2F57 (EventSystemHandler_t7CB535E10532BE6E9DCEDDC52077F858ED29124C* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_scene, int32_t ___1_mode, const RuntimeMethod* method) 
 {
 	{
 		// ActivateEventSystemIfNeeded();
@@ -6024,7 +6442,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_OnSceneLoaded_m486690
 	}
 }
 // System.Void SimpleFileBrowser.EventSystemHandler::OnSceneUnloaded(UnityEngine.SceneManagement.Scene)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_OnSceneUnloaded_m799539AB9388ED038BC36806BB97C6064EAEBC55 (EventSystemHandler_t7CB535E10532BE6E9DCEDDC52077F858ED29124C* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___current0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_OnSceneUnloaded_m799539AB9388ED038BC36806BB97C6064EAEBC55 (EventSystemHandler_t7CB535E10532BE6E9DCEDDC52077F858ED29124C* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_current, const RuntimeMethod* method) 
 {
 	{
 		// DeactivateEventSystem();
@@ -6050,7 +6468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_ActivateEventSystemIf
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___embeddedEventSystem_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
-		L_1 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_0, NULL);
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
 		if (!L_1)
 		{
 			goto IL_001d;
@@ -6059,10 +6477,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_ActivateEventSystemIf
 	{
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_2;
-		L_2 = EventSystem_get_current_mD15EA86304E070D175EF359A051A7DB807CA26C0(NULL);
+		L_2 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
-		L_3 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_2, NULL);
+		L_3 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_2, NULL);
 		G_B3_0 = ((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
 		goto IL_001e;
 	}
@@ -6109,7 +6527,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_DeactivateEventSystem
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___embeddedEventSystem_4;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
-		L_1 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_0, NULL);
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -6147,7 +6565,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler__ctor_mC54A7D1B5DF7D4
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Boolean SimpleFileBrowser.FileBrowser::get_IsOpen()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_IsOpen_m18814451BEC8E8CADB599BC8F23E6C37104BE50C (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_IsOpen_mF4D1133D20EBD1F6D1064483F0F262CC89065F17 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6163,7 +6581,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_IsOpen_m18814451BEC8E8CA
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_IsOpen(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_IsOpen_mC94644F22A61409CE23169AAD18499301862D444 (bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_IsOpen_m936300FE9E761E2E76AB8D177927C61F2159B531 (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6173,14 +6591,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_IsOpen_mC94644F22A61409C
 	}
 	{
 		// public static bool IsOpen { get; private set; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___U3CIsOpenU3Ek__BackingField_6 = L_0;
 		return;
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::get_Success()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_Success_m5809EE68C776F1500213DFFAC167325DC56F879C (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_Success_mEC077BAA3BC9BE5A02B5F693C40F89BC02A7AF0B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6196,7 +6614,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_Success_m5809EE68C776F15
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_Success(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Success_mE3E30E699935AC3FC78C668691DDB21610E1F1B4 (bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Success_m468F84004618609ED6161B13043EB83E974C1654 (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6206,14 +6624,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Success_mE3E30E699935AC3
 	}
 	{
 		// public static bool Success { get; private set; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___U3CSuccessU3Ek__BackingField_7 = L_0;
 		return;
 	}
 }
 // System.String[] SimpleFileBrowser.FileBrowser::get_Result()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* FileBrowser_get_Result_m68BED71300B0738904437796A2C20ADB8B057FF0 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* FileBrowser_get_Result_m8CAA1BAE9CB7A1F4FB06E4B0AB0EA97EFF6C8B9A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6229,7 +6647,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_Result(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Result_m6656F9251FE3557D72BF0D0F4BA83B475820F8AD (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Result_m6EC4D1C118FC65B1BB34738F18E25A215CF7CC52 (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6239,7 +6657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Result_m6656F9251FE3557D
 	}
 	{
 		// public static string[] Result { get; private set; }
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___value0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___U3CResultU3Ek__BackingField_8 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___U3CResultU3Ek__BackingField_8), (void*)L_0);
@@ -6247,7 +6665,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Result_m6656F9251FE3557D
 	}
 }
 // SimpleFileBrowser.UISkin SimpleFileBrowser.FileBrowser::get_Skin()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* FileBrowser_get_Skin_mF5E5790CDB02A70F885B319526F5FA5C8B4A518F (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* FileBrowser_get_Skin_m7E7753130935B8B694D77618B7F1C8E53707EB27 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6260,7 +6678,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6
 		// get { return Instance.m_skin; }
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_0;
-		L_0 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_0 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_0);
 		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_1 = L_0->___m_skin_9;
 		V_0 = L_1;
@@ -6275,7 +6693,7 @@ IL_000e:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_Skin(SimpleFileBrowser.UISkin)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Skin_m66738BFFEE37F4AB8939538A6D4BDA3738EE3916 (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Skin_m8F79F94326102DAA1B4C6C1C963EB363E5FBDB1B (UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6288,10 +6706,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Skin_m66738BFFEE37F4AB89
 	int32_t G_B3_0 = 0;
 	{
 		// if( value && Instance.m_skin != value )
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_0 = ___value0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
-		L_1 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_0, NULL);
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
 		if (!L_1)
 		{
 			goto IL_001b;
@@ -6300,13 +6718,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Skin_m66738BFFEE37F4AB89
 	{
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_2;
-		L_2 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_2 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_2);
 		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_3 = L_2->___m_skin_9;
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_4 = ___value0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_4 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
-		L_5 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_3, L_4, NULL);
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, L_4, NULL);
 		G_B3_0 = ((int32_t)(L_5));
 		goto IL_001c;
 	}
@@ -6329,16 +6747,16 @@ IL_001c:
 		// Instance.m_skin = value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_7;
-		L_7 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_8 = ___value0;
+		L_7 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_8 = ___0_value;
 		NullCheck(L_7);
 		L_7->___m_skin_9 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___m_skin_9), (void*)L_8);
 		// Instance.m_skinVersion = Instance.m_skin.Version;
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_9;
-		L_9 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_9 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_10;
-		L_10 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_10 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_10);
 		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_11 = L_10->___m_skin_9;
 		NullCheck(L_11);
@@ -6348,7 +6766,7 @@ IL_001c:
 		L_9->___m_skinVersion_10 = L_12;
 		// Instance.RefreshSkin();
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_13;
-		L_13 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_13 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_13);
 		FileBrowser_RefreshSkin_mB4CF280DFD76B5963B1957FDC4C5D1C7630606DC(L_13, NULL);
 	}
@@ -6360,7 +6778,7 @@ IL_0051:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::get_AskPermissions()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_AskPermissions_m550ED3B674566CE6C04CB7F76C97B07686BFCA16 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_AskPermissions_m0BBD82FDD3C5646E78BFADAB5E3BCA7F565D8F07 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6385,7 +6803,7 @@ IL_0009:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_AskPermissions(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AskPermissions_mC267C7AD7FB68495D67E5AF6B9979DEA746A66C9 (bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AskPermissions_m80130B6963E32966E36DAAC09269192CBBD3DFD9 (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6395,7 +6813,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AskPermissions_mC267C7AD
 	}
 	{
 		// set { m_askPermissions = value; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_askPermissions_13 = L_0;
 		// set { m_askPermissions = value; }
@@ -6403,7 +6821,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AskPermissions_mC267C7AD
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::get_SingleClickMode()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_SingleClickMode_mBC1D95A4EF5641CE3D6B8096C609EE0467F03C7D (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_SingleClickMode_mB2E953435870E05CF0AFA484781DF8266DB56EE8 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6428,7 +6846,7 @@ IL_0009:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_SingleClickMode(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_SingleClickMode_m180E49862F045FAE51B006F800C7EB01E393D29D (bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_SingleClickMode_m3E49872BEED7C3752DB6B9576A1E5EDBC5C8AEFF (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6438,7 +6856,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_SingleClickMode_m180E498
 	}
 	{
 		// set { m_singleClickMode = value; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_singleClickMode_14 = L_0;
 		// set { m_singleClickMode = value; }
@@ -6446,7 +6864,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_SingleClickMode_m180E498
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::add_DisplayedEntriesFilter(SimpleFileBrowser.FileBrowser/FileSystemEntryFilter)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_add_DisplayedEntriesFilter_m7589F78FDCCB84B18E9F961CEE69913F64AB5E26 (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_add_DisplayedEntriesFilter_mBD745085F3F252BE725B0A8F81840A2502F6070A (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6461,23 +6879,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_add_DisplayedEntriesFilter_m
 		// m_displayedEntriesFilter -= value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* L_0 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_displayedEntriesFilter_15;
-		FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* L_1 = ___value0;
+		FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* L_1 = ___0_value;
 		Delegate_t* L_2;
-		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
+		L_2 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_0, L_1, NULL);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_displayedEntriesFilter_15 = ((FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE*)CastclassSealed((RuntimeObject*)L_2, FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_displayedEntriesFilter_15), (void*)((FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE*)CastclassSealed((RuntimeObject*)L_2, FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE_il2cpp_TypeInfo_var)));
 		// m_displayedEntriesFilter += value;
 		FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* L_3 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_displayedEntriesFilter_15;
-		FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* L_4 = ___value0;
+		FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* L_4 = ___0_value;
 		Delegate_t* L_5;
-		L_5 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_3, L_4, NULL);
+		L_5 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_3, L_4, NULL);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_displayedEntriesFilter_15 = ((FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE*)CastclassSealed((RuntimeObject*)L_5, FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_displayedEntriesFilter_15), (void*)((FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE*)CastclassSealed((RuntimeObject*)L_5, FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE_il2cpp_TypeInfo_var)));
 		// if( m_instance )
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_6 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_instance_23;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
-		L_7 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_6, NULL);
+		L_7 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_6, NULL);
 		V_0 = L_7;
 		bool L_8 = V_0;
 		if (!L_8)
@@ -6504,7 +6922,7 @@ IL_0052:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::remove_DisplayedEntriesFilter(SimpleFileBrowser.FileBrowser/FileSystemEntryFilter)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_remove_DisplayedEntriesFilter_m03ECE3627146AAFFB166553186578B79767CA0F8 (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_remove_DisplayedEntriesFilter_m1AE2978F9350CE1380F64D7D887738FA9D09EF7B (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6519,16 +6937,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_remove_DisplayedEntriesFilte
 		// m_displayedEntriesFilter -= value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* L_0 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_displayedEntriesFilter_15;
-		FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* L_1 = ___value0;
+		FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* L_1 = ___0_value;
 		Delegate_t* L_2;
-		L_2 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_0, L_1, NULL);
+		L_2 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_0, L_1, NULL);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_displayedEntriesFilter_15 = ((FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE*)CastclassSealed((RuntimeObject*)L_2, FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE_il2cpp_TypeInfo_var));
 		Il2CppCodeGenWriteBarrier((void**)(&((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_displayedEntriesFilter_15), (void*)((FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE*)CastclassSealed((RuntimeObject*)L_2, FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE_il2cpp_TypeInfo_var)));
 		// if( m_instance )
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_3 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_instance_23;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
-		L_4 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_3, NULL);
+		L_4 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_3, NULL);
 		V_0 = L_4;
 		bool L_5 = V_0;
 		if (!L_5)
@@ -6555,7 +6973,7 @@ IL_003d:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::get_ShowFileOverwriteDialog()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_ShowFileOverwriteDialog_m3E75A2760FA1826B496F74F3E3D600F527F86CE8 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_ShowFileOverwriteDialog_m8956FFEA0E2EA26DA63273476C14F5C9011A6134 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6580,7 +6998,7 @@ IL_0009:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_ShowFileOverwriteDialog(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_ShowFileOverwriteDialog_m5533A9CE8B593AA92BB2A01798361FC6A2F9FD05 (bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_ShowFileOverwriteDialog_m5500C132D2BC8C423718C523B60A78B214124171 (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6590,7 +7008,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_ShowFileOverwriteDialog_
 	}
 	{
 		// set { m_showFileOverwriteDialog = value; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_showFileOverwriteDialog_16 = L_0;
 		// set { m_showFileOverwriteDialog = value; }
@@ -6598,7 +7016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_ShowFileOverwriteDialog_
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::get_CheckWriteAccessToDestinationDirectory()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_CheckWriteAccessToDestinationDirectory_m8053659190B298E58704A916713FA88FBE4100FD (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_CheckWriteAccessToDestinationDirectory_m7AB9875780F9EA4BAF3B193BA785662E5AC25335 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6623,7 +7041,7 @@ IL_0009:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_CheckWriteAccessToDestinationDirectory(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_CheckWriteAccessToDestinationDirectory_m23E491413D1BB52C81A47F07B9076F280652C1AD (bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_CheckWriteAccessToDestinationDirectory_mB287695F09C5565C6EE5F7906EC4182C151D13EB (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6633,7 +7051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_CheckWriteAccessToDestin
 	}
 	{
 		// set { m_checkWriteAccessToDestinationDirectory = value; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_checkWriteAccessToDestinationDirectory_17 = L_0;
 		// set { m_checkWriteAccessToDestinationDirectory = value; }
@@ -6641,7 +7059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_CheckWriteAccessToDestin
 	}
 }
 // System.Single SimpleFileBrowser.FileBrowser::get_DrivesRefreshInterval()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FileBrowser_get_DrivesRefreshInterval_m758A3C4DDE154BD4BDD1C29660FEDB0C5D359E41 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FileBrowser_get_DrivesRefreshInterval_m1F63D02C215EA39C1281618DFFBD61866D282EA4 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6666,7 +7084,7 @@ IL_0009:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_DrivesRefreshInterval(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_DrivesRefreshInterval_m272B5E8EB171918BAF26302F29847A276284EE3F (float ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_DrivesRefreshInterval_m14ED96653ADDF50FEDE5FA15595673500059AED8 (float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6676,7 +7094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_DrivesRefreshInterval_m2
 	}
 	{
 		// set { m_drivesRefreshInterval = value; }
-		float L_0 = ___value0;
+		float L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_drivesRefreshInterval_18 = L_0;
 		// set { m_drivesRefreshInterval = value; }
@@ -6684,7 +7102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_DrivesRefreshInterval_m2
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::get_ShowHiddenFiles()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_ShowHiddenFiles_m56B300897CACD137E41BA49D4966B0D5ACCF6D60 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_ShowHiddenFiles_m5995F78BD64C05BE5305B7395B5A1E519312318D (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6697,7 +7115,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_ShowHiddenFiles_m56B3008
 		// get { return Instance.showHiddenFilesToggle.isOn; }
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_0;
-		L_0 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_0 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_0);
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_1 = L_0->___showHiddenFilesToggle_71;
 		NullCheck(L_1);
@@ -6715,7 +7133,7 @@ IL_0013:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_ShowHiddenFiles(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_ShowHiddenFiles_mAFC629F52C31CA3C826D1699C1A32F8D7C03D57D (bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_ShowHiddenFiles_m6C3DBB506DC479BB4EEA97A92DC2EC0D4340E25D (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6727,10 +7145,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_ShowHiddenFiles_mAFC629F
 		// set { Instance.showHiddenFilesToggle.isOn = value; }
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_0;
-		L_0 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_0 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_0);
 		Toggle_tBF13F3EBA485E06826FD8A38F4B4C1380DF21A1F* L_1 = L_0->___showHiddenFilesToggle_71;
-		bool L_2 = ___value0;
+		bool L_2 = ___0_value;
 		NullCheck(L_1);
 		Toggle_set_isOn_m61D6AB073668E87530A9F49D990A3B3631D2061F(L_1, L_2, NULL);
 		// set { Instance.showHiddenFilesToggle.isOn = value; }
@@ -6738,7 +7156,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_ShowHiddenFiles_mAFC629F
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::get_DisplayHiddenFilesToggle()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_DisplayHiddenFilesToggle_mF2F1261B15DF7A8A9467CBA2D9A4D9CF7E21B1C0 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_get_DisplayHiddenFilesToggle_m54D3333B209EF5C35B444186B007B3588CB8BFAA (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6763,7 +7181,7 @@ IL_0009:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_DisplayHiddenFilesToggle(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_DisplayHiddenFilesToggle_mE7BDB07034AC4C92162E4CF763F4DA9DC683ED3A (bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_DisplayHiddenFilesToggle_m0D153B2F638B7536AEE3B6B1CBBC7E32BC11CE7D (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6781,7 +7199,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_DisplayHiddenFilesToggle
 		// if( m_displayHiddenFilesToggle != value )
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		bool L_0 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_displayHiddenFilesToggle_19;
-		bool L_1 = ___value0;
+		bool L_1 = ___0_value;
 		V_0 = (bool)((((int32_t)((((int32_t)L_0) == ((int32_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -6791,14 +7209,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_DisplayHiddenFilesToggle
 	}
 	{
 		// m_displayHiddenFilesToggle = value;
-		bool L_3 = ___value0;
+		bool L_3 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_displayHiddenFilesToggle_19 = L_3;
 		// if( m_instance )
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_4 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_instance_23;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
-		L_5 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_4, NULL);
+		L_5 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_4, NULL);
 		V_1 = L_5;
 		bool L_6 = V_1;
 		if (!L_6)
@@ -6808,7 +7226,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_DisplayHiddenFilesToggle
 	}
 	{
 		// if( !value )
-		bool L_7 = ___value0;
+		bool L_7 = ___0_value;
 		V_2 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
 		bool L_8 = V_2;
 		if (!L_8)
@@ -6854,7 +7272,7 @@ IL_0049:
 	{
 		// if( !FileBrowserHelpers.ShouldUseSAF )
 		bool L_19;
-		L_19 = FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA(NULL);
+		L_19 = FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B(NULL);
 		V_4 = (bool)((((int32_t)L_19) == ((int32_t)0))? 1 : 0);
 		bool L_20 = V_4;
 		if (!L_20)
@@ -6894,7 +7312,7 @@ IL_0098:
 	}
 }
 // System.String SimpleFileBrowser.FileBrowser::get_AllFilesFilterText()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_AllFilesFilterText_m11A59EC77A38E7954AD443B9BC9B445468BDB842 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_AllFilesFilterText_m4810E88D7B0236799E3FA9C6D3A872492671B4A5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6919,7 +7337,7 @@ IL_0009:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_AllFilesFilterText(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AllFilesFilterText_mDE2F45DE0DE0CE7F7074ABE3CB39180485B215E8 (String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AllFilesFilterText_m92B76858D08A2BAF5408B697FB4E850613C363C5 (String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6944,9 +7362,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AllFilesFilterText_mDE2F
 		// if( m_allFilesFilterText != value )
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		String_t* L_0 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_allFilesFilterText_20;
-		String_t* L_1 = ___value0;
+		String_t* L_1 = ___0_value;
 		bool L_2;
-		L_2 = String_op_Inequality_m0FBE5AC4931D312E5B347BAA603755676E6DA2FE(L_0, L_1, NULL);
+		L_2 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_0, L_1, NULL);
 		V_0 = L_2;
 		bool L_3 = V_0;
 		if (!L_3)
@@ -6960,14 +7378,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AllFilesFilterText_mDE2F
 		String_t* L_4 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_allFilesFilterText_20;
 		V_1 = L_4;
 		// m_allFilesFilterText = value;
-		String_t* L_5 = ___value0;
+		String_t* L_5 = ___0_value;
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_allFilesFilterText_20 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_allFilesFilterText_20), (void*)L_5);
 		// if( m_instance )
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_6 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_instance_23;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
-		L_7 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_6, NULL);
+		L_7 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_6, NULL);
 		V_2 = L_7;
 		bool L_8 = V_2;
 		if (!L_8)
@@ -6984,7 +7402,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AllFilesFilterText_mDE2F
 		V_3 = L_10;
 		// m_instance.allFilesFilter = new Filter( value );
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_11 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_instance_23;
-		String_t* L_12 = ___value0;
+		String_t* L_12 = ___0_value;
 		Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* L_13 = (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB*)il2cpp_codegen_object_new(Filter_t33B81718659A91E455B1B65C329FC191DC6792BB_il2cpp_TypeInfo_var);
 		NullCheck(L_13);
 		Filter__ctor_m1A2EDFD7D15168A8C473A0F6760D6643200DCDBE(L_13, L_12, NULL);
@@ -7061,7 +7479,7 @@ IL_0096:
 		L_30 = OptionData_get_text_m147C3EFE4B7D157914D2C6CF653B32CE2D987AF1(L_29, NULL);
 		String_t* L_31 = V_1;
 		bool L_32;
-		L_32 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_30, L_31, NULL);
+		L_32 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_30, L_31, NULL);
 		V_5 = L_32;
 		bool L_33 = V_5;
 		if (!L_33)
@@ -7081,7 +7499,7 @@ IL_0096:
 		NullCheck(L_36);
 		OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* L_37;
 		L_37 = List_1_get_Item_m6248FAA3EA9E9148D0E784C78FA4B1F5FFDD6366(L_36, 0, List_1_get_Item_m6248FAA3EA9E9148D0E784C78FA4B1F5FFDD6366_RuntimeMethod_var);
-		String_t* L_38 = ___value0;
+		String_t* L_38 = ___0_value;
 		NullCheck(L_37);
 		OptionData_set_text_mA6022A455FC38025B0CA97B4E3629DA10FDE259E(L_37, L_38, NULL);
 		// m_instance.filtersDropdown.RefreshShownValue();
@@ -7107,7 +7525,7 @@ IL_00ec:
 	}
 }
 // System.String SimpleFileBrowser.FileBrowser::get_FoldersFilterText()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_FoldersFilterText_mA3D49D59F8F4FB8D7DD400B783872F0505785FA5 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_FoldersFilterText_m4901CABD7A9CF855638B1BC8134B8C4BBF6952EA (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7132,7 +7550,7 @@ IL_0009:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_FoldersFilterText(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_FoldersFilterText_m159DFA629E9C095D04F97A11A5EE79B87D021BA0 (String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_FoldersFilterText_mC7708259211233CAA5A7C39A2F7B6401B0D4D780 (String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7150,9 +7568,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_FoldersFilterText_m159DF
 		// if( m_foldersFilterText != value )
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		String_t* L_0 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_foldersFilterText_21;
-		String_t* L_1 = ___value0;
+		String_t* L_1 = ___0_value;
 		bool L_2;
-		L_2 = String_op_Inequality_m0FBE5AC4931D312E5B347BAA603755676E6DA2FE(L_0, L_1, NULL);
+		L_2 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_0, L_1, NULL);
 		V_0 = L_2;
 		bool L_3 = V_0;
 		if (!L_3)
@@ -7166,14 +7584,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_FoldersFilterText_m159DF
 		String_t* L_4 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_foldersFilterText_21;
 		V_1 = L_4;
 		// m_foldersFilterText = value;
-		String_t* L_5 = ___value0;
+		String_t* L_5 = ___0_value;
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_foldersFilterText_21 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_foldersFilterText_21), (void*)L_5);
 		// if( m_instance && m_instance.filtersDropdown.options[0].text == oldValue )
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_6 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_instance_23;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
-		L_7 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_6, NULL);
+		L_7 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_6, NULL);
 		if (!L_7)
 		{
 			goto IL_004b;
@@ -7195,7 +7613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_FoldersFilterText_m159DF
 		L_12 = OptionData_get_text_m147C3EFE4B7D157914D2C6CF653B32CE2D987AF1(L_11, NULL);
 		String_t* L_13 = V_1;
 		bool L_14;
-		L_14 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_12, L_13, NULL);
+		L_14 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_12, L_13, NULL);
 		G_B4_0 = ((int32_t)(L_14));
 		goto IL_004c;
 	}
@@ -7226,7 +7644,7 @@ IL_004c:
 		NullCheck(L_18);
 		OptionData_t68DC820D58A3ABBAE844326B15A7F14D48FAE55F* L_19;
 		L_19 = List_1_get_Item_m6248FAA3EA9E9148D0E784C78FA4B1F5FFDD6366(L_18, 0, List_1_get_Item_m6248FAA3EA9E9148D0E784C78FA4B1F5FFDD6366_RuntimeMethod_var);
-		String_t* L_20 = ___value0;
+		String_t* L_20 = ___0_value;
 		NullCheck(L_19);
 		OptionData_set_text_mA6022A455FC38025B0CA97B4E3629DA10FDE259E(L_19, L_20, NULL);
 		// m_instance.filtersDropdown.RefreshShownValue();
@@ -7248,7 +7666,7 @@ IL_007f:
 	}
 }
 // System.String SimpleFileBrowser.FileBrowser::get_PickFolderQuickLinkText()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_PickFolderQuickLinkText_mBEFAA93F33C6344716A60C7DFDD4B5752AE7CBEF (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_PickFolderQuickLinkText_m7557ABB7EBBA7B1BF24060D96BC5E1E4C2F2E82A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7273,7 +7691,7 @@ IL_0009:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_PickFolderQuickLinkText(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_PickFolderQuickLinkText_m5C463A1BF7E16C97302082D49C87176EFC6CFF6D (String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_PickFolderQuickLinkText_mDD7BF2FC84B5D7F4A4DC9B7EB6A2B8D5A59A00C2 (String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7296,9 +7714,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_PickFolderQuickLinkText_
 		// if( m_pickFolderQuickLinkText != value )
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		String_t* L_0 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_pickFolderQuickLinkText_22;
-		String_t* L_1 = ___value0;
+		String_t* L_1 = ___0_value;
 		bool L_2;
-		L_2 = String_op_Inequality_m0FBE5AC4931D312E5B347BAA603755676E6DA2FE(L_0, L_1, NULL);
+		L_2 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_0, L_1, NULL);
 		V_0 = L_2;
 		bool L_3 = V_0;
 		if (!L_3)
@@ -7308,7 +7726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_PickFolderQuickLinkText_
 	}
 	{
 		// m_pickFolderQuickLinkText = value;
-		String_t* L_4 = ___value0;
+		String_t* L_4 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_pickFolderQuickLinkText_22 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_pickFolderQuickLinkText_22), (void*)L_4);
@@ -7316,7 +7734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_PickFolderQuickLinkText_
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_5 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_instance_23;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_6;
-		L_6 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_5, NULL);
+		L_6 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_5, NULL);
 		V_1 = L_6;
 		bool L_7 = V_1;
 		if (!L_7)
@@ -7346,7 +7764,7 @@ IL_002d:
 		FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* L_12 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_13;
-		L_13 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_12, NULL);
+		L_13 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_12, NULL);
 		if (!L_13)
 		{
 			goto IL_0059;
@@ -7358,7 +7776,7 @@ IL_002d:
 		String_t* L_15;
 		L_15 = FileBrowserQuickLink_get_TargetPath_mFF4A822E3C9FFDE3F531E1376E6B1797D64AD756(L_14, NULL);
 		bool L_16;
-		L_16 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_15, _stringLiteralD3298BE6CF46DD24EBB9FFB9BC364FB10102F602, NULL);
+		L_16 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_15, _stringLiteralD3298BE6CF46DD24EBB9FFB9BC364FB10102F602, NULL);
 		G_B6_0 = ((int32_t)(L_16));
 		goto IL_005a;
 	}
@@ -7382,11 +7800,11 @@ IL_005a:
 		FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* L_18 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_19;
-		L_19 = FileBrowser_get_Skin_mF5E5790CDB02A70F885B319526F5FA5C8B4A518F(NULL);
+		L_19 = FileBrowser_get_Skin_m7E7753130935B8B694D77618B7F1C8E53707EB27(NULL);
 		NullCheck(L_19);
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_20;
 		L_20 = UISkin_get_DriveIcon_mBEEB8049F062992480B4CDE6D40762778981EB6A(L_19, NULL);
-		String_t* L_21 = ___value0;
+		String_t* L_21 = ___0_value;
 		NullCheck(L_18);
 		FileBrowserQuickLink_SetQuickLink_mCA309400C8524097232B24883F14BAFE92D0C900(L_18, L_20, L_21, _stringLiteralD3298BE6CF46DD24EBB9FFB9BC364FB10102F602, NULL);
 		// break;
@@ -7434,16 +7852,16 @@ IL_0099:
 	}
 }
 // SimpleFileBrowser.FileBrowser SimpleFileBrowser.FileBrowser::get_Instance()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisFileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_mC3A14066D52C09B711783636CBEF57340CBC7189_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mC898F7E3D9541F17BD8B79579FDD431C0651E12D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Resources_Load_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mCEBDEACE7062C5E4C71A9146FE8B42C9D5797720_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Resources_Load_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m496A3B1B60A28F5E0397043974B848C9157B625A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0DA6FE872534E9DDF7F61D22E330DCCC1CEEE0D4);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -7455,7 +7873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileBrowser_t7339AD1486598EA62217333AA4FDB787
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_0 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_instance_23;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
-		L_1 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_0, NULL);
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
 		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -7466,10 +7884,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileBrowser_t7339AD1486598EA62217333AA4FDB787
 	{
 		// m_instance = Instantiate( Resources.Load<GameObject>( "SimpleFileBrowserCanvas" ) ).GetComponent<FileBrowser>();
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
-		L_3 = Resources_Load_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mCEBDEACE7062C5E4C71A9146FE8B42C9D5797720(_stringLiteral0DA6FE872534E9DDF7F61D22E330DCCC1CEEE0D4, Resources_Load_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mCEBDEACE7062C5E4C71A9146FE8B42C9D5797720_RuntimeMethod_var);
+		L_3 = Resources_Load_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m496A3B1B60A28F5E0397043974B848C9157B625A(_stringLiteral0DA6FE872534E9DDF7F61D22E330DCCC1CEEE0D4, Resources_Load_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m496A3B1B60A28F5E0397043974B848C9157B625A_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
-		L_4 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mC898F7E3D9541F17BD8B79579FDD431C0651E12D(L_3, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_mC898F7E3D9541F17BD8B79579FDD431C0651E12D_RuntimeMethod_var);
+		L_4 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_3, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
 		NullCheck(L_4);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_5;
 		L_5 = GameObject_GetComponent_TisFileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_mC3A14066D52C09B711783636CBEF57340CBC7189(L_4, GameObject_GetComponent_TisFileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_mC3A14066D52C09B711783636CBEF57340CBC7189_RuntimeMethod_var);
@@ -7481,7 +7899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileBrowser_t7339AD1486598EA62217333AA4FDB787
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
-		Object_DontDestroyOnLoad_m303AA1C4DC810349F285B4809E426CBBA8F834F9(L_7, NULL);
+		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_7, NULL);
 		// m_instance.gameObject.SetActive( false );
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_8 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_instance_23;
 		NullCheck(L_8);
@@ -7573,7 +7991,7 @@ IL_000a:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_CurrentPath(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_CurrentPath_mC77AFECC7927FE02B265B490C3825EEE685E3BE7 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_CurrentPath_mC77AFECC7927FE02B265B490C3825EEE685E3BE7 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7626,7 +8044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_CurrentPath_mC77AFECC792
 	FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* G_B40_1 = NULL;
 	{
 		// if( value != null )
-		String_t* L_0 = ___value0;
+		String_t* L_0 = ___0_value;
 		V_0 = (bool)((!(((RuntimeObject*)(String_t*)L_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
@@ -7636,15 +8054,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_CurrentPath_mC77AFECC792
 	}
 	{
 		// value = value.Trim();
-		String_t* L_2 = ___value0;
+		String_t* L_2 = ___0_value;
 		NullCheck(L_2);
 		String_t* L_3;
 		L_3 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_2, NULL);
-		___value0 = L_3;
+		___0_value = L_3;
 		// if( !FileBrowserHelpers.ShouldUseSAFForPath( value ) )
-		String_t* L_4 = ___value0;
+		String_t* L_4 = ___0_value;
 		bool L_5;
-		L_5 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_4, NULL);
+		L_5 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_4, NULL);
 		V_1 = (bool)((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
 		bool L_6 = V_1;
 		if (!L_6)
@@ -7654,10 +8072,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_CurrentPath_mC77AFECC792
 	}
 	{
 		// value = GetPathWithoutTrailingDirectorySeparator( value );
-		String_t* L_7 = ___value0;
+		String_t* L_7 = ___0_value;
 		String_t* L_8;
 		L_8 = FileBrowser_GetPathWithoutTrailingDirectorySeparator_m56DF6CC3E788CE233690E42B4878B6D45E5F4B21(__this, L_7, NULL);
-		___value0 = L_8;
+		___0_value = L_8;
 	}
 
 IL_0028:
@@ -7667,9 +8085,9 @@ IL_0028:
 IL_0029:
 	{
 		// if( string.IsNullOrEmpty( value ) )
-		String_t* L_9 = ___value0;
+		String_t* L_9 = ___0_value;
 		bool L_10;
-		L_10 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_9, NULL);
+		L_10 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_9, NULL);
 		V_2 = L_10;
 		bool L_11 = V_2;
 		if (!L_11)
@@ -7691,9 +8109,9 @@ IL_004b:
 	{
 		// if( m_currentPath != value )
 		String_t* L_14 = __this->___m_currentPath_108;
-		String_t* L_15 = ___value0;
+		String_t* L_15 = ___0_value;
 		bool L_16;
-		L_16 = String_op_Inequality_m0FBE5AC4931D312E5B347BAA603755676E6DA2FE(L_14, L_15, NULL);
+		L_16 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_14, L_15, NULL);
 		V_3 = L_16;
 		bool L_17 = V_3;
 		if (!L_17)
@@ -7703,9 +8121,9 @@ IL_004b:
 	}
 	{
 		// if( !FileBrowserHelpers.DirectoryExists( value ) )
-		String_t* L_18 = ___value0;
+		String_t* L_18 = ___0_value;
 		bool L_19;
-		L_19 = FileBrowserHelpers_DirectoryExists_m34D0C75C33EABE4964762FC0C9B8B8446FF6C335(L_18, NULL);
+		L_19 = FileBrowserHelpers_DirectoryExists_m31B7C5281BA37017E49D68D3CA92DAC455862164(L_18, NULL);
 		V_4 = (bool)((((int32_t)L_19) == ((int32_t)0))? 1 : 0);
 		bool L_20 = V_4;
 		if (!L_20)
@@ -7726,7 +8144,7 @@ IL_004b:
 IL_0086:
 	{
 		// m_currentPath = value;
-		String_t* L_23 = ___value0;
+		String_t* L_23 = ___0_value;
 		__this->___m_currentPath_108 = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_currentPath_108), (void*)L_23);
 		// pathInputField.text = m_currentPath;
@@ -7749,7 +8167,7 @@ IL_0086:
 		L_29 = List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8(L_27, L_28, List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var);
 		String_t* L_30 = __this->___m_currentPath_108;
 		bool L_31;
-		L_31 = String_op_Inequality_m0FBE5AC4931D312E5B347BAA603755676E6DA2FE(L_29, L_30, NULL);
+		L_31 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_29, L_30, NULL);
 		G_B12_0 = ((int32_t)(L_31));
 		goto IL_00c7;
 	}
@@ -7789,7 +8207,7 @@ IL_00c7:
 		// pathsFollowed[currentPathIndex] = value;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_38 = __this->___pathsFollowed_99;
 		int32_t L_39 = __this->___currentPathIndex_98;
-		String_t* L_40 = ___value0;
+		String_t* L_40 = ___0_value;
 		NullCheck(L_38);
 		List_1_set_Item_m6A72B7648178616800F05C13DB492E4EDB866B7C(L_38, L_39, L_40, List_1_set_Item_m6A72B7648178616800F05C13DB492E4EDB866B7C_RuntimeMethod_var);
 		// for( int i = pathsFollowed.Count - 1; i >= currentPathIndex + 1; i-- )
@@ -7860,7 +8278,7 @@ IL_015c:
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_53, (bool)((((int32_t)L_54) < ((int32_t)((int32_t)il2cpp_codegen_subtract(L_56, 1))))? 1 : 0), NULL);
 		// if( FileBrowserHelpers.ShouldUseSAF )
 		bool L_57;
-		L_57 = FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA(NULL);
+		L_57 = FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B(NULL);
 		V_9 = L_57;
 		bool L_58 = V_9;
 		if (!L_58)
@@ -7872,13 +8290,13 @@ IL_015c:
 		// string parentPath = FileBrowserHelpers.GetDirectoryName( m_currentPath );
 		String_t* L_59 = __this->___m_currentPath_108;
 		String_t* L_60;
-		L_60 = FileBrowserHelpers_GetDirectoryName_m6342C65603EF0B25E2C2382773027263E5AB1817(L_59, NULL);
+		L_60 = FileBrowserHelpers_GetDirectoryName_mDA870C6C80FBDDB0E3F5F5AED86AB28207BBB7F4(L_59, NULL);
 		V_10 = L_60;
 		// upButton.interactable = !string.IsNullOrEmpty( parentPath ) && ( FileBrowserHelpers.ShouldUseSAFForPath( parentPath ) || FileBrowserHelpers.DirectoryExists( parentPath ) ); // DirectoryExists: Directory may not be accessible on Android 10+, this function checks that
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_61 = __this->___upButton_54;
 		String_t* L_62 = V_10;
 		bool L_63;
-		L_63 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_62, NULL);
+		L_63 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_62, NULL);
 		G_B22_0 = L_61;
 		if (L_63)
 		{
@@ -7889,7 +8307,7 @@ IL_015c:
 	{
 		String_t* L_64 = V_10;
 		bool L_65;
-		L_65 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_64, NULL);
+		L_65 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_64, NULL);
 		G_B23_0 = G_B22_0;
 		if (L_65)
 		{
@@ -7900,7 +8318,7 @@ IL_015c:
 	{
 		String_t* L_66 = V_10;
 		bool L_67;
-		L_67 = FileBrowserHelpers_DirectoryExists_m34D0C75C33EABE4964762FC0C9B8B8446FF6C335(L_66, NULL);
+		L_67 = FileBrowserHelpers_DirectoryExists_m31B7C5281BA37017E49D68D3CA92DAC455862164(L_66, NULL);
 		G_B25_0 = ((int32_t)(L_67));
 		G_B25_1 = G_B23_0;
 		goto IL_01cd;
@@ -7941,7 +8359,7 @@ IL_01d9:
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_68 = __this->___upButton_54;
 		String_t* L_69 = __this->___m_currentPath_108;
 		DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_70;
-		L_70 = Directory_GetParent_m2BB7C00349FB9BC0E79725723B451A7F75E941C8(L_69, NULL);
+		L_70 = Directory_GetParent_mDD1F4DD5F95A5D6676009FB76E5016EDD127FFB2(L_69, NULL);
 		NullCheck(L_68);
 		Selectable_set_interactable_m8DD581C1AD99B2EFA8B3EE9AF69EDDF26688B492(L_68, (bool)((!(((RuntimeObject*)(DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2*)L_70) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0), NULL);
 		goto IL_020a;
@@ -8022,7 +8440,7 @@ IL_0286:
 		// if( FileBrowserHelpers.ShouldUseSAFForPath( m_currentPath ) )
 		String_t* L_84 = __this->___m_currentPath_108;
 		bool L_85;
-		L_85 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_84, NULL);
+		L_85 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_84, NULL);
 		V_12 = L_85;
 		bool L_86 = V_12;
 		if (!L_86)
@@ -8077,7 +8495,7 @@ IL_02d0:
 		L_100 = FileBrowserQuickLink_get_TargetPath_mFF4A822E3C9FFDE3F531E1376E6B1797D64AD756(L_99, NULL);
 		String_t* L_101 = __this->___m_currentPath_108;
 		bool L_102;
-		L_102 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_100, L_101, NULL);
+		L_102 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_100, L_101, NULL);
 		G_B38_0 = L_96;
 		if (L_102)
 		{
@@ -8162,7 +8580,7 @@ IL_0342:
 		L_120 = FileBrowserQuickLink_get_TargetPath_mFF4A822E3C9FFDE3F531E1376E6B1797D64AD756(L_119, NULL);
 		String_t* L_121 = __this->___m_currentPath_108;
 		bool L_122;
-		L_122 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_120, L_121, NULL);
+		L_122 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_120, L_121, NULL);
 		NullCheck(L_116);
 		FileBrowserItem_SetSelected_mD98A715E8753CAAC93243CE7E865BB3E981FE3BB(L_116, L_122, NULL);
 		// for( int i = 0; i < allQuickLinks.Count; i++ )
@@ -8218,7 +8636,7 @@ IL_0397:
 		L_134 = FileBrowserQuickLink_get_TargetPath_mFF4A822E3C9FFDE3F531E1376E6B1797D64AD756(L_133, NULL);
 		String_t* L_135 = __this->___m_currentPath_108;
 		bool L_136;
-		L_136 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_134, L_135, NULL);
+		L_136 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_134, L_135, NULL);
 		NullCheck(L_130);
 		FileBrowserItem_SetSelected_mD98A715E8753CAAC93243CE7E865BB3E981FE3BB(L_130, L_136, NULL);
 		// for( int i = 0; i < allQuickLinks.Count; i++ )
@@ -8281,15 +8699,15 @@ IL_000a:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_SearchString(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_SearchString_mDDD0C4D50DA3999E4338C0A8A001279D08331E48 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_SearchString_mDDD0C4D50DA3999E4338C0A8A001279D08331E48 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
 		// if( m_searchString != value )
 		String_t* L_0 = __this->___m_searchString_109;
-		String_t* L_1 = ___value0;
+		String_t* L_1 = ___0_value;
 		bool L_2;
-		L_2 = String_op_Inequality_m0FBE5AC4931D312E5B347BAA603755676E6DA2FE(L_0, L_1, NULL);
+		L_2 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_0, L_1, NULL);
 		V_0 = L_2;
 		bool L_3 = V_0;
 		if (!L_3)
@@ -8299,7 +8717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_SearchString_mDDD0C4D50D
 	}
 	{
 		// m_searchString = value;
-		String_t* L_4 = ___value0;
+		String_t* L_4 = ___0_value;
 		__this->___m_searchString_109 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_searchString_109), (void*)L_4);
 		// searchInputField.text = m_searchString;
@@ -8336,11 +8754,11 @@ IL_000a:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_AcceptNonExistingFilename(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AcceptNonExistingFilename_mF0E53CE81D674BEBE2583049BEE0586661374079 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AcceptNonExistingFilename_mF0E53CE81D674BEBE2583049BEE0586661374079 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// set { m_acceptNonExistingFilename = value; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		__this->___m_acceptNonExistingFilename_110 = L_0;
 		// set { m_acceptNonExistingFilename = value; }
 		return;
@@ -8365,7 +8783,7 @@ IL_000a:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_PickerMode(SimpleFileBrowser.FileBrowser/PickMode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_PickerMode_m252A1D099DEF70FAF8AC72FD5D7A4C45B65AA206 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, int32_t ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_PickerMode_m252A1D099DEF70FAF8AC72FD5D7A4C45B65AA206 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -8382,7 +8800,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_PickerMode_m252A1D099DEF
 	bool V_2 = false;
 	{
 		// m_pickerMode = value;
-		int32_t L_0 = ___value0;
+		int32_t L_0 = ___0_value;
 		__this->___m_pickerMode_111 = L_0;
 		// if( m_pickerMode == PickMode.Folders )
 		int32_t L_1 = __this->___m_pickerMode_111;
@@ -8404,7 +8822,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_PickerMode_m252A1D099DEF
 		L_5 = List_1_get_Item_m6248FAA3EA9E9148D0E784C78FA4B1F5FFDD6366(L_4, 0, List_1_get_Item_m6248FAA3EA9E9148D0E784C78FA4B1F5FFDD6366_RuntimeMethod_var);
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		String_t* L_6;
-		L_6 = FileBrowser_get_FoldersFilterText_mA3D49D59F8F4FB8D7DD400B783872F0505785FA5(NULL);
+		L_6 = FileBrowser_get_FoldersFilterText_m4901CABD7A9CF855638B1BC8134B8C4BBF6952EA(NULL);
 		NullCheck(L_5);
 		OptionData_set_text_mA6022A455FC38025B0CA97B4E3629DA10FDE259E(L_5, L_6, NULL);
 		// filtersDropdown.value = 0;
@@ -8459,7 +8877,7 @@ IL_0086:
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_19 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_20;
-		L_20 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_19, NULL);
+		L_20 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_19, NULL);
 		V_2 = L_20;
 		bool L_21 = V_2;
 		if (!L_21)
@@ -8503,11 +8921,11 @@ IL_000a:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_AllowMultiSelection(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AllowMultiSelection_m4FC44DD7C7836F9F094C0CBE960A29259B0D1E05 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_AllowMultiSelection_m4FC44DD7C7836F9F094C0CBE960A29259B0D1E05 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// private set { m_allowMultiSelection = value; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		__this->___m_allowMultiSelection_112 = L_0;
 		// private set { m_allowMultiSelection = value; }
 		return;
@@ -8532,7 +8950,7 @@ IL_000a:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_MultiSelectionToggleSelectionMode(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_MultiSelectionToggleSelectionMode_m0F58D2FE698D3B849FB78DC405551C2A54899830 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_MultiSelectionToggleSelectionMode_m0F58D2FE698D3B849FB78DC405551C2A54899830 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -8549,7 +8967,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_MultiSelectionToggleSele
 	{
 		// if( m_multiSelectionToggleSelectionMode != value )
 		bool L_0 = __this->___m_multiSelectionToggleSelectionMode_113;
-		bool L_1 = ___value0;
+		bool L_1 = ___0_value;
 		V_0 = (bool)((((int32_t)((((int32_t)L_0) == ((int32_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -8559,7 +8977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_MultiSelectionToggleSele
 	}
 	{
 		// m_multiSelectionToggleSelectionMode = value;
-		bool L_3 = ___value0;
+		bool L_3 = ___0_value;
 		__this->___m_multiSelectionToggleSelectionMode_113 = L_3;
 		// for( int i = 0; i < allItems.Count; i++ )
 		V_1 = 0;
@@ -8663,12 +9081,12 @@ IL_000f:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_Title(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Title_mA303A37D55D2D07C43D734B10507A42B55D10423 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_Title_mA303A37D55D2D07C43D734B10507A42B55D10423 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// set { titleText.text = value; }
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___titleText_51;
-		String_t* L_1 = ___value0;
+		String_t* L_1 = ___0_value;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_1);
 		// set { titleText.text = value; }
@@ -8697,12 +9115,12 @@ IL_000f:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_SubmitButtonText(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_SubmitButtonText_m29CFCD8B22FB378B3E8F4388C72C7A1A7AB3C0D4 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_SubmitButtonText_m29CFCD8B22FB378B3E8F4388C72C7A1A7AB3C0D4 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// set { submitButtonText.text = value; }
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___submitButtonText_72;
-		String_t* L_1 = ___value0;
+		String_t* L_1 = ___0_value;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_1);
 		// set { submitButtonText.text = value; }
@@ -8722,7 +9140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_get_LastBrowsedFolder_m
 	{
 		// get { return PlayerPrefs.GetString( "FBLastPath", null ); }
 		String_t* L_0;
-		L_0 = PlayerPrefs_GetString_mC671EDA77D8D35BE514817F54950630327A74F63(_stringLiteral304C0BAEBA83CD6DD9FD75078BFC2F26AEC0D83C, (String_t*)NULL, NULL);
+		L_0 = PlayerPrefs_GetString_mE80FED64ACC3134149C8202FDDDE774C29CB0AF2(_stringLiteral304C0BAEBA83CD6DD9FD75078BFC2F26AEC0D83C, (String_t*)NULL, NULL);
 		V_0 = L_0;
 		goto IL_000f;
 	}
@@ -8735,7 +9153,7 @@ IL_000f:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::set_LastBrowsedFolder(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_LastBrowsedFolder_m74581F03A4ADFF9A990FD5F467A1E8978DF7A46A (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_LastBrowsedFolder_m74581F03A4ADFF9A990FD5F467A1E8978DF7A46A (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -8745,8 +9163,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_set_LastBrowsedFolder_m74581
 	}
 	{
 		// set { PlayerPrefs.SetString( "FBLastPath", value ); }
-		String_t* L_0 = ___value0;
-		PlayerPrefs_SetString_mDB0D33B60716ECC669310D27F861F464ACE3A3FF(_stringLiteral304C0BAEBA83CD6DD9FD75078BFC2F26AEC0D83C, L_0, NULL);
+		String_t* L_0 = ___0_value;
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(_stringLiteral304C0BAEBA83CD6DD9FD75078BFC2F26AEC0D83C, L_0, NULL);
 		// set { PlayerPrefs.SetString( "FBLastPath", value ); }
 		return;
 	}
@@ -8825,12 +9243,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_Awake_mE271079885CA728F72B3F
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___nullPointerEventData_107), (void*)L_10);
 		// defaultInitialPath = Application.persistentDataPath;
 		String_t* L_11;
-		L_11 = Application_get_persistentDataPath_m787EBC9B0862E7617DCD6CABD2147E61717EAC17(NULL);
+		L_11 = Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399(NULL);
 		__this->___defaultInitialPath_97 = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___defaultInitialPath_97), (void*)L_11);
 		// if( FileBrowserHelpers.ShouldUseSAF )
 		bool L_12;
-		L_12 = FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA(NULL);
+		L_12 = FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B(NULL);
 		V_0 = L_12;
 		bool L_13 = V_0;
 		if (!L_13)
@@ -8860,7 +9278,7 @@ IL_00b3:
 		// SetExcludedExtensions( excludedExtensions );
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = __this->___excludedExtensions_29;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
-		FileBrowser_SetExcludedExtensions_mF4555FEA87743C688BF75C4A90B2CC9BB80547A5(L_18, NULL);
+		FileBrowser_SetExcludedExtensions_m3D50AB959182D1519C45A714CD4CD5289DE24C27(L_18, NULL);
 		// backButton.interactable = false;
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_19 = __this->___backButton_52;
 		NullCheck(L_19);
@@ -8883,7 +9301,7 @@ IL_00b3:
 		NullCheck(L_25);
 		OnValidateInput__ctor_mDC0454BF264F87154EF8694821905B5A6A587A29(L_25, __this, (intptr_t)((void*)FileBrowser_OnValidateFilenameInput_m12AF80C6D178EDAD4462D1F8E4AA4FA03D79D02A_RuntimeMethod_var), NULL);
 		Delegate_t* L_26;
-		L_26 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_24, L_25, NULL);
+		L_26 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_24, L_25, NULL);
 		NullCheck(L_23);
 		InputField_set_onValidateInput_m3A3FA74285B9BBA68325A91AA862201AF3A18CE4(L_23, ((OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B*)CastclassSealed((RuntimeObject*)L_26, OnValidateInput_t48916A4E9C9FD6204401FF0808C2B7A93D73418B_il2cpp_TypeInfo_var)), NULL);
 		// filenameInputField.onValueChanged.AddListener( OnFilenameInputChanged );
@@ -8898,7 +9316,7 @@ IL_00b3:
 		UnityEvent_1_AddListener_mEC384A8CFC5D4D41B62B08248A738CF61B82172F(L_28, L_29, UnityEvent_1_AddListener_mEC384A8CFC5D4D41B62B08248A738CF61B82172F_RuntimeMethod_var);
 		// allFilesFilter = new Filter( AllFilesFilterText );
 		String_t* L_30;
-		L_30 = FileBrowser_get_AllFilesFilterText_m11A59EC77A38E7954AD443B9BC9B445468BDB842(NULL);
+		L_30 = FileBrowser_get_AllFilesFilterText_m4810E88D7B0236799E3FA9C6D3A872492671B4A5(NULL);
 		Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* L_31 = (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB*)il2cpp_codegen_object_new(Filter_t33B81718659A91E455B1B65C329FC191DC6792BB_il2cpp_TypeInfo_var);
 		NullCheck(L_31);
 		Filter__ctor_m1A2EDFD7D15168A8C473A0F6760D6643200DCDBE(L_31, L_30, NULL);
@@ -8916,7 +9334,7 @@ IL_00b3:
 		// };
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* L_34;
-		L_34 = Path_GetInvalidFileNameChars_mF4B35029327062F820D9DB967D012B43651854F8(NULL);
+		L_34 = Path_GetInvalidFileNameChars_m398C2B0D1FF5A9CC06287509C1CFF5D7552D08CB(NULL);
 		HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A* L_35 = (HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A*)il2cpp_codegen_object_new(HashSet_1_t699860DBA06D8F002CD3C64E462BF860ACAD5E9A_il2cpp_TypeInfo_var);
 		NullCheck(L_35);
 		HashSet_1__ctor_mD29D3E8CAEB61AF816E7BEFCEF45BEC2159581B6(L_35, (RuntimeObject*)L_34, HashSet_1__ctor_mD29D3E8CAEB61AF816E7BEFCEF45BEC2159581B6_RuntimeMethod_var);
@@ -8961,7 +9379,7 @@ IL_00b3:
 		// Destroy( resizeCursorHandler );
 		FileBrowserCursorHandler_t29A9A3B97002BBAF7D593824DD91E97A0FB71991* L_48 = __this->___resizeCursorHandler_79;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA(L_48, NULL);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_48, NULL);
 	}
 
 IL_01c0:
@@ -8996,7 +9414,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_Update_m3F1F142729B656AC489C
 		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_0 = __this->___m_skin_9;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
-		L_1 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_0, NULL);
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
 		if (!L_1)
 		{
 			goto IL_0026;
@@ -9095,7 +9513,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_LateUpdate_mA3374004B750A9D6
 		L_5 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_4, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = V_1;
 		bool L_7;
-		L_7 = Vector2_op_Inequality_mCF3935E28AC7B30B279F07F9321CC56718E1311A_inline(L_5, L_6, NULL);
+		L_7 = Vector2_op_Inequality_mBEA93B5A0E954FEFB863DC61CB209119980EC713_inline(L_5, L_6, NULL);
 		V_2 = L_7;
 		bool L_8 = V_2;
 		if (!L_8)
@@ -9153,7 +9571,7 @@ IL_0085:
 		// if( EventSystem.current.currentSelectedGameObject == filenameInputField.gameObject )
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_19;
-		L_19 = EventSystem_get_current_mD15EA86304E070D175EF359A051A7DB807CA26C0(NULL);
+		L_19 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
 		NullCheck(L_19);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
 		L_20 = EventSystem_get_currentSelectedGameObject_mD606FFACF3E72755298A523CBB709535CF08C98A(L_19, NULL);
@@ -9163,7 +9581,7 @@ IL_0085:
 		L_22 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_21, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_23;
-		L_23 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_20, L_22, NULL);
+		L_23 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_20, L_22, NULL);
 		V_4 = L_23;
 		bool L_24 = V_4;
 		if (!L_24)
@@ -9248,7 +9666,7 @@ IL_0134:
 	{
 		// if( !FileBrowserHelpers.ShouldUseSAF )
 		bool L_42;
-		L_42 = FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA(NULL);
+		L_42 = FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B(NULL);
 		V_8 = (bool)((((int32_t)L_42) == ((int32_t)0))? 1 : 0);
 		bool L_43 = V_8;
 		if (!L_43)
@@ -9282,7 +9700,7 @@ IL_0134:
 	}
 	{
 		float L_47;
-		L_47 = Time_get_realtimeSinceStartup_mB49A5622E38FFE9589EB9B3E75573E443B8D63EC(NULL);
+		L_47 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
 		float L_48 = __this->___drivesNextRefreshTime_101;
 		G_B18_0 = ((((int32_t)((!(((float)L_47) >= ((float)L_48)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_0170;
@@ -9305,7 +9723,7 @@ IL_0170:
 	{
 		// drivesNextRefreshTime = Time.realtimeSinceStartup + m_drivesRefreshInterval;
 		float L_50;
-		L_50 = Time_get_realtimeSinceStartup_mB49A5622E38FFE9589EB9B3E75573E443B8D63EC(NULL);
+		L_50 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		float L_51 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_drivesRefreshInterval_18;
 		__this->___drivesNextRefreshTime_101 = ((float)il2cpp_codegen_add(L_50, L_51));
@@ -9320,12 +9738,12 @@ IL_0190:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::OnApplicationFocus(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnApplicationFocus_m0D8C1F78585868840DDE556454B4D22A766E861E (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___focus0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnApplicationFocus_m0D8C1F78585868840DDE556454B4D22A766E861E (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___0_focus, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
 		// if( !focus )
-		bool L_0 = ___focus0;
+		bool L_0 = ___0_focus;
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
@@ -9369,7 +9787,7 @@ IL_0005:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::SimpleFileBrowser.IListViewAdapter.set_OnItemClicked(SimpleFileBrowser.OnItemClickedHandler)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SimpleFileBrowser_IListViewAdapter_set_OnItemClicked_m202B2600CCE6D8BC02F6CD6929C065B0F2EFF270 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, OnItemClickedHandler_t025D8ADA092CE10AD605EB907DAC3CEC3F59F01F* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SimpleFileBrowser_IListViewAdapter_set_OnItemClicked_m202B2600CCE6D8BC02F6CD6929C065B0F2EFF270 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, OnItemClickedHandler_t025D8ADA092CE10AD605EB907DAC3CEC3F59F01F* ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// OnItemClickedHandler IListViewAdapter.OnItemClicked { get { return null; } set { } }
@@ -9431,7 +9849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ListItem_tE112A367BDC021731139C4894491A00F05B
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m8FF9375701028D7F46999061905C56100FC3FCD1_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisFileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5_m2C78D5BF63ED0467DC474EB734C61772D80FB383_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisFileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5_mF1E83F43023E43A70776D5BED8D4A780E8905985_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -9443,7 +9861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ListItem_tE112A367BDC021731139C4894491A00F05B
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___filesContainer_62;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_2;
-		L_2 = Object_Instantiate_TisFileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5_m2C78D5BF63ED0467DC474EB734C61772D80FB383(L_0, L_1, (bool)0, Object_Instantiate_TisFileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5_m2C78D5BF63ED0467DC474EB734C61772D80FB383_RuntimeMethod_var);
+		L_2 = Object_Instantiate_TisFileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5_mF1E83F43023E43A70776D5BED8D4A780E8905985(L_0, L_1, (bool)0, Object_Instantiate_TisFileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5_mF1E83F43023E43A70776D5BED8D4A780E8905985_RuntimeMethod_var);
 		V_0 = L_2;
 		// item.SetFileBrowser( this, m_skin );
 		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_3 = V_0;
@@ -9469,7 +9887,7 @@ IL_0033:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::SimpleFileBrowser.IListViewAdapter.SetItemContent(SimpleFileBrowser.ListItem)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SimpleFileBrowser_IListViewAdapter_SetItemContent_mF1D94F26886A961DEAA8528D76625CAEF0812F9A (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, ListItem_tE112A367BDC021731139C4894491A00F05B295B3* ___item0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SimpleFileBrowser_IListViewAdapter_SetItemContent_mF1D94F26886A961DEAA8528D76625CAEF0812F9A (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, ListItem_tE112A367BDC021731139C4894491A00F05B295B3* ___0_item, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -9484,11 +9902,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SimpleFileBrowser_IListViewA
 	memset((&V_1), 0, sizeof(V_1));
 	{
 		// FileBrowserItem file = (FileBrowserItem) item;
-		ListItem_tE112A367BDC021731139C4894491A00F05B295B3* L_0 = ___item0;
+		ListItem_tE112A367BDC021731139C4894491A00F05B295B3* L_0 = ___0_item;
 		V_0 = ((FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5*)CastclassClass((RuntimeObject*)L_0, FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5_il2cpp_TypeInfo_var));
 		// FileSystemEntry fileInfo = validFileEntries[item.Position];
 		List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* L_1 = __this->___validFileEntries_84;
-		ListItem_tE112A367BDC021731139C4894491A00F05B295B3* L_2 = ___item0;
+		ListItem_tE112A367BDC021731139C4894491A00F05B295B3* L_2 = ___0_item;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = ListItem_get_Position_m49214519D4BBE5B0F33D6AAB4E3B8F49B580DEFD_inline(L_2, NULL);
@@ -9549,12 +9967,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_InitializeQuickLinks_mC08CA3
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___quickLinksInitialized_31 = (bool)1;
 		// drivesNextRefreshTime = Time.realtimeSinceStartup + m_drivesRefreshInterval;
 		float L_0;
-		L_0 = Time_get_realtimeSinceStartup_mB49A5622E38FFE9589EB9B3E75573E443B8D63EC(NULL);
+		L_0 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
 		float L_1 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_drivesRefreshInterval_18;
 		__this->___drivesNextRefreshTime_101 = ((float)il2cpp_codegen_add(L_0, L_1));
 		// if( FileBrowserHelpers.ShouldUseSAF )
 		bool L_2;
-		L_2 = FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA(NULL);
+		L_2 = FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B(NULL);
 		V_0 = L_2;
 		bool L_3 = V_0;
 		if (!L_3)
@@ -9570,7 +9988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_InitializeQuickLinks_mC08CA3
 		L_5 = UISkin_get_DriveIcon_mBEEB8049F062992480B4CDE6D40762778981EB6A(L_4, NULL);
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		String_t* L_6;
-		L_6 = FileBrowser_get_PickFolderQuickLinkText_mBEFAA93F33C6344716A60C7DFDD4B5752AE7CBEF(NULL);
+		L_6 = FileBrowser_get_PickFolderQuickLinkText_m7557ABB7EBBA7B1BF24060D96BC5E1E4C2F2E82A(NULL);
 		bool L_7;
 		L_7 = FileBrowser_AddQuickLink_mF254B02358535E14D2319F1AC1230F513D58B42A(__this, L_5, L_6, _stringLiteralD3298BE6CF46DD24EBB9FFB9BC364FB10102F602, NULL);
 	}
@@ -9597,7 +10015,7 @@ CATCH_0049:
 		// Debug.LogException( e );
 		Exception_t* L_8 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
-		Debug_LogException_m82E44FEC6B03BC34AFC2CAF6583051570C60CB9E(L_8, NULL);
+		Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_8, NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0055;
 	}// end catch (depth: 1)
@@ -9685,11 +10103,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshDriveQuickLinks_m540D
 	{
 		// string drivesList = FileBrowserHelpers.AJC.CallStatic<string>( "GetExternalDrives", FileBrowserHelpers.Context );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_0;
-		L_0 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_0 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3;
-		L_3 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_3 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_3);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
@@ -9701,7 +10119,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshDriveQuickLinks_m540D
 		String_t* L_5 = V_0;
 		String_t* L_6 = __this->___driveQuickLinks_102;
 		bool L_7;
-		L_7 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_5, L_6, NULL);
+		L_7 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_5, L_6, NULL);
 		if (L_7)
 		{
 			goto IL_0045;
@@ -9710,7 +10128,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshDriveQuickLinks_m540D
 	{
 		String_t* L_8 = V_0;
 		bool L_9;
-		L_9 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_8, NULL);
+		L_9 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_8, NULL);
 		if (!L_9)
 		{
 			goto IL_0042;
@@ -9719,7 +10137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshDriveQuickLinks_m540D
 	{
 		String_t* L_10 = __this->___driveQuickLinks_102;
 		bool L_11;
-		L_11 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_10, NULL);
+		L_11 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_10, NULL);
 		G_B4_0 = ((int32_t)(L_11));
 		goto IL_0043;
 	}
@@ -9775,7 +10193,7 @@ IL_0058:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17;
 		L_17 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_16, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA(L_17, NULL);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_17, NULL);
 		// allQuickLinks.RemoveAt( numberOfDriveQuickLinks - 1 );
 		List_1_t417643521992E3A9934A752A70E79B7192BE59ED* L_18 = __this->___allQuickLinks_50;
 		int32_t L_19 = __this->___numberOfDriveQuickLinks_103;
@@ -9832,7 +10250,7 @@ IL_00c3:
 		// quickLinksContainer.sizeDelta = Vector2.zero;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_28 = __this->___quickLinksContainer_60;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_29;
-		L_29 = Vector2_get_zero_m009B92B5D35AB02BD1610C2E1ACCE7C9CF964A6E_inline(NULL);
+		L_29 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_28);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_28, L_29, NULL);
 		// if( drivesList != null && drivesList.Length > 0 )
@@ -9935,7 +10353,7 @@ IL_014e_1:
 			String_t* L_44;
 			L_44 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_6), NULL);
 			String_t* L_45;
-			L_45 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral0AE56834A1D5A313E41E8C04A4EE15DC7D0DC0CE, L_44, NULL);
+			L_45 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral0AE56834A1D5A313E41E8C04A4EE15DC7D0DC0CE, L_44, NULL);
 			V_9 = L_45;
 		}
 
@@ -10114,7 +10532,7 @@ IL_0250:
 			// if( !string.IsNullOrEmpty( m_currentPath ) && !FileBrowserHelpers.DirectoryExists( m_currentPath ) )
 			String_t* L_90 = __this->___m_currentPath_108;
 			bool L_91;
-			L_91 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_90, NULL);
+			L_91 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_90, NULL);
 			if (L_91)
 			{
 				goto IL_026f_1;
@@ -10123,7 +10541,7 @@ IL_0250:
 		{
 			String_t* L_92 = __this->___m_currentPath_108;
 			bool L_93;
-			L_93 = FileBrowserHelpers_DirectoryExists_m34D0C75C33EABE4964762FC0C9B8B8446FF6C335(L_92, NULL);
+			L_93 = FileBrowserHelpers_DirectoryExists_m31B7C5281BA37017E49D68D3CA92DAC455862164(L_92, NULL);
 			G_B42_0 = ((((int32_t)L_93) == ((int32_t)0))? 1 : 0);
 			goto IL_0270_1;
 		}
@@ -10147,12 +10565,12 @@ IL_0270_1:
 			String_t* L_95 = __this->___m_currentPath_108;
 			il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 			String_t* L_96;
-			L_96 = Path_GetPathRoot_m6DDE2394DA53E1C4F4753406F0B48955DFF1E5EB(L_95, NULL);
+			L_96 = Path_GetPathRoot_m31AA9272864F572DEC78EC2595D2A5ABFEF5651C(L_95, NULL);
 			V_19 = L_96;
 			// if( !string.IsNullOrEmpty( currentPathRoot ) && FileBrowserHelpers.DirectoryExists( currentPathRoot ) )
 			String_t* L_97 = V_19;
 			bool L_98;
-			L_98 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_97, NULL);
+			L_98 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_97, NULL);
 			if (L_98)
 			{
 				goto IL_0296_1;
@@ -10161,7 +10579,7 @@ IL_0270_1:
 		{
 			String_t* L_99 = V_19;
 			bool L_100;
-			L_100 = FileBrowserHelpers_DirectoryExists_m34D0C75C33EABE4964762FC0C9B8B8446FF6C335(L_99, NULL);
+			L_100 = FileBrowserHelpers_DirectoryExists_m31B7C5281BA37017E49D68D3CA92DAC455862164(L_99, NULL);
 			G_B46_0 = ((int32_t)(L_100));
 			goto IL_0297_1;
 		}
@@ -10479,10 +10897,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshSkin_mB4CF280DFD76B59
 		// if( !EventSystem.current || EventSystem.current.currentSelectedGameObject != filenameInputField.gameObject )
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_75;
-		L_75 = EventSystem_get_current_mD15EA86304E070D175EF359A051A7DB807CA26C0(NULL);
+		L_75 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_76;
-		L_76 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_75, NULL);
+		L_76 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_75, NULL);
 		if (!L_76)
 		{
 			goto IL_023a;
@@ -10491,7 +10909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshSkin_mB4CF280DFD76B59
 	{
 		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
 		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_77;
-		L_77 = EventSystem_get_current_mD15EA86304E070D175EF359A051A7DB807CA26C0(NULL);
+		L_77 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
 		NullCheck(L_77);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_78;
 		L_78 = EventSystem_get_currentSelectedGameObject_mD606FFACF3E72755298A523CBB709535CF08C98A(L_77, NULL);
@@ -10501,7 +10919,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshSkin_mB4CF280DFD76B59
 		L_80 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_79, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_81;
-		L_81 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_78, L_80, NULL);
+		L_81 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_78, L_80, NULL);
 		G_B3_0 = ((int32_t)(L_81));
 		goto IL_023b;
 	}
@@ -10676,7 +11094,7 @@ IL_0313:
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_133 = __this->___m_skinPrevDriveIcon_11;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_134;
-		L_134 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_132, L_133, NULL);
+		L_134 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_132, L_133, NULL);
 		V_6 = L_134;
 		bool L_135 = V_6;
 		if (!L_135)
@@ -10720,7 +11138,7 @@ IL_03c2:
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_147 = __this->___m_skinPrevFolderIcon_12;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_148;
-		L_148 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_146, L_147, NULL);
+		L_148 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_146, L_147, NULL);
 		V_7 = L_148;
 		bool L_149 = V_7;
 		if (!L_149)
@@ -10981,7 +11399,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnUpButtonPressed_mCAA26ECCA
 	{
 		// if( FileBrowserHelpers.ShouldUseSAF )
 		bool L_0;
-		L_0 = FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA(NULL);
+		L_0 = FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B(NULL);
 		V_0 = L_0;
 		bool L_1 = V_0;
 		if (!L_1)
@@ -10993,12 +11411,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnUpButtonPressed_mCAA26ECCA
 		// string parentPath = FileBrowserHelpers.GetDirectoryName( m_currentPath );
 		String_t* L_2 = __this->___m_currentPath_108;
 		String_t* L_3;
-		L_3 = FileBrowserHelpers_GetDirectoryName_m6342C65603EF0B25E2C2382773027263E5AB1817(L_2, NULL);
+		L_3 = FileBrowserHelpers_GetDirectoryName_mDA870C6C80FBDDB0E3F5F5AED86AB28207BBB7F4(L_2, NULL);
 		V_1 = L_3;
 		// if( !string.IsNullOrEmpty( parentPath ) && ( FileBrowserHelpers.ShouldUseSAFForPath( parentPath ) || FileBrowserHelpers.DirectoryExists( parentPath ) ) ) // DirectoryExists: Directory may not be accessible on Android 10+, this function checks that
 		String_t* L_4 = V_1;
 		bool L_5;
-		L_5 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_4, NULL);
+		L_5 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_4, NULL);
 		if (L_5)
 		{
 			goto IL_0032;
@@ -11007,7 +11425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnUpButtonPressed_mCAA26ECCA
 	{
 		String_t* L_6 = V_1;
 		bool L_7;
-		L_7 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_6, NULL);
+		L_7 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_6, NULL);
 		if (L_7)
 		{
 			goto IL_002f;
@@ -11016,7 +11434,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnUpButtonPressed_mCAA26ECCA
 	{
 		String_t* L_8 = V_1;
 		bool L_9;
-		L_9 = FileBrowserHelpers_DirectoryExists_m34D0C75C33EABE4964762FC0C9B8B8446FF6C335(L_8, NULL);
+		L_9 = FileBrowserHelpers_DirectoryExists_m31B7C5281BA37017E49D68D3CA92DAC455862164(L_8, NULL);
 		G_B5_0 = ((int32_t)(L_9));
 		goto IL_0030;
 	}
@@ -11066,7 +11484,7 @@ IL_0042:
 			// DirectoryInfo parentPath = Directory.GetParent( m_currentPath );
 			String_t* L_12 = __this->___m_currentPath_108;
 			DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_13;
-			L_13 = Directory_GetParent_m2BB7C00349FB9BC0E79725723B451A7F75E941C8(L_12, NULL);
+			L_13 = Directory_GetParent_mDD1F4DD5F95A5D6676009FB76E5016EDD127FFB2(L_12, NULL);
 			V_3 = L_13;
 			// if( parentPath != null )
 			DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_14 = V_3;
@@ -11132,14 +11550,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnMoreOptionsButtonClicked_m
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
 		L_3 = Transform_InverseTransformPoint_m18CD395144D9C78F30E15A5B82B6670E792DBA5D(L_0, L_2, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
-		L_4 = Vector2_op_Implicit_m8F73B300CB4E6F9B4EB5FB6130363D76CEAA230B_inline(L_3, NULL);
+		L_4 = Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline(L_3, NULL);
 		FileBrowser_ShowContextMenuAt_m13F6C5767CB0B266FF2F2D583C23957BFC74453C(__this, L_4, (bool)1, NULL);
 		// }
 		return;
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::OnContextMenuTriggered(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnContextMenuTriggered_mFA0AA158FE9AE9AD8ECB0D3DEB8D169481E02319 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___pointerPos0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnContextMenuTriggered_mFA0AA158FE9AE9AD8ECB0D3DEB8D169481E02319 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_pointerPos, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -11153,19 +11571,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnContextMenuTriggered_mFA0A
 		// filesScrollRect.velocity = Vector2.zero;
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_0 = __this->___filesScrollRect_63;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
-		L_1 = Vector2_get_zero_m009B92B5D35AB02BD1610C2E1ACCE7C9CF964A6E_inline(NULL);
+		L_1 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_0);
 		ScrollRect_set_velocity_mBC8D4BC0A0184FCC3AEB359AE68E9130E811AFC2(L_0, L_1, NULL);
 		// RectTransformUtility.ScreenPointToLocalPointInRectangle( rectTransform, pointerPos, canvas.worldCamera, out position );
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_2 = __this->___rectTransform_80;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___pointerPos0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___0_pointerPos;
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_4 = __this->___canvas_81;
 		NullCheck(L_4);
 		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_5;
 		L_5 = Canvas_get_worldCamera_mD2FDE13B61A5213F4E64B40008EB0A8D2D07B853(L_4, NULL);
 		il2cpp_codegen_runtime_class_init_inline(RectTransformUtility_t65C00A84A72F17D78B81F2E7D88C2AA98AB61244_il2cpp_TypeInfo_var);
 		bool L_6;
-		L_6 = RectTransformUtility_ScreenPointToLocalPointInRectangle_m9E502D410F5B141117D263D4706C426EFA109DC0(L_2, L_3, L_5, (&V_0), NULL);
+		L_6 = RectTransformUtility_ScreenPointToLocalPointInRectangle_m01A75CAFB6D1019F1C65BA606635EAB10AF31195(L_2, L_3, L_5, (&V_0), NULL);
 		// ShowContextMenuAt( position, false );
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = V_0;
 		FileBrowser_ShowContextMenuAt_m13F6C5767CB0B266FF2F2D583C23957BFC74453C(__this, L_7, (bool)0, NULL);
@@ -11174,7 +11592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnContextMenuTriggered_mFA0A
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::ShowContextMenuAt(UnityEngine.Vector2,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_ShowContextMenuAt_m13F6C5767CB0B266FF2F2D583C23957BFC74453C (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___position0, bool ___isMoreOptionsMenu1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_ShowContextMenuAt_m13F6C5767CB0B266FF2F2D583C23957BFC74453C (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_position, bool ___1_isMoreOptionsMenu, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -11204,7 +11622,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_ShowContextMenuAt_m13F6C5767
 		// if( string.IsNullOrEmpty( m_currentPath ) )
 		String_t* L_0 = __this->___m_currentPath_108;
 		bool L_1;
-		L_1 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_0, NULL);
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
 		V_4 = L_1;
 		bool L_2 = V_4;
 		if (!L_2)
@@ -11220,7 +11638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_ShowContextMenuAt_m13F6C5767
 IL_0017:
 	{
 		// bool selectAllButtonVisible = isMoreOptionsMenu && m_allowMultiSelection && validFileEntries.Count > 0;
-		bool L_3 = ___isMoreOptionsMenu1;
+		bool L_3 = ___1_isMoreOptionsMenu;
 		if (!L_3)
 		{
 			goto IL_0032;
@@ -11251,7 +11669,7 @@ IL_0033:
 	{
 		V_0 = (bool)G_B6_0;
 		// bool deselectAllButtonVisible = isMoreOptionsMenu && selectedFileEntries.Count > 1;
-		bool L_7 = ___isMoreOptionsMenu1;
+		bool L_7 = ___1_isMoreOptionsMenu;
 		if (!L_7)
 		{
 			goto IL_0047;
@@ -11417,8 +11835,8 @@ IL_00dc:
 		bool L_31 = V_1;
 		bool L_32 = V_2;
 		bool L_33 = V_3;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34 = ___position0;
-		bool L_35 = ___isMoreOptionsMenu1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34 = ___0_position;
+		bool L_35 = ___1_isMoreOptionsMenu;
 		NullCheck(L_29);
 		FileBrowserContextMenu_Show_mA733F9163F6D4929AF02FF90393B092D6A1BDCD8(L_29, L_30, L_31, L_32, L_33, L_34, L_35, NULL);
 	}
@@ -11956,7 +12374,7 @@ IL_0296:
 			// if( FileBrowserHelpers.DirectoryExists( filename ) )
 			String_t* L_107 = V_19;
 			bool L_108;
-			L_108 = FileBrowserHelpers_DirectoryExists_m34D0C75C33EABE4964762FC0C9B8B8446FF6C335(L_107, NULL);
+			L_108 = FileBrowserHelpers_DirectoryExists_m31B7C5281BA37017E49D68D3CA92DAC455862164(L_107, NULL);
 			V_22 = L_108;
 			bool L_109 = V_22;
 			if (!L_109)
@@ -11969,7 +12387,7 @@ IL_0296:
 			String_t* L_110 = V_19;
 			String_t* L_111 = V_19;
 			String_t* L_112;
-			L_112 = FileBrowserHelpers_GetFilename_mA8E038218E294D76E4DAFD17571427175F8E24BE(L_111, NULL);
+			L_112 = FileBrowserHelpers_GetFilename_mF0C6FE7BAB440BB2A45AC7E0B73894BAB9CE5450(L_111, NULL);
 			FileSystemEntry__ctor_mFB6D7113F6EC140A0863D55B690ACADC5A22EBD1((&V_23), L_110, L_112, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, (bool)1, NULL);
 			// if( FileSystemEntryMatchesFilters( fileEntry, AllExtensionsHaveSingleSuffix ) )
 			FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_113 = V_23;
@@ -12035,7 +12453,7 @@ IL_033c_1:
 		{
 			String_t* L_125 = V_19;
 			bool L_126;
-			L_126 = FileBrowserHelpers_FileExists_mD73A1D794A8CCB271F1BA746A082354E338F57FD(L_125, NULL);
+			L_126 = FileBrowserHelpers_FileExists_m7208C912E35C8470E0A63418A818BE40FCDA1408(L_125, NULL);
 			G_B40_0 = ((int32_t)(L_126));
 			goto IL_034f_1;
 		}
@@ -12058,7 +12476,7 @@ IL_034f_1:
 			// string fullPathFilename = FileBrowserHelpers.GetFilename( filename );
 			String_t* L_128 = V_19;
 			String_t* L_129;
-			L_129 = FileBrowserHelpers_GetFilename_mA8E038218E294D76E4DAFD17571427175F8E24BE(L_128, NULL);
+			L_129 = FileBrowserHelpers_GetFilename_mF0C6FE7BAB440BB2A45AC7E0B73894BAB9CE5450(L_128, NULL);
 			V_27 = L_129;
 			// FileSystemEntry fileEntry = new FileSystemEntry( filename, fullPathFilename, GetExtensionFromFilename( fullPathFilename, AllExtensionsHaveSingleSuffix ), false );
 			String_t* L_130 = V_19;
@@ -12068,7 +12486,7 @@ IL_034f_1:
 			L_133 = FileBrowser_get_AllExtensionsHaveSingleSuffix_mE1B6D3A19497EB0952FAC108AA6DCD46A63AC3A2(__this, NULL);
 			il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 			String_t* L_134;
-			L_134 = FileBrowser_GetExtensionFromFilename_mDFAD3BC2729A0685EDCD8D46085C755670E02346(L_132, L_133, NULL);
+			L_134 = FileBrowser_GetExtensionFromFilename_m2F13A07937DD5779FEF23A192C94ED899B20AA4D(L_132, L_133, NULL);
 			FileSystemEntry__ctor_mFB6D7113F6EC140A0863D55B690ACADC5A22EBD1((&V_28), L_130, L_131, L_134, (bool)0, NULL);
 			// if( FileSystemEntryMatchesFilters( fileEntry, AllExtensionsHaveSingleSuffix ) )
 			FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_135 = V_28;
@@ -12108,7 +12526,7 @@ IL_034f_1:
 			List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_145 = __this->___submittedFolderPaths_88;
 			String_t* L_146 = V_19;
 			String_t* L_147;
-			L_147 = FileBrowserHelpers_GetDirectoryName_m6342C65603EF0B25E2C2382773027263E5AB1817(L_146, NULL);
+			L_147 = FileBrowserHelpers_GetDirectoryName_mDA870C6C80FBDDB0E3F5F5AED86AB28207BBB7F4(L_146, NULL);
 			NullCheck(L_145);
 			List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_145, L_147, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 		}
@@ -12431,12 +12849,12 @@ IL_0559_1:
 			L_212 = FileBrowser_get_AllExtensionsHaveSingleSuffix_mE1B6D3A19497EB0952FAC108AA6DCD46A63AC3A2(__this, NULL);
 			il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 			String_t* L_213;
-			L_213 = FileBrowser_GetExtensionFromFilename_mDFAD3BC2729A0685EDCD8D46085C755670E02346(L_211, L_212, NULL);
+			L_213 = FileBrowser_GetExtensionFromFilename_m2F13A07937DD5779FEF23A192C94ED899B20AA4D(L_211, L_212, NULL);
 			V_42 = L_213;
 			// if( string.IsNullOrEmpty( fileExtension ) || !filters[filtersDropdown.value].MatchesExtension( fileExtension, !AllExtensionsHaveSingleSuffix ) )
 			String_t* L_214 = V_42;
 			bool L_215;
-			L_215 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_214, NULL);
+			L_215 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_214, NULL);
 			if (L_215)
 			{
 				goto IL_05a3_1;
@@ -12490,7 +12908,7 @@ IL_05a4_1:
 			String_t* L_229 = L_228->___defaultExtension_3;
 			il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 			String_t* L_230;
-			L_230 = Path_ChangeExtension_m8137B6ADAA7685301AE571D88C0DDA9F2A9D9EEA(L_224, L_229, NULL);
+			L_230 = Path_ChangeExtension_mBC1AFA3E5E6FE1F855925EA34A4FAB7248478A83(L_224, L_229, NULL);
 			V_19 = L_230;
 			// fileEntryIndex = FilenameToFileEntryIndex( filename );
 			String_t* L_231 = V_19;
@@ -12692,7 +13110,7 @@ IL_071a_1:
 			// if( FileBrowserHelpers.ShouldUseSAFForPath( m_currentPath ) )
 			String_t* L_277 = __this->___m_currentPath_108;
 			bool L_278;
-			L_278 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_277, NULL);
+			L_278 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_277, NULL);
 			V_50 = L_278;
 			bool L_279 = V_50;
 			if (!L_279)
@@ -12716,7 +13134,7 @@ IL_071a_1:
 			String_t* L_283 = __this->___m_currentPath_108;
 			String_t* L_284 = V_19;
 			String_t* L_285;
-			L_285 = FileBrowserHelpers_CreateFolderInDirectory_mAEE39C8930FB9F6A6972D87CE827CD8EA6C7B9A7(L_283, L_284, NULL);
+			L_285 = FileBrowserHelpers_CreateFolderInDirectory_m322EE05BAED6F7D0CFBC302289F33C3527870286(L_283, L_284, NULL);
 			NullCheck(L_282);
 			List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_282, L_285, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 			goto IL_0770_1;
@@ -12729,7 +13147,7 @@ IL_0757_1:
 			String_t* L_287 = __this->___m_currentPath_108;
 			String_t* L_288 = V_19;
 			String_t* L_289;
-			L_289 = FileBrowserHelpers_CreateFileInDirectory_m494CB83E0BB762403696BF033B728AD1D43C6477(L_287, L_288, NULL);
+			L_289 = FileBrowserHelpers_CreateFileInDirectory_m66C5E15A3C514C19964A15869009277AD0B976B1(L_287, L_288, NULL);
 			NullCheck(L_286);
 			List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_286, L_289, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 		}
@@ -12747,7 +13165,7 @@ IL_0773_1:
 			String_t* L_292 = V_19;
 			il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 			String_t* L_293;
-			L_293 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(L_291, L_292, NULL);
+			L_293 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_291, L_292, NULL);
 			NullCheck(L_290);
 			List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_290, L_293, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 			// if( !submittedFolderPaths.Contains( m_currentPath ) )
@@ -12809,7 +13227,7 @@ CATCH_07bf:
 		// Debug.LogException( e );
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_303 = V_53;
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
-		Debug_LogException_m82E44FEC6B03BC34AFC2CAF6583051570C60CB9E(L_303, NULL);
+		Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_303, NULL);
 		// return;
 		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0915;
@@ -12923,7 +13341,7 @@ IL_0866:
 		String_t* L_325;
 		L_325 = List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8(L_323, L_324, List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var);
 		bool L_326;
-		L_326 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_325, NULL);
+		L_326 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_325, NULL);
 		if (L_326)
 		{
 			goto IL_0893;
@@ -13062,7 +13480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnCancelButtonClicked_m48955
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::OnOperationSuccessful(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnOperationSuccessful_m2CF8A90FC6BA08A1765667852A41111CF43FB4DB (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___paths0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnOperationSuccessful_m2CF8A90FC6BA08A1765667852A41111CF43FB4DB (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_paths, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13076,16 +13494,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnOperationSuccessful_m2CF8A
 	{
 		// Success = true;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
-		FileBrowser_set_Success_mE3E30E699935AC3FC78C668691DDB21610E1F1B4_inline((bool)1, NULL);
+		FileBrowser_set_Success_m468F84004618609ED6161B13043EB83E974C1654_inline((bool)1, NULL);
 		// Result = paths;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___paths0;
-		FileBrowser_set_Result_m6656F9251FE3557D72BF0D0F4BA83B475820F8AD_inline(L_0, NULL);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___0_paths;
+		FileBrowser_set_Result_m6EC4D1C118FC65B1BB34738F18E25A215CF7CC52_inline(L_0, NULL);
 		// Hide();
 		FileBrowser_Hide_mD14D207CDCAEA3EBCE749396FA71BF049BC897A1(__this, NULL);
 		// if( !string.IsNullOrEmpty( m_currentPath ) )
 		String_t* L_1 = __this->___m_currentPath_108;
 		bool L_2;
-		L_2 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_1, NULL);
+		L_2 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_1, NULL);
 		V_1 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 		bool L_3 = V_1;
 		if (!L_3)
@@ -13122,7 +13540,7 @@ IL_0035:
 	{
 		// _onSuccess( paths );
 		OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* L_8 = V_0;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = ___paths0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = ___0_paths;
 		NullCheck(L_8);
 		OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_inline(L_8, L_9, NULL);
 	}
@@ -13134,7 +13552,7 @@ IL_005a:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::OnOperationCanceled(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnOperationCanceled_mDC4CDB908EE1BBC64F34DC02D56BF6B9746F78D8 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___invokeCancelCallback0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnOperationCanceled_mDC4CDB908EE1BBC64F34DC02D56BF6B9746F78D8 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___0_invokeCancelCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13149,15 +13567,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnOperationCanceled_mDC4CDB9
 	{
 		// Success = false;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
-		FileBrowser_set_Success_mE3E30E699935AC3FC78C668691DDB21610E1F1B4_inline((bool)0, NULL);
+		FileBrowser_set_Success_m468F84004618609ED6161B13043EB83E974C1654_inline((bool)0, NULL);
 		// Result = null;
-		FileBrowser_set_Result_m6656F9251FE3557D72BF0D0F4BA83B475820F8AD_inline((StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL, NULL);
+		FileBrowser_set_Result_m6EC4D1C118FC65B1BB34738F18E25A215CF7CC52_inline((StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL, NULL);
 		// Hide();
 		FileBrowser_Hide_mD14D207CDCAEA3EBCE749396FA71BF049BC897A1(__this, NULL);
 		// if( !string.IsNullOrEmpty( m_currentPath ) )
 		String_t* L_0 = __this->___m_currentPath_108;
 		bool L_1;
-		L_1 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_0, NULL);
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
 		V_1 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 		bool L_2 = V_1;
 		if (!L_2)
@@ -13183,7 +13601,7 @@ IL_0035:
 		__this->___onCancel_115 = (OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___onCancel_115), (void*)(OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B*)NULL);
 		// if( invokeCancelCallback && _onCancel != null )
-		bool L_5 = ___invokeCancelCallback0;
+		bool L_5 = ___0_invokeCancelCallback;
 		if (!L_5)
 		{
 			goto IL_0053;
@@ -13223,7 +13641,7 @@ IL_005f:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::OnPathChanged(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnPathChanged_mA276DEEBF8BF2572D763A15AA21036216B996661 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___newPath0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnPathChanged_mA276DEEBF8BF2572D763A15AA21036216B996661 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_newPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13237,7 +13655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnPathChanged_mA276DEEBF8BF2
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_0 = __this->___canvas_81;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
-		L_1 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_0, NULL);
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
 		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -13253,7 +13671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnPathChanged_mA276DEEBF8BF2
 IL_0015:
 	{
 		// CurrentPath = newPath;
-		String_t* L_3 = ___newPath0;
+		String_t* L_3 = ___0_newPath;
 		FileBrowser_set_CurrentPath_mC77AFECC7927FE02B265B490C3825EEE685E3BE7(__this, L_3, NULL);
 	}
 
@@ -13264,7 +13682,7 @@ IL_001d:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::OnSearchStringChanged(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnSearchStringChanged_m06A1A24E20B3BA543E3F644CFE49D682AF810BA2 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___newSearchString0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnSearchStringChanged_m06A1A24E20B3BA543E3F644CFE49D682AF810BA2 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_newSearchString, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13278,7 +13696,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnSearchStringChanged_m06A1A
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_0 = __this->___canvas_81;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
-		L_1 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_0, NULL);
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
 		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -13296,7 +13714,7 @@ IL_0015:
 		// PersistFileEntrySelection();
 		FileBrowser_PersistFileEntrySelection_m539A9413D6681B3BA6FE5A474F255CD1F282CA93(__this, NULL);
 		// SearchString = newSearchString;
-		String_t* L_3 = ___newSearchString0;
+		String_t* L_3 = ___0_newSearchString;
 		FileBrowser_set_SearchString_mDDD0C4D50DA3999E4338C0A8A001279D08331E48(__this, L_3, NULL);
 	}
 
@@ -13327,7 +13745,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnFilterChanged_m04F962445E8
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_0 = __this->___canvas_81;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
-		L_1 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_0, NULL);
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
 		V_1 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 		bool L_2 = V_1;
 		if (!L_2)
@@ -13432,7 +13850,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnShowHiddenFilesToggleChang
 		Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* L_0 = __this->___canvas_81;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
-		L_1 = Object_op_Implicit_m18E1885C296CC868AC918101523697CFE6413C79(L_0, NULL);
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
 		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -13460,7 +13878,7 @@ IL_0024:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::OnItemSelected(SimpleFileBrowser.FileBrowserItem,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnItemSelected_m553F21D12D4F28911E2B04E2B5E14D434AE8B067 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* ___item0, bool ___isDoubleClick1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnItemSelected_m553F21D12D4F28911E2B04E2B5E14D434AE8B067 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* ___0_item, bool ___1_isDoubleClick, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -13514,10 +13932,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnItemSelected_m553F21D12D4F
 	int32_t G_B50_0 = 0;
 	{
 		// if( item == null )
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_0 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_0 = ___0_item;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
-		L_1 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -13533,7 +13951,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnItemSelected_m553F21D12D4F
 IL_0011:
 	{
 		// if( item is FileBrowserQuickLink )
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_3 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_3 = ___0_item;
 		V_1 = (bool)((!(((RuntimeObject*)(FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E*)((FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E*)IsInstClass((RuntimeObject*)L_3, FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_4 = V_1;
 		if (!L_4)
@@ -13543,12 +13961,12 @@ IL_0011:
 	}
 	{
 		// if( ( (FileBrowserQuickLink) item ).TargetPath == SAF_PICK_FOLDER_QUICK_LINK_PATH )
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_5 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_5 = ___0_item;
 		NullCheck(((FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E*)CastclassClass((RuntimeObject*)L_5, FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_il2cpp_TypeInfo_var)));
 		String_t* L_6;
 		L_6 = FileBrowserQuickLink_get_TargetPath_mFF4A822E3C9FFDE3F531E1376E6B1797D64AD756(((FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E*)CastclassClass((RuntimeObject*)L_5, FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_il2cpp_TypeInfo_var)), NULL);
 		bool L_7;
-		L_7 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_6, _stringLiteralD3298BE6CF46DD24EBB9FFB9BC364FB10102F602, NULL);
+		L_7 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_6, _stringLiteralD3298BE6CF46DD24EBB9FFB9BC364FB10102F602, NULL);
 		V_2 = L_7;
 		bool L_8 = V_2;
 		if (!L_8)
@@ -13559,11 +13977,11 @@ IL_0011:
 	{
 		// FileBrowserHelpers.AJC.CallStatic( "PickSAFFolder", FileBrowserHelpers.Context, new FBDirectoryReceiveCallbackAndroid( OnSAFDirectoryPicked ) );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_9;
-		L_9 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_9 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_10 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = L_10;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_12;
-		L_12 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_12 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_11);
 		ArrayElementTypeCheck (L_11, L_12);
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_12);
@@ -13585,7 +14003,7 @@ IL_0011:
 IL_006c:
 	{
 		// CurrentPath = ( (FileBrowserQuickLink) item ).TargetPath;
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_16 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_16 = ___0_item;
 		NullCheck(((FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E*)CastclassClass((RuntimeObject*)L_16, FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_il2cpp_TypeInfo_var)));
 		String_t* L_17;
 		L_17 = FileBrowserQuickLink_get_TargetPath_mFF4A822E3C9FFDE3F531E1376E6B1797D64AD756(((FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E*)CastclassClass((RuntimeObject*)L_16, FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_il2cpp_TypeInfo_var)), NULL);
@@ -13611,7 +14029,7 @@ IL_0083:
 	}
 	{
 		// if( item.IsDirectory && m_pickerMode == PickMode.Files && !selectedFileEntries.Contains( item.Position ) )
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_20 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_20 = ___0_item;
 		NullCheck(L_20);
 		bool L_21;
 		L_21 = FileBrowserItem_get_IsDirectory_mE2B9AE6ADA43DF5A8408EE693F2FDDD88D216D0F_inline(L_20, NULL);
@@ -13629,7 +14047,7 @@ IL_0083:
 	}
 	{
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_23 = __this->___selectedFileEntries_85;
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_24 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_24 = ___0_item;
 		NullCheck(L_24);
 		int32_t L_25;
 		L_25 = ListItem_get_Position_m49214519D4BBE5B0F33D6AAB4E3B8F49B580DEFD_inline(L_24, NULL);
@@ -13662,13 +14080,13 @@ IL_00b5:
 IL_00c0:
 	{
 		// isDoubleClick = false;
-		___isDoubleClick1 = (bool)0;
+		___1_isDoubleClick = (bool)0;
 	}
 
 IL_00c4:
 	{
 		// if( !isDoubleClick )
-		bool L_28 = ___isDoubleClick1;
+		bool L_28 = ___1_isDoubleClick;
 		V_5 = (bool)((((int32_t)L_28) == ((int32_t)0))? 1 : 0);
 		bool L_29 = V_5;
 		if (!L_29)
@@ -13693,7 +14111,7 @@ IL_00c4:
 		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_32, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
 		// selectedFileEntries.Add( item.Position );
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_33 = __this->___selectedFileEntries_85;
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_34 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_34 = ___0_item;
 		NullCheck(L_34);
 		int32_t L_35;
 		L_35 = ListItem_get_Position_m49214519D4BBE5B0F33D6AAB4E3B8F49B580DEFD_inline(L_34, NULL);
@@ -13705,7 +14123,7 @@ IL_00c4:
 IL_0106:
 	{
 		// multiSelectionPivotFileEntry = item.Position;
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_36 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_36 = ___0_item;
 		NullCheck(L_36);
 		int32_t L_37;
 		L_37 = ListItem_get_Position_m49214519D4BBE5B0F33D6AAB4E3B8F49B580DEFD_inline(L_36, NULL);
@@ -13722,7 +14140,7 @@ IL_0106:
 	{
 		// if( !selectedFileEntries.Contains( item.Position ) )
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_40 = __this->___selectedFileEntries_85;
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_41 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_41 = ___0_item;
 		NullCheck(L_41);
 		int32_t L_42;
 		L_42 = ListItem_get_Position_m49214519D4BBE5B0F33D6AAB4E3B8F49B580DEFD_inline(L_41, NULL);
@@ -13739,7 +14157,7 @@ IL_0106:
 	{
 		// selectedFileEntries.Add( item.Position );
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_45 = __this->___selectedFileEntries_85;
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_46 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_46 = ___0_item;
 		NullCheck(L_46);
 		int32_t L_47;
 		L_47 = ListItem_get_Position_m49214519D4BBE5B0F33D6AAB4E3B8F49B580DEFD_inline(L_46, NULL);
@@ -13752,7 +14170,7 @@ IL_014f:
 	{
 		// selectedFileEntries.Remove( item.Position );
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_48 = __this->___selectedFileEntries_85;
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_49 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_49 = ___0_item;
 		NullCheck(L_49);
 		int32_t L_50;
 		L_50 = ListItem_get_Position_m49214519D4BBE5B0F33D6AAB4E3B8F49B580DEFD_inline(L_49, NULL);
@@ -13793,7 +14211,7 @@ IL_0182:
 		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_55, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
 		// selectedFileEntries.Add( item.Position );
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_56 = __this->___selectedFileEntries_85;
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_57 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_57 = ___0_item;
 		NullCheck(L_57);
 		int32_t L_58;
 		L_58 = ListItem_get_Position_m49214519D4BBE5B0F33D6AAB4E3B8F49B580DEFD_inline(L_57, NULL);
@@ -13896,7 +14314,7 @@ IL_0206:
 		}
 	}
 	{
-		bool L_81 = ___isDoubleClick1;
+		bool L_81 = ___1_isDoubleClick;
 		if (L_81)
 		{
 			goto IL_0241;
@@ -13905,7 +14323,7 @@ IL_0206:
 	{
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		bool L_82;
-		L_82 = FileBrowser_get_SingleClickMode_mBC1D95A4EF5641CE3D6B8096C609EE0467F03C7D(NULL);
+		L_82 = FileBrowser_get_SingleClickMode_mB2E953435870E05CF0AFA484781DF8266DB56EE8(NULL);
 		if (!L_82)
 		{
 			goto IL_023e;
@@ -13955,7 +14373,7 @@ IL_0245:
 	}
 	{
 		// if( !item.IsDirectory )
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_85 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_85 = ___0_item;
 		NullCheck(L_85);
 		bool L_86;
 		L_86 = FileBrowserItem_get_IsDirectory_mE2B9AE6ADA43DF5A8408EE693F2FDDD88D216D0F_inline(L_85, NULL);
@@ -13977,7 +14395,7 @@ IL_026c:
 		// if( FileBrowserHelpers.ShouldUseSAFForPath( m_currentPath ) )
 		String_t* L_88 = __this->___m_currentPath_108;
 		bool L_89;
-		L_89 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_88, NULL);
+		L_89 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_88, NULL);
 		V_15 = L_89;
 		bool L_90 = V_15;
 		if (!L_90)
@@ -14011,12 +14429,12 @@ IL_0284:
 	{
 		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_95 = V_17;
 		String_t* L_96 = L_95.___Name_1;
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_97 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_97 = ___0_item;
 		NullCheck(L_97);
 		String_t* L_98;
 		L_98 = FileBrowserItem_get_Name_mB4AB269ACE59C310314C422DE06883842C6B1A15(L_97, NULL);
 		bool L_99;
-		L_99 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_96, L_98, NULL);
+		L_99 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_96, L_98, NULL);
 		G_B50_0 = ((int32_t)(L_99));
 		goto IL_02b2;
 	}
@@ -14074,13 +14492,13 @@ IL_02e8:
 	{
 		// CurrentPath = Path.Combine( m_currentPath, item.Name );
 		String_t* L_108 = __this->___m_currentPath_108;
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_109 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_109 = ___0_item;
 		NullCheck(L_109);
 		String_t* L_110;
 		L_110 = FileBrowserItem_get_Name_mB4AB269ACE59C310314C422DE06883842C6B1A15(L_109, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_111;
-		L_111 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(L_108, L_110, NULL);
+		L_111 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_108, L_110, NULL);
 		FileBrowser_set_CurrentPath_mC77AFECC7927FE02B265B490C3825EEE685E3BE7(__this, L_111, NULL);
 	}
 
@@ -14099,7 +14517,7 @@ IL_0302:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::OnItemHeld(SimpleFileBrowser.FileBrowserItem)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnItemHeld_m4616B0F779C71648811095E004E6852065EC8F70 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* ___item0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnItemHeld_m4616B0F779C71648811095E004E6852065EC8F70 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* ___0_item, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14126,7 +14544,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnItemHeld_m4616B0F779C71648
 	int32_t G_B8_0 = 0;
 	{
 		// if( item is FileBrowserQuickLink )
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_0 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_0 = ___0_item;
 		V_0 = (bool)((!(((RuntimeObject*)(FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E*)((FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E*)IsInstClass((RuntimeObject*)L_0, FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_il2cpp_TypeInfo_var))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
@@ -14136,7 +14554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnItemHeld_m4616B0F779C71648
 	}
 	{
 		// OnItemSelected( item, false );
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_2 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_2 = ___0_item;
 		FileBrowser_OnItemSelected_m553F21D12D4F28911E2B04E2B5E14D434AE8B067(__this, L_2, (bool)0, NULL);
 		goto IL_00e9;
 	}
@@ -14151,7 +14569,7 @@ IL_001c:
 		}
 	}
 	{
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_4 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_4 = ___0_item;
 		NullCheck(L_4);
 		bool L_5;
 		L_5 = FileBrowserItem_get_IsDirectory_mE2B9AE6ADA43DF5A8408EE693F2FDDD88D216D0F_inline(L_4, NULL);
@@ -14283,7 +14701,7 @@ IL_00c5:
 	{
 		// if( !selectedFileEntries.Contains( item.Position ) )
 		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_26 = __this->___selectedFileEntries_85;
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_27 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_27 = ___0_item;
 		NullCheck(L_27);
 		int32_t L_28;
 		L_28 = ListItem_get_Position_m49214519D4BBE5B0F33D6AAB4E3B8F49B580DEFD_inline(L_27, NULL);
@@ -14299,7 +14717,7 @@ IL_00c5:
 	}
 	{
 		// OnItemSelected( item, false );
-		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_31 = ___item0;
+		FileBrowserItem_t45C2C26F5BB76A6E518DB392E03451C6E33A0EE5* L_31 = ___0_item;
 		FileBrowser_OnItemSelected_m553F21D12D4F28911E2B04E2B5E14D434AE8B067(__this, L_31, (bool)0, NULL);
 	}
 
@@ -14314,15 +14732,15 @@ IL_00e9:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::OnSAFDirectoryPicked(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnSAFDirectoryPicked_mF398835BE8BC43075CAD17F637833281D88CA910 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___rawUri0, String_t* ___name1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnSAFDirectoryPicked_mF398835BE8BC43075CAD17F637833281D88CA910 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_rawUri, String_t* ___1_name, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	bool V_1 = false;
 	{
 		// if( !string.IsNullOrEmpty( rawUri ) )
-		String_t* L_0 = ___rawUri0;
+		String_t* L_0 = ___0_rawUri;
 		bool L_1;
-		L_1 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_0, NULL);
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
 		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -14336,8 +14754,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnSAFDirectoryPicked_mF39883
 		NullCheck(L_3);
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_4;
 		L_4 = UISkin_get_FolderIcon_m0A907951175B18526FF527BDC3BDF52D06B3E6A4(L_3, NULL);
-		String_t* L_5 = ___name1;
-		String_t* L_6 = ___rawUri0;
+		String_t* L_5 = ___1_name;
+		String_t* L_6 = ___0_rawUri;
 		bool L_7;
 		L_7 = FileBrowser_AddQuickLink_mF254B02358535E14D2319F1AC1230F513D58B42A(__this, L_4, L_5, L_6, NULL);
 		V_1 = L_7;
@@ -14349,7 +14767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnSAFDirectoryPicked_mF39883
 	}
 	{
 		// CurrentPath = rawUri;
-		String_t* L_9 = ___rawUri0;
+		String_t* L_9 = ___0_rawUri;
 		FileBrowser_set_CurrentPath_mC77AFECC7927FE02B265B490C3825EEE685E3BE7(__this, L_9, NULL);
 	}
 
@@ -14405,11 +14823,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_FetchPersistedSAFQuickLinks_
 	{
 		// string resultRaw = FileBrowserHelpers.AJC.CallStatic<string>( "FetchSAFQuickLinks", FileBrowserHelpers.Context );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_0;
-		L_0 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_0 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3;
-		L_3 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_3 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_3);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
@@ -14420,7 +14838,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_FetchPersistedSAFQuickLinks_
 		// if( resultRaw == "0" )
 		String_t* L_5 = V_0;
 		bool L_6;
-		L_6 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_5, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
+		L_6 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_5, _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024, NULL);
 		V_4 = L_6;
 		bool L_7 = V_4;
 		if (!L_7)
@@ -14453,7 +14871,7 @@ IL_0035:
 	{
 		// Debug.LogError( "Entry count does not exist" );
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteralD7D51F95DBD7F8C00A48D3B0B774B2E7EC58567E, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralD7D51F95DBD7F8C00A48D3B0B774B2E7EC58567E, NULL);
 		// return;
 		goto IL_019a;
 	}
@@ -14507,7 +14925,7 @@ IL_0082:
 	{
 		// Debug.LogError( "Couldn't parse entry count" );
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteral1297249A84B5425E0AAEA8A4221FB2C94ED18CE4, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral1297249A84B5425E0AAEA8A4221FB2C94ED18CE4, NULL);
 		// return;
 		goto IL_019a;
 	}
@@ -14585,7 +15003,7 @@ IL_00d9:
 	{
 		// Debug.LogError( "Entry name is empty" );
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteralAED36B7262CE52C999E860488E4D6B1352B7E39B, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralAED36B7262CE52C999E860488E4D6B1352B7E39B, NULL);
 		// return;
 		goto IL_019a;
 	}
@@ -14623,7 +15041,7 @@ IL_0107:
 	{
 		// Debug.LogError( "Entry rawUri is empty" );
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteral0DF28F9B6550D416DF3102931950BEEBD8DB8094, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral0DF28F9B6550D416DF3102931950BEEBD8DB8094, NULL);
 		// return;
 		goto IL_019a;
 	}
@@ -14712,13 +15130,13 @@ IL_019a:
 	}
 }
 // System.Char SimpleFileBrowser.FileBrowser::OnValidateFilenameInput(System.String,System.Int32,System.Char)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar FileBrowser_OnValidateFilenameInput_m12AF80C6D178EDAD4462D1F8E4AA4FA03D79D02A (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___text0, int32_t ___charIndex1, Il2CppChar ___addedChar2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar FileBrowser_OnValidateFilenameInput_m12AF80C6D178EDAD4462D1F8E4AA4FA03D79D02A (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_text, int32_t ___1_charIndex, Il2CppChar ___2_addedChar, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	Il2CppChar V_1 = 0x0;
 	{
 		// if( addedChar == '\n' )
-		Il2CppChar L_0 = ___addedChar2;
+		Il2CppChar L_0 = ___2_addedChar;
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)((int32_t)10)))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
@@ -14737,7 +15155,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar FileBrowser_OnValidateFilenameInpu
 IL_0016:
 	{
 		// return addedChar;
-		Il2CppChar L_2 = ___addedChar2;
+		Il2CppChar L_2 = ___2_addedChar;
 		V_1 = L_2;
 		goto IL_001a;
 	}
@@ -14750,12 +15168,12 @@ IL_001a:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::OnFilenameInputChanged(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnFilenameInputChanged_m03FC49F2400775036127FF42D4E27568809CE1B7 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___text0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnFilenameInputChanged_m03FC49F2400775036127FF42D4E27568809CE1B7 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_text, const RuntimeMethod* method) 
 {
 	{
 		// filenameInputFieldOverlayText.text = text;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___filenameInputFieldOverlayText_66;
-		String_t* L_1 = ___text0;
+		String_t* L_1 = ___0_text;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_1);
 		// filenameImage.color = m_skin.InputFieldNormalBackgroundColor;
@@ -14771,7 +15189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnFilenameInputChanged_m03FC
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::Show(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_Show_m64A9C6492FE4F3A2E083847F85078AF64A491C98 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___initialPath0, String_t* ___initialFilename1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_Show_m64A9C6492FE4F3A2E083847F85078AF64A491C98 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_initialPath, String_t* ___1_initialFilename, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -14791,7 +15209,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_Show_m64A9C6492FE4F3A2E08384
 		// if( AskPermissions )
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		bool L_0;
-		L_0 = FileBrowser_get_AskPermissions_m550ED3B674566CE6C04CB7F76C97B07686BFCA16(NULL);
+		L_0 = FileBrowser_get_AskPermissions_m0BBD82FDD3C5646E78BFADAB5E3BCA7F565D8F07(NULL);
 		V_0 = L_0;
 		bool L_1 = V_0;
 		if (!L_1)
@@ -14803,7 +15221,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_Show_m64A9C6492FE4F3A2E08384
 		// RequestPermission();
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		int32_t L_2;
-		L_2 = FileBrowser_RequestPermission_m7F419FBC909B5904989D292C92427ACB414B489E(NULL);
+		L_2 = FileBrowser_RequestPermission_m3938A9ED25EB15C45D72777BDEC5CC96E82A80AA(NULL);
 	}
 
 IL_0010:
@@ -14846,24 +15264,24 @@ IL_0023:
 		ScrollRect_set_verticalNormalizedPosition_m4AF461113925E6710BF04F46A49CF1F856F7738C(L_9, (1.0f), NULL);
 		// IsOpen = true;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
-		FileBrowser_set_IsOpen_mC94644F22A61409CE23169AAD18499301862D444_inline((bool)1, NULL);
+		FileBrowser_set_IsOpen_m936300FE9E761E2E76AB8D177927C61F2159B531_inline((bool)1, NULL);
 		// Success = false;
-		FileBrowser_set_Success_mE3E30E699935AC3FC78C668691DDB21610E1F1B4_inline((bool)0, NULL);
+		FileBrowser_set_Success_m468F84004618609ED6161B13043EB83E974C1654_inline((bool)0, NULL);
 		// Result = null;
-		FileBrowser_set_Result_m6656F9251FE3557D72BF0D0F4BA83B475820F8AD_inline((StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL, NULL);
+		FileBrowser_set_Result_m6EC4D1C118FC65B1BB34738F18E25A215CF7CC52_inline((StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL, NULL);
 		// gameObject.SetActive( true );
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
 		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)1, NULL);
 		// CurrentPath = GetInitialPath( initialPath );
-		String_t* L_11 = ___initialPath0;
+		String_t* L_11 = ___0_initialPath;
 		String_t* L_12;
 		L_12 = FileBrowser_GetInitialPath_mB6A20DD2C4B53CA447385B11A12FDA952FFB5831(__this, L_11, NULL);
 		FileBrowser_set_CurrentPath_mC77AFECC7927FE02B265B490C3825EEE685E3BE7(__this, L_12, NULL);
 		// filenameInputField.text = initialFilename ?? string.Empty;
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_13 = __this->___filenameInputField_65;
-		String_t* L_14 = ___initialFilename1;
+		String_t* L_14 = ___1_initialFilename;
 		String_t* L_15 = L_14;
 		G_B5_0 = L_15;
 		G_B5_1 = L_13;
@@ -14913,7 +15331,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_Hide_mD14D207CDCAEA3EBCE7493
 	{
 		// IsOpen = false;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
-		FileBrowser_set_IsOpen_mC94644F22A61409CE23169AAD18499301862D444_inline((bool)0, NULL);
+		FileBrowser_set_IsOpen_m936300FE9E761E2E76AB8D177927C61F2159B531_inline((bool)0, NULL);
 		// currentPathIndex = -1;
 		__this->___currentPathIndex_98 = (-1);
 		// pathsFollowed.Clear();
@@ -14942,12 +15360,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_Hide_mD14D207CDCAEA3EBCE7493
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::RefreshFiles(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshFiles_m14E4ABD98486CB7DDAD461D233295B6DA37ED763 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___pathChanged0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshFiles_m14E4ABD98486CB7DDAD461D233295B6DA37ED763 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, bool ___0_pathChanged, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Sort_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_mFFCF29E1AD96ED471A0799EC2696D62213C3E581_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Sort_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m4470317FB5DC2D24D13772410A0CB87E3AC31ED4_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Comparison_1_tBAF2444EC104847860B5F3D93758EA7BBDCDD209_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m2C3311361907002ECD4E970B1F066439FF7B428C_RuntimeMethod_var);
@@ -14997,7 +15415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshFiles_m14E4ABD98486CB
 		L_0 = FileBrowser_get_AllExtensionsHaveSingleSuffix_mE1B6D3A19497EB0952FAC108AA6DCD46A63AC3A2(__this, NULL);
 		V_0 = L_0;
 		// if( pathChanged )
-		bool L_1 = ___pathChanged0;
+		bool L_1 = ___0_pathChanged;
 		V_1 = L_1;
 		bool L_2 = V_1;
 		if (!L_2)
@@ -15009,7 +15427,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshFiles_m14E4ABD98486CB
 		// if( !string.IsNullOrEmpty( m_currentPath ) )
 		String_t* L_3 = __this->___m_currentPath_108;
 		bool L_4;
-		L_4 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_3, NULL);
+		L_4 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_3, NULL);
 		V_2 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
 		bool L_5 = V_2;
 		if (!L_5)
@@ -15022,7 +15440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_RefreshFiles_m14E4ABD98486CB
 		String_t* L_6 = __this->___m_currentPath_108;
 		bool L_7 = V_0;
 		FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* L_8;
-		L_8 = FileBrowserHelpers_GetEntriesInDirectory_m4E5FA288844CAA15C783E32EB39CD6C062B37AC3(L_6, L_7, NULL);
+		L_8 = FileBrowserHelpers_GetEntriesInDirectory_mD38D1E010FC6D76DEA66731BB3A214C8AE33BE0A(L_6, L_7, NULL);
 		__this->___allFileEntries_83 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___allFileEntries_83), (void*)L_8);
 		goto IL_003b;
@@ -15132,7 +15550,7 @@ IL_0079:
 
 IL_00ca:
 	{
-		Array_Sort_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_mFFCF29E1AD96ED471A0799EC2696D62213C3E581(G_B12_1, G_B12_0, Array_Sort_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_mFFCF29E1AD96ED471A0799EC2696D62213C3E581_RuntimeMethod_var);
+		Array_Sort_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m4470317FB5DC2D24D13772410A0CB87E3AC31ED4(G_B12_1, G_B12_0, Array_Sort_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m4470317FB5DC2D24D13772410A0CB87E3AC31ED4_RuntimeMethod_var);
 	}
 
 IL_00d1:
@@ -15197,7 +15615,7 @@ CATCH_0107:
 		// Debug.LogException( e );
 		Exception_t* L_36 = V_9;
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
-		Debug_LogException_m82E44FEC6B03BC34AFC2CAF6583051570C60CB9E(L_36, NULL);
+		Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_36, NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0115;
 	}// end catch (depth: 1)
@@ -15270,7 +15688,7 @@ IL_0161:
 		String_t* L_50 = L_49.___Name_1;
 		String_t* L_51 = V_13;
 		bool L_52;
-		L_52 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_50, L_51, NULL);
+		L_52 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_50, L_51, NULL);
 		V_15 = L_52;
 		bool L_53 = V_15;
 		if (!L_53)
@@ -15417,7 +15835,7 @@ IL_0232:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::FileSystemEntryMatchesFilters(SimpleFileBrowser.FileSystemEntry,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_FileSystemEntryMatchesFilters_m24AE1C7D006207B7365D7493E1D2C5126AF2DE5C (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___item0, bool ___allExtensionsHaveSingleSuffix1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_FileSystemEntryMatchesFilters_m24AE1C7D006207B7365D7493E1D2C5126AF2DE5C (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_item, bool ___1_allExtensionsHaveSingleSuffix, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -15447,7 +15865,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_FileSystemEntryMatchesFilter
 	{
 		// if( !item.IsDirectory )
 		bool L_0;
-		L_0 = FileSystemEntry_get_IsDirectory_m5B6EAD6DAC01DC97FA18BF8C82FB57CD009F9E53((&___item0), NULL);
+		L_0 = FileSystemEntry_get_IsDirectory_m5B6EAD6DAC01DC97FA18BF8C82FB57CD009F9E53((&___0_item), NULL);
 		V_0 = (bool)((((int32_t)L_0) == ((int32_t)0))? 1 : 0);
 		bool L_1 = V_0;
 		if (!L_1)
@@ -15474,7 +15892,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_FileSystemEntryMatchesFilter
 IL_0027:
 	{
 		// if( ( item.Attributes & ignoredFileAttributes ) != 0 )
-		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_4 = ___item0;
+		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_4 = ___0_item;
 		int32_t L_5 = L_4.___Attributes_3;
 		int32_t L_6 = __this->___ignoredFileAttributes_82;
 		V_4 = (bool)((!(((uint32_t)((int32_t)((int32_t)L_5&(int32_t)L_6))) <= ((uint32_t)0)))? 1 : 0);
@@ -15493,7 +15911,7 @@ IL_0027:
 IL_0044:
 	{
 		// string extension = item.Extension;
-		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_8 = ___item0;
+		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_8 = ___0_item;
 		String_t* L_9 = L_8.___Extension_2;
 		V_1 = L_9;
 		// if( excludedExtensionsSet.Contains( extension ) )
@@ -15518,7 +15936,7 @@ IL_0044:
 IL_0064:
 	{
 		// else if( !allExtensionsHaveSingleSuffix )
-		bool L_14 = ___allExtensionsHaveSingleSuffix1;
+		bool L_14 = ___1_allExtensionsHaveSingleSuffix;
 		V_6 = (bool)((((int32_t)L_14) == ((int32_t)0))? 1 : 0);
 		bool L_15 = V_6;
 		if (!L_15)
@@ -15601,7 +16019,7 @@ IL_00b5:
 		Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* L_33;
 		L_33 = List_1_get_Item_m76C7E4C255FB6735CEA4DC543B6FBC137E8374E8(L_30, L_32, List_1_get_Item_m76C7E4C255FB6735CEA4DC543B6FBC137E8374E8_RuntimeMethod_var);
 		String_t* L_34 = V_1;
-		bool L_35 = ___allExtensionsHaveSingleSuffix1;
+		bool L_35 = ___1_allExtensionsHaveSingleSuffix;
 		NullCheck(L_33);
 		bool L_36;
 		L_36 = Filter_MatchesExtension_m599F1975211ADE2667EC0B6AE513A1451153042E(L_33, L_34, (bool)((((int32_t)L_35) == ((int32_t)0))? 1 : 0), NULL);
@@ -15626,7 +16044,7 @@ IL_00e5:
 IL_00e8:
 	{
 		// if( ( item.Attributes & ignoredFileAttributes ) != 0 )
-		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_38 = ___item0;
+		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_38 = ___0_item;
 		int32_t L_39 = L_38.___Attributes_3;
 		int32_t L_40 = __this->___ignoredFileAttributes_82;
 		V_11 = (bool)((!(((uint32_t)((int32_t)((int32_t)L_39&(int32_t)L_40))) <= ((uint32_t)0)))? 1 : 0);
@@ -15660,7 +16078,7 @@ IL_0104:
 	}
 	{
 		CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* L_44 = __this->___textComparer_105;
-		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_45 = ___item0;
+		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_45 = ___0_item;
 		String_t* L_46 = L_45.___Name_1;
 		String_t* L_47 = __this->___m_searchString_109;
 		int32_t L_48 = __this->___textCompareOptions_106;
@@ -15704,7 +16122,7 @@ IL_013f:
 	{
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* L_52 = ((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___m_displayedEntriesFilter_15;
-		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_53 = ___item0;
+		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_53 = ___0_item;
 		NullCheck(L_52);
 		bool L_54;
 		L_54 = FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_inline(L_52, L_53, NULL);
@@ -16330,7 +16748,7 @@ IL_0141:
 		// filesScrollRect.velocity = Vector2.zero;
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_49 = __this->___filesScrollRect_63;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_50;
-		L_50 = Vector2_get_zero_m009B92B5D35AB02BD1610C2E1ACCE7C9CF964A6E_inline(NULL);
+		L_50 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_49);
 		ScrollRect_set_velocity_mBC8D4BC0A0184FCC3AEB359AE68E9130E811AFC2(L_49, L_50, NULL);
 		// ( (RectTransform) renameItem.transform ).anchoredPosition = new Vector2( 1f, -fileEntryIndex * m_skin.FileHeight );
@@ -16530,7 +16948,7 @@ IL_003d:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::AddQuickLink(UnityEngine.Sprite,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_AddQuickLink_mF254B02358535E14D2319F1AC1230F513D58B42A (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___icon0, String_t* ___name1, String_t* ___path2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_AddQuickLink_mF254B02358535E14D2319F1AC1230F513D58B42A (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___0_icon, String_t* ___1_name, String_t* ___2_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -16538,7 +16956,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_AddQuickLink_mF254B02358535E
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m06B31F88D12C523C0C9CA6DD3C8A31104B78A7FB_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m7BDC3D70BE4C6520A918D33714E3B3CDAF262800_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m040132F98E0DE21F6E8DFB0783B327D964E21CFE_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisFileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_m71B28905C9E5CE01C1F11CDBBEB7CECDCFFC8C5C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisFileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_mA283CC0780F7E4D6E53BB45A771FC1F53263C8EF_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -16555,9 +16973,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_AddQuickLink_mF254B02358535E
 	bool V_9 = false;
 	{
 		// if( string.IsNullOrEmpty( path ) )
-		String_t* L_0 = ___path2;
+		String_t* L_0 = ___2_path;
 		bool L_1;
-		L_1 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_0, NULL);
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
 		V_2 = L_1;
 		bool L_2 = V_2;
 		if (!L_2)
@@ -16574,9 +16992,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_AddQuickLink_mF254B02358535E
 IL_0012:
 	{
 		// if( !FileBrowserHelpers.ShouldUseSAFForPath( path ) )
-		String_t* L_3 = ___path2;
+		String_t* L_3 = ___2_path;
 		bool L_4;
-		L_4 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_3, NULL);
+		L_4 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_3, NULL);
 		V_4 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
 		bool L_5 = V_4;
 		if (!L_5)
@@ -16586,9 +17004,9 @@ IL_0012:
 	}
 	{
 		// if( !Directory.Exists( path ) )
-		String_t* L_6 = ___path2;
+		String_t* L_6 = ___2_path;
 		bool L_7;
-		L_7 = Directory_Exists_m1AC1A8910C9883BD4198ECF585C97F09E23C4702(L_6, NULL);
+		L_7 = Directory_Exists_m3D125E9E88C291CF11113444F961A64DD83AE1C7(L_6, NULL);
 		V_5 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
 		bool L_8 = V_5;
 		if (!L_8)
@@ -16605,13 +17023,13 @@ IL_0012:
 IL_0038:
 	{
 		// path = GetPathWithoutTrailingDirectorySeparator( path.Trim() );
-		String_t* L_9 = ___path2;
+		String_t* L_9 = ___2_path;
 		NullCheck(L_9);
 		String_t* L_10;
 		L_10 = String_Trim_mCD6D8C6D4CFD15225D12DB7D3E0544CA80FB8DA5(L_9, NULL);
 		String_t* L_11;
 		L_11 = FileBrowser_GetPathWithoutTrailingDirectorySeparator_m56DF6CC3E788CE233690E42B4878B6D45E5F4B21(__this, L_10, NULL);
-		___path2 = L_11;
+		___2_path = L_11;
 	}
 
 IL_0047:
@@ -16632,9 +17050,9 @@ IL_004c:
 		NullCheck(L_14);
 		String_t* L_15;
 		L_15 = FileBrowserQuickLink_get_TargetPath_mFF4A822E3C9FFDE3F531E1376E6B1797D64AD756(L_14, NULL);
-		String_t* L_16 = ___path2;
+		String_t* L_16 = ___2_path;
 		bool L_17;
-		L_17 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_15, L_16, NULL);
+		L_17 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_15, L_16, NULL);
 		V_7 = L_17;
 		bool L_18 = V_7;
 		if (!L_18)
@@ -16676,7 +17094,7 @@ IL_0079:
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_25 = __this->___quickLinksContainer_60;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* L_26;
-		L_26 = Object_Instantiate_TisFileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_m71B28905C9E5CE01C1F11CDBBEB7CECDCFFC8C5C(L_24, L_25, (bool)0, Object_Instantiate_TisFileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_m71B28905C9E5CE01C1F11CDBBEB7CECDCFFC8C5C_RuntimeMethod_var);
+		L_26 = Object_Instantiate_TisFileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_mA283CC0780F7E4D6E53BB45A771FC1F53263C8EF(L_24, L_25, (bool)0, Object_Instantiate_TisFileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E_mA283CC0780F7E4D6E53BB45A771FC1F53263C8EF_RuntimeMethod_var);
 		V_0 = L_26;
 		// quickLink.SetFileBrowser( this, m_skin );
 		FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* L_27 = V_0;
@@ -16684,9 +17102,9 @@ IL_0079:
 		NullCheck(L_27);
 		FileBrowserItem_SetFileBrowser_m113A09B2B5105907F7A0565AABD1208E96E1DD35(L_27, __this, L_28, NULL);
 		// if( icon != null )
-		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_29 = ___icon0;
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_29 = ___0_icon;
 		bool L_30;
-		L_30 = Object_op_Inequality_m4D656395C27694A7F33F5AA8DE80A7AAF9E20BA7(L_29, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_30 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_29, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		V_9 = L_30;
 		bool L_31 = V_9;
 		if (!L_31)
@@ -16697,9 +17115,9 @@ IL_0079:
 	{
 		// quickLink.SetQuickLink( icon, name, path );
 		FileBrowserQuickLink_t36CB903EE813FED2192202523A7203E8864FD71E* L_32 = V_0;
-		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_33 = ___icon0;
-		String_t* L_34 = ___name1;
-		String_t* L_35 = ___path2;
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_33 = ___0_icon;
+		String_t* L_34 = ___1_name;
+		String_t* L_35 = ___2_path;
 		NullCheck(L_32);
 		FileBrowserQuickLink_SetQuickLink_mCA309400C8524097232B24883F14BAFE92D0C900(L_32, L_33, L_34, L_35, NULL);
 		goto IL_00dc;
@@ -16713,8 +17131,8 @@ IL_00c8:
 		NullCheck(L_37);
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_38;
 		L_38 = UISkin_get_FolderIcon_m0A907951175B18526FF527BDC3BDF52D06B3E6A4(L_37, NULL);
-		String_t* L_39 = ___name1;
-		String_t* L_40 = ___path2;
+		String_t* L_39 = ___1_name;
+		String_t* L_40 = ___2_path;
 		NullCheck(L_36);
 		FileBrowserQuickLink_SetQuickLink_mCA309400C8524097232B24883F14BAFE92D0C900(L_36, L_38, L_39, L_40, NULL);
 	}
@@ -16793,7 +17211,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_ClearQuickLinksInternal_m166
 	{
 		// Vector2 anchoredPos = Vector2.zero;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
-		L_0 = Vector2_get_zero_m009B92B5D35AB02BD1610C2E1ACCE7C9CF964A6E_inline(NULL);
+		L_0 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		V_0 = L_0;
 		// for( int i = 0; i < allQuickLinks.Count; i++ )
 		V_1 = 0;
@@ -16812,7 +17230,7 @@ IL_000e:
 		String_t* L_4;
 		L_4 = FileBrowserQuickLink_get_TargetPath_mFF4A822E3C9FFDE3F531E1376E6B1797D64AD756(L_3, NULL);
 		bool L_5;
-		L_5 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_4, _stringLiteralD3298BE6CF46DD24EBB9FFB9BC364FB10102F602, NULL);
+		L_5 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_4, _stringLiteralD3298BE6CF46DD24EBB9FFB9BC364FB10102F602, NULL);
 		V_2 = L_5;
 		bool L_6 = V_2;
 		if (!L_6)
@@ -16857,7 +17275,7 @@ IL_0060:
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_20;
 		L_20 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_19, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		Object_Destroy_mFCDAE6333522488F60597AF019EA90BB1207A5AA(L_20, NULL);
+		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_20, NULL);
 		// allQuickLinks.RemoveAt( i-- );
 		List_1_t417643521992E3A9934A752A70E79B7192BE59ED* L_21 = __this->___allQuickLinks_50;
 		int32_t L_22 = V_1;
@@ -17077,30 +17495,30 @@ IL_00a1:
 		// Vector2 canvasHalfSize = canvasSize * 0.5f;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_30 = V_0;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_31;
-		L_31 = Vector2_op_Multiply_m4EEB2FF3F4830390A53CE9B6076FB31801D65EED_inline(L_30, (0.5f), NULL);
+		L_31 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_30, (0.5f), NULL);
 		V_3 = L_31;
 		// Vector2 windowHalfSize = windowSize * 0.5f;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32 = V_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33;
-		L_33 = Vector2_op_Multiply_m4EEB2FF3F4830390A53CE9B6076FB31801D65EED_inline(L_32, (0.5f), NULL);
+		L_33 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_32, (0.5f), NULL);
 		V_4 = L_33;
 		// Vector2 windowBottomLeft = windowPos - windowHalfSize + canvasHalfSize;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34 = V_2;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_35 = V_4;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_36;
-		L_36 = Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline(L_34, L_35, NULL);
+		L_36 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_34, L_35, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_37 = V_3;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_38;
-		L_38 = Vector2_op_Addition_m704B5B98EAFE885978381E21B7F89D9DF83C2A60_inline(L_36, L_37, NULL);
+		L_38 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_36, L_37, NULL);
 		V_5 = L_38;
 		// Vector2 windowTopRight = windowPos + windowHalfSize + canvasHalfSize;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_39 = V_2;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_40 = V_4;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_41;
-		L_41 = Vector2_op_Addition_m704B5B98EAFE885978381E21B7F89D9DF83C2A60_inline(L_39, L_40, NULL);
+		L_41 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_39, L_40, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_42 = V_3;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_43;
-		L_43 = Vector2_op_Addition_m704B5B98EAFE885978381E21B7F89D9DF83C2A60_inline(L_41, L_42, NULL);
+		L_43 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_41, L_42, NULL);
 		V_6 = L_43;
 		// if( windowBottomLeft.x < 0f )
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_44 = V_5;
@@ -17215,7 +17633,7 @@ IL_0192:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::OnWindowDimensionsChanged(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnWindowDimensionsChanged_mF3F9FE60AFAAD85235F6AF5E5F6E28530C397A0C (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___size0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnWindowDimensionsChanged_mF3F9FE60AFAAD85235F6AF5E5F6E28530C397A0C (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_size, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -17234,7 +17652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnWindowDimensionsChanged_mF
 	float V_7 = 0.0f;
 	{
 		// float windowWidth = size.x;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___size0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_size;
 		float L_1 = L_0.___x_0;
 		V_0 = L_1;
 		// float quickLinksWidth = Mathf.Min( middleViewQuickLinksOriginalSize.x, windowWidth * quickLinksMaxWidthPercentage );
@@ -17243,7 +17661,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_OnWindowDimensionsChanged_mF
 		float L_4 = V_0;
 		float L_5 = __this->___quickLinksMaxWidthPercentage_27;
 		float L_6;
-		L_6 = Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_inline(L_3, ((float)il2cpp_codegen_multiply(L_4, L_5)), NULL);
+		L_6 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_3, ((float)il2cpp_codegen_multiply(L_4, L_5)), NULL);
 		V_1 = L_6;
 		// if( middleViewQuickLinks.sizeDelta.x != quickLinksWidth )
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_7 = __this->___middleViewQuickLinks_43;
@@ -17302,7 +17720,7 @@ IL_00a6:
 	{
 		// if( FileBrowserHelpers.ShouldUseSAF )
 		bool L_28;
-		L_28 = FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA(NULL);
+		L_28 = FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B(NULL);
 		V_3 = L_28;
 		bool L_29 = V_3;
 		if (!L_29)
@@ -17339,7 +17757,7 @@ IL_00b4:
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_36 = __this->___pathInputFieldSlotBottom_58;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_37;
-		L_37 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_35, L_36, NULL);
+		L_37 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_35, L_36, NULL);
 		V_5 = L_37;
 		bool L_38 = V_5;
 		if (!L_38)
@@ -17401,7 +17819,7 @@ IL_0158:
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_53 = __this->___pathInputFieldSlotTop_57;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_54;
-		L_54 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_52, L_53, NULL);
+		L_54 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_52, L_53, NULL);
 		V_6 = L_54;
 		bool L_55 = V_6;
 		if (!L_55)
@@ -17433,7 +17851,7 @@ IL_0158:
 		memset((&L_65), 0, sizeof(L_65));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_65), (0.0f), ((float)il2cpp_codegen_multiply(L_64, (0.5f))), /*hidden argument*/NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_66;
-		L_66 = Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline(L_63, L_65, NULL);
+		L_66 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_63, L_65, NULL);
 		NullCheck(L_62);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_62, L_66, NULL);
 		// middleView.sizeDelta = middleViewOriginalSize - new Vector2( 0f, topViewAdditionalHeight );
@@ -17444,7 +17862,7 @@ IL_0158:
 		memset((&L_70), 0, sizeof(L_70));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_70), (0.0f), L_69, /*hidden argument*/NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_71;
-		L_71 = Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline(L_68, L_70, NULL);
+		L_71 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_68, L_70, NULL);
 		NullCheck(L_67);
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_67, L_71, NULL);
 		// showHiddenFilesToggle.gameObject.SetActive( false );
@@ -17473,13 +17891,13 @@ IL_021b:
 	}
 }
 // UnityEngine.Sprite SimpleFileBrowser.FileBrowser::GetIconForFileEntry(SimpleFileBrowser.FileSystemEntry)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* FileBrowser_GetIconForFileEntry_m39E97FDC81C7D26CDC1A09146CCB8D50949FD147 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___fileInfo0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* FileBrowser_GetIconForFileEntry_m39E97FDC81C7D26CDC1A09146CCB8D50949FD147 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_fileInfo, const RuntimeMethod* method) 
 {
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* V_0 = NULL;
 	{
 		// return m_skin.GetIconForFileEntry( fileInfo, !AllExtensionsHaveSingleSuffix );
 		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_0 = __this->___m_skin_9;
-		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_1 = ___fileInfo0;
+		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_1 = ___0_fileInfo;
 		bool L_2;
 		L_2 = FileBrowser_get_AllExtensionsHaveSingleSuffix_mE1B6D3A19497EB0952FAC108AA6DCD46A63AC3A2(__this, NULL);
 		NullCheck(L_0);
@@ -17497,7 +17915,7 @@ IL_0019:
 	}
 }
 // System.String SimpleFileBrowser.FileBrowser::GetExtensionFromFilename(System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetExtensionFromFilename_mDFAD3BC2729A0685EDCD8D46085C755670E02346 (String_t* ___filename0, bool ___extractOnlyLastSuffix1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetExtensionFromFilename_m2F13A07937DD5779FEF23A192C94ED899B20AA4D (String_t* ___0_filename, bool ___1_extractOnlyLastSuffix, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -17517,13 +17935,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetExtensionFromFilenam
 	bool V_9 = false;
 	{
 		// int length = filename.Length;
-		String_t* L_0 = ___filename0;
+		String_t* L_0 = ___0_filename;
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_0, NULL);
 		V_0 = L_1;
 		// if( extractOnlyLastSuffix )
-		bool L_2 = ___extractOnlyLastSuffix1;
+		bool L_2 = ___1_extractOnlyLastSuffix;
 		V_1 = L_2;
 		bool L_3 = V_1;
 		if (!L_3)
@@ -17541,7 +17959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetExtensionFromFilenam
 IL_0014:
 	{
 		// if( filename[i] == '.' )
-		String_t* L_5 = ___filename0;
+		String_t* L_5 = ___0_filename;
 		int32_t L_6 = V_2;
 		NullCheck(L_5);
 		Il2CppChar L_7;
@@ -17555,7 +17973,7 @@ IL_0014:
 	}
 	{
 		// return filename.Substring( i, length - i ).ToLowerInvariant();
-		String_t* L_9 = ___filename0;
+		String_t* L_9 = ___0_filename;
 		int32_t L_10 = V_2;
 		int32_t L_11 = V_0;
 		int32_t L_12 = V_2;
@@ -17604,7 +18022,7 @@ IL_004c:
 IL_0057:
 	{
 		// if( filename[i] == '.' )
-		String_t* L_19 = ___filename0;
+		String_t* L_19 = ___0_filename;
 		int32_t L_20 = V_6;
 		NullCheck(L_19);
 		Il2CppChar L_21;
@@ -17618,7 +18036,7 @@ IL_0057:
 	}
 	{
 		// return filename.Substring( i, length - i ).ToLowerInvariant();
-		String_t* L_23 = ___filename0;
+		String_t* L_23 = ___0_filename;
 		int32_t L_24 = V_6;
 		int32_t L_25 = V_0;
 		int32_t L_26 = V_6;
@@ -17670,7 +18088,7 @@ IL_009f:
 	}
 }
 // System.String SimpleFileBrowser.FileBrowser::GetPathWithoutTrailingDirectorySeparator(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetPathWithoutTrailingDirectorySeparator_m56DF6CC3E788CE233690E42B4878B6D45E5F4B21 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___path0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetPathWithoutTrailingDirectorySeparator_m56DF6CC3E788CE233690E42B4878B6D45E5F4B21 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -17687,9 +18105,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetPathWithoutTrailingD
 	int32_t G_B7_0 = 0;
 	{
 		// if( string.IsNullOrEmpty( path ) )
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		bool L_1;
-		L_1 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_0, NULL);
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -17710,10 +18128,10 @@ IL_000f:
 	{// begin try (depth: 1)
 		{
 			// if( Path.GetDirectoryName( path ) != null )
-			String_t* L_3 = ___path0;
+			String_t* L_3 = ___0_path;
 			il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 			String_t* L_4;
-			L_4 = Path_GetDirectoryName_mB9369289430566A15BB0A0CFCCBED3C6ECA7F30C(L_3, NULL);
+			L_4 = Path_GetDirectoryName_m428BADBE493A3927B51A13DEF658929B430516F6(L_3, NULL);
 			V_2 = (bool)((!(((RuntimeObject*)(String_t*)L_4) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 			bool L_5 = V_2;
 			if (!L_5)
@@ -17723,8 +18141,8 @@ IL_000f:
 		}
 		{
 			// char lastChar = path[path.Length - 1];
-			String_t* L_6 = ___path0;
-			String_t* L_7 = ___path0;
+			String_t* L_6 = ___0_path;
+			String_t* L_7 = ___0_path;
 			NullCheck(L_7);
 			int32_t L_8;
 			L_8 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_7, NULL);
@@ -17765,15 +18183,15 @@ IL_0041_1:
 		}
 		{
 			// path = path.Substring( 0, path.Length - 1 );
-			String_t* L_15 = ___path0;
-			String_t* L_16 = ___path0;
+			String_t* L_15 = ___0_path;
+			String_t* L_16 = ___0_path;
 			NullCheck(L_16);
 			int32_t L_17;
 			L_17 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_16, NULL);
 			NullCheck(L_15);
 			String_t* L_18;
 			L_18 = String_Substring_mB1D94F47935D22E130FF2C01DBB6A4135FBB76CE(L_15, 0, ((int32_t)il2cpp_codegen_subtract(L_17, 1)), NULL);
-			___path0 = L_18;
+			___0_path = L_18;
 		}
 
 IL_0058_1:
@@ -17805,7 +18223,7 @@ CATCH_005c:
 IL_0061:
 	{
 		// return path;
-		String_t* L_19 = ___path0;
+		String_t* L_19 = ___0_path;
 		V_1 = L_19;
 		goto IL_0065;
 	}
@@ -18213,7 +18631,7 @@ IL_0200:
 	}
 }
 // System.Int32 SimpleFileBrowser.FileBrowser::ExtractFilenameFromInput(System.String,System.Int32&,System.Int32&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_ExtractFilenameFromInput_m8D87F77E24E8BCCC89D886486CAE777A7848FADD (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___input0, int32_t* ___startIndex1, int32_t* ___nextStartIndex2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_ExtractFilenameFromInput_m8D87F77E24E8BCCC89D886486CAE777A7848FADD (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_input, int32_t* ___1_startIndex, int32_t* ___2_nextStartIndex, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	bool V_1 = false;
@@ -18235,8 +18653,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_ExtractFilenameFromInput_
 		}
 	}
 	{
-		String_t* L_1 = ___input0;
-		int32_t* L_2 = ___startIndex1;
+		String_t* L_1 = ___0_input;
+		int32_t* L_2 = ___1_startIndex;
 		int32_t L_3 = *((int32_t*)L_2);
 		NullCheck(L_1);
 		Il2CppChar L_4;
@@ -18261,18 +18679,18 @@ IL_001b:
 	}
 	{
 		// nextStartIndex = input.Length;
-		int32_t* L_6 = ___nextStartIndex2;
-		String_t* L_7 = ___input0;
+		int32_t* L_6 = ___2_nextStartIndex;
+		String_t* L_7 = ___0_input;
 		NullCheck(L_7);
 		int32_t L_8;
 		L_8 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_7, NULL);
 		*((int32_t*)L_6) = (int32_t)L_8;
 		// return input.Length - startIndex;
-		String_t* L_9 = ___input0;
+		String_t* L_9 = ___0_input;
 		NullCheck(L_9);
 		int32_t L_10;
 		L_10 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_9, NULL);
-		int32_t* L_11 = ___startIndex1;
+		int32_t* L_11 = ___1_startIndex;
 		int32_t L_12 = *((int32_t*)L_11);
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_10, L_12));
 		goto IL_00fc;
@@ -18281,9 +18699,9 @@ IL_001b:
 IL_0037:
 	{
 		// if( startIndex + 1 >= input.Length )
-		int32_t* L_13 = ___startIndex1;
+		int32_t* L_13 = ___1_startIndex;
 		int32_t L_14 = *((int32_t*)L_13);
-		String_t* L_15 = ___input0;
+		String_t* L_15 = ___0_input;
 		NullCheck(L_15);
 		int32_t L_16;
 		L_16 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_15, NULL);
@@ -18296,8 +18714,8 @@ IL_0037:
 	}
 	{
 		// nextStartIndex = input.Length;
-		int32_t* L_18 = ___nextStartIndex2;
-		String_t* L_19 = ___input0;
+		int32_t* L_18 = ___2_nextStartIndex;
+		String_t* L_19 = ___0_input;
 		NullCheck(L_19);
 		int32_t L_20;
 		L_20 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_19, NULL);
@@ -18310,8 +18728,8 @@ IL_0037:
 IL_005a:
 	{
 		// int filenameEndIndex = input.IndexOf( '"', startIndex + 1 );
-		String_t* L_21 = ___input0;
-		int32_t* L_22 = ___startIndex1;
+		String_t* L_21 = ___0_input;
+		int32_t* L_22 = ___1_startIndex;
 		int32_t L_23 = *((int32_t*)L_22);
 		NullCheck(L_21);
 		int32_t L_24;
@@ -18333,18 +18751,18 @@ IL_006c:
 	}
 	{
 		// nextStartIndex = input.Length;
-		int32_t* L_27 = ___nextStartIndex2;
-		String_t* L_28 = ___input0;
+		int32_t* L_27 = ___2_nextStartIndex;
+		String_t* L_28 = ___0_input;
 		NullCheck(L_28);
 		int32_t L_29;
 		L_29 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_28, NULL);
 		*((int32_t*)L_27) = (int32_t)L_29;
 		// return input.Length - startIndex;
-		String_t* L_30 = ___input0;
+		String_t* L_30 = ___0_input;
 		NullCheck(L_30);
 		int32_t L_31;
 		L_31 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_30, NULL);
-		int32_t* L_32 = ___startIndex1;
+		int32_t* L_32 = ___1_startIndex;
 		int32_t L_33 = *((int32_t*)L_32);
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_31, L_33));
 		goto IL_00fc;
@@ -18354,7 +18772,7 @@ IL_008c:
 	{
 		// if( filenameEndIndex == input.Length - 1 || input[filenameEndIndex + 1] == ' ' )
 		int32_t L_34 = V_0;
-		String_t* L_35 = ___input0;
+		String_t* L_35 = ___0_input;
 		NullCheck(L_35);
 		int32_t L_36;
 		L_36 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_35, NULL);
@@ -18364,7 +18782,7 @@ IL_008c:
 		}
 	}
 	{
-		String_t* L_37 = ___input0;
+		String_t* L_37 = ___0_input;
 		int32_t L_38 = V_0;
 		NullCheck(L_37);
 		Il2CppChar L_39;
@@ -18389,12 +18807,12 @@ IL_00a7:
 	}
 	{
 		// startIndex++;
-		int32_t* L_41 = ___startIndex1;
-		int32_t* L_42 = ___startIndex1;
+		int32_t* L_41 = ___1_startIndex;
+		int32_t* L_42 = ___1_startIndex;
 		int32_t L_43 = *((int32_t*)L_42);
 		*((int32_t*)L_41) = (int32_t)((int32_t)il2cpp_codegen_add(L_43, 1));
 		// nextStartIndex = filenameEndIndex + 1;
-		int32_t* L_44 = ___nextStartIndex2;
+		int32_t* L_44 = ___2_nextStartIndex;
 		int32_t L_45 = V_0;
 		*((int32_t*)L_44) = (int32_t)((int32_t)il2cpp_codegen_add(L_45, 1));
 		goto IL_00c1;
@@ -18403,8 +18821,8 @@ IL_00a7:
 IL_00bb:
 	{
 		// nextStartIndex++;
-		int32_t* L_46 = ___nextStartIndex2;
-		int32_t* L_47 = ___nextStartIndex2;
+		int32_t* L_46 = ___2_nextStartIndex;
+		int32_t* L_47 = ___2_nextStartIndex;
 		int32_t L_48 = *((int32_t*)L_47);
 		*((int32_t*)L_46) = (int32_t)((int32_t)il2cpp_codegen_add(L_48, 1));
 	}
@@ -18412,9 +18830,9 @@ IL_00bb:
 IL_00c1:
 	{
 		// while( nextStartIndex < input.Length && input[nextStartIndex] == ' ' )
-		int32_t* L_49 = ___nextStartIndex2;
+		int32_t* L_49 = ___2_nextStartIndex;
 		int32_t L_50 = *((int32_t*)L_49);
-		String_t* L_51 = ___input0;
+		String_t* L_51 = ___0_input;
 		NullCheck(L_51);
 		int32_t L_52;
 		L_52 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_51, NULL);
@@ -18424,8 +18842,8 @@ IL_00c1:
 		}
 	}
 	{
-		String_t* L_53 = ___input0;
-		int32_t* L_54 = ___nextStartIndex2;
+		String_t* L_53 = ___0_input;
+		int32_t* L_54 = ___2_nextStartIndex;
 		int32_t L_55 = *((int32_t*)L_54);
 		NullCheck(L_53);
 		Il2CppChar L_56;
@@ -18451,7 +18869,7 @@ IL_00da:
 	{
 		// return filenameEndIndex - startIndex;
 		int32_t L_58 = V_0;
-		int32_t* L_59 = ___startIndex1;
+		int32_t* L_59 = ___1_startIndex;
 		int32_t L_60 = *((int32_t*)L_59);
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_58, L_60));
 		goto IL_00fc;
@@ -18460,7 +18878,7 @@ IL_00da:
 IL_00e7:
 	{
 		// filenameEndIndex = input.IndexOf( '"', filenameEndIndex + 1 );
-		String_t* L_61 = ___input0;
+		String_t* L_61 = ___0_input;
 		int32_t L_62 = V_0;
 		NullCheck(L_61);
 		int32_t L_63;
@@ -18483,7 +18901,7 @@ IL_00fc:
 	}
 }
 // System.Int32 SimpleFileBrowser.FileBrowser::FilenameToFileEntryIndex(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_FilenameToFileEntryIndex_mD95AA43AA727DBF8FCD6F5932E5F034BF6504B58 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___filename0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_FilenameToFileEntryIndex_mD95AA43AA727DBF8FCD6F5932E5F034BF6504B58 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_filename, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -18519,7 +18937,7 @@ IL_0007:
 		NullCheck(L_3);
 		int32_t L_4;
 		L_4 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_3, NULL);
-		String_t* L_5 = ___filename0;
+		String_t* L_5 = ___0_filename;
 		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_5, NULL);
@@ -18532,7 +18950,7 @@ IL_0007:
 	}
 	{
 		// if( filename == validFileEntries[i].Name ) // Case-sensitive filename query
-		String_t* L_8 = ___filename0;
+		String_t* L_8 = ___0_filename;
 		List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* L_9 = __this->___validFileEntries_84;
 		int32_t L_10 = V_1;
 		NullCheck(L_9);
@@ -18540,7 +18958,7 @@ IL_0007:
 		L_11 = List_1_get_Item_m7AB15058368BF77621066E5E28167546E7B9ED33(L_9, L_10, List_1_get_Item_m7AB15058368BF77621066E5E28167546E7B9ED33_RuntimeMethod_var);
 		String_t* L_12 = L_11.___Name_1;
 		bool L_13;
-		L_13 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_8, L_12, NULL);
+		L_13 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_8, L_12, NULL);
 		V_3 = L_13;
 		bool L_14 = V_3;
 		if (!L_14)
@@ -18559,7 +18977,7 @@ IL_004b:
 	{
 		// else if( textComparer.Compare( filename, validFileEntries[i].Name, textCompareOptions ) == 0 ) // Case-insensitive filename query
 		CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* L_16 = __this->___textComparer_105;
-		String_t* L_17 = ___filename0;
+		String_t* L_17 = ___0_filename;
 		List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* L_18 = __this->___validFileEntries_84;
 		int32_t L_19 = V_1;
 		NullCheck(L_18);
@@ -18624,7 +19042,7 @@ IL_009b:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::VerifyFilename(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_VerifyFilename_mE5DF42B3621A2CB78BE75923F7EAB9F92245A541 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___filename0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_VerifyFilename_mE5DF42B3621A2CB78BE75923F7EAB9F92245A541 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_filename, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -18652,7 +19070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_VerifyFilename_mE5DF42B3621A
 IL_0007:
 	{
 		// char ch = filename[i];
-		String_t* L_0 = ___filename0;
+		String_t* L_0 = ___0_filename;
 		int32_t L_1 = V_1;
 		NullCheck(L_0);
 		Il2CppChar L_2;
@@ -18690,7 +19108,7 @@ IL_0025:
 		Il2CppChar L_8 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(Char_t521A6F19B456D956AF452D926C32709DC03D6B17_il2cpp_TypeInfo_var);
 		bool L_9;
-		L_9 = Char_IsWhiteSpace_m9CE0F6685DB2502ABE106D160F95A287EFC07EF9(L_8, NULL);
+		L_9 = Char_IsWhiteSpace_m02AEC6EA19513CAFC6882CFCA54C45794D2B5924(L_8, NULL);
 		G_B6_0 = ((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
 		goto IL_0034;
 	}
@@ -18725,7 +19143,7 @@ IL_0041:
 	{
 		// for( int i = 0; i < filename.Length; i++ )
 		int32_t L_12 = V_1;
-		String_t* L_13 = ___filename0;
+		String_t* L_13 = ___0_filename;
 		NullCheck(L_13);
 		int32_t L_14;
 		L_14 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_13, NULL);
@@ -18751,7 +19169,7 @@ IL_0058:
 	}
 }
 // System.Int32 SimpleFileBrowser.FileBrowser::CalculateLengthOfDropdownText(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_CalculateLengthOfDropdownText_m9066BB1F5AB9C6051690469BD3FFA52BC20ADD9D (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___str0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_CalculateLengthOfDropdownText_m9066BB1F5AB9C6051690469BD3FFA52BC20ADD9D (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_str, const RuntimeMethod* method) 
 {
 	Font_tC95270EA3198038970422D78B74A7F2E218A96B6* V_0 = NULL;
 	int32_t V_1 = 0;
@@ -18770,7 +19188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_CalculateLengthOfDropdown
 		V_0 = L_1;
 		// font.RequestCharactersInTexture( str, filterItemTemplate.fontSize, filterItemTemplate.fontStyle );
 		Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_2 = V_0;
-		String_t* L_3 = ___str0;
+		String_t* L_3 = ___0_str;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_4 = __this->___filterItemTemplate_70;
 		NullCheck(L_4);
 		int32_t L_5;
@@ -18792,7 +19210,7 @@ IL_0031:
 	{
 		// if( !font.GetCharacterInfo( str[i], out characterInfo, filterItemTemplate.fontSize ) )
 		Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_8 = V_0;
-		String_t* L_9 = ___str0;
+		String_t* L_9 = ___0_str;
 		int32_t L_10 = V_2;
 		NullCheck(L_9);
 		Il2CppChar L_11;
@@ -18833,7 +19251,7 @@ IL_0068:
 	{
 		// for( int i = 0; i < str.Length; i++ )
 		int32_t L_20 = V_2;
-		String_t* L_21 = ___str0;
+		String_t* L_21 = ___0_str;
 		NullCheck(L_21);
 		int32_t L_22;
 		L_22 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_21, NULL);
@@ -18859,7 +19277,7 @@ IL_007c:
 	}
 }
 // System.String SimpleFileBrowser.FileBrowser::GetInitialPath(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetInitialPath_mB6A20DD2C4B53CA447385B11A12FDA952FFB5831 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___initialPath0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetInitialPath_mB6A20DD2C4B53CA447385B11A12FDA952FFB5831 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_initialPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -18878,27 +19296,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowser_GetInitialPath_mB6A20DD
 	int32_t G_B15_0 = 0;
 	{
 		// if( !string.IsNullOrEmpty( initialPath ) && !FileBrowserHelpers.DirectoryExists( initialPath ) && FileBrowserHelpers.FileExists( initialPath ) )
-		String_t* L_0 = ___initialPath0;
+		String_t* L_0 = ___0_initialPath;
 		bool L_1;
-		L_1 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_0, NULL);
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
 		if (L_1)
 		{
 			goto IL_0019;
 		}
 	}
 	{
-		String_t* L_2 = ___initialPath0;
+		String_t* L_2 = ___0_initialPath;
 		bool L_3;
-		L_3 = FileBrowserHelpers_DirectoryExists_m34D0C75C33EABE4964762FC0C9B8B8446FF6C335(L_2, NULL);
+		L_3 = FileBrowserHelpers_DirectoryExists_m31B7C5281BA37017E49D68D3CA92DAC455862164(L_2, NULL);
 		if (L_3)
 		{
 			goto IL_0019;
 		}
 	}
 	{
-		String_t* L_4 = ___initialPath0;
+		String_t* L_4 = ___0_initialPath;
 		bool L_5;
-		L_5 = FileBrowserHelpers_FileExists_mD73A1D794A8CCB271F1BA746A082354E338F57FD(L_4, NULL);
+		L_5 = FileBrowserHelpers_FileExists_m7208C912E35C8470E0A63418A818BE40FCDA1408(L_4, NULL);
 		G_B4_0 = ((int32_t)(L_5));
 		goto IL_001a;
 	}
@@ -18919,27 +19337,27 @@ IL_001a:
 	}
 	{
 		// initialPath = FileBrowserHelpers.GetDirectoryName( initialPath );
-		String_t* L_7 = ___initialPath0;
+		String_t* L_7 = ___0_initialPath;
 		String_t* L_8;
-		L_8 = FileBrowserHelpers_GetDirectoryName_m6342C65603EF0B25E2C2382773027263E5AB1817(L_7, NULL);
-		___initialPath0 = L_8;
+		L_8 = FileBrowserHelpers_GetDirectoryName_mDA870C6C80FBDDB0E3F5F5AED86AB28207BBB7F4(L_7, NULL);
+		___0_initialPath = L_8;
 	}
 
 IL_0028:
 	{
 		// if( string.IsNullOrEmpty( initialPath ) || !FileBrowserHelpers.DirectoryExists( initialPath ) )
-		String_t* L_9 = ___initialPath0;
+		String_t* L_9 = ___0_initialPath;
 		bool L_10;
-		L_10 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_9, NULL);
+		L_10 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_9, NULL);
 		if (L_10)
 		{
 			goto IL_003b;
 		}
 	}
 	{
-		String_t* L_11 = ___initialPath0;
+		String_t* L_11 = ___0_initialPath;
 		bool L_12;
-		L_12 = FileBrowserHelpers_DirectoryExists_m34D0C75C33EABE4964762FC0C9B8B8446FF6C335(L_11, NULL);
+		L_12 = FileBrowserHelpers_DirectoryExists_m31B7C5281BA37017E49D68D3CA92DAC455862164(L_11, NULL);
 		G_B9_0 = ((((int32_t)L_12) == ((int32_t)0))? 1 : 0);
 		goto IL_003c;
 	}
@@ -18976,7 +19394,7 @@ IL_003c:
 		// initialPath = CurrentPath;
 		String_t* L_17;
 		L_17 = FileBrowser_get_CurrentPath_mBFA8E36877B8A5F0817EADA032344219B8207E4F(__this, NULL);
-		___initialPath0 = L_17;
+		___0_initialPath = L_17;
 		goto IL_008a;
 	}
 
@@ -18989,7 +19407,7 @@ IL_005d:
 		// if( !string.IsNullOrEmpty( lastBrowsedFolder ) && FileBrowserHelpers.DirectoryExists( lastBrowsedFolder ) )
 		String_t* L_19 = V_3;
 		bool L_20;
-		L_20 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_19, NULL);
+		L_20 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_19, NULL);
 		if (L_20)
 		{
 			goto IL_0075;
@@ -18998,7 +19416,7 @@ IL_005d:
 	{
 		String_t* L_21 = V_3;
 		bool L_22;
-		L_22 = FileBrowserHelpers_DirectoryExists_m34D0C75C33EABE4964762FC0C9B8B8446FF6C335(L_21, NULL);
+		L_22 = FileBrowserHelpers_DirectoryExists_m31B7C5281BA37017E49D68D3CA92DAC455862164(L_21, NULL);
 		G_B15_0 = ((int32_t)(L_22));
 		goto IL_0076;
 	}
@@ -19020,7 +19438,7 @@ IL_0076:
 	{
 		// initialPath = lastBrowsedFolder;
 		String_t* L_24 = V_3;
-		___initialPath0 = L_24;
+		___0_initialPath = L_24;
 		goto IL_0089;
 	}
 
@@ -19028,7 +19446,7 @@ IL_0081:
 	{
 		// initialPath = defaultInitialPath;
 		String_t* L_25 = __this->___defaultInitialPath_97;
-		___initialPath0 = L_25;
+		___0_initialPath = L_25;
 	}
 
 IL_0089:
@@ -19046,7 +19464,7 @@ IL_008b:
 		__this->___m_currentPath_108 = L_26;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_currentPath_108), (void*)L_26);
 		// return initialPath;
-		String_t* L_27 = ___initialPath0;
+		String_t* L_27 = ___0_initialPath;
 		V_5 = L_27;
 		goto IL_009b;
 	}
@@ -19059,7 +19477,7 @@ IL_009b:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::CheckDirectoryWriteAccess(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_CheckDirectoryWriteAccess_mAC0E6106F6B45810948A51A4EF7F3A82146C1625 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___path0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_CheckDirectoryWriteAccess_mAC0E6106F6B45810948A51A4EF7F3A82146C1625 (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19074,9 +19492,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_CheckDirectoryWriteAccess_mA
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if( FileBrowserHelpers.ShouldUseSAFForPath( path ) )
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_1 = L_1;
 		bool L_2 = V_1;
 		if (!L_2)
@@ -19093,10 +19511,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_CheckDirectoryWriteAccess_mA
 IL_000f:
 	{
 		// string tempFilePath = Path.Combine( path, "__fsWrite.tmp" );
-		String_t* L_3 = ___path0;
+		String_t* L_3 = ___0_path;
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_4;
-		L_4 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(L_3, _stringLiteralC2FC8F729797FA08F664F9F6F90C095138577081, NULL);
+		L_4 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_3, _stringLiteralC2FC8F729797FA08F664F9F6F90C095138577081, NULL);
 		V_0 = L_4;
 	}
 	{
@@ -19111,7 +19529,7 @@ FINALLY_0039:
 				{// begin try (depth: 2)
 					// File.Delete( tempFilePath );
 					String_t* L_5 = V_0;
-					File_Delete_mB5CB249F5370D49747243BCA9C56CCC48D3E6A08(L_5, NULL);
+					File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386(L_5, NULL);
 					goto IL_004a;
 				}// end try (depth: 2)
 				catch(Il2CppExceptionWrapper& e)
@@ -19144,12 +19562,12 @@ IL_004a:
 				// File.Create( tempFilePath ).Close();
 				String_t* L_6 = V_0;
 				FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_7;
-				L_7 = File_Create_m1CEFB773993DCC259CC20C29818B754726A25E89(L_6, NULL);
+				L_7 = File_Create_m7A88AE26DE05E6D790E3C5B1140EE5DC91DCC519(L_6, NULL);
 				NullCheck(L_7);
 				VirtualActionInvoker0::Invoke(13 /* System.Void System.IO.Stream::Close() */, L_7);
 				// File.Delete( tempFilePath );
 				String_t* L_8 = V_0;
-				File_Delete_mB5CB249F5370D49747243BCA9C56CCC48D3E6A08(L_8, NULL);
+				File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386(L_8, NULL);
 				// return true;
 				V_2 = (bool)1;
 				goto IL_004c;
@@ -19187,7 +19605,7 @@ IL_004c:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::ShowSaveDialog(SimpleFileBrowser.FileBrowser/OnSuccess,SimpleFileBrowser.FileBrowser/OnCancel,SimpleFileBrowser.FileBrowser/PickMode,System.Boolean,System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowSaveDialog_m144B1D73495975776018A3D243D9C5902CAA8B2C (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* ___onSuccess0, OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* ___onCancel1, int32_t ___pickMode2, bool ___allowMultiSelection3, String_t* ___initialPath4, String_t* ___initialFilename5, String_t* ___title6, String_t* ___saveButtonText7, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowSaveDialog_mBF81960D923B68B03EB2B2545FE2EB3E31439049 (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* ___0_onSuccess, OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* ___1_onCancel, int32_t ___2_pickMode, bool ___3_allowMultiSelection, String_t* ___4_initialPath, String_t* ___5_initialFilename, String_t* ___6_title, String_t* ___7_saveButtonText, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19198,18 +19616,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowSaveDialog_m144B1D734959
 	bool V_0 = false;
 	{
 		// return ShowDialogInternal( onSuccess, onCancel, pickMode, allowMultiSelection, pickMode != PickMode.Folders, initialPath, initialFilename, title, saveButtonText );
-		OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* L_0 = ___onSuccess0;
-		OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* L_1 = ___onCancel1;
-		int32_t L_2 = ___pickMode2;
-		bool L_3 = ___allowMultiSelection3;
-		int32_t L_4 = ___pickMode2;
-		String_t* L_5 = ___initialPath4;
-		String_t* L_6 = ___initialFilename5;
-		String_t* L_7 = ___title6;
-		String_t* L_8 = ___saveButtonText7;
+		OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* L_0 = ___0_onSuccess;
+		OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* L_1 = ___1_onCancel;
+		int32_t L_2 = ___2_pickMode;
+		bool L_3 = ___3_allowMultiSelection;
+		int32_t L_4 = ___2_pickMode;
+		String_t* L_5 = ___4_initialPath;
+		String_t* L_6 = ___5_initialFilename;
+		String_t* L_7 = ___6_title;
+		String_t* L_8 = ___7_saveButtonText;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		bool L_9;
-		L_9 = FileBrowser_ShowDialogInternal_mC92646F8C1B0FF0AD77C57F9D0EBEEDE2BB07ADE(L_0, L_1, L_2, L_3, (bool)((((int32_t)((((int32_t)L_4) == ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0), L_5, L_6, L_7, L_8, NULL);
+		L_9 = FileBrowser_ShowDialogInternal_m949FABBA8CA78165352B9A09DE5DD11044A4759B(L_0, L_1, L_2, L_3, (bool)((((int32_t)((((int32_t)L_4) == ((int32_t)1))? 1 : 0)) == ((int32_t)0))? 1 : 0), L_5, L_6, L_7, L_8, NULL);
 		V_0 = L_9;
 		goto IL_001c;
 	}
@@ -19222,7 +19640,7 @@ IL_001c:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::ShowLoadDialog(SimpleFileBrowser.FileBrowser/OnSuccess,SimpleFileBrowser.FileBrowser/OnCancel,SimpleFileBrowser.FileBrowser/PickMode,System.Boolean,System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowLoadDialog_mAE177552745B54980984B3EBE1EB9830B79DC082 (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* ___onSuccess0, OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* ___onCancel1, int32_t ___pickMode2, bool ___allowMultiSelection3, String_t* ___initialPath4, String_t* ___initialFilename5, String_t* ___title6, String_t* ___loadButtonText7, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowLoadDialog_m2D0B708FC10E2D7A1DABAA36782E9C193B9A4B97 (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* ___0_onSuccess, OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* ___1_onCancel, int32_t ___2_pickMode, bool ___3_allowMultiSelection, String_t* ___4_initialPath, String_t* ___5_initialFilename, String_t* ___6_title, String_t* ___7_loadButtonText, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19233,17 +19651,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowLoadDialog_mAE177552745B
 	bool V_0 = false;
 	{
 		// return ShowDialogInternal( onSuccess, onCancel, pickMode, allowMultiSelection, false, initialPath, initialFilename, title, loadButtonText );
-		OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* L_0 = ___onSuccess0;
-		OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* L_1 = ___onCancel1;
-		int32_t L_2 = ___pickMode2;
-		bool L_3 = ___allowMultiSelection3;
-		String_t* L_4 = ___initialPath4;
-		String_t* L_5 = ___initialFilename5;
-		String_t* L_6 = ___title6;
-		String_t* L_7 = ___loadButtonText7;
+		OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* L_0 = ___0_onSuccess;
+		OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* L_1 = ___1_onCancel;
+		int32_t L_2 = ___2_pickMode;
+		bool L_3 = ___3_allowMultiSelection;
+		String_t* L_4 = ___4_initialPath;
+		String_t* L_5 = ___5_initialFilename;
+		String_t* L_6 = ___6_title;
+		String_t* L_7 = ___7_loadButtonText;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		bool L_8;
-		L_8 = FileBrowser_ShowDialogInternal_mC92646F8C1B0FF0AD77C57F9D0EBEEDE2BB07ADE(L_0, L_1, L_2, L_3, (bool)0, L_4, L_5, L_6, L_7, NULL);
+		L_8 = FileBrowser_ShowDialogInternal_m949FABBA8CA78165352B9A09DE5DD11044A4759B(L_0, L_1, L_2, L_3, (bool)0, L_4, L_5, L_6, L_7, NULL);
 		V_0 = L_8;
 		goto IL_0016;
 	}
@@ -19256,7 +19674,7 @@ IL_0016:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::ShowDialogInternal(SimpleFileBrowser.FileBrowser/OnSuccess,SimpleFileBrowser.FileBrowser/OnCancel,SimpleFileBrowser.FileBrowser/PickMode,System.Boolean,System.Boolean,System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowDialogInternal_mC92646F8C1B0FF0AD77C57F9D0EBEEDE2BB07ADE (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* ___onSuccess0, OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* ___onCancel1, int32_t ___pickMode2, bool ___allowMultiSelection3, bool ___acceptNonExistingFilename4, String_t* ___initialPath5, String_t* ___initialFilename6, String_t* ___title7, String_t* ___submitButtonText8, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowDialogInternal_m949FABBA8CA78165352B9A09DE5DD11044A4759B (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* ___0_onSuccess, OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* ___1_onCancel, int32_t ___2_pickMode, bool ___3_allowMultiSelection, bool ___4_acceptNonExistingFilename, String_t* ___5_initialPath, String_t* ___6_initialFilename, String_t* ___7_title, String_t* ___8_submitButtonText, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19269,53 +19687,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_ShowDialogInternal_mC92646F8
 		// Instance.onSuccess = onSuccess;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_0;
-		L_0 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
-		OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* L_1 = ___onSuccess0;
+		L_0 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
+		OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* L_1 = ___0_onSuccess;
 		NullCheck(L_0);
 		L_0->___onSuccess_114 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&L_0->___onSuccess_114), (void*)L_1);
 		// Instance.onCancel = onCancel;
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_2;
-		L_2 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
-		OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* L_3 = ___onCancel1;
+		L_2 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
+		OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* L_3 = ___1_onCancel;
 		NullCheck(L_2);
 		L_2->___onCancel_115 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&L_2->___onCancel_115), (void*)L_3);
 		// Instance.PickerMode = pickMode;
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_4;
-		L_4 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
-		int32_t L_5 = ___pickMode2;
+		L_4 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
+		int32_t L_5 = ___2_pickMode;
 		NullCheck(L_4);
 		FileBrowser_set_PickerMode_m252A1D099DEF70FAF8AC72FD5D7A4C45B65AA206(L_4, L_5, NULL);
 		// Instance.AllowMultiSelection = allowMultiSelection;
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_6;
-		L_6 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
-		bool L_7 = ___allowMultiSelection3;
+		L_6 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
+		bool L_7 = ___3_allowMultiSelection;
 		NullCheck(L_6);
 		FileBrowser_set_AllowMultiSelection_m4FC44DD7C7836F9F094C0CBE960A29259B0D1E05(L_6, L_7, NULL);
 		// Instance.Title = title;
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_8;
-		L_8 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
-		String_t* L_9 = ___title7;
+		L_8 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
+		String_t* L_9 = ___7_title;
 		NullCheck(L_8);
 		FileBrowser_set_Title_mA303A37D55D2D07C43D734B10507A42B55D10423(L_8, L_9, NULL);
 		// Instance.SubmitButtonText = submitButtonText;
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_10;
-		L_10 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
-		String_t* L_11 = ___submitButtonText8;
+		L_10 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
+		String_t* L_11 = ___8_submitButtonText;
 		NullCheck(L_10);
 		FileBrowser_set_SubmitButtonText_m29CFCD8B22FB378B3E8F4388C72C7A1A7AB3C0D4(L_10, L_11, NULL);
 		// Instance.AcceptNonExistingFilename = acceptNonExistingFilename;
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_12;
-		L_12 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
-		bool L_13 = ___acceptNonExistingFilename4;
+		L_12 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
+		bool L_13 = ___4_acceptNonExistingFilename;
 		NullCheck(L_12);
 		FileBrowser_set_AcceptNonExistingFilename_mF0E53CE81D674BEBE2583049BEE0586661374079(L_12, L_13, NULL);
 		// Instance.Show( initialPath, initialFilename );
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_14;
-		L_14 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
-		String_t* L_15 = ___initialPath5;
-		String_t* L_16 = ___initialFilename6;
+		L_14 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
+		String_t* L_15 = ___5_initialPath;
+		String_t* L_16 = ___6_initialFilename;
 		NullCheck(L_14);
 		FileBrowser_Show_m64A9C6492FE4F3A2E083847F85078AF64A491C98(L_14, L_15, L_16, NULL);
 		// return true;
@@ -19331,7 +19749,7 @@ IL_0069:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::HideDialog(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_HideDialog_m02BE36614EF3CEFE0F3D41E44EBA950427055811 (bool ___invokeCancelCallback0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_HideDialog_m8DCA0A4747A5053D6DA9ED5517F10D63881ECAF9 (bool ___0_invokeCancelCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19343,8 +19761,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_HideDialog_m02BE36614EF3CEFE
 		// Instance.OnOperationCanceled( invokeCancelCallback );
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_0;
-		L_0 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
-		bool L_1 = ___invokeCancelCallback0;
+		L_0 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
+		bool L_1 = ___0_invokeCancelCallback;
 		NullCheck(L_0);
 		FileBrowser_OnOperationCanceled_mDC4CDB908EE1BBC64F34DC02D56BF6B9746F78D8(L_0, L_1, NULL);
 		// }
@@ -19352,7 +19770,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_HideDialog_m02BE36614EF3CEFE
 	}
 }
 // System.Collections.IEnumerator SimpleFileBrowser.FileBrowser::WaitForSaveDialog(SimpleFileBrowser.FileBrowser/PickMode,System.Boolean,System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FileBrowser_WaitForSaveDialog_m3190752768E451A01CAE16E47FAFE4E531E96EA2 (int32_t ___pickMode0, bool ___allowMultiSelection1, String_t* ___initialPath2, String_t* ___initialFilename3, String_t* ___title4, String_t* ___saveButtonText5, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FileBrowser_WaitForSaveDialog_m85B279FC872D211A54DA9CA6CFE146224BCF327B (int32_t ___0_pickMode, bool ___1_allowMultiSelection, String_t* ___2_initialPath, String_t* ___3_initialFilename, String_t* ___4_title, String_t* ___5_saveButtonText, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19365,30 +19783,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FileBrowser_WaitForSaveDialog_
 		NullCheck(L_0);
 		U3CWaitForSaveDialogU3Ed__264__ctor_mAACF2B62EAEB977B6E0DA1F7DB5345349441E537(L_0, 0, NULL);
 		U3CWaitForSaveDialogU3Ed__264_t15DCB29ED5436BB9EC2F69D03DDFDF605D8FCD09* L_1 = L_0;
-		int32_t L_2 = ___pickMode0;
+		int32_t L_2 = ___0_pickMode;
 		NullCheck(L_1);
 		L_1->___pickMode_2 = L_2;
 		U3CWaitForSaveDialogU3Ed__264_t15DCB29ED5436BB9EC2F69D03DDFDF605D8FCD09* L_3 = L_1;
-		bool L_4 = ___allowMultiSelection1;
+		bool L_4 = ___1_allowMultiSelection;
 		NullCheck(L_3);
 		L_3->___allowMultiSelection_3 = L_4;
 		U3CWaitForSaveDialogU3Ed__264_t15DCB29ED5436BB9EC2F69D03DDFDF605D8FCD09* L_5 = L_3;
-		String_t* L_6 = ___initialPath2;
+		String_t* L_6 = ___2_initialPath;
 		NullCheck(L_5);
 		L_5->___initialPath_4 = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&L_5->___initialPath_4), (void*)L_6);
 		U3CWaitForSaveDialogU3Ed__264_t15DCB29ED5436BB9EC2F69D03DDFDF605D8FCD09* L_7 = L_5;
-		String_t* L_8 = ___initialFilename3;
+		String_t* L_8 = ___3_initialFilename;
 		NullCheck(L_7);
 		L_7->___initialFilename_5 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___initialFilename_5), (void*)L_8);
 		U3CWaitForSaveDialogU3Ed__264_t15DCB29ED5436BB9EC2F69D03DDFDF605D8FCD09* L_9 = L_7;
-		String_t* L_10 = ___title4;
+		String_t* L_10 = ___4_title;
 		NullCheck(L_9);
 		L_9->___title_6 = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&L_9->___title_6), (void*)L_10);
 		U3CWaitForSaveDialogU3Ed__264_t15DCB29ED5436BB9EC2F69D03DDFDF605D8FCD09* L_11 = L_9;
-		String_t* L_12 = ___saveButtonText5;
+		String_t* L_12 = ___5_saveButtonText;
 		NullCheck(L_11);
 		L_11->___saveButtonText_7 = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___saveButtonText_7), (void*)L_12);
@@ -19396,7 +19814,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FileBrowser_WaitForSaveDialog_
 	}
 }
 // System.Collections.IEnumerator SimpleFileBrowser.FileBrowser::WaitForLoadDialog(SimpleFileBrowser.FileBrowser/PickMode,System.Boolean,System.String,System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FileBrowser_WaitForLoadDialog_m5ABC9FC7FDD5C18B32153309C0204E5862C584B9 (int32_t ___pickMode0, bool ___allowMultiSelection1, String_t* ___initialPath2, String_t* ___initialFilename3, String_t* ___title4, String_t* ___loadButtonText5, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FileBrowser_WaitForLoadDialog_m8FB14F98B53CB2D7D5BF57CC789AD4628AA96485 (int32_t ___0_pickMode, bool ___1_allowMultiSelection, String_t* ___2_initialPath, String_t* ___3_initialFilename, String_t* ___4_title, String_t* ___5_loadButtonText, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19409,30 +19827,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FileBrowser_WaitForLoadDialog_
 		NullCheck(L_0);
 		U3CWaitForLoadDialogU3Ed__265__ctor_mC93B4DB776B7735E61017BF5849390CD626ACDD6(L_0, 0, NULL);
 		U3CWaitForLoadDialogU3Ed__265_tC9E7C1136C4F78302395A6B34E1FE8CF969786FC* L_1 = L_0;
-		int32_t L_2 = ___pickMode0;
+		int32_t L_2 = ___0_pickMode;
 		NullCheck(L_1);
 		L_1->___pickMode_2 = L_2;
 		U3CWaitForLoadDialogU3Ed__265_tC9E7C1136C4F78302395A6B34E1FE8CF969786FC* L_3 = L_1;
-		bool L_4 = ___allowMultiSelection1;
+		bool L_4 = ___1_allowMultiSelection;
 		NullCheck(L_3);
 		L_3->___allowMultiSelection_3 = L_4;
 		U3CWaitForLoadDialogU3Ed__265_tC9E7C1136C4F78302395A6B34E1FE8CF969786FC* L_5 = L_3;
-		String_t* L_6 = ___initialPath2;
+		String_t* L_6 = ___2_initialPath;
 		NullCheck(L_5);
 		L_5->___initialPath_4 = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&L_5->___initialPath_4), (void*)L_6);
 		U3CWaitForLoadDialogU3Ed__265_tC9E7C1136C4F78302395A6B34E1FE8CF969786FC* L_7 = L_5;
-		String_t* L_8 = ___initialFilename3;
+		String_t* L_8 = ___3_initialFilename;
 		NullCheck(L_7);
 		L_7->___initialFilename_5 = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___initialFilename_5), (void*)L_8);
 		U3CWaitForLoadDialogU3Ed__265_tC9E7C1136C4F78302395A6B34E1FE8CF969786FC* L_9 = L_7;
-		String_t* L_10 = ___title4;
+		String_t* L_10 = ___4_title;
 		NullCheck(L_9);
 		L_9->___title_6 = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&L_9->___title_6), (void*)L_10);
 		U3CWaitForLoadDialogU3Ed__265_tC9E7C1136C4F78302395A6B34E1FE8CF969786FC* L_11 = L_9;
-		String_t* L_12 = ___loadButtonText5;
+		String_t* L_12 = ___5_loadButtonText;
 		NullCheck(L_11);
 		L_11->___loadButtonText_7 = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&L_11->___loadButtonText_7), (void*)L_12);
@@ -19440,7 +19858,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FileBrowser_WaitForLoadDialog_
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::AddQuickLink(System.String,System.String,UnityEngine.Sprite)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_AddQuickLink_m5FA47D097233AC295433BC44263C91A4ED6F29B9 (String_t* ___name0, String_t* ___path1, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___icon2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_AddQuickLink_m6637CC3E1C082172F3020544F0B4B023F8023626 (String_t* ___0_name, String_t* ___1_path, Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___2_icon, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19455,18 +19873,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_AddQuickLink_m5FA47D097233AC
 	int32_t G_B3_0 = 0;
 	{
 		// if( string.IsNullOrEmpty( path ) || !FileBrowserHelpers.DirectoryExists( path ) )
-		String_t* L_0 = ___path1;
+		String_t* L_0 = ___1_path;
 		bool L_1;
-		L_1 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_0, NULL);
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
 		if (L_1)
 		{
 			goto IL_0014;
 		}
 	}
 	{
-		String_t* L_2 = ___path1;
+		String_t* L_2 = ___1_path;
 		bool L_3;
-		L_3 = FileBrowserHelpers_DirectoryExists_m34D0C75C33EABE4964762FC0C9B8B8446FF6C335(L_2, NULL);
+		L_3 = FileBrowserHelpers_DirectoryExists_m31B7C5281BA37017E49D68D3CA92DAC455862164(L_2, NULL);
 		G_B3_0 = ((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
 		goto IL_0015;
 	}
@@ -19507,7 +19925,7 @@ IL_001d:
 		// if( AskPermissions )
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		bool L_7;
-		L_7 = FileBrowser_get_AskPermissions_m550ED3B674566CE6C04CB7F76C97B07686BFCA16(NULL);
+		L_7 = FileBrowser_get_AskPermissions_m0BBD82FDD3C5646E78BFADAB5E3BCA7F565D8F07(NULL);
 		V_3 = L_7;
 		bool L_8 = V_3;
 		if (!L_8)
@@ -19519,7 +19937,7 @@ IL_001d:
 		// RequestPermission();
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		int32_t L_9;
-		L_9 = FileBrowser_RequestPermission_m7F419FBC909B5904989D292C92427ACB414B489E(NULL);
+		L_9 = FileBrowser_RequestPermission_m3938A9ED25EB15C45D72777BDEC5CC96E82A80AA(NULL);
 	}
 
 IL_0039:
@@ -19527,7 +19945,7 @@ IL_0039:
 		// Instance.InitializeQuickLinks();
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_10;
-		L_10 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_10 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_10);
 		FileBrowser_InitializeQuickLinks_mC08CA308D9034BA498A4CE1AC3FFE849230DFB56(L_10, NULL);
 	}
@@ -19537,10 +19955,10 @@ IL_0045:
 		// return Instance.AddQuickLink( icon, name, path );
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_11;
-		L_11 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
-		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_12 = ___icon2;
-		String_t* L_13 = ___name0;
-		String_t* L_14 = ___path1;
+		L_11 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
+		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_12 = ___2_icon;
+		String_t* L_13 = ___0_name;
+		String_t* L_14 = ___1_path;
 		NullCheck(L_11);
 		bool L_15;
 		L_15 = FileBrowser_AddQuickLink_mF254B02358535E14D2319F1AC1230F513D58B42A(L_11, L_12, L_13, L_14, NULL);
@@ -19556,7 +19974,7 @@ IL_0055:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::ClearQuickLinks()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_ClearQuickLinks_m30154506F3DA9285139828125C0C8EDC84415462 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_ClearQuickLinks_mEEF775B927D7DB432D58D0407DBB0E0C845FC5BE (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19568,7 +19986,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_ClearQuickLinks_m30154506F3D
 		// Instance.ClearQuickLinksInternal();
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_0;
-		L_0 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_0 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_0);
 		FileBrowser_ClearQuickLinksInternal_m16606512E3CA993A619C864CC764D9253FBAE162(L_0, NULL);
 		// }
@@ -19576,7 +19994,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_ClearQuickLinks_m30154506F3D
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::SetExcludedExtensions(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetExcludedExtensions_mF4555FEA87743C688BF75C4A90B2CC9BB80547A5 (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___excludedExtensions0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetExcludedExtensions_m3D50AB959182D1519C45A714CD4CD5289DE24C27 (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_excludedExtensions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19600,8 +20018,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetExcludedExtensions_mF4555
 		// Instance.excludedExtensions = excludedExtensions ?? new string[0];
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_0;
-		L_0 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___excludedExtensions0;
+		L_0 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___0_excludedExtensions;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = L_1;
 		G_B1_0 = L_2;
 		G_B1_1 = L_0;
@@ -19626,18 +20044,18 @@ IL_0011:
 		// Instance.excludedExtensionsSet.Clear();
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_4;
-		L_4 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_4 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_4);
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_5 = L_4->___excludedExtensionsSet_32;
 		NullCheck(L_5);
 		HashSet_1_Clear_m0181AAD373CCA0B6C26FE43A802121B3C0DE5F90(L_5, HashSet_1_Clear_m0181AAD373CCA0B6C26FE43A802121B3C0DE5F90_RuntimeMethod_var);
 		// Instance.allExcludedExtensionsHaveSingleSuffix = true;
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_6;
-		L_6 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_6 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_6);
 		L_6->___allExcludedExtensionsHaveSingleSuffix_96 = (bool)1;
 		// if( excludedExtensions != null )
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = ___excludedExtensions0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = ___0_excludedExtensions;
 		V_0 = (bool)((!(((RuntimeObject*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)L_7) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_8 = V_0;
 		if (!L_8)
@@ -19654,9 +20072,9 @@ IL_0011:
 IL_003e:
 	{
 		// excludedExtensions[i] = excludedExtensions[i].ToLowerInvariant();
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = ___excludedExtensions0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = ___0_excludedExtensions;
 		int32_t L_10 = V_1;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = ___excludedExtensions0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = ___0_excludedExtensions;
 		int32_t L_12 = V_1;
 		NullCheck(L_11);
 		int32_t L_13 = L_12;
@@ -19668,7 +20086,7 @@ IL_003e:
 		ArrayElementTypeCheck (L_9, L_15);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (String_t*)L_15);
 		// if( excludedExtensions[i][0] != '.' )
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = ___excludedExtensions0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = ___0_excludedExtensions;
 		int32_t L_17 = V_1;
 		NullCheck(L_16);
 		int32_t L_18 = L_17;
@@ -19685,15 +20103,15 @@ IL_003e:
 	}
 	{
 		// excludedExtensions[i] = "." + excludedExtensions[i];
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_22 = ___excludedExtensions0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_22 = ___0_excludedExtensions;
 		int32_t L_23 = V_1;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = ___excludedExtensions0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_24 = ___0_excludedExtensions;
 		int32_t L_25 = V_1;
 		NullCheck(L_24);
 		int32_t L_26 = L_25;
 		String_t* L_27 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
 		String_t* L_28;
-		L_28 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, L_27, NULL);
+		L_28 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, L_27, NULL);
 		NullCheck(L_22);
 		ArrayElementTypeCheck (L_22, L_28);
 		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_23), (String_t*)L_28);
@@ -19704,10 +20122,10 @@ IL_006e:
 		// Instance.excludedExtensionsSet.Add( excludedExtensions[i] );
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_29;
-		L_29 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_29 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_29);
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_30 = L_29->___excludedExtensionsSet_32;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_31 = ___excludedExtensions0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_31 = ___0_excludedExtensions;
 		int32_t L_32 = V_1;
 		NullCheck(L_31);
 		int32_t L_33 = L_32;
@@ -19717,11 +20135,11 @@ IL_006e:
 		L_35 = HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D(L_30, L_34, HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
 		// Instance.allExcludedExtensionsHaveSingleSuffix &= ( excludedExtensions[i].LastIndexOf( '.' ) == 0 );
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_36;
-		L_36 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_36 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_37 = L_36;
 		NullCheck(L_37);
 		bool L_38 = L_37->___allExcludedExtensionsHaveSingleSuffix_96;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_39 = ___excludedExtensions0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_39 = ___0_excludedExtensions;
 		int32_t L_40 = V_1;
 		NullCheck(L_39);
 		int32_t L_41 = L_40;
@@ -19740,7 +20158,7 @@ IL_00a4:
 	{
 		// for( int i = 0; i < excludedExtensions.Length; i++ )
 		int32_t L_45 = V_1;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_46 = ___excludedExtensions0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_46 = ___0_excludedExtensions;
 		NullCheck(L_46);
 		V_3 = (bool)((((int32_t)L_45) < ((int32_t)((int32_t)(((RuntimeArray*)L_46)->max_length))))? 1 : 0);
 		bool L_47 = V_3;
@@ -19759,7 +20177,7 @@ IL_00af:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::SetFilters(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_m65982A252AE3CB8F23BA581A64D017E4198AABD8 (bool ___showAllFilesFilter0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_m010334684C51C4FA426A95A7B2B406F1AB1D32EF (bool ___0_showAllFilesFilter, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19769,15 +20187,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_m65982A252AE3CB8F
 	}
 	{
 		// SetFilters( showAllFilesFilter, (string[]) null );
-		bool L_0 = ___showAllFilesFilter0;
+		bool L_0 = ___0_showAllFilesFilter;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
-		FileBrowser_SetFilters_m9A1F7D8B946BE18B89EC1FEBE09E68C227EEF5A0(L_0, (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL, NULL);
+		FileBrowser_SetFilters_m405721CF130ECD476DD62195DF04D78AE51D5F3C(L_0, (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)NULL, NULL);
 		// }
 		return;
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::SetFilters(System.Boolean,System.Collections.Generic.IEnumerable`1<System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_m9241687743642DA21496022FF91E789BF00AB257 (bool ___showAllFilesFilter0, RuntimeObject* ___filters1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_m5D5902399C5B138AE1B27620CFB2BBD038FB50CE (bool ___0_showAllFilesFilter, RuntimeObject* ___1_filters, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19797,11 +20215,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_m9241687743642DA2
 	bool V_3 = false;
 	{
 		// SetFiltersPreProcessing( showAllFilesFilter );
-		bool L_0 = ___showAllFilesFilter0;
+		bool L_0 = ___0_showAllFilesFilter;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
-		FileBrowser_SetFiltersPreProcessing_m06AA25B9394BC9012763EA01B0EB166C8BDBEE42(L_0, NULL);
+		FileBrowser_SetFiltersPreProcessing_m44B66B81F18AB5F7985B76B2DD530383381720D8(L_0, NULL);
 		// if( filters != null )
-		RuntimeObject* L_1 = ___filters1;
+		RuntimeObject* L_1 = ___1_filters;
 		V_0 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -19811,7 +20229,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_m9241687743642DA2
 	}
 	{
 		// foreach( string filter in filters )
-		RuntimeObject* L_3 = ___filters1;
+		RuntimeObject* L_3 = ___1_filters;
 		NullCheck(L_3);
 		RuntimeObject* L_4;
 		L_4 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<System.String>::GetEnumerator() */, IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44_il2cpp_TypeInfo_var, L_3);
@@ -19859,7 +20277,7 @@ IL_001b_1:
 				// if( !string.IsNullOrEmpty( filter ) )
 				String_t* L_9 = V_2;
 				bool L_10;
-				L_10 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_9, NULL);
+				L_10 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_9, NULL);
 				V_3 = (bool)((((int32_t)L_10) == ((int32_t)0))? 1 : 0);
 				bool L_11 = V_3;
 				if (!L_11)
@@ -19871,7 +20289,7 @@ IL_001b_1:
 				// Instance.filters.Add( new Filter( null, filter ) );
 				il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 				FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_12;
-				L_12 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+				L_12 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 				NullCheck(L_12);
 				List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* L_13 = L_12->___filters_92;
 				String_t* L_14 = V_2;
@@ -19916,13 +20334,13 @@ IL_005e:
 	{
 		// SetFiltersPostProcessing();
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
-		FileBrowser_SetFiltersPostProcessing_m026D4142F0AACA8173F861F5A0E86969EBB01C7C(NULL);
+		FileBrowser_SetFiltersPostProcessing_m60A808CACF30021F776693CBDA63A3CEF1E2EE93(NULL);
 		// }
 		return;
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::SetFilters(System.Boolean,System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_m9A1F7D8B946BE18B89EC1FEBE09E68C227EEF5A0 (bool ___showAllFilesFilter0, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___filters1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_m405721CF130ECD476DD62195DF04D78AE51D5F3C (bool ___0_showAllFilesFilter, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_filters, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -19938,11 +20356,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_m9A1F7D8B946BE18B
 	bool V_3 = false;
 	{
 		// SetFiltersPreProcessing( showAllFilesFilter );
-		bool L_0 = ___showAllFilesFilter0;
+		bool L_0 = ___0_showAllFilesFilter;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
-		FileBrowser_SetFiltersPreProcessing_m06AA25B9394BC9012763EA01B0EB166C8BDBEE42(L_0, NULL);
+		FileBrowser_SetFiltersPreProcessing_m44B66B81F18AB5F7985B76B2DD530383381720D8(L_0, NULL);
 		// if( filters != null )
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___filters1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___1_filters;
 		V_0 = (bool)((!(((RuntimeObject*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -19959,13 +20377,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_m9A1F7D8B946BE18B
 IL_0015:
 	{
 		// if( !string.IsNullOrEmpty( filters[i] ) )
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___filters1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___1_filters;
 		int32_t L_4 = V_1;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
 		String_t* L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
 		bool L_7;
-		L_7 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_6, NULL);
+		L_7 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_6, NULL);
 		V_2 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
 		bool L_8 = V_2;
 		if (!L_8)
@@ -19977,10 +20395,10 @@ IL_0015:
 		// Instance.filters.Add( new Filter( null, filters[i] ) );
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_9;
-		L_9 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_9 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_9);
 		List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* L_10 = L_9->___filters_92;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = ___filters1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_11 = ___1_filters;
 		int32_t L_12 = V_1;
 		NullCheck(L_11);
 		int32_t L_13 = L_12;
@@ -20003,7 +20421,7 @@ IL_0043:
 	{
 		// for( int i = 0; i < filters.Length; i++ )
 		int32_t L_17 = V_1;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = ___filters1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = ___1_filters;
 		NullCheck(L_18);
 		V_3 = (bool)((((int32_t)L_17) < ((int32_t)((int32_t)(((RuntimeArray*)L_18)->max_length))))? 1 : 0);
 		bool L_19 = V_3;
@@ -20019,13 +20437,13 @@ IL_004e:
 	{
 		// SetFiltersPostProcessing();
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
-		FileBrowser_SetFiltersPostProcessing_m026D4142F0AACA8173F861F5A0E86969EBB01C7C(NULL);
+		FileBrowser_SetFiltersPostProcessing_m60A808CACF30021F776693CBDA63A3CEF1E2EE93(NULL);
 		// }
 		return;
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::SetFilters(System.Boolean,System.Collections.Generic.IEnumerable`1<SimpleFileBrowser.FileBrowser/Filter>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_mE9AC44A5A36311CBB2A367869FC01C5E62E2001E (bool ___showAllFilesFilter0, RuntimeObject* ___filters1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_mF677A3F13DE651FF5450678D2DB094849EFCD659 (bool ___0_showAllFilesFilter, RuntimeObject* ___1_filters, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -20045,11 +20463,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_mE9AC44A5A36311CB
 	int32_t G_B6_0 = 0;
 	{
 		// SetFiltersPreProcessing( showAllFilesFilter );
-		bool L_0 = ___showAllFilesFilter0;
+		bool L_0 = ___0_showAllFilesFilter;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
-		FileBrowser_SetFiltersPreProcessing_m06AA25B9394BC9012763EA01B0EB166C8BDBEE42(L_0, NULL);
+		FileBrowser_SetFiltersPreProcessing_m44B66B81F18AB5F7985B76B2DD530383381720D8(L_0, NULL);
 		// if( filters != null )
-		RuntimeObject* L_1 = ___filters1;
+		RuntimeObject* L_1 = ___1_filters;
 		V_0 = (bool)((!(((RuntimeObject*)(RuntimeObject*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -20059,7 +20477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_mE9AC44A5A36311CB
 	}
 	{
 		// foreach( Filter filter in filters )
-		RuntimeObject* L_3 = ___filters1;
+		RuntimeObject* L_3 = ___1_filters;
 		NullCheck(L_3);
 		RuntimeObject* L_4;
 		L_4 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<SimpleFileBrowser.FileBrowser/Filter>::GetEnumerator() */, IEnumerable_1_t47175F6A3A3C41B26B1E3B3C01C66033F2875212_il2cpp_TypeInfo_var, L_3);
@@ -20140,7 +20558,7 @@ IL_0037_1:
 				// Instance.filters.Add( filter );
 				il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 				FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_14;
-				L_14 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+				L_14 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 				NullCheck(L_14);
 				List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* L_15 = L_14->___filters_92;
 				Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* L_16 = V_2;
@@ -20182,13 +20600,13 @@ IL_0063:
 	{
 		// SetFiltersPostProcessing();
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
-		FileBrowser_SetFiltersPostProcessing_m026D4142F0AACA8173F861F5A0E86969EBB01C7C(NULL);
+		FileBrowser_SetFiltersPostProcessing_m60A808CACF30021F776693CBDA63A3CEF1E2EE93(NULL);
 		// }
 		return;
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::SetFilters(System.Boolean,SimpleFileBrowser.FileBrowser/Filter[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_mDAFF9AD6984CF9B471A02570ABAE4967A7C70853 (bool ___showAllFilesFilter0, FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C* ___filters1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_m55986F4DFF5D80CC6E04D9151797F4EEA2EA7EE9 (bool ___0_showAllFilesFilter, FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C* ___1_filters, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -20204,11 +20622,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_mDAFF9AD6984CF9B4
 	int32_t G_B5_0 = 0;
 	{
 		// SetFiltersPreProcessing( showAllFilesFilter );
-		bool L_0 = ___showAllFilesFilter0;
+		bool L_0 = ___0_showAllFilesFilter;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
-		FileBrowser_SetFiltersPreProcessing_m06AA25B9394BC9012763EA01B0EB166C8BDBEE42(L_0, NULL);
+		FileBrowser_SetFiltersPreProcessing_m44B66B81F18AB5F7985B76B2DD530383381720D8(L_0, NULL);
 		// if( filters != null )
-		FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C* L_1 = ___filters1;
+		FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C* L_1 = ___1_filters;
 		V_0 = (bool)((!(((RuntimeObject*)(FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -20225,7 +20643,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFilters_mDAFF9AD6984CF9B4
 IL_0015:
 	{
 		// if( filters[i] != null && filters[i].defaultExtension.Length > 0 )
-		FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C* L_3 = ___filters1;
+		FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C* L_3 = ___1_filters;
 		int32_t L_4 = V_1;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
@@ -20236,7 +20654,7 @@ IL_0015:
 		}
 	}
 	{
-		FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C* L_7 = ___filters1;
+		FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C* L_7 = ___1_filters;
 		int32_t L_8 = V_1;
 		NullCheck(L_7);
 		int32_t L_9 = L_8;
@@ -20268,10 +20686,10 @@ IL_002e:
 		// Instance.filters.Add( filters[i] );
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_14;
-		L_14 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_14 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_14);
 		List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* L_15 = L_14->___filters_92;
-		FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C* L_16 = ___filters1;
+		FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C* L_16 = ___1_filters;
 		int32_t L_17 = V_1;
 		NullCheck(L_16);
 		int32_t L_18 = L_17;
@@ -20291,7 +20709,7 @@ IL_004a:
 	{
 		// for( int i = 0; i < filters.Length; i++ )
 		int32_t L_21 = V_1;
-		FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C* L_22 = ___filters1;
+		FilterU5BU5D_t8C54A3B443C221E2F6E751FE8D6CCB58A683DC6C* L_22 = ___1_filters;
 		NullCheck(L_22);
 		V_3 = (bool)((((int32_t)L_21) < ((int32_t)((int32_t)(((RuntimeArray*)L_22)->max_length))))? 1 : 0);
 		bool L_23 = V_3;
@@ -20307,13 +20725,13 @@ IL_0055:
 	{
 		// SetFiltersPostProcessing();
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
-		FileBrowser_SetFiltersPostProcessing_m026D4142F0AACA8173F861F5A0E86969EBB01C7C(NULL);
+		FileBrowser_SetFiltersPostProcessing_m60A808CACF30021F776693CBDA63A3CEF1E2EE93(NULL);
 		// }
 		return;
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::SetFiltersPreProcessing(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFiltersPreProcessing_m06AA25B9394BC9012763EA01B0EB166C8BDBEE42 (bool ___showAllFilesFilter0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFiltersPreProcessing_m44B66B81F18AB5F7985B76B2DD530383381720D8 (bool ___0_showAllFilesFilter, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -20328,19 +20746,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFiltersPreProcessing_m06A
 		// Instance.showAllFilesFilter = showAllFilesFilter;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_0;
-		L_0 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
-		bool L_1 = ___showAllFilesFilter0;
+		L_0 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
+		bool L_1 = ___0_showAllFilesFilter;
 		NullCheck(L_0);
 		L_0->___showAllFilesFilter_94 = L_1;
 		// Instance.filters.Clear();
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_2;
-		L_2 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_2 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_2);
 		List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* L_3 = L_2->___filters_92;
 		NullCheck(L_3);
 		List_1_Clear_m4EE16077BDAF9B78EBD5C5ABF3A65D7960512FF3_inline(L_3, List_1_Clear_m4EE16077BDAF9B78EBD5C5ABF3A65D7960512FF3_RuntimeMethod_var);
 		// if( showAllFilesFilter )
-		bool L_4 = ___showAllFilesFilter0;
+		bool L_4 = ___0_showAllFilesFilter;
 		V_0 = L_4;
 		bool L_5 = V_0;
 		if (!L_5)
@@ -20352,11 +20770,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFiltersPreProcessing_m06A
 		// Instance.filters.Add( Instance.allFilesFilter );
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_6;
-		L_6 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_6 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_6);
 		List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* L_7 = L_6->___filters_92;
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_8;
-		L_8 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_8 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_8);
 		Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* L_9 = L_8->___allFilesFilter_93;
 		NullCheck(L_7);
@@ -20370,7 +20788,7 @@ IL_003b:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::SetFiltersPostProcessing()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFiltersPostProcessing_m026D4142F0AACA8173F861F5A0E86969EBB01C7C (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFiltersPostProcessing_m60A808CACF30021F776693CBDA63A3CEF1E2EE93 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -20397,7 +20815,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFiltersPostProcessing_m02
 		// List<Filter> filters = Instance.filters;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_0;
-		L_0 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_0 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_0);
 		List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* L_1 = L_0->___filters_92;
 		V_0 = L_1;
@@ -20418,7 +20836,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_SetFiltersPostProcessing_m02
 		List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* L_5 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_6;
-		L_6 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_6 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_6);
 		Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* L_7 = L_6->___allFilesFilter_93;
 		NullCheck(L_5);
@@ -20464,13 +20882,13 @@ IL_0040:
 		int32_t L_17 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_18;
-		L_18 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_18 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		String_t* L_19 = V_6;
 		NullCheck(L_18);
 		int32_t L_20;
 		L_20 = FileBrowser_CalculateLengthOfDropdownText_m9066BB1F5AB9C6051690469BD3FFA52BC20ADD9D(L_18, L_19, NULL);
 		int32_t L_21;
-		L_21 = Mathf_Max_m8A4C189A6749DFE3ED8B66D9D3CACD8DB333974F_inline(L_17, L_20, NULL);
+		L_21 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(L_17, L_20, NULL);
 		V_1 = L_21;
 		// for( int i = 0; i < filters.Count; i++ )
 		int32_t L_22 = V_5;
@@ -20496,7 +20914,7 @@ IL_0073:
 		// Vector2 size = Instance.filtersDropdownContainer.sizeDelta;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_27;
-		L_27 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_27 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_27);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_28 = L_27->___filtersDropdownContainer_69;
 		NullCheck(L_28);
@@ -20508,7 +20926,7 @@ IL_0073:
 		(&V_3)->___x_0 = ((float)((int32_t)il2cpp_codegen_add(L_30, ((int32_t)28))));
 		// Instance.filtersDropdownContainer.sizeDelta = size;
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_31;
-		L_31 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_31 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_31);
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_32 = L_31->___filtersDropdownContainer_69;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33 = V_3;
@@ -20516,14 +20934,14 @@ IL_0073:
 		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_32, L_33, NULL);
 		// Instance.filtersDropdown.ClearOptions();
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_34;
-		L_34 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_34 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_34);
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_35 = L_34->___filtersDropdown_68;
 		NullCheck(L_35);
 		Dropdown_ClearOptions_m3EE71BFE47AB96BC7F731C4EE6BC728ED0E6EE56(L_35, NULL);
 		// Instance.filtersDropdown.AddOptions( dropdownValues );
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_36;
-		L_36 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_36 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_36);
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_37 = L_36->___filtersDropdown_68;
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_38 = V_2;
@@ -20531,14 +20949,14 @@ IL_0073:
 		Dropdown_AddOptions_mCFB763400FA1BCA695C168E7FBCDE20C9B8E7839(L_37, L_38, NULL);
 		// Instance.filtersDropdown.value = 0;
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_39;
-		L_39 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_39 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_39);
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_40 = L_39->___filtersDropdown_68;
 		NullCheck(L_40);
 		Dropdown_set_value_m0764A5E2023E34705ADD422689BF6C0074449FEE(L_40, 0, NULL);
 		// Instance.allFiltersHaveSingleSuffix = filters[0].allExtensionsHaveSingleSuffix;
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_41;
-		L_41 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_41 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* L_42 = V_0;
 		NullCheck(L_42);
 		Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* L_43;
@@ -20552,7 +20970,7 @@ IL_0073:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser::SetDefaultFilter(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_SetDefaultFilter_m85E9F64B38B73DD95159420FFF396D50C2084B2D (String_t* ___defaultFilter0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_SetDefaultFilter_m1C199F7568FA34C05E417ACE6AF56CDD218FE132 (String_t* ___0_defaultFilter, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -20575,9 +20993,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_SetDefaultFilter_m85E9F64B38
 	int32_t G_B10_0 = 0;
 	{
 		// if( string.IsNullOrEmpty( defaultFilter ) )
-		String_t* L_0 = ___defaultFilter0;
+		String_t* L_0 = ___0_defaultFilter;
 		bool L_1;
-		L_1 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_0, NULL);
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -20589,7 +21007,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_SetDefaultFilter_m85E9F64B38
 		// if( Instance.showAllFilesFilter )
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_3;
-		L_3 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_3 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_3);
 		bool L_4 = L_3->___showAllFilesFilter_94;
 		V_1 = L_4;
@@ -20603,14 +21021,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowser_SetDefaultFilter_m85E9F64B38
 		// Instance.filtersDropdown.value = 0;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_6;
-		L_6 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_6 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_6);
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_7 = L_6->___filtersDropdown_68;
 		NullCheck(L_7);
 		Dropdown_set_value_m0764A5E2023E34705ADD422689BF6C0074449FEE(L_7, 0, NULL);
 		// Instance.filtersDropdown.RefreshShownValue();
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_8;
-		L_8 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_8 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_8);
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_9 = L_8->___filtersDropdown_68;
 		NullCheck(L_9);
@@ -20630,13 +21048,13 @@ IL_0043:
 IL_004a:
 	{
 		// defaultFilter = defaultFilter.ToLowerInvariant();
-		String_t* L_10 = ___defaultFilter0;
+		String_t* L_10 = ___0_defaultFilter;
 		NullCheck(L_10);
 		String_t* L_11;
 		L_11 = String_ToLowerInvariant_mBE32C93DE27C5353FEA3FA654FC1DDBE3D0EB0F2(L_10, NULL);
-		___defaultFilter0 = L_11;
+		___0_defaultFilter = L_11;
 		// if( defaultFilter[0] != '.' )
-		String_t* L_12 = ___defaultFilter0;
+		String_t* L_12 = ___0_defaultFilter;
 		NullCheck(L_12);
 		Il2CppChar L_13;
 		L_13 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_12, 0, NULL);
@@ -20649,10 +21067,10 @@ IL_004a:
 	}
 	{
 		// defaultFilter = "." + defaultFilter;
-		String_t* L_15 = ___defaultFilter0;
+		String_t* L_15 = ___0_defaultFilter;
 		String_t* L_16;
-		L_16 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, L_15, NULL);
-		___defaultFilter0 = L_16;
+		L_16 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, L_15, NULL);
+		___0_defaultFilter = L_16;
 	}
 
 IL_0071:
@@ -20667,7 +21085,7 @@ IL_0076:
 		// HashSet<string> extensions = Instance.filters[i].extensionsSet;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_17;
-		L_17 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_17 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_17);
 		List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* L_18 = L_17->___filters_92;
 		int32_t L_19 = V_4;
@@ -20686,7 +21104,7 @@ IL_0076:
 	}
 	{
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_23 = V_5;
-		String_t* L_24 = ___defaultFilter0;
+		String_t* L_24 = ___0_defaultFilter;
 		NullCheck(L_23);
 		bool L_25;
 		L_25 = HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853(L_23, L_24, HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853_RuntimeMethod_var);
@@ -20712,7 +21130,7 @@ IL_009e:
 		// Instance.filtersDropdown.value = i;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_27;
-		L_27 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_27 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_27);
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_28 = L_27->___filtersDropdown_68;
 		int32_t L_29 = V_4;
@@ -20720,7 +21138,7 @@ IL_009e:
 		Dropdown_set_value_m0764A5E2023E34705ADD422689BF6C0074449FEE(L_28, L_29, NULL);
 		// Instance.filtersDropdown.RefreshShownValue();
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_30;
-		L_30 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_30 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_30);
 		Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89* L_31 = L_30->___filtersDropdown_68;
 		NullCheck(L_31);
@@ -20743,7 +21161,7 @@ IL_00d2:
 		int32_t L_33 = V_4;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_34;
-		L_34 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_34 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_34);
 		List_1_t4C78B0E6B07B236B63B2A1441F4B5FC7007FE916* L_35 = L_34->___filters_92;
 		NullCheck(L_35);
@@ -20770,7 +21188,7 @@ IL_00ef:
 	}
 }
 // SimpleFileBrowser.FileBrowser/Permission SimpleFileBrowser.FileBrowser::CheckPermission()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_CheckPermission_mB59E9671407F61B85EA45F21A7F69C289E7FB7B4 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_CheckPermission_m2BCA15BE9F13E4C26A61213B7E7B7CDBF37E46CA (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -20788,11 +21206,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_CheckPermission_mB59E9671
 	{
 		// Permission result = (Permission) FileBrowserHelpers.AJC.CallStatic<int>( "CheckPermission", FileBrowserHelpers.Context );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_0;
-		L_0 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_0 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_2 = L_1;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_3;
-		L_3 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_3 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_2);
 		ArrayElementTypeCheck (L_2, L_3);
 		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_3);
@@ -20809,7 +21227,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_CheckPermission_mB59E9671
 	}
 	{
 		int32_t L_6;
-		L_6 = PlayerPrefs_GetInt_mDCAA431AEC7CBAA6AF58857A8773E5B6B472285C(_stringLiteral84F6494ADE082076B1F4D6CC6D3C2F256784253C, 2, NULL);
+		L_6 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral84F6494ADE082076B1F4D6CC6D3C2F256784253C, 2, NULL);
 		G_B3_0 = ((((int32_t)L_6) == ((int32_t)2))? 1 : 0);
 		goto IL_0033;
 	}
@@ -20849,7 +21267,7 @@ IL_003d:
 	}
 }
 // SimpleFileBrowser.FileBrowser/Permission SimpleFileBrowser.FileBrowser::RequestPermission()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_RequestPermission_m7F419FBC909B5904989D292C92427ACB414B489E (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t FileBrowser_RequestPermission_m3938A9ED25EB15C45D72777BDEC5CC96E82A80AA (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -20896,7 +21314,7 @@ FINALLY_00b2:
 				}
 				{
 					RuntimeObject* L_3 = V_1;
-					Monitor_Exit_m25A154960F91391E10E4CDA245ECDF4BA94D56A9(L_3, NULL);
+					Monitor_Exit_m05B2CF037E2214B3208198C282490A2A475653FA(L_3, NULL);
 				}
 
 IL_00bc:
@@ -20909,7 +21327,7 @@ IL_00bc:
 		{// begin try (depth: 1)
 			{
 				RuntimeObject* L_4 = V_1;
-				Monitor_Enter_m00506757392936AA62DBE2C5FFBEE69EE920C4D4(L_4, (&V_2), NULL);
+				Monitor_Enter_m3CDB589DA1300B513D55FDCFB52B63E879794149(L_4, (&V_2), NULL);
 				// FBPermissionCallbackAndroid nativeCallback = new FBPermissionCallbackAndroid( threadLock );
 				RuntimeObject* L_5 = V_0;
 				FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* L_6 = (FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32*)il2cpp_codegen_object_new(FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32_il2cpp_TypeInfo_var);
@@ -20918,11 +21336,11 @@ IL_00bc:
 				V_3 = L_6;
 				// FileBrowserHelpers.AJC.CallStatic( "RequestPermission", FileBrowserHelpers.Context, nativeCallback, PlayerPrefs.GetInt( "FileBrowserPermission", (int) Permission.ShouldAsk ) );
 				AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_7;
-				L_7 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+				L_7 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_8;
 				AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_10;
-				L_10 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+				L_10 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 				NullCheck(L_9);
 				ArrayElementTypeCheck (L_9, L_10);
 				(L_9)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_10);
@@ -20933,7 +21351,7 @@ IL_00bc:
 				(L_11)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_12);
 				ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13 = L_11;
 				int32_t L_14;
-				L_14 = PlayerPrefs_GetInt_mDCAA431AEC7CBAA6AF58857A8773E5B6B472285C(_stringLiteral84F6494ADE082076B1F4D6CC6D3C2F256784253C, 2, NULL);
+				L_14 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral84F6494ADE082076B1F4D6CC6D3C2F256784253C, 2, NULL);
 				int32_t L_15 = L_14;
 				RuntimeObject* L_16 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_15);
 				NullCheck(L_13);
@@ -20957,7 +21375,7 @@ IL_00bc:
 				// System.Threading.Monitor.Wait( threadLock );
 				RuntimeObject* L_20 = V_0;
 				bool L_21;
-				L_21 = Monitor_Wait_m4E2A910D043438CDD5F8B9B9E82213C1E3CC8A78(L_20, NULL);
+				L_21 = Monitor_Wait_m322138959FFE3F4F3212658ACB0C30C981880D28(L_20, NULL);
 			}
 
 IL_0067_1:
@@ -20974,7 +21392,7 @@ IL_0067_1:
 			}
 			{
 				int32_t L_24;
-				L_24 = PlayerPrefs_GetInt_mDCAA431AEC7CBAA6AF58857A8773E5B6B472285C(_stringLiteral84F6494ADE082076B1F4D6CC6D3C2F256784253C, (-1), NULL);
+				L_24 = PlayerPrefs_GetInt_m8AD1FA8BA54CC6CE2B2AEEE36B6D75587BB1692D(_stringLiteral84F6494ADE082076B1F4D6CC6D3C2F256784253C, (-1), NULL);
 				FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* L_25 = V_3;
 				NullCheck(L_25);
 				int32_t L_26;
@@ -21003,9 +21421,9 @@ IL_0089_1:
 				NullCheck(L_28);
 				int32_t L_29;
 				L_29 = FBPermissionCallbackAndroid_get_Result_mC64B832D8BD6285E1DD4C32D54427B2E2C9DEDCF_inline(L_28, NULL);
-				PlayerPrefs_SetInt_mDC9617BFD56FEC670626A1002D9A5FE963D8D175(_stringLiteral84F6494ADE082076B1F4D6CC6D3C2F256784253C, L_29, NULL);
+				PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(_stringLiteral84F6494ADE082076B1F4D6CC6D3C2F256784253C, L_29, NULL);
 				// PlayerPrefs.Save();
-				PlayerPrefs_Save_mCC9D4FCE00EA315AC967771D5D993E04CB742DFB(NULL);
+				PlayerPrefs_Save_m82567E045D69C838112EA204B60C144D4C1EA3AE(NULL);
 			}
 
 IL_00a8_1:
@@ -21184,7 +21602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser__ctor_mA14C08F72ED0CDE1E8DDD
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser__cctor_m8B60B9C9A649551158D47C24E68D2225BA5CBC88 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser__cctor_m2281F9F0D22DB5212D736270FE2E02338BEE3964 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -21224,7 +21642,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser__cctor_m8B60B9C9A649551158D4
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser::<CreateNewFolderCoroutine>b__241_0(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_U3CCreateNewFolderCoroutineU3Eb__241_0_m560088B39834F676DCA06B169375CB6C8527CB0F (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___folderName0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_U3CCreateNewFolderCoroutineU3Eb__241_0_m560088B39834F676DCA06B169375CB6C8527CB0F (FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* __this, String_t* ___0_folderName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -21249,13 +21667,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowser_U3CCreateNewFolderCoroutineU
 		// filesContainer.anchoredPosition = Vector2.zero;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_1 = __this->___filesContainer_62;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2;
-		L_2 = Vector2_get_zero_m009B92B5D35AB02BD1610C2E1ACCE7C9CF964A6E_inline(NULL);
+		L_2 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_1);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_1, L_2, NULL);
 		// if( string.IsNullOrEmpty( folderName ) )
-		String_t* L_3 = ___folderName0;
+		String_t* L_3 = ___0_folderName;
 		bool L_4;
-		L_4 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_3, NULL);
+		L_4 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_3, NULL);
 		V_1 = L_4;
 		bool L_5 = V_1;
 		if (!L_5)
@@ -21273,16 +21691,16 @@ IL_002e:
 		// FileBrowserHelpers.CreateFolderInDirectory( CurrentPath, folderName );
 		String_t* L_6;
 		L_6 = FileBrowser_get_CurrentPath_mBFA8E36877B8A5F0817EADA032344219B8207E4F(__this, NULL);
-		String_t* L_7 = ___folderName0;
+		String_t* L_7 = ___0_folderName;
 		String_t* L_8;
-		L_8 = FileBrowserHelpers_CreateFolderInDirectory_mAEE39C8930FB9F6A6972D87CE827CD8EA6C7B9A7(L_6, L_7, NULL);
+		L_8 = FileBrowserHelpers_CreateFolderInDirectory_m322EE05BAED6F7D0CFBC302289F33C3527870286(L_6, L_7, NULL);
 		// pendingFileEntrySelection.Clear();
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_9 = __this->___pendingFileEntrySelection_86;
 		NullCheck(L_9);
 		List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_inline(L_9, List_1_Clear_mC6C7AEBB0F980A717A87C0D12377984A464F0934_RuntimeMethod_var);
 		// pendingFileEntrySelection.Add( folderName );
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_10 = __this->___pendingFileEntrySelection_86;
-		String_t* L_11 = ___folderName0;
+		String_t* L_11 = ___0_folderName;
 		NullCheck(L_10);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_10, L_11, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 		// RefreshFiles( true );
@@ -21299,7 +21717,7 @@ IL_002e:
 	{
 		// filenameInputField.text = folderName;
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_14 = __this->___filenameInputField_65;
-		String_t* L_15 = ___folderName0;
+		String_t* L_15 = ___0_folderName;
 		NullCheck(L_14);
 		InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F(L_14, L_15, NULL);
 	}
@@ -21307,11 +21725,11 @@ IL_002e:
 IL_0076:
 	{
 		// int fileEntryIndex = Mathf.Max( 0, FilenameToFileEntryIndex( folderName ) );
-		String_t* L_16 = ___folderName0;
+		String_t* L_16 = ___0_folderName;
 		int32_t L_17;
 		L_17 = FileBrowser_FilenameToFileEntryIndex_mD95AA43AA727DBF8FCD6F5932E5F034BF6504B58(__this, L_16, NULL);
 		int32_t L_18;
-		L_18 = Mathf_Max_m8A4C189A6749DFE3ED8B66D9D3CACD8DB333974F_inline(0, L_17, NULL);
+		L_18 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(0, L_17, NULL);
 		V_0 = L_18;
 		// filesScrollRect.verticalNormalizedPosition = validFileEntries.Count > 1 ? ( 1f - (float) fileEntryIndex / ( validFileEntries.Count - 1 ) ) : 1f;
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_19 = __this->___filesScrollRect_63;
@@ -21409,7 +21827,7 @@ IL_0011:
 		// FileBrowserHelpers.DeleteDirectory( fileInfo.Path );
 		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_9 = V_1;
 		String_t* L_10 = L_9.___Path_0;
-		FileBrowserHelpers_DeleteDirectory_m2812DF984D0E379CD2185D077FF519AB5FA717EB(L_10, NULL);
+		FileBrowserHelpers_DeleteDirectory_mE91C675665F5749E1701942508146B708CD2393F(L_10, NULL);
 		goto IL_004f;
 	}
 
@@ -21418,7 +21836,7 @@ IL_0043:
 		// FileBrowserHelpers.DeleteFile( fileInfo.Path );
 		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_11 = V_1;
 		String_t* L_12 = L_11.___Path_0;
-		FileBrowserHelpers_DeleteFile_m9FE24F1EEA853DE05BE18E9DA85D014C73360AD8(L_12, NULL);
+		FileBrowserHelpers_DeleteFile_m66A7C172841347E97372F839F29FEF337ACD4DA8(L_12, NULL);
 	}
 
 IL_004f:
@@ -21537,13 +21955,13 @@ IL2CPP_EXTERN_C void QuickLink_tB7B9CC39C70119C207B186F160CFA8E010C40CBC_marshal
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void SimpleFileBrowser.FileBrowser/Filter::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m1A2EDFD7D15168A8C473A0F6760D6643200DCDBE (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* __this, String_t* ___name0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m1A2EDFD7D15168A8C473A0F6760D6643200DCDBE (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* __this, String_t* ___0_name, const RuntimeMethod* method) 
 {
 	{
 		// internal Filter( string name )
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		// this.name = name;
-		String_t* L_0 = ___name0;
+		String_t* L_0 = ___0_name;
 		__this->___name_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___name_0), (void*)L_0);
 		// extensions = null;
@@ -21562,7 +21980,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m1A2EDFD7D15168A8C473A0F676
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser/Filter::.ctor(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m26233F843105D6920F34365B6BD6B82BFA9FB44E (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* __this, String_t* ___name0, String_t* ___extension1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m26233F843105D6920F34365B6BD6B82BFA9FB44E (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* __this, String_t* ___0_name, String_t* ___1_extension, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -21579,17 +21997,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m26233F843105D6920F34365B6B
 		// public Filter( string name, string extension )
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		// this.name = name;
-		String_t* L_0 = ___name0;
+		String_t* L_0 = ___0_name;
 		__this->___name_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___name_0), (void*)L_0);
 		// extension = extension.ToLowerInvariant();
-		String_t* L_1 = ___extension1;
+		String_t* L_1 = ___1_extension;
 		NullCheck(L_1);
 		String_t* L_2;
 		L_2 = String_ToLowerInvariant_mBE32C93DE27C5353FEA3FA654FC1DDBE3D0EB0F2(L_1, NULL);
-		___extension1 = L_2;
+		___1_extension = L_2;
 		// if( extension[0] != '.' )
-		String_t* L_3 = ___extension1;
+		String_t* L_3 = ___1_extension;
 		NullCheck(L_3);
 		Il2CppChar L_4;
 		L_4 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_3, 0, NULL);
@@ -21602,10 +22020,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m26233F843105D6920F34365B6B
 	}
 	{
 		// extension = "." + extension;
-		String_t* L_6 = ___extension1;
+		String_t* L_6 = ___1_extension;
 		String_t* L_7;
-		L_7 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, L_6, NULL);
-		___extension1 = L_7;
+		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, L_6, NULL);
+		___1_extension = L_7;
 	}
 
 IL_0036:
@@ -21613,7 +22031,7 @@ IL_0036:
 		// extensions = new string[1] { extension };
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)1);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = L_8;
-		String_t* L_10 = ___extension1;
+		String_t* L_10 = ___1_extension;
 		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_10);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_10);
@@ -21624,18 +22042,18 @@ IL_0036:
 		NullCheck(L_11);
 		HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03(L_11, HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_12 = L_11;
-		String_t* L_13 = ___extension1;
+		String_t* L_13 = ___1_extension;
 		NullCheck(L_12);
 		bool L_14;
 		L_14 = HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D(L_12, L_13, HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
 		__this->___extensionsSet_2 = L_12;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___extensionsSet_2), (void*)L_12);
 		// defaultExtension = extension;
-		String_t* L_15 = ___extension1;
+		String_t* L_15 = ___1_extension;
 		__this->___defaultExtension_3 = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___defaultExtension_3), (void*)L_15);
 		// allExtensionsHaveSingleSuffix = ( extension.LastIndexOf( '.' ) == 0 );
-		String_t* L_16 = ___extension1;
+		String_t* L_16 = ___1_extension;
 		NullCheck(L_16);
 		int32_t L_17;
 		L_17 = String_LastIndexOf_m6BB3E7E1B48702D4C715FA423F8A822C053B290E(L_16, ((int32_t)46), NULL);
@@ -21645,7 +22063,7 @@ IL_0036:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser/Filter::.ctor(System.String,System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m0082D963A2376632C2CEAC00B337B8133F53FD29 (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* __this, String_t* ___name0, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___extensions1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m0082D963A2376632C2CEAC00B337B8133F53FD29 (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* __this, String_t* ___0_name, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___1_extensions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -21662,7 +22080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m0082D963A2376632C2CEAC00B3
 		// public Filter( string name, params string[] extensions )
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		// this.name = name;
-		String_t* L_0 = ___name0;
+		String_t* L_0 = ___0_name;
 		__this->___name_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___name_0), (void*)L_0);
 		// allExtensionsHaveSingleSuffix = true;
@@ -21675,9 +22093,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Filter__ctor_m0082D963A2376632C2CEAC00B3
 IL_001a:
 	{
 		// extensions[i] = extensions[i].ToLowerInvariant();
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___extensions1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = ___1_extensions;
 		int32_t L_2 = V_0;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___extensions1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = ___1_extensions;
 		int32_t L_4 = V_0;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
@@ -21689,7 +22107,7 @@ IL_001a:
 		ArrayElementTypeCheck (L_1, L_7);
 		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(L_2), (String_t*)L_7);
 		// if( extensions[i][0] != '.' )
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = ___extensions1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = ___1_extensions;
 		int32_t L_9 = V_0;
 		NullCheck(L_8);
 		int32_t L_10 = L_9;
@@ -21706,15 +22124,15 @@ IL_001a:
 	}
 	{
 		// extensions[i] = "." + extensions[i];
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = ___extensions1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = ___1_extensions;
 		int32_t L_15 = V_0;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = ___extensions1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16 = ___1_extensions;
 		int32_t L_17 = V_0;
 		NullCheck(L_16);
 		int32_t L_18 = L_17;
 		String_t* L_19 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
 		String_t* L_20;
-		L_20 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, L_19, NULL);
+		L_20 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D, L_19, NULL);
 		NullCheck(L_14);
 		ArrayElementTypeCheck (L_14, L_20);
 		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(L_15), (String_t*)L_20);
@@ -21724,7 +22142,7 @@ IL_004a:
 	{
 		// allExtensionsHaveSingleSuffix &= ( extensions[i].LastIndexOf( '.' ) == 0 );
 		bool L_21 = __this->___allExtensionsHaveSingleSuffix_4;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_22 = ___extensions1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_22 = ___1_extensions;
 		int32_t L_23 = V_0;
 		NullCheck(L_22);
 		int32_t L_24 = L_23;
@@ -21742,7 +22160,7 @@ IL_0069:
 	{
 		// for( int i = 0; i < extensions.Length; i++ )
 		int32_t L_28 = V_0;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_29 = ___extensions1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_29 = ___1_extensions;
 		NullCheck(L_29);
 		V_2 = (bool)((((int32_t)L_28) < ((int32_t)((int32_t)(((RuntimeArray*)L_29)->max_length))))? 1 : 0);
 		bool L_30 = V_2;
@@ -21753,18 +22171,18 @@ IL_0069:
 	}
 	{
 		// this.extensions = extensions;
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_31 = ___extensions1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_31 = ___1_extensions;
 		__this->___extensions_1 = L_31;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___extensions_1), (void*)L_31);
 		// extensionsSet = new HashSet<string>( extensions );
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_32 = ___extensions1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_32 = ___1_extensions;
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_33 = (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*)il2cpp_codegen_object_new(HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
 		NullCheck(L_33);
 		HashSet_1__ctor_m9F8CD04799346CDC14E5D227FCC28B5A151A7C62(L_33, (RuntimeObject*)L_32, HashSet_1__ctor_m9F8CD04799346CDC14E5D227FCC28B5A151A7C62_RuntimeMethod_var);
 		__this->___extensionsSet_2 = L_33;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___extensionsSet_2), (void*)L_33);
 		// defaultExtension = extensions[0];
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_34 = ___extensions1;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_34 = ___1_extensions;
 		NullCheck(L_34);
 		int32_t L_35 = 0;
 		String_t* L_36 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
@@ -21775,7 +22193,7 @@ IL_0069:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowser/Filter::MatchesExtension(System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Filter_MatchesExtension_m599F1975211ADE2667EC0B6AE513A1451153042E (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* __this, String_t* ___extension0, bool ___extensionMayHaveMultipleSuffixes1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Filter_MatchesExtension_m599F1975211ADE2667EC0B6AE513A1451153042E (Filter_t33B81718659A91E455B1B65C329FC191DC6792BB* __this, String_t* ___0_extension, bool ___1_extensionMayHaveMultipleSuffixes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -21801,7 +22219,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Filter_MatchesExtension_m599F1975211ADE2
 	}
 	{
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_1 = __this->___extensionsSet_2;
-		String_t* L_2 = ___extension0;
+		String_t* L_2 = ___0_extension;
 		NullCheck(L_1);
 		bool L_3;
 		L_3 = HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853(L_1, L_2, HashSet_1_Contains_mAE49939A0DE08C4864E8560F3F7FCDAC2E193853_RuntimeMethod_var);
@@ -21832,7 +22250,7 @@ IL_0018:
 IL_0020:
 	{
 		// if( extensionMayHaveMultipleSuffixes )
-		bool L_5 = ___extensionMayHaveMultipleSuffixes1;
+		bool L_5 = ___1_extensionMayHaveMultipleSuffixes;
 		V_2 = L_5;
 		bool L_6 = V_2;
 		if (!L_6)
@@ -21849,7 +22267,7 @@ IL_0020:
 IL_002a:
 	{
 		// if( extension.EndsWith( extensions[i], StringComparison.Ordinal ) )
-		String_t* L_7 = ___extension0;
+		String_t* L_7 = ___0_extension;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = __this->___extensions_1;
 		int32_t L_9 = V_3;
 		NullCheck(L_8);
@@ -21868,7 +22286,7 @@ IL_002a:
 	{
 		// extensionsSet.Add( extension );
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_14 = __this->___extensionsSet_2;
-		String_t* L_15 = ___extension0;
+		String_t* L_15 = ___0_extension;
 		NullCheck(L_14);
 		bool L_16;
 		L_16 = HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D(L_14, L_15, HashSet_1_Add_mF3D4CF6D0150392127D5561A87DCDEDA9A81BE5D_RuntimeMethod_var);
@@ -21953,7 +22371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Filter_ToString_mDE0DACA728B5CAFBC6
 		String_t* L_3 = V_0;
 		String_t* L_4 = __this->___name_0;
 		String_t* L_5;
-		L_5 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(L_3, L_4, NULL);
+		L_5 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_3, L_4, NULL);
 		V_0 = L_5;
 	}
 
@@ -21982,7 +22400,7 @@ IL_0021:
 		// result += " (";
 		String_t* L_10 = V_0;
 		String_t* L_11;
-		L_11 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(L_10, _stringLiteralD99605E29810F93D7DAE4EFBB764C41AF4E80D32, NULL);
+		L_11 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_10, _stringLiteralD99605E29810F93D7DAE4EFBB764C41AF4E80D32, NULL);
 		V_0 = L_11;
 	}
 
@@ -22013,7 +22431,7 @@ IL_0050:
 		int32_t L_17 = L_16;
 		String_t* L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
 		String_t* L_19;
-		L_19 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(L_14, _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D, L_18, NULL);
+		L_19 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(L_14, _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D, L_18, NULL);
 		V_0 = L_19;
 		goto IL_0083;
 	}
@@ -22028,7 +22446,7 @@ IL_0073:
 		int32_t L_23 = L_22;
 		String_t* L_24 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
 		String_t* L_25;
-		L_25 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(L_20, L_24, NULL);
+		L_25 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_20, L_24, NULL);
 		V_0 = L_25;
 	}
 
@@ -22066,7 +22484,7 @@ IL_008a:
 		// result += ")";
 		String_t* L_32 = V_0;
 		String_t* L_33;
-		L_33 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(L_32, _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D, NULL);
+		L_33 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_32, _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D, NULL);
 		V_0 = L_33;
 	}
 
@@ -22097,7 +22515,7 @@ IL_00bd:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_Multicast(OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___paths0, const RuntimeMethod* method)
+void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_Multicast(OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_paths, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates_13->max_length;
 	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
@@ -22105,79 +22523,79 @@ void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_Multicast(OnSucc
 	{
 		OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* currentDelegate = reinterpret_cast<OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE*>(delegatesToInvoke[i]);
 		typedef void (*FunctionPointerType) (RuntimeObject*, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*, const RuntimeMethod*);
-		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___paths0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___0_paths, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
 	}
 }
-void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_OpenInst(OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___paths0, const RuntimeMethod* method)
+void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_OpenInst(OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_paths, const RuntimeMethod* method)
 {
-	NullCheck(___paths0);
+	NullCheck(___0_paths);
 	typedef void (*FunctionPointerType) (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr_0)(___paths0, method);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_paths, method);
 }
-void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_OpenStatic(OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___paths0, const RuntimeMethod* method)
+void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_OpenStatic(OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_paths, const RuntimeMethod* method)
 {
 	typedef void (*FunctionPointerType) (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr_0)(___paths0, method);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_paths, method);
 }
-void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_OpenStaticInvoker(OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___paths0, const RuntimeMethod* method)
+void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_OpenStaticInvoker(OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_paths, const RuntimeMethod* method)
 {
-	InvokerActionInvoker1< StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* >::Invoke(__this->___method_ptr_0, method, NULL, ___paths0);
+	InvokerActionInvoker1< StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* >::Invoke(__this->___method_ptr_0, method, NULL, ___0_paths);
 }
-void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_ClosedStaticInvoker(OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___paths0, const RuntimeMethod* method)
+void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_ClosedStaticInvoker(OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_paths, const RuntimeMethod* method)
 {
-	InvokerActionInvoker2< RuntimeObject*, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___paths0);
+	InvokerActionInvoker2< RuntimeObject*, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___0_paths);
 }
-IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___paths0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_paths, const RuntimeMethod* method)
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc)(char**);
 	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
-	// Marshaling of parameter '___paths0' to native representation
-	char** ____paths0_marshaled = NULL;
-	if (___paths0 != NULL)
+	// Marshaling of parameter '___0_paths' to native representation
+	char** ____0_paths_marshaled = NULL;
+	if (___0_paths != NULL)
 	{
-		il2cpp_array_size_t ____paths0_Length = (___paths0)->max_length;
-		____paths0_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____paths0_Length + 1);
-		(____paths0_marshaled)[____paths0_Length] = NULL;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____paths0_Length); i++)
+		il2cpp_array_size_t ____0_paths_Length = (___0_paths)->max_length;
+		____0_paths_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____0_paths_Length + 1);
+		(____0_paths_marshaled)[____0_paths_Length] = NULL;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____0_paths_Length); i++)
 		{
-			(____paths0_marshaled)[i] = il2cpp_codegen_marshal_string((___paths0)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+			(____0_paths_marshaled)[i] = il2cpp_codegen_marshal_string((___0_paths)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
 		}
 	}
 	else
 	{
-		____paths0_marshaled = NULL;
+		____0_paths_marshaled = NULL;
 	}
 
 	// Native function invocation
-	il2cppPInvokeFunc(____paths0_marshaled);
+	il2cppPInvokeFunc(____0_paths_marshaled);
 
-	// Marshaling cleanup of parameter '___paths0' native representation
-	if (____paths0_marshaled != NULL)
+	// Marshaling cleanup of parameter '___0_paths' native representation
+	if (____0_paths_marshaled != NULL)
 	{
-		const il2cpp_array_size_t ____paths0_marshaled_CleanupLoopCount = (___paths0 != NULL) ? (___paths0)->max_length : 0;
-		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____paths0_marshaled_CleanupLoopCount); i++)
+		const il2cpp_array_size_t ____0_paths_marshaled_CleanupLoopCount = (___0_paths != NULL) ? (___0_paths)->max_length : 0;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____0_paths_marshaled_CleanupLoopCount); i++)
 		{
-			il2cpp_codegen_marshal_free((____paths0_marshaled)[i]);
-			(____paths0_marshaled)[i] = NULL;
+			il2cpp_codegen_marshal_free((____0_paths_marshaled)[i]);
+			(____0_paths_marshaled)[i] = NULL;
 		}
-		il2cpp_codegen_marshal_free(____paths0_marshaled);
-		____paths0_marshaled = NULL;
+		il2cpp_codegen_marshal_free(____0_paths_marshaled);
+		____0_paths_marshaled = NULL;
 	}
 
 }
 // System.Void SimpleFileBrowser.FileBrowser/OnSuccess::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnSuccess__ctor_mAED1943D7906AE017191AFC0DC639FCD5B016D25 (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnSuccess__ctor_mAED1943D7906AE017191AFC0DC639FCD5B016D25 (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
 	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
 	{
 		bool isOpen = parameterCount == 1;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
 			if (isOpen)
 				__this->___invoke_impl_1 = (intptr_t)&OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_OpenStaticInvoker;
 			else
@@ -22200,7 +22618,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnSuccess__ctor_mAED1943D7906AE017191AFC
 		}
 		else
 		{
-			if (___object0 == NULL)
+			if (___0_object == NULL)
 				il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
 			__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
 			__this->___method_code_6 = (intptr_t)__this->___m_target_2;
@@ -22209,22 +22627,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnSuccess__ctor_mAED1943D7906AE017191AFC
 	__this->___extra_arg_5 = (intptr_t)&OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_Multicast;
 }
 // System.Void SimpleFileBrowser.FileBrowser/OnSuccess::Invoke(System.String[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___paths0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_paths, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___paths0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_paths, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 // System.IAsyncResult SimpleFileBrowser.FileBrowser/OnSuccess::BeginInvoke(System.String[],System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnSuccess_BeginInvoke_mC2A00A176DF5240F86FFF69E73BCBCAE4A3641E2 (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___paths0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnSuccess_BeginInvoke_mC2A00A176DF5240F86FFF69E73BCBCAE4A3641E2 (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_paths, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
-	__d_args[0] = ___paths0;
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+	__d_args[0] = ___0_paths;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
 // System.Void SimpleFileBrowser.FileBrowser/OnSuccess::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnSuccess_EndInvoke_mFBB23F394B914823AEBF9ABA3FA0490A12305CE1 (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnSuccess_EndInvoke_mFBB23F394B914823AEBF9ABA3FA0490A12305CE1 (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -22272,18 +22690,18 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnCancel_tC31F32093ADD242D943EB71A3
 
 }
 // System.Void SimpleFileBrowser.FileBrowser/OnCancel::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnCancel__ctor_m26ACFA25E1D02F85A27B166AF42CFCFBFFD0772C (OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnCancel__ctor_m26ACFA25E1D02F85A27B166AF42CFCFBFFD0772C (OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
 	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
 	{
 		bool isOpen = parameterCount == 0;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
 			if (isOpen)
 				__this->___invoke_impl_1 = (intptr_t)&OnCancel_Invoke_mE143A09B94A5BA1EC2E849F9442BA582C0A74361_OpenStaticInvoker;
 			else
@@ -22299,7 +22717,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnCancel__ctor_m26ACFA25E1D02F85A27B166A
 	}
 	else
 	{
-		if (___object0 == NULL)
+		if (___0_object == NULL)
 			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
 		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
 		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
@@ -22313,15 +22731,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnCancel_Invoke_mE143A09B94A5BA1EC2E849F
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 // System.IAsyncResult SimpleFileBrowser.FileBrowser/OnCancel::BeginInvoke(System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnCancel_BeginInvoke_mE5AFDA66A648E987B9AF356AF0535A93F31FF8FA (OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback0, RuntimeObject* ___object1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnCancel_BeginInvoke_mE5AFDA66A648E987B9AF356AF0535A93F31FF8FA (OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___0_callback, RuntimeObject* ___1_object, const RuntimeMethod* method) 
 {
 	void *__d_args[1] = {0};
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback0, (RuntimeObject*)___object1);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___0_callback, (RuntimeObject*)___1_object);
 }
 // System.Void SimpleFileBrowser.FileBrowser/OnCancel::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnCancel_EndInvoke_m3E2A8577E6F859560F80CEB507DB1A73A9B8987D (OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnCancel_EndInvoke_m3E2A8577E6F859560F80CEB507DB1A73A9B8987D (OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -22331,7 +22749,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnCancel_EndInvoke_m3E2A8577E6F859560F80
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_Multicast(FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___entry0, const RuntimeMethod* method)
+bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_Multicast(FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_entry, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates_13->max_length;
 	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
@@ -22340,59 +22758,59 @@ bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_Mult
 	{
 		FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* currentDelegate = reinterpret_cast<FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE*>(delegatesToInvoke[i]);
 		typedef bool (*FunctionPointerType) (RuntimeObject*, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1, const RuntimeMethod*);
-		retVal = ((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___entry0, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+		retVal = ((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___0_entry, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
 	}
 	return retVal;
 }
-bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_OpenInst(FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___entry0, const RuntimeMethod* method)
+bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_OpenInst(FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_entry, const RuntimeMethod* method)
 {
 	typedef bool (*FunctionPointerType) (FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1, const RuntimeMethod*);
-	return ((FunctionPointerType)__this->___method_ptr_0)(___entry0, method);
+	return ((FunctionPointerType)__this->___method_ptr_0)(___0_entry, method);
 }
-bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_OpenStatic(FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___entry0, const RuntimeMethod* method)
+bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_OpenStatic(FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_entry, const RuntimeMethod* method)
 {
 	typedef bool (*FunctionPointerType) (FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1, const RuntimeMethod*);
-	return ((FunctionPointerType)__this->___method_ptr_0)(___entry0, method);
+	return ((FunctionPointerType)__this->___method_ptr_0)(___0_entry, method);
 }
-bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_OpenStaticInvoker(FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___entry0, const RuntimeMethod* method)
+bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_OpenStaticInvoker(FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_entry, const RuntimeMethod* method)
 {
-	return InvokerFuncInvoker1< bool, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 >::Invoke(__this->___method_ptr_0, method, NULL, ___entry0);
+	return InvokerFuncInvoker1< bool, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 >::Invoke(__this->___method_ptr_0, method, NULL, ___0_entry);
 }
-bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_ClosedStaticInvoker(FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___entry0, const RuntimeMethod* method)
+bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_ClosedStaticInvoker(FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_entry, const RuntimeMethod* method)
 {
-	return InvokerFuncInvoker2< bool, RuntimeObject*, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___entry0);
+	return InvokerFuncInvoker2< bool, RuntimeObject*, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___0_entry);
 }
-IL2CPP_EXTERN_C  bool DelegatePInvokeWrapper_FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___entry0, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  bool DelegatePInvokeWrapper_FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_entry, const RuntimeMethod* method)
 {
 
 
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc)(FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_marshaled_pinvoke);
 	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
-	// Marshaling of parameter '___entry0' to native representation
-	FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_marshaled_pinvoke ____entry0_marshaled = {};
-	FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_marshal_pinvoke(___entry0, ____entry0_marshaled);
+	// Marshaling of parameter '___0_entry' to native representation
+	FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_marshaled_pinvoke ____0_entry_marshaled = {};
+	FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_marshal_pinvoke(___0_entry, ____0_entry_marshaled);
 
 	// Native function invocation
-	int32_t returnValue = il2cppPInvokeFunc(____entry0_marshaled);
+	int32_t returnValue = il2cppPInvokeFunc(____0_entry_marshaled);
 
-	// Marshaling cleanup of parameter '___entry0' native representation
-	FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_marshal_pinvoke_cleanup(____entry0_marshaled);
+	// Marshaling cleanup of parameter '___0_entry' native representation
+	FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_marshal_pinvoke_cleanup(____0_entry_marshaled);
 
 	return static_cast<bool>(returnValue);
 }
 // System.Void SimpleFileBrowser.FileBrowser/FileSystemEntryFilter::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemEntryFilter__ctor_m3869D23A38762C2C87A6B728CFEBBEADB8FF817E (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemEntryFilter__ctor_m3869D23A38762C2C87A6B728CFEBBEADB8FF817E (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
 	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
 	{
 		bool isOpen = parameterCount == 1;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
 			if (isOpen)
 				__this->___invoke_impl_1 = (intptr_t)&FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_OpenStaticInvoker;
 			else
@@ -22408,7 +22826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemEntryFilter__ctor_m3869D23A387
 	}
 	else
 	{
-		if (___object0 == NULL)
+		if (___0_object == NULL)
 			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
 		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
 		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
@@ -22416,13 +22834,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemEntryFilter__ctor_m3869D23A387
 	__this->___extra_arg_5 = (intptr_t)&FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_Multicast;
 }
 // System.Boolean SimpleFileBrowser.FileBrowser/FileSystemEntryFilter::Invoke(SimpleFileBrowser.FileSystemEntry)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___entry0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_entry, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1, const RuntimeMethod*);
-	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___entry0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_entry, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 // System.IAsyncResult SimpleFileBrowser.FileBrowser/FileSystemEntryFilter::BeginInvoke(SimpleFileBrowser.FileSystemEntry,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FileSystemEntryFilter_BeginInvoke_m705E174CB6DADA9AEB3174922D9B32752F12489B (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___entry0, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback1, RuntimeObject* ___object2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FileSystemEntryFilter_BeginInvoke_m705E174CB6DADA9AEB3174922D9B32752F12489B (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_entry, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -22431,13 +22849,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* FileSystemEntryFilter_BeginInv
 		s_Il2CppMethodInitialized = true;
 	}
 	void *__d_args[2] = {0};
-	__d_args[0] = Box(FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_il2cpp_TypeInfo_var, &___entry0);
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback1, (RuntimeObject*)___object2);
+	__d_args[0] = Box(FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_il2cpp_TypeInfo_var, &___0_entry);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
 // System.Boolean SimpleFileBrowser.FileBrowser/FileSystemEntryFilter::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileSystemEntryFilter_EndInvoke_m31005911F9DC628C5979B063494F67830D48D611 (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileSystemEntryFilter_EndInvoke_m31005911F9DC628C5979B063494F67830D48D611 (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
-	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 	return *(bool*)UnBox ((RuntimeObject*)__result);
 }
 #ifdef __clang__
@@ -22448,7 +22866,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileSystemEntryFilter_EndInvoke_m3100591
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_Multicast(AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___rawUri0, String_t* ___name1, const RuntimeMethod* method)
+void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_Multicast(AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___0_rawUri, String_t* ___1_name, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates_13->max_length;
 	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates_13->GetAddressAtUnchecked(0));
@@ -22456,65 +22874,65 @@ void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032
 	{
 		AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* currentDelegate = reinterpret_cast<AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0*>(delegatesToInvoke[i]);
 		typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, String_t*, const RuntimeMethod*);
-		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___rawUri0, ___name1, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
+		((FunctionPointerType)currentDelegate->___invoke_impl_1)((Il2CppObject*)currentDelegate->___method_code_6, ___0_rawUri, ___1_name, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method_3));
 	}
 }
-void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_OpenInst(AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___rawUri0, String_t* ___name1, const RuntimeMethod* method)
+void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_OpenInst(AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___0_rawUri, String_t* ___1_name, const RuntimeMethod* method)
 {
-	NullCheck(___rawUri0);
+	NullCheck(___0_rawUri);
 	typedef void (*FunctionPointerType) (String_t*, String_t*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr_0)(___rawUri0, ___name1, method);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_rawUri, ___1_name, method);
 }
-void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_OpenStatic(AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___rawUri0, String_t* ___name1, const RuntimeMethod* method)
+void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_OpenStatic(AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___0_rawUri, String_t* ___1_name, const RuntimeMethod* method)
 {
 	typedef void (*FunctionPointerType) (String_t*, String_t*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___method_ptr_0)(___rawUri0, ___name1, method);
+	((FunctionPointerType)__this->___method_ptr_0)(___0_rawUri, ___1_name, method);
 }
-void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_OpenStaticInvoker(AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___rawUri0, String_t* ___name1, const RuntimeMethod* method)
+void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_OpenStaticInvoker(AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___0_rawUri, String_t* ___1_name, const RuntimeMethod* method)
 {
-	InvokerActionInvoker2< String_t*, String_t* >::Invoke(__this->___method_ptr_0, method, NULL, ___rawUri0, ___name1);
+	InvokerActionInvoker2< String_t*, String_t* >::Invoke(__this->___method_ptr_0, method, NULL, ___0_rawUri, ___1_name);
 }
-void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_ClosedStaticInvoker(AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___rawUri0, String_t* ___name1, const RuntimeMethod* method)
+void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_ClosedStaticInvoker(AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___0_rawUri, String_t* ___1_name, const RuntimeMethod* method)
 {
-	InvokerActionInvoker3< RuntimeObject*, String_t*, String_t* >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___rawUri0, ___name1);
+	InvokerActionInvoker3< RuntimeObject*, String_t*, String_t* >::Invoke(__this->___method_ptr_0, method, NULL, __this->___m_target_2, ___0_rawUri, ___1_name);
 }
-IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0 (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___rawUri0, String_t* ___name1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0 (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___0_rawUri, String_t* ___1_name, const RuntimeMethod* method)
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc)(char*, char*);
 	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
-	// Marshaling of parameter '___rawUri0' to native representation
-	char* ____rawUri0_marshaled = NULL;
-	____rawUri0_marshaled = il2cpp_codegen_marshal_string(___rawUri0);
+	// Marshaling of parameter '___0_rawUri' to native representation
+	char* ____0_rawUri_marshaled = NULL;
+	____0_rawUri_marshaled = il2cpp_codegen_marshal_string(___0_rawUri);
 
-	// Marshaling of parameter '___name1' to native representation
-	char* ____name1_marshaled = NULL;
-	____name1_marshaled = il2cpp_codegen_marshal_string(___name1);
+	// Marshaling of parameter '___1_name' to native representation
+	char* ____1_name_marshaled = NULL;
+	____1_name_marshaled = il2cpp_codegen_marshal_string(___1_name);
 
 	// Native function invocation
-	il2cppPInvokeFunc(____rawUri0_marshaled, ____name1_marshaled);
+	il2cppPInvokeFunc(____0_rawUri_marshaled, ____1_name_marshaled);
 
-	// Marshaling cleanup of parameter '___rawUri0' native representation
-	il2cpp_codegen_marshal_free(____rawUri0_marshaled);
-	____rawUri0_marshaled = NULL;
+	// Marshaling cleanup of parameter '___0_rawUri' native representation
+	il2cpp_codegen_marshal_free(____0_rawUri_marshaled);
+	____0_rawUri_marshaled = NULL;
 
-	// Marshaling cleanup of parameter '___name1' native representation
-	il2cpp_codegen_marshal_free(____name1_marshaled);
-	____name1_marshaled = NULL;
+	// Marshaling cleanup of parameter '___1_name' native representation
+	il2cpp_codegen_marshal_free(____1_name_marshaled);
+	____1_name_marshaled = NULL;
 
 }
 // System.Void SimpleFileBrowser.FileBrowser/AndroidSAFDirectoryPickCallback::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidSAFDirectoryPickCallback__ctor_mEB5F8227A1E8CDCED8C3ECD8376AE31CF8903FDD (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidSAFDirectoryPickCallback__ctor_mEB5F8227A1E8CDCED8C3ECD8376AE31CF8903FDD (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
 	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
 	{
 		bool isOpen = parameterCount == 2;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
 			if (isOpen)
 				__this->___invoke_impl_1 = (intptr_t)&AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_OpenStaticInvoker;
 			else
@@ -22537,7 +22955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidSAFDirectoryPickCallback__ctor_mE
 		}
 		else
 		{
-			if (___object0 == NULL)
+			if (___0_object == NULL)
 				il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
 			__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
 			__this->___method_code_6 = (intptr_t)__this->___m_target_2;
@@ -22546,23 +22964,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidSAFDirectoryPickCallback__ctor_mE
 	__this->___extra_arg_5 = (intptr_t)&AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_Multicast;
 }
 // System.Void SimpleFileBrowser.FileBrowser/AndroidSAFDirectoryPickCallback::Invoke(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2 (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___rawUri0, String_t* ___name1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2 (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___0_rawUri, String_t* ___1_name, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, String_t*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___rawUri0, ___name1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_rawUri, ___1_name, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 // System.IAsyncResult SimpleFileBrowser.FileBrowser/AndroidSAFDirectoryPickCallback::BeginInvoke(System.String,System.String,System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidSAFDirectoryPickCallback_BeginInvoke_m2047E6C0CE1DCAFA8F1CA8E7BC493DFEE3CB4827 (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___rawUri0, String_t* ___name1, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback2, RuntimeObject* ___object3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidSAFDirectoryPickCallback_BeginInvoke_m2047E6C0CE1DCAFA8F1CA8E7BC493DFEE3CB4827 (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___0_rawUri, String_t* ___1_name, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
 {
 	void *__d_args[3] = {0};
-	__d_args[0] = ___rawUri0;
-	__d_args[1] = ___name1;
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback2, (RuntimeObject*)___object3);
+	__d_args[0] = ___0_rawUri;
+	__d_args[1] = ___1_name;
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
 }
 // System.Void SimpleFileBrowser.FileBrowser/AndroidSAFDirectoryPickCallback::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidSAFDirectoryPickCallback_EndInvoke_m72698C26E66C3F1D3B62E9C6B05304E758D7D229 (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidSAFDirectoryPickCallback_EndInvoke_m72698C26E66C3F1D3B62E9C6B05304E758D7D229 (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -22601,7 +23019,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass220_0_U3COnSubmitBu
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void SimpleFileBrowser.FileBrowser/<>c::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m907FDC5153760B702813F89A1403512782C27FCD (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m587E4BAE1BF284F791ECF73F827128D631CBEC7E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -22627,7 +23045,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mDC67BB8C9A0B1001B8C37486C
 	}
 }
 // System.Int32 SimpleFileBrowser.FileBrowser/<>c::<RefreshFiles>b__236_0(SimpleFileBrowser.FileSystemEntry,SimpleFileBrowser.FileSystemEntry)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CRefreshFilesU3Eb__236_0_mE12282742C87B1CF40426F7831E5DD8551C26B7F (U3CU3Ec_t6465B650974F0FB45FBE66E11C631E405F31D4F0* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___entry10, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___entry21, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CRefreshFilesU3Eb__236_0_mE12282742C87B1CF40426F7831E5DD8551C26B7F (U3CU3Ec_t6465B650974F0FB45FBE66E11C631E405F31D4F0* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_entry1, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___1_entry2, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	int32_t V_1 = 0;
@@ -22635,9 +23053,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CRefreshFilesU3Eb__236_0_mE
 	{
 		// if( entry1.IsDirectory != entry2.IsDirectory )
 		bool L_0;
-		L_0 = FileSystemEntry_get_IsDirectory_m5B6EAD6DAC01DC97FA18BF8C82FB57CD009F9E53((&___entry10), NULL);
+		L_0 = FileSystemEntry_get_IsDirectory_m5B6EAD6DAC01DC97FA18BF8C82FB57CD009F9E53((&___0_entry1), NULL);
 		bool L_1;
-		L_1 = FileSystemEntry_get_IsDirectory_m5B6EAD6DAC01DC97FA18BF8C82FB57CD009F9E53((&___entry21), NULL);
+		L_1 = FileSystemEntry_get_IsDirectory_m5B6EAD6DAC01DC97FA18BF8C82FB57CD009F9E53((&___1_entry2), NULL);
 		V_0 = (bool)((((int32_t)((((int32_t)L_0) == ((int32_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
@@ -22648,7 +23066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CRefreshFilesU3Eb__236_0_mE
 	{
 		// return entry1.IsDirectory ? -1 : 1;
 		bool L_3;
-		L_3 = FileSystemEntry_get_IsDirectory_m5B6EAD6DAC01DC97FA18BF8C82FB57CD009F9E53((&___entry10), NULL);
+		L_3 = FileSystemEntry_get_IsDirectory_m5B6EAD6DAC01DC97FA18BF8C82FB57CD009F9E53((&___0_entry1), NULL);
 		if (L_3)
 		{
 			goto IL_0024;
@@ -22673,9 +23091,9 @@ IL_0025:
 IL_0028:
 	{
 		// return entry1.Name.CompareTo( entry2.Name );
-		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_4 = ___entry10;
+		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_4 = ___0_entry1;
 		String_t* L_5 = L_4.___Name_1;
-		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_6 = ___entry21;
+		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_6 = ___1_entry2;
 		String_t* L_7 = L_6.___Name_1;
 		NullCheck(L_5);
 		int32_t L_8;
@@ -22700,11 +23118,11 @@ IL_003c:
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void SimpleFileBrowser.FileBrowser/<CreateNewFolderCoroutine>d__241::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateNewFolderCoroutineU3Ed__241__ctor_mF89B78AA43299DAFF0A7A50CF874F9C8688E8356 (U3CCreateNewFolderCoroutineU3Ed__241_t992A5B557642F89A3D7E0B62E181D10D0D19CEEC* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CCreateNewFolderCoroutineU3Ed__241__ctor_mF89B78AA43299DAFF0A7A50CF874F9C8688E8356 (U3CCreateNewFolderCoroutineU3Ed__241_t992A5B557642F89A3D7E0B62E181D10D0D19CEEC* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
+		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state_0 = L_0;
 		return;
 	}
@@ -22790,7 +23208,7 @@ IL_0029:
 		NullCheck(L_4);
 		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_5 = L_4->___filesScrollRect_63;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
-		L_6 = Vector2_get_zero_m009B92B5D35AB02BD1610C2E1ACCE7C9CF964A6E_inline(NULL);
+		L_6 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_5);
 		ScrollRect_set_velocity_mBC8D4BC0A0184FCC3AEB359AE68E9130E811AFC2(L_5, L_6, NULL);
 		// if( selectedFileEntries.Count > 0 )
@@ -23006,7 +23424,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass242_0__ctor_m21D88A
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowser/<>c__DisplayClass242_0::<RenameSelectedFile>b__0(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass242_0_U3CRenameSelectedFileU3Eb__0_m19BE32CD9C67424D83ED12FE9992BA03304DDBE4 (U3CU3Ec__DisplayClass242_0_t21574AB45B70E2B8B193046A6F51072EAFCA7423* __this, String_t* ___newName0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass242_0_U3CRenameSelectedFileU3Eb__0_m19BE32CD9C67424D83ED12FE9992BA03304DDBE4 (U3CU3Ec__DisplayClass242_0_t21574AB45B70E2B8B193046A6F51072EAFCA7423* __this, String_t* ___0_newName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -23023,20 +23441,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass242_0_U3CRenameSele
 	int32_t G_B15_0 = 0;
 	{
 		// if( string.IsNullOrEmpty( newName ) || newName == fileInfo.Name )
-		String_t* L_0 = ___newName0;
+		String_t* L_0 = ___0_newName;
 		bool L_1;
-		L_1 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_0, NULL);
+		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
 		if (L_1)
 		{
 			goto IL_001c;
 		}
 	}
 	{
-		String_t* L_2 = ___newName0;
+		String_t* L_2 = ___0_newName;
 		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* L_3 = (&__this->___fileInfo_0);
 		String_t* L_4 = L_3->___Name_1;
 		bool L_5;
-		L_5 = String_op_Equality_m0D685A924E5CD78078F248ED1726DA5A9D7D6AC0(L_2, L_4, NULL);
+		L_5 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_2, L_4, NULL);
 		G_B3_0 = ((int32_t)(L_5));
 		goto IL_001d;
 	}
@@ -23077,9 +23495,9 @@ IL_0026:
 		// FileBrowserHelpers.RenameDirectory( fileInfo.Path, newName );
 		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* L_10 = (&__this->___fileInfo_0);
 		String_t* L_11 = L_10->___Path_0;
-		String_t* L_12 = ___newName0;
+		String_t* L_12 = ___0_newName;
 		String_t* L_13;
-		L_13 = FileBrowserHelpers_RenameDirectory_m006A6B9AAECF8288AF9D689AC23C54F6E6518DEB(L_11, L_12, NULL);
+		L_13 = FileBrowserHelpers_RenameDirectory_m29646F29E0E519BF9B60F7108E9B5C227EEBCB29(L_11, L_12, NULL);
 		goto IL_005b;
 	}
 
@@ -23088,9 +23506,9 @@ IL_0049:
 		// FileBrowserHelpers.RenameFile( fileInfo.Path, newName );
 		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* L_14 = (&__this->___fileInfo_0);
 		String_t* L_15 = L_14->___Path_0;
-		String_t* L_16 = ___newName0;
+		String_t* L_16 = ___0_newName;
 		String_t* L_17;
-		L_17 = FileBrowserHelpers_RenameFile_m28EC14810CA6B6A17C271ABC2AC2BFA21DDE67D9(L_15, L_16, NULL);
+		L_17 = FileBrowserHelpers_RenameFile_m73347952A287B918D3101E781F000BA89255F665(L_15, L_16, NULL);
 	}
 
 IL_005b:
@@ -23105,7 +23523,7 @@ IL_005b:
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_20 = __this->___U3CU3E4__this_1;
 		NullCheck(L_20);
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_21 = L_20->___pendingFileEntrySelection_86;
-		String_t* L_22 = ___newName0;
+		String_t* L_22 = ___0_newName;
 		NullCheck(L_21);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_21, L_22, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
 		// RefreshFiles( true );
@@ -23179,7 +23597,7 @@ IL_00c9:
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_33 = __this->___U3CU3E4__this_1;
 		NullCheck(L_33);
 		InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* L_34 = L_33->___filenameInputField_65;
-		String_t* L_35 = ___newName0;
+		String_t* L_35 = ___0_newName;
 		NullCheck(L_34);
 		InputField_set_text_m28B1C806BBCAC44F3ACCDC3B550509CA0C7D257F(L_34, L_35, NULL);
 	}
@@ -23199,11 +23617,11 @@ IL_00df:
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void SimpleFileBrowser.FileBrowser/<WaitForSaveDialog>d__264::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForSaveDialogU3Ed__264__ctor_mAACF2B62EAEB977B6E0DA1F7DB5345349441E537 (U3CWaitForSaveDialogU3Ed__264_t15DCB29ED5436BB9EC2F69D03DDFDF605D8FCD09* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForSaveDialogU3Ed__264__ctor_mAACF2B62EAEB977B6E0DA1F7DB5345349441E537 (U3CWaitForSaveDialogU3Ed__264_t15DCB29ED5436BB9EC2F69D03DDFDF605D8FCD09* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
+		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state_0 = L_0;
 		return;
 	}
@@ -23279,7 +23697,7 @@ IL_0018:
 		String_t* L_8 = __this->___saveButtonText_7;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		bool L_9;
-		L_9 = FileBrowser_ShowSaveDialog_m144B1D73495975776018A3D243D9C5902CAA8B2C((OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE*)NULL, (OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B*)NULL, L_3, L_4, L_5, L_6, L_7, L_8, NULL);
+		L_9 = FileBrowser_ShowSaveDialog_mBF81960D923B68B03EB2B2545FE2EB3E31439049((OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE*)NULL, (OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B*)NULL, L_3, L_4, L_5, L_6, L_7, L_8, NULL);
 		V_1 = (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
 		bool L_10 = V_1;
 		if (!L_10)
@@ -23316,7 +23734,7 @@ IL_006d:
 		// while( Instance.gameObject.activeSelf )
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_11;
-		L_11 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_11 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
@@ -23370,11 +23788,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CWaitForSaveDialogU3Ed__264_
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void SimpleFileBrowser.FileBrowser/<WaitForLoadDialog>d__265::.ctor(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForLoadDialogU3Ed__265__ctor_mC93B4DB776B7735E61017BF5849390CD626ACDD6 (U3CWaitForLoadDialogU3Ed__265_tC9E7C1136C4F78302395A6B34E1FE8CF969786FC* __this, int32_t ___U3CU3E1__state0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CWaitForLoadDialogU3Ed__265__ctor_mC93B4DB776B7735E61017BF5849390CD626ACDD6 (U3CWaitForLoadDialogU3Ed__265_tC9E7C1136C4F78302395A6B34E1FE8CF969786FC* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		int32_t L_0 = ___U3CU3E1__state0;
+		int32_t L_0 = ___0_U3CU3E1__state;
 		__this->___U3CU3E1__state_0 = L_0;
 		return;
 	}
@@ -23450,7 +23868,7 @@ IL_0018:
 		String_t* L_8 = __this->___loadButtonText_7;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		bool L_9;
-		L_9 = FileBrowser_ShowLoadDialog_mAE177552745B54980984B3EBE1EB9830B79DC082((OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE*)NULL, (OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B*)NULL, L_3, L_4, L_5, L_6, L_7, L_8, NULL);
+		L_9 = FileBrowser_ShowLoadDialog_m2D0B708FC10E2D7A1DABAA36782E9C193B9A4B97((OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE*)NULL, (OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B*)NULL, L_3, L_4, L_5, L_6, L_7, L_8, NULL);
 		V_1 = (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
 		bool L_10 = V_1;
 		if (!L_10)
@@ -23487,7 +23905,7 @@ IL_006d:
 		// while( Instance.gameObject.activeSelf )
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_11;
-		L_11 = FileBrowser_get_Instance_mB99D0C8AFF82F3377E62304CFB0C9210F2710DD4(NULL);
+		L_11 = FileBrowser_get_Instance_m685A42AE7FA00674B207050FDF5D70AA1D4C88AF(NULL);
 		NullCheck(L_11);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
 		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
@@ -23554,7 +23972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserAccessRestrictedPanel_Show_m5
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserAccessRestrictedPanel::RefreshSkin(SimpleFileBrowser.UISkin)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserAccessRestrictedPanel_RefreshSkin_m44E91D070077B59EDC47C0AED22B868AEB0D14AB (FileBrowserAccessRestrictedPanel_tC1AAEBE26B66832BCAE1D39CD9DEBDBC5E351F9E* __this, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___skin0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserAccessRestrictedPanel_RefreshSkin_m44E91D070077B59EDC47C0AED22B868AEB0D14AB (FileBrowserAccessRestrictedPanel_tC1AAEBE26B66832BCAE1D39CD9DEBDBC5E351F9E* __this, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___0_skin, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -23570,7 +23988,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserAccessRestrictedPanel_Refresh
 		V_0 = L_0;
 		// background.color = skin.PopupPanelsBackgroundColor;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_1 = V_0;
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_2 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_2 = ___0_skin;
 		NullCheck(L_2);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
 		L_3 = UISkin_get_PopupPanelsBackgroundColor_mFD32EEA3E08C2C5E27F5740EAECD5B1B7EB1EA13(L_2, NULL);
@@ -23578,21 +23996,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserAccessRestrictedPanel_Refresh
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_1, L_3);
 		// background.sprite = skin.PopupPanelsBackground;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = V_0;
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_5 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_5 = ___0_skin;
 		NullCheck(L_5);
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_6;
 		L_6 = UISkin_get_PopupPanelsBackground_m8A0FAE1B65A43E35C6D93707ED6051D806534098(L_5, NULL);
 		NullCheck(L_4);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_4, L_6, NULL);
 		// skin.ApplyTo( okButton );
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_7 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_7 = ___0_skin;
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_8 = __this->___okButton_5;
 		NullCheck(L_7);
 		UISkin_ApplyTo_m74872228D165B123D86A4E2692C2027E337A6602(L_7, L_8, NULL);
 		// skin.ApplyTo( messageLabel, skin.PopupPanelsTextColor );
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_9 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_9 = ___0_skin;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_10 = __this->___messageLabel_4;
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_11 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_11 = ___0_skin;
 		NullCheck(L_11);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12;
 		L_12 = UISkin_get_PopupPanelsTextColor_mDFD2A197B891E1F32FB73B291A467132C90920C2(L_11, NULL);
@@ -23632,7 +24050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserAccessRestrictedPanel__ctor_m
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void SimpleFileBrowser.FileBrowserContextMenu::Show(System.Boolean,System.Boolean,System.Boolean,System.Boolean,UnityEngine.Vector2,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_Show_mA733F9163F6D4929AF02FF90393B092D6A1BDCD8 (FileBrowserContextMenu_t2DDF7D4CB23A81DDA461574CE6D995FF47732595* __this, bool ___selectAllButtonVisible0, bool ___deselectAllButtonVisible1, bool ___deleteButtonVisible2, bool ___renameButtonVisible3, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___position4, bool ___isMoreOptionsMenu5, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_Show_mA733F9163F6D4929AF02FF90393B092D6A1BDCD8 (FileBrowserContextMenu_t2DDF7D4CB23A81DDA461574CE6D995FF47732595* __this, bool ___0_selectAllButtonVisible, bool ___1_deselectAllButtonVisible, bool ___2_deleteButtonVisible, bool ___3_renameButtonVisible, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___4_position, bool ___5_isMoreOptionsMenu, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -23661,7 +24079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_Show_mA733F9163F6
 		NullCheck(L_0);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_0, NULL);
-		bool L_2 = ___selectAllButtonVisible0;
+		bool L_2 = ___0_selectAllButtonVisible;
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, L_2, NULL);
 		// deselectAllButton.gameObject.SetActive( deselectAllButtonVisible );
@@ -23669,7 +24087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_Show_mA733F9163F6
 		NullCheck(L_3);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
 		L_4 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_3, NULL);
-		bool L_5 = ___deselectAllButtonVisible1;
+		bool L_5 = ___1_deselectAllButtonVisible;
 		NullCheck(L_4);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_4, L_5, NULL);
 		// deleteButton.gameObject.SetActive( deleteButtonVisible );
@@ -23677,7 +24095,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_Show_mA733F9163F6
 		NullCheck(L_6);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
 		L_7 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_6, NULL);
-		bool L_8 = ___deleteButtonVisible2;
+		bool L_8 = ___2_deleteButtonVisible;
 		NullCheck(L_7);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, L_8, NULL);
 		// renameButton.gameObject.SetActive( renameButtonVisible );
@@ -23685,17 +24103,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_Show_mA733F9163F6
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
 		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
-		bool L_11 = ___renameButtonVisible3;
+		bool L_11 = ___3_renameButtonVisible;
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, L_11, NULL);
 		// selectAllButtonSeparator.SetActive( !deselectAllButtonVisible );
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___selectAllButtonSeparator_11;
-		bool L_13 = ___deselectAllButtonVisible1;
+		bool L_13 = ___1_deselectAllButtonVisible;
 		NullCheck(L_12);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)((((int32_t)L_13) == ((int32_t)0))? 1 : 0), NULL);
 		// rectTransform.anchoredPosition = position;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_14 = __this->___rectTransform_5;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = ___position4;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = ___4_position;
 		NullCheck(L_14);
 		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_14, L_15, NULL);
 		// gameObject.SetActive( true );
@@ -23704,7 +24122,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_Show_mA733F9163F6
 		NullCheck(L_16);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
 		// if( isMoreOptionsMenu )
-		bool L_17 = ___isMoreOptionsMenu5;
+		bool L_17 = ___5_isMoreOptionsMenu;
 		V_0 = L_17;
 		bool L_18 = V_0;
 		if (!L_18)
@@ -23716,7 +24134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_Show_mA733F9163F6
 		// rectTransform.pivot = Vector2.one;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_19 = __this->___rectTransform_5;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_20;
-		L_20 = Vector2_get_one_m232E885D3C7BB6A96D5FEF4494709BA170447604_inline(NULL);
+		L_20 = Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline(NULL);
 		NullCheck(L_19);
 		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_19, L_20, NULL);
 		goto IL_023e;
@@ -23727,7 +24145,7 @@ IL_0091:
 		// LayoutRebuilder.ForceRebuildLayoutImmediate( rectTransform );
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_21 = __this->___rectTransform_5;
 		il2cpp_codegen_runtime_class_init_inline(LayoutRebuilder_tD2269CCD93BD5A8C4A92188C66E212B976FA6564_il2cpp_TypeInfo_var);
-		LayoutRebuilder_ForceRebuildLayoutImmediate_m1DFB9F055F838E4CB32A471460AEA23D85DA8B57(L_21, NULL);
+		LayoutRebuilder_ForceRebuildLayoutImmediate_mCCA094579654469919EFA4B5AA5D9AF93CD67B4A(L_21, NULL);
 		// Vector2 size = rectTransform.sizeDelta;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_22 = __this->___rectTransform_5;
 		NullCheck(L_22);
@@ -23754,13 +24172,13 @@ IL_0091:
 		L_30 = RectTransform_get_pivot_mA8334AF05AA7FF09A173A2430F2BB9E85E5CBFFF(L_29, NULL);
 		Vector2_Scale_mEACE26803ED193717CE821462D85F1CA0573C051_inline((&V_3), L_30, NULL);
 		// position += positionOffset;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_31 = ___position4;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_31 = ___4_position;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32 = V_3;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33;
-		L_33 = Vector2_op_Addition_m704B5B98EAFE885978381E21B7F89D9DF83C2A60_inline(L_31, L_32, NULL);
-		___position4 = L_33;
+		L_33 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_31, L_32, NULL);
+		___4_position = L_33;
 		// Vector2 cornerPos = position + new Vector2( size.x + minDistanceToEdges, -size.y - minDistanceToEdges );
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34 = ___position4;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34 = ___4_position;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_35 = V_1;
 		float L_36 = L_35.___x_0;
 		float L_37 = __this->___minDistanceToEdges_14;
@@ -23771,7 +24189,7 @@ IL_0091:
 		memset((&L_41), 0, sizeof(L_41));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_41), ((float)il2cpp_codegen_add(L_36, L_37)), ((float)il2cpp_codegen_subtract(((-L_39)), L_40)), /*hidden argument*/NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_42;
-		L_42 = Vector2_op_Addition_m704B5B98EAFE885978381E21B7F89D9DF83C2A60_inline(L_34, L_41, NULL);
+		L_42 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_34, L_41, NULL);
 		V_4 = L_42;
 		// if( cornerPos.x <= canvasSize.x && cornerPos.y >= 0f )
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_43 = V_4;
@@ -23818,7 +24236,7 @@ IL_012b:
 IL_0151:
 	{
 		// cornerPos = position - new Vector2( size.x + minDistanceToEdges, size.y + minDistanceToEdges );
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_52 = ___position4;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_52 = ___4_position;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_53 = V_1;
 		float L_54 = L_53.___x_0;
 		float L_55 = __this->___minDistanceToEdges_14;
@@ -23829,7 +24247,7 @@ IL_0151:
 		memset((&L_59), 0, sizeof(L_59));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_59), ((float)il2cpp_codegen_add(L_54, L_55)), ((float)il2cpp_codegen_add(L_57, L_58)), /*hidden argument*/NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_60;
-		L_60 = Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline(L_52, L_59, NULL);
+		L_60 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_52, L_59, NULL);
 		V_4 = L_60;
 		// if( cornerPos.x >= 0f && cornerPos.y >= 0f )
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_61 = V_4;
@@ -23864,7 +24282,7 @@ IL_019c:
 		// rectTransform.pivot = Vector2.one;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_66 = __this->___rectTransform_5;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_67;
-		L_67 = Vector2_get_one_m232E885D3C7BB6A96D5FEF4494709BA170447604_inline(NULL);
+		L_67 = Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline(NULL);
 		NullCheck(L_66);
 		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_66, L_67, NULL);
 		goto IL_023c;
@@ -23873,7 +24291,7 @@ IL_019c:
 IL_01b8:
 	{
 		// cornerPos = position + new Vector2( size.x + minDistanceToEdges, size.y + minDistanceToEdges );
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_68 = ___position4;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_68 = ___4_position;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_69 = V_1;
 		float L_70 = L_69.___x_0;
 		float L_71 = __this->___minDistanceToEdges_14;
@@ -23884,7 +24302,7 @@ IL_01b8:
 		memset((&L_75), 0, sizeof(L_75));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_75), ((float)il2cpp_codegen_add(L_70, L_71)), ((float)il2cpp_codegen_add(L_73, L_74)), /*hidden argument*/NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_76;
-		L_76 = Vector2_op_Addition_m704B5B98EAFE885978381E21B7F89D9DF83C2A60_inline(L_68, L_75, NULL);
+		L_76 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_68, L_75, NULL);
 		V_4 = L_76;
 		// if( cornerPos.x <= canvasSize.x && cornerPos.y <= canvasSize.y )
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_77 = V_4;
@@ -23923,7 +24341,7 @@ IL_0205:
 		// rectTransform.pivot = Vector2.zero;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_86 = __this->___rectTransform_5;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_87;
-		L_87 = Vector2_get_zero_m009B92B5D35AB02BD1610C2E1ACCE7C9CF964A6E_inline(NULL);
+		L_87 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_86);
 		RectTransform_set_pivot_m79D0177D383D432A93C2615F1932B739B1C6E146(L_86, L_87, NULL);
 		goto IL_023b;
@@ -23972,7 +24390,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_Hide_m4F44530197A
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserContextMenu::RefreshSkin(SimpleFileBrowser.UISkin)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_RefreshSkin_mA4DA4B81E3CD5F07DAC9C1C03812E99F8517E58F (FileBrowserContextMenu_t2DDF7D4CB23A81DDA461574CE6D995FF47732595* __this, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___skin0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_RefreshSkin_mA4DA4B81E3CD5F07DAC9C1C03812E99F8517E58F (FileBrowserContextMenu_t2DDF7D4CB23A81DDA461574CE6D995FF47732595* __this, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___0_skin, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -23990,7 +24408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_RefreshSkin_mA4DA
 		NullCheck(L_0);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_1;
 		L_1 = Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79(L_0, Component_GetComponent_TisImage_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_mE74EE63C85A63FC34DCFC631BC229207B420BC79_RuntimeMethod_var);
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_2 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_2 = ___0_skin;
 		NullCheck(L_2);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
 		L_3 = UISkin_get_ContextMenuBackgroundColor_mB22BB4E4E1F1174790B7C5155A6A56C19ECBB545(L_2, NULL);
@@ -24001,7 +24419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_RefreshSkin_mA4DA
 		NullCheck(L_4);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_5;
 		L_5 = Selectable_get_image_m88664022F6BC90E7B8D4BFCBA7FE24B48E90C639(L_4, NULL);
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_6 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_6 = ___0_skin;
 		NullCheck(L_6);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7;
 		L_7 = UISkin_get_ContextMenuBackgroundColor_mB22BB4E4E1F1174790B7C5155A6A56C19ECBB545(L_6, NULL);
@@ -24012,7 +24430,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_RefreshSkin_mA4DA
 		NullCheck(L_8);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_9;
 		L_9 = Selectable_get_image_m88664022F6BC90E7B8D4BFCBA7FE24B48E90C639(L_8, NULL);
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_10 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_10 = ___0_skin;
 		NullCheck(L_10);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_11;
 		L_11 = UISkin_get_ContextMenuBackgroundColor_mB22BB4E4E1F1174790B7C5155A6A56C19ECBB545(L_10, NULL);
@@ -24023,7 +24441,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_RefreshSkin_mA4DA
 		NullCheck(L_12);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_13;
 		L_13 = Selectable_get_image_m88664022F6BC90E7B8D4BFCBA7FE24B48E90C639(L_12, NULL);
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_14 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_14 = ___0_skin;
 		NullCheck(L_14);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15;
 		L_15 = UISkin_get_ContextMenuBackgroundColor_mB22BB4E4E1F1174790B7C5155A6A56C19ECBB545(L_14, NULL);
@@ -24034,7 +24452,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_RefreshSkin_mA4DA
 		NullCheck(L_16);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_17;
 		L_17 = Selectable_get_image_m88664022F6BC90E7B8D4BFCBA7FE24B48E90C639(L_16, NULL);
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_18 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_18 = ___0_skin;
 		NullCheck(L_18);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19;
 		L_19 = UISkin_get_ContextMenuBackgroundColor_mB22BB4E4E1F1174790B7C5155A6A56C19ECBB545(L_18, NULL);
@@ -24045,7 +24463,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_RefreshSkin_mA4DA
 		NullCheck(L_20);
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_21;
 		L_21 = Selectable_get_image_m88664022F6BC90E7B8D4BFCBA7FE24B48E90C639(L_20, NULL);
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_22 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_22 = ___0_skin;
 		NullCheck(L_22);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_23;
 		L_23 = UISkin_get_ContextMenuBackgroundColor_mB22BB4E4E1F1174790B7C5155A6A56C19ECBB545(L_22, NULL);
@@ -24059,13 +24477,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserContextMenu_RefreshSkin_mA4DA
 IL_008f:
 	{
 		// skin.ApplyTo( allButtonTexts[i], skin.ContextMenuTextColor );
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_24 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_24 = ___0_skin;
 		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_25 = __this->___allButtonTexts_12;
 		int32_t L_26 = V_0;
 		NullCheck(L_25);
 		int32_t L_27 = L_26;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_28 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_29 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_29 = ___0_skin;
 		NullCheck(L_29);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_30;
 		L_30 = UISkin_get_ContextMenuTextColor_m7442C31C4B35D1CC6BF57F8BB91C4C7AABE6E76A(L_29, NULL);
@@ -24103,7 +24521,7 @@ IL_00bb:
 		NullCheck(L_35);
 		int32_t L_37 = L_36;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_38 = (L_35)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_39 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_39 = ___0_skin;
 		NullCheck(L_39);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_40;
 		L_40 = UISkin_get_ContextMenuSeparatorColor_mD624EE6AEA7EB9986A1A0EBA099A218D9FDEB8B9(L_39, NULL);
@@ -24237,21 +24655,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserCursorHandler__ctor_mE7AF5F81
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel::Show(SimpleFileBrowser.FileBrowser,System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>,SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel/OperationType,SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel/OnOperationConfirmed)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_Show_mA1BDB18DC17DC1B2842A134649A540E3E25BDFD5 (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* ___fileBrowser0, List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* ___items1, int32_t ___operationType2, OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* ___onOperationConfirmed3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_Show_mA1BDB18DC17DC1B2842A134649A540E3E25BDFD5 (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* ___0_fileBrowser, List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* ___1_items, int32_t ___2_operationType, OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* ___3_onOperationConfirmed, const RuntimeMethod* method) 
 {
 	{
 		// Show( fileBrowser, items, null, operationType, onOperationConfirmed );
-		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_0 = ___fileBrowser0;
-		List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* L_1 = ___items1;
-		int32_t L_2 = ___operationType2;
-		OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* L_3 = ___onOperationConfirmed3;
+		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_0 = ___0_fileBrowser;
+		List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* L_1 = ___1_items;
+		int32_t L_2 = ___2_operationType;
+		OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* L_3 = ___3_onOperationConfirmed;
 		FileBrowserFileOperationConfirmationPanel_Show_mABF73277F67B8C5C2E573BDD036A08F30DCDDA73(__this, L_0, L_1, (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)NULL, L_2, L_3, NULL);
 		// }
 		return;
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel::Show(SimpleFileBrowser.FileBrowser,System.Collections.Generic.List`1<SimpleFileBrowser.FileSystemEntry>,System.Collections.Generic.List`1<System.Int32>,SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel/OperationType,SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel/OnOperationConfirmed)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_Show_mABF73277F67B8C5C2E573BDD036A08F30DCDDA73 (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* ___fileBrowser0, List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* ___items1, List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___selectedItemIndices2, int32_t ___operationType3, OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* ___onOperationConfirmed4, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_Show_mABF73277F67B8C5C2E573BDD036A08F30DCDDA73 (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* ___0_fileBrowser, List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* ___1_items, List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___2_selectedItemIndices, int32_t ___3_operationType, OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* ___4_onOperationConfirmed, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -24283,18 +24701,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPane
 	int32_t G_B17_0 = 0;
 	{
 		// this.onOperationConfirmed = onOperationConfirmed;
-		OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* L_0 = ___onOperationConfirmed4;
+		OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* L_0 = ___4_onOperationConfirmed;
 		__this->___onOperationConfirmed_13 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___onOperationConfirmed_13), (void*)L_0);
 		// int itemCount = ( selectedItemIndices != null ) ? selectedItemIndices.Count : items.Count;
-		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_1 = ___selectedItemIndices2;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_1 = ___2_selectedItemIndices;
 		if (L_1)
 		{
 			goto IL_0014;
 		}
 	}
 	{
-		List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* L_2 = ___items1;
+		List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* L_2 = ___1_items;
 		NullCheck(L_2);
 		int32_t L_3;
 		L_3 = List_1_get_Count_mDA7F3CFCF6F2A8790207DA9B92F27D27C864EC87_inline(L_2, List_1_get_Count_mDA7F3CFCF6F2A8790207DA9B92F27D27C864EC87_RuntimeMethod_var);
@@ -24304,7 +24722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPane
 
 IL_0014:
 	{
-		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_4 = ___selectedItemIndices2;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_4 = ___2_selectedItemIndices;
 		NullCheck(L_4);
 		int32_t L_5;
 		L_5 = List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline(L_4, List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
@@ -24330,7 +24748,7 @@ IL_001f:
 		NullCheck(L_9);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10;
 		L_10 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_9, NULL);
-		int32_t L_11 = ___operationType3;
+		int32_t L_11 = ___3_operationType;
 		int32_t L_12 = V_1;
 		NullCheck(L_10);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_10, (bool)((((int32_t)L_11) == ((int32_t)L_12))? 1 : 0), NULL);
@@ -24397,8 +24815,8 @@ IL_0064:
 IL_007a:
 	{
 		// FileSystemEntry item = items[( selectedItemIndices != null ) ? selectedItemIndices[i] : i];
-		List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* L_27 = ___items1;
-		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_28 = ___selectedItemIndices2;
+		List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* L_27 = ___1_items;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_28 = ___2_selectedItemIndices;
 		G_B11_0 = L_27;
 		if (L_28)
 		{
@@ -24415,7 +24833,7 @@ IL_007a:
 
 IL_0083:
 	{
-		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_30 = ___selectedItemIndices2;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_30 = ___2_selectedItemIndices;
 		int32_t L_31 = V_5;
 		NullCheck(L_30);
 		int32_t L_32;
@@ -24436,7 +24854,7 @@ IL_008b:
 		NullCheck(L_34);
 		int32_t L_36 = L_35;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_37 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_36));
-		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_38 = ___fileBrowser0;
+		FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA* L_38 = ___0_fileBrowser;
 		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_39 = V_6;
 		NullCheck(L_38);
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_40;
@@ -24512,7 +24930,7 @@ IL_00da:
 		String_t* L_59;
 		L_59 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_9), NULL);
 		String_t* L_60;
-		L_60 = String_Concat_m9B13B47FCB3DF61144D9647DDA05F527377251B0(_stringLiteral3B3083335A631B0ED536F90AB3EB03F976A064D6, L_59, _stringLiteral009A8934F0648E3EB0A447C7544AE01B1ED99410, NULL);
+		L_60 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral3B3083335A631B0ED536F90AB3EB03F976A064D6, L_59, _stringLiteral009A8934F0648E3EB0A447C7544AE01B1ED99410, NULL);
 		NullCheck(L_56);
 		VirtualActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_56, L_60);
 		// targetItemsRest.SetActive( true );
@@ -24542,12 +24960,12 @@ IL_013d:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel::OnCanvasDimensionsChanged(UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_OnCanvasDimensionsChanged_mC0D67041F1171A9036D3FF3263FB209E5C698B62 (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___size0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_OnCanvasDimensionsChanged_mC0D67041F1171A9036D3FF3263FB209E5C698B62 (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_size, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
 		// if( size.x >= narrowScreenWidth )
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___size0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_size;
 		float L_1 = L_0.___x_0;
 		float L_2 = __this->___narrowScreenWidth_12;
 		V_0 = (bool)((((int32_t)((!(((float)L_1) >= ((float)L_2)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
@@ -24587,7 +25005,7 @@ IL_006b:
 		// yesButtonTransform.anchorMin = Vector2.zero;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_10 = __this->___yesButtonTransform_10;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
-		L_11 = Vector2_get_zero_m009B92B5D35AB02BD1610C2E1ACCE7C9CF964A6E_inline(NULL);
+		L_11 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		NullCheck(L_10);
 		RectTransform_set_anchorMin_m931442ABE3368D6D4309F43DF1D64AB64B0F52E3(L_10, L_11, NULL);
 		// yesButtonTransform.anchorMax = new Vector2( 0.5f, 1f );
@@ -24613,7 +25031,7 @@ IL_00b4:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel::RefreshSkin(SimpleFileBrowser.UISkin)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_RefreshSkin_m5114B0BFA2B29156A94A77E8AD45954AD8CEFE8F (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___skin0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPanel_RefreshSkin_m5114B0BFA2B29156A94A77E8AD45954AD8CEFE8F (FileBrowserFileOperationConfirmationPanel_t5CD4D338B0EC8C35641E278A0D7E5E6B79FE26F6* __this, UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* ___0_skin, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -24637,7 +25055,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPane
 		V_0 = L_0;
 		// background.color = skin.PopupPanelsBackgroundColor;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_1 = V_0;
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_2 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_2 = ___0_skin;
 		NullCheck(L_2);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3;
 		L_3 = UISkin_get_PopupPanelsBackgroundColor_mFD32EEA3E08C2C5E27F5740EAECD5B1B7EB1EA13(L_2, NULL);
@@ -24645,14 +25063,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPane
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23 /* System.Void UnityEngine.UI.Graphic::set_color(UnityEngine.Color) */, L_1, L_3);
 		// background.sprite = skin.PopupPanelsBackground;
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4 = V_0;
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_5 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_5 = ___0_skin;
 		NullCheck(L_5);
 		Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* L_6;
 		L_6 = UISkin_get_PopupPanelsBackground_m8A0FAE1B65A43E35C6D93707ED6051D806534098(L_5, NULL);
 		NullCheck(L_4);
 		Image_set_sprite_mC0C248340BA27AAEE56855A3FAFA0D8CA12956DE(L_4, L_6, NULL);
 		// skin.ApplyTo( yesButtonTransform.GetComponent<Button>() );
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_7 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_7 = ___0_skin;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_8 = __this->___yesButtonTransform_10;
 		NullCheck(L_8);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_9;
@@ -24660,7 +25078,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPane
 		NullCheck(L_7);
 		UISkin_ApplyTo_m74872228D165B123D86A4E2692C2027E337A6602(L_7, L_9, NULL);
 		// skin.ApplyTo( noButtonTransform.GetComponent<Button>() );
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_10 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_10 = ___0_skin;
 		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_11 = __this->___noButtonTransform_11;
 		NullCheck(L_11);
 		Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* L_12;
@@ -24675,13 +25093,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserFileOperationConfirmationPane
 IL_004a:
 	{
 		// skin.ApplyTo( titleLabels[i], skin.PopupPanelsTextColor );
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_13 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_13 = ___0_skin;
 		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_14 = __this->___titleLabels_4;
 		int32_t L_15 = V_1;
 		NullCheck(L_14);
 		int32_t L_16 = L_15;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_18 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_18 = ___0_skin;
 		NullCheck(L_18);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_19;
 		L_19 = UISkin_get_PopupPanelsTextColor_mDFD2A197B891E1F32FB73B291A467132C90920C2(L_18, NULL);
@@ -24707,9 +25125,9 @@ IL_0063:
 	}
 	{
 		// skin.ApplyTo( targetItemsRestLabel, skin.PopupPanelsTextColor );
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_24 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_24 = ___0_skin;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_25 = __this->___targetItemsRestLabel_9;
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_26 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_26 = ___0_skin;
 		NullCheck(L_26);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_27;
 		L_27 = UISkin_get_PopupPanelsTextColor_mDFD2A197B891E1F32FB73B291A467132C90920C2(L_26, NULL);
@@ -24723,13 +25141,13 @@ IL_0063:
 IL_0089:
 	{
 		// skin.ApplyTo( targetItemNames[i], skin.PopupPanelsTextColor );
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_28 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_28 = ___0_skin;
 		TextU5BU5D_t1D476A037C4542F053D17ADAFA2723F311F9A353* L_29 = __this->___targetItemNames_7;
 		int32_t L_30 = V_3;
 		NullCheck(L_29);
 		int32_t L_31 = L_30;
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_32 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_31));
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_33 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_33 = ___0_skin;
 		NullCheck(L_33);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_34;
 		L_34 = UISkin_get_PopupPanelsTextColor_mDFD2A197B891E1F32FB73B291A467132C90920C2(L_33, NULL);
@@ -24770,7 +25188,7 @@ IL_00b8:
 		NullCheck(L_42);
 		LayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A* L_43;
 		L_43 = GameObject_GetComponent_TisLayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A_mB80DDAE1EBBC24C6967E5633AD129139079853E4(L_42, GameObject_GetComponent_TisLayoutElement_tB1F24CC11AF4AA87015C8D8EE06D22349C5BF40A_mB80DDAE1EBBC24C6967E5633AD129139079853E4_RuntimeMethod_var);
-		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_44 = ___skin0;
+		UISkin_tB3708DFB7ED371BC3FDF5D149943505528BF6D5C* L_44 = ___0_skin;
 		NullCheck(L_44);
 		float L_45;
 		L_45 = UISkin_get_FileHeight_m490761AA2FCD12C90DE5F023FC3353965867FDF8(L_44, NULL);
@@ -24903,18 +25321,18 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_OnOperationConfirmed_t515EB788302F9
 
 }
 // System.Void SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel/OnOperationConfirmed::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnOperationConfirmed__ctor_m7346406F7CB76D04007DAB1E32F07A5D20858A70 (OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnOperationConfirmed__ctor_m7346406F7CB76D04007DAB1E32F07A5D20858A70 (OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
-	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___method1);
-	__this->___method_3 = ___method1;
-	__this->___m_target_2 = ___object0;
-	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___object0);
-	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___method1);
+	__this->___method_ptr_0 = il2cpp_codegen_get_virtual_call_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method_3 = ___1_method;
+	__this->___m_target_2 = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target_2), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
 	__this->___method_code_6 = (intptr_t)__this;
-	if (MethodIsStatic((RuntimeMethod*)___method1))
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
 	{
 		bool isOpen = parameterCount == 0;
-		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___method1))
+		if (il2cpp_codegen_call_method_via_invoker((RuntimeMethod*)___1_method))
 			if (isOpen)
 				__this->___invoke_impl_1 = (intptr_t)&OnOperationConfirmed_Invoke_m9E17DF42DA8918F42221F042DB44D252B83A0617_OpenStaticInvoker;
 			else
@@ -24930,7 +25348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnOperationConfirmed__ctor_m7346406F7CB7
 	}
 	else
 	{
-		if (___object0 == NULL)
+		if (___0_object == NULL)
 			il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
 		__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
 		__this->___method_code_6 = (intptr_t)__this->___m_target_2;
@@ -24944,15 +25362,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnOperationConfirmed_Invoke_m9E17DF42DA8
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 // System.IAsyncResult SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel/OnOperationConfirmed::BeginInvoke(System.AsyncCallback,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnOperationConfirmed_BeginInvoke_mA0A36D52473701FF393D7CE2055AC30FA04125A9 (OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___callback0, RuntimeObject* ___object1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OnOperationConfirmed_BeginInvoke_mA0A36D52473701FF393D7CE2055AC30FA04125A9 (OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* __this, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___0_callback, RuntimeObject* ___1_object, const RuntimeMethod* method) 
 {
 	void *__d_args[1] = {0};
-	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___callback0, (RuntimeObject*)___object1);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___0_callback, (RuntimeObject*)___1_object);
 }
 // System.Void SimpleFileBrowser.FileBrowserFileOperationConfirmationPanel/OnOperationConfirmed::EndInvoke(System.IAsyncResult)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnOperationConfirmed_EndInvoke_mA02A8C11C310B708A9209F78958E0D0D9424704E (OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* __this, RuntimeObject* ___result0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OnOperationConfirmed_EndInvoke_mA02A8C11C310B708A9209F78958E0D0D9424704E (OnOperationConfirmed_t515EB788302F97797E5613FE9E3D84B25E5B7689* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
-	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
+	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -25050,7 +25468,7 @@ IL2CPP_EXTERN_C  bool FileSystemEntry_get_IsDirectory_m5B6EAD6DAC01DC97FA18BF8C8
 	return _returnValue;
 }
 // System.Void SimpleFileBrowser.FileSystemEntry::.ctor(System.String,System.String,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemEntry__ctor_mFB6D7113F6EC140A0863D55B690ACADC5A22EBD1 (FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* __this, String_t* ___path0, String_t* ___name1, String_t* ___extension2, bool ___isDirectory3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemEntry__ctor_mFB6D7113F6EC140A0863D55B690ACADC5A22EBD1 (FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* __this, String_t* ___0_path, String_t* ___1_name, String_t* ___2_extension, bool ___3_isDirectory, const RuntimeMethod* method) 
 {
 	FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* G_B2_0 = NULL;
 	FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* G_B1_0 = NULL;
@@ -25058,19 +25476,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemEntry__ctor_mFB6D7113F6EC140A0
 	FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* G_B3_1 = NULL;
 	{
 		// Path = path;
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		__this->___Path_0 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Path_0), (void*)L_0);
 		// Name = name;
-		String_t* L_1 = ___name1;
+		String_t* L_1 = ___1_name;
 		__this->___Name_1 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Name_1), (void*)L_1);
 		// Extension = extension;
-		String_t* L_2 = ___extension2;
+		String_t* L_2 = ___2_extension;
 		__this->___Extension_2 = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Extension_2), (void*)L_2);
 		// Attributes = isDirectory ? FileAttributes.Directory : FileAttributes.Normal;
-		bool L_3 = ___isDirectory3;
+		bool L_3 = ___3_isDirectory;
 		G_B1_0 = __this;
 		if (L_3)
 		{
@@ -25097,37 +25515,37 @@ IL_0024:
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void FileSystemEntry__ctor_mFB6D7113F6EC140A0863D55B690ACADC5A22EBD1_AdjustorThunk (RuntimeObject* __this, String_t* ___path0, String_t* ___name1, String_t* ___extension2, bool ___isDirectory3, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void FileSystemEntry__ctor_mFB6D7113F6EC140A0863D55B690ACADC5A22EBD1_AdjustorThunk (RuntimeObject* __this, String_t* ___0_path, String_t* ___1_name, String_t* ___2_extension, bool ___3_isDirectory, const RuntimeMethod* method)
 {
 	FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* _thisAdjusted;
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1*>(__this + _offset);
-	FileSystemEntry__ctor_mFB6D7113F6EC140A0863D55B690ACADC5A22EBD1(_thisAdjusted, ___path0, ___name1, ___extension2, ___isDirectory3, method);
+	FileSystemEntry__ctor_mFB6D7113F6EC140A0863D55B690ACADC5A22EBD1(_thisAdjusted, ___0_path, ___1_name, ___2_extension, ___3_isDirectory, method);
 }
 // System.Void SimpleFileBrowser.FileSystemEntry::.ctor(System.IO.FileSystemInfo,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemEntry__ctor_mF3DAAE9ECE05D268F76C8A7A8E9B23083B699C22 (FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* __this, FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* ___fileInfo0, String_t* ___extension1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemEntry__ctor_mF3DAAE9ECE05D268F76C8A7A8E9B23083B699C22 (FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* __this, FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* ___0_fileInfo, String_t* ___1_extension, const RuntimeMethod* method) 
 {
 	{
 		// Path = fileInfo.FullName;
-		FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* L_0 = ___fileInfo0;
+		FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* L_0 = ___0_fileInfo;
 		NullCheck(L_0);
 		String_t* L_1;
 		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.IO.FileSystemInfo::get_FullName() */, L_0);
 		__this->___Path_0 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Path_0), (void*)L_1);
 		// Name = fileInfo.Name;
-		FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* L_2 = ___fileInfo0;
+		FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* L_2 = ___0_fileInfo;
 		NullCheck(L_2);
 		String_t* L_3;
 		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.IO.FileSystemInfo::get_Name() */, L_2);
 		__this->___Name_1 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Name_1), (void*)L_3);
 		// Extension = extension;
-		String_t* L_4 = ___extension1;
+		String_t* L_4 = ___1_extension;
 		__this->___Extension_2 = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Extension_2), (void*)L_4);
 		// Attributes = fileInfo.Attributes;
-		FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* L_5 = ___fileInfo0;
+		FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* L_5 = ___0_fileInfo;
 		NullCheck(L_5);
 		int32_t L_6;
 		L_6 = FileSystemInfo_get_Attributes_m38971A5B147214C5EE193CE9F60628EA834EF6DA(L_5, NULL);
@@ -25136,12 +25554,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileSystemEntry__ctor_mF3DAAE9ECE05D268F
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void FileSystemEntry__ctor_mF3DAAE9ECE05D268F76C8A7A8E9B23083B699C22_AdjustorThunk (RuntimeObject* __this, FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* ___fileInfo0, String_t* ___extension1, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void FileSystemEntry__ctor_mF3DAAE9ECE05D268F76C8A7A8E9B23083B699C22_AdjustorThunk (RuntimeObject* __this, FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9* ___0_fileInfo, String_t* ___1_extension, const RuntimeMethod* method)
 {
 	FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1* _thisAdjusted;
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1*>(__this + _offset);
-	FileSystemEntry__ctor_mF3DAAE9ECE05D268F76C8A7A8E9B23083B699C22(_thisAdjusted, ___fileInfo0, ___extension1, method);
+	FileSystemEntry__ctor_mF3DAAE9ECE05D268F76C8A7A8E9B23083B699C22(_thisAdjusted, ___0_fileInfo, ___1_extension, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -25152,7 +25570,7 @@ IL2CPP_EXTERN_C  void FileSystemEntry__ctor_mF3DAAE9ECE05D268F76C8A7A8E9B23083B6
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // UnityEngine.AndroidJavaClass SimpleFileBrowser.FileBrowserHelpers::get_AJC()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -25199,7 +25617,7 @@ IL_0024:
 	}
 }
 // UnityEngine.AndroidJavaObject SimpleFileBrowser.FileBrowserHelpers::get_Context()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -25294,7 +25712,7 @@ IL_0041:
 	}
 }
 // System.String SimpleFileBrowser.FileBrowserHelpers::get_TemporaryFilePath()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -25319,17 +25737,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_get_TemporaryFil
 	{
 		// m_temporaryFilePath = Path.Combine( Application.temporaryCachePath, "tmpFile" );
 		String_t* L_2;
-		L_2 = Application_get_temporaryCachePath_m1C071883726EAFA66324E50FE73A1145272A4C60(NULL);
+		L_2 = Application_get_temporaryCachePath_mE4483A939988E69570C19F8B31AB9FB17B0FD97D(NULL);
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_3;
-		L_3 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(L_2, _stringLiteralCE9C364467FA311799A2D07B23F2A30E6BE16412, NULL);
+		L_3 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_2, _stringLiteralCE9C364467FA311799A2D07B23F2A30E6BE16412, NULL);
 		((FileBrowserHelpers_t4D2A406D8F1A1DD0935198DFE740E8E72A8FE1D7_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowserHelpers_t4D2A406D8F1A1DD0935198DFE740E8E72A8FE1D7_il2cpp_TypeInfo_var))->___m_temporaryFilePath_2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&((FileBrowserHelpers_t4D2A406D8F1A1DD0935198DFE740E8E72A8FE1D7_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowserHelpers_t4D2A406D8F1A1DD0935198DFE740E8E72A8FE1D7_il2cpp_TypeInfo_var))->___m_temporaryFilePath_2), (void*)L_3);
 		// Directory.CreateDirectory( Application.temporaryCachePath );
 		String_t* L_4;
-		L_4 = Application_get_temporaryCachePath_m1C071883726EAFA66324E50FE73A1145272A4C60(NULL);
+		L_4 = Application_get_temporaryCachePath_mE4483A939988E69570C19F8B31AB9FB17B0FD97D(NULL);
 		DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_5;
-		L_5 = Directory_CreateDirectory_mD89FECDFB25BC52F866DC0B1BB8552334FB249D2(L_4, NULL);
+		L_5 = Directory_CreateDirectory_m16EC5CE8561A997C6635E06DC24C77590F29D94F(L_4, NULL);
 	}
 
 IL_002e:
@@ -25348,13 +25766,13 @@ IL_0036:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowserHelpers::get_ShouldUseSAF()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FileBrowserHelpers_t4D2A406D8F1A1DD0935198DFE740E8E72A8FE1D7_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m4FAA8281CB4EFFD8B817734351FB3AC20A0CD6F5_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_HasValue_m6B76D139692C43B2AF7C695FAB044B16ACFAF355_RuntimeMethod_var);
@@ -25378,9 +25796,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_get_ShouldUseSAF_m23A
 	{
 		// m_shouldUseSAF = AJC.CallStatic<bool>( "CheckSAF" );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_2;
-		L_2 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_2 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3;
-		L_3 = Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_inline(Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_RuntimeMethod_var);
+		L_3 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		NullCheck(L_2);
 		bool L_4;
 		L_4 = AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6(L_2, _stringLiteral6F22EF407A5C59A4CC893EF10F6CC790F12F88AD, L_3, AndroidJavaObject_CallStatic_TisBoolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_mE956BC9A30BEC746DE593C53C1B8DB6A685185A6_RuntimeMethod_var);
@@ -25407,7 +25825,7 @@ IL_003d:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowserHelpers::ShouldUseSAFForPath(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40 (String_t* ___path0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822 (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	int32_t G_B4_0 = 0;
@@ -25415,23 +25833,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_ShouldUseSAFForPath_m
 	{
 		// return ShouldUseSAF && ( string.IsNullOrEmpty( path ) || path[0] != '/' );
 		bool L_0;
-		L_0 = FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA(NULL);
+		L_0 = FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B(NULL);
 		if (!L_0)
 		{
 			goto IL_0023;
 		}
 	}
 	{
-		String_t* L_1 = ___path0;
+		String_t* L_1 = ___0_path;
 		bool L_2;
-		L_2 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_1, NULL);
+		L_2 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_1, NULL);
 		if (L_2)
 		{
 			goto IL_0020;
 		}
 	}
 	{
-		String_t* L_3 = ___path0;
+		String_t* L_3 = ___0_path;
 		NullCheck(L_3);
 		Il2CppChar L_4;
 		L_4 = String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3(L_3, 0, NULL);
@@ -25469,7 +25887,7 @@ IL_0027:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowserHelpers::FileExists(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_FileExists_mD73A1D794A8CCB271F1BA746A082354E338F57FD (String_t* ___path0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_FileExists_m7208C912E35C8470E0A63418A818BE40FCDA1408 (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -25484,9 +25902,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_FileExists_mD73A1D794
 	bool V_1 = false;
 	{
 		// if( ShouldUseSAFForPath( path ) )
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -25497,16 +25915,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_FileExists_mD73A1D794
 	{
 		// return AJC.CallStatic<bool>( "SAFEntryExists", Context, path, false );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___path0;
+		String_t* L_8 = ___0_path;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
@@ -25526,9 +25944,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_FileExists_mD73A1D794
 IL_0038:
 	{
 		// return File.Exists( path );
-		String_t* L_13 = ___path0;
+		String_t* L_13 = ___0_path;
 		bool L_14;
-		L_14 = File_Exists_mD7E7A84A6B9E9A9BADBDA7C46AAE0624EF106D85(L_13, NULL);
+		L_14 = File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A(L_13, NULL);
 		V_1 = L_14;
 		goto IL_0041;
 	}
@@ -25541,7 +25959,7 @@ IL_0041:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowserHelpers::DirectoryExists(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_DirectoryExists_m34D0C75C33EABE4964762FC0C9B8B8446FF6C335 (String_t* ___path0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_DirectoryExists_m31B7C5281BA37017E49D68D3CA92DAC455862164 (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -25559,9 +25977,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_DirectoryExists_m34D0
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		// if( ShouldUseSAFForPath( path ) )
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -25572,16 +25990,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_DirectoryExists_m34D0
 	{
 		// return AJC.CallStatic<bool>( "SAFEntryExists", Context, path, true );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___path0;
+		String_t* L_8 = ___0_path;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
@@ -25602,7 +26020,7 @@ IL_0038:
 	{
 		// else if( ShouldUseSAF ) // Directory.Exists returns true even for inaccessible directories on Android 10+, we need to check if the directory is accessible
 		bool L_13;
-		L_13 = FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA(NULL);
+		L_13 = FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B(NULL);
 		V_2 = L_13;
 		bool L_14 = V_2;
 		if (!L_14)
@@ -25615,9 +26033,9 @@ IL_0038:
 	try
 	{// begin try (depth: 1)
 		// Directory.GetFiles( path, "testtesttest" );
-		String_t* L_15 = ___path0;
+		String_t* L_15 = ___0_path;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_16;
-		L_16 = Directory_GetFiles_m2E5907ADCF2B7E795692FD961E466E4B6612A70F(L_15, _stringLiteralAE234A3405A96121600343BC3FC9869EAFA4A6F3, NULL);
+		L_16 = Directory_GetFiles_m35ACD3D557D3B7EF4CF9A7908D2EDA61E6330090(L_15, _stringLiteralAE234A3405A96121600343BC3FC9869EAFA4A6F3, NULL);
 		// return true;
 		V_1 = (bool)1;
 		goto IL_0062;
@@ -25644,9 +26062,9 @@ CATCH_0053:
 IL_0059:
 	{
 		// return Directory.Exists( path );
-		String_t* L_17 = ___path0;
+		String_t* L_17 = ___0_path;
 		bool L_18;
-		L_18 = Directory_Exists_m1AC1A8910C9883BD4198ECF585C97F09E23C4702(L_17, NULL);
+		L_18 = Directory_Exists_m3D125E9E88C291CF11113444F961A64DD83AE1C7(L_17, NULL);
 		V_1 = L_18;
 		goto IL_0062;
 	}
@@ -25659,7 +26077,7 @@ IL_0062:
 	}
 }
 // System.Boolean SimpleFileBrowser.FileBrowserHelpers::IsDirectory(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_IsDirectory_m2E0623A10A6163784CF86F92DF6345C7AB2C8650 (String_t* ___path0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_IsDirectory_m2BA6E80978B547BEE8E1E6E1F73639343A2C9F6C (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -25678,9 +26096,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_IsDirectory_m2E0623A1
 	int32_t G_B9_0 = 0;
 	{
 		// if( ShouldUseSAFForPath( path ) )
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_1 = L_1;
 		bool L_2 = V_1;
 		if (!L_2)
@@ -25691,16 +26109,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_IsDirectory_m2E0623A1
 	{
 		// return AJC.CallStatic<bool>( "SAFEntryDirectory", Context, path );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___path0;
+		String_t* L_8 = ___0_path;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
@@ -25714,9 +26132,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool FileBrowserHelpers_IsDirectory_m2E0623A1
 IL_002f:
 	{
 		// if( Directory.Exists( path ) )
-		String_t* L_10 = ___path0;
+		String_t* L_10 = ___0_path;
 		bool L_11;
-		L_11 = Directory_Exists_m1AC1A8910C9883BD4198ECF585C97F09E23C4702(L_10, NULL);
+		L_11 = Directory_Exists_m3D125E9E88C291CF11113444F961A64DD83AE1C7(L_10, NULL);
 		V_3 = L_11;
 		bool L_12 = V_3;
 		if (!L_12)
@@ -25733,9 +26151,9 @@ IL_002f:
 IL_003d:
 	{
 		// if( File.Exists( path ) )
-		String_t* L_13 = ___path0;
+		String_t* L_13 = ___0_path;
 		bool L_14;
-		L_14 = File_Exists_mD7E7A84A6B9E9A9BADBDA7C46AAE0624EF106D85(L_13, NULL);
+		L_14 = File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A(L_13, NULL);
 		V_4 = L_14;
 		bool L_15 = V_4;
 		if (!L_15)
@@ -25752,10 +26170,10 @@ IL_003d:
 IL_004d:
 	{
 		// string extension = Path.GetExtension( path );
-		String_t* L_16 = ___path0;
+		String_t* L_16 = ___0_path;
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_17;
-		L_17 = Path_GetExtension_m52A28295599B87FA550D0654E531B56354C540C7(L_16, NULL);
+		L_17 = Path_GetExtension_m6FEAA9E14451BFD210B9D1AEC2430C813F570FE5(L_16, NULL);
 		V_0 = L_17;
 		// return extension == null || extension.Length <= 1; // extension includes '.'
 		String_t* L_18 = V_0;
@@ -25792,7 +26210,7 @@ IL_0069:
 	}
 }
 // System.String SimpleFileBrowser.FileBrowserHelpers::GetDirectoryName(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_GetDirectoryName_m6342C65603EF0B25E2C2382773027263E5AB1817 (String_t* ___path0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_GetDirectoryName_mDA870C6C80FBDDB0E3F5F5AED86AB28207BBB7F4 (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -25807,9 +26225,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_GetDirectoryName
 	String_t* V_1 = NULL;
 	{
 		// if( ShouldUseSAFForPath( path ) )
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -25820,16 +26238,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_GetDirectoryName
 	{
 		// return AJC.CallStatic<string>( "GetParentDirectory", Context, path );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___path0;
+		String_t* L_8 = ___0_path;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
@@ -25843,10 +26261,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_GetDirectoryName
 IL_002f:
 	{
 		// return Path.GetDirectoryName( path );
-		String_t* L_10 = ___path0;
+		String_t* L_10 = ___0_path;
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_11;
-		L_11 = Path_GetDirectoryName_mB9369289430566A15BB0A0CFCCBED3C6ECA7F30C(L_10, NULL);
+		L_11 = Path_GetDirectoryName_m428BADBE493A3927B51A13DEF658929B430516F6(L_10, NULL);
 		V_1 = L_11;
 		goto IL_0038;
 	}
@@ -25859,13 +26277,13 @@ IL_0038:
 	}
 }
 // SimpleFileBrowser.FileSystemEntry[] SimpleFileBrowser.FileBrowserHelpers::GetEntriesInDirectory(System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* FileBrowserHelpers_GetEntriesInDirectory_m4E5FA288844CAA15C783E32EB39CD6C062B37AC3 (String_t* ___path0, bool ___extractOnlyLastSuffixFromExtensions1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* FileBrowserHelpers_GetEntriesInDirectory_mD38D1E010FC6D76DEA66731BB3A214C8AE33BE0A (String_t* ___0_path, bool ___1_extractOnlyLastSuffixFromExtensions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_CallStatic_TisString_t_mB5DC41208BD7C326A089C20F4F1C2B8B2444ACC3_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Resize_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_mD159D1D60050433780B1582642F59737D1924253_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Resize_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m4E061A33E0B1F92504D300F1AFD62BC7D9AE4A49_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
@@ -25926,9 +26344,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D5
 	FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* G_B23_4 = NULL;
 	{
 		// if( ShouldUseSAFForPath( path ) )
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -25939,16 +26357,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D5
 	{
 		// string resultRaw = AJC.CallStatic<string>( "OpenSAFFolder", Context, path );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___path0;
+		String_t* L_8 = ___0_path;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
@@ -25974,7 +26392,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D5
 	{
 		// Debug.LogError( "Entry count does not exist" );
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteralD7D51F95DBD7F8C00A48D3B0B774B2E7EC58567E, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralD7D51F95DBD7F8C00A48D3B0B774B2E7EC58567E, NULL);
 		// return null;
 		V_6 = (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9*)NULL;
 		goto IL_0286;
@@ -26028,7 +26446,7 @@ IL_007f:
 	{
 		// Debug.LogError( "Couldn't parse entry count" );
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteral1297249A84B5425E0AAEA8A4221FB2C94ED18CE4, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral1297249A84B5425E0AAEA8A4221FB2C94ED18CE4, NULL);
 		// return null;
 		V_6 = (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9*)NULL;
 		goto IL_0286;
@@ -26105,7 +26523,7 @@ IL_00db:
 	{
 		// Debug.LogError( "Couldn't fetch directory attribute" );
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteral5A4E11696C6F0CA1AEEE640E0125226FC0BC7737, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral5A4E11696C6F0CA1AEEE640E0125226FC0BC7737, NULL);
 		// return null;
 		V_6 = (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9*)NULL;
 		goto IL_0286;
@@ -26142,7 +26560,7 @@ IL_0106:
 	{
 		// Debug.LogError( "Entry name is empty" );
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteralAED36B7262CE52C999E860488E4D6B1352B7E39B, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteralAED36B7262CE52C999E860488E4D6B1352B7E39B, NULL);
 		// return null;
 		V_6 = (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9*)NULL;
 		goto IL_0286;
@@ -26181,7 +26599,7 @@ IL_0147:
 	{
 		// Debug.LogError( "Entry rawUri is empty" );
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteral0DF28F9B6550D416DF3102931950BEEBD8DB8094, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral0DF28F9B6550D416DF3102931950BEEBD8DB8094, NULL);
 		// return null;
 		V_6 = (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9*)NULL;
 		goto IL_0286;
@@ -26222,10 +26640,10 @@ IL_0189:
 	}
 	{
 		String_t* L_66 = V_15;
-		bool L_67 = ___extractOnlyLastSuffixFromExtensions1;
+		bool L_67 = ___1_extractOnlyLastSuffixFromExtensions;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		String_t* L_68;
-		L_68 = FileBrowser_GetExtensionFromFilename_mDFAD3BC2729A0685EDCD8D46085C755670E02346(L_66, L_67, NULL);
+		L_68 = FileBrowser_GetExtensionFromFilename_m2F13A07937DD5779FEF23A192C94ED899B20AA4D(L_66, L_67, NULL);
 		G_B23_0 = L_68;
 		G_B23_1 = G_B21_0;
 		G_B23_2 = G_B21_1;
@@ -26282,7 +26700,7 @@ IL_01da:
 	{// begin try (depth: 1)
 		{
 			// FileSystemInfo[] items = new DirectoryInfo( path ).GetFileSystemInfos();
-			String_t* L_76 = ___path0;
+			String_t* L_76 = ___0_path;
 			DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_77 = (DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2*)il2cpp_codegen_object_new(DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2_il2cpp_TypeInfo_var);
 			NullCheck(L_77);
 			DirectoryInfo__ctor_m36BC476C58B55083046C0A738157D84E2323E0E9(L_77, L_76, NULL);
@@ -26323,10 +26741,10 @@ IL_01fc_1:
 			NullCheck(L_90);
 			String_t* L_91;
 			L_91 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.IO.FileSystemInfo::get_Name() */, L_90);
-			bool L_92 = ___extractOnlyLastSuffixFromExtensions1;
+			bool L_92 = ___1_extractOnlyLastSuffixFromExtensions;
 			il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 			String_t* L_93;
-			L_93 = FileBrowser_GetExtensionFromFilename_mDFAD3BC2729A0685EDCD8D46085C755670E02346(L_91, L_92, NULL);
+			L_93 = FileBrowser_GetExtensionFromFilename_m2F13A07937DD5779FEF23A192C94ED899B20AA4D(L_91, L_92, NULL);
 			FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_94;
 			memset((&L_94), 0, sizeof(L_94));
 			FileSystemEntry__ctor_mF3DAAE9ECE05D268F76C8A7A8E9B23083B699C22((&L_94), L_86, L_93, /*hidden argument*/NULL);
@@ -26354,7 +26772,7 @@ CATCH_022a_1:
 			// Debug.LogException( e );
 			Exception_t* L_96 = V_25;
 			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
-			Debug_LogException_m82E44FEC6B03BC34AFC2CAF6583051570C60CB9E(L_96, NULL);
+			Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_96, NULL);
 			IL2CPP_POP_ACTIVE_EXCEPTION();
 			goto IL_0238_1;
 		}// end catch (depth: 2)
@@ -26394,7 +26812,7 @@ IL_023f_1:
 		{
 			// System.Array.Resize( ref result, index );
 			int32_t L_104 = V_23;
-			Array_Resize_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_mD159D1D60050433780B1582642F59737D1924253((&V_22), L_104, Array_Resize_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_mD159D1D60050433780B1582642F59737D1924253_RuntimeMethod_var);
+			Array_Resize_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m4E061A33E0B1F92504D300F1AFD62BC7D9AE4A49((&V_22), L_104, Array_Resize_TisFileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1_m4E061A33E0B1F92504D300F1AFD62BC7D9AE4A49_RuntimeMethod_var);
 		}
 
 IL_0268_1:
@@ -26434,7 +26852,7 @@ CATCH_0273:
 		// Debug.LogException( e );
 		Exception_t* L_106 = V_28;
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
-		Debug_LogException_m82E44FEC6B03BC34AFC2CAF6583051570C60CB9E(L_106, NULL);
+		Debug_LogException_mAB3F4DC7297ED8FBB49DAA718B70E59A6B0171B0(L_106, NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION();
 		goto IL_0281;
 	}// end catch (depth: 1)
@@ -26454,7 +26872,7 @@ IL_0286:
 	}
 }
 // System.String SimpleFileBrowser.FileBrowserHelpers::CreateFileInDirectory(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFileInDirectory_m494CB83E0BB762403696BF033B728AD1D43C6477 (String_t* ___directoryPath0, String_t* ___filename1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFileInDirectory_m66C5E15A3C514C19964A15869009277AD0B976B1 (String_t* ___0_directoryPath, String_t* ___1_filename, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -26473,9 +26891,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFileInDire
 	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* V_3 = NULL;
 	{
 		// if( ShouldUseSAFForPath( directoryPath ) )
-		String_t* L_0 = ___directoryPath0;
+		String_t* L_0 = ___0_directoryPath;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_1 = L_1;
 		bool L_2 = V_1;
 		if (!L_2)
@@ -26486,16 +26904,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFileInDire
 	{
 		// return AJC.CallStatic<string>( "CreateSAFEntry", Context, directoryPath, false, filename );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___directoryPath0;
+		String_t* L_8 = ___0_directoryPath;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
@@ -26506,7 +26924,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFileInDire
 		ArrayElementTypeCheck (L_9, L_11);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_11);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = L_9;
-		String_t* L_13 = ___filename1;
+		String_t* L_13 = ___1_filename;
 		NullCheck(L_12);
 		ArrayElementTypeCheck (L_12, L_13);
 		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_13);
@@ -26520,16 +26938,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFileInDire
 IL_003c:
 	{
 		// string path = Path.Combine( directoryPath, filename );
-		String_t* L_15 = ___directoryPath0;
-		String_t* L_16 = ___filename1;
+		String_t* L_15 = ___0_directoryPath;
+		String_t* L_16 = ___1_filename;
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_17;
-		L_17 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(L_15, L_16, NULL);
+		L_17 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_15, L_16, NULL);
 		V_0 = L_17;
 		// using( File.Create( path ) ) { }
 		String_t* L_18 = V_0;
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_19;
-		L_19 = File_Create_m1CEFB773993DCC259CC20C29818B754726A25E89(L_18, NULL);
+		L_19 = File_Create_m7A88AE26DE05E6D790E3C5B1140EE5DC91DCC519(L_18, NULL);
 		V_3 = L_19;
 	}
 	{
@@ -26583,7 +27001,7 @@ IL_005e:
 	}
 }
 // System.String SimpleFileBrowser.FileBrowserHelpers::CreateFolderInDirectory(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFolderInDirectory_mAEE39C8930FB9F6A6972D87CE827CD8EA6C7B9A7 (String_t* ___directoryPath0, String_t* ___folderName1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFolderInDirectory_m322EE05BAED6F7D0CFBC302289F33C3527870286 (String_t* ___0_directoryPath, String_t* ___1_folderName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -26600,9 +27018,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFolderInDi
 	String_t* V_2 = NULL;
 	{
 		// if( ShouldUseSAFForPath( directoryPath ) )
-		String_t* L_0 = ___directoryPath0;
+		String_t* L_0 = ___0_directoryPath;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_1 = L_1;
 		bool L_2 = V_1;
 		if (!L_2)
@@ -26613,16 +27031,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFolderInDi
 	{
 		// return AJC.CallStatic<string>( "CreateSAFEntry", Context, directoryPath, true, folderName );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___directoryPath0;
+		String_t* L_8 = ___0_directoryPath;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
@@ -26633,7 +27051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFolderInDi
 		ArrayElementTypeCheck (L_9, L_11);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_11);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = L_9;
-		String_t* L_13 = ___folderName1;
+		String_t* L_13 = ___1_folderName;
 		NullCheck(L_12);
 		ArrayElementTypeCheck (L_12, L_13);
 		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject*)L_13);
@@ -26647,16 +27065,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_CreateFolderInDi
 IL_003c:
 	{
 		// string path = Path.Combine( directoryPath, folderName );
-		String_t* L_15 = ___directoryPath0;
-		String_t* L_16 = ___folderName1;
+		String_t* L_15 = ___0_directoryPath;
+		String_t* L_16 = ___1_folderName;
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_17;
-		L_17 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(L_15, L_16, NULL);
+		L_17 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_15, L_16, NULL);
 		V_0 = L_17;
 		// Directory.CreateDirectory( path );
 		String_t* L_18 = V_0;
 		DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_19;
-		L_19 = Directory_CreateDirectory_mD89FECDFB25BC52F866DC0B1BB8552334FB249D2(L_18, NULL);
+		L_19 = Directory_CreateDirectory_m16EC5CE8561A997C6635E06DC24C77590F29D94F(L_18, NULL);
 		// return path;
 		String_t* L_20 = V_0;
 		V_2 = L_20;
@@ -26671,7 +27089,7 @@ IL_004f:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserHelpers::WriteBytesToFile(System.String,System.Byte[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_WriteBytesToFile_m8044FC5F818D349E6B4AB56D2C7C71E76B1B9967 (String_t* ___targetPath0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_WriteBytesToFile_m4F546B44AFACE5904DC3B08557AEB08F0160AC3B (String_t* ___0_targetPath, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -26684,9 +27102,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_WriteBytesToFile_m804
 	bool V_0 = false;
 	{
 		// if( ShouldUseSAFForPath( targetPath ) )
-		String_t* L_0 = ___targetPath0;
+		String_t* L_0 = ___0_targetPath;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -26697,27 +27115,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_WriteBytesToFile_m804
 	{
 		// File.WriteAllBytes( TemporaryFilePath, bytes );
 		String_t* L_3;
-		L_3 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = ___bytes1;
-		File_WriteAllBytes_m72C1A24339B30F84A655E6BF516AE1638B2C4668(L_3, L_4, NULL);
+		L_3 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = ___1_bytes;
+		File_WriteAllBytes_mC491031DA14AA9B591F62D6AD0181D090E081077(L_3, L_4, NULL);
 		// AJC.CallStatic( "WriteToSAFEntry", Context, targetPath, TemporaryFilePath, false );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_5;
-		L_5 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_5 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_6;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_8;
-		L_8 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_8 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_7;
-		String_t* L_10 = ___targetPath0;
+		String_t* L_10 = ___0_targetPath;
 		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_10);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_10);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = L_9;
 		String_t* L_12;
-		L_12 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
+		L_12 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
 		NullCheck(L_11);
 		ArrayElementTypeCheck (L_11, L_12);
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_12);
@@ -26731,8 +27149,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_WriteBytesToFile_m804
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_5, _stringLiteralDFACFD7C0A2D03977F91FD6FA7D17D6E08F698D6, L_13, NULL);
 		// File.Delete( TemporaryFilePath );
 		String_t* L_16;
-		L_16 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
-		File_Delete_mB5CB249F5370D49747243BCA9C56CCC48D3E6A08(L_16, NULL);
+		L_16 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
+		File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386(L_16, NULL);
 		// return;
 		goto IL_0060;
 	}
@@ -26740,9 +27158,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_WriteBytesToFile_m804
 IL_0058:
 	{
 		// File.WriteAllBytes( targetPath, bytes );
-		String_t* L_17 = ___targetPath0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18 = ___bytes1;
-		File_WriteAllBytes_m72C1A24339B30F84A655E6BF516AE1638B2C4668(L_17, L_18, NULL);
+		String_t* L_17 = ___0_targetPath;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18 = ___1_bytes;
+		File_WriteAllBytes_mC491031DA14AA9B591F62D6AD0181D090E081077(L_17, L_18, NULL);
 	}
 
 IL_0060:
@@ -26752,7 +27170,7 @@ IL_0060:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserHelpers::WriteTextToFile(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_WriteTextToFile_m296944773E9E3939C4985D8754D4C13E5599A706 (String_t* ___targetPath0, String_t* ___text1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_WriteTextToFile_mC80084B8ACB37B51759A4B04194354C8D5367127 (String_t* ___0_targetPath, String_t* ___1_text, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -26765,9 +27183,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_WriteTextToFile_m2969
 	bool V_0 = false;
 	{
 		// if( ShouldUseSAFForPath( targetPath ) )
-		String_t* L_0 = ___targetPath0;
+		String_t* L_0 = ___0_targetPath;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -26778,27 +27196,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_WriteTextToFile_m2969
 	{
 		// File.WriteAllText( TemporaryFilePath, text );
 		String_t* L_3;
-		L_3 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
-		String_t* L_4 = ___text1;
-		File_WriteAllText_mE462D8448CA65183AA5D464210706167E0EF19EB(L_3, L_4, NULL);
+		L_3 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
+		String_t* L_4 = ___1_text;
+		File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1(L_3, L_4, NULL);
 		// AJC.CallStatic( "WriteToSAFEntry", Context, targetPath, TemporaryFilePath, false );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_5;
-		L_5 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_5 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_6;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_8;
-		L_8 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_8 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_7;
-		String_t* L_10 = ___targetPath0;
+		String_t* L_10 = ___0_targetPath;
 		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_10);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_10);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = L_9;
 		String_t* L_12;
-		L_12 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
+		L_12 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
 		NullCheck(L_11);
 		ArrayElementTypeCheck (L_11, L_12);
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_12);
@@ -26812,8 +27230,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_WriteTextToFile_m2969
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_5, _stringLiteralDFACFD7C0A2D03977F91FD6FA7D17D6E08F698D6, L_13, NULL);
 		// File.Delete( TemporaryFilePath );
 		String_t* L_16;
-		L_16 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
-		File_Delete_mB5CB249F5370D49747243BCA9C56CCC48D3E6A08(L_16, NULL);
+		L_16 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
+		File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386(L_16, NULL);
 		// return;
 		goto IL_0060;
 	}
@@ -26821,9 +27239,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_WriteTextToFile_m2969
 IL_0058:
 	{
 		// File.WriteAllText( targetPath, text );
-		String_t* L_17 = ___targetPath0;
-		String_t* L_18 = ___text1;
-		File_WriteAllText_mE462D8448CA65183AA5D464210706167E0EF19EB(L_17, L_18, NULL);
+		String_t* L_17 = ___0_targetPath;
+		String_t* L_18 = ___1_text;
+		File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1(L_17, L_18, NULL);
 	}
 
 IL_0060:
@@ -26833,7 +27251,7 @@ IL_0060:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserHelpers::AppendBytesToFile(System.String,System.Byte[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendBytesToFile_m156371AE42B0661E70DEDD24812F02A7096C9F95 (String_t* ___targetPath0, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___bytes1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendBytesToFile_mB47C83E9C8A1FF575B61247E19BC4F718DA2306F (String_t* ___0_targetPath, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -26849,9 +27267,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendBytesToFile_m15
 	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* V_1 = NULL;
 	{
 		// if( ShouldUseSAFForPath( targetPath ) )
-		String_t* L_0 = ___targetPath0;
+		String_t* L_0 = ___0_targetPath;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -26862,27 +27280,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendBytesToFile_m15
 	{
 		// File.WriteAllBytes( TemporaryFilePath, bytes );
 		String_t* L_3;
-		L_3 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = ___bytes1;
-		File_WriteAllBytes_m72C1A24339B30F84A655E6BF516AE1638B2C4668(L_3, L_4, NULL);
+		L_3 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = ___1_bytes;
+		File_WriteAllBytes_mC491031DA14AA9B591F62D6AD0181D090E081077(L_3, L_4, NULL);
 		// AJC.CallStatic( "WriteToSAFEntry", Context, targetPath, TemporaryFilePath, true );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_5;
-		L_5 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_5 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_6;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_8;
-		L_8 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_8 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_7;
-		String_t* L_10 = ___targetPath0;
+		String_t* L_10 = ___0_targetPath;
 		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_10);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_10);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = L_9;
 		String_t* L_12;
-		L_12 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
+		L_12 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
 		NullCheck(L_11);
 		ArrayElementTypeCheck (L_11, L_12);
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_12);
@@ -26896,8 +27314,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendBytesToFile_m15
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_5, _stringLiteralDFACFD7C0A2D03977F91FD6FA7D17D6E08F698D6, L_13, NULL);
 		// File.Delete( TemporaryFilePath );
 		String_t* L_16;
-		L_16 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
-		File_Delete_mB5CB249F5370D49747243BCA9C56CCC48D3E6A08(L_16, NULL);
+		L_16 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
+		File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386(L_16, NULL);
 		// return;
 		goto IL_007c;
 	}
@@ -26905,7 +27323,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendBytesToFile_m15
 IL_0058:
 	{
 		// using( var stream = new FileStream( targetPath, FileMode.Append, FileAccess.Write ) )
-		String_t* L_17 = ___targetPath0;
+		String_t* L_17 = ___0_targetPath;
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_18 = (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8*)il2cpp_codegen_object_new(FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_il2cpp_TypeInfo_var);
 		NullCheck(L_18);
 		FileStream__ctor_m158997E4E7ADD1BA5E75F4835882E32137ACB3C9(L_18, L_17, 6, 2, NULL);
@@ -26940,8 +27358,8 @@ IL_007b:
 		{// begin try (depth: 1)
 			// stream.Write( bytes, 0, bytes.Length );
 			FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_21 = V_1;
-			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_22 = ___bytes1;
-			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23 = ___bytes1;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_22 = ___1_bytes;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23 = ___1_bytes;
 			NullCheck(L_23);
 			NullCheck(L_21);
 			VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(24 /* System.Void System.IO.Stream::Write(System.Byte[],System.Int32,System.Int32) */, L_21, L_22, 0, ((int32_t)(((RuntimeArray*)L_23)->max_length)));
@@ -26960,7 +27378,7 @@ IL_007c:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserHelpers::AppendTextToFile(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendTextToFile_m2C9CCC9F3D53F3B3FEDD5B899852239580ED2754 (String_t* ___targetPath0, String_t* ___text1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendTextToFile_mA5AEC55C30361B6BC77AEDB9448F6CC8DC1212E5 (String_t* ___0_targetPath, String_t* ___1_text, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -26973,9 +27391,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendTextToFile_m2C9
 	bool V_0 = false;
 	{
 		// if( ShouldUseSAFForPath( targetPath ) )
-		String_t* L_0 = ___targetPath0;
+		String_t* L_0 = ___0_targetPath;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -26986,27 +27404,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendTextToFile_m2C9
 	{
 		// File.WriteAllText( TemporaryFilePath, text );
 		String_t* L_3;
-		L_3 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
-		String_t* L_4 = ___text1;
-		File_WriteAllText_mE462D8448CA65183AA5D464210706167E0EF19EB(L_3, L_4, NULL);
+		L_3 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
+		String_t* L_4 = ___1_text;
+		File_WriteAllText_m8AE8932A417928EF1E86F1E6B37C7A41904614D1(L_3, L_4, NULL);
 		// AJC.CallStatic( "WriteToSAFEntry", Context, targetPath, TemporaryFilePath, true );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_5;
-		L_5 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_5 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_6;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_8;
-		L_8 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_8 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_7;
-		String_t* L_10 = ___targetPath0;
+		String_t* L_10 = ___0_targetPath;
 		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_10);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_10);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = L_9;
 		String_t* L_12;
-		L_12 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
+		L_12 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
 		NullCheck(L_11);
 		ArrayElementTypeCheck (L_11, L_12);
 		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_12);
@@ -27020,8 +27438,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendTextToFile_m2C9
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_5, _stringLiteralDFACFD7C0A2D03977F91FD6FA7D17D6E08F698D6, L_13, NULL);
 		// File.Delete( TemporaryFilePath );
 		String_t* L_16;
-		L_16 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
-		File_Delete_mB5CB249F5370D49747243BCA9C56CCC48D3E6A08(L_16, NULL);
+		L_16 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
+		File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386(L_16, NULL);
 		// return;
 		goto IL_0060;
 	}
@@ -27029,9 +27447,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendTextToFile_m2C9
 IL_0058:
 	{
 		// File.AppendAllText( targetPath, text );
-		String_t* L_17 = ___targetPath0;
-		String_t* L_18 = ___text1;
-		File_AppendAllText_m5B3C01E1D6B97218061DB033C55DCFAEEB0FBFBA(L_17, L_18, NULL);
+		String_t* L_17 = ___0_targetPath;
+		String_t* L_18 = ___1_text;
+		File_AppendAllText_m08069DB321F56261289DCE3509565270F23DAEC6(L_17, L_18, NULL);
 	}
 
 IL_0060:
@@ -27041,7 +27459,7 @@ IL_0060:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserHelpers::AppendFileToFile(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendFileToFile_m22CEECB47EF2E23DAD9A2B472392AAAD66BF59F9 (String_t* ___targetPath0, String_t* ___sourceFileToAppend1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendFileToFile_mFCAEB7FC38BAF022F3396D095C860B29A2E43C36 (String_t* ___0_targetPath, String_t* ___1_sourceFileToAppend, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -27062,9 +27480,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendFileToFile_m22C
 	bool V_5 = false;
 	{
 		// if( ShouldUseSAFForPath( targetPath ) )
-		String_t* L_0 = ___targetPath0;
+		String_t* L_0 = ___0_targetPath;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -27075,21 +27493,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendFileToFile_m22C
 	{
 		// AJC.CallStatic( "WriteToSAFEntry", Context, targetPath, sourceFileToAppend, true );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___targetPath0;
+		String_t* L_8 = ___0_targetPath;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_7;
-		String_t* L_10 = ___sourceFileToAppend1;
+		String_t* L_10 = ___1_sourceFileToAppend;
 		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_10);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_10);
@@ -27108,9 +27526,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_AppendFileToFile_m22C
 IL_003d:
 	{
 		// using( Stream input = File.OpenRead( sourceFileToAppend ) )
-		String_t* L_14 = ___sourceFileToAppend1;
+		String_t* L_14 = ___1_sourceFileToAppend;
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_15;
-		L_15 = File_OpenRead_m32C8C37542B7A02A2F643E3B816D16ABE690FF50(L_14, NULL);
+		L_15 = File_OpenRead_m6181B052EB0E98D2E18FAC79E7744D766BA4244C(L_14, NULL);
 		V_1 = L_15;
 	}
 	{
@@ -27142,7 +27560,7 @@ IL_0097:
 		{// begin try (depth: 1)
 			{
 				// using( Stream output = new FileStream( targetPath, FileMode.Append, FileAccess.Write ) )
-				String_t* L_18 = ___targetPath0;
+				String_t* L_18 = ___0_targetPath;
 				FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_19 = (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8*)il2cpp_codegen_object_new(FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_il2cpp_TypeInfo_var);
 				NullCheck(L_19);
 				FileStream__ctor_m158997E4E7ADD1BA5E75F4835882E32137ACB3C9(L_19, L_18, 6, 2, NULL);
@@ -27239,7 +27657,7 @@ IL_0098:
 	}
 }
 // System.Byte[] SimpleFileBrowser.FileBrowserHelpers::ReadBytesFromFile(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* FileBrowserHelpers_ReadBytesFromFile_m6A2C4FF9E1A0805920FD1A10E41FE822DE6B2C21 (String_t* ___sourcePath0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* FileBrowserHelpers_ReadBytesFromFile_mEEA81C4B3EB679DD3850510793E8A8E564631343 (String_t* ___0_sourcePath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -27253,9 +27671,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_2 = NULL;
 	{
 		// if( ShouldUseSAFForPath( sourcePath ) )
-		String_t* L_0 = ___sourcePath0;
+		String_t* L_0 = ___0_sourcePath;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -27266,22 +27684,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 	{
 		// AJC.CallStatic( "ReadFromSAFEntry", Context, sourcePath, TemporaryFilePath );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___sourcePath0;
+		String_t* L_8 = ___0_sourcePath;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_7;
 		String_t* L_10;
-		L_10 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
+		L_10 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
 		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_10);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_10);
@@ -27289,14 +27707,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_3, _stringLiteral3CC14E746F6B6DFC16CB20AC49C1BFE2D3146CC5, L_9, NULL);
 		// byte[] result = File.ReadAllBytes( TemporaryFilePath );
 		String_t* L_11;
-		L_11 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
+		L_11 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12;
-		L_12 = File_ReadAllBytes_mE0C2C5A0270CD40C496E85B1D8BA15C607E7011E(L_11, NULL);
+		L_12 = File_ReadAllBytes_m704CBBA3F130C94F5A3E0BE2A93D9E9D79DC3E24(L_11, NULL);
 		V_1 = L_12;
 		// File.Delete( TemporaryFilePath );
 		String_t* L_13;
-		L_13 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
-		File_Delete_mB5CB249F5370D49747243BCA9C56CCC48D3E6A08(L_13, NULL);
+		L_13 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
+		File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386(L_13, NULL);
 		// return result;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = V_1;
 		V_2 = L_14;
@@ -27306,9 +27724,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 IL_0050:
 	{
 		// return File.ReadAllBytes( sourcePath );
-		String_t* L_15 = ___sourcePath0;
+		String_t* L_15 = ___0_sourcePath;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_16;
-		L_16 = File_ReadAllBytes_mE0C2C5A0270CD40C496E85B1D8BA15C607E7011E(L_15, NULL);
+		L_16 = File_ReadAllBytes_m704CBBA3F130C94F5A3E0BE2A93D9E9D79DC3E24(L_15, NULL);
 		V_2 = L_16;
 		goto IL_0059;
 	}
@@ -27321,7 +27739,7 @@ IL_0059:
 	}
 }
 // System.String SimpleFileBrowser.FileBrowserHelpers::ReadTextFromFile(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_ReadTextFromFile_m29394418D7A8B9A7B66004DF8AC2E2C37B68C566 (String_t* ___sourcePath0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_ReadTextFromFile_m8E5BE095B70725F329124FA0251DD4D4D2475FBA (String_t* ___0_sourcePath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -27335,9 +27753,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_ReadTextFromFile
 	String_t* V_2 = NULL;
 	{
 		// if( ShouldUseSAFForPath( sourcePath ) )
-		String_t* L_0 = ___sourcePath0;
+		String_t* L_0 = ___0_sourcePath;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -27348,22 +27766,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_ReadTextFromFile
 	{
 		// AJC.CallStatic( "ReadFromSAFEntry", Context, sourcePath, TemporaryFilePath );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___sourcePath0;
+		String_t* L_8 = ___0_sourcePath;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_7;
 		String_t* L_10;
-		L_10 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
+		L_10 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
 		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_10);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_10);
@@ -27371,14 +27789,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_ReadTextFromFile
 		AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C(L_3, _stringLiteral3CC14E746F6B6DFC16CB20AC49C1BFE2D3146CC5, L_9, NULL);
 		// string result = File.ReadAllText( TemporaryFilePath );
 		String_t* L_11;
-		L_11 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
+		L_11 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
 		String_t* L_12;
-		L_12 = File_ReadAllText_m5635BE83C14358AB1721547180F43103F777CEB5(L_11, NULL);
+		L_12 = File_ReadAllText_mA4A939F853D573379F7129AFDC469B91E9747BAA(L_11, NULL);
 		V_1 = L_12;
 		// File.Delete( TemporaryFilePath );
 		String_t* L_13;
-		L_13 = FileBrowserHelpers_get_TemporaryFilePath_m657826B10BF7AD88ED6163418040BF01A0C0CF6F(NULL);
-		File_Delete_mB5CB249F5370D49747243BCA9C56CCC48D3E6A08(L_13, NULL);
+		L_13 = FileBrowserHelpers_get_TemporaryFilePath_mAFDBC399A682970984F87DC234203760012D4465(NULL);
+		File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386(L_13, NULL);
 		// return result;
 		String_t* L_14 = V_1;
 		V_2 = L_14;
@@ -27388,9 +27806,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_ReadTextFromFile
 IL_0050:
 	{
 		// return File.ReadAllText( sourcePath );
-		String_t* L_15 = ___sourcePath0;
+		String_t* L_15 = ___0_sourcePath;
 		String_t* L_16;
-		L_16 = File_ReadAllText_m5635BE83C14358AB1721547180F43103F777CEB5(L_15, NULL);
+		L_16 = File_ReadAllText_mA4A939F853D573379F7129AFDC469B91E9747BAA(L_15, NULL);
 		V_2 = L_16;
 		goto IL_0059;
 	}
@@ -27403,7 +27821,7 @@ IL_0059:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserHelpers::CopyFile(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyFile_mC01E97041A6955509A71728024D34BD35CD69C3B (String_t* ___sourcePath0, String_t* ___destinationPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyFile_m6F8F4EB9F800B8EC69407D88350CBD0B5913672B (String_t* ___0_sourcePath, String_t* ___1_destinationPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -27417,7 +27835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyFile_mC01E97041A6
 	{
 		// if( ShouldUseSAF ) // No need to use ShouldUseSAFForPath because both SAF paths and raw file paths are handled on the native-side
 		bool L_0;
-		L_0 = FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA(NULL);
+		L_0 = FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B(NULL);
 		V_0 = L_0;
 		bool L_1 = V_0;
 		if (!L_1)
@@ -27428,21 +27846,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyFile_mC01E97041A6
 	{
 		// AJC.CallStatic( "CopyFile", Context, sourcePath, destinationPath, false );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_2;
-		L_2 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_2 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5;
-		L_5 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_5 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_5);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_5);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = L_4;
-		String_t* L_7 = ___sourcePath0;
+		String_t* L_7 = ___0_sourcePath;
 		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, L_7);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_7);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_6;
-		String_t* L_9 = ___destinationPath1;
+		String_t* L_9 = ___1_destinationPath;
 		NullCheck(L_8);
 		ArrayElementTypeCheck (L_8, L_9);
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_9);
@@ -27461,9 +27879,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyFile_mC01E97041A6
 IL_003c:
 	{
 		// File.Copy( sourcePath, destinationPath, true );
-		String_t* L_13 = ___sourcePath0;
-		String_t* L_14 = ___destinationPath1;
-		File_Copy_m68957393F932BED668C5725704E5DA9B71925395(L_13, L_14, (bool)1, NULL);
+		String_t* L_13 = ___0_sourcePath;
+		String_t* L_14 = ___1_destinationPath;
+		File_Copy_m3798F05909C43D7EA26130D51D0A15CFCBE7458A(L_13, L_14, (bool)1, NULL);
 	}
 
 IL_0045:
@@ -27473,7 +27891,7 @@ IL_0045:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserHelpers::CopyDirectory(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyDirectory_m99947742CE8BC2D9E71E1F419F36C87C788C4B4D (String_t* ___sourcePath0, String_t* ___destinationPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyDirectory_mFFB43E278843D473E0EC56B496993F97092AD273 (String_t* ___0_sourcePath, String_t* ___1_destinationPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -27488,7 +27906,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyDirectory_m999477
 	{
 		// if( ShouldUseSAF ) // No need to use ShouldUseSAFForPath because both SAF paths and raw directory paths are handled on the native-side
 		bool L_0;
-		L_0 = FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA(NULL);
+		L_0 = FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B(NULL);
 		V_0 = L_0;
 		bool L_1 = V_0;
 		if (!L_1)
@@ -27499,21 +27917,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyDirectory_m999477
 	{
 		// AJC.CallStatic( "CopyDirectory", Context, sourcePath, destinationPath, false );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_2;
-		L_2 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_2 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5;
-		L_5 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_5 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_5);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_5);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = L_4;
-		String_t* L_7 = ___sourcePath0;
+		String_t* L_7 = ___0_sourcePath;
 		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, L_7);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_7);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_6;
-		String_t* L_9 = ___destinationPath1;
+		String_t* L_9 = ___1_destinationPath;
 		NullCheck(L_8);
 		ArrayElementTypeCheck (L_8, L_9);
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_9);
@@ -27532,12 +27950,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyDirectory_m999477
 IL_003c:
 	{
 		// CopyDirectoryRecursively( new DirectoryInfo( sourcePath ), destinationPath );
-		String_t* L_13 = ___sourcePath0;
+		String_t* L_13 = ___0_sourcePath;
 		DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_14 = (DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2*)il2cpp_codegen_object_new(DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2_il2cpp_TypeInfo_var);
 		NullCheck(L_14);
 		DirectoryInfo__ctor_m36BC476C58B55083046C0A738157D84E2323E0E9(L_14, L_13, NULL);
-		String_t* L_15 = ___destinationPath1;
-		FileBrowserHelpers_CopyDirectoryRecursively_mC86E85947B557233487229377CC3F6BB6C3F00F0(L_14, L_15, NULL);
+		String_t* L_15 = ___1_destinationPath;
+		FileBrowserHelpers_CopyDirectoryRecursively_mC8DA44EAEC502DCFA66972185546B57C96FEABA1(L_14, L_15, NULL);
 	}
 
 IL_0049:
@@ -27547,7 +27965,7 @@ IL_0049:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserHelpers::CopyDirectoryRecursively(System.IO.DirectoryInfo,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyDirectoryRecursively_mC86E85947B557233487229377CC3F6BB6C3F00F0 (DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* ___sourceDirectory0, String_t* ___destinationPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyDirectoryRecursively_mC8DA44EAEC502DCFA66972185546B57C96FEABA1 (DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* ___0_sourceDirectory, String_t* ___1_destinationPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -27563,11 +27981,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_CopyDirectoryRecursiv
 	bool V_5 = false;
 	{
 		// Directory.CreateDirectory( destinationPath );
-		String_t* L_0 = ___destinationPath1;
+		String_t* L_0 = ___1_destinationPath;
 		DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_1;
-		L_1 = Directory_CreateDirectory_mD89FECDFB25BC52F866DC0B1BB8552334FB249D2(L_0, NULL);
+		L_1 = Directory_CreateDirectory_m16EC5CE8561A997C6635E06DC24C77590F29D94F(L_0, NULL);
 		// FileInfo[] files = sourceDirectory.GetFiles();
-		DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_2 = ___sourceDirectory0;
+		DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_2 = ___0_sourceDirectory;
 		NullCheck(L_2);
 		FileInfoU5BU5D_tCB74DD125A9220ABCF5F48549F2C71B74BBCD7E6* L_3;
 		L_3 = DirectoryInfo_GetFiles_m998040748717954CDDCE273F61EEC0625069543F(L_2, NULL);
@@ -27585,7 +28003,7 @@ IL_0013:
 		NullCheck(L_4);
 		int32_t L_6 = L_5;
 		FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
-		String_t* L_8 = ___destinationPath1;
+		String_t* L_8 = ___1_destinationPath;
 		FileInfoU5BU5D_tCB74DD125A9220ABCF5F48549F2C71B74BBCD7E6* L_9 = V_0;
 		int32_t L_10 = V_2;
 		NullCheck(L_9);
@@ -27596,7 +28014,7 @@ IL_0013:
 		L_13 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.IO.FileSystemInfo::get_Name() */, L_12);
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_14;
-		L_14 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(L_8, L_13, NULL);
+		L_14 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_8, L_13, NULL);
 		NullCheck(L_7);
 		FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* L_15;
 		L_15 = FileInfo_CopyTo_m4AC9EAD035D0106081B5DA5FBE4E02BDA911DD49(L_7, L_14, (bool)1, NULL);
@@ -27620,7 +28038,7 @@ IL_002f:
 	}
 	{
 		// DirectoryInfo[] subDirectories = sourceDirectory.GetDirectories();
-		DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_20 = ___sourceDirectory0;
+		DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_20 = ___0_sourceDirectory;
 		NullCheck(L_20);
 		DirectoryInfoU5BU5D_t5D09D46C6EBC15480AF7C63C54276B57A4287953* L_21;
 		L_21 = DirectoryInfo_GetDirectories_m2EC8498544C3A85EF92273330858E03B284C6901(L_20, NULL);
@@ -27638,7 +28056,7 @@ IL_0045:
 		NullCheck(L_22);
 		int32_t L_24 = L_23;
 		DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_25 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
-		String_t* L_26 = ___destinationPath1;
+		String_t* L_26 = ___1_destinationPath;
 		DirectoryInfoU5BU5D_t5D09D46C6EBC15480AF7C63C54276B57A4287953* L_27 = V_1;
 		int32_t L_28 = V_4;
 		NullCheck(L_27);
@@ -27649,8 +28067,8 @@ IL_0045:
 		L_31 = VirtualFuncInvoker0< String_t* >::Invoke(9 /* System.String System.IO.FileSystemInfo::get_Name() */, L_30);
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_32;
-		L_32 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(L_26, L_31, NULL);
-		FileBrowserHelpers_CopyDirectoryRecursively_mC86E85947B557233487229377CC3F6BB6C3F00F0(L_25, L_32, NULL);
+		L_32 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_26, L_31, NULL);
+		FileBrowserHelpers_CopyDirectoryRecursively_mC8DA44EAEC502DCFA66972185546B57C96FEABA1(L_25, L_32, NULL);
 		// for( int i = 0; i < subDirectories.Length; i++ )
 		int32_t L_33 = V_4;
 		V_4 = ((int32_t)il2cpp_codegen_add(L_33, 1));
@@ -27675,7 +28093,7 @@ IL_0064:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserHelpers::MoveFile(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_MoveFile_m6D1090980ED4B6A9C2C7510474E73495794FC978 (String_t* ___sourcePath0, String_t* ___destinationPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_MoveFile_mB9282EF02DFFD49B405999436476C617091B39F4 (String_t* ___0_sourcePath, String_t* ___1_destinationPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -27689,7 +28107,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_MoveFile_m6D1090980ED
 	{
 		// if( ShouldUseSAF ) // No need to use ShouldUseSAFForPath because both SAF paths and raw file paths are handled on the native-side
 		bool L_0;
-		L_0 = FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA(NULL);
+		L_0 = FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B(NULL);
 		V_0 = L_0;
 		bool L_1 = V_0;
 		if (!L_1)
@@ -27700,21 +28118,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_MoveFile_m6D1090980ED
 	{
 		// AJC.CallStatic( "CopyFile", Context, sourcePath, destinationPath, true );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_2;
-		L_2 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_2 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5;
-		L_5 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_5 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_5);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_5);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = L_4;
-		String_t* L_7 = ___sourcePath0;
+		String_t* L_7 = ___0_sourcePath;
 		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, L_7);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_7);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_6;
-		String_t* L_9 = ___destinationPath1;
+		String_t* L_9 = ___1_destinationPath;
 		NullCheck(L_8);
 		ArrayElementTypeCheck (L_8, L_9);
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_9);
@@ -27733,9 +28151,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_MoveFile_m6D1090980ED
 IL_003c:
 	{
 		// File.Move( sourcePath, destinationPath );
-		String_t* L_13 = ___sourcePath0;
-		String_t* L_14 = ___destinationPath1;
-		File_Move_mF906DE37D2EF2E47B2DF79FA50C765859AFB9ECF(L_13, L_14, NULL);
+		String_t* L_13 = ___0_sourcePath;
+		String_t* L_14 = ___1_destinationPath;
+		File_Move_mBC9450111E0144A55D893A720F19E612D658AC37(L_13, L_14, NULL);
 	}
 
 IL_0044:
@@ -27745,7 +28163,7 @@ IL_0044:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserHelpers::MoveDirectory(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_MoveDirectory_m97F8E459D43028605A977F6C63E2DD1AA0450F66 (String_t* ___sourcePath0, String_t* ___destinationPath1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_MoveDirectory_mCD35C6ABC7124D9E33A214745E642C2B942F3C6D (String_t* ___0_sourcePath, String_t* ___1_destinationPath, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -27759,7 +28177,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_MoveDirectory_m97F8E4
 	{
 		// if( ShouldUseSAF ) // No need to use ShouldUseSAFForPath because both SAF paths and raw directory paths are handled on the native-side
 		bool L_0;
-		L_0 = FileBrowserHelpers_get_ShouldUseSAF_m23A376EBE7789B6A70935A26E17EEBD578150ABA(NULL);
+		L_0 = FileBrowserHelpers_get_ShouldUseSAF_m2F1A6003785DAAF8267A3974349780E4B44AAC6B(NULL);
 		V_0 = L_0;
 		bool L_1 = V_0;
 		if (!L_1)
@@ -27770,21 +28188,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_MoveDirectory_m97F8E4
 	{
 		// AJC.CallStatic( "CopyDirectory", Context, sourcePath, destinationPath, true );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_2;
-		L_2 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_2 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)4);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = L_3;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_5;
-		L_5 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_5 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_5);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_5);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = L_4;
-		String_t* L_7 = ___sourcePath0;
+		String_t* L_7 = ___0_sourcePath;
 		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, L_7);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_7);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_6;
-		String_t* L_9 = ___destinationPath1;
+		String_t* L_9 = ___1_destinationPath;
 		NullCheck(L_8);
 		ArrayElementTypeCheck (L_8, L_9);
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_9);
@@ -27803,9 +28221,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_MoveDirectory_m97F8E4
 IL_003c:
 	{
 		// Directory.Move( sourcePath, destinationPath );
-		String_t* L_13 = ___sourcePath0;
-		String_t* L_14 = ___destinationPath1;
-		Directory_Move_m4598E16D8BD952FA82A65BF65E9C9E07A82D3E48(L_13, L_14, NULL);
+		String_t* L_13 = ___0_sourcePath;
+		String_t* L_14 = ___1_destinationPath;
+		Directory_Move_mA9C7ED31B0223C808C52AC0AF5F4476305DB5D31(L_13, L_14, NULL);
 	}
 
 IL_0044:
@@ -27815,7 +28233,7 @@ IL_0044:
 	}
 }
 // System.String SimpleFileBrowser.FileBrowserHelpers::RenameFile(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_RenameFile_m28EC14810CA6B6A17C271ABC2AC2BFA21DDE67D9 (String_t* ___path0, String_t* ___newName1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_RenameFile_m73347952A287B918D3101E781F000BA89255F665 (String_t* ___0_path, String_t* ___1_newName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -27831,9 +28249,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_RenameFile_m28EC
 	String_t* V_2 = NULL;
 	{
 		// if( ShouldUseSAFForPath( path ) )
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_1 = L_1;
 		bool L_2 = V_1;
 		if (!L_2)
@@ -27844,21 +28262,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_RenameFile_m28EC
 	{
 		// return AJC.CallStatic<string>( "RenameSAFEntry", Context, path, newName );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___path0;
+		String_t* L_8 = ___0_path;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_7;
-		String_t* L_10 = ___newName1;
+		String_t* L_10 = ___1_newName;
 		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_10);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_10);
@@ -27872,18 +28290,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_RenameFile_m28EC
 IL_0033:
 	{
 		// string newPath = Path.Combine( Path.GetDirectoryName( path ), newName );
-		String_t* L_12 = ___path0;
+		String_t* L_12 = ___0_path;
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_13;
-		L_13 = Path_GetDirectoryName_mB9369289430566A15BB0A0CFCCBED3C6ECA7F30C(L_12, NULL);
-		String_t* L_14 = ___newName1;
+		L_13 = Path_GetDirectoryName_m428BADBE493A3927B51A13DEF658929B430516F6(L_12, NULL);
+		String_t* L_14 = ___1_newName;
 		String_t* L_15;
-		L_15 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(L_13, L_14, NULL);
+		L_15 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_13, L_14, NULL);
 		V_0 = L_15;
 		// File.Move( path, newPath );
-		String_t* L_16 = ___path0;
+		String_t* L_16 = ___0_path;
 		String_t* L_17 = V_0;
-		File_Move_mF906DE37D2EF2E47B2DF79FA50C765859AFB9ECF(L_16, L_17, NULL);
+		File_Move_mBC9450111E0144A55D893A720F19E612D658AC37(L_16, L_17, NULL);
 		// return newPath;
 		String_t* L_18 = V_0;
 		V_2 = L_18;
@@ -27898,7 +28316,7 @@ IL_004c:
 	}
 }
 // System.String SimpleFileBrowser.FileBrowserHelpers::RenameDirectory(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_RenameDirectory_m006A6B9AAECF8288AF9D689AC23C54F6E6518DEB (String_t* ___path0, String_t* ___newName1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_RenameDirectory_m29646F29E0E519BF9B60F7108E9B5C227EEBCB29 (String_t* ___0_path, String_t* ___1_newName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -27915,9 +28333,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_RenameDirectory_
 	String_t* V_2 = NULL;
 	{
 		// if( ShouldUseSAFForPath( path ) )
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_1 = L_1;
 		bool L_2 = V_1;
 		if (!L_2)
@@ -27928,21 +28346,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_RenameDirectory_
 	{
 		// return AJC.CallStatic<string>( "RenameSAFEntry", Context, path, newName );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___path0;
+		String_t* L_8 = ___0_path;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_9 = L_7;
-		String_t* L_10 = ___newName1;
+		String_t* L_10 = ___1_newName;
 		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_10);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject*)L_10);
@@ -27956,7 +28374,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_RenameDirectory_
 IL_0033:
 	{
 		// string newPath = Path.Combine( new DirectoryInfo( path ).Parent.FullName, newName );
-		String_t* L_12 = ___path0;
+		String_t* L_12 = ___0_path;
 		DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_13 = (DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2*)il2cpp_codegen_object_new(DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2_il2cpp_TypeInfo_var);
 		NullCheck(L_13);
 		DirectoryInfo__ctor_m36BC476C58B55083046C0A738157D84E2323E0E9(L_13, L_12, NULL);
@@ -27966,15 +28384,15 @@ IL_0033:
 		NullCheck(L_14);
 		String_t* L_15;
 		L_15 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.IO.FileSystemInfo::get_FullName() */, L_14);
-		String_t* L_16 = ___newName1;
+		String_t* L_16 = ___1_newName;
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_17;
-		L_17 = Path_Combine_m64754D4E08990CE1EBC41CDF197807EE4B115474(L_15, L_16, NULL);
+		L_17 = Path_Combine_m1ADAC05CDA2D1D61B172DF65A81E86592696BEAE(L_15, L_16, NULL);
 		V_0 = L_17;
 		// Directory.Move( path, newPath );
-		String_t* L_18 = ___path0;
+		String_t* L_18 = ___0_path;
 		String_t* L_19 = V_0;
-		Directory_Move_m4598E16D8BD952FA82A65BF65E9C9E07A82D3E48(L_18, L_19, NULL);
+		Directory_Move_mA9C7ED31B0223C808C52AC0AF5F4476305DB5D31(L_18, L_19, NULL);
 		// return newPath;
 		String_t* L_20 = V_0;
 		V_2 = L_20;
@@ -27989,7 +28407,7 @@ IL_0056:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserHelpers::DeleteFile(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_DeleteFile_m9FE24F1EEA853DE05BE18E9DA85D014C73360AD8 (String_t* ___path0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_DeleteFile_m66A7C172841347E97372F839F29FEF337ACD4DA8 (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -28002,9 +28420,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_DeleteFile_m9FE24F1EE
 	bool V_0 = false;
 	{
 		// if( ShouldUseSAFForPath( path ) )
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -28015,16 +28433,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_DeleteFile_m9FE24F1EE
 	{
 		// AJC.CallStatic<bool>( "DeleteSAFEntry", Context, path );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___path0;
+		String_t* L_8 = ___0_path;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
@@ -28038,8 +28456,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_DeleteFile_m9FE24F1EE
 IL_0030:
 	{
 		// File.Delete( path );
-		String_t* L_10 = ___path0;
-		File_Delete_mB5CB249F5370D49747243BCA9C56CCC48D3E6A08(L_10, NULL);
+		String_t* L_10 = ___0_path;
+		File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386(L_10, NULL);
 	}
 
 IL_0037:
@@ -28049,7 +28467,7 @@ IL_0037:
 	}
 }
 // System.Void SimpleFileBrowser.FileBrowserHelpers::DeleteDirectory(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_DeleteDirectory_m2812DF984D0E379CD2185D077FF519AB5FA717EB (String_t* ___path0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_DeleteDirectory_mE91C675665F5749E1701942508146B708CD2393F (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -28062,9 +28480,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_DeleteDirectory_m2812
 	bool V_0 = false;
 	{
 		// if( ShouldUseSAFForPath( path ) )
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -28075,16 +28493,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_DeleteDirectory_m2812
 	{
 		// AJC.CallStatic<bool>( "DeleteSAFEntry", Context, path );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___path0;
+		String_t* L_8 = ___0_path;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
@@ -28098,8 +28516,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileBrowserHelpers_DeleteDirectory_m2812
 IL_0030:
 	{
 		// Directory.Delete( path, true );
-		String_t* L_10 = ___path0;
-		Directory_Delete_m6CB0FB437D90EE5C377796BE03DA6A9FE509A04E(L_10, (bool)1, NULL);
+		String_t* L_10 = ___0_path;
+		Directory_Delete_mB5C70379DEFE9B8AA95F67BAE04233E60CEF09F4(L_10, (bool)1, NULL);
 	}
 
 IL_0038:
@@ -28109,7 +28527,7 @@ IL_0038:
 	}
 }
 // System.String SimpleFileBrowser.FileBrowserHelpers::GetFilename(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_GetFilename_mA8E038218E294D76E4DAFD17571427175F8E24BE (String_t* ___path0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_GetFilename_mF0C6FE7BAB440BB2A45AC7E0B73894BAB9CE5450 (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -28124,9 +28542,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_GetFilename_mA8E
 	String_t* V_1 = NULL;
 	{
 		// if( ShouldUseSAFForPath( path ) )
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -28137,16 +28555,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_GetFilename_mA8E
 	{
 		// return AJC.CallStatic<string>( "SAFEntryName", Context, path );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___path0;
+		String_t* L_8 = ___0_path;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
@@ -28160,10 +28578,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FileBrowserHelpers_GetFilename_mA8E
 IL_002f:
 	{
 		// return Path.GetFileName( path );
-		String_t* L_10 = ___path0;
+		String_t* L_10 = ___0_path;
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_11;
-		L_11 = Path_GetFileName_mEBC73E0C8D8C56214D1DA4BA8409C5B5F00457A5(L_10, NULL);
+		L_11 = Path_GetFileName_mB1A8CE314EE250B06E3D33142315E2BD3A75D1D6(L_10, NULL);
 		V_1 = L_11;
 		goto IL_0038;
 	}
@@ -28176,7 +28594,7 @@ IL_0038:
 	}
 }
 // System.Int64 SimpleFileBrowser.FileBrowserHelpers::GetFilesize(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t FileBrowserHelpers_GetFilesize_mD732CD14CE50897F645BC05449BB668FFEB0D8A1 (String_t* ___path0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t FileBrowserHelpers_GetFilesize_m93B71D553BCE1D717AC2CCC13FB11A46205B1324 (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -28191,9 +28609,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t FileBrowserHelpers_GetFilesize_mD732C
 	int64_t V_1 = 0;
 	{
 		// if( ShouldUseSAFForPath( path ) )
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -28204,16 +28622,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t FileBrowserHelpers_GetFilesize_mD732C
 	{
 		// return AJC.CallStatic<long>( "SAFEntrySize", Context, path );
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_3;
-		L_3 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_3 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = L_4;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_6;
-		L_6 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_6 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_6);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_6);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_7 = L_5;
-		String_t* L_8 = ___path0;
+		String_t* L_8 = ___0_path;
 		NullCheck(L_7);
 		ArrayElementTypeCheck (L_7, L_8);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_8);
@@ -28227,7 +28645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t FileBrowserHelpers_GetFilesize_mD732C
 IL_002f:
 	{
 		// return new FileInfo( path ).Length;
-		String_t* L_10 = ___path0;
+		String_t* L_10 = ___0_path;
 		FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* L_11 = (FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C*)il2cpp_codegen_object_new(FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C_il2cpp_TypeInfo_var);
 		NullCheck(L_11);
 		FileInfo__ctor_m0A602529DFCFC44BB4EF4C530E6FBA765C44143F(L_11, L_10, NULL);
@@ -28246,7 +28664,7 @@ IL_003d:
 	}
 }
 // System.DateTime SimpleFileBrowser.FileBrowserHelpers::GetLastModifiedDate(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D FileBrowserHelpers_GetLastModifiedDate_m36E0A235A22F2472CA30E88F848A44EB50C0B540 (String_t* ___path0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D FileBrowserHelpers_GetLastModifiedDate_m1B9E85F9D8A467B5C9BC0477A3159D4AA1D95BFB (String_t* ___0_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -28264,9 +28682,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA
 	memset((&V_2), 0, sizeof(V_2));
 	{
 		// if( ShouldUseSAFForPath( path ) )
-		String_t* L_0 = ___path0;
+		String_t* L_0 = ___0_path;
 		bool L_1;
-		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mAB74F5E917C914A63BD42CDDB7ADFF67BC2D4B40(L_0, NULL);
+		L_1 = FileBrowserHelpers_ShouldUseSAFForPath_mE744947D56A67CF717B1630B8A16D2F210FE8822(L_0, NULL);
 		V_0 = L_1;
 		bool L_2 = V_0;
 		if (!L_2)
@@ -28281,16 +28699,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA
 		DateTime__ctor_m1F66A4327FE6B127F0F0E83A70CED25DB0DFFB00((&L_3), ((int32_t)1970), 1, 1, 0, 0, 0, /*hidden argument*/NULL);
 		V_1 = L_3;
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_4;
-		L_4 = FileBrowserHelpers_get_AJC_m6D0C8FC749EB2B7BE427B4906F04081897AB5C19(NULL);
+		L_4 = FileBrowserHelpers_get_AJC_m8E95E63947A959111E7469B4FF0B4F4942727846(NULL);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_5 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = L_5;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_7;
-		L_7 = FileBrowserHelpers_get_Context_m2C3AF5FB2B52AB696408EC06CCA7925E25571623(NULL);
+		L_7 = FileBrowserHelpers_get_Context_mECFB4A485D63C1C0D98341E811B8887DD8B57642(NULL);
 		NullCheck(L_6);
 		ArrayElementTypeCheck (L_6, L_7);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_7);
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_8 = L_6;
-		String_t* L_9 = ___path0;
+		String_t* L_9 = ___0_path;
 		NullCheck(L_8);
 		ArrayElementTypeCheck (L_8, L_9);
 		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_9);
@@ -28306,7 +28724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA
 IL_0047:
 	{
 		// return new FileInfo( path ).LastWriteTime;
-		String_t* L_12 = ___path0;
+		String_t* L_12 = ___0_path;
 		FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C* L_13 = (FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C*)il2cpp_codegen_object_new(FileInfo_t62782BBAFA832A78724E4CF2EE96548B8466AB1C_il2cpp_TypeInfo_var);
 		NullCheck(L_13);
 		FileInfo__ctor_m0A602529DFCFC44BB4EF4C530E6FBA765C44143F(L_13, L_12, NULL);
@@ -28332,16 +28750,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 	typedef void (*FunctionPointerType) (RuntimeObject*, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_inline (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___rawUri0, String_t* ___name1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void AndroidSAFDirectoryPickCallback_Invoke_mC4F117CF7076B7BFC983F32E5D4DB917032627E2_inline (AndroidSAFDirectoryPickCallback_t5598EBF760052482B78D1AF32DD5E573CADFB6A0* __this, String_t* ___0_rawUri, String_t* ___1_name, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, String_t*, String_t*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___rawUri0, ___name1, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_rawUri, ___1_name, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FBPermissionCallbackAndroid_set_Result_m98B5F4B6CD64D49741C20A10D71EA84C9EAC2B2C_inline (FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* __this, int32_t ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FBPermissionCallbackAndroid_set_Result_m98B5F4B6CD64D49741C20A10D71EA84C9EAC2B2C_inline (FBPermissionCallbackAndroid_tC243F8481BF5E294BB450ECAF368EADC0CB23C32* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
 		// public int Result { get; private set; }
-		int32_t L_0 = ___value0;
+		int32_t L_0 = ___0_value;
 		__this->___U3CResultU3Ek__BackingField_5 = L_0;
 		return;
 	}
@@ -28354,14 +28772,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ListItem_get_Position_m49
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Inequality_mCF3935E28AC7B30B279F07F9321CC56718E1311A_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___lhs0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rhs1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Inequality_mBEA93B5A0E954FEFB863DC61CB209119980EC713_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___lhs0;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___rhs1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_lhs;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___1_rhs;
 		bool L_2;
-		L_2 = Vector2_op_Equality_m5447BF12C18339431AB8AF02FA463C543D88D463_inline(L_0, L_1, NULL);
+		L_2 = Vector2_op_Equality_m6F2E069A50E787D131261E5CB25FC9E03F95B5E1_inline(L_0, L_1, NULL);
 		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 		goto IL_000e;
 	}
@@ -28372,7 +28790,7 @@ IL_000e:
 		return L_3;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m009B92B5D35AB02BD1610C2E1ACCE7C9CF964A6E_inline (const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -28401,24 +28819,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___x0, float ___y1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
 {
 	{
-		float L_0 = ___x0;
+		float L_0 = ___0_x;
 		__this->___x_0 = L_0;
-		float L_1 = ___y1;
+		float L_1 = ___1_y;
 		__this->___y_1 = L_1;
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_m8F73B300CB4E6F9B4EB5FB6130363D76CEAA230B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___v0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Implicit_mE8EBEE9291F11BB02F062D6E000F4798968CBD96_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___v0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_v;
 		float L_1 = L_0.___x_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___v0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_v;
 		float L_3 = L_2.___y_3;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		memset((&L_4), 0, sizeof(L_4));
@@ -28433,7 +28851,7 @@ IL_0015:
 		return L_5;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_Success_mE3E30E699935AC3FC78C668691DDB21610E1F1B4_inline (bool ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_Success_m468F84004618609ED6161B13043EB83E974C1654_inline (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -28443,13 +28861,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_Success_mE3E
 	}
 	{
 		// public static bool Success { get; private set; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___U3CSuccessU3Ek__BackingField_7 = L_0;
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_Result_m6656F9251FE3557D72BF0D0F4BA83B475820F8AD_inline (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_Result_m6EC4D1C118FC65B1BB34738F18E25A215CF7CC52_inline (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -28459,17 +28877,17 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_Result_m6656
 	}
 	{
 		// public static string[] Result { get; private set; }
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___value0;
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___U3CResultU3Ek__BackingField_8 = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___U3CResultU3Ek__BackingField_8), (void*)L_0);
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_inline (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___paths0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnSuccess_Invoke_m4067B92437B334D4939C8A18956DB1855DAD060B_inline (OnSuccess_t32CF52445E4194C128C27807A6E074DE777DC7CE* __this, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_paths, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*, const RuntimeMethod*);
-	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___paths0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_paths, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void OnCancel_Invoke_mE143A09B94A5BA1EC2E849F9442BA582C0A74361_inline (OnCancel_tC31F32093ADD242D943EB71A30D9C3D1346D524B* __this, const RuntimeMethod* method) 
 {
@@ -28484,7 +28902,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FileBrowserItem_get_IsDirect
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_IsOpen_mC94644F22A61409CE23169AAD18499301862D444_inline (bool ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_IsOpen_m936300FE9E761E2E76AB8D177927C61F2159B531_inline (bool ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -28494,28 +28912,28 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void FileBrowser_set_IsOpen_mC946
 	}
 	{
 		// public static bool IsOpen { get; private set; }
-		bool L_0 = ___value0;
+		bool L_0 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var);
 		((FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_StaticFields*)il2cpp_codegen_static_fields_for(FileBrowser_t7339AD1486598EA62217333AA4FDB787C35EC0DA_il2cpp_TypeInfo_var))->___U3CIsOpenU3Ek__BackingField_6 = L_0;
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_inline (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___entry0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool FileSystemEntryFilter_Invoke_m9516A832F92C0BC36EBFC9EB938002D9663B1ABA_inline (FileSystemEntryFilter_tC1DDD28AF24141B866705A2599D883C5071F69CE* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_entry, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1, const RuntimeMethod*);
-	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___entry0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_entry, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Multiply_m4EEB2FF3F4830390A53CE9B6076FB31801D65EED_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, float ___d1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___a0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
 		float L_1 = L_0.___x_0;
-		float L_2 = ___d1;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___a0;
+		float L_2 = ___1_d;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___0_a;
 		float L_4 = L_3.___y_1;
-		float L_5 = ___d1;
+		float L_5 = ___1_d;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
 		memset((&L_6), 0, sizeof(L_6));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_6), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), /*hidden argument*/NULL);
@@ -28529,18 +28947,18 @@ IL_0019:
 		return L_7;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m664419831773D5BBF06D9DE4E515F6409B2F92B8_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___b1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___a0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
 		float L_1 = L_0.___x_0;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___b1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_b;
 		float L_3 = L_2.___x_0;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___a0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_a;
 		float L_5 = L_4.___y_1;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___b1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_b;
 		float L_7 = L_6.___y_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		memset((&L_8), 0, sizeof(L_8));
@@ -28555,18 +28973,18 @@ IL_0023:
 		return L_9;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Addition_m704B5B98EAFE885978381E21B7F89D9DF83C2A60_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___a0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___b1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___a0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
 		float L_1 = L_0.___x_0;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___b1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_b;
 		float L_3 = L_2.___x_0;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___a0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_a;
 		float L_5 = L_4.___y_1;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___b1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_b;
 		float L_7 = L_6.___y_1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
 		memset((&L_8), 0, sizeof(L_8));
@@ -28581,27 +28999,27 @@ IL_0023:
 		return L_9;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m4F2A9C5128DC3F9E84865EE7ADA8DB5DA6B8B507_inline (float ___a0, float ___b1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	float G_B3_0 = 0.0f;
 	{
-		float L_0 = ___a0;
-		float L_1 = ___b1;
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
 		if ((((float)L_0) < ((float)L_1)))
 		{
 			goto IL_0008;
 		}
 	}
 	{
-		float L_2 = ___b1;
+		float L_2 = ___1_b;
 		G_B3_0 = L_2;
 		goto IL_0009;
 	}
 
 IL_0008:
 	{
-		float L_3 = ___a0;
+		float L_3 = ___0_a;
 		G_B3_0 = L_3;
 	}
 
@@ -28617,27 +29035,27 @@ IL_000c:
 		return L_4;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m8A4C189A6749DFE3ED8B66D9D3CACD8DB333974F_inline (int32_t ___a0, int32_t ___b1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t G_B3_0 = 0;
 	{
-		int32_t L_0 = ___a0;
-		int32_t L_1 = ___b1;
+		int32_t L_0 = ___0_a;
+		int32_t L_1 = ___1_b;
 		if ((((int32_t)L_0) > ((int32_t)L_1)))
 		{
 			goto IL_0008;
 		}
 	}
 	{
-		int32_t L_2 = ___b1;
+		int32_t L_2 = ___1_b;
 		G_B3_0 = L_2;
 		goto IL_0009;
 	}
 
 IL_0008:
 	{
-		int32_t L_3 = ___a0;
+		int32_t L_3 = ___0_a;
 		G_B3_0 = L_3;
 	}
 
@@ -28661,7 +29079,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t FBPermissionCallbackAndro
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_one_m232E885D3C7BB6A96D5FEF4494709BA170447604_inline (const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_one_m9097EB8DC23C26118A591AF16702796C3EF51DFB_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -28683,15 +29101,15 @@ IL_0009:
 		return L_1;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2_Scale_mEACE26803ED193717CE821462D85F1CA0573C051_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___scale0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2_Scale_mEACE26803ED193717CE821462D85F1CA0573C051_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_scale, const RuntimeMethod* method) 
 {
 	{
 		float L_0 = __this->___x_0;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___scale0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = ___0_scale;
 		float L_2 = L_1.___x_0;
 		__this->___x_0 = ((float)il2cpp_codegen_multiply(L_0, L_2));
 		float L_3 = __this->___y_1;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___scale0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_scale;
 		float L_5 = L_4.___y_1;
 		__this->___y_1 = ((float)il2cpp_codegen_multiply(L_3, L_5));
 		return;
@@ -28709,7 +29127,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
 	int32_t V_1 = 0;
@@ -28733,7 +29151,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 		__this->____size_2 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
 		int32_t L_7 = V_1;
-		RuntimeObject* L_8 = ___item0;
+		RuntimeObject* L_8 = ___0_item;
 		NullCheck(L_6);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
 		return;
@@ -28741,7 +29159,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 
 IL_0034:
 	{
-		RuntimeObject* L_9 = ___item0;
+		RuntimeObject* L_9 = ___0_item;
 		((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		return;
 	}
@@ -28777,7 +29195,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED59
 	{
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)__this->____items_1;
 		int32_t L_4 = V_0;
-		Array_Clear_m48B57EC27CADC3463CA98A33373D557DA587FF1B((RuntimeArray*)L_3, 0, L_4, NULL);
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
 		return;
 	}
 
@@ -28822,7 +29240,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_mF9022804554FAA
 	{
 		FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* L_3 = (FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9*)__this->____items_1;
 		int32_t L_4 = V_0;
-		Array_Clear_m48B57EC27CADC3463CA98A33373D557DA587FF1B((RuntimeArray*)L_3, 0, L_4, NULL);
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
 		return;
 	}
 
@@ -28836,7 +29254,7 @@ IL_003c:
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m2C3311361907002ECD4E970B1F066439FF7B428C_gshared_inline (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___item0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m2C3311361907002ECD4E970B1F066439FF7B428C_gshared_inline (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B* __this, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 ___0_item, const RuntimeMethod* method) 
 {
 	FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* V_0 = NULL;
 	int32_t V_1 = 0;
@@ -28860,7 +29278,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m2C3311361907002E
 		__this->____size_2 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 		FileSystemEntryU5BU5D_tC24F2466E60B1F19A351D56D73742A72A983B9A9* L_6 = V_0;
 		int32_t L_7 = V_1;
-		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_8 = ___item0;
+		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_8 = ___0_item;
 		NullCheck(L_6);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1)L_8);
 		return;
@@ -28868,7 +29286,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m2C3311361907002E
 
 IL_0034:
 	{
-		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_9 = ___item0;
+		FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1 L_9 = ___0_item;
 		((  void (*) (List_1_tF2EE881948D1CC1DED50B0660BFCA6B696CB0E6B*, FileSystemEntry_t5447750506AD6E82A254A96E8E4104F73B4733E1, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		return;
 	}
@@ -28897,7 +29315,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_mF6795DE5F49C1D
 	{
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__this->____items_1;
 		int32_t L_4 = V_0;
-		Array_Clear_m48B57EC27CADC3463CA98A33373D557DA587FF1B((RuntimeArray*)L_3, 0, L_4, NULL);
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
 		return;
 	}
 
@@ -28911,7 +29329,7 @@ IL_003c:
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___item0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) 
 {
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
 	int32_t V_1 = 0;
@@ -28935,7 +29353,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A9
 		__this->____size_2 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = V_0;
 		int32_t L_7 = V_1;
-		int32_t L_8 = ___item0;
+		int32_t L_8 = ___0_item;
 		NullCheck(L_6);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (int32_t)L_8);
 		return;
@@ -28943,7 +29361,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A9
 
 IL_0034:
 	{
-		int32_t L_9 = ___item0;
+		int32_t L_9 = ___0_item;
 		((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		return;
 	}
@@ -28955,7 +29373,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m6B7
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_m55011E8360A8199FB239A5787BA8631CDD6116FC_gshared_inline (const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) 
 {
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 0));
@@ -28963,20 +29381,20 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Equality_m5447BF12C18339431AB8AF02FA463C543D88D463_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___lhs0, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rhs1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector2_op_Equality_m6F2E069A50E787D131261E5CB25FC9E03F95B5E1_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	bool V_2 = false;
 	{
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___lhs0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_lhs;
 		float L_1 = L_0.___x_0;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___rhs1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_rhs;
 		float L_3 = L_2.___x_0;
 		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___lhs0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_lhs;
 		float L_5 = L_4.___y_1;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___rhs1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_rhs;
 		float L_7 = L_6.___y_1;
 		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
 		float L_8 = V_0;

@@ -27,6 +27,9 @@ public class menuLvlDetailsController : MonoBehaviour
         activeCB.normalColor = active;
         activeCB.highlightedColor = notActive;
         activeCB.selectedColor = active;
+        activeCB.disabledColor = notActive;
+        notActiveCB.selectedColor = notActive;
+        notActiveCB.highlightedColor = notActive;
     }
 
     public void SetLvlDetails(int lvl, int starsCount, int ballsCount)

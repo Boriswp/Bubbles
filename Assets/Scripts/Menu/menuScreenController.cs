@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using GoogleMobileAds.Api;
 using UnityEngine.SceneManagement;
 using UnityEngine;
@@ -9,20 +6,22 @@ public class menuScreenController : AdModule
 {
     public GameObject LvlDetails;
     public GameObject Motivation;
+    public delegate void OnOpenLvlScreen(int Lvl);
+    public static OnOpenLvlScreen onOpenLvlScreen;
+
     private void Awake()
     {
-        Application.targetFrameRate = 60;
-        menuButtonController.onOpenLvlScreen += ShowLevelDetails;
+        onOpenLvlScreen += ShowLevelDetails;
 
 #if UNITY_ANDROID || UNITY_IOS
-        MobileAds.Initialize(initStatus => { });
+       MobileAds.Initialize(initStatus => { });
 #endif
 
     }
 
     private void OnDisable()
     {
-        menuButtonController.onOpenLvlScreen -= ShowLevelDetails;
+       onOpenLvlScreen -= ShowLevelDetails;
     }
 
 
