@@ -48,7 +48,7 @@ public class menuCameraMovement : MonoBehaviour
     private void Update()
     {
 #if UNITY_EDITOR 
-        mouseLogic();
+      mouseLogic();
 #elif UNITY_WEBGL
       mouseLogic(); 
 #else
