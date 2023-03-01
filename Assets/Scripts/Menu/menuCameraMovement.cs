@@ -23,6 +23,7 @@ public class menuCameraMovement : MonoBehaviour
 
     private void Awake()
     {
+        Screen.orientation = ScreenOrientation.Portrait;
         if (DataLoader.isInitialize)
         {
             Initialization();
