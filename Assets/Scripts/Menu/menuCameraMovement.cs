@@ -64,11 +64,12 @@ public class menuCameraMovement : MonoBehaviour
             hit_position = Input.mousePosition;
             camera_position = Camera.main.transform.position;
         }
-
-        if (!Input.GetMouseButton(0)) return;
-        current_position = Input.mousePosition;
-        if (Helpers.isUI(current_position)) return;
-        LeftMouseDrag();
+        else if (Input.GetMouseButton(0))
+        {
+            current_position = Input.mousePosition;
+            if (Helpers.isUI(current_position)) return;
+            LeftMouseDrag();
+        }
     }
 
     private void touchLogic()
@@ -89,7 +90,7 @@ public class menuCameraMovement : MonoBehaviour
                 if (Helpers.isUI(current_position)) return;
                 LeftMouseDrag();
             }
-           
+
         }
     }
 
