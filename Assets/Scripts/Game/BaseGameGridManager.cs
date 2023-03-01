@@ -55,9 +55,6 @@ public class BaseGameGridManager : BaseGridManager
     {
         ready = false;
         var position = newGameObject.transform.position;
-        var rb = newGameObject.GetComponent<Rigidbody2D>();
-        rb.velocity = Vector2.zero;
-        rb.bodyType = RigidbodyType2D.Static;
         while (true)
         {
             var snappedPosition = Snap(position);

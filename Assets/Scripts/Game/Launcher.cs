@@ -140,7 +140,7 @@ public class Launcher : MonoBehaviour
     {
 
         var colorArray = gameGridManager.UpdateLvlInfo(isSpecialBall);
-        nextColorBall.SetActive(true);
+
         if (firstLaunch)
         {
             var index = Random.Range(0, colorArray.Count);
@@ -149,13 +149,18 @@ public class Launcher : MonoBehaviour
 
         }
         currentKindColor = nextKindColor;
-        if (colorArray.Count > 0)
+        if (colorArray.Count > 1)
         {
             var index = Random.Range(0, colorArray.Count);
             nextKindColor = colorArray[index];
         }
         else
         {
+            nextColorBall.SetActive(false);
+            if (currentKindColor != colorArray[0])
+            {
+                currentKindColor = colorArray[0];
+            }
             nextKindColor = Random.Range(0, 7);
         }
 
