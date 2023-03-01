@@ -30,9 +30,9 @@ public class WheelOfFortune : MonoBehaviour
             {
                 obj.SetActive(false);
             }
-           
+
             tempGameobject = Instantiate(winObjects[v[index]], this.transform);
-            tempGameobject.transform.DORotate(new Vector3(0, 0, angle * v[index]),1);
+            tempGameobject.transform.DORotate(new Vector3(0, 0, angle * v[index]), 1);
             tempGameobject.transform.DOLocalMoveY(-350, 1);
             tempGameobject.transform.DOScale(new Vector3(2, 2, 0), 2).OnComplete(() =>
             {
@@ -47,6 +47,7 @@ public class WheelOfFortune : MonoBehaviour
         {
             case 0:
                 DataLoader.SetInvulnerable(900);
+                HeartSystem.checkHealthStatus?.Invoke();
                 break;
             case 1:
                 DataLoader.SetMoneyBonus(200);

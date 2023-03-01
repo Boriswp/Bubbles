@@ -12,10 +12,16 @@ public class HeartSystem : MonoBehaviour
     private float _timeLeft;
     private bool _timerOn;
     private bool _involve = false;
+    public delegate void CheckHealthStatus();
+    public static CheckHealthStatus checkHealthStatus;
 
     private void Start()
     {
+        checkHealthStatus += GetHealthStatus;
+    }
 
+    private void GetHealthStatus()
+    {
         var invulnerableTime = DataLoader.GetInvulnerableTime();
 
         var savedTime = DataLoader.GetTime();
@@ -59,6 +65,7 @@ public class HeartSystem : MonoBehaviour
     private void OnDisable()
     {
         DataLoader.SetCurrentTime(DateTime.UtcNow.Ticks);
+        checkHealthStatus -= GetHealthStatus;
     }
 
     private void OnApplicationPause(bool pauseStatus)

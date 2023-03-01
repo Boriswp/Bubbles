@@ -76,6 +76,7 @@ public class Launcher : MonoBehaviour
         cancell.SetActive(false);
         rowBalls.SetActive(true);
         nextColorBall.SetActive(true);
+        SetUpCountSpecialBalls();
     }
 
     public void UnSetUpSpecialBall(int kind)
