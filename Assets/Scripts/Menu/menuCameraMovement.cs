@@ -50,9 +50,7 @@ public class menuCameraMovement : MonoBehaviour
 #if UNITY_EDITOR 
         mouseLogic();
 #elif UNITY_WEBGL
-     if(Input.touchSupported){
-      touchLogic();
-     }else{ mouseLogic(); }
+      mouseLogic(); 
 #else
       touchLogic();
 #endif
