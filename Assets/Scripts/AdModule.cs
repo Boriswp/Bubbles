@@ -2,16 +2,26 @@ using System.Collections;
 using System;
 using System.Collections.Generic;
 using GoogleMobileAds.Api;
+using GoogleMobileAds.Common;
 using UnityEngine;
 
 public class AdModule : MonoBehaviour
 {
     private BannerView bannerView;
     private InterstitialAd interstitial;
+    private RewardedAd rewardedAd;
+    public delegate void OnLoadAd();
+    public static OnLoadAd onLoadAd;
+    public delegate void OnAdReady();
+    public static OnAdReady onAdReady;
+    public delegate void OnGetReward();
+    public static OnGetReward onGetReward;
+
 
     private void Start()
     {
 #if UNITY_ANDROID || UNITY_IOS
+        onLoadAd += RequestAndLoadRewardedAd;
         RequestBanner();
 #endif
     }
@@ -30,6 +40,36 @@ public class AdModule : MonoBehaviour
         AdRequest request = new AdRequest.Builder().Build();
         bannerView.LoadAd(request);
     }
+    public void RequestAndLoadRewardedAd()
+    {
+#if UNITY_EDITOR
+        string adUnitId = "unused";
+#elif UNITY_ANDROID
+        string adUnitId = "ca-app-pub-3940256099942544/5224354917";
+#elif UNITY_IPHONE
+        string adUnitId = "ca-app-pub-3940256099942544/1712485313";
+#else
+        string adUnitId = "unexpected_platform";
+#endif
+
+        rewardedAd = new RewardedAd(adUnitId);
+        rewardedAd.OnAdLoaded += HandleOnAdLoaded;
+        rewardedAd.OnAdFailedToLoad += HandleOnAdFailedToLoad;
+        rewardedAd.OnAdOpening += HandleOnAdOpening;
+        rewardedAd.OnAdClosed += HandleOnAdClosed;
+        rewardedAd.OnUserEarnedReward += HandleAdReward;
+
+        var request = new AdRequest.Builder().Build();
+        rewardedAd.LoadAd(request);
+    }
+
+    public void ShowRewardedAd()
+    {
+        if (rewardedAd != null)
+        {
+            rewardedAd.Show();
+        }
+    }
 
     private void RequestInterstitial()
     {
@@ -47,13 +87,19 @@ public class AdModule : MonoBehaviour
         interstitial.OnAdFailedToLoad += HandleOnAdFailedToLoad;
         interstitial.OnAdOpening += HandleOnAdOpening;
         interstitial.OnAdClosed += HandleOnAdClosed;
+
         var request = new AdRequest.Builder().Build();
         interstitial.LoadAd(request);
     }
 
+    public void HandleAdReward(object sender, EventArgs args)
+    {
+        onGetReward.Invoke();
+    }
+
     public void HandleOnAdLoaded(object sender, EventArgs args)
     {
-        print("HandleAdLoaded event received");
+        onAdReady.Invoke();
     }
 
     public void HandleOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)

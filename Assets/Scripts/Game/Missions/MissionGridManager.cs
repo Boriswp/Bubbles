@@ -9,6 +9,9 @@ public class MissionGridManager : BaseGameGridManager
     public delegate void OnUpdateBallCount(int count);
     public static OnUpdateBallCount onUpdateBallCount;
 
+    public delegate void OnSecondChance(int count);
+    public static OnSecondChance onSecondChance;
+
     public delegate void OnSetupScore(int oneStarScore, int twoStarScore, int threeStarScore);
     public static OnSetupScore onSetupScore;
 
@@ -29,6 +32,11 @@ public class MissionGridManager : BaseGameGridManager
         onUpdateBallCount.Invoke(_ballcount);
         onSetupScore.Invoke(lvl.oneStarScore, lvl.twoStarScore, lvl.threeStarScore);
         onUpdateScore.Invoke(0, _counterBalls);
+        onReadyToLoad?.Invoke();
+    }
+
+    public void onNewBallsAppear(int count) {
+        _ballcount += count;
         onReadyToLoad?.Invoke();
     }
 

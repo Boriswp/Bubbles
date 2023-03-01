@@ -18,7 +18,28 @@ public class WheelOfFortune : MonoBehaviour
         Hearts,
         BonusBalls,
     }
+    public void Awake()
+    {
+#if UNITY_ANDROID || UNITY_IPHONE
+        speenButton.SetActive(false);
+        AdModule.onGetReward += SpeenTheWheel;
+        AdModule.onAdReady += ActivateButton;
+        AdModule.onLoadAd.Invoke();
+#endif
+    }
 
+    public void OnDisable()
+    {
+#if UNITY_ANDROID || UNITY_IPHONE
+        AdModule.onGetReward -= SpeenTheWheel;
+        AdModule.onAdReady -= ActivateButton;
+#endif
+    }
+
+    public void ActivateButton()
+    {
+        speenButton.SetActive(true);
+    }
 
     public void SpeenTheWheel()
     {
