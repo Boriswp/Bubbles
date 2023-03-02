@@ -29,8 +29,8 @@ public class Launcher : MonoBehaviour
         nextKindColor = Random.Range(0, 7);
         gameGridManager = GetComponent<BaseGameGridManager>();
         lineRenderer = GetComponent<LineRenderer>();
-        lineRenderer.startWidth = 0.75f;
-        lineRenderer.endWidth = 0.75f;
+        lineRenderer.startWidth = 0.15f;
+        lineRenderer.endWidth = 0.15f;
         SetUpCountSpecialBalls();
     }
 
@@ -163,7 +163,7 @@ public class Launcher : MonoBehaviour
             }
             nextKindColor = Random.Range(0, 7);
         }
-
+        if (load != null) Destroy(load);
         nextColorBall.GetComponent<SpriteRenderer>().sprite = BaseGridManager.SpriteArray[nextKindColor];
         load = Instantiate(ball, transform.parent.position, Quaternion.identity, transform.parent.parent);
         load.SetActive(true);
@@ -203,15 +203,15 @@ public class Launcher : MonoBehaviour
 
         for (var i = 0; i <= maximumReflectionCount; ++i)
         {
-            var circleHit = Physics2D.CircleCast(position, 0.15F, direction, maximumRayCastDistance);
+            var circleHit = Physics2D.CircleCast(position, 0.235F, direction, maximumRayCastDistance);
             if (!circleHit) continue;
-            position = circleHit.point + circleHit.normal * 0.23f;
+            position = circleHit.point + circleHit.normal * 0.235f;
             var newPos = Helpers.GetAccuratePos(position);
 
             if (circleHit.collider.CompareTag("Bubble") || circleHit.collider.CompareTag("Destroyer"))
             {
                 Vector2 newHitPos = new(circleHit.transform.position.x, circleHit.transform.position.y);
-                reflectionPositions.Add(newHitPos + circleHit.normal * 0.23f);
+                reflectionPositions.Add(newHitPos + circleHit.normal * 0.235f);
                 break;
             }
             else

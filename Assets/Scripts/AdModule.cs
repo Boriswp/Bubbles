@@ -10,26 +10,30 @@ public class AdModule : MonoBehaviour
     private BannerView bannerView;
     private InterstitialAd interstitial;
     private RewardedAd rewardedAd;
-    public delegate void OnLoadAd();
-    public static OnLoadAd onLoadAd;
-    public delegate void OnAdReady();
-    public static OnAdReady onAdReady;
     public delegate void OnGetReward();
     public static OnGetReward onGetReward;
+    public delegate void ShowRewrdedAD();
+    public static ShowRewrdedAD showRewardedAD;
 
 
-    private void Start()
+    private void OnEnable()
     {
+        showRewardedAD += ShowRewardedAd;
 #if UNITY_ANDROID || UNITY_IOS
-        onLoadAd += RequestAndLoadRewardedAd;
+        RequestAndLoadRewardedAd();
         RequestBanner();
 #endif
+    }
+
+    private void OnDisable()
+    {
+        showRewardedAD -= ShowRewardedAd;
     }
 
     private void RequestBanner()
     {
 #if UNITY_ANDROID
-            string adUnitId = "ca-app-pub-3940256099942544/6300978111";
+        string adUnitId = "ca-app-pub-3940256099942544/6300978111";
 #elif UNITY_IPHONE
             string adUnitId = "ca-app-pub-3940256099942544/2934735716";
 #else
@@ -99,13 +103,13 @@ public class AdModule : MonoBehaviour
 
     public void HandleOnAdLoaded(object sender, EventArgs args)
     {
-        onAdReady.Invoke();
+
     }
 
     public void HandleOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
     {
-       print("HandleFailedToReceiveAd event received with message: "
-                            + args);
+        print("HandleFailedToReceiveAd event received with message: "
+                             + args);
     }
 
     public void HandleOnAdOpening(object sender, EventArgs args)
@@ -115,12 +119,10 @@ public class AdModule : MonoBehaviour
 
     public void HandleOnAdClosed(object sender, EventArgs args)
     {
+        RequestAndLoadRewardedAd();
         print("HandleAdClosed event received");
     }
 
-    public void playButtonSound()
-    {
-        SoundController.soundEvent?.Invoke(SoundEvent.BUTTONSOUND);
-    }
+
 
 }

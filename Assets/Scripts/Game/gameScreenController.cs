@@ -12,18 +12,25 @@ public class gameScreenController : AdModule
     public TextMeshProUGUI textCounterScore;
     public TextMeshProUGUI textCounterBalls;
     public TextMeshProUGUI EndCounter;
-
+    public delegate void OnResumeGame();
+    public static OnResumeGame onResumeGame;
 
     public void OnEnable()
     {
+        onResumeGame += ReturnToGame;
         BaseGameGridManager.onGameOver += ShowLoseScreen;
     }
 
     public void OnDisable()
     {
+        onResumeGame += ReturnToGame;
         BaseGameGridManager.onGameOver -= ShowLoseScreen;
     }
 
+    public void playButtonSound()
+    {
+        SoundController.soundEvent?.Invoke(SoundEvent.BUTTONSOUND);
+    }
 
     public void ShowMenu()
     {

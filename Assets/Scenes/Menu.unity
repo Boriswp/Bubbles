@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1237508, g: 0.1567064, b: 0.22541118, a: 1}
+  m_IndirectSpecularColor: {r: 0.016477838, g: 0.025253113, b: 0.049196944, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1295,7 +1295,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2057456746}
         m_TargetAssemblyTypeName: WheelOfFortune, Assembly-CSharp
-        m_MethodName: SpeenTheWheel
+        m_MethodName: ShowAd
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8948,7 +8948,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4710104327150308631, guid: 31c00a99ad955bf49821db7b919f74ba, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 376.5745
+      value: 405.04205
       objectReference: {fileID: 0}
     - target: {fileID: 4710104327150308631, guid: 31c00a99ad955bf49821db7b919f74ba, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -8964,7 +8964,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8348155569209085324, guid: 31c00a99ad955bf49821db7b919f74ba, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 376.5745
+      value: 405.04205
       objectReference: {fileID: 0}
     - target: {fileID: 8348155569209085324, guid: 31c00a99ad955bf49821db7b919f74ba, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -8980,7 +8980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8348155570274533700, guid: 31c00a99ad955bf49821db7b919f74ba, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 376.5745
+      value: 405.04205
       objectReference: {fileID: 0}
     - target: {fileID: 8348155570274533700, guid: 31c00a99ad955bf49821db7b919f74ba, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -9104,7 +9104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8348155570545492881, guid: 31c00a99ad955bf49821db7b919f74ba, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 376.5745
+      value: 405.04205
       objectReference: {fileID: 0}
     - target: {fileID: 8348155570545492881, guid: 31c00a99ad955bf49821db7b919f74ba, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -10054,6 +10054,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8348155570427069957, guid: 31c00a99ad955bf49821db7b919f74ba, type: 3}
   m_PrefabInstance: {fileID: 1566628647}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1749025043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749025042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14664ab260f19c34396199381624ac1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buy: {fileID: 0}
 --- !u!1 &1814034136
 GameObject:
   m_ObjectHideFlags: 0

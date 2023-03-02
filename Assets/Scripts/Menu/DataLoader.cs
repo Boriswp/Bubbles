@@ -66,9 +66,16 @@ public static class DataLoader
 
     }
 
+    public static void DecreaseMoney(int money)
+    {
+        profileData.money -= money;
+        SaveProfileData();
+    }
+
     public static void SetMoneyBonus(int money)
     {
         profileData.money += money;
+        SaveProfileData();
     }
 
     public static void SetBonusBalls(int count)

@@ -27,6 +27,7 @@ public class MissionGridManager : BaseGameGridManager
             var position = new Vector3(bubbleSerialized.column * Constants.GAP, bubbleSerialized.row * Constants.GAP, 0f) + initialPos.transform.position;
             Create(position, bubbleSerialized.kind, true);
         }
+        onSecondChance += onNewBallsAppear;
         _ballcount = lvl.playerBallCount + DataLoader.GetLVLBonusBalls();
         _counterBalls = lvl.bubbles.Count;
         onUpdateBallCount.Invoke(_ballcount);
@@ -35,7 +36,13 @@ public class MissionGridManager : BaseGameGridManager
         onReadyToLoad?.Invoke();
     }
 
-    public void onNewBallsAppear(int count) {
+    private void OnDisable()
+    {
+        onSecondChance -= onNewBallsAppear;
+    }
+
+    public void onNewBallsAppear(int count)
+    {
         _ballcount += count;
         onReadyToLoad?.Invoke();
     }

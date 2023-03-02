@@ -15,8 +15,8 @@ public class GridMember : MonoBehaviour
 
     private ParticleSystem particles;
     private ParticleSystem.MainModule settings;
-    
-    
+
+
     private CircleCollider2D circleCollider2D;
     private Rigidbody2D rigidBody2D;
 
@@ -39,7 +39,7 @@ public class GridMember : MonoBehaviour
                     {
                         Constants.BOMB_KIND => bombEffects.GetComponent<ParticleSystem>(),
                         Constants.LIGHTNING_KIND => lightningEffect.GetComponent<ParticleSystem>(),
-                        _=>simpleEffects.GetComponent<ParticleSystem>(),
+                        _ => simpleEffects.GetComponent<ParticleSystem>(),
                     };
                     settings = particles.main;
                     settings.startColor = new ParticleSystem.MinMaxGradient(BaseGridManager.ColorArray[kind]);
@@ -52,7 +52,7 @@ public class GridMember : MonoBehaviour
 
                     circleCollider2D.enabled = false;
                     rigidBody2D.bodyType = RigidbodyType2D.Kinematic;
-                    rigidBody2D.gravityScale = 1f;
+                    rigidBody2D.gravityScale = 3f;
                     rigidBody2D.velocity = new Vector3(
                         Random.Range(-Constants.EXPLODE_SPEED, Constants.EXPLODE_SPEED),
                         Random.Range(-Constants.EXPLODE_SPEED, Constants.EXPLODE_SPEED),

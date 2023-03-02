@@ -108,8 +108,10 @@ public class BaseGameGridManager : BaseGridManager
                 gridMember.kind = kind;
             }
 
-            if (row == -loseCountRow)
+            if (-row >= loseCountRow)
+            {
                 onGameOver?.Invoke();
+            }
 
             grid[column, -row] = newGameObject;
             _counterBalls++;
@@ -130,22 +132,9 @@ public class BaseGameGridManager : BaseGridManager
             objectQueue.Enqueue(gTop);
         }
 
-        var j = top[0];
+        var jNext = top[0];
         for (var i = top[1]; i >= 0; i--)
         {
-            var jNext = i % 2 == 0 && j > 0 ? j - 1 : j + 1;
-
-            if (j is < 0 or >= Constants.COLUMNS)
-            {
-                break;
-            }
-
-            var g = grid[j, i];
-            if (g != null)
-            {
-                objectQueue.Enqueue(g);
-                visited[j, i] = true;
-            }
 
             if (jNext is < 0 or >= Constants.COLUMNS)
             {
@@ -159,10 +148,10 @@ public class BaseGameGridManager : BaseGridManager
             switch (top[0])
             {
                 case < 5:
-                    j--;
+                    jNext--;
                     break;
                 case > 5:
-                    j++;
+                    jNext++;
                     break;
             }
         }

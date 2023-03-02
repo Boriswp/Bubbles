@@ -14,14 +14,16 @@ public class menuScreenController : AdModule
         onOpenLvlScreen += ShowLevelDetails;
 
 #if UNITY_ANDROID || UNITY_IOS
-       MobileAds.Initialize(initStatus => { });
+        MobileAds.Initialize(initStatus =>
+        {
+        });
 #endif
 
     }
 
     private void OnDisable()
     {
-       onOpenLvlScreen -= ShowLevelDetails;
+        onOpenLvlScreen -= ShowLevelDetails;
     }
 
 

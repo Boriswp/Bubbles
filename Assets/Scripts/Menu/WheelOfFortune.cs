@@ -18,27 +18,19 @@ public class WheelOfFortune : MonoBehaviour
         Hearts,
         BonusBalls,
     }
-    public void Awake()
+    public void OnEnable()
     {
-#if UNITY_ANDROID || UNITY_IPHONE
-        speenButton.SetActive(false);
         AdModule.onGetReward += SpeenTheWheel;
-        AdModule.onAdReady += ActivateButton;
-        AdModule.onLoadAd.Invoke();
-#endif
     }
 
     public void OnDisable()
     {
-#if UNITY_ANDROID || UNITY_IPHONE
         AdModule.onGetReward -= SpeenTheWheel;
-        AdModule.onAdReady -= ActivateButton;
-#endif
     }
 
-    public void ActivateButton()
+    public void ShowAd()
     {
-        speenButton.SetActive(true);
+        AdModule.showRewardedAD.Invoke();
     }
 
     public void SpeenTheWheel()
@@ -68,7 +60,7 @@ public class WheelOfFortune : MonoBehaviour
         {
             case 0:
                 DataLoader.SetInvulnerable(900);
-                HeartSystem.checkHealthStatus?.Invoke();
+                HeartSystem.checkHealthStatus?.Invoke(false);
                 break;
             case 1:
                 DataLoader.SetMoneyBonus(200);
@@ -96,6 +88,7 @@ public class WheelOfFortune : MonoBehaviour
             obj.SetActive(true);
         }
         whiteSheet.SetActive(false);
+        gameObject.SetActive(false);
     }
 
 
