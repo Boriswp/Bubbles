@@ -29,8 +29,8 @@ public class Launcher : MonoBehaviour
         nextKindColor = Random.Range(0, 7);
         gameGridManager = GetComponent<BaseGameGridManager>();
         lineRenderer = GetComponent<LineRenderer>();
-        lineRenderer.startWidth = 0.15f;
-        lineRenderer.endWidth = 0.15f;
+        lineRenderer.startWidth = 0.2f;
+        lineRenderer.endWidth = 0.2f;
         SetUpCountSpecialBalls();
     }
 

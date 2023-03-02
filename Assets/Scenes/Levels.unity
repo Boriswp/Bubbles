@@ -1992,7 +1992,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4348,8 +4348,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 786763573}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.815, y: 0.09, z: -1}
-  m_LocalScale: {x: 0.1, y: 4.4626117, z: 1}
+  m_LocalPosition: {x: -2.815, y: 0.23, z: -1}
+  m_LocalScale: {x: 0.1, y: 4.6119385, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 617539585}
@@ -4459,8 +4459,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839376572}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.07, y: 5, z: -1}
-  m_LocalScale: {x: 0.10000001, y: 2.4, z: 1}
+  m_LocalPosition: {x: 0.15, y: 5.4027, z: -1}
+  m_LocalScale: {x: 0.25759003, y: 2.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 617539585}
@@ -5004,8 +5004,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984359273}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.815, y: 0.09, z: -1}
-  m_LocalScale: {x: 0.1, y: 4.465173, z: 1}
+  m_LocalPosition: {x: 2.815, y: 0.23, z: -1}
+  m_LocalScale: {x: 0.1, y: 4.628598, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 617539585}
@@ -7159,6 +7159,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1805924183}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 326294595}
         m_TargetAssemblyTypeName: gameScreenController, Assembly-CSharp
         m_MethodName: GoToMainMenu
@@ -11145,7 +11157,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
-  m_Color: {r: 0.027634395, g: 0.09854346, b: 0.254717, a: 0.6039216}
+  m_Color: {r: 0.8867924, g: 0.8769968, b: 0.11294055, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

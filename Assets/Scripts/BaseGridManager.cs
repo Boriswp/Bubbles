@@ -6,7 +6,7 @@ public class BaseGridManager : MonoBehaviour
     public GameObject bubble;
     protected GameObject[,] grid;
     public GameObject initialPos;
-    public static readonly Color[] ColorArray = { Color.red, Color.cyan, Color.yellow, Color.green, Color.magenta, Color.blue, new(0.5f, 0, 1, 1), Color.black, Color.black, Color.black, Color.black, };
+    public static readonly Color[] ColorArray = { Color.red, Color.cyan, new(1, 0.85f, 0.1f, 1), Color.green, Color.magenta, new(0, 0.18f, 036f), new(0.5f, 0, 1, 1), Color.black, Color.black, Color.black, Color.black, };
     public static Sprite[] SpriteArray;
     protected readonly int[] deltax = { -1, 0, -1, 0, -1, 1 };
     protected readonly int[] deltaxprime = { 1, 0, 1, 0, -1, 1 };
