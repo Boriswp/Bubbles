@@ -2,7 +2,7 @@ using GoogleMobileAds.Api;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class menuScreenController : AdModule
+public class menuScreenController : MonoBehaviour
 {
     public GameObject LvlDetails;
     public GameObject Motivation;
@@ -62,5 +62,10 @@ public class menuScreenController : AdModule
             Motivation.SetActive(true);
             LvlDetails.SetActive(false);
         }
+    }
+
+    public void playButtonSound()
+    {
+        SoundController.soundEvent.Invoke(SoundEvent.BUTTONSOUND);
     }
 }

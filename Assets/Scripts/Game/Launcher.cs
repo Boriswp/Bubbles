@@ -22,6 +22,7 @@ public class Launcher : MonoBehaviour
     LineRenderer lineRenderer;
     readonly List<Vector3> reflectionPositions = new();
     private BaseGameGridManager gameGridManager;
+    private int saveColorKind;
 
 
     private void Awake()
@@ -63,7 +64,18 @@ public class Launcher : MonoBehaviour
         rowBalls.SetActive(false);
         nextColorBall.SetActive(false);
         isSpecialBall = true;
+        saveColorKind = currentKindColor;
         currentKindColor = kind;
+        var hitter = load.GetComponent<Hitter>();
+        hitter.kind = currentKindColor;
+        hitter.gameGridManager = gameGridManager;
+        hitter.Start();
+    }
+
+    public void DestroySpecialBall()
+    {
+        UnSetUpSpecialBall();
+        currentKindColor = saveColorKind;
         var hitter = load.GetComponent<Hitter>();
         hitter.kind = currentKindColor;
         hitter.gameGridManager = gameGridManager;
@@ -157,6 +169,7 @@ public class Launcher : MonoBehaviour
         else
         {
             nextColorBall.SetActive(false);
+            if (colorArray.Count == 0) return;
             if (currentKindColor != colorArray[0])
             {
                 currentKindColor = colorArray[0];

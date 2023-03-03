@@ -1915,6 +1915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buy: {fileID: 8348155570274533753}
+  watchAd: {fileID: 8348155569209085313}
 --- !u!1 &8348155570545492882
 GameObject:
   m_ObjectHideFlags: 0

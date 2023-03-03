@@ -27,6 +27,7 @@ public class MotivationController : MonoBehaviour
 
     public void BuyHearts()
     {
+        SoundController.soundEvent.Invoke(SoundEvent.BUTTONSOUND);
         DataLoader.DecreaseMoney(75);
         HeartSystem.increaseHearts.Invoke(3);
         gameObject.SetActive(false);
@@ -34,6 +35,7 @@ public class MotivationController : MonoBehaviour
 
     public void ShowAd()
     {
+        SoundController.soundEvent.Invoke(SoundEvent.BUTTONSOUND);
         AdModule.showRewardedAD.Invoke();
     }
 

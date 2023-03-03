@@ -973,7 +973,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2109238278}
         m_TargetAssemblyTypeName: Launcher, Assembly-CSharp
-        m_MethodName: UnSetUpSpecialBall
+        m_MethodName: DestroySpecialBall
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4349,7 +4349,7 @@ Transform:
   m_GameObject: {fileID: 786763573}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.815, y: 0.23, z: -1}
-  m_LocalScale: {x: 0.1, y: 4.6119385, z: 1}
+  m_LocalScale: {x: 0.1, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 617539585}
@@ -4450,7 +4450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &839376573
 Transform:
   m_ObjectHideFlags: 0
@@ -5005,7 +5005,7 @@ Transform:
   m_GameObject: {fileID: 984359273}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2.815, y: 0.23, z: -1}
-  m_LocalScale: {x: 0.1, y: 4.628598, z: 1}
+  m_LocalScale: {x: 0.1, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 617539585}

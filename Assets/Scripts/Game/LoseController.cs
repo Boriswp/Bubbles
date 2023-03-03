@@ -41,7 +41,7 @@ public class LoseController : MonoBehaviour
     }
 
     public void ShowAd()
-    { 
-        AdModule.showRewardedAD.Invoke();
+    {
+        AdModule.showRewardedAD?.Invoke();
     }
 }

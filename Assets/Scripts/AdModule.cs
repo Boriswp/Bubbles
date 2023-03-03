@@ -16,8 +16,20 @@ public class AdModule : MonoBehaviour
     public static ShowRewrdedAD showRewardedAD;
 
 
-    private void OnEnable()
+    private void Awake()
     {
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("ADMob");
+
+        if (objs.Length > 1)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+
         showRewardedAD += ShowRewardedAd;
 #if UNITY_ANDROID || UNITY_IOS
         RequestAndLoadRewardedAd();

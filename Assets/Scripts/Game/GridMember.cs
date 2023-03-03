@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -15,6 +16,7 @@ public class GridMember : MonoBehaviour
 
     private ParticleSystem particles;
     private ParticleSystem.MainModule settings;
+    private readonly int[] validSpeed = { -8, -7, -6, -5, -4, -3, 3, 4, 5, 6, 7, 8 };
 
 
     private CircleCollider2D circleCollider2D;
@@ -49,13 +51,12 @@ public class GridMember : MonoBehaviour
                 }
             case BubbleState.Explode:
                 {
-
                     circleCollider2D.enabled = false;
                     rigidBody2D.bodyType = RigidbodyType2D.Kinematic;
                     rigidBody2D.gravityScale = 3f;
                     rigidBody2D.velocity = new Vector3(
-                        Random.Range(-Constants.EXPLODE_SPEED, Constants.EXPLODE_SPEED),
-                        Random.Range(-Constants.EXPLODE_SPEED, Constants.EXPLODE_SPEED),
+                        validSpeed[Random.Range(0, validSpeed.Length)],
+                        validSpeed[Random.Range(0, validSpeed.Length)],
                         0f
                     );
                     state = BubbleState.Fall;
