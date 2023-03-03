@@ -161,20 +161,17 @@ public class Launcher : MonoBehaviour
 
         }
         currentKindColor = nextKindColor;
-        if (colorArray.Count > 1)
+        if (colorArray.Count > 0)
         {
             var index = Random.Range(0, colorArray.Count);
             nextKindColor = colorArray[index];
-        }
-        else
-        {
-            nextColorBall.SetActive(false);
-            if (colorArray.Count == 0) return;
-            if (currentKindColor != colorArray[0])
+            if (colorArray.Count == 1)
             {
-                currentKindColor = colorArray[0];
+                if (currentKindColor != colorArray[0])
+                {
+                    currentKindColor = colorArray[0];
+                }
             }
-            nextKindColor = Random.Range(0, 7);
         }
         if (load != null) Destroy(load);
         nextColorBall.GetComponent<SpriteRenderer>().sprite = BaseGridManager.SpriteArray[nextKindColor];
@@ -225,6 +222,10 @@ public class Launcher : MonoBehaviour
             {
                 Vector2 newHitPos = new(circleHit.transform.position.x, circleHit.transform.position.y);
                 reflectionPositions.Add(newHitPos + circleHit.normal * 0.235f);
+                break;
+            }
+            else if (circleHit.collider.CompareTag("Ceiling")) {
+                reflectionPositions.Add(newPos);
                 break;
             }
             else

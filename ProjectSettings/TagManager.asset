@@ -9,6 +9,7 @@ TagManager:
   - Sound
   - Destroyer
   - ADMob
+  - Ceiling
   layers:
   - Default
   - TransparentFX

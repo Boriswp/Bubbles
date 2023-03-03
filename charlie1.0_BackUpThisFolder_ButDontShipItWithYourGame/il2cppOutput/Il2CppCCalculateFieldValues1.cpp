@@ -1914,10 +1914,10 @@ struct StandardValuesCollection_tC5F10128EB5F9B6E4E5519E6AE47DA01384F91E3;
 struct MoreInfo_tB58ABF2D5D75E92D35BBC37192CD0D5C02C3F0FA;
 // System.Uri/UriInfo
 struct UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09;
-// gameScreenController/OnResumeGame
-struct OnResumeGame_tD421E10068EE08337FC6F84C72CFAAD10CA33FB6;
 // menuScreenController/OnOpenLvlScreen
 struct OnOpenLvlScreen_t19D0A3D2D89E9F6AAB5568013768C273DC5BB5F5;
+// missionScreenController/OnResumeGame
+struct OnResumeGame_t55A9EA9438698F48E3B4015897EF8D488BFA424C;
 // Unity.Burst.BurstCompiler/BurstCompilerHelper/IsBurstEnabledDelegate
 struct IsBurstEnabledDelegate_t0628E97FE590352373ABA022E954D7F5CE183D3C;
 
@@ -27612,15 +27612,17 @@ struct UniformModifier_t6966DCA9F38952978CC99896F4F17D634F082B89  : public Proce
 struct missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B  : public gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0
 {
 	// TMPro.TextMeshProUGUI missionScreenController::ballCounter
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___ballCounter_12;
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___ballCounter_11;
 	// System.Int32 missionScreenController::scoreOne
-	int32_t ___scoreOne_13;
+	int32_t ___scoreOne_12;
 	// System.Int32 missionScreenController::scoreTwo
-	int32_t ___scoreTwo_14;
+	int32_t ___scoreTwo_13;
 	// System.Int32 missionScreenController::scoreThree
-	int32_t ___scoreThree_15;
+	int32_t ___scoreThree_14;
 	// UnityEngine.GameObject missionScreenController::WinScreen
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___WinScreen_16;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___WinScreen_15;
+	// UnityEngine.GameObject[] missionScreenController::winScreenStars
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___winScreenStars_16;
 	// UnityEngine.GameObject[] missionScreenController::Stars
 	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___Stars_17;
 	// UnityEngine.GameObject[] missionScreenController::StarsDisable
@@ -27629,6 +27631,10 @@ struct missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B  : publ
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___StatusBarObject_19;
 	// UnityEngine.UI.ProceduralImage.ProceduralImage missionScreenController::StatusBar
 	ProceduralImage_tA7D5592D2F10BE84C49ACEEC6A009E08BB1E914B* ___StatusBar_20;
+	// System.Int32 missionScreenController::savedScore
+	int32_t ___savedScore_21;
+	// System.Int32 missionScreenController::savedBalls
+	int32_t ___savedBalls_22;
 };
 
 // UnityEngine.UI.Button
@@ -37004,11 +37010,6 @@ struct SoundController_tA53F7251931CF12B1E75D0DF2F56D42DBFC61071_StaticFields
 // constructorScreenController
 
 // gameScreenController
-struct gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0_StaticFields
-{
-	// gameScreenController/OnResumeGame gameScreenController::onResumeGame
-	OnResumeGame_tD421E10068EE08337FC6F84C72CFAAD10CA33FB6* ___onResumeGame_11;
-};
 
 // gameScreenController
 
@@ -37271,6 +37272,11 @@ struct TextContainer_t949A6EBEE5C8832723E73D8D3DCF4C8D0B3D7F3C_StaticFields
 // UniformModifier
 
 // missionScreenController
+struct missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B_StaticFields
+{
+	// missionScreenController/OnResumeGame missionScreenController::onResumeGame
+	OnResumeGame_t55A9EA9438698F48E3B4015897EF8D488BFA424C* ___onResumeGame_23;
+};
 
 // missionScreenController
 
@@ -41547,9 +41553,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4843[5] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4844[8] = 
 {
 	static_cast<int32_t>(offsetof(BaseGridManager_tEFA236885335FD49CFE3811BFE04FD193A21161A, ___bubble_4)),static_cast<int32_t>(offsetof(BaseGridManager_tEFA236885335FD49CFE3811BFE04FD193A21161A, ___grid_5)),static_cast<int32_t>(offsetof(BaseGridManager_tEFA236885335FD49CFE3811BFE04FD193A21161A, ___initialPos_6)),static_cast<int32_t>(offsetof(BaseGridManager_tEFA236885335FD49CFE3811BFE04FD193A21161A_StaticFields, ___ColorArray_7)),static_cast<int32_t>(offsetof(BaseGridManager_tEFA236885335FD49CFE3811BFE04FD193A21161A_StaticFields, ___SpriteArray_8)),static_cast<int32_t>(offsetof(BaseGridManager_tEFA236885335FD49CFE3811BFE04FD193A21161A, ___deltax_9)),static_cast<int32_t>(offsetof(BaseGridManager_tEFA236885335FD49CFE3811BFE04FD193A21161A, ___deltaxprime_10)),static_cast<int32_t>(offsetof(BaseGridManager_tEFA236885335FD49CFE3811BFE04FD193A21161A, ___deltay_11)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4845[17] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4845[18] = 
 {
-	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+	0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4846[3] = 
 {
 	static_cast<int32_t>(offsetof(BubbleSerialized_tD4FBFD97A620E6280ADC6F905A8901CB2F229AD4, ___row_0)),static_cast<int32_t>(offsetof(BubbleSerialized_tD4FBFD97A620E6280ADC6F905A8901CB2F229AD4, ___column_1)),static_cast<int32_t>(offsetof(BubbleSerialized_tD4FBFD97A620E6280ADC6F905A8901CB2F229AD4, ___kind_2)),};
@@ -41586,27 +41592,27 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4862[8] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4864[1] = 
 {
 	static_cast<int32_t>(offsetof(ChangeColorClick_t8BEA2B29241CE528FAFE45470212DB6479635DD7_StaticFields, ___onRefreshClick_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4866[8] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4865[7] = 
 {
-	static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0, ___fireButton_4)),static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0, ___PauseMenu_5)),static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0, ___LoseScreen_6)),static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0, ___starsCount_7)),static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0, ___textCounterScore_8)),static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0, ___textCounterBalls_9)),static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0, ___EndCounter_10)),static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0_StaticFields, ___onResumeGame_11)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4867[12] = 
+	static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0, ___fireButton_4)),static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0, ___PauseMenu_5)),static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0, ___LoseScreen_6)),static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0, ___starsCount_7)),static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0, ___textCounterScore_8)),static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0, ___textCounterBalls_9)),static_cast<int32_t>(offsetof(gameScreenController_tA1CEFA96DCE7A2B910FB6D061A61DDBD913981B0, ___EndCounter_10)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4866[12] = 
 {
 	static_cast<int32_t>(offsetof(GridMember_t854903157472650FA53220F7FE40AA4170287FC8, ___simpleEffects_4)),static_cast<int32_t>(offsetof(GridMember_t854903157472650FA53220F7FE40AA4170287FC8, ___bombEffects_5)),static_cast<int32_t>(offsetof(GridMember_t854903157472650FA53220F7FE40AA4170287FC8, ___lightningEffect_6)),static_cast<int32_t>(offsetof(GridMember_t854903157472650FA53220F7FE40AA4170287FC8, ___row_7)),static_cast<int32_t>(offsetof(GridMember_t854903157472650FA53220F7FE40AA4170287FC8, ___column_8)),static_cast<int32_t>(offsetof(GridMember_t854903157472650FA53220F7FE40AA4170287FC8, ___kind_9)),static_cast<int32_t>(offsetof(GridMember_t854903157472650FA53220F7FE40AA4170287FC8, ___state_10)),static_cast<int32_t>(offsetof(GridMember_t854903157472650FA53220F7FE40AA4170287FC8, ___particles_11)),static_cast<int32_t>(offsetof(GridMember_t854903157472650FA53220F7FE40AA4170287FC8, ___settings_12)),static_cast<int32_t>(offsetof(GridMember_t854903157472650FA53220F7FE40AA4170287FC8, ___validSpeed_13)),static_cast<int32_t>(offsetof(GridMember_t854903157472650FA53220F7FE40AA4170287FC8, ___circleCollider2D_14)),static_cast<int32_t>(offsetof(GridMember_t854903157472650FA53220F7FE40AA4170287FC8, ___rigidBody2D_15)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4868[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4867[4] = 
 {
 	static_cast<int32_t>(offsetof(Hitter_tD5AA07D22621E821ED3F206F52462BC545594CE7, ___kind_4)),static_cast<int32_t>(offsetof(Hitter_tD5AA07D22621E821ED3F206F52462BC545594CE7, ___collided_5)),static_cast<int32_t>(offsetof(Hitter_tD5AA07D22621E821ED3F206F52462BC545594CE7, ___gameGridManager_6)),static_cast<int32_t>(offsetof(Hitter_tD5AA07D22621E821ED3F206F52462BC545594CE7, ___rigid_7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4869[16] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4868[16] = 
 {
 	static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___ball_4)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___load_5)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___nextColorBall_6)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___cancell_7)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___rowBalls_8)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___bombs_9)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___maximumReflectionCount_10)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___maximumRayCastDistance_11)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___currentKindColor_12)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___isSpecialBall_13)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___firstLaunch_14)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___nextKindColor_15)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___lineRenderer_16)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___reflectionPositions_17)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___gameGridManager_18)),static_cast<int32_t>(offsetof(Launcher_t09640A8832594BDC3E7A35515EC73E667529E2AC, ___saveColorKind_19)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4870[2] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4869[2] = 
 {
 	static_cast<int32_t>(offsetof(LoseController_t64C0DC08260E7998929D9AF55C5A977FFD58C414, ___moneyCount_4)),static_cast<int32_t>(offsetof(LoseController_t64C0DC08260E7998929D9AF55C5A977FFD58C414, ___buy_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4875[4] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4874[4] = 
 {
 	static_cast<int32_t>(offsetof(MissionGridManager_t4654491277F11E2DD701A50E366225D6CFFAC89E, ____ballcount_23)),static_cast<int32_t>(offsetof(MissionGridManager_t4654491277F11E2DD701A50E366225D6CFFAC89E_StaticFields, ___onUpdateBallCount_24)),static_cast<int32_t>(offsetof(MissionGridManager_t4654491277F11E2DD701A50E366225D6CFFAC89E_StaticFields, ___onSecondChance_25)),static_cast<int32_t>(offsetof(MissionGridManager_t4654491277F11E2DD701A50E366225D6CFFAC89E_StaticFields, ___onSetupScore_26)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4876[9] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4876[13] = 
 {
-	static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___ballCounter_12)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___scoreOne_13)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___scoreTwo_14)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___scoreThree_15)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___WinScreen_16)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___Stars_17)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___StarsDisable_18)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___StatusBarObject_19)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___StatusBar_20)),};
+	static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___ballCounter_11)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___scoreOne_12)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___scoreTwo_13)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___scoreThree_14)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___WinScreen_15)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___winScreenStars_16)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___Stars_17)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___StarsDisable_18)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___StatusBarObject_19)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___StatusBar_20)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___savedScore_21)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B, ___savedBalls_22)),static_cast<int32_t>(offsetof(missionScreenController_t5790B86554A3A4B8C75620D6AD00707BBE08261B_StaticFields, ___onResumeGame_23)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4878[7] = 
 {
 	static_cast<int32_t>(offsetof(U3CSmoothLerpU3Ed__1_tAE459A2D6400004C5996CF5E005AA1B28EC9AA47, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CSmoothLerpU3Ed__1_tAE459A2D6400004C5996CF5E005AA1B28EC9AA47, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CSmoothLerpU3Ed__1_tAE459A2D6400004C5996CF5E005AA1B28EC9AA47, ___objectToTransform_2)),static_cast<int32_t>(offsetof(U3CSmoothLerpU3Ed__1_tAE459A2D6400004C5996CF5E005AA1B28EC9AA47, ___finalPos_3)),static_cast<int32_t>(offsetof(U3CSmoothLerpU3Ed__1_tAE459A2D6400004C5996CF5E005AA1B28EC9AA47, ___time_4)),static_cast<int32_t>(offsetof(U3CSmoothLerpU3Ed__1_tAE459A2D6400004C5996CF5E005AA1B28EC9AA47, ___U3CstartingPosU3E5__2_5)),static_cast<int32_t>(offsetof(U3CSmoothLerpU3Ed__1_tAE459A2D6400004C5996CF5E005AA1B28EC9AA47, ___U3CelapsedTimeU3E5__3_6)),};

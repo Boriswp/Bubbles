@@ -17,4 +17,5 @@
     public const float CAMERA_STRIDE = 3;
     public const int DESTROY_BALL_SCORE = 10;
     public const int FALLING_BALL_SCORE = 20;
+    public const int SAVED_BALL_SCORE = 20;
 }

@@ -99,24 +99,12 @@ public static class Helpers
                 {
                     continue;
                 }
-                lastRow = r;
-            }
-        }
-        var minRow = lastRow - 12;
-        if (minRow < 0) minRow = 0;
-        for (var l = lastRow; l >= minRow; l--)
-        {
-            for (var c = 0; c < columns; c++)
-            {
-                if (objects[c, l] == null)
-                {
-                    continue;
-                }
-                var newKind = objects[c, l].GetComponent<GridMember>().kind;
+                var newKind = objects[c, r].GetComponent<GridMember>().kind;
                 if (!listColors.Contains(newKind))
                 {
                     listColors.Add(newKind);
                 }
+                lastRow = r;
             }
         }
         return Tuple.Create(lastRow, listColors);

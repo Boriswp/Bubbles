@@ -290,124 +290,124 @@ extern void gameScreenController_GoToMainMenu_mB7F677D6124E15B57AC37E8CA9274BDC8
 extern void gameScreenController_ReturnToGame_m3BF761A174728EDDD89C1D912E0A8163DE9737CC (void);
 // 0x0000008B System.Void gameScreenController::.ctor()
 extern void gameScreenController__ctor_m0C6C073739B930F1B93DE49DEC181DE1EC0D5546 (void);
-// 0x0000008C System.Void gameScreenController/OnResumeGame::.ctor(System.Object,System.IntPtr)
-extern void OnResumeGame__ctor_m4E616A1ADD7C70F7EFE3E80898F663612026492A (void);
-// 0x0000008D System.Void gameScreenController/OnResumeGame::Invoke()
-extern void OnResumeGame_Invoke_m42E18049AF46E2144764A003C8D95B8526109538 (void);
-// 0x0000008E System.IAsyncResult gameScreenController/OnResumeGame::BeginInvoke(System.AsyncCallback,System.Object)
-extern void OnResumeGame_BeginInvoke_m015AB8073AA11AE95818200BE840884DA87622D2 (void);
-// 0x0000008F System.Void gameScreenController/OnResumeGame::EndInvoke(System.IAsyncResult)
-extern void OnResumeGame_EndInvoke_m2E1364C4D5BFFBFBEA683EFF9766221639D4A7B9 (void);
-// 0x00000090 System.Void GridMember::Awake()
+// 0x0000008C System.Void GridMember::Awake()
 extern void GridMember_Awake_m05966D0068E8BC4249F0D63BBB187D793BDC2BEC (void);
-// 0x00000091 System.Void GridMember::FixedUpdate()
+// 0x0000008D System.Void GridMember::FixedUpdate()
 extern void GridMember_FixedUpdate_mC7B0A78C1F559F508F6D26DAEC1700E8F45BC62B (void);
-// 0x00000092 System.Void GridMember::.ctor()
+// 0x0000008E System.Void GridMember::.ctor()
 extern void GridMember__ctor_m7614157FDA972B2D87035987A3235C4B94573B4B (void);
-// 0x00000093 System.Void Hitter::Start()
+// 0x0000008F System.Void Hitter::Start()
 extern void Hitter_Start_mA6EC7B7221C1EB1AED5FD55AE72974509081EB94 (void);
-// 0x00000094 System.Void Hitter::OnCollisionEnter2D(UnityEngine.Collision2D)
+// 0x00000090 System.Void Hitter::OnCollisionEnter2D(UnityEngine.Collision2D)
 extern void Hitter_OnCollisionEnter2D_m71714AA27D31D01751204DE87DBA0B2F240C74EC (void);
-// 0x00000095 System.Void Hitter::.ctor()
+// 0x00000091 System.Void Hitter::.ctor()
 extern void Hitter__ctor_m72CC0E3C2080AF2DA3DB8B7DE12C8D878B5565A9 (void);
-// 0x00000096 System.Void Launcher::Awake()
+// 0x00000092 System.Void Launcher::Awake()
 extern void Launcher_Awake_m2846B29C9748A72044A09D18D2BBC0D51533C59F (void);
-// 0x00000097 System.Void Launcher::SetUpCountSpecialBalls()
+// 0x00000093 System.Void Launcher::SetUpCountSpecialBalls()
 extern void Launcher_SetUpCountSpecialBalls_m99FE637B95F7F7895E393CFBC1CE5E866A0BC896 (void);
-// 0x00000098 System.Void Launcher::SetUpSpecialBall(System.Int32)
+// 0x00000094 System.Void Launcher::SetUpSpecialBall(System.Int32)
 extern void Launcher_SetUpSpecialBall_m9E9E269E86DC4624DC7B9105BB26FB7717CC21B2 (void);
-// 0x00000099 System.Void Launcher::DestroySpecialBall()
+// 0x00000095 System.Void Launcher::DestroySpecialBall()
 extern void Launcher_DestroySpecialBall_m46D074DBBC94CDE88956DB871F0073424CF7ACBB (void);
-// 0x0000009A System.Void Launcher::UnSetUpSpecialBall()
+// 0x00000096 System.Void Launcher::UnSetUpSpecialBall()
 extern void Launcher_UnSetUpSpecialBall_m890589A229697611A87B609996B4DB7142D13079 (void);
-// 0x0000009B System.Void Launcher::UnSetUpSpecialBall(System.Int32)
+// 0x00000097 System.Void Launcher::UnSetUpSpecialBall(System.Int32)
 extern void Launcher_UnSetUpSpecialBall_m96DF37267519FCB7EFCD7B00FF31F2A1D3480DF5 (void);
-// 0x0000009C System.Void Launcher::OnColorChange()
+// 0x00000098 System.Void Launcher::OnColorChange()
 extern void Launcher_OnColorChange_mB69D514D5F753CBCEC80FF1C488163D4039F2E55 (void);
-// 0x0000009D System.Void Launcher::OnEnable()
+// 0x00000099 System.Void Launcher::OnEnable()
 extern void Launcher_OnEnable_m71AAC28862AF80A91103C0E45CE5D5410AE6B312 (void);
-// 0x0000009E System.Void Launcher::OnDisable()
+// 0x0000009A System.Void Launcher::OnDisable()
 extern void Launcher_OnDisable_mA403EC62969EF4E1A781B88342A9983303F17774 (void);
-// 0x0000009F System.Void Launcher::Update()
+// 0x0000009B System.Void Launcher::Update()
 extern void Launcher_Update_mBABCF43D3E2CB6E017C088802FA01A5B986C9C70 (void);
-// 0x000000A0 System.Void Launcher::Load()
+// 0x0000009C System.Void Launcher::Load()
 extern void Launcher_Load_mF2394B87C6D731FDA8A92B6382D4C6C0D857EAEC (void);
-// 0x000000A1 System.Void Launcher::Fire()
+// 0x0000009D System.Void Launcher::Fire()
 extern void Launcher_Fire_m9F64F2720BE2313765647BB7EEFF049C4400C507 (void);
-// 0x000000A2 System.Void Launcher::DrawCurrentTrajectory(UnityEngine.Vector2)
+// 0x0000009E System.Void Launcher::DrawCurrentTrajectory(UnityEngine.Vector2)
 extern void Launcher_DrawCurrentTrajectory_m04A009849DC606951B89640527A507C04CA0FC4B (void);
-// 0x000000A3 System.Void Launcher::.ctor()
+// 0x0000009F System.Void Launcher::.ctor()
 extern void Launcher__ctor_m646A0722D01532744D25BC84BB345FB629456302 (void);
-// 0x000000A4 System.Void LoseController::OnEnable()
+// 0x000000A0 System.Void LoseController::OnEnable()
 extern void LoseController_OnEnable_m1718CEEC83759F26E1248E8B1BD9E353E92AC2D7 (void);
-// 0x000000A5 System.Void LoseController::BuyNewBalls()
+// 0x000000A1 System.Void LoseController::BuyNewBalls()
 extern void LoseController_BuyNewBalls_mA863262D8E9ACF847AEC9792785760E5E0C42EAD (void);
-// 0x000000A6 System.Void LoseController::OnGetADReward()
+// 0x000000A2 System.Void LoseController::OnGetADReward()
 extern void LoseController_OnGetADReward_mD606E3E4E6768280C15FBED87ACA5714E7E5032A (void);
-// 0x000000A7 System.Void LoseController::OnDisable()
+// 0x000000A3 System.Void LoseController::OnDisable()
 extern void LoseController_OnDisable_m3E8188326914DBF487F678628FF7B7928DEE2B21 (void);
-// 0x000000A8 System.Void LoseController::ShowAd()
+// 0x000000A4 System.Void LoseController::ShowAd()
 extern void LoseController_ShowAd_m4F5873E231790A3920CFE2198AA99957FAE53770 (void);
-// 0x000000A9 System.Void LoseController::.ctor()
+// 0x000000A5 System.Void LoseController::.ctor()
 extern void LoseController__ctor_mD56A103E21DC8C258B43C07A1CB19615106C5162 (void);
-// 0x000000AA System.Void CameraMovement::OnEnable()
+// 0x000000A6 System.Void CameraMovement::OnEnable()
 extern void CameraMovement_OnEnable_m31E13217423767167B05C6982BEEB433514461AE (void);
-// 0x000000AB System.Void CameraMovement::OnDisable()
+// 0x000000A7 System.Void CameraMovement::OnDisable()
 extern void CameraMovement_OnDisable_mA7A4D1128CA5716DB47F00F05B742FC29840DC9E (void);
-// 0x000000AC System.Void CameraMovement::MoveObjects(UnityEngine.Vector2)
+// 0x000000A8 System.Void CameraMovement::MoveObjects(UnityEngine.Vector2)
 extern void CameraMovement_MoveObjects_m4452EBEE341482EE6E89C27FC72083DD4DD4200A (void);
-// 0x000000AD System.Void CameraMovement::.ctor()
+// 0x000000A9 System.Void CameraMovement::.ctor()
 extern void CameraMovement__ctor_m89EBDC0905F17D37C7604387BED054FDCCADAFD3 (void);
-// 0x000000AE System.Void MissionGridManager::Awake()
+// 0x000000AA System.Void MissionGridManager::Awake()
 extern void MissionGridManager_Awake_m15DACAF7CCBED1218973B063626143E9019D3641 (void);
-// 0x000000AF System.Void MissionGridManager::OnDisable()
+// 0x000000AB System.Void MissionGridManager::OnDisable()
 extern void MissionGridManager_OnDisable_m415A5E6D8DB0A37105A3445490D7E7A62D7A3303 (void);
-// 0x000000B0 System.Void MissionGridManager::onNewBallsAppear(System.Int32)
+// 0x000000AC System.Void MissionGridManager::onNewBallsAppear(System.Int32)
 extern void MissionGridManager_onNewBallsAppear_m8C6AE241E522A4545E9F0B623C9FF82BA94DCE12 (void);
-// 0x000000B1 System.Collections.Generic.List`1<System.Int32> MissionGridManager::UpdateLvlInfo(System.Boolean)
+// 0x000000AD System.Collections.Generic.List`1<System.Int32> MissionGridManager::UpdateLvlInfo(System.Boolean)
 extern void MissionGridManager_UpdateLvlInfo_m2C5E9BD7817B172F11C91CB00376BE3F6198279A (void);
-// 0x000000B2 System.Void MissionGridManager::.ctor()
+// 0x000000AE System.Void MissionGridManager::.ctor()
 extern void MissionGridManager__ctor_mC5D8D1E4F881CE9463245C297F5C6C8F2DBCC99C (void);
-// 0x000000B3 System.Void MissionGridManager/OnUpdateBallCount::.ctor(System.Object,System.IntPtr)
+// 0x000000AF System.Void MissionGridManager/OnUpdateBallCount::.ctor(System.Object,System.IntPtr)
 extern void OnUpdateBallCount__ctor_mDEFB06880798B589DFB22CE5AFEFF1901E451855 (void);
-// 0x000000B4 System.Void MissionGridManager/OnUpdateBallCount::Invoke(System.Int32)
+// 0x000000B0 System.Void MissionGridManager/OnUpdateBallCount::Invoke(System.Int32)
 extern void OnUpdateBallCount_Invoke_mC12DB8A1A791FBD93A14885BC47F8B8EF1F7D856 (void);
-// 0x000000B5 System.IAsyncResult MissionGridManager/OnUpdateBallCount::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
+// 0x000000B1 System.IAsyncResult MissionGridManager/OnUpdateBallCount::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
 extern void OnUpdateBallCount_BeginInvoke_m6C294A873B6514FA6A5AD540EF3F7F3E312DB793 (void);
-// 0x000000B6 System.Void MissionGridManager/OnUpdateBallCount::EndInvoke(System.IAsyncResult)
+// 0x000000B2 System.Void MissionGridManager/OnUpdateBallCount::EndInvoke(System.IAsyncResult)
 extern void OnUpdateBallCount_EndInvoke_m09D4642A9D6581FBEB6910206A25AC95286EF9B5 (void);
-// 0x000000B7 System.Void MissionGridManager/OnSecondChance::.ctor(System.Object,System.IntPtr)
+// 0x000000B3 System.Void MissionGridManager/OnSecondChance::.ctor(System.Object,System.IntPtr)
 extern void OnSecondChance__ctor_mE815CC4B3F6D95A0B162CD48947E6CE8A19695CE (void);
-// 0x000000B8 System.Void MissionGridManager/OnSecondChance::Invoke(System.Int32)
+// 0x000000B4 System.Void MissionGridManager/OnSecondChance::Invoke(System.Int32)
 extern void OnSecondChance_Invoke_m0CF79687898577A39D8FB701A6E030F0CC4AC5E1 (void);
-// 0x000000B9 System.IAsyncResult MissionGridManager/OnSecondChance::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
+// 0x000000B5 System.IAsyncResult MissionGridManager/OnSecondChance::BeginInvoke(System.Int32,System.AsyncCallback,System.Object)
 extern void OnSecondChance_BeginInvoke_m10E0BE4871C67441FD6C63E9214C7C8DA6D4F9B6 (void);
-// 0x000000BA System.Void MissionGridManager/OnSecondChance::EndInvoke(System.IAsyncResult)
+// 0x000000B6 System.Void MissionGridManager/OnSecondChance::EndInvoke(System.IAsyncResult)
 extern void OnSecondChance_EndInvoke_mA7E4A156046755202E22415DD1701A2A14D94767 (void);
-// 0x000000BB System.Void MissionGridManager/OnSetupScore::.ctor(System.Object,System.IntPtr)
+// 0x000000B7 System.Void MissionGridManager/OnSetupScore::.ctor(System.Object,System.IntPtr)
 extern void OnSetupScore__ctor_m7B9BEAA9CBDEB627D672D633E04A7CD0F7760E4F (void);
-// 0x000000BC System.Void MissionGridManager/OnSetupScore::Invoke(System.Int32,System.Int32,System.Int32)
+// 0x000000B8 System.Void MissionGridManager/OnSetupScore::Invoke(System.Int32,System.Int32,System.Int32)
 extern void OnSetupScore_Invoke_mC557AFC608B1644BF9723FC453491BCCDA242D64 (void);
-// 0x000000BD System.IAsyncResult MissionGridManager/OnSetupScore::BeginInvoke(System.Int32,System.Int32,System.Int32,System.AsyncCallback,System.Object)
+// 0x000000B9 System.IAsyncResult MissionGridManager/OnSetupScore::BeginInvoke(System.Int32,System.Int32,System.Int32,System.AsyncCallback,System.Object)
 extern void OnSetupScore_BeginInvoke_m71AFC0744A68B6942633E2B56A8D96E094B5C74E (void);
-// 0x000000BE System.Void MissionGridManager/OnSetupScore::EndInvoke(System.IAsyncResult)
+// 0x000000BA System.Void MissionGridManager/OnSetupScore::EndInvoke(System.IAsyncResult)
 extern void OnSetupScore_EndInvoke_m87B3653A4EDEF9B12315710656E1934244597795 (void);
-// 0x000000BF System.Void missionScreenController::Awake()
+// 0x000000BB System.Void missionScreenController::Awake()
 extern void missionScreenController_Awake_m6B465C4D5923C0432ADD467DDCE7356E8D051EA7 (void);
-// 0x000000C0 System.Void missionScreenController::OnEnable()
+// 0x000000BC System.Void missionScreenController::OnEnable()
 extern void missionScreenController_OnEnable_mA9770047DDCC7EAF28A942D2980BDE4A29F0E260 (void);
-// 0x000000C1 System.Void missionScreenController::OnDisable()
+// 0x000000BD System.Void missionScreenController::OnDisable()
 extern void missionScreenController_OnDisable_m2ABE537D44E1CC494191AE18320BE7DBB727D0D9 (void);
-// 0x000000C2 System.Void missionScreenController::OnSetupScore(System.Int32,System.Int32,System.Int32)
+// 0x000000BE System.Void missionScreenController::OnSetupScore(System.Int32,System.Int32,System.Int32)
 extern void missionScreenController_OnSetupScore_mE607009A86068DCE65822D43579E3C8FE1165A6F (void);
-// 0x000000C3 System.Void missionScreenController::UpdateBallCount(System.Int32)
+// 0x000000BF System.Void missionScreenController::UpdateBallCount(System.Int32)
 extern void missionScreenController_UpdateBallCount_mB79C0BA40249A19470563374C2D6D5FBCD561AF2 (void);
-// 0x000000C4 System.Void missionScreenController::UpdateScore(System.Int32,System.Int32)
+// 0x000000C0 System.Void missionScreenController::UpdateScore(System.Int32,System.Int32)
 extern void missionScreenController_UpdateScore_mEFDDCAAD6ABEFD270EB066CEDBECF15F7118B55A (void);
-// 0x000000C5 System.Void missionScreenController::ShowWinScreen()
+// 0x000000C1 System.Void missionScreenController::ShowWinScreen()
 extern void missionScreenController_ShowWinScreen_m97BBD7C3D31011DEA29F37F4380C1F9CD08A33DA (void);
-// 0x000000C6 System.Void missionScreenController::.ctor()
+// 0x000000C2 System.Void missionScreenController::.ctor()
 extern void missionScreenController__ctor_mD762934CE4BCB881C53367573F692726C77C49BB (void);
+// 0x000000C3 System.Void missionScreenController/OnResumeGame::.ctor(System.Object,System.IntPtr)
+extern void OnResumeGame__ctor_mE12DCF26803021B144432F9D5BF9ABB5A959C15F (void);
+// 0x000000C4 System.Void missionScreenController/OnResumeGame::Invoke()
+extern void OnResumeGame_Invoke_m7AFE0CC84BDAA5B7C816A0D4343C0B9735BF9A3A (void);
+// 0x000000C5 System.IAsyncResult missionScreenController/OnResumeGame::BeginInvoke(System.AsyncCallback,System.Object)
+extern void OnResumeGame_BeginInvoke_m0931E54A442D81B693C1E9D0F28EF2DE4A4AEEA2 (void);
+// 0x000000C6 System.Void missionScreenController/OnResumeGame::EndInvoke(System.IAsyncResult)
+extern void OnResumeGame_EndInvoke_mBAA390B5B9F937E3DC5A4D366BDB57B8C0607E71 (void);
 // 0x000000C7 System.Void ParticleCallback::OnParticleSystemStopped()
 extern void ParticleCallback_OnParticleSystemStopped_mF1126123E4B09047DB8B210AFB228380D7AED0D8 (void);
 // 0x000000C8 System.Void ParticleCallback::.ctor()
@@ -1608,10 +1608,6 @@ static Il2CppMethodPointer s_methodPointers[728] =
 	gameScreenController_GoToMainMenu_mB7F677D6124E15B57AC37E8CA9274BDC868C66C4,
 	gameScreenController_ReturnToGame_m3BF761A174728EDDD89C1D912E0A8163DE9737CC,
 	gameScreenController__ctor_m0C6C073739B930F1B93DE49DEC181DE1EC0D5546,
-	OnResumeGame__ctor_m4E616A1ADD7C70F7EFE3E80898F663612026492A,
-	OnResumeGame_Invoke_m42E18049AF46E2144764A003C8D95B8526109538,
-	OnResumeGame_BeginInvoke_m015AB8073AA11AE95818200BE840884DA87622D2,
-	OnResumeGame_EndInvoke_m2E1364C4D5BFFBFBEA683EFF9766221639D4A7B9,
 	GridMember_Awake_m05966D0068E8BC4249F0D63BBB187D793BDC2BEC,
 	GridMember_FixedUpdate_mC7B0A78C1F559F508F6D26DAEC1700E8F45BC62B,
 	GridMember__ctor_m7614157FDA972B2D87035987A3235C4B94573B4B,
@@ -1667,6 +1663,10 @@ static Il2CppMethodPointer s_methodPointers[728] =
 	missionScreenController_UpdateScore_mEFDDCAAD6ABEFD270EB066CEDBECF15F7118B55A,
 	missionScreenController_ShowWinScreen_m97BBD7C3D31011DEA29F37F4380C1F9CD08A33DA,
 	missionScreenController__ctor_mD762934CE4BCB881C53367573F692726C77C49BB,
+	OnResumeGame__ctor_mE12DCF26803021B144432F9D5BF9ABB5A959C15F,
+	OnResumeGame_Invoke_m7AFE0CC84BDAA5B7C816A0D4343C0B9735BF9A3A,
+	OnResumeGame_BeginInvoke_m0931E54A442D81B693C1E9D0F28EF2DE4A4AEEA2,
+	OnResumeGame_EndInvoke_mBAA390B5B9F937E3DC5A4D366BDB57B8C0607E71,
 	ParticleCallback_OnParticleSystemStopped_mF1126123E4B09047DB8B210AFB228380D7AED0D8,
 	ParticleCallback__ctor_mE6DE8D4C5A2166912F56AF8EEE7536F6B5B264DC,
 	Helpers_SmoothLerp_m14BF884855C62B7DABB55239222825C122ABFD87,
@@ -2368,10 +2368,6 @@ static const int32_t s_InvokerIndices[728] =
 	5820,
 	5820,
 	5820,
-	2665,
-	5820,
-	2092,
-	4686,
 	5820,
 	5820,
 	5820,
@@ -2427,6 +2423,10 @@ static const int32_t s_InvokerIndices[728] =
 	2435,
 	5820,
 	5820,
+	2665,
+	5820,
+	2092,
+	4686,
 	5820,
 	5820,
 	7574,

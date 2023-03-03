@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "RZ8NC0HVPXH",
+    "m_SelectedDeviceId": "a97e4bf",
     "m_SelectedPackage": {
-        "deviceId": "RZ8NC0HVPXH",
+        "deviceId": "a97e4bf",
         "name": "com.Immo.BubbleMania",
-        "processId": 19315,
+        "processId": 19009,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -54,6 +54,24 @@
             "deviceId": "RZ8NC0HVPXH",
             "name": "com.Immo.BubbleMania",
             "processId": 19315,
+            "exited": false
+        },
+        {
+            "deviceId": "a97e4bf",
+            "name": "org.telegram.messenger",
+            "processId": 32181,
+            "exited": false
+        },
+        {
+            "deviceId": "a97e4bf",
+            "name": "com.Immo.BubbleMania",
+            "processId": 14759,
+            "exited": true
+        },
+        {
+            "deviceId": "a97e4bf",
+            "name": "com.Immo.BubbleMania",
+            "processId": 19009,
             "exited": false
         }
     ],

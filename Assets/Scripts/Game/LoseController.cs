@@ -37,7 +37,7 @@ public class LoseController : MonoBehaviour
     private void OnDisable()
     {
         AdModule.onGetReward -= OnGetADReward;
-        gameScreenController.onResumeGame.Invoke();
+        missionScreenController.onResumeGame.Invoke();
     }
 
     public void ShowAd()
