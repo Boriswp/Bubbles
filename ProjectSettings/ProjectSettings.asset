@@ -159,6 +159,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.Immo.BubbleMania
     Standalone: com.Immo.BubbleMania
+    iPhone: com.Immo.BubbleMania
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -186,7 +187,7 @@ PlayerSettings:
   tvOSTargetOSVersionString: 12.0
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
-  uIRequiresFullScreen: 1
+  uIRequiresFullScreen: 0
   uIStatusBarHidden: 1
   uIExitOnSuspend: 0
   uIStatusBarStyle: 0
@@ -809,7 +810,7 @@ PlayerSettings:
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
   enableRoslynAnalyzers: 1
-  selectedPlatform: 2
+  selectedPlatform: 3
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 1
