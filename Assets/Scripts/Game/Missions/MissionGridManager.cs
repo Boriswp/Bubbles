@@ -61,6 +61,7 @@ public class MissionGridManager : BaseGameGridManager
         }
         var tuple = Helpers.GetLastRowAndColors(grid, ROW_MAX, Constants.COLUMNS);
         onUpdateTarget?.Invoke(new Vector2(0, -tuple.Item1 * Constants.GAP));
+        Debug.Log(tuple.Item2.Count);
         return tuple.Item2;
     }
 }

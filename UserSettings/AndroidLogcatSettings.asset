@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "a97e4bf",
         "name": "com.Immo.BubbleMania",
-        "processId": 19009,
+        "processId": 12746,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -60,7 +60,7 @@
             "deviceId": "a97e4bf",
             "name": "org.telegram.messenger",
             "processId": 32181,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "a97e4bf",
@@ -72,6 +72,12 @@
             "deviceId": "a97e4bf",
             "name": "com.Immo.BubbleMania",
             "processId": 19009,
+            "exited": true
+        },
+        {
+            "deviceId": "a97e4bf",
+            "name": "com.Immo.BubbleMania",
+            "processId": 12746,
             "exited": false
         }
     ],
