@@ -17,13 +17,16 @@ public class GeneratorController : MonoBehaviour
     private int rowTo = 10;
     private int columnFrom = 0;
     private int holeVar = 20;
+    private int chainVar = 0;
     private int columnTo = Constants.COLUMNS;
     private List<int> kindList = new();
 
 
-    public void SetRowTo(string num)=>int.TryParse(num, out rowTo);
+    public void SetRowTo(string num) => int.TryParse(num, out rowTo);
 
     public void SetProbability(string num) => int.TryParse(num, out holeVar);
+
+    public void SetChainProbability(string num) => int.TryParse(num, out chainVar);
 
     public void SetRowFrom(string num) => int.TryParse(num, out rowFrom);
 
@@ -62,7 +65,7 @@ public class GeneratorController : MonoBehaviour
         }
         if (isGreen)
         {
-           kindList.Add(3);
+            kindList.Add(3);
         }
         if (isMagenta)
         {
@@ -77,7 +80,7 @@ public class GeneratorController : MonoBehaviour
             kindList.Add(6);
         }
         if (kindList.Count == 0) return;
-        gridManager.Generate(kindList,rowFrom,rowTo,columnFrom,columnTo,holeVar);
+        gridManager.Generate(kindList, rowFrom, rowTo, columnFrom, columnTo, holeVar, chainVar);
 
         OnCancell();
     }

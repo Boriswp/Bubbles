@@ -51,6 +51,34 @@ public class ConstructorGridManager : BaseGridManager
         }
     }
 
+    public void CreateChain(Vector2 position, Transform parent = null)
+    {
+        var snappedPosition = Snap(position);
+        var position1 = initialPos.transform.position;
+        var row = (int)Mathf.Round((snappedPosition.y - position1.y) / Constants.GAP);
+        int column;
+        if (row % 2 != 0)
+        {
+            column = (int)Mathf.Round((snappedPosition.x - position1.x) / Constants.GAP + Constants.GAP);
+        }
+        else
+        {
+            column = (int)Mathf.Round((snappedPosition.x - position1.x) / Constants.GAP);
+        }
+        try
+        {
+            if (grid[column, -row] == null) return;
+            var gridMember = grid[column, -row].GetComponent<GridMember>();
+            if (gridMember.kind >= Constants.FIRST_LAYER_BALLS) return;
+            gridMember.kind += Constants.FIRST_LAYER_BALLS;
+            gridMember.EnableChain();
+        }
+        catch (System.IndexOutOfRangeException)
+        {
+            Debug.Log($"wrong coord {position}");
+        }
+    }
+
     public void ClearAll()
     {
         for (var r = 0; r < ROW_MAX; r++)
@@ -65,7 +93,7 @@ public class ConstructorGridManager : BaseGridManager
         }
     }
 
-    public void Generate(List<int> kinds, int rowFrom, int rowTo, int columnFrom, int columnTo, int hole)
+    public void Generate(List<int> kinds, int rowFrom, int rowTo, int columnFrom, int columnTo, int hole, int chain)
     {
 
         for (var r = rowFrom; r < rowTo; r++)
@@ -78,18 +106,21 @@ public class ConstructorGridManager : BaseGridManager
                 }
                 else
                 {
-                    Creator(c, r, kinds);
+                    Creator(c, r, kinds, chain);
                 }
             }
         }
     }
 
-    public void Creator(int column, int row, List<int> kinds)
+    public void Creator(int column, int row, List<int> kinds, int chain)
     {
         var position = new Vector3(column * Constants.GAP, -row * Constants.GAP, 0f) + initialPos.transform.position;
         var index = Random.Range(0, kinds.Count);
         var newKind = kinds[index];
-
+        if (Random.Range(1f, 100f) <= chain)
+        {
+            newKind += Constants.FIRST_LAYER_BALLS;
+        }
         Create(position, newKind, false, root.transform);
     }
 

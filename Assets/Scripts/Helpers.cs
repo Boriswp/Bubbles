@@ -100,6 +100,10 @@ public static class Helpers
                     continue;
                 }
                 var newKind = objects[c, r].GetComponent<GridMember>().kind;
+                if (newKind >= Constants.FIRST_LAYER_BALLS)
+                {
+                    newKind -= Constants.FIRST_LAYER_BALLS;
+                }
                 if (!listColors.Contains(newKind))
                 {
                     listColors.Add(newKind);

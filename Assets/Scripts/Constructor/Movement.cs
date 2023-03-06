@@ -8,6 +8,7 @@ public class Movement : MonoBehaviour
     public GameObject root;
     public int kind;
     private GameObject _objectToSetPosition;
+    public Sprite chain;
     public Image[] images;
     private ConstructorGridManager _gridManager;
 
@@ -26,8 +27,16 @@ public class Movement : MonoBehaviour
             {
                 if (kcode == KeyCode.Mouse0)
                 {
+                    if (Helpers.isUI(Input.mousePosition)) return;
                     if (_objectToSetPosition == null) return;
-                    _gridManager.Create(_objectToSetPosition.transform.position, kind, false, root.transform);
+                    if (kind == 7)
+                    {
+                        _gridManager.CreateChain(_objectToSetPosition.transform.position, root.transform);
+                    }
+                    else
+                    {
+                        _gridManager.Create(_objectToSetPosition.transform.position, kind, false, root.transform);
+                    }
                 }
                 else if (kcode == KeyCode.Mouse1)
                 {
@@ -36,7 +45,7 @@ public class Movement : MonoBehaviour
                 else
                 {
                     var tempkind = ((int)kcode) - 48;
-                    if (tempkind < 7 && tempkind >= 0)
+                    if (tempkind < 8 && tempkind >= 0)
                     {
                         kind = tempkind;
                         for (int pos = 0; pos < images.Length; pos++)
@@ -59,7 +68,14 @@ public class Movement : MonoBehaviour
                         var spriteRenderer = _objectToSetPosition.GetComponent<SpriteRenderer>();
                         spriteRenderer.sortingOrder = 5;
                         if (kind == -1) return;
-                        spriteRenderer.sprite = BaseGridManager.SpriteArray[kind];
+                        if (kind == 7)
+                        {
+                            spriteRenderer.sprite = chain;
+                        }
+                        else
+                        {
+                            spriteRenderer.sprite = BaseGridManager.SpriteArray[kind];
+                        }
                     }
                 }
             }

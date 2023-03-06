@@ -9,6 +9,7 @@ public class GridMember : MonoBehaviour
     public GameObject simpleEffects;
     public GameObject bombEffects;
     public GameObject lightningEffect;
+    public GameObject chain;
     public int row;
     public int column;
     public int kind;
@@ -26,6 +27,11 @@ public class GridMember : MonoBehaviour
     {
         circleCollider2D = GetComponent<CircleCollider2D>();
         rigidBody2D = GetComponent<Rigidbody2D>();
+    }
+
+    public void EnableChain()
+    {
+        chain.SetActive(true);
     }
 
     public void FixedUpdate()
@@ -68,6 +74,13 @@ public class GridMember : MonoBehaviour
                     {
                         Destroy(gameObject);
                     }
+                    break;
+                }
+            case BubbleState.BreakFirstLayer:
+                {
+                    chain.SetActive(false);
+                    kind -= Constants.FIRST_LAYER_BALLS;
+                    state = BubbleState.Initial;
                     break;
                 }
             case BubbleState.Initial:

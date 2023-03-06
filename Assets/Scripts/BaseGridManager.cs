@@ -45,15 +45,20 @@ public class BaseGridManager : MonoBehaviour
             var bubbleClone = Instantiate(bubble, snappedPosition, Quaternion.identity, parent);
             var gridMember = bubbleClone.GetComponent<GridMember>();
             gridMember.enabled = true;
-
             gridMember.row = row;
             gridMember.column = column;
             gridMember.kind = kind;
 
             var spriteRenderer = bubbleClone.GetComponent<SpriteRenderer>();
-
-            spriteRenderer.sprite = SpriteArray[gridMember.kind];
-
+            if (kind >= Constants.FIRST_LAYER_BALLS)
+            {
+                spriteRenderer.sprite = SpriteArray[gridMember.kind - Constants.FIRST_LAYER_BALLS];
+                gridMember.EnableChain();
+            }
+            else
+            {
+                spriteRenderer.sprite = SpriteArray[gridMember.kind];
+            }
             grid[column, -row] = bubbleClone;
         }
         catch (IndexOutOfRangeException)

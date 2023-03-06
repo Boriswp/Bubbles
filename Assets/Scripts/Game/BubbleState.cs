@@ -3,5 +3,6 @@
       Initial,
       Pop,
       Explode,
+      BreakFirstLayer,
       Fall
 }

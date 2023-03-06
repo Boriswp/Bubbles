@@ -155,8 +155,6 @@ public class BaseGameGridManager : BaseGridManager
                     break;
             }
         }
-
-
         return objectQueue;
     }
 
@@ -258,7 +256,7 @@ public class BaseGameGridManager : BaseGridManager
                 var g = grid[neighbor[0], neighbor[1]];
                 if (g == null) continue;
                 var gridMember = g.GetComponent<GridMember>();
-                if (gridMember.kind != kind && kind != -1) continue;
+                if (gridMember.kind != kind && gridMember.kind - Constants.FIRST_LAYER_BALLS != kind && kind != -1) continue;
                 if (visited[neighbor[0], neighbor[1]]) continue;
                 visited[neighbor[0], neighbor[1]] = true;
                 queue.Enqueue(neighbor);
@@ -283,19 +281,24 @@ public class BaseGameGridManager : BaseGridManager
             Constants.FIRE_KIND => FireNeighborCounter(queue, visited),
             _ => NeighborCounter(queue, visited, kind)
         };
-        Debug.Log($"{objectQueue.Count}");
         if (objectQueue.Count >= 3 || kind is Constants.BOMB_KIND or Constants.LIGHTNING_KIND or Constants.FIRE_KIND)
         {
             while (objectQueue.Count != 0)
             {
                 var g = objectQueue.Dequeue();
-
                 if (!g.TryGetComponent<GridMember>(out var gm)) continue;
-                grid[gm.column, -gm.row] = null;
+                if (gm.kind >= Constants.FIRST_LAYER_BALLS)
+                {
+                    gm.state = BubbleState.BreakFirstLayer;
+                }
+                else
+                {
+                    grid[gm.column, -gm.row] = null;
+                    _counterBalls--;
+                    gm.enabled = true;
+                    gm.state = BubbleState.Pop;
+                }
                 _counterScore += Constants.DESTROY_BALL_SCORE;
-                _counterBalls--;
-                gm.enabled = true;
-                gm.state = BubbleState.Pop;
             }
 
             onUpdateScore?.Invoke(_counterScore, _counterBalls);
