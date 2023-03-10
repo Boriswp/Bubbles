@@ -51,108 +51,68 @@ public class BaseGameGridManager : BaseGridManager
         ready = true;
     }
 
-    public void CreateSimple(GameObject newGameObject, int kind)
+    public void CreateSimple(GameObject newGameObject, int kind, Vector2 direction)
     {
         ready = false;
         var position = newGameObject.transform.position;
-        while (true)
+
+        var snappedPosition = Snap(position);
+        var position1 = initialPos.transform.position;
+        var floatRow = (snappedPosition.y - position1.y) / Constants.GAP;
+        var row = (int)Mathf.Round(floatRow);
+        float floatColumn;
+        if (row % 2 != 0)
         {
-            var snappedPosition = Snap(position);
-            var position1 = initialPos.transform.position;
-            var floatRow = (snappedPosition.y - position1.y) / Constants.GAP;
-            var row = (int)Mathf.Round(floatRow);
-            float floatColumn;
-            if (row % 2 != 0)
-            {
-                floatColumn = (snappedPosition.x - position1.x) / Constants.GAP + Constants.GAP;
-            }
-            else
-            {
-                floatColumn = (snappedPosition.x - position1.x) / Constants.GAP;
-            }
-
-            var column = (int)Mathf.Round(floatColumn);
-
-            if (grid[column, -row] != null)
-            {
-                if (grid[column, -(row - 1)] != null)
-                {
-                    position = grid[column, -row].transform.position.x > position.x
-                        ? new Vector2(position.x - Constants.GAP / 2, position.y)
-                        : new Vector2(position.x + Constants.GAP / 2, position.y);
-                }
-                else
-                {
-                    position = new Vector2(position.x, position.y - Constants.GAP / 2);
-                }
-
-                continue;
-            }
-
-            newGameObject.transform.position = snappedPosition;
-
-
-            var gridMember = newGameObject.GetComponent<GridMember>();
-            gridMember.enabled = true;
-
-            gridMember.row = row;
-            gridMember.column = column;
-            if (kind == Constants.RANDOM_KIND)
-            {
-                gridMember.kind = (int)Random.Range(1f, 7f);
-                var spriteRenderer = newGameObject.GetComponent<SpriteRenderer>();
-                spriteRenderer.sprite = SpriteArray[gridMember.kind];
-            }
-            else
-            {
-                gridMember.kind = kind;
-            }
-
-            if (-row >= loseCountRow)
-            {
-                onGameOver?.Invoke();
-            }
-
-            grid[column, -row] = newGameObject;
-            _counterBalls++;
-            Seek(column, -row, gridMember.kind);
-            Reload();
-            return;
+            floatColumn = (snappedPosition.x - position1.x) / Constants.GAP + Constants.GAP;
         }
+        else
+        {
+            floatColumn = (snappedPosition.x - position1.x) / Constants.GAP;
+        }
+
+        var column = (int)Mathf.Round(floatColumn);
+
+        newGameObject.transform.position = snappedPosition;
+
+
+        var gridMember = newGameObject.GetComponent<GridMember>();
+        gridMember.enabled = true;
+
+        gridMember.row = row;
+        gridMember.column = column;
+        if (kind == Constants.RANDOM_KIND)
+        {
+            gridMember.kind = (int)Random.Range(1f, 7f);
+            var spriteRenderer = newGameObject.GetComponent<SpriteRenderer>();
+            spriteRenderer.sprite = SpriteArray[gridMember.kind];
+        }
+        else
+        {
+            gridMember.kind = kind;
+        }
+
+        if (-row >= loseCountRow)
+        {
+            onGameOver?.Invoke();
+        }
+
+        grid[column, -row] = newGameObject;
+        _counterBalls++;
+        Seek(column, -row, gridMember.kind, direction, snappedPosition);
+        Reload();
+        return;
     }
 
 
-    private Queue<GameObject> FireNeighborCounter(Queue<int[]> queue, bool[,] visited)
+    private Queue<GameObject> FireNeighborCounter(Vector2 direction, Vector3 position)
     {
+        var circleHits = Physics2D.CircleCastAll(position, 0.235F, direction, 50f);
         var objectQueue = new Queue<GameObject>();
-        var top = queue.Dequeue();
-        var gTop = grid[top[0], top[1]];
-        if (gTop != null)
+        foreach (var circleHit in circleHits)
         {
-            objectQueue.Enqueue(gTop);
-        }
-
-        var jNext = top[0];
-        for (var i = top[1]; i >= 0; i--)
-        {
-
-            if (jNext is < 0 or >= Constants.COLUMNS)
+            if (circleHit.collider.CompareTag("Bubble"))
             {
-                break;
-            }
-
-            var gnext = grid[jNext, i];
-            if (gnext == null) continue;
-            objectQueue.Enqueue(gnext);
-            visited[jNext, i] = true;
-            switch (top[0])
-            {
-                case < 5:
-                    jNext--;
-                    break;
-                case > 5:
-                    jNext++;
-                    break;
+                objectQueue.Enqueue(circleHit.collider.gameObject);
             }
         }
         return objectQueue;
@@ -200,34 +160,18 @@ public class BaseGameGridManager : BaseGridManager
         return objectQueue;
     }
 
-    private Queue<GameObject> BombNeighborCounter(Queue<int[]> queue, bool[,] visited)
+    private Queue<GameObject> BombNeighborCounter(Vector3 position)
     {
+        var circleHits = Physics2D.CircleCastAll(position, 1F, Vector2.zero, 0f);
         var objectQueue = new Queue<GameObject>();
 
-        var top = queue.Dequeue();
-        var gTop = grid[top[0], top[1]];
-        if (gTop != null)
+        foreach (var circleHit in circleHits)
         {
-            objectQueue.Enqueue(gTop);
-        }
-
-        for (var i = 0; i < 6; i++)
-        {
-            var neighbor = new int[2];
-            neighbor[0] = top[1] % 2 != 0 ? top[0] + deltax[i] : top[0] + deltaxprime[i];
-            neighbor[1] = top[1] + deltay[i];
-            if (neighbor[0] >= Constants.COLUMNS || neighbor[1] >= ROW_MAX || neighbor[0] < 0 || neighbor[1] < 0)
+            if (circleHit.collider.CompareTag("Bubble"))
             {
-                continue;
+                objectQueue.Enqueue(circleHit.collider.gameObject);
             }
-
-            var g = grid[neighbor[0], neighbor[1]];
-            if (g == null) continue;
-            if (visited[neighbor[0], neighbor[1]]) continue;
-            visited[neighbor[0], neighbor[1]] = true;
-            objectQueue.Enqueue(g);
         }
-
         return objectQueue;
     }
 
@@ -266,7 +210,7 @@ public class BaseGameGridManager : BaseGridManager
         return objectQueue;
     }
 
-    private void Seek(int column, int row, int kind)
+    private void Seek(int column, int row, int kind, Vector2 direction, Vector3 position)
     {
         int[] pair = { column, row };
 
@@ -276,9 +220,9 @@ public class BaseGameGridManager : BaseGridManager
         queue.Enqueue(pair);
         var objectQueue = kind switch
         {
-            Constants.BOMB_KIND => BombNeighborCounter(queue, visited),
+            Constants.BOMB_KIND => BombNeighborCounter(position),
             Constants.LIGHTNING_KIND => LightingNeighborCounter(queue, visited),
-            Constants.FIRE_KIND => FireNeighborCounter(queue, visited),
+            Constants.FIRE_KIND => FireNeighborCounter(direction, position),
             _ => NeighborCounter(queue, visited, kind)
         };
         if (objectQueue.Count >= 3 || kind is Constants.BOMB_KIND or Constants.LIGHTNING_KIND or Constants.FIRE_KIND)

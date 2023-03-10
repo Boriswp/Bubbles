@@ -47,7 +47,7 @@ public class AdModule : MonoBehaviour
 #if UNITY_ANDROID
         string adUnitId = "ca-app-pub-3940256099942544/6300978111";
 #elif UNITY_IPHONE
-            string adUnitId = "ca-app-pub-3940256099942544/2934735716";
+        string adUnitId = "ca-app-pub-3940256099942544/2934735716";
 #else
         string adUnitId = "ca-app-pub-3940256099942544/6300978111";
 #endif
@@ -58,9 +58,8 @@ public class AdModule : MonoBehaviour
     }
     public void RequestAndLoadRewardedAd()
     {
-#if UNITY_EDITOR
-        string adUnitId = "unused";
-#elif UNITY_ANDROID
+
+#if UNITY_ANDROID
         string adUnitId = "ca-app-pub-3940256099942544/5224354917";
 #elif UNITY_IPHONE
         string adUnitId = "ca-app-pub-3940256099942544/1712485313";
@@ -74,7 +73,7 @@ public class AdModule : MonoBehaviour
         rewardedAd.OnAdOpening += HandleOnAdOpening;
         rewardedAd.OnAdClosed += HandleOnAdClosed;
         rewardedAd.OnUserEarnedReward += HandleAdReward;
-
+        Debug.Log($"LoadReward + {adUnitId}");
         var request = new AdRequest.Builder().Build();
         rewardedAd.LoadAd(request);
     }
@@ -83,6 +82,7 @@ public class AdModule : MonoBehaviour
     {
         if (rewardedAd != null)
         {
+            Debug.Log("ShowReward");
             rewardedAd.Show();
         }
     }

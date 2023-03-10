@@ -21,14 +21,14 @@ public class SettingsController : MonoBehaviour
 
     public void playButtonSound()
     {
-        SoundController.soundEvent.Invoke(SoundEvent.BUTTONSOUND);
+        SoundController.soundEvent?.Invoke(SoundEvent.BUTTONSOUND);
     }
 
     public void MusicToggle(bool isActive)
     {
         Music_on.SetActive(isActive);
         Music_off.SetActive(!isActive);
-        SoundController.soundEvent.Invoke(SoundEvent.MUSICEVENT);
+        SoundController.soundEvent?.Invoke(SoundEvent.MUSICEVENT);
         DataLoader.setMusicStatus(isActive);
     }
 

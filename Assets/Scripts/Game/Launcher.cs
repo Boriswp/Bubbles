@@ -145,6 +145,7 @@ public class Launcher : MonoBehaviour
             return;
         }
         transform.parent.rotation = Quaternion.Euler(0f, 0f, zRotation);
+        lineRenderer.enabled = Input.GetMouseButton(0);
         DrawCurrentTrajectory(delta);
     }
 
@@ -224,7 +225,8 @@ public class Launcher : MonoBehaviour
                 reflectionPositions.Add(newHitPos + circleHit.normal * 0.235f);
                 break;
             }
-            else if (circleHit.collider.CompareTag("Ceiling")) {
+            else if (circleHit.collider.CompareTag("Ceiling"))
+            {
                 reflectionPositions.Add(newPos);
                 break;
             }
