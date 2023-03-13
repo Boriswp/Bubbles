@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
 using UnityEngine.UI;
 
 public class menuLvlDetailsController : MonoBehaviour
@@ -17,7 +18,6 @@ public class menuLvlDetailsController : MonoBehaviour
     private Color notActive = new Color(0.9960784f, 0.007843138f, 0.9294118f);
     private ColorBlock activeCB;
     private ColorBlock notActiveCB;
-    public string lvlStr;
 
 
     private void Start()
@@ -34,7 +34,7 @@ public class menuLvlDetailsController : MonoBehaviour
 
     public void SetLvlDetails(int lvl, int starsCount, int ballsCount)
     {
-        lvlText.text = $"{lvlStr} {lvl + 1}";
+        lvlText.text = $"{LocalizationSettings.StringDatabase.GetLocalizedString("Menu/Canvas/LvlDetailsMenu")} {lvl + 1}";
         Stars[starsCount].SetActive(true);
         if (ballsCount < 5)
         {

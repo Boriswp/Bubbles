@@ -1833,7 +1833,6 @@ GameObject:
   m_Component:
   - component: {fileID: 382603486}
   - component: {fileID: 382603487}
-  - component: {fileID: 382603488}
   m_Layer: 5
   m_Name: Hearts
   m_TagString: Untagged
@@ -1878,48 +1877,6 @@ MonoBehaviour:
   heartsCount: {fileID: 2137249924}
   counter: {fileID: 562622081}
   time: 420
-  AllLives: 
---- !u!114 &382603488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 382603485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedObjects:
-  - rid: 1004270031001616468
-  references:
-    version: 2
-    RefIds:
-    - rid: 1004270031001616468
-      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
-      data:
-        m_Target: {fileID: 382603487}
-        m_TrackedProperties:
-          items:
-          - rid: 1004270031001616469
-        m_UpdateType: 0
-        m_Changed:
-          m_PersistentCalls:
-            m_Calls: []
-    - rid: 1004270031001616469
-      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          m_TableReference:
-            m_TableCollectionName: GUID:6f9f19f2c5fd4e847a4d09d6ecb84899
-          m_TableEntryReference:
-            m_KeyId: 48802276573184
-            m_Key: 
-          m_FallbackState: 0
-          m_WaitForCompletion: 0
-          m_LocalVariables: []
-        m_PropertyPath: AllLives
 --- !u!1 &409293644
 GameObject:
   m_ObjectHideFlags: 0
@@ -4192,7 +4149,6 @@ GameObject:
   - component: {fileID: 858324612}
   - component: {fileID: 858324611}
   - component: {fileID: 858324614}
-  - component: {fileID: 858324615}
   m_Layer: 5
   m_Name: 'LvlDetailsMenu '
   m_TagString: Untagged
@@ -4280,48 +4236,6 @@ MonoBehaviour:
   toggle: {fileID: 1394228828}
   toggleSecond: {fileID: 2139627827}
   toggleThird: {fileID: 668405577}
-  lvlStr: "\u0423\u0440\u043E\u0432\u0435\u043D\u044C"
---- !u!114 &858324615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 858324610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69beb381e244f92449b8c4cf954630e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TrackedObjects:
-  - rid: 1004270031001616436
-  references:
-    version: 2
-    RefIds:
-    - rid: 1004270031001616436
-      type: {class: TrackedMonoBehaviourObject, ns: UnityEngine.Localization.PropertyVariants.TrackedObjects, asm: Unity.Localization}
-      data:
-        m_Target: {fileID: 858324614}
-        m_TrackedProperties:
-          items:
-          - rid: 1004270031001616437
-        m_UpdateType: 0
-        m_Changed:
-          m_PersistentCalls:
-            m_Calls: []
-    - rid: 1004270031001616437
-      type: {class: LocalizedStringProperty, ns: UnityEngine.Localization.PropertyVariants.TrackedProperties, asm: Unity.Localization}
-      data:
-        m_Localized:
-          m_TableReference:
-            m_TableCollectionName: GUID:6f9f19f2c5fd4e847a4d09d6ecb84899
-          m_TableEntryReference:
-            m_KeyId: 47515246002176
-            m_Key: 
-          m_FallbackState: 0
-          m_WaitForCompletion: 0
-          m_LocalVariables: []
-        m_PropertyPath: lvlStr
 --- !u!1 &868129080
 GameObject:
   m_ObjectHideFlags: 0

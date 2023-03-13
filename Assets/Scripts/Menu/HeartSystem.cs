@@ -1,6 +1,8 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 
 public class HeartSystem : MonoBehaviour
 {
@@ -16,12 +18,18 @@ public class HeartSystem : MonoBehaviour
     public static CheckHealthStatus checkHealthStatus;
     public delegate void IncreaseHearts(int count);
     public static IncreaseHearts increaseHearts;
-    public string AllLives;
 
     private void Awake()
     {
+        LocalizationSettings.SelectedLocaleChanged += changedLocaleEvent;
         checkHealthStatus += GetHealthStatus;
         increaseHearts += IncreaseHeartsByCount;
+    }
+
+    private void changedLocaleEvent(Locale locale)
+    {
+        if (_timerOn) return;
+        counter.text = $"{ LocalizationSettings.StringDatabase.GetLocalizedString("Menu/Canvas/SafeArea/Hearts")}";
     }
 
     private void Start()
@@ -72,6 +80,7 @@ public class HeartSystem : MonoBehaviour
 
     private void OnDisable()
     {
+        LocalizationSettings.SelectedLocaleChanged -= changedLocaleEvent;
         DataLoader.SetCurrentTime(DateTime.UtcNow.Ticks);
         checkHealthStatus -= GetHealthStatus;
         increaseHearts -= IncreaseHeartsByCount;
@@ -136,6 +145,6 @@ public class HeartSystem : MonoBehaviour
         }
         float minutes = Mathf.FloorToInt(_timeLeft / 60);
         float seconds = Mathf.FloorToInt(_timeLeft % 60);
-        counter.text = !_timerOn ? $"{AllLives}" : $"{minutes:00} : {seconds:00}";
+        counter.text = !_timerOn ? $"{ LocalizationSettings.StringDatabase.GetLocalizedString("Menu/Canvas/SafeArea/Hearts")}" : $"{minutes:00} : {seconds:00}";
     }
 }
