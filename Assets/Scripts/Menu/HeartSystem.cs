@@ -16,6 +16,7 @@ public class HeartSystem : MonoBehaviour
     public static CheckHealthStatus checkHealthStatus;
     public delegate void IncreaseHearts(int count);
     public static IncreaseHearts increaseHearts;
+    public string AllLives;
 
     private void Awake()
     {
@@ -135,6 +136,6 @@ public class HeartSystem : MonoBehaviour
         }
         float minutes = Mathf.FloorToInt(_timeLeft / 60);
         float seconds = Mathf.FloorToInt(_timeLeft % 60);
-        counter.text = !_timerOn ? "ВСЕ" : $"{minutes:00} : {seconds:00}";
+        counter.text = !_timerOn ? $"{AllLives}" : $"{minutes:00} : {seconds:00}";
     }
 }

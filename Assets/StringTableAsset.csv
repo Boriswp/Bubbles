@@ -1,0 +1,31 @@
+﻿Key,Id,English(en),Portuguese (Brazil)(pt-BR),Russian (Russia)(ru-RU)
+"Menu/Canvas/KolesoMain/Vertical Group/text/Text (TMP)",35365140037632,"Wheel of Fortune
+",,"Колесо Удачи
+"
+"Menu/Canvas/KolesoMain/Vertical Group/spin/Text (TMP)",35742023417856,"Spin
+",,"Крутить"
+"Menu/Canvas/KolesoMain/Vertical Group/wheel/Image/0/Text (TMP)",36009179611136,"15m",,"15м"
+"Menu/Canvas/BoxReward/BoxRewardScreen/VerticalLayout/Text (TMP)",36564102807552,"Lucky Chest",,"Сундук Удачи"
+"Menu/Canvas/BoxReward/BoxRewardScreen/VerticalLayout/GetButton/Text (TMP)",36874502275072,"Collect",,"Забрать"
+"Menu/Canvas/Motivation/MotivationScreen/VerticalLayout/buy/Text (TMP)",41233281712128,"Buy",,"Купить"
+"Menu/Canvas/Motivation/MotivationScreen/VerticalLayout/watchAD/Text (TMP)",41464756961280,"Watch",,"Посмотреть"
+"Menu/Canvas/Motivation/MotivationScreen/VerticalLayout/Text (TMP)",41671850721280,"Lives are over",,"Жизни кончились"
+"Menu/Canvas/SettingsMenu/SettingsScreen/Items/Text (TMP)",43868529360896,"Settings",,"Настройки"
+"Menu/Canvas/SettingsMenu/SettingsScreen/Items/VerticalLayout/SoundHorizontal/SoundVertical1/Text (TMP)",45814682222592,"Sound",,"Звук
+"
+"Menu/Canvas/SettingsMenu/SettingsScreen/Items/VerticalLayout/SoundHorizontal/SoundVertical2/Text (TMP)",45964024610816,"Music",,"Музыка"
+"Menu/Canvas/SettingsMenu/SettingsScreen/Items/VerticalLayout/Support/Text (TMP)",46591291162624,"Support",,"Поддержка"
+"Menu/Canvas/SettingsMenu/SettingsScreen/Items/VerticalLayout/Language/Text (TMP)",46935429611520,"English",,"Русский"
+"Menu/Canvas/LvlDetailsMenu ",47515246002176,"Level",,"Уровень"
+"Menu/Canvas/LvlDetailsMenu /LvlDetailsScreen/VerticalLayout/StartButton/Text (TMP)",47752836546560,"Start",,"Начать
+"
+"Menu/Canvas/SafeArea/Hearts",48802276573184,"ALL",,"ВСЕ"
+"Levels/Canvas/WinLayout/WinScreen/VerticalLayout/Text (TMP)",54691087777792,"You Win!",,"Ты Выиграл!"
+"Levels/Canvas/WinLayout/WinScreen/VerticalLayout/ContinueGOLD/Text (TMP)",54891302879232,"Continue",,"Продолжить
+"
+"Levels/Canvas/LoseLayout/LoseScreen/VerticalLayout/Text (TMP)",55221205860352,"The balls are out",,"Шары закончились"
+"Levels/Canvas/LoseLayout/LoseScreen/VerticalLayout/VerticalButtons/buy/Text (TMP)",56741817221120,"Buy",,"Купить"
+"Levels/Canvas/LoseLayout/LoseScreen/VerticalLayout/VerticalButtons/watchAD/Text (TMP)",56827393605632,"Watch",,"Посмотреть"
+"Levels/Canvas/PauseLayout/PauseScreen/VerticalLayout/Continue/Text (TMP)",57143535075328,"Continue",,"ПРОДОЛЖИТЬ
+"
+"Levels/Canvas/PauseLayout/PauseScreen/VerticalLayout/Text (TMP)",57241782452224,"Pause",,"Пауза"

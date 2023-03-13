@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
 using UnityEngine.UI;
 
 public class SettingsController : MonoBehaviour
@@ -10,6 +11,7 @@ public class SettingsController : MonoBehaviour
     public GameObject Sound_off;
     public GameObject Music_on;
     public GameObject Music_off;
+    private int selected;
 
     void Awake()
     {
@@ -17,6 +19,12 @@ public class SettingsController : MonoBehaviour
         Music_off.SetActive(!DataLoader.getMusicStatus());
         Sound_on.SetActive(DataLoader.getSoundStatus());
         Sound_off.SetActive(!DataLoader.getSoundStatus());
+        for (int i = 0; i < LocalizationSettings.AvailableLocales.Locales.Count; ++i)
+        {
+            var locale = LocalizationSettings.AvailableLocales.Locales[i];
+            if (LocalizationSettings.SelectedLocale == locale)
+                selected = i;
+        }
     }
 
     public void playButtonSound()
@@ -32,6 +40,18 @@ public class SettingsController : MonoBehaviour
         DataLoader.setMusicStatus(isActive);
     }
 
+    public void OnLanguageChange()
+    {
+        selected++;
+
+        if (selected == LocalizationSettings.AvailableLocales.Locales.Count)
+        {
+            selected = 0;
+        }
+
+        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[selected];
+
+    }
 
     public void SoundToggle(bool isActive)
     {
