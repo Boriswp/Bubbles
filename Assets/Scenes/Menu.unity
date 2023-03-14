@@ -4111,9 +4111,9 @@ RectTransform:
   m_Father: {fileID: 294044474}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 372.78717, y: -817.83997}
   m_SizeDelta: {x: 350, y: 135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &595579647
@@ -4487,13 +4487,14 @@ GameObject:
   - component: {fileID: 662781139}
   - component: {fileID: 662781142}
   - component: {fileID: 662781141}
+  - component: {fileID: 662781143}
   m_Layer: 5
   m_Name: 'DailyReward '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &662781139
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4553,6 +4554,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662781138}
   m_CullTransparentMesh: 1
+--- !u!114 &662781143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662781138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a34cf4dc53d8b845a8ab8832cf887a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Masks:
+  - {fileID: 1231355228}
+  - {fileID: 1438098879}
+  - {fileID: 1021454347}
+  - {fileID: 1455946030}
+  - {fileID: 364997364}
+  - {fileID: 231956329}
+  - {fileID: 1404278102}
+  images:
+  - {fileID: 1330755590}
+  - {fileID: 28509485}
+  - {fileID: 2113762201}
+  - {fileID: 1019146014}
+  - {fileID: 1275381829}
+  - {fileID: 401836009}
+  - {fileID: 1928267382}
 --- !u!1 &668405571
 GameObject:
   m_ObjectHideFlags: 0
@@ -9763,6 +9792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LvlDetails: {fileID: 858324610}
   Motivation: {fileID: 1749025042}
+  DailyReward: {fileID: 662781138}
   ArcadeScene: Level
   MissionsScene: Levels
 --- !u!114 &1162385377
@@ -10967,9 +10997,9 @@ RectTransform:
   m_Father: {fileID: 294044474}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 372.78717, y: -113.06799}
   m_SizeDelta: {x: 150, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1278417019
@@ -16886,9 +16916,9 @@ RectTransform:
   m_Father: {fileID: 294044474}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 372.78717, y: -474.20398}
   m_SizeDelta: {x: 700, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1742605483

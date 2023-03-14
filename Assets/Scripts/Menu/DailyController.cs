@@ -3,10 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using UnityEngine;
+using UnityEngine.UI.ProceduralImage;
 
-public class DayController : MonoBehaviour
+public class DailyController : MonoBehaviour
 {
     private int availableReward = 0;
+    public GameObject[] Masks;
+    public ProceduralImage[] images;
+    private Color Active = new Color(1f, 207f / 255f, 85f / 255f);
+    private Color Claimed = new Color(148f / 255f, 58f / 255f, 218f / 255f);
+    private Color Future = new Color(105f / 255f, 161f / 255f, 244f / 255f);
+
     void Awake()
     {
         CheckRewards();
@@ -25,6 +32,7 @@ public class DayController : MonoBehaviour
             int days = (int)(Math.Abs(diff / 3600) / 24);
             if (days == 0)
             {
+                SetRewards(true);
                 availableReward = 0;
                 return;
             }
@@ -41,6 +49,7 @@ public class DayController : MonoBehaviour
                 }
 
                 Debug.Log(" Player can claim prize " + availableReward);
+              
                 return;
             }
 
@@ -52,9 +61,31 @@ public class DayController : MonoBehaviour
         }
         else
         {
-            availableReward = 1;
+            availableReward = 1; 
         }
+
+        SetRewards(false);
     }
+
+    private void SetRewards(bool excludeActive)
+    {
+        for (int i = availableReward; availableReward < 7; i++)
+        {
+            Masks[i].SetActive(false);
+            images[i].color = Future;
+        }
+
+        for (int i = 0; i < availableReward; i++)
+        {
+            Masks[i].SetActive(true);
+            images[i].color = Claimed;
+        }
+
+        if (excludeActive) return;
+        Masks[availableReward - 1].SetActive(false);
+        images[availableReward - 1].color = Active;
+    }
+
 
 
     public void GetReward()

@@ -1,17 +1,25 @@
 using GoogleMobileAds.Api;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using System;
 
 public class menuScreenController : MonoBehaviour
 {
     public GameObject LvlDetails;
     public GameObject Motivation;
+    public GameObject DailyReward;
     public delegate void OnOpenLvlScreen(int Lvl);
     public static OnOpenLvlScreen onOpenLvlScreen;
 
     private void Awake()
     {
+
         onOpenLvlScreen += ShowLevelDetails;
+
+        if ((DateTime.UtcNow.Ticks - DataLoader.GetTimeAndDay().Item1) / 10000000 / 3600 / 24 > 0)
+        {
+            DailyReward.SetActive(true);
+        }
 
 #if UNITY_ANDROID || UNITY_IOS
         MobileAds.Initialize(initStatus =>
