@@ -28,16 +28,16 @@ public class BoxReward : MonoBehaviour
         switch (v[index])
         {
             case 0:
-                DataLoader.IncreaseBombsCount();
+                DataLoader.IncreaseBombsCount(1);
                 break;
             case 1:
                 DataLoader.IncreaseRainbowCount();
                 break;
             case 2:
-                DataLoader.IncreaseLightsCount();
+                DataLoader.IncreaseLightsCount(1);
                 break;
             case 3:
-                DataLoader.IncreaseFireBallCount();
+                DataLoader.IncreaseFireBallCount(1);
                 break;
         }
         DataLoader.DecreaseStarsBonus();

@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using UnityEngine;
 
@@ -60,10 +61,21 @@ public static class DataLoader
         return profileData.Invulnerable_time;
     }
 
+    public static Tuple<long, int> GetTimeAndDay()
+    {
+        return new Tuple<long, int>(profileData.Time_to_get_reward, profileData.current_day_reward);
+    }
+
+    public static void SaveTimeAndDay(long time, int day)
+    {
+        profileData.current_day_reward = day;
+        profileData.Time_to_get_reward = time;
+        SaveProfileData();
+    }
+
     public static long GetTime()
     {
         return profileData.Time_to_lives_respawn;
-
     }
 
     public static void DecreaseMoney(int money)
@@ -223,14 +235,14 @@ public static class DataLoader
         return profileData.Bonus_Fire_Count;
     }
 
-    public static void IncreaseBombsCount()
+    public static void IncreaseBombsCount(int count)
     {
-        profileData.Bonus_Bombs_Count += 1;
+        profileData.Bonus_Bombs_Count += count;
     }
 
-    public static void IncreaseLightsCount()
+    public static void IncreaseLightsCount(int count)
     {
-        profileData.Bonus_Lighting_Count += 1;
+        profileData.Bonus_Lighting_Count += count;
     }
 
     public static void IncreaseRainbowCount()
@@ -238,9 +250,9 @@ public static class DataLoader
         profileData.Bonus_Random_Count += 1;
     }
 
-    public static void IncreaseFireBallCount()
+    public static void IncreaseFireBallCount(int count)
     {
-        profileData.Bonus_Fire_Count += 1;
+        profileData.Bonus_Fire_Count += count;
     }
 
     public static void DecreaseBombsCount()
