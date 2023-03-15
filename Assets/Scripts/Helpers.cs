@@ -41,6 +41,24 @@ public static class Helpers
         return mouseOverUI;
     }
 
+    public static bool isFireButton(Vector2 position)
+    {
+        PointerEventData pointerEventData = new PointerEventData(EventSystem.current);
+        pointerEventData.position = position;
+        List<RaycastResult> raycastResultsList = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(pointerEventData, raycastResultsList);
+        var mouseOverUI = false;
+        for (int i = 0; i < raycastResultsList.Count; i++)
+        {
+            if (raycastResultsList[i].gameObject.layer == LayerMask.NameToLayer("FireButton"))
+            {
+                mouseOverUI = true;
+                break;
+            }
+        }
+        return mouseOverUI;
+    }
+
     public static void WriteProfileDataToJson(ProfileData profileData)
     {
         var jsonFilePath = DataPath();

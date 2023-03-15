@@ -114,6 +114,10 @@ MonoBehaviour:
     m_Key: Levels/Canvas/PauseLayout/PauseScreen/VerticalLayout/Text (TMP)
     m_Metadata:
       m_Items: []
+  - m_Id: 732888083202048
+    m_Key: Menu/Canvas/DailyReward /DailyRewardScreen/VerticalLayout/Text (TMP)
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

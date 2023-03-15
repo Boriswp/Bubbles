@@ -17,7 +17,103 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 6f9f19f2c5fd4e847a4d09d6ecb84899, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 35365140037632
+    m_Localized: Roda da Fortuna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35742023417856
+    m_Localized: Girar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36009179611136
+    m_Localized: 15m
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36564102807552
+    m_Localized: "Ba\xFA da Sorte"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36874502275072
+    m_Localized: Coletar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41233281712128
+    m_Localized: Comprar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41464756961280
+    m_Localized: Assistir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41671850721280
+    m_Localized: Vidas acabaram
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43868529360896
+    m_Localized: "Configura\xE7\xF5es"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45814682222592
+    m_Localized: Som
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45964024610816
+    m_Localized: "M\xFAsica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46591291162624
+    m_Localized: Suporte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46935429611520
+    m_Localized: "Portugu\xEAs"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47515246002176
+    m_Localized: "N\xEDvel"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47752836546560
+    m_Localized: "Come\xE7ar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48802276573184
+    m_Localized: TODOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54691087777792
+    m_Localized: "Voc\xEA ganhou!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54891302879232
+    m_Localized: Continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55221205860352
+    m_Localized: As bolas acabaram
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56741817221120
+    m_Localized: Comprar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56827393605632
+    m_Localized: Assistir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57143535075328
+    m_Localized: Continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57241782452224
+    m_Localized: Pausa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 732888083202048
+    m_Localized: "B\xF4nus di\xE1rio"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

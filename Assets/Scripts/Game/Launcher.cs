@@ -140,12 +140,12 @@ public class Launcher : MonoBehaviour
         var delta = mousePos - (Vector2)transform.parent.position;
         var zRotation = 90 - Mathf.Rad2Deg * Mathf.Atan2(delta.x, delta.y);
         lineRenderer.materials[0].color = BaseGridManager.ColorArray[currentKindColor];
+        lineRenderer.enabled = Input.GetMouseButton(0) && Helpers.isFireButton(Input.mousePosition);
         if (zRotation is < 10 or > 170)
         {
             return;
         }
         transform.parent.rotation = Quaternion.Euler(0f, 0f, zRotation);
-        lineRenderer.enabled = Input.GetMouseButton(0);
         DrawCurrentTrajectory(delta);
     }
 

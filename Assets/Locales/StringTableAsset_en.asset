@@ -114,6 +114,10 @@ MonoBehaviour:
     m_Localized: Pause
     m_Metadata:
       m_Items: []
+  - m_Id: 732888083202048
+    m_Localized: Daily bonus
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

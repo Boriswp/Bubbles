@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.UI.ProceduralImage;
 
 public class DailyController : MonoBehaviour
@@ -10,11 +11,12 @@ public class DailyController : MonoBehaviour
     private int availableReward = 0;
     public GameObject[] Masks;
     public ProceduralImage[] images;
+    public Button collectButton;
     private Color Active = new Color(1f, 207f / 255f, 85f / 255f);
     private Color Claimed = new Color(148f / 255f, 58f / 255f, 218f / 255f);
     private Color Future = new Color(105f / 255f, 161f / 255f, 244f / 255f);
 
-    void Awake()
+    void OnEnable()
     {
         CheckRewards();
     }
@@ -23,53 +25,48 @@ public class DailyController : MonoBehaviour
     {
         Tuple<long, int> lastClaimedTimeAndDay = DataLoader.GetTimeAndDay();
 
-        if (lastClaimedTimeAndDay.Item1 == 0)
+        var diff = (DateTime.UtcNow.Ticks - lastClaimedTimeAndDay.Item1) / 10000000;
+
+        int days = (int)Math.Abs(diff / 3600 / 24);
+        Debug.Log(" Last claim was " + days + " days ago.");
+        if (days == 0)
         {
+            availableReward = lastClaimedTimeAndDay.Item2;
+            SetRewards(true);
+            collectButton.interactable = false;
+            return;
+        }
 
-            var diff = (DateTime.UtcNow.Ticks - lastClaimedTimeAndDay.Item1) / 10000000;
-            Debug.Log(" Last claim was " + diff + " hours ago.");
-
-            int days = (int)(Math.Abs(diff / 3600) / 24);
-            if (days == 0)
-            {
-                SetRewards(true);
-                availableReward = 0;
-                return;
-            }
-
-            if (days >= 1 && days < 2)
-            {
-                if (lastClaimedTimeAndDay.Item2 == 7)
-                {
-                    availableReward = 1;
-                }
-                else
-                {
-                    availableReward = lastClaimedTimeAndDay.Item2 + 1;
-                }
-
-                Debug.Log(" Player can claim prize " + availableReward);
-              
-                return;
-            }
-
-            if (days >= 2)
+        if (days >= 1 && days < 2)
+        {
+            if (lastClaimedTimeAndDay.Item2 == 7)
             {
                 availableReward = 1;
-                Debug.Log(" Prize reset ");
             }
+            else
+            {
+                availableReward = lastClaimedTimeAndDay.Item2 + 1;
+            }
+
+            Debug.Log(" Player can claim prize " + availableReward);
+
+            return;
         }
-        else
+
+        if (days >= 2)
         {
-            availableReward = 1; 
+            availableReward = 1;
+            Debug.Log(" Prize reset ");
         }
 
         SetRewards(false);
+        collectButton.interactable = true;
     }
 
     private void SetRewards(bool excludeActive)
     {
-        for (int i = availableReward; availableReward < 7; i++)
+
+        for (int i = availableReward; i < 7; i++)
         {
             Masks[i].SetActive(false);
             images[i].color = Future;
@@ -100,8 +97,8 @@ public class DailyController : MonoBehaviour
                 DataLoader.IncreaseBombsCount(7);
                 break;
             case 3:
-                DataLoader.SetMoneyBonus(25);
-                DataLoader.SetBonusBalls(25);
+                DataLoader.SetMoneyBonus(50);
+                DataLoader.SetBonusBalls(50);
                 break;
             case 4:
                 DataLoader.IncreaseLightsCount(5);
