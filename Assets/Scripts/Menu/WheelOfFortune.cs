@@ -8,7 +8,8 @@ public class WheelOfFortune : MonoBehaviour
     public GameObject[] winObjects;
     public GameObject whiteSheet;
     public GameObject[] gameObjects;
-    public GameObject speenButton;
+    public GameObject freeSpinButton;
+    public GameObject spinButton;
     private float angle = 51.25f;
     private int index = 0;
     private GameObject tempGameobject;
@@ -20,12 +21,22 @@ public class WheelOfFortune : MonoBehaviour
     }
     public void OnEnable()
     {
-        AdModule.onGetReward += SpeenTheWheel;
+        AdModule.onGetReward += SpinTheWheel;
+
+        if ((System.DateTime.UtcNow.Ticks - DataLoader.GetTimeForWheel()) / 10000000 / 3600 / 24 > 0)
+        {
+            freeSpinButton.SetActive(true);
+            spinButton.SetActive(false);
+        }
+        else {
+            freeSpinButton.SetActive(false);
+            spinButton.SetActive(true);
+        }
     }
 
     public void OnDisable()
     {
-        AdModule.onGetReward -= SpeenTheWheel;
+        AdModule.onGetReward -= SpinTheWheel;
     }
 
     public void ShowAd()
@@ -33,9 +44,17 @@ public class WheelOfFortune : MonoBehaviour
         AdModule.showRewardedAD.Invoke();
     }
 
-    public void SpeenTheWheel()
+
+    public void FreeSpin()
     {
-        speenButton.SetActive(false);
+        DataLoader.SetTimeForWheel(System.DateTime.UtcNow.Ticks);
+        SpinTheWheel();
+    }
+
+    public void SpinTheWheel()
+    {
+        spinButton.SetActive(false);
+        freeSpinButton.SetActive(false);
         index = Random.Range(0, v.Length);
         wheel.transform.DORotate(new Vector3(0, 0, 720 + angle * v[index]), 7, RotateMode.FastBeyond360).OnComplete(() =>
         {

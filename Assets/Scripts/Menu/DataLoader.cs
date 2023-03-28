@@ -61,9 +61,19 @@ public static class DataLoader
         return profileData.Invulnerable_time;
     }
 
-    public static Tuple<long, int> GetTimeAndDay()
+    public static Tuple<long, int> GetTimeAndDayForDaily()
     {
         return new Tuple<long, int>(profileData.Time_to_get_reward, profileData.current_day_reward);
+    }
+
+    public static long GetTimeForWheel()
+    {
+        return profileData.Time_to_get_spin;
+    }
+
+    public static void SetTimeForWheel(long time)
+    {
+       profileData.Time_to_get_spin = time;
     }
 
     public static void SaveTimeAndDay(long time, int day)

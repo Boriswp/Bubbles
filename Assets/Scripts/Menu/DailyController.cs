@@ -23,7 +23,7 @@ public class DailyController : MonoBehaviour
 
     public void CheckRewards()
     {
-        Tuple<long, int> lastClaimedTimeAndDay = DataLoader.GetTimeAndDay();
+        Tuple<long, int> lastClaimedTimeAndDay = DataLoader.GetTimeAndDayForDaily();
 
         var diff = (DateTime.UtcNow.Ticks - lastClaimedTimeAndDay.Item1) / 10000000;
 
@@ -49,7 +49,7 @@ public class DailyController : MonoBehaviour
             }
 
             Debug.Log(" Player can claim prize " + availableReward);
-
+            SetRewards(false);
             return;
         }
 

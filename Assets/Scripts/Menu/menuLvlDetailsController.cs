@@ -128,9 +128,9 @@ public class menuLvlDetailsController : MonoBehaviour
         {
             star.SetActive(false);
         }
-        toggle.colors = notActiveCB;
-        toggleSecond.colors = notActiveCB;
-        toggleThird.colors = notActiveCB;
+        toggle.isOn = false;
+        toggleSecond.isOn = false;
+        toggleThird.isOn = false;
         DataLoader.SaveProfileData();
     }
 }

@@ -16,16 +16,10 @@ public class menuScreenController : MonoBehaviour
 
         onOpenLvlScreen += ShowLevelDetails;
 
-        if ((DateTime.UtcNow.Ticks - DataLoader.GetTimeAndDay().Item1) / 10000000 / 3600 / 24 > 0)
+        if ((DateTime.UtcNow.Ticks - DataLoader.GetTimeAndDayForDaily().Item1) / 10000000 / 3600 / 24 > 0)
         {
             DailyReward.SetActive(true);
         }
-
-#if UNITY_ANDROID || UNITY_IOS
-        MobileAds.Initialize(initStatus =>
-        {
-        });
-#endif
 
     }
 

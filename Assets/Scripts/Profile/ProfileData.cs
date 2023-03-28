@@ -4,10 +4,11 @@ using System.Collections.Generic;
 [System.Serializable]
 public class ProfileData
 {
-    public int Lifes = 99;
+    public int Lifes = 7;
     public float Invulnerable_time;
     public long Time_to_lives_respawn;
     public long Time_to_get_reward;
+    public long Time_to_get_spin;
     public int current_day_reward;
     public int money;
     public bool sound = true;
