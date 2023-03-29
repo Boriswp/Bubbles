@@ -9,6 +9,7 @@ public class ProfileData
     public long Time_to_lives_respawn;
     public long Time_to_get_reward;
     public long Time_to_get_spin;
+    public int Count_to_show_Ad;
     public int current_day_reward;
     public int money;
     public bool sound = true;

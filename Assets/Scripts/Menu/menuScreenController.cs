@@ -21,6 +21,11 @@ public class menuScreenController : MonoBehaviour
             DailyReward.SetActive(true);
         }
 
+        if (DataLoader.GetCountToShowAd() == Constants.LVL_COUNT_TO_SHOW_AD)
+        {
+            AdModule.showInterestialAD?.Invoke();
+            DataLoader.SetCountToShowAd(0);
+        }
     }
 
     private void OnDisable()
@@ -51,11 +56,13 @@ public class menuScreenController : MonoBehaviour
         if (DataLoader.GetInvulnerableTime() > 0)
         {
             SceneManager.LoadScene(MissionsScene);
+            DataLoader.SetCountToShowAd(DataLoader.GetCountToShowAd() + 1);
             return;
         }
         var currLife = DataLoader.GetLifeCount();
         if (currLife > 0)
         {
+            DataLoader.SetCountToShowAd(DataLoader.GetCountToShowAd() + 1);
             DataLoader.setCurrentLifesCount(--currLife);
             SceneManager.LoadScene(MissionsScene);
         }

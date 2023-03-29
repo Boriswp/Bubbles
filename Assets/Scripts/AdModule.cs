@@ -1,8 +1,5 @@
-using System.Collections;
 using System;
-using System.Collections.Generic;
 using GoogleMobileAds.Api;
-using GoogleMobileAds.Common;
 using UnityEngine;
 
 public class AdModule : MonoBehaviour
@@ -16,6 +13,7 @@ public class AdModule : MonoBehaviour
     public static ShowRewrdedAD showRewardedAD;
     public delegate void InterestialAD();
     public static InterestialAD showInterestialAD;
+    public static AdModule Instance;
 
 
     private void Awake()
@@ -29,6 +27,7 @@ public class AdModule : MonoBehaviour
         }
         else
         {
+            Instance = this;
             DontDestroyOnLoad(gameObject);
         }
 
@@ -104,7 +103,7 @@ public class AdModule : MonoBehaviour
                     Debug.Log("Rewarded Ad full screen content closed.");
                     LoadRewardedAd();
                 };
-    
+
                 ad.OnAdFullScreenContentFailed += (AdError error) =>
                 {
                     Debug.LogError("Rewarded ad failed to open full screen content " +
@@ -154,6 +153,7 @@ public class AdModule : MonoBehaviour
                     Debug.Log("Interstitial Ad full screen content closed.");
                     LoadInterstitialAd();
                 };
+
                 ad.OnAdFullScreenContentFailed += (AdError error) =>
                 {
                     Debug.LogError("Interstitial ad failed to open full screen content " +

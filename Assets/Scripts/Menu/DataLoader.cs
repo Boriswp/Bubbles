@@ -66,6 +66,16 @@ public static class DataLoader
         return new Tuple<long, int>(profileData.Time_to_get_reward, profileData.current_day_reward);
     }
 
+    public static int GetCountToShowAd()
+    {
+        return profileData.Count_to_show_Ad;
+    }
+
+    public static void SetCountToShowAd(int count)
+    {
+        profileData.Count_to_show_Ad = count;
+    }
+
     public static long GetTimeForWheel()
     {
         return profileData.Time_to_get_spin;
@@ -73,7 +83,7 @@ public static class DataLoader
 
     public static void SetTimeForWheel(long time)
     {
-       profileData.Time_to_get_spin = time;
+        profileData.Time_to_get_spin = time;
     }
 
     public static void SaveTimeAndDay(long time, int day)

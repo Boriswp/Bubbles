@@ -1,6 +1,7 @@
 ﻿public static class Constants
 {
     public const float LAUNCH_SPEED = 15f;
+    public const int LVL_COUNT_TO_SHOW_AD = 3;
     public const float POP_SPEED = 3f;
     public const float EXPLODE_SPEED = 8f;
     public const float KILL_Y = -30f;
