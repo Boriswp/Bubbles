@@ -17,7 +17,8 @@ public class GridMember : MonoBehaviour
 
     private ParticleSystem particles;
     private ParticleSystem.MainModule settings;
-    private readonly int[] validSpeed = { -8, -7, -6, -5, -4, -3, 3, 4, 5, 6, 7, 8 };
+    private readonly int[] validSpeedX = { -8, -7, -6, -5, -4, -3, 3, 4, 5, 6, 7, 8 };
+    private readonly int[] validSpeedY = { -8, -7, -6, -5, -4, -3 };
 
 
     private CircleCollider2D circleCollider2D;
@@ -61,8 +62,8 @@ public class GridMember : MonoBehaviour
                     rigidBody2D.bodyType = RigidbodyType2D.Kinematic;
                     rigidBody2D.gravityScale = 3f;
                     rigidBody2D.velocity = new Vector3(
-                        validSpeed[Random.Range(0, validSpeed.Length)],
-                        validSpeed[Random.Range(0, validSpeed.Length)],
+                        validSpeedX[Random.Range(0, validSpeedX.Length)],
+                        validSpeedY[Random.Range(0, validSpeedY.Length)],
                         0f
                     );
                     state = BubbleState.Fall;

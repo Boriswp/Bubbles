@@ -114,7 +114,7 @@ public class ConstructorGridManager : BaseGridManager
 
     public void Creator(int column, int row, List<int> kinds, int chain)
     {
-        var position = new Vector3(column * Constants.GAP, -row * Constants.GAP, 0f) + initialPos.transform.position;
+        var position = new Vector3(column * Constants.GAP, -row * Constants.GAP, 0f);
         var index = Random.Range(0, kinds.Count);
         var newKind = kinds[index];
         if (Random.Range(1f, 100f) <= chain)
@@ -126,7 +126,7 @@ public class ConstructorGridManager : BaseGridManager
 
     public void Creator(int column, int row, int kind)
     {
-        var position = new Vector3(column * Constants.GAP, row * Constants.GAP, 0f) + initialPos.transform.position;
+        var position = new Vector3(column * Constants.GAP, row * Constants.GAP, 0f);
         Create(position, kind, false, root.transform);
     }
 

@@ -17,10 +17,10 @@ public class ProfileData
     public int Stars_Count = 0;
     public int On_lvl_Bonus_Balls = 0;
     public int Bonus_Balls_Count;
-    public int Bonus_Bombs_Count = 0;
-    public int Bonus_Lighting_Count = 0;
-    public int Bonus_Fire_Count = 0;
-    public int Bonus_Random_Count= 0;
+    public int Bonus_Bombs_Count = 7;
+    public int Bonus_Lighting_Count = 5;
+    public int Bonus_Fire_Count = 5;
+    public int Bonus_Random_Count= 7;
     public int Curr_Lvl;
     public List<int> Passed_Lvls;
 }

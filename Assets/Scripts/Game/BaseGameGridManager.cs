@@ -1,5 +1,7 @@
+
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 
@@ -72,6 +74,8 @@ public class BaseGameGridManager : BaseGridManager
 
         var column = (int)Mathf.Round(floatColumn);
 
+
+
         newGameObject.transform.position = snappedPosition;
 
 
@@ -82,9 +86,22 @@ public class BaseGameGridManager : BaseGridManager
         gridMember.column = column;
         if (kind == Constants.RANDOM_KIND)
         {
-            gridMember.kind = (int)Random.Range(1f, 7f);
+            var circleHits = Physics2D.CircleCastAll(position, 0.4F, Vector2.zero, 0f);
+            var kindList = new List<int>();
+            foreach (var circleHit in circleHits)
+            {
+                if (circleHit.collider.TryGetComponent<GridMember>(out var grid))
+                {
+                    kindList.Add(grid.kind);
+                }
+            }
+            var maxKind = kindList.GroupBy(x => x)
+                .Select(x => (Key: x.Key, Items: x.ToList()))
+                .OrderByDescending(x => x.Items.Count)
+                .First().Key;
             var spriteRenderer = newGameObject.GetComponent<SpriteRenderer>();
-            spriteRenderer.sprite = SpriteArray[gridMember.kind];
+            spriteRenderer.sprite = SpriteArray[maxKind];
+            gridMember.kind = maxKind;
         }
         else
         {
@@ -101,6 +118,51 @@ public class BaseGameGridManager : BaseGridManager
         Seek(column, -row, gridMember.kind, direction, snappedPosition);
         Reload();
         return;
+    }
+
+    private Vector3 checkPosition(int column, int row, Vector2 position)
+    {
+        if (grid[column, -row] != null)
+        {
+            var diffX = position.x - grid[column, -row].transform.position.x;
+            var diffY = position.y - grid[column, -row].transform.position.y;
+
+            if (diffX > 0)
+            {
+                if (column + 1 > Constants.COLUMNS)
+                {
+                    row--;
+                }
+                else
+                {
+                    column++;
+                }
+            }
+            else if (diffX < 0)
+            {
+
+                if (column - 1 < 0)
+                {
+                    row--;
+                }
+                else
+                {
+                    column--;
+                }
+            }
+
+            if (diffY > 0)
+            {
+                row--;
+            }
+            else if (diffY < 0)
+            {
+                row++;
+            }
+            return checkPosition(column, row, Snap(new Vector3(column * Constants.GAP, -row * Constants.GAP, 0f)));
+        }
+
+        return Snap(new Vector3(column * Constants.GAP, -row * Constants.GAP, 0f));
     }
 
 

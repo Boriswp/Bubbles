@@ -214,15 +214,15 @@ public class Launcher : MonoBehaviour
 
         for (var i = 0; i <= maximumReflectionCount; ++i)
         {
-            var circleHit = Physics2D.CircleCast(position, 0.235F, direction, maximumRayCastDistance);
+            var circleHit = Physics2D.CircleCast(position, 0.23F, direction, maximumRayCastDistance);
             if (!circleHit) continue;
-            position = circleHit.point + circleHit.normal * 0.235f;
+            position = circleHit.point + circleHit.normal * 0.23f;
             var newPos = Helpers.GetAccuratePos(position);
 
             if (circleHit.collider.CompareTag("Bubble") || circleHit.collider.CompareTag("Destroyer"))
             {
                 Vector2 newHitPos = new(circleHit.transform.position.x, circleHit.transform.position.y);
-                reflectionPositions.Add(newHitPos + circleHit.normal * 0.235f);
+                reflectionPositions.Add(newHitPos + circleHit.normal * 0.23f);
                 break;
             }
             else if (circleHit.collider.CompareTag("Ceiling"))

@@ -27,6 +27,11 @@ public class SettingsController : MonoBehaviour
         }
     }
 
+    public void OpenFaqUrl()
+    {
+        Application.OpenURL(Constants.FAQ_URL);
+    }
+
     public void playButtonSound()
     {
         SoundController.soundEvent?.Invoke(SoundEvent.BUTTONSOUND);
