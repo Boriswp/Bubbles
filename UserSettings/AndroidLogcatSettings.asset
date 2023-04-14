@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "RZ8NC0HVPXH",
         "name": "com.Immo.BubbleMania",
-        "processId": 1230,
+        "processId": 14051,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -22,24 +22,6 @@
         },
         {
             "deviceId": "RZ8NC0HVPXH",
-            "name": "android.process.media",
-            "processId": 27076,
-            "exited": true
-        },
-        {
-            "deviceId": "RZ8NC0HVPXH",
-            "name": "com.Immo.BubbleMania",
-            "processId": 19315,
-            "exited": true
-        },
-        {
-            "deviceId": "RZ8NC0HVPXH",
-            "name": "com.Immo.BubbleMania",
-            "processId": 13352,
-            "exited": true
-        },
-        {
-            "deviceId": "RZ8NC0HVPXH",
             "name": "com.Immo.BubbleMania",
             "processId": 22516,
             "exited": true
@@ -48,6 +30,24 @@
             "deviceId": "RZ8NC0HVPXH",
             "name": "com.Immo.BubbleMania",
             "processId": 1230,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8NC0HVPXH",
+            "name": "com.Immo.BubbleMania",
+            "processId": 17763,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8NC0HVPXH",
+            "name": "com.Immo.BubbleMania",
+            "processId": 30736,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8NC0HVPXH",
+            "name": "com.Immo.BubbleMania",
+            "processId": 14051,
             "exited": false
         },
         {
@@ -126,7 +126,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "",
+        "m_Filter": "rew",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },

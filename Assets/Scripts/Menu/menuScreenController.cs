@@ -1,4 +1,3 @@
-using GoogleMobileAds.Api;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using System;
