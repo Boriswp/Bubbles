@@ -40,7 +40,7 @@ public class menuCameraMovement : MonoBehaviour
     private void Initialization()
     {
         cameraMain = Camera.main;
-        totalObjects = (DataLoader.lvls.Length - 1) / 13 + 1;
+        totalObjects = (DataLoader.lvls.Length - 1) / 13 + 2;
         currentLvlText.text = (DataLoader.GetCurrentLvl() + 1).ToString();
         SpawnObjects();
     }
@@ -103,9 +103,9 @@ public class menuCameraMovement : MonoBehaviour
         direction *= -1;
 
         var position = camera_position + direction;
-        if (position.y > spawnedSegments[^1].transform.position.y + stepSize / 2 - 4)
+        if (position.y > spawnedSegments[^2].transform.position.y + stepSize / 2 )
         {
-            position.y = spawnedSegments[^1].transform.position.y + stepSize / 2 - 4;
+            position.y = spawnedSegments[^2].transform.position.y + stepSize / 2;
         }
         if (position.y < 0)
         {
@@ -143,7 +143,7 @@ public class menuCameraMovement : MonoBehaviour
             {
                 currentObject = 0;
             }
-
+            if (spawnedSegments.Count > totalObjects) return;
             var buttons = spawnedSegments[^1].GetComponentsInChildren<menuButtonController>();
             foreach (var button in buttons)
             {
