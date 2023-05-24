@@ -11,6 +11,7 @@ public class Launcher : MonoBehaviour
     public GameObject load;
     public GameObject nextColorBall;
     public GameObject cancell;
+    public GameObject changeColor;
     public GameObject rowBalls;
     public TextMeshProUGUI[] bombs;
     public int maximumReflectionCount = 5;
@@ -63,6 +64,7 @@ public class Launcher : MonoBehaviour
         cancell.SetActive(true);
         rowBalls.SetActive(false);
         nextColorBall.SetActive(false);
+        changeColor.SetActive(false);
         isSpecialBall = true;
         saveColorKind = currentKindColor;
         currentKindColor = kind;
@@ -88,6 +90,7 @@ public class Launcher : MonoBehaviour
         cancell.SetActive(false);
         rowBalls.SetActive(true);
         nextColorBall.SetActive(true);
+        changeColor.SetActive(true);
         SetUpCountSpecialBalls();
     }
 

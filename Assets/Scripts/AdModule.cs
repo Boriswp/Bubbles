@@ -51,7 +51,7 @@ public class AdModule : MonoBehaviour
     private void RequestBanner()
     {
 #if UNITY_ANDROID
-        string adUnitId = "demo-banner-yandex";
+        string adUnitId = "R-M-2385670-1";
 #elif UNITY_IOS
         string adUnitId = "demo-banner-yandex";
 #else
@@ -69,7 +69,7 @@ public class AdModule : MonoBehaviour
     {
 
 #if UNITY_ANDROID
-        string adUnitId = "demo-rewarded-yandex";
+        string adUnitId = "R-M-2385670-4";
 #elif UNITY_IPHONE
         string adUnitId = "demo-rewarded-yandex";
 #else
@@ -104,7 +104,7 @@ public class AdModule : MonoBehaviour
     public void LoadInterstitialAd()
     {
 #if UNITY_ANDROID
-        string _adUnitId = "demo-interstitial-yandex";
+        string _adUnitId = "R-M-2385670-3";
 #elif UNITY_IOS
         string _adUnitId = "demo-interstitial-yandex";
 #else

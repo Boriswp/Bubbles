@@ -12,7 +12,7 @@
     public const float GAP = 0.485f;
     public const int COLUMNS = 11;
     public const string JSON_FILE_NAME = "profile_data.json";
-    public const string FAQ_URL = "http://unity3d.com/";
+    public const string FAQ_URL = "https://borisgames.online/Privacy%20Policy1.html";
     public const int MAX_LIFES = 7;
     public const int MAX_STARS_TO_BOX = 7;
     public const float CAMERA_STEP_MENU = 12;
