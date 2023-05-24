@@ -31,21 +31,29 @@ public class AdModule : MonoBehaviour
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
-
+#if UNITY_ANDROID || UNITY_IOS
         showRewardedAD += ShowRewardedAd;
         showInterestialAD += ShowInterstitial;
-#if UNITY_ANDROID || UNITY_IOS
-
         LoadRewardedAd();
         RequestBanner();
         LoadInterstitialAd();
+#elif UNITY_WEBGL
+          showRewardedAD += ShowYandexRewardedAD;
+          showInterestialAD += ShowYandexInterestialAD;
+          YandexSDK.YaSDK.onRewardedAdReward += UserGetYandexReward;
 #endif
     }
 
     private void OnDisable()
     {
+#if UNITY_ANDROID || UNITY_IOS
         showRewardedAD -= ShowRewardedAd;
         showInterestialAD -= ShowInterstitial;
+#elif UNITY_WEBGL
+        showRewardedAD -= ShowYandexRewardedAD;
+        showInterestialAD -= ShowYandexInterestialAD;
+        YandexSDK.YaSDK.onRewardedAdReward -= UserGetYandexReward;
+#endif
     }
 
     private void RequestBanner()
@@ -132,6 +140,21 @@ public class AdModule : MonoBehaviour
 
         var adRequest = new AdRequest.Builder().Build();
         interstitialAd.LoadAd(adRequest);
+    }
+
+    public void ShowYandexInterestialAD()
+    {
+        YandexSDK.YaSDK.instance.ShowInterstitial();
+    }
+
+    public void ShowYandexRewardedAD()
+    {
+        YandexSDK.YaSDK.instance.ShowRewarded("bonus");
+    }
+
+    public void UserGetYandexReward(string reward)
+    {
+        onGetReward.Invoke();
     }
 
     private void ShowRewardedAd()

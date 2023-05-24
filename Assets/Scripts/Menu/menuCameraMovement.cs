@@ -107,9 +107,9 @@ public class menuCameraMovement : MonoBehaviour
         {
             position.y = spawnedSegments[^2].transform.position.y + stepSize / 2;
         }
-        if (position.y < 0)
+        if (position.y < 0.8f)
         {
-            position.y = 0;
+            position.y = 0.8f;
         }
         SpawnObjects();
         Camera.main.transform.position = position;
