@@ -16,7 +16,7 @@ public class menuCameraMovement : MonoBehaviour
     private int currentObject;
     private int counter;
     private int totalObjects;
-    public float stepSize = 20.4f;
+    public float stepSize = 20.52f;
     private Camera cameraMain;
     private float previousPos;
     private Vector2 worldStartPoint;
