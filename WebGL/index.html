@@ -83,8 +83,12 @@
       canvas.style.width = "100vw";
       canvas.style.height = "100vh";
     } else {
-        canvas.style.width = "600px";
-        canvas.style.height = "960px";
+        container.style.width = "100%";
+        container.style.height = "0%";
+        container.style.padding-top = "160%";
+        container.style.position = "relative";
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
     }
 
     loadingBar.style.display = "block";
