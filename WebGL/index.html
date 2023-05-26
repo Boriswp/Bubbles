@@ -83,12 +83,16 @@
       canvas.style.width = "100vw";
       canvas.style.height = "100vh";
     } else {
-        container.style.width = "100%";
-        container.style.height = "0%";
-        container.style.padding-top = "160%";
-        container.style.position = "relative";
+        container.style.position = "relaitive";
+        container.style.padding-bottom = "80%";
+        container.style.width = "600px";
+        container.style.height = "0";
         canvas.style.width = "100%";
+        canvas.style.max-width = "100vw";
+        canvas.style.max-height = "100vh";
         canvas.style.height = "100%";
+        canvas.style.cursor = "default";
+        canvas.style.inset = "0px"
     }
 
     loadingBar.style.display = "block";
