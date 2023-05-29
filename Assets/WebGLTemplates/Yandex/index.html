@@ -91,8 +91,10 @@
       canvas.style.width = "100vw";
       canvas.style.height = "100vh";
     } else {
-        canvas.style.width = "600px";
-        canvas.style.height = "960px";
+        const containerHeight = container.clientHeight;
+        const containerWidth = containerHeight * 9 / 16;
+        canvas.style.width = `${containerWidth}px`;
+        canvas.style.height = `${containerHeight}px`;
     }
 
     #if BACKGROUND_FILENAME
