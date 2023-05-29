@@ -86,9 +86,9 @@ public class HeartSystem : MonoBehaviour
         increaseHearts -= IncreaseHeartsByCount;
     }
 
-    private void OnApplicationPause(bool pauseStatus)
+    private void OnApplicationFocus(bool focusing)
     {
-        if (pauseStatus)
+        if (!focusing)
         {
 
             DataLoader.SetCurrentTime(DateTime.UtcNow.Ticks);
