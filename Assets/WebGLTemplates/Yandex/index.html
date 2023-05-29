@@ -37,6 +37,14 @@
     // Modify or remove this function to customize the visually presented
     // way that non-critical warnings and error messages are presented to the
     // user.
+    function setUpCanvas() {
+          const containerHeight = container.clientHeight;
+          const containerWidth = containerHeight * 9 / 16;
+          canvas.style.width = `${containerWidth}px`;
+          canvas.style.height = `${containerHeight}px`;
+    }
+
+
     function unityShowBanner(msg, type) {
       function updateBannerVisibility() {
         warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
@@ -91,10 +99,10 @@
       canvas.style.width = "100vw";
       canvas.style.height = "100vh";
     } else {
-        const containerHeight = container.clientHeight;
-        const containerWidth = containerHeight * 9 / 16;
-        canvas.style.width = `${containerWidth}px`;
-        canvas.style.height = `${containerHeight}px`;
+        setUpCanvas()
+        window.addEventListener('resize', () => {
+            setUpCanvas()
+        });
     }
 
     #if BACKGROUND_FILENAME
