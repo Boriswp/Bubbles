@@ -1,12 +1,12 @@
 {
     "m_SelectedDeviceId": "RZ8NC0HVPXH",
     "m_SelectedPackage": {
-        "deviceId": "RZ8NC0HVPXH",
-        "name": "com.Immo.BubbleMania",
-        "processId": 14051,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
-    "m_SelectedPriority": 0,
+    "m_SelectedPriority": 4,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "3031aa0a",
@@ -19,12 +19,6 @@
             "name": "com.Immo.BubbleMania",
             "processId": 25905,
             "exited": false
-        },
-        {
-            "deviceId": "RZ8NC0HVPXH",
-            "name": "com.Immo.BubbleMania",
-            "processId": 22516,
-            "exited": true
         },
         {
             "deviceId": "RZ8NC0HVPXH",
@@ -48,6 +42,24 @@
             "deviceId": "RZ8NC0HVPXH",
             "name": "com.Immo.BubbleMania",
             "processId": 14051,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8NC0HVPXH",
+            "name": "com.google.android.packageinstaller",
+            "processId": 4130,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8NC0HVPXH",
+            "name": "org.telegram.messenger",
+            "processId": 29093,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8NC0HVPXH",
+            "name": "com.sec.android.app.launcher",
+            "processId": 3144,
             "exited": false
         },
         {
@@ -126,7 +138,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "rew",
+        "m_Filter": "",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },
