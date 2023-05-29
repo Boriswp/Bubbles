@@ -114,6 +114,10 @@ MonoBehaviour:
     m_Localized: "B\xF4nus di\xE1rio"
     m_Metadata:
       m_Items: []
+  - m_Id: 28008747764547584
+    m_Localized: "\u0421oletar"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

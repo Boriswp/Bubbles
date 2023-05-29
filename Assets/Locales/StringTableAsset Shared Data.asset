@@ -15,83 +15,6 @@ MonoBehaviour:
   m_TableCollectionName: StringTableAsset
   m_TableCollectionNameGuidString: 6f9f19f2c5fd4e847a4d09d6ecb84899
   m_Entries:
-  - m_Id: 35365140037632
-    m_Key: Menu/Canvas/KolesoMain/Vertical Group/text/Text (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 35742023417856
-    m_Key: Menu/Canvas/KolesoMain/Vertical Group/spin/Text (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 36009179611136
-    m_Key: Menu/Canvas/KolesoMain/Vertical Group/wheel/Image/0/Text (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 36564102807552
-    m_Key: Menu/Canvas/BoxReward/BoxRewardScreen/VerticalLayout/Text (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 36874502275072
-    m_Key: Menu/Canvas/BoxReward/BoxRewardScreen/VerticalLayout/GetButton/Text (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 41233281712128
-    m_Key: Menu/Canvas/Motivation/MotivationScreen/VerticalLayout/buy/Text (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 41464756961280
-    m_Key: Menu/Canvas/Motivation/MotivationScreen/VerticalLayout/watchAD/Text (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 41671850721280
-    m_Key: Menu/Canvas/Motivation/MotivationScreen/VerticalLayout/Text (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 43868529360896
-    m_Key: Menu/Canvas/SettingsMenu/SettingsScreen/Items/Text (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 45814682222592
-    m_Key: Menu/Canvas/SettingsMenu/SettingsScreen/Items/VerticalLayout/SoundHorizontal/SoundVertical1/Text
-      (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 45964024610816
-    m_Key: Menu/Canvas/SettingsMenu/SettingsScreen/Items/VerticalLayout/SoundHorizontal/SoundVertical2/Text
-      (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 46591291162624
-    m_Key: Menu/Canvas/SettingsMenu/SettingsScreen/Items/VerticalLayout/Support/Text
-      (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 46935429611520
-    m_Key: Menu/Canvas/SettingsMenu/SettingsScreen/Items/VerticalLayout/Language/Text
-      (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 47515246002176
-    m_Key: Menu/Canvas/LvlDetailsMenu
-    m_Metadata:
-      m_Items: []
-  - m_Id: 47752836546560
-    m_Key: Menu/Canvas/LvlDetailsMenu /LvlDetailsScreen/VerticalLayout/StartButton/Text
-      (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 48802276573184
-    m_Key: Menu/Canvas/SafeArea/Hearts
-    m_Metadata:
-      m_Items: []
-  - m_Id: 54691087777792
-    m_Key: Levels/Canvas/WinLayout/WinScreen/VerticalLayout/Text (TMP)
-    m_Metadata:
-      m_Items: []
-  - m_Id: 54891302879232
-    m_Key: Levels/Canvas/WinLayout/WinScreen/VerticalLayout/ContinueGOLD/Text (TMP)
-    m_Metadata:
-      m_Items: []
   - m_Id: 55221205860352
     m_Key: Levels/Canvas/LoseLayout/LoseScreen/VerticalLayout/Text (TMP)
     m_Metadata:
@@ -114,8 +37,89 @@ MonoBehaviour:
     m_Key: Levels/Canvas/PauseLayout/PauseScreen/VerticalLayout/Text (TMP)
     m_Metadata:
       m_Items: []
+  - m_Id: 54891302879232
+    m_Key: Levels/Canvas/WinLayout/WinScreen/VerticalLayout/ContinueGOLD/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54691087777792
+    m_Key: Levels/Canvas/WinLayout/WinScreen/VerticalLayout/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36874502275072
+    m_Key: Menu/Canvas/BoxReward/BoxRewardScreen/VerticalLayout/GetButton/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36564102807552
+    m_Key: Menu/Canvas/BoxReward/BoxRewardScreen/VerticalLayout/Text (TMP)
+    m_Metadata:
+      m_Items: []
   - m_Id: 732888083202048
     m_Key: Menu/Canvas/DailyReward /DailyRewardScreen/VerticalLayout/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35742023417856
+    m_Key: Menu/Canvas/KolesoMain/Vertical Group/spin/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35365140037632
+    m_Key: Menu/Canvas/KolesoMain/Vertical Group/text/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36009179611136
+    m_Key: Menu/Canvas/KolesoMain/Vertical Group/wheel/Image/0/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47515246002176
+    m_Key: Menu/Canvas/LvlDetailsMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47752836546560
+    m_Key: Menu/Canvas/LvlDetailsMenu /LvlDetailsScreen/VerticalLayout/StartButton/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41233281712128
+    m_Key: Menu/Canvas/Motivation/MotivationScreen/VerticalLayout/buy/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41671850721280
+    m_Key: Menu/Canvas/Motivation/MotivationScreen/VerticalLayout/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41464756961280
+    m_Key: Menu/Canvas/Motivation/MotivationScreen/VerticalLayout/watchAD/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48802276573184
+    m_Key: Menu/Canvas/SafeArea/Hearts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43868529360896
+    m_Key: Menu/Canvas/SettingsMenu/SettingsScreen/Items/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46935429611520
+    m_Key: Menu/Canvas/SettingsMenu/SettingsScreen/Items/VerticalLayout/Language/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45814682222592
+    m_Key: Menu/Canvas/SettingsMenu/SettingsScreen/Items/VerticalLayout/SoundHorizontal/SoundVertical1/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45964024610816
+    m_Key: Menu/Canvas/SettingsMenu/SettingsScreen/Items/VerticalLayout/SoundHorizontal/SoundVertical2/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46591291162624
+    m_Key: Menu/Canvas/SettingsMenu/SettingsScreen/Items/VerticalLayout/Support/Text
+      (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28008747764547584
+    m_Key: Menu/Canvas/SafeArea/BoxSection/BoxViolet/Text(TMP)
     m_Metadata:
       m_Items: []
   m_Metadata:
