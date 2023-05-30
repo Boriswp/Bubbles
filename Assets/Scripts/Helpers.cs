@@ -68,6 +68,7 @@ public static class Helpers
         }
         var dataString = JsonUtility.ToJson(profileData);
         File.WriteAllText(jsonFilePath, dataString);
+        Debug.Log("Log write");
     }
 
     public static ProfileData ReadProfileDataFromJson()

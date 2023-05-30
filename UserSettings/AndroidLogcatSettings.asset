@@ -6,7 +6,7 @@
         "processId": 0,
         "exited": false
     },
-    "m_SelectedPriority": 4,
+    "m_SelectedPriority": 1,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "3031aa0a",
@@ -19,18 +19,6 @@
             "name": "com.Immo.BubbleMania",
             "processId": 25905,
             "exited": false
-        },
-        {
-            "deviceId": "RZ8NC0HVPXH",
-            "name": "com.Immo.BubbleMania",
-            "processId": 1230,
-            "exited": true
-        },
-        {
-            "deviceId": "RZ8NC0HVPXH",
-            "name": "com.Immo.BubbleMania",
-            "processId": 17763,
-            "exited": true
         },
         {
             "deviceId": "RZ8NC0HVPXH",
@@ -48,18 +36,24 @@
             "deviceId": "RZ8NC0HVPXH",
             "name": "com.google.android.packageinstaller",
             "processId": 4130,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "RZ8NC0HVPXH",
             "name": "org.telegram.messenger",
             "processId": 29093,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "RZ8NC0HVPXH",
             "name": "com.sec.android.app.launcher",
             "processId": 3144,
+            "exited": false
+        },
+        {
+            "deviceId": "RZ8NC0HVPXH",
+            "name": "com.FunctionCreateGames.BubbleCrumble",
+            "processId": 20016,
             "exited": false
         },
         {
@@ -95,7 +89,7 @@
             },
             {
                 "m_Name": "No Filter",
-                "m_Selected": true
+                "m_Selected": false
             },
             {
                 "m_Name": "",
@@ -111,11 +105,11 @@
             },
             {
                 "m_Name": "Unity",
-                "m_Selected": false
+                "m_Selected": true
             },
             {
                 "m_Name": "CRASH",
-                "m_Selected": false
+                "m_Selected": true
             }
         ]
     },
@@ -138,7 +132,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "",
+        "m_Filter": "Log",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },

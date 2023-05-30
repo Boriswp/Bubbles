@@ -108,18 +108,10 @@ public class menuLvlDetailsController : MonoBehaviour
 
     public void unsetBonuses()
     {
-        if (toggle.isOn)
-        {
-            DataLoader.UnsetLvlBonus(5);
-        }
-        else if (toggleSecond.isOn)
-        {
-            DataLoader.UnsetLvlBonus(10);
-        }
-        else if (toggleThird.isOn)
-        {
-            DataLoader.UnsetLvlBonus(15);
-        }
+        toggle.isOn = false;
+        toggleSecond.isOn = false;
+        toggleThird.isOn = false;
+        DataLoader.SaveProfileData();
     }
 
     public void OnDisable()
@@ -128,9 +120,5 @@ public class menuLvlDetailsController : MonoBehaviour
         {
             star.SetActive(false);
         }
-        toggle.isOn = false;
-        toggleSecond.isOn = false;
-        toggleThird.isOn = false;
-        DataLoader.SaveProfileData();
     }
 }

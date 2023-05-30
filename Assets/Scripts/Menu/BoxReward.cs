@@ -11,8 +11,9 @@ public class BoxReward : MonoBehaviour
     public Button grabButton;
     public readonly int[] v = { 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 };
     private int index = 0;
-    void OnEnable()
+    public void GetPrise()
     {
+        image.transform.localScale = new Vector3(1, 1, 1);
         grabButton.interactable = false;
         index = Random.Range(0, v.Length);
         image.sprite = bonuses[v[index]];
