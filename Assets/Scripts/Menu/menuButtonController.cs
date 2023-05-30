@@ -34,7 +34,7 @@ public class menuButtonController : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().sprite = currLvl;
             ballCurrLvl.SetActive(true);
-            ballCurrLvl.transform.DOMove(new Vector3(0, 0, 1) - new Vector3(0, -0.25f, 0), 1).SetLoops(-1, LoopType.Yoyo);
+            ballCurrLvl.GetComponent<RectTransform>().DOAnchorPosY(0.25f,0.7f).SetLoops(-1, LoopType.Yoyo);
             LvlText.color = Color.green;
             return;
         }

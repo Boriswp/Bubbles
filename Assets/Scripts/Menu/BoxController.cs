@@ -34,5 +34,6 @@ public class BoxController : MonoBehaviour
     {
         if (!getBox) return;
         getPrise.SetActive(true);
+        getPrise.GetComponent<BoxReward>().GetPrise();
     }
 }
