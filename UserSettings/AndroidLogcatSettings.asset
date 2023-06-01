@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "RZ8NC0HVPXH",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "RZ8NC0HVPXH",
+        "name": "com.FunctionCreateGames.BubbleCrumble",
+        "processId": 17341,
         "exited": false
     },
     "m_SelectedPriority": 1,
@@ -19,18 +19,6 @@
             "name": "com.Immo.BubbleMania",
             "processId": 25905,
             "exited": false
-        },
-        {
-            "deviceId": "RZ8NC0HVPXH",
-            "name": "com.Immo.BubbleMania",
-            "processId": 30736,
-            "exited": true
-        },
-        {
-            "deviceId": "RZ8NC0HVPXH",
-            "name": "com.Immo.BubbleMania",
-            "processId": 14051,
-            "exited": true
         },
         {
             "deviceId": "RZ8NC0HVPXH",
@@ -54,6 +42,18 @@
             "deviceId": "RZ8NC0HVPXH",
             "name": "com.FunctionCreateGames.BubbleCrumble",
             "processId": 20016,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8NC0HVPXH",
+            "name": "com.FunctionCreateGames.BubbleCrumble",
+            "processId": 29810,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8NC0HVPXH",
+            "name": "com.FunctionCreateGames.BubbleCrumble",
+            "processId": 17341,
             "exited": false
         },
         {
@@ -132,7 +132,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "Log",
+        "m_Filter": "",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },
