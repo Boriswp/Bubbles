@@ -3,7 +3,15 @@
 
 <head>
   <script src='https://yandex.ru/games/sdk/v2'></script>
-  <script> YaGames.init().then(ysdk => { sdk = ysdk; }); </script>
+  <script> YaGames.init({
+          screen: {
+              fullscreen: true,
+              orientation: {
+                  value: 'portrait',
+                  lock: true
+              }
+          }
+      }).then(ysdk => { sdk = ysdk; }); </script>
   <script>function showFullScreenAdv() { sdk.adv.showFullscreenAdv({ callbacks: { onClose: function (wasShown) { window.unityInstance.SendMessage('YandexSDK', 'OnInterstitialShown'); }, onError: function (error) { window.unityInstance.SendMessage('YandexSDK', 'OnInterstitialError', error); } } }); }</script>
   <script>function showRewardedAdv(placement) { sdk.adv.showRewardedVideo({ callbacks: { onOpen: () => { window.unityInstance.SendMessage('YandexSDK', 'OnRewardedOpen', placement); }, onRewarded: () => { window.unityInstance.SendMessage('YandexSDK', 'OnRewarded', placement); }, onClose: () => { window.unityInstance.SendMessage('YandexSDK', 'OnRewardedClose', placement); }, onError: (e) => { window.unityInstance.SendMessage('YandexSDK', 'OnRewardedError', placement); } } }); } </script>
   <meta charset="utf-8">
