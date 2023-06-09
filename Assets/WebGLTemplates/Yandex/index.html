@@ -14,16 +14,19 @@
 </head>
 
 <body style="overflow: hidden">
-  <div id="unity-container" style="width: 100%; height: 100%">
-    <canvas id="unity-canvas" width=auto height=auto></canvas>
-    <div id="unity-loading-bar">
-      <div id="unity-logo"></div>
-      <div id="unity-progress-bar-empty">
-        <div id="unity-progress-bar-full"></div>
-      </div>
+    <div id="unity-container" style="width: 100%; height: 100%">
+        <canvas id="unity-canvas" width=auto height=auto></canvas>
+        <div id="unity-loading-bar">
+            <div id="unity-logo"></div>
+            <div id="unity-progress-bar-empty">
+                <div id="unity-progress-bar-full"></div>
+            </div>
+        </div>
     </div>
-  </div>
-  <script>
+    <div id="rotate-container" style="position: fixed; inset: 0; z-index: 1000; display: none; justify-content: center; align-items: center; background: white">
+        <img style="max-width: 70vw; max-height: 70vh" src="TemplateData/PhoneRotate.svg" alt="" />
+    </div>
+    <script>
     var container = document.querySelector("#unity-container");
     var canvas = document.querySelector("#unity-canvas");
     var loadingBar = document.querySelector("#unity-loading-bar");
@@ -53,7 +56,22 @@
         }, 5000);
       }
       updateBannerVisibility();
-    }
+      }
+
+      function setUpCanvas() {
+          const containerHeight = container.clientHeight;
+          const containerWidth = containerHeight * 9 / 16;
+          canvas.style.width = `${containerWidth}px`;
+          canvas.style.height = `${containerHeight}px`;
+      }
+
+      function checkOrientation() {
+          if (container.clientHeight / container.clientWidth < 1) {
+              rotaterContainer.style.display = 'flex';
+          } else {
+              rotaterContainer.style.display = 'none';
+          }
+      }
 
     var buildUrl = "Build";
     var loaderUrl = buildUrl + "/{{{ LOADER_FILENAME }}}";
@@ -88,11 +106,16 @@
       // performance, uncomment the following line:
       // config.devicePixelRatio = 1;
 
-      canvas.style.width = "100vw";
-      canvas.style.height = "100vh";
+        config.devicePixelRatio = 1.5;
+        checkOrientation()
+        window.addEventListener('resize', () => { checkOrientation() })
+        canvas.style.width = "100vw";
+        canvas.style.height = "100vh";
     } else {
-      canvas.style.width = "100%";
-      canvas.style.height = "100%";
+        setUpCanvas()
+        window.addEventListener('resize', () => {
+            setUpCanvas()
+        });
     }
 
     #if BACKGROUND_FILENAME
@@ -107,7 +130,6 @@
         progressBarFull.style.width = 100 * progress + "%";
       }).then((unityInstance) => {
         window.unityInstance = unityInstance;
-        showFullScreenAdv();
         if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
           window.unityInstance.SendMessage('YandexSDK', 'OnGetPlayerPlatform', 'phone');
         }
@@ -120,76 +142,76 @@
       });
     };
     document.body.appendChild(script);
-  </script>
-  <script>
-    function auth() {
-      initPlayer();
-    }
-    function initPlayer() {
-      return sdk.getPlayer().then(_player => {
-        player = _player;
-        if (_player.getMode() === 'lite') {
-          window.unityInstance.SendMessage('YandexSDK', 'OnCanReview', "no");
-          window.unityInstance.SendMessage('YandexSDK', 'OnPlayerAuthenticated');
+    </script>
+    <script>
+        function auth() {
+            initPlayer();
         }
-        else {
-          sdk.feedback.canReview()
-            .then(({ value, reason }) => {
-              if (value) {
-                window.unityInstance.SendMessage('YandexSDK', 'OnCanReview', "yes");
-                window.unityInstance.SendMessage('YandexSDK', 'OnPlayerAuthenticated');
-              } else {
-                window.unityInstance.SendMessage('YandexSDK', 'OnCanReview', "no");
-                window.unityInstance.SendMessage('YandexSDK', 'OnPlayerAuthenticated');
-              }
-            })
+        function initPlayer() {
+            return sdk.getPlayer().then(_player => {
+                player = _player;
+                if (_player.getMode() === 'lite') {
+                    window.unityInstance.SendMessage('YandexSDK', 'OnCanReview', "no");
+                    window.unityInstance.SendMessage('YandexSDK', 'OnPlayerAuthenticated');
+                }
+                else {
+                    sdk.feedback.canReview()
+                        .then(({ value, reason }) => {
+                            if (value) {
+                                window.unityInstance.SendMessage('YandexSDK', 'OnCanReview', "yes");
+                                window.unityInstance.SendMessage('YandexSDK', 'OnPlayerAuthenticated');
+                            } else {
+                                window.unityInstance.SendMessage('YandexSDK', 'OnCanReview', "no");
+                                window.unityInstance.SendMessage('YandexSDK', 'OnPlayerAuthenticated');
+                            }
+                        })
+                }
+            }).catch(err => {
+            });
         }
-      }).catch(err => {
-      });
-    }
-    function setPlayerData(dataStr) {
-      player.setData({
-        "data": dataStr
-      }).then(() => {
-        console.log("saved");
-      }).catch(() => {
-        console.log("not saved");
-      });
-    }
-    function getPlayerData() {
-      player.getData(["data"]).then(data => {
-        if (data.data.length != 0) {
-          var dataStr = data.data;
-          console.log("ok");
-          console.log(dataStr);
-          window.unityInstance.SendMessage('YandexSDK', 'OnGetPlayerData', dataStr);
+        function setPlayerData(dataStr) {
+            player.setData({
+                "data": dataStr
+            }).then(() => {
+                console.log("saved");
+            }).catch(() => {
+                console.log("not saved");
+            });
         }
-        else {
-          console.log("chota est");
-          var dataStr = 'none';
-          window.unityInstance.SendMessage('YandexSDK', 'OnGetPlayerData', dataStr);
+        function getPlayerData() {
+            player.getData(["data"]).then(data => {
+                if (data.data.length != 0) {
+                    var dataStr = data.data;
+                    console.log("ok");
+                    console.log(dataStr);
+                    window.unityInstance.SendMessage('YandexSDK', 'OnGetPlayerData', dataStr);
+                }
+                else {
+                    console.log("chota est");
+                    var dataStr = 'none';
+                    window.unityInstance.SendMessage('YandexSDK', 'OnGetPlayerData', dataStr);
+                }
+            }).catch((err) => {
+                console.log("ne ok");
+                var dataStr = 'none';
+                window.unityInstance.SendMessage('YandexSDK', 'OnGetPlayerData', dataStr);
+            });
         }
-      }).catch((err) => {
-        console.log("ne ok");
-        var dataStr = 'none';
-        window.unityInstance.SendMessage('YandexSDK', 'OnGetPlayerData', dataStr);
-      });
-    }
-    function openRateUs() {
-      sdk.feedback.canReview()
-        .then(({ value, reason }) => {
-          if (value) {
-            sdk.feedback.requestReview()
-              .then(({ feedbackSent }) => {
-              window.focus();
-                console.log(feedbackSent);
-              })
-          } else {
-            console.log(reason)
-          }
-        })
-    }
-  </script>
+        function openRateUs() {
+            sdk.feedback.canReview()
+                .then(({ value, reason }) => {
+                    if (value) {
+                        sdk.feedback.requestReview()
+                            .then(({ feedbackSent }) => {
+                                window.focus();
+                                console.log(feedbackSent);
+                            })
+                    } else {
+                        console.log(reason)
+                    }
+                })
+        }
+    </script>
 </body>
 
 </html>
