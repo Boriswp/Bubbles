@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "RZ8NC0HVPXH",
         "name": "com.FunctionCreateGames.BubbleCrumble",
-        "processId": 17341,
+        "processId": 22017,
         "exited": false
     },
     "m_SelectedPriority": 1,
@@ -22,30 +22,6 @@
         },
         {
             "deviceId": "RZ8NC0HVPXH",
-            "name": "com.google.android.packageinstaller",
-            "processId": 4130,
-            "exited": true
-        },
-        {
-            "deviceId": "RZ8NC0HVPXH",
-            "name": "org.telegram.messenger",
-            "processId": 29093,
-            "exited": true
-        },
-        {
-            "deviceId": "RZ8NC0HVPXH",
-            "name": "com.sec.android.app.launcher",
-            "processId": 3144,
-            "exited": false
-        },
-        {
-            "deviceId": "RZ8NC0HVPXH",
-            "name": "com.FunctionCreateGames.BubbleCrumble",
-            "processId": 20016,
-            "exited": true
-        },
-        {
-            "deviceId": "RZ8NC0HVPXH",
             "name": "com.FunctionCreateGames.BubbleCrumble",
             "processId": 29810,
             "exited": true
@@ -54,6 +30,24 @@
             "deviceId": "RZ8NC0HVPXH",
             "name": "com.FunctionCreateGames.BubbleCrumble",
             "processId": 17341,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8NC0HVPXH",
+            "name": "com.FunctionCreateGames.BubbleCrumble",
+            "processId": 10816,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8NC0HVPXH",
+            "name": "com.FunctionCreateGames.BubbleCrumble",
+            "processId": 18562,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8NC0HVPXH",
+            "name": "com.FunctionCreateGames.BubbleCrumble",
+            "processId": 22017,
             "exited": false
         },
         {
@@ -132,7 +126,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "",
+        "m_Filter": "rewa",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },
