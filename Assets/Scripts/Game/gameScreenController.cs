@@ -15,7 +15,7 @@ public class gameScreenController : MonoBehaviour
 
 
     public void OnEnable()
-    { 
+    {
         BaseGameGridManager.onGameOver += ShowLoseScreen;
     }
 
@@ -52,6 +52,7 @@ public class gameScreenController : MonoBehaviour
         LoseScreen.SetActive(true);
         //EndCounter.text = EndCounter.text + " " + textCounterScore.text;
         SoundController.soundEvent?.Invoke(SoundEvent.FAILSOUND);
+        AppMetrica.Instance.ReportEvent("Lvl Failed", Helpers.getStringForAppMetrica(DataLoader.lvlToload.ToString()));
     }
 
     public void GoToMainMenu()

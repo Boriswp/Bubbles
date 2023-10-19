@@ -5,6 +5,7 @@ using UnityEngine;
 public class MissionGridManager : BaseGameGridManager
 {
     private int _ballcount;
+    private int lvl;
 
     public delegate void OnUpdateBallCount(int count);
     public static OnUpdateBallCount onUpdateBallCount;
@@ -19,6 +20,7 @@ public class MissionGridManager : BaseGameGridManager
     {
         LoadSpriteRes();
         var lvl = JsonUtility.FromJson<SaveData>(DataLoader.getLvl());
+        AppMetrica.Instance.ReportEvent("Start Lvl", Helpers.getStringForAppMetrica(DataLoader.lvlToload.ToString()));
         ROW_MAX = lvl.rowCount + 26;
         loseCountRow = lvl.rowCount + 13;
         grid = new GameObject[Constants.COLUMNS, ROW_MAX];

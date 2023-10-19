@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "RZ8NC0HVPXH",
         "name": "com.FunctionCreateGames.BubbleCrumble",
-        "processId": 22017,
+        "processId": 32710,
         "exited": false
     },
     "m_SelectedPriority": 1,
@@ -23,18 +23,6 @@
         {
             "deviceId": "RZ8NC0HVPXH",
             "name": "com.FunctionCreateGames.BubbleCrumble",
-            "processId": 29810,
-            "exited": true
-        },
-        {
-            "deviceId": "RZ8NC0HVPXH",
-            "name": "com.FunctionCreateGames.BubbleCrumble",
-            "processId": 17341,
-            "exited": true
-        },
-        {
-            "deviceId": "RZ8NC0HVPXH",
-            "name": "com.FunctionCreateGames.BubbleCrumble",
             "processId": 10816,
             "exited": true
         },
@@ -48,6 +36,18 @@
             "deviceId": "RZ8NC0HVPXH",
             "name": "com.FunctionCreateGames.BubbleCrumble",
             "processId": 22017,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8NC0HVPXH",
+            "name": "com.FunctionCreateGames.BubbleCrumble",
+            "processId": 20347,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8NC0HVPXH",
+            "name": "com.FunctionCreateGames.BubbleCrumble",
+            "processId": 32710,
             "exited": false
         },
         {
@@ -126,7 +126,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "rewa",
+        "m_Filter": "",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },

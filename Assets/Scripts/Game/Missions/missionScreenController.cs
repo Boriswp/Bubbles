@@ -90,5 +90,6 @@ public class missionScreenController : gameScreenController
         fireButton.SetActive(false);
         WinScreen.SetActive(true);
         winScreenStars[starsCount].SetActive(true);
+        AppMetrica.Instance.ReportEvent("Lvl Cleared", Helpers.getStringForAppMetrica(DataLoader.lvlToload.ToString()));
     }
 }

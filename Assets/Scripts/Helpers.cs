@@ -133,6 +133,15 @@ public static class Helpers
         return Tuple.Create(lastRow, listColors);
     }
 
+    public static string getStringForAppMetrica(string lvl_name)
+    {
+        var eventParameters = new AppMetricaData
+        {
+            lvl_name = lvl_name
+        };
+        return JsonUtility.ToJson(eventParameters, true);
+    }
+
     public static Vector2 GetAccuratePos(Vector2 position)
     {
         if (position.x > 0)

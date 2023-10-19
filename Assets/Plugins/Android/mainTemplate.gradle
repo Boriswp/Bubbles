@@ -26,6 +26,7 @@ dependencies {
     implementation 'com.yandex.ads.mediation:mobileads-admob:21.3.0.0' // Assets/YandexMobileAds/Editor/MobileadsAdmobMediationDependencies.xml:7
     implementation 'com.yandex.ads.mediation:mobileads-unityads:4.4.1.0' // Assets/YandexMobileAds/Editor/MobileadsUnityAdsMediationDependencies.xml:7
     implementation 'com.yandex.android:mobileads:5.5.1' // Assets/YandexMobileAds/Editor/YandexMobileadsDependencies.xml:7
+    implementation 'com.yandex.android:mobmetricalib:5.2.0' // Assets/AppMetrica/Editor/AppMetricaDependencies.xml:4
 // Android Resolver Dependencies End
 **DEPS**}
 
