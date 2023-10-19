@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using YandexMobileAds.Base;
 
 namespace YandexMobileAds.Base
 {
@@ -15,7 +16,10 @@ namespace YandexMobileAds.Base
             parameters.Add(PluginTypeParameter, PluginType);
             parameters.Add(PluginVersionParameter, MobileAdsPackageInfo.PackageVersion);
 
-            return new AdRequest.Builder().WithAdRequest(adRequest).WithParameters(parameters).Build();
+            return new AdRequest.Builder()
+                .WithAdRequest(adRequest)
+                .WithParameters(parameters)
+                .Build();
         }
     }
 }

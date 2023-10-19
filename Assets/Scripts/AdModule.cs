@@ -7,6 +7,8 @@ public class AdModule : MonoBehaviour
 {
     private Banner bannerView;
     private RewardedAd rewardedAd;
+    private RewardedAdLoader rewardedAdLoader;
+    private InterstitialAdLoader interstitialAdLoader;
     private Interstitial interstitialAd;
     public delegate void OnGetReward();
     public static OnGetReward onGetReward;
@@ -58,7 +60,7 @@ public class AdModule : MonoBehaviour
         string adUnitId = "unsupport";
 #endif
         // Create a 320x50 banner at the top of the screen.
-        AdSize adSize = AdSize.FlexibleSize(320, 50);
+        BannerAdSize adSize = BannerAdSize.StickySize(320);
         bannerView = new Banner(adUnitId, adSize, AdPosition.BottomCenter);
         AdRequest request = new AdRequest.Builder().Build();
         bannerView.LoadAd(request);
@@ -81,30 +83,20 @@ public class AdModule : MonoBehaviour
             rewardedAd.Destroy();
             rewardedAd = null;
         }
-        rewardedAd = new RewardedAd(adUnitId);
-
-        rewardedAd.OnRewardedAdLoaded += this.HandleRewardedAdLoaded;
-        this.rewardedAd.OnRewardedAdFailedToLoad += this.HandleRewardedAdFailedToLoad;
-        this.rewardedAd.OnReturnedToApplication += this.HandleReturnedToApplicationRewarded;
-        this.rewardedAd.OnLeftApplication += this.HandleLeftApplication;
-        this.rewardedAd.OnAdClicked += this.HandleAdClicked;
-        this.rewardedAd.OnRewardedAdShown += this.HandleRewardedAdShown;
-        this.rewardedAd.OnRewardedAdDismissed += this.HandleRewardedAdDismissed;
-        this.rewardedAd.OnImpression += this.HandleImpression;
-        this.rewardedAd.OnRewarded += this.HandleRewarded;
-        this.rewardedAd.OnRewardedAdFailedToShow += this.HandleRewardedAdFailedToShow;
+      
+        rewardedAdLoader = new RewardedAdLoader();
+        rewardedAdLoader.OnAdLoaded += HandleRewardedAdLoaded;
 
         Debug.Log("Loading the rewarded ad.");
-
-        var adRequest = new AdRequest.Builder().Build();
-
-        rewardedAd.LoadAd(adRequest);
+    
+        AdRequestConfiguration adRequestConfiguration = new AdRequestConfiguration.Builder(adUnitId).Build();
+        rewardedAdLoader.LoadAd(adRequestConfiguration);
     }
 
     public void LoadInterstitialAd()
     {
 #if UNITY_ANDROID
-        string _adUnitId = "R-M-2385670-3";
+        string adUnitId = "R-M-2385670-3";
 #elif UNITY_IOS
         string _adUnitId = "demo-interstitial-yandex";
 #else
@@ -116,27 +108,20 @@ public class AdModule : MonoBehaviour
             interstitialAd.Destroy();
             interstitialAd = null;
         }
+        interstitialAdLoader = new InterstitialAdLoader();
+        interstitialAdLoader.OnAdLoaded += HandleInterstitialLoaded;
+        interstitialAdLoader.OnAdFailedToLoad += HandleInterstitialFailedToLoad;
 
-        interstitialAd = new Interstitial(_adUnitId);
-        interstitialAd.OnInterstitialLoaded += this.HandleInterstitialLoaded;
-        interstitialAd.OnInterstitialFailedToLoad += this.HandleInterstitialFailedToLoad;
-        interstitialAd.OnReturnedToApplication += this.HandleReturnedToApplication;
-        interstitialAd.OnLeftApplication += this.HandleLeftApplication;
-        interstitialAd.OnAdClicked += this.HandleAdClicked;
-        interstitialAd.OnInterstitialShown += this.HandleInterstitialShown;
-        interstitialAd.OnInterstitialDismissed += this.HandleInterstitialDismissed;
-        interstitialAd.OnImpression += this.HandleImpression;
-        interstitialAd.OnInterstitialFailedToShow += this.HandleInterstitialFailedToShow;
 
         Debug.Log("Loading the interstitial ad.");
-
-        var adRequest = new AdRequest.Builder().Build();
-        interstitialAd.LoadAd(adRequest);
+        
+        AdRequestConfiguration adRequestConfiguration = new AdRequestConfiguration.Builder(adUnitId).Build();
+        interstitialAdLoader.LoadAd(adRequestConfiguration);
     }
 
     private void ShowRewardedAd()
     {
-        if (this.rewardedAd.IsLoaded())
+        if (this.rewardedAd!=null)
         {
             Debug.Log("Rewarded Ad show");
             rewardedAd.Show();
@@ -149,7 +134,7 @@ public class AdModule : MonoBehaviour
 
     private void ShowInterstitial()
     {
-        if (interstitialAd.IsLoaded())
+        if (interstitialAd!=null)
         {
             interstitialAd.Show();
         }
@@ -159,12 +144,18 @@ public class AdModule : MonoBehaviour
         }
     }
 
-    public void HandleInterstitialLoaded(object sender, EventArgs args)
+    public void HandleInterstitialLoaded(object sender, InterstitialAdLoadedEventArgs args)
     {
         print("HandleInterstitialLoaded event received");
+        interstitialAd = args.Interstitial;
+        interstitialAd.OnAdClicked += HandleAdClicked;
+        interstitialAd.OnAdShown += HandleInterstitialShown;
+        interstitialAd.OnAdFailedToShow += HandleInterstitialFailedToShow;
+        interstitialAd.OnAdDismissed += HandleInterstitialDismissed;
+        interstitialAd.OnAdImpression += HandleImpression;
     }
 
-    public void HandleInterstitialFailedToLoad(object sender, AdFailureEventArgs args)
+    public void HandleInterstitialFailedToLoad(object sender, AdFailedToLoadEventArgs args)
     {
         print(
             "HandleInterstitialFailedToLoad event received with message: " + args.Message);
@@ -216,9 +207,17 @@ public class AdModule : MonoBehaviour
             "HandleInterstitialFailedToShow event received with message: " + args.Message);
     }
 
-    public void HandleRewardedAdLoaded(object sender, EventArgs args)
+    public void HandleRewardedAdLoaded(object sender, RewardedAdLoadedEventArgs args)
     {
         MonoBehaviour.print("HandleRewardedAdLoaded event received");
+        rewardedAd = args.RewardedAd;
+        rewardedAd.OnAdClicked += HandleAdClicked;
+        rewardedAd.OnAdShown += HandleRewardedAdShown;
+        rewardedAd.OnAdFailedToShow += HandleRewardedAdFailedToShow;
+        rewardedAd.OnAdDismissed += HandleRewardedAdDismissed;
+        rewardedAd.OnAdImpression += HandleImpression;
+        rewardedAd.OnRewarded += HandleRewarded;
+
     }
 
     public void HandleRewardedAdFailedToLoad(object sender, AdFailureEventArgs args)

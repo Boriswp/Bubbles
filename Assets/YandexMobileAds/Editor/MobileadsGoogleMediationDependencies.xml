@@ -1,0 +1,17 @@
+<dependencies>
+    <androidPackages>
+        <androidPackage spec="com.yandex.ads.mediation:mobileads-google:22.2.0.0">
+            <repositories>
+                <repository>https://maven.google.com/</repository>
+            </repositories>
+        </androidPackage>
+    </androidPackages>
+
+    <iosPods>
+        <iosPod name="GoogleYandexMobileAdsAdapters" version="10.9.0.0">
+            <sources>
+                <source>https://github.com/CocoaPods/Specs</source>
+            </sources>
+        </iosPod>
+    </iosPods>
+</dependencies>
